@@ -2,7 +2,7 @@
  {
   "n": 1,
   "tier": "background",
-  "anchor": false,
+  "anchor": true,
   "citation": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Revision 1. EMA/HMPC/150801/2015. 20 Sep 2016.",
   "year": 2016,
   "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
@@ -46,7 +46,7 @@
  {
   "n": 2,
   "tier": "background",
-  "anchor": false,
+  "anchor": true,
   "citation": "EMA/HMPC. Public statement on the use of herbal medicinal products containing thujone. EMA/HMPC/732886/2010 Rev.1. 22 May 2012.",
   "year": 2012,
   "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/public-statement-use-herbal-medicinal-products-containing-thujone-revision-1_en.pdf",
@@ -76,7 +76,7 @@
  {
   "n": 3,
   "tier": "background",
-  "anchor": false,
+  "anchor": true,
   "citation": "EMA/HMPC. Public statement on the use of herbal medicinal products containing pulegone and menthofuran. EMA/HMPC/138386/2005 Rev.1. Adopted 12 Jul 2016.",
   "year": 2016,
   "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/public-statement-use-herbal-medicinal-products-containing-pulegone-and-menthofuran-revision-1_en.pdf",
@@ -102,7 +102,7 @@
  {
   "n": 4,
   "tier": "background",
-  "anchor": false,
+  "anchor": true,
   "citation": "EMA/HMPC. Public statement on the use of herbal medicinal products containing estragole. EMA/HMPC/137212/2005 Rev 1 Corr 1. Adopted 22 Sep 2021.",
   "year": 2021,
   "url": "https://www.ema.europa.eu/en/documents/other/public-statement-use-herbal-medicinal-products-containing-estragole-revision-1_en.pdf",
@@ -131,7 +131,7 @@
  {
   "n": 5,
   "tier": "background",
-  "anchor": false,
+  "anchor": true,
   "citation": "EMEA/HMPC. Public statement on the use of herbal medicinal products containing methyleugenol. EMEA/HMPC/138363/2005. 23 Nov 2005.",
   "year": 2005,
   "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/public-statement-use-herbal-medicinal-products-containing-methyleugenol_en.pdf",
@@ -160,7 +160,7 @@
  {
   "n": 6,
   "tier": "background",
-  "anchor": false,
+  "anchor": true,
   "citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Revision 1. EMA/HMPC/522409/2013. 15 Jan 2020.",
   "year": 2020,
   "url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
@@ -210,7 +210,7 @@
  {
   "n": 7,
   "tier": "background",
-  "anchor": false,
+  "anchor": true,
   "citation": "EMA/HMPC. European Union herbal monograph on Mentha x piperita L., aetheroleum, Revision 1. EMA/HMPC/522410/2013. 15 Jan 2020.",
   "year": 2020,
   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/european-union-herbal-monograph-mentha-x-piperita-l-aetheroleum-revision-1_en.pdf",
@@ -234,7 +234,7 @@
  {
   "n": 8,
   "tier": "background",
-  "anchor": false,
+  "anchor": true,
   "citation": "EMA/HMPC. Assessment report on Melissa officinalis L., folium. EMA/HMPC/196746/2012. 14 May 2013.",
   "year": 2013,
   "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
@@ -269,7 +269,7 @@
  {
   "n": 9,
   "tier": "background",
-  "anchor": false,
+  "anchor": true,
   "citation": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013. 12 Nov 2013.",
   "year": 2013,
   "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
@@ -310,7 +310,7 @@
  {
   "n": 10,
   "tier": "background",
-  "anchor": false,
+  "anchor": true,
   "citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011. 7 Jul 2015.",
   "year": 2015,
   "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
@@ -360,7 +360,7 @@
  {
   "n": 11,
   "tier": "background",
-  "anchor": false,
+  "anchor": true,
   "citation": "EMA/HMPC. European Union herbal monograph on Matricaria recutita L., flos. EMA/HMPC/55843/2011. 7 Jul 2015.",
   "year": 2015,
   "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-matricaria-recutita-l-flos-first-version_en.pdf",
@@ -381,7 +381,7 @@
  {
   "n": 12,
   "tier": "background",
-  "anchor": false,
+  "anchor": true,
   "citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Revision 1. EMA/HMPC/681037/2021. 29 May 2024.",
   "year": 2024,
   "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
@@ -421,7 +421,7 @@
  {
   "n": 13,
   "tier": "background",
-  "anchor": false,
+  "anchor": true,
   "citation": "LiverTox: Clinical and Research Information on Drug-Induced Liver Injury. Skullcap. National Institute of Diabetes and Digestive and Kidney Diseases; last updated 28 Mar 2020.",
   "year": 2020,
   "url": "https://www.ncbi.nlm.nih.gov/books/NBK548757/",

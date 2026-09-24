@@ -33,7 +33,7 @@ export default function FigureFrame({ figure }: { figure: Figure }) {
       <div className="mt-4 grid gap-3 sm:grid-cols-2 text-sm">
         <div>
           <p className="text-[11px] font-semibold tracking-[0.15em] bx-muted">BUILT FROM ({figure.refs.length} REFERENCES)</p>
-          <p className="mt-1">{figure.refs.map((n) => <Link key={n} className="underline mr-1.5" to={`/references#ref-${n}`}>[{n}]</Link>)}</p>
+          <p className="mt-1 flex flex-wrap gap-1">{figure.refs.map((n) => <Link key={n} className="underline inline-flex items-center justify-center min-w-[2.25rem] min-h-[1.75rem] px-1 rounded hover:bg-paper-2 dark:hover:bg-night-2" to={`/references#ref-${n}`}>[{n}]</Link>)}</p>
           {figure.concepts.length > 0 && (
             <>
               <p className="text-[11px] font-semibold tracking-[0.15em] bx-muted mt-3">CONCEPTS IN THIS FIGURE</p>

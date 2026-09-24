@@ -681,7 +681,10 @@ emitJson('src/data/figures-index.json', figuresOut.map((f) => ({
   provenance: f.provenance, concepts: f.concepts, refs: f.refs, rows: f.table?.rows.length ?? null,
   fields: f.table?.fields.length ?? null, has_chart: !!f.chart,
 })));
-emitJson('src/data/references.json', references.map((r) => ({ ...r, cited_sections: refSections.get(r.n) ?? [], cited_compounds: refCompounds.get(r.n) ?? [] })));
+// anchors: the references scope.yaml names as the sweep's anchors (scope.anchors[].refs) — derived, not invented
+const anchorRefs = new Set((scope?.anchors ?? []).flatMap((a) => a.refs));
+for (const n of anchorRefs) if (!refByN.has(n)) E('scope/anchors', `anchor refs [${n}] has no reference entry`);
+emitJson('src/data/references.json', references.map((r) => ({ ...r, anchor: r.anchor || anchorRefs.has(r.n), cited_sections: refSections.get(r.n) ?? [], cited_compounds: refCompounds.get(r.n) ?? [] })));
 emitJson('src/data/todo.json', todo);
 emitJson('src/data/synthesis.json', parsed.synthesis);
 if (scope) emitJson('src/data/scope.json', scope);
@@ -807,7 +810,7 @@ const provenance = {
   references: {
     total: references.length,
     by_tier: byTier,
-    anchors: references.filter((r) => r.anchor).map((r) => r.n),
+    anchors: references.filter((r) => r.anchor || (scope?.anchors ?? []).some((a) => a.refs.includes(r.n))).map((r) => r.n),
     with_summary: references.filter((r) => r.summary.trim()).length,
     without_summary: references.filter((r) => !r.summary.trim()).map((r) => r.n),
     verified: references.filter((r) => r.verified).length,
