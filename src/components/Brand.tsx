@@ -14,21 +14,27 @@ export function Mark({ size = 30, className = '' }: { size?: number; className?:
   );
 }
 
-export function Illustration({ maxHeight, className = '', eager = false }: { maxHeight: number; className?: string; eager?: boolean }) {
+/**
+ * The illustration in a box whose height is fixed before the image arrives (so nothing below it moves when it loads —
+ * CLS); the artwork is drawn inside with object-fit: contain. `boxClass` sets the responsive heights.
+ */
+export function Illustration({ maxHeight, className = '', boxClass, eager = false }: { maxHeight: number; className?: string; boxClass?: string; eager?: boolean }) {
   const { theme } = useTheme();
   const d = theme === 'dark' ? '-dark' : '';
   return (
+    <div className={`${boxClass ?? ''} aspect-[1215/1185] max-w-full`} style={boxClass ? undefined : { height: maxHeight }}>
     <img
       src={assetUrl(`brand/web/illustration${d}-880.webp`)}
       srcSet={`${assetUrl(`brand/web/illustration${d}-520.webp`)} 520w, ${assetUrl(`brand/web/illustration${d}-880.webp`)} 880w`}
       sizes={`${Math.round(maxHeight * (1215 / 1185))}px`}
       width={1215} height={1185}
-      style={{ maxHeight, width: 'auto', height: 'auto' }}
+      style={{ width: '100%', height: '100%', objectFit: 'contain' }}
       alt="The Greenhouse Explorer illustration: a glasshouse gable over a plant whose stem is a DNA helix, with a ball-and-stick model of salicylic acid."
       className={`block max-w-full ${className}`}
       loading={eager ? 'eager' : 'lazy'}
       {...(eager ? { fetchpriority: 'high' } : {})}
       decoding="async"
     />
+    </div>
   );
 }

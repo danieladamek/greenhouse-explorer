@@ -30,7 +30,7 @@ export default function Home() {
         </section>
         </div>
         <div className="order-1 lg:order-2 flex justify-center" data-testid="hero-illustration">
-          <Illustration maxHeight={440} eager className="max-h-[260px] sm:max-h-[340px] lg:max-h-[440px]" />
+          <Illustration maxHeight={440} eager boxClass="h-[260px] sm:h-[340px] lg:h-[440px]" />
         </div>
       </div>
 
