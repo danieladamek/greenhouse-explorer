@@ -1,6 +1,6 @@
 # Greenhouse Explorer — prototype for critique
 
-A catalogue of every plant grown in the **UAH MARS Research Greenhouse** and its curated chemical constituents, with a
+A catalogue of every plant grown in the **UAH Greenhouse** and its curated chemical constituents, with a
 short commissioned primer, built so colleagues can critique a working version.
 
 > **PROTOTYPE FOR CRITIQUE — NOT PEER REVIEWED, NOT AN OFFICIAL UAH RESOURCE.** Written by an AI research builder (the

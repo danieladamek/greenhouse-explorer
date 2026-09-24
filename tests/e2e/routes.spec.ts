@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 
 /** Every route answers 200 with its h1 and the prototype banner (KICKOFF §5, §4e). */
 const ROUTES: [string, RegExp][] = [
-  ['/', /plants of the UAH MARS Research Greenhouse/i],
+  ['/', /plants of the UAH Greenhouse/i],
   ['/read', /the primer: what every plant shares/i],
   ['/glossary', /^glossary$/i],
   ['/concepts', /concepts/i],

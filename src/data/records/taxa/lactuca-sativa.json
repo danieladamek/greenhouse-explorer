@@ -93,7 +93,7 @@
      "list_category": "leafy_greens",
      "name_as_given": "Lactuca sativa",
      "identity_status": "check",
-     "note": "Probably 'Outredgeous', the red romaine grown on the ISS in NASA's Veggie system. Good story for a MARS greenhouse."
+     "note": "Probably 'Outredgeous', the red romaine grown on the ISS in NASA's Veggie system. Good story for the greenhouse."
     },
     {
      "crop_id": "GH-020",
@@ -290,7 +290,7 @@
    "species_key": "Lactuca sativa",
    "family": "Asteraceae",
    "confidence": "Check",
-   "note": "Probably 'Outredgeous', the red romaine grown on the ISS in NASA's Veggie system. Good story for a MARS greenhouse.",
+   "note": "Probably 'Outredgeous', the red romaine grown on the ISS in NASA's Veggie system. Good story for the greenhouse.",
    "taxon_id": "lactuca-sativa",
    "status": "current"
   },

@@ -28,7 +28,7 @@ GH-015,Leafy Greens,"Lettuce, Green Oakleaf Salanova",Lettuce,Salanova Green Oak
 GH-016,Leafy Greens,"Lettuce, Green Sweet Crisp Salanova",Lettuce,Salanova Green Sweet Crisp,Crisp (Salanova),Lactuca sativa,Lactuca sativa,Asteraceae,High,,lactuca-sativa,current
 GH-017,Leafy Greens,Lettuce  Crispiro Iceberg,Lettuce,Crispino (probable),Iceberg,Lactuca sativa,Lactuca sativa,Asteraceae,Check,'Crispiro' is probably 'Crispino' iceberg. Check packet.,lactuca-sativa,current
 GH-018,Leafy Greens,"Lettuce, Red Oak Leaf Salanova",Lettuce,Salanova Red Oakleaf,Oakleaf (Salanova),Lactuca sativa,Lactuca sativa,Asteraceae,High,,lactuca-sativa,current
-GH-019,Leafy Greens,Lettuce Outrageous,Lettuce,Outredgeous (probable),Red romaine,Lactuca sativa,Lactuca sativa,Asteraceae,Check,"Probably 'Outredgeous', the red romaine grown on the ISS in NASA's Veggie system. Good story for a MARS greenhouse.",lactuca-sativa,current
+GH-019,Leafy Greens,Lettuce Outrageous,Lettuce,Outredgeous (probable),Red romaine,Lactuca sativa,Lactuca sativa,Asteraceae,Check,"Probably 'Outredgeous', the red romaine grown on the ISS in NASA's Veggie system. Good story for the greenhouse.",lactuca-sativa,current
 GH-020,Leafy Greens,Lettuce Red Butter Solanova,Lettuce,Salanova Red Butter,Butterhead (Salanova),Lactuca sativa,Lactuca sativa,Asteraceae,High,Typo 'Solanova' → Salanova.,lactuca-sativa,current
 GH-021,Leafy Greens,"Lettuce, Waldmann's Dark Green",Lettuce,Waldmann's Dark Green,Green leaf,Lactuca sativa,Lactuca sativa,Asteraceae,High,,lactuca-sativa,current
 GH-022,Leafy Greens,"Lettuce, Romaine Coastal Star",Lettuce,Coastal Star,Romaine,Lactuca sativa,Lactuca sativa,Asteraceae,High,,lactuca-sativa,current

@@ -2,9 +2,9 @@
 # Interview answers are taken from the requirements record (claude/greenhouse-requirements.md v0.3, §7a and §8, 2026-09-23),
 # where Daniel's rulings are recorded as decisions ("he took the recommendation on all five"); they are quoted from that record,
 # not from a transcript of his own words.
-topic: "every plant in the UAH MARS Research Greenhouse and its constituents, with a literature base across pharmacology, nutrition, health and ecology"
+topic: "every plant in the UAH Greenhouse and its constituents, with a literature base across pharmacology, nutrition, health and ecology"
 question: >-
-  What is actually known about the chemical constituents of the plants grown in the UAH MARS Research Greenhouse, and how
+  What is actually known about the chemical constituents of the plants grown in the UAH Greenhouse, and how
   strong is the human evidence behind what is said about them?
 purpose: teaching
 boundary:

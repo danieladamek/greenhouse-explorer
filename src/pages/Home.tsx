@@ -19,7 +19,7 @@ export default function Home() {
         <span className="bx-chip border border-[color:var(--bx-line)] bx-muted">COMMISSIONED REVIEW — NOT PEER REVIEWED</span>
         <span className="bx-asof">Current as of {AS_OF}</span>
       </p>
-      <h1 className="text-3xl sm:text-5xl mt-3 leading-tight max-w-4xl">The plants of the UAH MARS Research Greenhouse, and what is in them</h1>
+      <h1 className="text-3xl sm:text-5xl mt-3 leading-tight max-w-4xl">The plants of the UAH Greenhouse, and what is in them</h1>
       <p className="mt-2 text-sm bx-muted max-w-3xl">{manifest.venue}</p>
 
       <section className="bx-card mt-5 p-4 border-l-4 border-l-[color:var(--bx-accent)] max-w-4xl" aria-labelledby="question-h">

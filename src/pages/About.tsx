@@ -15,7 +15,7 @@ export default function About() {
         <p className="mt-2 font-semibold">{manifest.venue}</p>
         {manifest.banner && <p className="mt-2">{manifest.banner.text}</p>}
         <p className="mt-2">
-          Greenhouse Explorer is a <strong>prototype built for critique</strong>: a catalogue of the plants of the UAH MARS Research Greenhouse and their curated
+          Greenhouse Explorer is a <strong>prototype built for critique</strong>: a catalogue of the plants of the UAH Greenhouse and their curated
           constituents, and a short commissioned primer. It is <strong>not peer reviewed</strong>, has had <strong>no external scientific review</strong>, and is
           <strong> not an official UAH resource</strong>. Its content is current as of {asOfLong()}.
         </p>
