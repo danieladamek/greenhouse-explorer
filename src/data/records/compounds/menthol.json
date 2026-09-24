@@ -197,8 +197,14 @@
    "svg": {
     "light": "structures/2d/menthol.svg",
     "dark": "structures/2d/menthol.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 357.3,
+    "height": 250.8,
+    "viewBox": [
+     11.3,
+     24.8,
+     357.3,
+     250.8
+    ]
    },
    "detail": "structures/data/menthol.json",
    "mwPack": 156.26,

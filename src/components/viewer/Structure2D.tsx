@@ -9,13 +9,16 @@ interface Props { structure: Structure; atomCoords?: number[][] | null; alt: str
 export default function Structure2D({ structure, atomCoords = null, alt, highlights = [], picked = [], onAtomClick, className = '' }: Props) {
   const { theme } = useTheme();
   const { width, height } = structure.svg;
+  const vb = structure.svg.viewBox ?? [0, 0, width, height];
   const src = assetUrl(theme === 'dark' ? structure.svg.dark : structure.svg.light);
   const colorOf = new Map<number, string>();
   highlights.forEach((h) => h.atoms.forEach((a) => colorOf.set(a, h.color)));
   return (
-    <div className={`relative w-full ${className}`} style={{ aspectRatio: `${width} / ${height}` }}>
-      <img src={src} alt={alt} width={width} height={height} className="absolute inset-0 h-full w-full object-contain" />
-      <svg viewBox={`0 0 ${width} ${height}`} className="absolute inset-0 h-full w-full" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+    // K5.1 §4a: a 3:2 box; the depiction (tight viewBox) is drawn with object-fit: contain, and the atom overlay uses
+    // the same viewBox with xMidYMid meet, so rings land on their atoms whatever the molecule's shape.
+    <div className={`relative w-full aspect-[3/2] ${className}`} data-testid="structure-2d-box">
+      <img src={src} alt={alt} className="absolute inset-0 h-full w-full object-contain object-center" />
+      <svg viewBox={vb.join(' ')} className="absolute inset-0 h-full w-full" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
         {(atomCoords ?? []).map(([x, y], i) => {
           const c = colorOf.get(i);
           const isPicked = picked.includes(i);

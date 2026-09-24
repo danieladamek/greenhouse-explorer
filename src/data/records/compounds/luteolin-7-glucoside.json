@@ -279,8 +279,14 @@
    "svg": {
     "light": "structures/2d/luteolin-7-glucoside.svg",
     "dark": "structures/2d/luteolin-7-glucoside.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 327.4,
+    "height": 149.6,
+    "viewBox": [
+     23.8,
+     75.2,
+     327.4,
+     149.6
+    ]
    },
    "detail": "structures/data/luteolin-7-glucoside.json",
    "mwPack": 448.38,

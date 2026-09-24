@@ -349,8 +349,14 @@
    "svg": {
     "light": "structures/2d/rosmarinic-acid.svg",
     "dark": "structures/2d/rosmarinic-acid.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 317,
+    "height": 199.1,
+    "viewBox": [
+     31.6,
+     52.8,
+     317,
+     199.1
+    ]
    },
    "detail": "structures/data/rosmarinic-acid.json",
    "mwPack": 360.3,

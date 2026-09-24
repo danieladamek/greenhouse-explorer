@@ -161,8 +161,14 @@
    "svg": {
     "light": "structures/2d/p-cymene.svg",
     "dark": "structures/2d/p-cymene.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 357.3,
+    "height": 247.5,
+    "viewBox": [
+     11.3,
+     26.2,
+     357.3,
+     247.5
+    ]
    },
    "detail": "structures/data/p-cymene.json",
    "mwPack": 134.22,

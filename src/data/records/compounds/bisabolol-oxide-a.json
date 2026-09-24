@@ -141,8 +141,14 @@
    "svg": {
     "light": "structures/2d/bisabolol-oxide-a.svg",
     "dark": "structures/2d/bisabolol-oxide-a.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 328.7,
+    "height": 188.4,
+    "viewBox": [
+     15.1,
+     55.8,
+     328.7,
+     188.4
+    ]
    },
    "detail": "structures/data/bisabolol-oxide-a.json",
    "mwPack": 238.37,

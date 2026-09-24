@@ -159,8 +159,14 @@
    "svg": {
     "light": "structures/2d/borneol.svg",
     "dark": "structures/2d/borneol.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 248.6,
+    "height": 260.3,
+    "viewBox": [
+     55.1,
+     13.1,
+     248.6,
+     260.3
+    ]
    },
    "detail": "structures/data/borneol.json",
    "mwPack": 154.25,

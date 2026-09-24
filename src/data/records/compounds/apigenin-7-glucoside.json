@@ -228,8 +228,14 @@
    "svg": {
     "light": "structures/2d/apigenin-7-glucoside.svg",
     "dark": "structures/2d/apigenin-7-glucoside.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 327.4,
+    "height": 126.4,
+    "viewBox": [
+     23.8,
+     89.7,
+     327.4,
+     126.4
+    ]
    },
    "detail": "structures/data/apigenin-7-glucoside.json",
    "mwPack": 432.38,

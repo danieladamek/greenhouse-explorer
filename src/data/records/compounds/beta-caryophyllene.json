@@ -169,8 +169,14 @@
    "svg": {
     "light": "structures/2d/beta-caryophyllene.svg",
     "dark": "structures/2d/beta-caryophyllene.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 357.3,
+    "height": 254.7,
+    "viewBox": [
+     11.3,
+     22.7,
+     357.3,
+     254.7
+    ]
    },
    "detail": "structures/data/beta-caryophyllene.json",
    "mwPack": 204.36,

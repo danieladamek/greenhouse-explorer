@@ -4,11 +4,11 @@ import { BASES, type Basis } from '@/lib/basis';
 import { PREBUILT, assetUrl, compoundsIndex, getCompoundMeta, getTaxonMeta, primaryCompounds, taxaIndex } from '@/lib/data';
 import { loadCompounds, loadOccurrences, loadTaxa, useAsync } from '@/lib/heavy';
 import { compoundMatrix } from '@/lib/models';
-import { useTheme } from '@/lib/theme';
 import { useTray } from '@/lib/tray';
 import { hasWebGL } from '@/lib/webgl';
 import type { Compound, Grade, OccurrenceRow, Taxon } from '@/types';
 import type { MolViewerHandle } from '@/components/viewer/MolViewer';
+import StructureThumb from '@/components/viewer/StructureThumb';
 import { DEFAULT_VIEWER_OPTIONS, type ViewerOptions } from '@/components/viewer/options';
 import AmountChart from '@/components/catalogue/AmountChart';
 import CompoundMatrix from '@/components/catalogue/CompoundMatrix';
@@ -87,7 +87,6 @@ function Picker({ kind, ids }: { kind: 'ids' | 'plants'; ids: string[] }) {
 function CompareCompounds({ ids, basis, setBasis }: { ids: string[]; basis: Basis | null; setBasis: (b: Basis | null) => void }) {
   const all = useAsync(loadCompounds);
   const occ = useAsync(loadOccurrences);
-  const { theme } = useTheme();
   const [sync, setSync] = useState(true);
   const [opts, setOpts] = useState<ViewerOptions>({ ...DEFAULT_VIEWER_OPTIONS, hydrogens: false, style: 'stick' });
   const refs = useRef<(MolViewerHandle | null)[]>([]);
@@ -125,8 +124,9 @@ function CompareCompounds({ ids, basis, setBasis }: { ids: string[]; basis: Basi
                       <Suspense fallback={<p className="p-3 text-sm bx-muted">Loading 3D…</p>}>
                         <MolViewer ref={(r) => { refs.current[i] = r; }} sdfUrl={assetUrl(c.structure.sdf)} structure={c.structure} options={opts} onViewChange={onView(i)} label={`3D model of ${c.name}`} testKey={`compare-${i}`} />
                       </Suspense>
-                    ) : <img src={assetUrl(theme === 'dark' ? c.structure.svg.dark : c.structure.svg.light)} alt={`2D structure of ${c.name}`} className="h-full w-full object-contain" />) : <p className="p-4 text-sm bx-muted">No single structure.</p>}
+                    ) : <StructureThumb svg={c.structure.svg} name={c.name} className="h-full" />) : <p className="p-4 text-sm bx-muted">No single structure.</p>}
                   </div>
+                  {c.structure && <div className="bx-card" data-testid={`compare-2d-${c.id}`}><StructureThumb svg={c.structure.svg} name={c.name} /></div>}
                   <h3 className="text-lg leading-tight"><Link to={`/compounds/${c.id}`} className="underline decoration-dotted inline-flex items-center gap-1.5"><ClassIcon cls={c.class} />{c.name}</Link></h3>
                   <p className="text-xs bx-muted font-mono">{c.identity.formula}</p>
                 </div>

@@ -319,17 +319,20 @@ def draw_2d(mol_heavy: Chem.Mol, dark: bool, width=380, height=300) -> tuple[str
     opts.bondLineWidth = 1.6
     opts.fixedFontSize = 14
     opts.addStereoAnnotation = False
+    # K5.1: transparent background so the depiction sits on the page's paper (manila #efe3c6 / warm night
+    # #1a1712); carbon and bonds in the theme's ink (#2a231a / #efe6d3); heteroatom hues tuned to read on both.
     if dark:
-        opts.setBackgroundColour((0.08, 0.075, 0.06, 0))
+        opts.setBackgroundColour((0.102, 0.090, 0.071, 0))
         opts.updateAtomPalette({
-            -1: (0.92, 0.90, 0.86),  # default (carbon)
-            6: (0.92, 0.90, 0.86), 7: (0.45, 0.62, 1.0), 8: (1.0, 0.45, 0.45),
-            1: (0.75, 0.75, 0.75), 16: (0.95, 0.85, 0.3), 17: (0.3, 0.9, 0.3),
+            -1: (0.937, 0.902, 0.827),  # default (carbon) = --bx-ink dark
+            6: (0.937, 0.902, 0.827), 7: (0.49, 0.66, 1.0), 8: (1.0, 0.50, 0.46),
+            1: (0.78, 0.75, 0.70), 16: (0.95, 0.85, 0.3), 17: (0.3, 0.9, 0.3),
         })
     else:
+        opts.setBackgroundColour((0.937, 0.890, 0.776, 0))
         opts.updateAtomPalette({
-            -1: (0.12, 0.10, 0.09), 6: (0.12, 0.10, 0.09), 7: (0.1, 0.25, 0.8),
-            8: (0.8, 0.1, 0.1), 1: (0.4, 0.4, 0.4),
+            -1: (0.165, 0.137, 0.102), 6: (0.165, 0.137, 0.102), 7: (0.1, 0.25, 0.75),  # carbon = --bx-ink light
+            8: (0.72, 0.09, 0.09), 1: (0.37, 0.33, 0.26),
         })
     d.DrawMolecule(m)
     d.FinishDrawing()
@@ -341,7 +344,29 @@ def draw_2d(mol_heavy: Chem.Mol, dark: bool, width=380, height=300) -> tuple[str
         coords.append([round(p.x, 1), round(p.y, 1)])
     # strip the XML prolog so the SVG can be inlined
     svg = re.sub(r"<\?xml[^>]*\?>\s*", "", svg)
+    svg, _ = tighten_viewbox(svg)
     return svg, coords
+
+
+def drawn_bounds(svg: str) -> tuple[float, float, float, float]:
+    """Bounding box of everything RDKit drew. Bonds and atom labels are all <path> elements, so the coordinate pairs
+    in their `d` attributes are the drawing."""
+    xs, ys = [], []
+    for d in re.findall(r" d='([^']*)'", svg):
+        for x, y in re.findall(r"(-?\d+(?:\.\d+)?),(-?\d+(?:\.\d+)?)", d):
+            xs.append(float(x)); ys.append(float(y))
+    return min(xs), min(ys), max(xs), max(ys)
+
+
+def tighten_viewbox(svg: str, pad: float = 0.06) -> tuple[str, list[float]]:
+    """K5.1 §4a: viewBox = drawn bounds + 6 % padding, and no fixed width/height, so the depiction scales to fit
+    whatever box it is placed in (object-fit: contain) instead of overflowing it."""
+    x0, y0, x1, y1 = drawn_bounds(svg)
+    w, h = x1 - x0, y1 - y0
+    px, py = max(w * pad, 4.0), max(h * pad, 4.0)
+    vb = [round(x0 - px, 1), round(y0 - py, 1), round(w + 2 * px, 1), round(h + 2 * py, 1)]
+    svg = re.sub(r"width='[^']*' height='[^']*' viewBox='[^']*'", f"viewBox='{vb[0]} {vb[1]} {vb[2]} {vb[3]}'", svg, count=1)
+    return svg, vb
 
 
 def build_structure(cid_label: str, smiles: str, expected_key: str, expected_formula: str,
@@ -387,6 +412,7 @@ def build_structure(cid_label: str, smiles: str, expected_key: str, expected_for
 
     svg_light, coords = draw_2d(mol_heavy, dark=False)
     svg_dark, _ = draw_2d(mol_heavy, dark=True)
+    view_box = [float(v) for v in re.search(r"viewBox='([^']*)'", svg_light).group(1).split()]
 
     return {
         "formulaComputed": formula,
@@ -401,7 +427,7 @@ def build_structure(cid_label: str, smiles: str, expected_key: str, expected_for
         "conformerSource": source,
         "sdf": f"structures/3d/{cid_label}.sdf",
         "svg": {"light": f"structures/2d/{cid_label}.svg", "dark": f"structures/2d/{cid_label}.dark.svg",
-                "width": 380, "height": 300},
+                "width": view_box[2], "height": view_box[3], "viewBox": view_box},
         "detail": f"structures/data/{cid_label}.json",
         "_files": {"sdf": Chem.MolToMolBlock(molH) + f">  <conformerSource>\n{source}\n\n$$$$\n",
                    "svg": svg_light, "svgDark": svg_dark,

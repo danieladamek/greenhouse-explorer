@@ -143,8 +143,14 @@
    "svg": {
     "light": "structures/2d/herniarin.svg",
     "dark": "structures/2d/herniarin.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 345,
+    "height": 115.4,
+    "viewBox": [
+     13,
+     89.7,
+     345,
+     115.4
+    ]
    },
    "detail": "structures/data/herniarin.json",
    "mwPack": 176.17,

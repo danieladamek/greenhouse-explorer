@@ -180,8 +180,14 @@
    "svg": {
     "light": "structures/2d/caffeic-acid.svg",
     "dark": "structures/2d/caffeic-acid.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 301.8,
+    "height": 193.3,
+    "viewBox": [
+     39.2,
+     53.3,
+     301.8,
+     193.3
+    ]
    },
    "detail": "structures/data/caffeic-acid.json",
    "mwPack": 180.16,

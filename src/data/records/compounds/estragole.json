@@ -195,8 +195,14 @@
    "svg": {
     "light": "structures/2d/estragole.svg",
     "dark": "structures/2d/estragole.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 357.3,
+    "height": 125.4,
+    "viewBox": [
+     11.3,
+     89.8,
+     357.3,
+     125.4
+    ]
    },
    "detail": "structures/data/estragole.json",
    "mwPack": 148.2,

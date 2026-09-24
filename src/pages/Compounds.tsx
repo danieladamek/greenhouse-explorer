@@ -1,31 +1,30 @@
 import { useMemo } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import { CLASSES, assetUrl, colourForGroup, compoundsIndex, families, taxaIndex } from '@/lib/data';
+import { CLASSES, colourForGroup, compoundsIndex, families, taxaIndex } from '@/lib/data';
 import { applyFilters, filtersToParams, paramsToFilters, type CompoundFilters } from '@/lib/filters';
 import { BASIS_LABEL, BASES } from '@/lib/basis';
-import { useTheme } from '@/lib/theme';
 import { useTray } from '@/lib/tray';
 import type { CompoundMeta } from '@/types';
 import { ClassIcon, TaxonName } from '@/components/catalogue/Chips';
+import StructureThumb from '@/components/viewer/StructureThumb';
 
 const PROFILED = taxaIndex.filter((t) => t.compounds.length > 0).sort((a, b) => a.accepted_name.localeCompare(b.accepted_name));
 const PARTS = [...new Set(compoundsIndex.flatMap((c) => c.parts))].sort();
 const FAMILY_IDS = families.filter((f) => f.compounds.length).map((f) => f.id);
 
 function Card({ c, q }: { c: CompoundMeta; q: string }) {
-  const { theme } = useTheme();
   const tray = useTray();
   const inTray = tray.has('compounds', c.id);
   const colour = colourForGroup(c.palette_group);
   return (
     <li className="bx-card p-3 flex flex-col border-t-4" style={{ borderTopColor: colour }} data-testid={`compound-card-${c.id}`}>
-      <div className="rounded-md bg-white/60 dark:bg-night/60 border border-[color:var(--bx-line)] h-[140px] grid place-items-center overflow-hidden">
-        {c.svg ? <img src={assetUrl(theme === 'dark' ? c.svg.dark : c.svg.light)} alt={`2D structure of ${c.name}`} className="max-h-full" loading="lazy" width={380} height={300} /> : <span className="text-xs bx-muted">no single structure</span>}
+      <div className="rounded-md bg-paper-card dark:bg-night-card border border-[color:var(--bx-line)]" data-testid={`thumb-${c.id}`}>
+        {c.svg ? <StructureThumb svg={c.svg} name={c.name} /> : <div className="aspect-[4/3] grid place-items-center text-xs bx-muted">no single structure</div>}
       </div>
       <h2 className="mt-2 text-lg leading-tight"><Link className="underline decoration-dotted" to={`/compounds/${c.id}${q ? `?f=${encodeURIComponent(q)}` : ''}`}>{c.name}</Link></h2>
-      <p className="mt-1 flex flex-wrap items-center gap-1.5 text-xs">
-        <span className="inline-flex items-center gap-1"><ClassIcon cls={c.class} />{CLASSES.find((x) => x.id === c.class)?.label ?? c.class}</span>
-        {c.formula && <span className="bx-muted font-mono">{c.formula}</span>}
+      <p className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs leading-5">
+        <span className="inline-flex items-center gap-1 leading-5"><ClassIcon cls={c.class} />{CLASSES.find((x) => x.id === c.class)?.label ?? c.class}</span>
+        {c.formula && <span className="bx-muted font-mono leading-5">{c.formula}</span>}
       </p>
       <p className="mt-2 text-sm leading-6 flex-1">{c.one_liner}</p>
       <p className="mt-2 text-xs"><span className="font-semibold">In {c.taxa.length} plant{c.taxa.length === 1 ? '' : 's'}: </span>{c.taxa.map((t, i) => <span key={t}>{i ? ', ' : ''}<TaxonName id={t} link={false} /></span>)}</p>

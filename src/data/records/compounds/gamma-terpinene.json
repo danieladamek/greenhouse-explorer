@@ -162,8 +162,14 @@
    "svg": {
     "light": "structures/2d/gamma-terpinene.svg",
     "dark": "structures/2d/gamma-terpinene.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 357.3,
+    "height": 247.5,
+    "viewBox": [
+     11.3,
+     26.2,
+     357.3,
+     247.5
+    ]
    },
    "detail": "structures/data/gamma-terpinene.json",
    "mwPack": 136.24,

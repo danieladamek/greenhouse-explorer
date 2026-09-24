@@ -58,12 +58,12 @@ export function AddNoteButton({ anchor, label }: { anchor: Anchor; label: string
 }
 
 /** A labelled field whose value may be null: null renders amber and says so, never blank and never filled. */
-export function Field({ label, value, md, missing }: { label: string; value?: string | null; md?: string | null; missing: string }) {
+export function Field({ label, value, md, missing, mono = false }: { label: string; value?: string | null; md?: string | null; missing: string; mono?: boolean }) {
   return (
     <div className="grid grid-cols-[minmax(0,1fr)] sm:grid-cols-[12rem_minmax(0,1fr)] gap-x-4 gap-y-1 py-2 border-b border-[color:var(--bx-line)] last:border-0">
       <dt className="text-sm font-semibold">{label}</dt>
       <dd className="text-sm leading-6 min-w-0 break-words [overflow-wrap:anywhere]">
-        {md ? <Prose md={md} className="bx-inline" /> : value ? value : <span className="bx-todo" data-todo="author">{missing}</span>}
+        {md ? <Prose md={md} className="bx-inline" /> : value ? (mono ? <span className="gx-mono-id">{value}</span> : value) : <span className="bx-todo" data-todo="author">{missing}</span>}
       </dd>
     </div>
   );

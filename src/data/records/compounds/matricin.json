@@ -191,8 +191,14 @@
    "svg": {
     "light": "structures/2d/matricin.svg",
     "dark": "structures/2d/matricin.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 330.1,
+    "height": 268.1,
+    "viewBox": [
+     35,
+     10.6,
+     330.1,
+     268.1
+    ]
    },
    "detail": "structures/data/matricin.json",
    "mwPack": 306.36,

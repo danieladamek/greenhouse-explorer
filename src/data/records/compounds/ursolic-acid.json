@@ -189,8 +189,14 @@
    "svg": {
     "light": "structures/2d/ursolic-acid.svg",
     "dark": "structures/2d/ursolic-acid.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 346.4,
+    "height": 234.5,
+    "viewBox": [
+     11.8,
+     32.1,
+     346.4,
+     234.5
+    ]
    },
    "detail": "structures/data/ursolic-acid.json",
    "mwPack": 456.71,

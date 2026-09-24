@@ -216,8 +216,14 @@
    "svg": {
     "light": "structures/2d/dihydrobaicalin.svg",
     "dark": "structures/2d/dihydrobaicalin.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 329.1,
+    "height": 256.9,
+    "viewBox": [
+     15.7,
+     21.5,
+     329.1,
+     256.9
+    ]
    },
    "detail": "structures/data/dihydrobaicalin.json",
    "mwPack": 448.38,

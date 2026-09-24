@@ -141,8 +141,14 @@
    "svg": {
     "light": "structures/2d/citronellal.svg",
     "dark": "structures/2d/citronellal.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 357.3,
+    "height": 201.4,
+    "viewBox": [
+     11.3,
+     43.2,
+     357.3,
+     201.4
+    ]
    },
    "detail": "structures/data/citronellal.json",
    "mwPack": 154.25,

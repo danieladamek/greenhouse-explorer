@@ -89,10 +89,12 @@ export interface Descriptors {
   heavyAtoms: number; rings: number; aromaticRings: number; hbd: number; hba: number; rotatableBonds: number;
   logP: number; tpsa: number; fsp3: number; stereocenters: number; charge: number;
 }
+/** A 2D depiction: light/dark files, and the tight viewBox (drawn bounds + 6 %) the build gave both (K5.1 §4a). */
+export interface StructureSvg { light: string; dark: string; width: number; height: number; viewBox: [number, number, number, number] }
 export interface Structure {
   formulaComputed: string; inchikeyComputed: string; canonicalSmiles: string; monoisotopicMass: number; averageMass: number;
   descriptors: Descriptors; atomCount: number; heavyAtomCount: number; functionalGroups: FunctionalGroupMatch[];
-  conformerSource: 'pubchem' | 'rdkit'; sdf: string; svg: { light: string; dark: string; width: number; height: number }; detail: string;
+  conformerSource: 'pubchem' | 'rdkit'; sdf: string; svg: StructureSvg; detail: string;
   mwPack: number | null; mwSource: string | null;
 }
 export interface StructureDetail { id: string; atoms: AtomRecord[]; atomCoords: number[][] }
@@ -130,7 +132,7 @@ export interface CompoundMeta {
   id: string; name: string; class: string; subclass: string; palette_group: string; auxiliary: boolean; one_liner: string; synonyms: string[];
   formula: string | null; inchikey: string | null; mw: number | null; taxa: string[]; parts: string[]; bases: Basis[];
   has_human_evidence: boolean; evidence: number; safety_flags: number; grades: Grade[]; has_structure: boolean;
-  svg: { light: string; dark: string } | null; formed_during: string | null;
+  svg: StructureSvg | null; formed_during: string | null;
 }
 
 export interface Cultivar { crop_id: string; name: string | null; type: string | null; list_category: string; name_as_given: string | null; identity_status: IdentityStatus; note: string | null }

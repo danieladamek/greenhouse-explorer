@@ -175,8 +175,14 @@
    "svg": {
     "light": "structures/2d/carvacrol.svg",
     "dark": "structures/2d/carvacrol.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 326.4,
+    "height": 226.2,
+    "viewBox": [
+     33.9,
+     36.9,
+     326.4,
+     226.2
+    ]
    },
    "detail": "structures/data/carvacrol.json",
    "mwPack": 150.22,

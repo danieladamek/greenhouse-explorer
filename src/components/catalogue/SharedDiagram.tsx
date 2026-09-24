@@ -41,7 +41,9 @@ export default function SharedDiagram({ rows }: { rows: OccurrenceRow[] }) {
         return (
           <g key={t} opacity={dim(undefined, t) ? 0.3 : 1} onMouseEnter={() => setHot({ t })} onMouseLeave={() => setHot(null)} className="cursor-pointer" role="link" tabIndex={0} aria-label={`${tm.accepted_name}: open plant page`} onClick={() => navigate(`/plants/${t}`)} onKeyDown={(e) => { if (e.key === 'Enter') navigate(`/plants/${t}`); }}>
             <rect x={x - CW / 2 + 3} y={HEAD - 8} width={CW - 6} height={H - HEAD} fill={familyColour(tm.family)} opacity={0.07} rx={4} />
-            <text transform={`translate(${x + 4}, ${HEAD - 14}) rotate(-55)`} fontSize={12} fontStyle="italic" fill={familyColour(tm.family)} fontWeight={600}>{tm.accepted_name}</text>
+            <circle cx={x} cy={HEAD - 4} r={4} fill={familyColour(tm.family)} />
+            {/* ink text + family swatch: family colours are identity, not text */}
+            <text transform={`translate(${x + 4}, ${HEAD - 14}) rotate(-55)`} fontSize={12} fontStyle="italic" fill="currentColor" fontWeight={600}>{tm.accepted_name}</text>
           </g>
         );
       })}

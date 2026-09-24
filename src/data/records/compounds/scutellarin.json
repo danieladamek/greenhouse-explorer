@@ -228,8 +228,14 @@
    "svg": {
     "light": "structures/2d/scutellarin.svg",
     "dark": "structures/2d/scutellarin.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 319.3,
+    "height": 209.9,
+    "viewBox": [
+     30.5,
+     45.1,
+     319.3,
+     209.9
+    ]
    },
    "detail": "structures/data/scutellarin.json",
    "mwPack": 462.36,

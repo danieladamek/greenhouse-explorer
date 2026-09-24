@@ -193,13 +193,13 @@ export default function Compound() {
       <Section id="identity" title="Identity">
         <dl className="mt-2">
           <Field label="IUPAC name" value={c.identity.iupac} missing="IUPAC name not recorded" />
-          <Field label="Formula" value={c.identity.formula} missing="formula not recorded" />
+          <Field mono label="Formula" value={c.identity.formula} missing="formula not recorded" />
           <Field label="Molecular weight" value={c.identity.mw !== null ? `${c.identity.mw} g/mol (${c.identity.mw_source ?? 'source not stated'})${mwRdkit !== null ? ` · RDKit recomputes ${mwRdkit.toFixed(2)} g/mol from the SMILES` : ''}` : null} missing="molecular weight not recorded" />
-          <Field label="SMILES" value={c.identity.smiles} missing="no SMILES — no single structure" />
-          <Field label="InChIKey" value={c.identity.inchikey} missing="InChIKey not recorded" />
-          <Field label="CAS" value={c.identity.cas} missing="CAS number not recorded" />
-          <Field label="PubChem CID" value={c.identity.pubchem_cid ? String(c.identity.pubchem_cid) : null} missing="no PubChem CID" />
-          <Field label="ChEBI" value={c.identity.chebi_id} missing="no ChEBI id" />
+          <Field mono label="SMILES" value={c.identity.smiles} missing="no SMILES — no single structure" />
+          <Field mono label="InChIKey" value={c.identity.inchikey} missing="InChIKey not recorded" />
+          <Field mono label="CAS" value={c.identity.cas} missing="CAS number not recorded" />
+          <Field mono label="PubChem CID" value={c.identity.pubchem_cid ? String(c.identity.pubchem_cid) : null} missing="no PubChem CID" />
+          <Field mono label="ChEBI" value={c.identity.chebi_id} missing="no ChEBI id" />
           <Field label="logP (measured)" value={c.physchem.logp !== null ? String(c.physchem.logp) : null} missing="TODO(author): logP not sourced" />
           <Field label="pKa" value={c.physchem.pka !== null ? String(c.physchem.pka) : null} missing="TODO(author): pKa not sourced" />
         </dl>

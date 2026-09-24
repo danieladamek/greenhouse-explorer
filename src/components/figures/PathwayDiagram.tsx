@@ -314,7 +314,7 @@ export default function PathwayDiagram({ figure, graph, inline }: Props) {
                 onFocus={() => setHover({ x: n.px, y: n.py + n.h / 2, title: n.label, text: term ? term.short : '' })} onBlur={() => setHover(null)}
                 data-testid={`node-${n.id}`}>
                 <rect width={n.w} height={n.h} rx={st.rx} fill={st.fill} stroke={isSel ? 'var(--bx-accent)' : st.stroke} strokeWidth={isSel ? 3 : n.contested ? 2 : 1.2} strokeDasharray={n.contested ? '5 3' : st.dash} />
-                <text fontSize={11} fontWeight={600} fontStyle={st.italic ? 'italic' : undefined} fill={theme === 'dark' ? '#efeae2' : '#1f1b16'} aria-hidden="true">
+                <text fontSize={11} fontWeight={600} fontStyle={st.italic ? 'italic' : undefined} fill={theme === 'dark' ? '#efe6d3' : '#2a231a'} aria-hidden="true">
                   {n.lines.map((l, i) => <tspan key={i} x={n.w / 2} y={PAD_Y + LINE_H * (i + 1) - 3} textAnchor="middle">{l}</tspan>)}
                 </text>
               </g>

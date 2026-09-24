@@ -250,8 +250,14 @@
    "svg": {
     "light": "structures/2d/teucrin-a.svg",
     "dark": "structures/2d/teucrin-a.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 323.6,
+    "height": 243.7,
+    "viewBox": [
+     35.6,
+     28.5,
+     323.6,
+     243.7
+    ]
    },
    "detail": "structures/data/teucrin-a.json",
    "mwPack": 344.36,

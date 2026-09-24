@@ -21,7 +21,7 @@ export function svgToPng(svg: SVGSVGElement, filename: string, scale = 2) {
     canvas.width = w * scale; canvas.height = h * scale;
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
-    ctx.fillStyle = css.backgroundColor || '#faf8f4';
+    ctx.fillStyle = css.backgroundColor || '#efe3c6';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.scale(scale, scale);
     ctx.drawImage(img, 0, 0);

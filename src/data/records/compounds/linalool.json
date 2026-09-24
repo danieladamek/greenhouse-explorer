@@ -162,8 +162,14 @@
    "svg": {
     "light": "structures/2d/linalool.svg",
     "dark": "structures/2d/linalool.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 357.3,
+    "height": 186.6,
+    "viewBox": [
+     11.3,
+     56.7,
+     357.3,
+     186.6
+    ]
    },
    "detail": "structures/data/linalool.json",
    "mwPack": 154.25,

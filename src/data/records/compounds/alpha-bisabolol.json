@@ -179,8 +179,14 @@
    "svg": {
     "light": "structures/2d/alpha-bisabolol.svg",
     "dark": "structures/2d/alpha-bisabolol.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 357.3,
+    "height": 179.6,
+    "viewBox": [
+     11.3,
+     60.2,
+     357.3,
+     179.6
+    ]
    },
    "detail": "structures/data/alpha-bisabolol.json",
    "mwPack": 222.37,

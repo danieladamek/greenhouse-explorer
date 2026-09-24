@@ -179,8 +179,14 @@
    "svg": {
     "light": "structures/2d/menthofuran.svg",
     "dark": "structures/2d/menthofuran.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 357.3,
+    "height": 241.7,
+    "viewBox": [
+     11.3,
+     29.2,
+     357.3,
+     241.7
+    ]
    },
    "detail": "structures/data/menthofuran.json",
    "mwPack": 150.22,

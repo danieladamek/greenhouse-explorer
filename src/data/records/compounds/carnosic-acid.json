@@ -198,8 +198,14 @@
    "svg": {
     "light": "structures/2d/carnosic-acid.svg",
     "dark": "structures/2d/carnosic-acid.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 357.3,
+    "height": 228.1,
+    "viewBox": [
+     11.3,
+     38.5,
+     357.3,
+     228.1
+    ]
    },
    "detail": "structures/data/carnosic-acid.json",
    "mwPack": 332.44,

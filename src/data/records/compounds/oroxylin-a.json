@@ -190,8 +190,14 @@
    "svg": {
     "light": "structures/2d/oroxylin-a.svg",
     "dark": "structures/2d/oroxylin-a.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 357.3,
+    "height": 199,
+    "viewBox": [
+     11.3,
+     56.2,
+     357.3,
+     199
+    ]
    },
    "detail": "structures/data/oroxylin-a.json",
    "mwPack": 284.27,

@@ -271,8 +271,14 @@
    "svg": {
     "light": "structures/2d/apigenin.svg",
     "dark": "structures/2d/apigenin.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 310.8,
+    "height": 179.9,
+    "viewBox": [
+     34.8,
+     63.2,
+     310.8,
+     179.9
+    ]
    },
    "detail": "structures/data/apigenin.json",
    "mwPack": 270.24,

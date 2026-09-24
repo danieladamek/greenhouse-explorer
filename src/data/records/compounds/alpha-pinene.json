@@ -131,8 +131,14 @@
    "svg": {
     "light": "structures/2d/alpha-pinene.svg",
     "dark": "structures/2d/alpha-pinene.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 338.1,
+    "height": 217.5,
+    "viewBox": [
+     26,
+     41.2,
+     338.1,
+     217.5
+    ]
    },
    "detail": "structures/data/alpha-pinene.json",
    "mwPack": 136.24,

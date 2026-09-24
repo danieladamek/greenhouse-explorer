@@ -220,8 +220,14 @@
    "svg": {
     "light": "structures/2d/wogonoside.svg",
     "dark": "structures/2d/wogonoside.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 337.7,
+    "height": 164,
+    "viewBox": [
+     30.9,
+     71.1,
+     337.7,
+     164
+    ]
    },
    "detail": "structures/data/wogonoside.json",
    "mwPack": 460.39,

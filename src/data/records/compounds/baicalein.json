@@ -241,8 +241,14 @@
    "svg": {
     "light": "structures/2d/baicalein.svg",
     "dark": "structures/2d/baicalein.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 330.6,
+    "height": 211.7,
+    "viewBox": [
+     34.8,
+     50,
+     330.6,
+     211.7
+    ]
    },
    "detail": "structures/data/baicalein.json",
    "mwPack": 270.24,

@@ -138,8 +138,14 @@
    "svg": {
     "light": "structures/2d/umbelliferone.svg",
     "dark": "structures/2d/umbelliferone.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 311.7,
+    "height": 124.5,
+    "viewBox": [
+     40,
+     85.1,
+     311.7,
+     124.5
+    ]
    },
    "detail": "structures/data/umbelliferone.json",
    "mwPack": 162.14,

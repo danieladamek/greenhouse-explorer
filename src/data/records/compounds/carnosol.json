@@ -228,8 +228,14 @@
    "svg": {
     "light": "structures/2d/carnosol.svg",
     "dark": "structures/2d/carnosol.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 357.3,
+    "height": 228.3,
+    "viewBox": [
+     11.3,
+     35.9,
+     357.3,
+     228.3
+    ]
    },
    "detail": "structures/data/carnosol.json",
    "mwPack": 330.42,

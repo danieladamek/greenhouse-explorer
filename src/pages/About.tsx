@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { AS_OF, asOfLong, manifest, provenance } from '@/lib/data';
 import { critiqueHref } from '@/components/Layout';
+import { Illustration } from '@/components/Brand';
 
 /** /about (APP-SPEC §2 topic mode; KICKOFF §4e): the prototype statement in full, who built it, how to report an error. */
 export default function About() {
@@ -20,6 +21,11 @@ export default function About() {
           <strong> not an official UAH resource</strong>. Its content is current as of {asOfLong()}.
         </p>
       </section>
+
+      <figure className="mt-8 flex flex-col items-center text-center" data-testid="about-illustration">
+        <Illustration maxHeight={260} />
+        <figcaption className="mt-2 text-sm bx-muted max-w-md">A glasshouse, a plant, its DNA and one of its molecules — salicylic acid, the signal every plant makes.</figcaption>
+      </figure>
 
       <h2 className="text-2xl mt-8">Who wrote it</h2>
       <p className="mt-2">

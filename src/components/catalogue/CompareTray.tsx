@@ -10,7 +10,7 @@ export default function CompareTray() {
     <div className="flex flex-wrap items-center gap-1.5">
       <span className="font-semibold">{kind === 'compounds' ? 'Compounds' : 'Plants'} ({ids.length}/{TRAY_MAX}):</span>
       {ids.map((id) => (
-        <span key={id} className="bx-chip border border-[color:var(--bx-line)] bg-white/70 dark:bg-night/70 font-normal">
+        <span key={id} className="bx-chip border border-[color:var(--bx-line)] bg-paper-card dark:bg-night-card font-normal">
           {label(id)}
           <button type="button" className="ml-0.5 rounded px-1 hover:bg-paper-2 dark:hover:bg-night" aria-label={`Remove ${label(id)} from the tray`} onClick={() => tray.remove(kind, id)}>×</button>
         </span>

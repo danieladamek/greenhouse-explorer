@@ -39,7 +39,8 @@ interface Props {
   testKey?: string;
 }
 
-const BG = { light: '#faf8f4', dark: '#15130f' };
+// the viewer canvas sits on the page's paper (K5.1 manila / warm night)
+const BG = { light: '#efe3c6', dark: '#1a1712' };
 const PICK_COLOR = '#ffd43b';
 
 /** 3Dmol accepts arrays for any selection property at runtime; its typings only declare scalars. */
@@ -167,7 +168,7 @@ const MolViewer = forwardRef<MolViewerHandle, Props>(function MolViewer(
     decorated.current = wants;
     const dark = theme === 'dark';
     const list = v.getModel().selectedAtoms({}) as (Vec3 & { serial: number; elem: string })[];
-    const labelStyle = { fontSize: 11, fontColor: dark ? '#efeae2' : '#1f1b16', backgroundColor: dark ? '#211d18' : '#ffffff', backgroundOpacity: 0.75, borderThickness: 0, inFront: true, alignment: 'center' as const };
+    const labelStyle = { fontSize: 11, fontColor: dark ? '#efe6d3' : '#2a231a', backgroundColor: dark ? '#252019' : '#f7efdc', backgroundOpacity: 0.75, borderThickness: 0, inFront: true, alignment: 'center' as const };
     if (options.labels) {
       list.forEach((a) => {
         if (!options.hydrogens && a.elem === 'H') return;
@@ -179,7 +180,7 @@ const MolViewer = forwardRef<MolViewerHandle, Props>(function MolViewer(
         if (!rec.cip) return;
         const a = list[rec.i];
         if (!a) return;
-        v.addLabel(rec.cip, { ...labelStyle, fontSize: 13, fontColor: '#1f1b16', backgroundColor: PICK_COLOR, backgroundOpacity: 0.95, position: { x: a.x + 0.35, y: a.y + 0.35, z: a.z } });
+        v.addLabel(rec.cip, { ...labelStyle, fontSize: 13, fontColor: '#2a231a', backgroundColor: PICK_COLOR, backgroundOpacity: 0.95, position: { x: a.x + 0.35, y: a.y + 0.35, z: a.z } });
       });
     }
     const pts = picked.map((i) => list[i]).filter(Boolean);
@@ -190,7 +191,7 @@ const MolViewer = forwardRef<MolViewerHandle, Props>(function MolViewer(
       const m = measure(pts);
       if (m) {
         const pos = pts.length === 2 ? midpoint(pts[0], pts[1]) : pts.length === 3 ? pts[1] : midpoint(pts[1], pts[2]);
-        v.addLabel(m.label, { ...labelStyle, fontSize: 14, fontColor: '#1f1b16', backgroundColor: PICK_COLOR, backgroundOpacity: 0.95, position: { x: pos.x, y: pos.y + 0.6, z: pos.z } });
+        v.addLabel(m.label, { ...labelStyle, fontSize: 14, fontColor: '#2a231a', backgroundColor: PICK_COLOR, backgroundOpacity: 0.95, position: { x: pos.x, y: pos.y + 0.6, z: pos.z } });
       }
     }
     v.render();

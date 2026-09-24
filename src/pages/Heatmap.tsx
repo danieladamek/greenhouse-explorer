@@ -86,7 +86,11 @@ export default function Heatmap() {
                 <defs><pattern id="bx-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#d97706" fillOpacity={0.08} /><line x1="0" y1="0" x2="0" y2="6" stroke="#d97706" strokeOpacity={0.45} strokeWidth="2" /></pattern></defs>
                 <g role="row">
                   {taxa.map((t, i) => { const tm = getTaxonMeta(t)!; return (
-                    <text key={t} role="columnheader" transform={`translate(${LW + i * CW + CW / 2 - 4}, ${HEAD - 8}) rotate(-40)`} fontSize={12} fontStyle="italic" fontWeight={600} fill={familyColour(tm.family)} className="cursor-pointer" onClick={() => navigate(`/plants/${t}`)}>{tm.accepted_name}</text>
+                    <g key={t}>
+                      {/* ink text + a family swatch: family colours are identity, not text (several fail contrast on manila) */}
+                      <circle cx={LW + i * CW + CW / 2 - 8} cy={HEAD - 4} r={4} fill={familyColour(tm.family)} />
+                      <text role="columnheader" transform={`translate(${LW + i * CW + CW / 2 - 2}, ${HEAD - 8}) rotate(-40)`} fontSize={12} fontStyle="italic" fontWeight={600} fill="currentColor" className="cursor-pointer" onClick={() => navigate(`/plants/${t}`)}>{tm.accepted_name}</text>
+                    </g>
                   ); })}
                 </g>
                 {compounds.map((c, j) => {

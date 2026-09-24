@@ -4,6 +4,8 @@ import { useTheme } from '@/lib/theme';
 import { useNotepad } from '@/lib/notepad-context';
 import { AS_OF, manifest } from '@/lib/data';
 import Drawer from '@/components/ui/Drawer';
+import { Mark } from '@/components/Brand';
+import { applyFonts } from '@/lib/fonts';
 import CompareTray from '@/components/catalogue/CompareTray';
 
 const SearchModal = lazy(() => import('./SearchModal'));
@@ -69,6 +71,7 @@ function PrototypeBanner() {
     <div className="bx-proto" role="note" aria-label="Prototype notice" data-testid="prototype-banner">
       <div className={`mx-auto flex max-w-7xl flex-wrap items-center gap-x-3 gap-y-1 px-3 sm:px-4 ${compact ? 'py-1' : 'py-2'}`}>
         <p className="flex-1 min-w-[14rem]">
+          <Mark size={16} className="mr-1.5 -mt-0.5 align-middle" />
           <strong>Prototype for critique</strong> · not peer reviewed · not an official UAH resource · content current as of {AS_OF}
           {!compact && manifest.banner && <span className="hidden sm:block text-xs bx-muted mt-0.5">{manifest.banner.text}</span>}
         </p>
@@ -114,6 +117,9 @@ export default function Layout({ children }: { children: ReactNode }) {
   const onRead = loc.pathname === '/read';
   const onNotes = loc.pathname === '/notes';
   useEffect(() => { setOpen(false); }, [loc.pathname]);
+  // first visit: the bundled fonts, downloaded in the background, switch in on the first in-app navigation (src/lib/fonts.ts)
+  const firstPath = useRef(loc.pathname);
+  useEffect(() => { if (loc.pathname !== firstPath.current) applyFonts(); }, [loc.pathname]);
   useEffect(() => {
     // Move focus to main on route change for keyboard/screen-reader users; keep hash navigation intact.
     const main = document.getElementById('main');
@@ -133,7 +139,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-40 bg-paper/95 dark:bg-night/95 backdrop-blur">
         <div className="border-b border-[color:var(--bx-line)]">
           <div className="mx-auto flex max-w-7xl items-center gap-2 px-3 sm:px-4 py-2.5">
-            <Link to="/" className="font-display text-lg sm:text-xl font-semibold tracking-tight whitespace-nowrap">Greenhouse <span className="bx-muted font-normal">Explorer</span></Link>
+            <Link to="/" className="gx-wordmark inline-flex items-center gap-2 text-lg sm:text-xl font-semibold tracking-tight whitespace-nowrap" aria-label="Greenhouse Explorer — home"><Mark size={30} /><span>Greenhouse <span className="bx-muted font-normal">Explorer</span></span></Link>
             <nav aria-label="Primary" className="ml-auto hidden xl:flex items-center gap-0.5 text-sm">
               {PRIMARY.map((n) => (
                 <NavLink key={n.to} to={n.to} className={({ isActive }) => `rounded-md px-2 py-1.5 hover:bg-paper-2 dark:hover:bg-night-2 ${isActive ? 'font-semibold underline underline-offset-4' : ''}`}>{n.label}</NavLink>
@@ -171,7 +177,8 @@ export default function Layout({ children }: { children: ReactNode }) {
       <CompareTray />
       <footer className="border-t border-[color:var(--bx-line)] mt-12">
         <div className="mx-auto max-w-7xl px-4 py-6 text-sm bx-muted flex flex-wrap gap-x-6 gap-y-2">
-          <span>
+          <Mark size={28} className="self-start" />
+          <span className="flex-1 min-w-[16rem]">
             Greenhouse Explorer — a <strong>prototype for critique</strong>: a plant catalogue and a commissioned primer written by the {manifest.builder.name} ({manifest.builder.version}).
             <strong> Not peer reviewed; not an official UAH resource.</strong> Content current as of {AS_OF}.
             Scientific content comes only from the content pack; see <Link className="underline" to="/methods">Methods</Link> and <Link className="underline" to="/about">About</Link>.

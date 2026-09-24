@@ -14,7 +14,7 @@ export default function ExplainChips({ items, figureId }: { items: Explain[]; fi
           const t = getTerm(ex.term); const c = getConcept(ex.concept);
           return (
             <li key={i}>
-              <Popover className="bx-chip border border-[color:var(--bx-line)] bg-white/70 dark:bg-night-2 hover:bg-paper-2 dark:hover:bg-[#2b261f]" testId={`explain-${figureId}-${i}`} content={
+              <Popover className="bx-chip border border-[color:var(--bx-line)] bg-paper-card dark:bg-night-card hover:bg-paper-2 dark:hover:bg-night-2" testId={`explain-${figureId}-${i}`} content={
                 <div>
                   <p className="font-semibold">{ex.on}</p>
                   <p className="mt-1 leading-6">{ex.text}</p>

@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
-import { AS_OF, INVENTORY_DATE, PREBUILT, assetUrl, families, familyColour, getCompoundMeta, getTaxonMeta, manifest, primaryCompounds, provenance, taxaIndex, tours } from '@/lib/data';
-import { useTheme } from '@/lib/theme';
+import { AS_OF, INVENTORY_DATE, PREBUILT, families, familyColour, getCompoundMeta, getTaxonMeta, manifest, primaryCompounds, provenance, taxaIndex, tours } from '@/lib/data';
 import { ClassIcon, DepthChip, TaxonName } from '@/components/catalogue/Chips';
+import StructureThumb from '@/components/viewer/StructureThumb';
+import { Illustration } from '@/components/Brand';
 
 /** / — the front door (KICKOFF §4): what's growing now, a featured plant and compound, two comparisons, the primer. */
 export default function Home() {
-  const { theme } = useTheme();
   const featured = (manifest as unknown as { featured: { plant: string | null; compound: string | null } }).featured;
   const plant = getTaxonMeta(featured.plant);
   const compound = getCompoundMeta(featured.compound);
@@ -14,18 +14,25 @@ export default function Home() {
   const max = Math.max(...growing.map((f) => f.plantings));
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
-      <p className="flex flex-wrap items-center gap-2">
-        <span className="bx-chip border border-[color:var(--bx-line)] font-semibold">PROTOTYPE FOR CRITIQUE</span>
-        <span className="bx-chip border border-[color:var(--bx-line)] bx-muted">COMMISSIONED REVIEW — NOT PEER REVIEWED</span>
-        <span className="bx-asof">Current as of {AS_OF}</span>
-      </p>
-      <h1 className="text-3xl sm:text-5xl mt-3 leading-tight max-w-4xl">The plants of the UAH Greenhouse, and what is in them</h1>
-      <p className="mt-2 text-sm bx-muted max-w-3xl">{manifest.venue}</p>
+      <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
+        <div className="order-2 lg:order-1 min-w-0">
+        <p className="flex flex-wrap items-center gap-2">
+          <span className="bx-chip border border-[color:var(--bx-line)] font-semibold">PROTOTYPE FOR CRITIQUE</span>
+          <span className="bx-chip border border-[color:var(--bx-line)] bx-muted">COMMISSIONED REVIEW — NOT PEER REVIEWED</span>
+          <span className="bx-asof">Current as of {AS_OF}</span>
+        </p>
+        <h1 className="text-3xl sm:text-5xl mt-3 leading-tight max-w-4xl">The plants of the UAH Greenhouse, and what is in them</h1>
+        <p className="mt-2 text-sm bx-muted max-w-3xl">{manifest.venue}</p>
 
-      <section className="bx-card mt-5 p-4 border-l-4 border-l-[color:var(--bx-accent)] max-w-4xl" aria-labelledby="question-h">
-        <p id="question-h" className="text-[11px] font-semibold tracking-[0.15em] bx-muted">THE QUESTION THIS PROTOTYPE ASKS</p>
-        <p className="mt-1 leading-7">{manifest.question}</p>
-      </section>
+        <section className="bx-card mt-5 p-4 border-l-4 border-l-[color:var(--bx-accent)] max-w-4xl" aria-labelledby="question-h">
+          <p id="question-h" className="text-[11px] font-semibold tracking-[0.15em] bx-muted">THE QUESTION THIS PROTOTYPE ASKS</p>
+          <p className="mt-1 leading-7">{manifest.question}</p>
+        </section>
+        </div>
+        <div className="order-1 lg:order-2 flex justify-center" data-testid="hero-illustration">
+          <Illustration maxHeight={440} eager className="max-h-[260px] sm:max-h-[340px] lg:max-h-[440px]" />
+        </div>
+      </div>
 
       <div className="mt-6 flex flex-wrap gap-2">
         <Link to="/read" className="bx-btn-primary !px-4 !py-2 !text-base">Start with the primer →</Link>
@@ -65,7 +72,7 @@ export default function Home() {
             <section className="bx-card p-5" aria-labelledby="fc-h">
               <p className="text-[11px] font-semibold tracking-[0.15em] bx-muted">FEATURED COMPOUND</p>
               <div className="mt-1 flex gap-3 items-start">
-                {compound.svg && <img src={assetUrl(theme === 'dark' ? compound.svg.dark : compound.svg.light)} alt={`2D structure of ${compound.name}`} width={120} height={95} className="shrink-0 rounded border border-[color:var(--bx-line)]" />}
+                {compound.svg && <div className="w-[140px] shrink-0 rounded border border-[color:var(--bx-line)]"><StructureThumb svg={compound.svg} name={compound.name} /></div>}
                 <div className="min-w-0">
                   <h2 id="fc-h" className="text-2xl flex items-center gap-2"><ClassIcon cls={compound.class} size={14} />{compound.name}</h2>
                   <p className="text-sm mt-1">{compound.one_liner}</p>

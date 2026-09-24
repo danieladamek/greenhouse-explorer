@@ -201,8 +201,14 @@
    "svg": {
     "light": "structures/2d/methyleugenol.svg",
     "dark": "structures/2d/methyleugenol.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 357.3,
+    "height": 213.9,
+    "viewBox": [
+     11.3,
+     43,
+     357.3,
+     213.9
+    ]
    },
    "detail": "structures/data/methyleugenol.json",
    "mwPack": 178.23,

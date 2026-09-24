@@ -235,8 +235,14 @@
    "svg": {
     "light": "structures/2d/eriocitrin.svg",
     "dark": "structures/2d/eriocitrin.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 334.7,
+    "height": 107.1,
+    "viewBox": [
+     19.9,
+     96.5,
+     334.7,
+     107.1
+    ]
    },
    "detail": "structures/data/eriocitrin.json",
    "mwPack": 596.54,

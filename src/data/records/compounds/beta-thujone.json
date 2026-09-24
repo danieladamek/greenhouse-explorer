@@ -189,8 +189,14 @@
    "svg": {
     "light": "structures/2d/beta-thujone.svg",
     "dark": "structures/2d/beta-thujone.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 349.9,
+    "height": 241.6,
+    "viewBox": [
+     15.6,
+     22.4,
+     349.9,
+     241.6
+    ]
    },
    "detail": "structures/data/beta-thujone.json",
    "mwPack": 152.24,

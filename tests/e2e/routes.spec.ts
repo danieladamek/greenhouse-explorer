@@ -75,7 +75,7 @@ test('dark mode toggles, persists, and restyles the page', async ({ page }) => {
   await page.reload();
   await expect(page.locator('html')).toHaveClass(/dark/);
   const bg = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
-  expect(bg).toBe('rgb(21, 19, 15)');
+  expect(bg).toBe('rgb(26, 23, 18)'); // K5.1 warm night #1a1712
 });
 
 for (const route of ['/read', '/plants/salvia-officinalis', '/compounds/baicalin', '/tea', '/greenhouse']) {
@@ -87,3 +87,20 @@ for (const route of ['/read', '/plants/salvia-officinalis', '/compounds/baicalin
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(375);
   });
 }
+
+// K5.1 §2: the bundled faces are used — on a first visit from the first in-app navigation, on a return visit from
+// the first frame — and are never fetched from anywhere but this site
+test('the bundled fonts apply on first navigation, and before first render on a return visit', async ({ page }) => {
+  const external: string[] = [];
+  page.on('request', (r) => { if (/\.woff2?$/.test(r.url()) && !r.url().startsWith('http://localhost:4173/')) external.push(r.url()); });
+  await page.goto('/');
+  await page.getByRole('link', { name: 'Start with the primer →' }).click();
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText(/primer/i);
+  await expect.poll(() => page.evaluate(() => document.fonts.check('16px "Source Sans 3"') && [...document.fonts].some((f) => f.family.includes('Fraunces') && f.status === 'loaded')), { timeout: 15_000 }).toBe(true);
+  expect(await page.evaluate(() => localStorage.getItem('gx-fonts-cached'))).toBe('1');
+  await page.reload({ waitUntil: 'commit' });
+  // on return the faces are added before React's first render: by the time the header exists, they are in use
+  await page.getByTestId('prototype-banner').waitFor();
+  expect(await page.evaluate(() => [...document.fonts].filter((f) => f.family.replace(/"/g, '') === 'Source Sans 3' && f.status === 'loaded').length)).toBeGreaterThanOrEqual(3);
+  expect(external).toEqual([]);
+});

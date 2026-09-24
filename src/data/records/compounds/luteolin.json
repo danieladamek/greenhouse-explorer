@@ -224,8 +224,14 @@
    "svg": {
     "light": "structures/2d/luteolin.svg",
     "dark": "structures/2d/luteolin.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 310.8,
+    "height": 214.4,
+    "viewBox": [
+     34.8,
+     42.8,
+     310.8,
+     214.4
+    ]
    },
    "detail": "structures/data/luteolin.json",
    "mwPack": 286.24,

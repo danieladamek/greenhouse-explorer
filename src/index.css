@@ -1,30 +1,62 @@
+/* Metric-matched fallbacks (K5.1 perf): the bundled fonts load as a non-blocking stylesheet, so first paint uses these.
+   size-adjust and the ascent/descent overrides were computed per weight and style from the actual woff2 files (Fraunces
+   instanced at opsz 36) against the local fallback with fontTools — the next/font / fontaine method — then size-adjust was
+   calibrated in Chromium on the site's own text (canvas width ratio), so the swap does not move the layout (CLS). */
+@font-face { font-family: 'Fraunces Fallback'; src: local('Georgia'), local('Times New Roman'); font-weight: 100 500; font-style: normal; size-adjust: 102.92%; ascent-override: 95.03%; descent-override: 24.78%; line-gap-override: 0%; }
+@font-face { font-family: 'Fraunces Fallback'; src: local('Georgia Italic'), local('Georgia-Italic'), local('Times New Roman Italic'); font-weight: 100 500; font-style: italic; size-adjust: 101.11%; ascent-override: 96.73%; descent-override: 25.22%; line-gap-override: 0%; }
+@font-face { font-family: 'Fraunces Fallback'; src: local('Georgia Bold'), local('Georgia-Bold'), local('Times New Roman Bold'); font-weight: 600 900; font-style: normal; size-adjust: 91.81%; ascent-override: 106.52%; descent-override: 27.77%; line-gap-override: 0%; }
+@font-face { font-family: 'Fraunces Fallback'; src: local('Georgia Bold Italic'), local('Georgia-BoldItalic'), local('Times New Roman Bold Italic'); font-weight: 600 900; font-style: italic; size-adjust: 91.81%; ascent-override: 106.52%; descent-override: 27.77%; line-gap-override: 0%; }
+@font-face { font-family: 'Source Sans 3 Fallback'; src: local('Arial'), local('ArialMT'), local('Liberation Sans'); font-weight: 100 500; font-style: normal; size-adjust: 92.66%; ascent-override: 110.51%; descent-override: 43.17%; line-gap-override: 0%; }
+@font-face { font-family: 'Source Sans 3 Fallback'; src: local('Arial Italic'), local('Arial-ItalicMT'), local('Liberation Sans Italic'); font-weight: 100 500; font-style: italic; size-adjust: 90.27%; ascent-override: 113.43%; descent-override: 44.31%; line-gap-override: 0%; }
+@font-face { font-family: 'Source Sans 3 Fallback'; src: local('Arial Bold'), local('Arial-BoldMT'), local('Liberation Sans Bold'); font-weight: 600 900; font-style: normal; size-adjust: 91.61%; ascent-override: 111.78%; descent-override: 43.66%; line-gap-override: 0%; }
+@font-face { font-family: 'Source Sans 3 Fallback'; src: local('Arial Bold Italic'), local('Arial-BoldItalicMT'), local('Liberation Sans Bold Italic'); font-weight: 600 900; font-style: italic; size-adjust: 91.61%; ascent-override: 111.78%; descent-override: 43.66%; line-gap-override: 0%; }
+@font-face { font-family: 'JetBrains Mono Fallback'; src: local('Courier New'), local('CourierNewPSMT'), local('Liberation Mono'); font-weight: 100 900; font-style: normal; size-adjust: 99.98%; ascent-override: 102.02%; descent-override: 30.01%; line-gap-override: 0%; }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+  /* K5.1 §3 — manila light, warm night dark. Three light values are a shade darker than the item's table so every
+     text pair clears WCAG AA: muted #5f5442 (the item's own fallback, 5.2:1 on paper-2), accent #2d6848 (4.6:1 on
+     paper-2) and amber #924817 (5.2:1 on paper). */
   :root {
     color-scheme: light;
-    --bx-bg: #faf8f4;
-    --bx-bg-2: #f1ede6;
-    --bx-ink: #1f1b16;
-    --bx-muted: #5d5750;
-    --bx-line: #d9d2c7;
-    --bx-accent: #2f5d9a;
-    --bx-amber: #b45309;
+    --bx-bg: #efe3c6;
+    --bx-bg-2: #e6d7b3;
+    --bx-card: rgb(247 239 220 / 0.85);
+    --bx-ink: #2a231a;
+    --bx-muted: #5f5442;
+    --bx-line: #d1bf99;
+    --bx-accent: #2d6848;
+    --gx-leaf: #2f7d4f;
+    --bx-amber: #924817;
+    --bx-highlight: inset 0 2px 0 rgb(255 255 255 / 0.35);
   }
   .dark {
     color-scheme: dark;
-    --bx-bg: #15130f;
-    --bx-bg-2: #211d18;
-    --bx-ink: #efeae2;
-    --bx-muted: #b3aca1;
-    --bx-line: #3a342c;
-    --bx-accent: #8fb4ea;
-    --bx-amber: #fbbf24;
+    --bx-bg: #1a1712;
+    --bx-bg-2: #252019;
+    --bx-card: rgb(42 36 28 / 0.85);
+    --bx-ink: #efe6d3;
+    --bx-muted: #b8ab94;
+    --bx-line: #3f3628;
+    --bx-accent: #8fd0a0;
+    --gx-leaf: #7fbf8a;
+    --bx-amber: #f0b35a;
+    --bx-highlight: none;
   }
-  body { background: var(--bx-bg); color: var(--bx-ink); }
+  body { background: var(--bx-bg); color: var(--bx-ink); @apply font-body; }
+  /* a very faint, static paper grain so manila reads as paper, not as yellowed white (K5.1 §4) */
+  body::before {
+    content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: 0.03;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  .dark body::before { opacity: 0.05; }
   h1, h2, h3, h4 { @apply font-display tracking-tight; }
+  h1 { font-variation-settings: "opsz" 144; }  /* SOFT 30 needs Fraunces "full" (+54 kB); dropped for perf */
+  h3, h4 { font-variation-settings: "opsz" 48; }
+  code, kbd, samp { @apply font-mono; }
   :focus-visible { outline: 3px solid var(--bx-accent); outline-offset: 2px; border-radius: 2px; }
   a { text-underline-offset: 2px; }
   html { scroll-behavior: smooth; }
@@ -36,24 +68,25 @@
 }
 
 @layer components {
-  .bx-card        { @apply rounded-xl border border-[color:var(--bx-line)] bg-white/70 dark:bg-night-2/80 shadow-sm; }
-  .bx-btn         { @apply inline-flex items-center gap-1.5 rounded-md border border-[color:var(--bx-line)] bg-white/80 dark:bg-night-2 px-2.5 py-1.5 text-sm font-medium hover:bg-paper-2 dark:hover:bg-[#2b261f] disabled:opacity-40 disabled:cursor-not-allowed; }
-  .bx-btn-primary { @apply inline-flex items-center gap-1.5 rounded-md bg-ink text-paper dark:bg-night-ink dark:text-night px-3 py-1.5 text-sm font-semibold hover:opacity-90; }
+  .bx-card        { @apply rounded-xl border border-[color:var(--bx-line)] bg-paper-card dark:bg-night-card; box-shadow: var(--bx-highlight); }
+  .bx-btn         { @apply inline-flex items-center gap-1.5 rounded-md border border-[color:var(--bx-line)] bg-paper-card dark:bg-night-card px-2.5 py-1.5 text-sm font-medium hover:bg-paper-2 dark:hover:bg-night-2 disabled:opacity-40 disabled:cursor-not-allowed; }
+  .bx-btn-primary { @apply inline-flex items-center gap-1.5 rounded-md bg-ink text-paper dark:bg-night-ink dark:text-night px-3 py-1.5 text-sm font-semibold hover:opacity-90; letter-spacing: .01em; }
   .bx-btn-on      { @apply !bg-ink !text-paper dark:!bg-night-ink dark:!text-night; }
-  .bx-input       { @apply w-full rounded-md border border-[color:var(--bx-line)] bg-white dark:bg-night-2 px-2.5 py-1.5 text-sm; }
-  .bx-chip        { @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-semibold leading-5; }
+  .bx-input       { @apply w-full rounded-md border border-[color:var(--bx-line)] bg-paper-card dark:bg-night-card px-2.5 py-1.5 text-sm; }
+  .bx-chip        { @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-semibold leading-5 bg-paper-card dark:bg-night-card; }
   .bx-prose       { @apply text-[15px] leading-7 text-ink-muted dark:text-night-muted; }
   .bx-kbd         { @apply rounded border border-[color:var(--bx-line)] px-1 font-mono text-[11px]; }
   .bx-muted       { @apply text-ink-muted dark:text-night-muted; }
   .bx-term        { @apply underline decoration-dotted decoration-[color:var(--bx-accent)] underline-offset-[3px] cursor-help rounded-sm hover:bg-paper-2 dark:hover:bg-night-2; }
   .bx-cite        { @apply align-super text-[11px] font-semibold text-[color:var(--bx-accent)] hover:underline cursor-pointer; }
   .bx-foldout     { @apply bx-card mt-2 mb-4 p-3 text-sm border-l-4 border-l-[color:var(--bx-accent)]; }
-  .bx-todo        { @apply bx-chip bg-amber-100 text-amber-900 dark:bg-amber-900/40 dark:text-amber-200; }
-  .bx-reader      { @apply max-w-[68ch] text-[17px] leading-8 font-body; }
+  .bx-todo        { @apply bx-chip !bg-amber-100 text-amber-900 dark:!bg-amber-900/40 dark:text-amber-200; }
+  .bx-reader      { @apply max-w-[68ch] font-body; font-size: 17.5px; line-height: 1.75; }
+  .gx-wordmark    { @apply font-display; font-variation-settings: "opsz" 144; }
   /* topic mode (APP-SPEC §6.1) — provenance you can see without being shouted at */
   .bx-synthesis   { @apply border-l-2 border-[color:var(--bx-line)] pl-4 my-4; }
   .bx-synthesis-label { @apply block mb-1 text-[11px] uppercase tracking-wider bx-muted font-semibold; }
-  .bx-asof        { @apply bx-chip bg-paper-2 dark:bg-night-2 bx-muted; }
+  .bx-asof        { @apply bx-chip !bg-paper-2 dark:!bg-night-2 bx-muted; }
   .bx-tier        { @apply bx-chip border border-[color:var(--bx-line)] bx-muted; }
   .bx-banner      { @apply bx-card p-3 mb-6 text-sm border-l-4 border-l-[color:var(--bx-accent)]; }
   .sr-only-focusable:not(:focus) { @apply sr-only; }
@@ -64,6 +97,7 @@
   .bx-status      { @apply bx-chip border border-[color:var(--bx-line)] bx-muted; }
   .bx-safety      { @apply rounded-xl border-2 border-rose-800/60 dark:border-rose-300/50 bg-rose-50/60 dark:bg-rose-950/30 p-4; }
   .bx-proto       { @apply border-b border-[color:var(--bx-line)] bg-paper-2 dark:bg-night-2 text-[13px]; }
+  .gx-mono-id     { @apply font-mono text-[12.5px] break-all; }
   .bx-table       { @apply w-full text-sm border-collapse; }
   .bx-table th    { @apply text-left font-semibold p-2 border-b border-[color:var(--bx-line)] align-bottom; }
   .bx-table td    { @apply p-2 border-b border-[color:var(--bx-line)] align-top; }

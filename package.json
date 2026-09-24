@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "Greenhouse Explorer \u2014 prototype for critique: the plants of the UAH Greenhouse and their constituents. NOT PEER REVIEWED; not an official UAH resource; content current as of 2026-09-23.",
+  "description": "Greenhouse Explorer — prototype for critique: the plants of the UAH Greenhouse and their constituents. NOT PEER REVIEWED; not an official UAH resource; content current as of 2026-09-23.",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -16,8 +16,13 @@
   },
   "dependencies": {
     "@floating-ui/react": "^0.27.0",
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@fontsource/source-sans-3": "^5.3.0",
+    "3dmol": "^2.4.2",
     "d3-force": "^3.0.0",
     "d3-scale": "^4.0.2",
+    "d3-shape": "^3.2.0",
     "katex": "^0.16.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -27,14 +32,13 @@
     "rehype-katex": "^7.0.1",
     "remark-gfm": "^4.0.0",
     "remark-math": "^6.0.0",
-    "smiles-drawer": "^2.1.7",
-    "3dmol": "^2.4.2",
-    "d3-shape": "^3.2.0"
+    "smiles-drawer": "^2.1.7"
   },
   "devDependencies": {
     "@playwright/test": "1.63.0",
     "@types/d3-force": "^3.0.10",
     "@types/d3-scale": "^4.0.8",
+    "@types/d3-shape": "^3.1.6",
     "@types/hast": "^3.0.5",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^20.17.0",
@@ -52,7 +56,6 @@
     "typescript": "^5.6.3",
     "vite": "^5.4.11",
     "vitest": "^2.1.8",
-    "zod": "^3.23.8",
-    "@types/d3-shape": "^3.1.6"
+    "zod": "^3.23.8"
   }
 }

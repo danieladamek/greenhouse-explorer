@@ -158,8 +158,14 @@
    "svg": {
     "light": "structures/2d/methyl-cinnamate.svg",
     "dark": "structures/2d/methyl-cinnamate.dark.svg",
-    "width": 380,
-    "height": 300
+    "width": 357.3,
+    "height": 169.2,
+    "viewBox": [
+     11.3,
+     59.4,
+     357.3,
+     169.2
+    ]
    },
    "detail": "structures/data/methyl-cinnamate.json",
    "mwPack": 162.18,

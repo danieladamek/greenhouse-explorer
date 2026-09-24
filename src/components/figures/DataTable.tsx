@@ -57,7 +57,7 @@ export default function DataTable({ figure, rows, inline }: { figure: Figure; ro
           </thead>
           <tbody>
             {shown.map((r, i) => (
-              <tr key={i} className="odd:bg-white/40 dark:odd:bg-night-2/40 align-top">
+              <tr key={i} className="odd:bg-paper-card dark:odd:bg-night-2/40 align-top">
                 {cols.map((c, j) => <td key={c.field} className={`border-b border-[color:var(--bx-line)] px-2 py-1.5 ${j === 0 ? 'font-semibold' : ''}`}>{String(r[c.field] ?? '')}</td>)}
               </tr>
             ))}

@@ -107,3 +107,38 @@ for (const [route, file] of [['/heatmap', 'greenhouse-explorer-heatmap.svg'], ['
     expect(text).toMatch(/^<svg[^>]*xmlns="http:\/\/www.w3.org\/2000\/svg"/);
   });
 }
+
+// K5.1 §4a — thumbnails fit whole and centred: the tall/wide glycosides must not overflow their box
+for (const id of ['dihydrobaicalin', 'eriocitrin']) {
+  test(`/compounds: the ${id} depiction fits inside its box`, async ({ page }) => {
+    await page.setViewportSize({ width: 1280, height: 900 });
+    await page.goto('/compounds');
+    const box = page.getByTestId(`thumb-${id}`).getByTestId('structure-box');
+    await box.scrollIntoViewIfNeeded();
+    const img = box.locator('img');
+    await expect(img).toHaveJSProperty('complete', true);
+    const m = await img.evaluate((el: HTMLImageElement) => {
+      const b = el.parentElement!.getBoundingClientRect(); const r = el.getBoundingClientRect();
+      // the drawn molecule (object-fit: contain) = the image's natural aspect scaled into the img element
+      const s = Math.min(r.width / el.naturalWidth, r.height / el.naturalHeight);
+      const dw = el.naturalWidth * s; const dh = el.naturalHeight * s;
+      const cx = r.left + r.width / 2; const cy = r.top + r.height / 2;
+      return { imgW: el.clientWidth, imgH: el.clientHeight, boxW: el.parentElement!.clientWidth, boxH: el.parentElement!.clientHeight,
+        inside: cx - dw / 2 >= b.left - 0.5 && cx + dw / 2 <= b.right + 0.5 && cy - dh / 2 >= b.top - 0.5 && cy + dh / 2 <= b.bottom + 0.5,
+        centred: Math.abs(cx - (b.left + b.width / 2)) < 1 && Math.abs(cy - (b.top + b.height / 2)) < 1 };
+    });
+    expect(m.imgW).toBeLessThanOrEqual(m.boxW);
+    expect(m.imgH).toBeLessThanOrEqual(m.boxH);
+    expect(m.inside).toBe(true);
+    expect(m.centred).toBe(true);
+  });
+}
+
+test('every 2D depiction has a tight viewBox and no fixed width/height', async ({ request }) => {
+  for (const id of ['eriocitrin', 'dihydrobaicalin', 'thymol']) {
+    const svg = await (await request.get(`/structures/2d/${id}.svg`)).text();
+    const head = svg.slice(0, svg.indexOf('>', svg.indexOf('<svg')) + 1);
+    expect(head).toMatch(/viewBox='[\d. ]+'/);
+    expect(head).not.toMatch(/\swidth=|\sheight=/);
+  }
+});
