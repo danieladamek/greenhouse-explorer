@@ -1,0 +1,258 @@
+{
+ "compound": {
+  "id": "camphor",
+  "name": "camphor",
+  "synonyms": [
+   "2-bornanone",
+   "bornan-2-one"
+  ],
+  "class": "monoterpenoid-ketone",
+  "subclass": "bornane ketone",
+  "one_liner": "Convulsant bicyclic ketone in sage (5-20 % of oil) and rosemary (13-21 % Spanish type).",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "1,7,7-trimethylbicyclo[2.2.1]heptan-2-one",
+   "formula": "C10H16O",
+   "mw": 152.24,
+   "mw_source": "computed_from_formula",
+   "smiles": "CC1(C2CCC1(C(=O)C2)C)C",
+   "inchikey": "DSSYKIVIOFKYAU-UHFFFAOYSA-N",
+   "cas": "76-22-2",
+   "pubchem_cid": 2537,
+   "chebi_id": "CHEBI:36773",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2537/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": "Stereo-unspecified record; enantiomer in sage/rosemary not resolved here."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MEP/terpenoid (plastidial; from geranyl diphosphate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "salvia-officinalis",
+    "plant_part": "essential oil",
+    "value": "5-20",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Rev. 1. EMA/HMPC/150801/2015 (20 Sep 2016). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+    "verified": true,
+    "note": "Duke: Leaf Essent. Oil 44000-458000 ppm; Leaf 0-9324 ppm. | Basis as recorded: % of essential oil"
+   },
+   {
+    "taxon_id": "salvia-rosmarinus",
+    "plant_part": "essential oil",
+    "value": "13.0-21.0 (Spanish type); 5.0-15.0 (Moroccan/Tunisian type)",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6384?page&_format=csv",
+    "verified": true,
+    "note": "Duke: Essential Oil 18000-93000 ppm; Leaf Essent. Oil max 121000 ppm. | Basis as recorded: % of essential oil (Ph. Eur.)"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [
+   {
+    "flag": "convulsant; paediatric seizures",
+    "detail": "EMA rosemary report: clinically insignificant signs around 5 mg/kg, manifest toxicity above 30 mg/kg; seizures in children reported [12]. EMA sage report: camphor 7-50 % in commercial sage oils [1].",
+    "threshold_or_limit": "toxicity thresholds as reported by EMA (not use levels): ~5 mg/kg insignificant; >30 mg/kg manifest toxicity",
+    "source_citation": "EMA/HMPC assessment reports on rosemary (2024) and sage (2016)",
+    "refs": [
+     1,
+     12
+    ]
+   }
+  ],
+  "teaching_note": "Camphor links two greenhouse herbs through one hazard; it is why EMA restricts rosemary oil in children [12].",
+  "citations": [
+   1,
+   12
+  ],
+  "gaps": [
+   "Enantiomer in sage/rosemary not resolved.",
+   "Pharmacology not researched.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "[Convulsant](#term:convulsant) bicyclic [ketone](#term:monoterpenoid-ketone) in sage (5-20 [% of oil](#term:essential-oil-percent)) and rosemary (13-21 % Spanish type).",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Camphor links two greenhouse herbs through one hazard; it is why [EMA](#term:ema-hmpc) restricts rosemary oil in children [12](#cite:12).",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": [
+    "EMA rosemary report: clinically insignificant signs around 5 mg/kg, manifest toxicity above 30 mg/kg; seizures in children reported [12](#cite:12). EMA sage report: camphor 7-50 % in commercial sage oils [1](#cite:1)."
+   ]
+  },
+  "terms": [
+   "convulsant",
+   "monoterpenoid-ketone",
+   "essential-oil-percent",
+   "ema-hmpc",
+   "solubility"
+  ],
+  "cited_refs": [
+   1,
+   12
+  ],
+  "taxa": [
+   "salvia-officinalis",
+   "salvia-rosmarinus"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H16O",
+   "inchikeyComputed": "DSSYKIVIOFKYAU-UHFFFAOYSA-N",
+   "canonicalSmiles": "CC12CCC(CC1=O)C2(C)C",
+   "monoisotopicMass": 152.1201,
+   "averageMass": 152.237,
+   "descriptors": {
+    "heavyAtoms": 11,
+    "rings": 2,
+    "aromaticRings": 0,
+    "hbd": 0,
+    "hba": 1,
+    "rotatableBonds": 0,
+    "logP": 2.4,
+    "tpsa": 17.1,
+    "fsp3": 0.9,
+    "stereocenters": 2,
+    "charge": 0
+   },
+   "atomCount": 27,
+   "heavyAtomCount": 11,
+   "functionalGroups": [
+    {
+     "id": "ketone",
+     "name": "Ketone",
+     "matches": [
+      [
+       2,
+       7,
+       0,
+       6
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/camphor.sdf",
+   "svg": {
+    "light": "structures/2d/camphor.svg",
+    "dark": "structures/2d/camphor.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/camphor.json",
+   "mwPack": 152.24,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": [
+   "5-three-pathways-that-make-the-greenhouse-smell",
+   "7-from-leaf-to-cup"
+  ]
+ },
+ "rows": [
+  {
+   "row": "camphor#0",
+   "compound_id": "camphor",
+   "compound": "camphor",
+   "class": "monoterpenoid-ketone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "5-20",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Rev. 1. EMA/HMPC/150801/2015 (20 Sep 2016). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Duke: Leaf Essent. Oil 44000-458000 ppm; Leaf 0-9324 ppm. | Basis as recorded: % of essential oil",
+   "refs": [
+    1
+   ]
+  },
+  {
+   "row": "camphor#1",
+   "compound_id": "camphor",
+   "compound": "camphor",
+   "class": "monoterpenoid-ketone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-rosmarinus",
+   "taxon_known": true,
+   "taxon_name": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "13.0-21.0 (Spanish type); 5.0-15.0 (Moroccan/Tunisian type)",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6384?page&_format=csv",
+   "verified": true,
+   "note": "Duke: Essential Oil 18000-93000 ppm; Leaf Essent. Oil max 121000 ppm. | Basis as recorded: % of essential oil (Ph. Eur.)",
+   "refs": [
+    12
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "sage-leaf-hot-infusion",
+   "name": "Sage leaf, hot-water infusion"
+  },
+  {
+   "id": "herb-tincture-ethanol-water",
+   "name": "Herb tincture in ethanol-water (lemon balm and rosemary as examples)"
+  }
+ ]
+}

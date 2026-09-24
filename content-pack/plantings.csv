@@ -1,0 +1,92 @@
+id,list_category,original_entry,common_name,cultivar,crop_type,scientific_name,species_key,family,confidence,note,taxon_id,status
+GH-001,Leafy Greens,Arugula,Arugula,(not given),Salad rocket,Eruca vesicaria subsp. sativa,Eruca vesicaria,Brassicaceae,High,Cultivar not recorded.,eruca-vesicaria,current
+GH-002,Leafy Greens,Chinese Cabbage,Chinese cabbage (napa),(not given),Heading,Brassica rapa subsp. pekinensis,Brassica rapa,Brassicaceae,High,Cultivar not recorded.,brassica-rapa,current
+GH-035,Veggies,"Pak Choi, Dwarf",Pac choi (bok choy),(not given; dwarf type),Pac choi,Brassica rapa subsp. chinensis,Brassica rapa,Brassicaceae,Check,Cultivar not recorded. May duplicate one of the named pac chois.,brassica-rapa,current
+GH-036,Veggies,"Pac Choi, Joi Choi",Pac choi (bok choy),Joi Choi F1,Pac choi,Brassica rapa subsp. chinensis,Brassica rapa,Brassicaceae,High,,brassica-rapa,current
+GH-037,Veggies,"Pac Choi, Little Shanghai",Pac choi (bok choy),Little Shanghai,Green-stem (Shanghai),Brassica rapa subsp. chinensis,Brassica rapa,Brassicaceae,High,,brassica-rapa,current
+GH-038,Veggies,"Pac Choi,Wi-Win  Choi",Pac choi (bok choy),Win-Win Choi F1,Pac choi,Brassica rapa subsp. chinensis,Brassica rapa,Brassicaceae,High,Typo 'Wi-Win' → Win-Win.,brassica-rapa,current
+GH-051,Veggies,"Turnips, Hakuren",Turnip,Hakurei (probable),Salad turnip,Brassica rapa subsp. rapa,Brassica rapa,Brassicaceae,Check,'Hakuren' is probably 'Hakurei'. Check packet.,brassica-rapa,current
+GH-052,Veggies,"Turnips, Hirosaki Red",Turnip,Hirosaki Red,Red Japanese turnip,Brassica rapa subsp. rapa,Brassica rapa,Brassicaceae,High,,brassica-rapa,current
+GH-003,Leafy Greens,"Cilantro, Santo",Cilantro,Santo,Leaf,Coriandrum sativum,Coriandrum sativum,Apiaceae,High,,coriandrum-sativum,current
+GH-004,Leafy Greens,"Cilantro, Calypso",Cilantro,Calypso,Leaf,Coriandrum sativum,Coriandrum sativum,Apiaceae,High,,coriandrum-sativum,current
+GH-063,Herbs,"Corriander, Cilantro",Cilantro / coriander,(not given),Leaf / seed,Coriandrum sativum,Coriandrum sativum,Apiaceae,Check,Typo 'Corriander'. May duplicate Santo or Calypso under Leafy Greens.,coriandrum-sativum,current
+GH-005,Leafy Greens,"Chard, Swish Bright Lights",Swiss chard,Bright Lights,Leaf beet,Beta vulgaris subsp. vulgaris (Cicla Group),Beta vulgaris,Amaranthaceae,High,Typo 'Swish' → Swiss.,beta-vulgaris,current
+GH-006,Leafy Greens,"Chard, Swish Rhubarb Chard",Swiss chard,Rhubarb,Leaf beet,Beta vulgaris subsp. vulgaris (Cicla Group),Beta vulgaris,Amaranthaceae,High,Typo 'Swish' → Swiss.,beta-vulgaris,current
+GH-027,Veggies,"Beets, Hybrid Round Red",Beet,(not given; hybrid round red),Root,Beta vulgaris subsp. vulgaris (Conditiva Group),Beta vulgaris,Amaranthaceae,High,Cultivar name not recorded. Same species as chard.,beta-vulgaris,current
+GH-007,Leafy Greens,Collards,Collards,(not given),Leaf,Brassica oleracea (Viridis Group),Brassica oleracea,Brassicaceae,High,Cultivar not recorded.,brassica-oleracea,current
+GH-033,Veggies,Kohlrabi,Kohlrabi,(not given),Swollen stem,Brassica oleracea (Gongylodes Group),Brassica oleracea,Brassicaceae,High,Cultivar not recorded.,brassica-oleracea,current
+GH-008,Leafy Greens,Fennel. Dragon,Florence (bulb) fennel,Dragon F1,Bulb,Foeniculum vulgare (Azoricum Group),Foeniculum vulgare,Apiaceae,High,"Listed twice (also under Herbs). 'Dragon' is a bulb fennel, not tarragon.",foeniculum-vulgare,current
+GH-066,Herbs,Fennel. Dragon,Florence (bulb) fennel,Dragon F1,Bulb,Foeniculum vulgare (Azoricum Group),Foeniculum vulgare,Apiaceae,High,DUPLICATE of the Leafy Greens entry.,foeniculum-vulgare,current
+GH-082,Medicinal,"Fennel, Preludio Bulb",Florence (bulb) fennel,Preludio,Bulb,Foeniculum vulgare (Azoricum Group),Foeniculum vulgare,Apiaceae,High,"A second bulb fennel, distinct from Dragon.",foeniculum-vulgare,current
+GH-009,Leafy Greens,Leeks,Leek,(not given),Stem,Allium ampeloprasum (Porrum Group),Allium ampeloprasum,Amaryllidaceae,High,Cultivar not recorded.,allium-ampeloprasum,current
+GH-010,Leafy Greens,"Spinach, Smooth Leaf Flamingo",Spinach,Flamingo,Smooth-leaf,Spinacia oleracea,Spinacia oleracea,Amaranthaceae,High,,spinacia-oleracea,current
+GH-011,Leafy Greens,"Spinach, Savoyed Sunangel",Spinach,Sunangel,Savoyed,Spinacia oleracea,Spinacia oleracea,Amaranthaceae,High,,spinacia-oleracea,current
+GH-012,Leafy Greens,Lettuce Buttercruch Bibb,Lettuce,Buttercrunch,Butterhead (Bibb),Lactuca sativa,Lactuca sativa,Asteraceae,High,Typo 'Buttercruch' → Buttercrunch.,lactuca-sativa,current
+GH-013,Leafy Greens,Lettuce Butterhead Rex,Lettuce,Rex,Butterhead,Lactuca sativa,Lactuca sativa,Asteraceae,High,,lactuca-sativa,current
+GH-014,Leafy Greens,Lettuce Green Butter Salanova,Lettuce,Salanova Green Butter,Butterhead (Salanova),Lactuca sativa,Lactuca sativa,Asteraceae,High,,lactuca-sativa,current
+GH-015,Leafy Greens,"Lettuce, Green Oakleaf Salanova",Lettuce,Salanova Green Oakleaf,Oakleaf (Salanova),Lactuca sativa,Lactuca sativa,Asteraceae,High,,lactuca-sativa,current
+GH-016,Leafy Greens,"Lettuce, Green Sweet Crisp Salanova",Lettuce,Salanova Green Sweet Crisp,Crisp (Salanova),Lactuca sativa,Lactuca sativa,Asteraceae,High,,lactuca-sativa,current
+GH-017,Leafy Greens,Lettuce  Crispiro Iceberg,Lettuce,Crispino (probable),Iceberg,Lactuca sativa,Lactuca sativa,Asteraceae,Check,'Crispiro' is probably 'Crispino' iceberg. Check packet.,lactuca-sativa,current
+GH-018,Leafy Greens,"Lettuce, Red Oak Leaf Salanova",Lettuce,Salanova Red Oakleaf,Oakleaf (Salanova),Lactuca sativa,Lactuca sativa,Asteraceae,High,,lactuca-sativa,current
+GH-019,Leafy Greens,Lettuce Outrageous,Lettuce,Outredgeous (probable),Red romaine,Lactuca sativa,Lactuca sativa,Asteraceae,Check,"Probably 'Outredgeous', the red romaine grown on the ISS in NASA's Veggie system. Good story for a MARS greenhouse.",lactuca-sativa,current
+GH-020,Leafy Greens,Lettuce Red Butter Solanova,Lettuce,Salanova Red Butter,Butterhead (Salanova),Lactuca sativa,Lactuca sativa,Asteraceae,High,Typo 'Solanova' → Salanova.,lactuca-sativa,current
+GH-021,Leafy Greens,"Lettuce, Waldmann's Dark Green",Lettuce,Waldmann's Dark Green,Green leaf,Lactuca sativa,Lactuca sativa,Asteraceae,High,,lactuca-sativa,current
+GH-022,Leafy Greens,"Lettuce, Romaine Coastal Star",Lettuce,Coastal Star,Romaine,Lactuca sativa,Lactuca sativa,Asteraceae,High,,lactuca-sativa,current
+GH-023,Leafy Greens,Lettuce Romaine Dragoon,Lettuce,Dragoon,Romaine,Lactuca sativa,Lactuca sativa,Asteraceae,High,,lactuca-sativa,current
+GH-024,Leafy Greens,Lettuce Romane Sunland,Lettuce,Sunland,Romaine,Lactuca sativa,Lactuca sativa,Asteraceae,High,Typo 'Romane' → Romaine.,lactuca-sativa,current
+GH-025,Veggies,"Bean, Pole",Common bean,(not given),Pole,Phaseolus vulgaris,Phaseolus vulgaris,Fabaceae,Check,Cultivar not recorded. Assumed common bean; confirm it isn't a runner or yard-long bean.,phaseolus-vulgaris,current
+GH-026,Veggies,"Beans, Bush",Common bean,(not given),Bush,Phaseolus vulgaris,Phaseolus vulgaris,Fabaceae,High,Cultivar not recorded.,phaseolus-vulgaris,current
+GH-028,Veggies,Cellery Conquistqador,Celery,Conquistador,Stalk,Apium graveolens var. dulce,Apium graveolens,Apiaceae,High,Typos 'Cellery' and 'Conquistqador'.,apium-graveolens,current
+GH-029,Veggies,"Celery, Kelvin",Celery,Kelvin,Stalk,Apium graveolens var. dulce,Apium graveolens,Apiaceae,High,,apium-graveolens,current
+GH-030,Veggies,"Cucumbers, Corinto",Cucumber,Corinto,"Slicing, parthenocarpic",Cucumis sativus,Cucumis sativus,Cucurbitaceae,High,,cucumis-sativus,current
+GH-031,Veggies,"Eggplant, Orient Express",Eggplant,Orient Express,Asian (long),Solanum melongena,Solanum melongena,Solanaceae,High,,solanum-melongena,current
+GH-032,Veggies,"Kale, Red Russian",Kale,Red Russian,Siberian kale,Brassica napus (Pabularia Group),Brassica napus,Brassicaceae,High,"Red Russian kale is Brassica napus (Siberian kale), not B. oleracea like most kales.",brassica-napus,current
+GH-034,Veggies,"Onions, Bunching Parade",Bunching onion,Parade,Scallion,Allium fistulosum,Allium fistulosum,Amaryllidaceae,Check,Assumed A. fistulosum; some bunching onions are A. cepa. Check packet.,allium-fistulosum,current
+GH-039,Veggies,"Peas, Sugar Snap",Snap pea,Sugar Snap,Edible pod,Pisum sativum var. macrocarpon,Pisum sativum,Fabaceae,High,,pisum-sativum,current
+GH-040,Veggies,"Pepper, sweet King Arthur",Sweet pepper,King Arthur,Bell,Capsicum annuum,Capsicum annuum,Solanaceae,High,,capsicum-annuum,current
+GH-041,Veggies,"Pepper, Hot Cayennetta",Hot pepper,Cayennetta,Cayenne,Capsicum annuum,Capsicum annuum,Solanaceae,High,,capsicum-annuum,current
+GH-042,Veggies,"Peppers, Red Rocket",Hot pepper,Red Rocket,Cayenne,Capsicum annuum,Capsicum annuum,Solanaceae,Check,"The Johnny's 'Red Rocket' is a hot cayenne, but a sweet 'Red Rocket' is also sold. Check packet (it decides whether capsaicin is present).",capsicum-annuum,current
+GH-043,Veggies,"Radishes, Donato",Radish,Donato,Round,Raphanus sativus,Raphanus sativus,Brassicaceae,High,,raphanus-sativus,current
+GH-044,Veggies,"Radishes, Sora",Radish,Sora,Round,Raphanus sativus,Raphanus sativus,Brassicaceae,High,,raphanus-sativus,current
+GH-045,Veggies,"Shallots, Conservor",Shallot,Conservor F1,Seed shallot,Allium cepa (Aggregatum Group),Allium cepa,Amaryllidaceae,High,,allium-cepa,current
+GH-046,Veggies,"Shallots, Matador",Shallot,Matador,Seed shallot,Allium cepa (Aggregatum Group),Allium cepa,Amaryllidaceae,High,,allium-cepa,current
+GH-047,Veggies,"Tomato, Dwarf Red Robin",Tomato,Red Robin,Dwarf,Solanum lycopersicum,Solanum lycopersicum,Solanaceae,High,,solanum-lycopersicum,current
+GH-048,Veggies,"Tomato, Tiny Tim",Tomato,Tiny Tim,Dwarf cherry,Solanum lycopersicum,Solanum lycopersicum,Solanaceae,High,,solanum-lycopersicum,current
+GH-049,Veggies,"Tomato, Bush Champion II",Tomato,Bush Champion II,Bush,Solanum lycopersicum,Solanum lycopersicum,Solanaceae,High,,solanum-lycopersicum,current
+GH-050,Veggies,"Tomato, New Big Dwarf",Tomato,New Big Dwarf,Dwarf,Solanum lycopersicum,Solanum lycopersicum,Solanaceae,High,,solanum-lycopersicum,current
+GH-053,Herbs,"Basil,Genovese",Sweet basil,Genovese,Sweet,Ocimum basilicum,Ocimum basilicum,Lamiaceae,High,,ocimum-basilicum,current
+GH-054,Herbs,"Basil, Compact",Sweet basil,(not given; compact type),Compact / dwarf,Ocimum basilicum,Ocimum basilicum,Lamiaceae,Check,Cultivar not recorded. Could be O. basilicum or O. minimum (Greek bush basil).,ocimum-basilicum,current
+GH-055,Herbs,"Basi,l Cinnamon",Cinnamon basil,Cinnamon,Aromatic,Ocimum basilicum,Ocimum basilicum,Lamiaceae,High,Typo. High methyl cinnamate chemotype.,ocimum-basilicum,current
+GH-056,Herbs,"Basil Citrus, Mrs. Burns",Lemon basil,Mrs. Burns' Lemon,Citrus,Ocimum basilicum (lemon group; sometimes O. × africanum),Ocimum basilicum,Lamiaceae,Check,Taxonomy disputed: often treated as the hybrid O. × africanum. Citral chemotype.,ocimum-basilicum,current
+GH-057,Herbs,"Basil Purple, Red Rubin Red",Purple basil,Red Rubin,Purple,Ocimum basilicum,Ocimum basilicum,Lamiaceae,High,Anthocyanin-rich.,ocimum-basilicum,current
+GH-058,Herbs,"Basil, Sweet Thai",Thai basil,(not given),Thai,Ocimum basilicum var. thyrsiflorum,Ocimum basilicum,Lamiaceae,High,Cultivar not recorded.,ocimum-basilicum,current
+GH-059,Herbs,"Chervil, Vertissimo",Chervil,Vertissimo,Leaf,Anthriscus cerefolium,Anthriscus cerefolium,Apiaceae,High,,anthriscus-cerefolium,current
+GH-060,Herbs,"Chives,Purly",Chives,Purly,Leaf,Allium schoenoprasum,Allium schoenoprasum,Amaryllidaceae,High,,allium-schoenoprasum,current
+GH-061,Herbs,"Chives, Staro",Chives,Staro,Leaf,Allium schoenoprasum,Allium schoenoprasum,Amaryllidaceae,High,,allium-schoenoprasum,current
+GH-062,Herbs,Chinese Leeks/Garlic Chives,Garlic chives,(not given),Leaf,Allium tuberosum,Allium tuberosum,Amaryllidaceae,High,,allium-tuberosum,current
+GH-064,Herbs,"Dill, Fernleaf",Dill,Fernleaf,Dwarf leaf,Anethum graveolens,Anethum graveolens,Apiaceae,High,,anethum-graveolens,current
+GH-065,Herbs,"Dill, Teddy",Dill,Teddy,Dwarf leaf,Anethum graveolens,Anethum graveolens,Apiaceae,High,,anethum-graveolens,current
+GH-067,Herbs,Lemon Balm,Lemon balm,(not given),Leaf,Melissa officinalis,Melissa officinalis,Lamiaceae,High,Also listed under Medicinal. Same plant or two plantings?,melissa-officinalis,current
+GH-084,Medicinal,Lemon Balm,Lemon balm,(not given),Leaf,Melissa officinalis,Melissa officinalis,Lamiaceae,High,DUPLICATE of the Herbs entry (same plant or two plantings?).,melissa-officinalis,current
+GH-068,Herbs,Marjoram,Sweet marjoram,(not given),Leaf,Origanum majorana,Origanum majorana,Lamiaceae,High,,origanum-majorana,current
+GH-069,Herbs,"Mint, Common",Mint,(not given),Leaf,Mentha spicata (probable),Mentha spicata,Lamiaceae,Unresolved,"'Common mint' usually means spearmint, but it could be another Mentha. Check label or crush-test (spearmint = carvone; peppermint = menthol).",mentha-spicata,current
+GH-070,Herbs,"Mustard, Green Amara",Ethiopian kale / Amara mustard,Amara,Leaf,Brassica carinata,Brassica carinata,Brassicaceae,High,"Not the usual mustard green (B. juncea). Amara is Ethiopian mustard, B. carinata.",brassica-carinata,current
+GH-071,Herbs,"Oregano, Greek",Greek oregano,(not given),Leaf,Origanum vulgare subsp. hirtum,Origanum vulgare,Lamiaceae,High,Carvacrol-rich subspecies.,origanum-vulgare,current
+GH-072,Herbs,"Parsley, Giant of Italy",Flat-leaf parsley,Giant of Italy,Flat-leaf,Petroselinum crispum (neapolitanum type),Petroselinum crispum,Apiaceae,High,,petroselinum-crispum,current
+GH-073,Herbs,Rosmary,Rosemary,(not given),Leaf,Salvia rosmarinus (syn. Rosmarinus officinalis),Salvia rosmarinus,Lamiaceae,High,Typo. Also listed under Medicinal.,salvia-rosmarinus,current
+GH-089,Medicinal,Rosemary,Rosemary,(not given),Leaf,Salvia rosmarinus (syn. Rosmarinus officinalis),Salvia rosmarinus,Lamiaceae,High,DUPLICATE of the Herbs entry (same plant or two plantings?).,salvia-rosmarinus,current
+GH-074,Herbs,Sage,Common sage,(not given),Leaf,Salvia officinalis,Salvia officinalis,Lamiaceae,High,Also listed under Medicinal.,salvia-officinalis,current
+GH-087,Medicinal,Sage,Common sage,(not given),Leaf,Salvia officinalis,Salvia officinalis,Lamiaceae,High,DUPLICATE of the Herbs entry (same plant or two plantings?).,salvia-officinalis,current
+GH-075,Herbs,"Thyme, German Winter",Common thyme,German Winter,Leaf,Thymus vulgaris,Thymus vulgaris,Lamiaceae,High,,thymus-vulgaris,current
+GH-090,Medicinal,Thyme,Thyme,(not given),Leaf,Thymus vulgaris (probable),Thymus vulgaris,Lamiaceae,Check,"May be the German Winter plant listed under Herbs, or a separate thyme (e.g. lemon thyme, T. × citriodorus).",thymus-vulgaris,current
+GH-076,Herbs,Watercress,Watercress,(not given),Leaf,Nasturtium officinale,Nasturtium officinale,Brassicaceae,High,,nasturtium-officinale,current
+GH-077,Medicinal,"Basil, Holy",Holy basil (tulsi),(not given),Tulsi,Ocimum tenuiflorum (syn. O. sanctum),Ocimum tenuiflorum,Lamiaceae,Check,"Ask which tulsi. 'Rama' and 'Krishna' are O. tenuiflorum, but 'Vana' tulsi is O. gratissimum, a different species.",ocimum-tenuiflorum,current
+GH-078,Medicinal,Calendula,Calendula (pot marigold),(not given),Flower,Calendula officinalis,Calendula officinalis,Asteraceae,High,,calendula-officinalis,current
+GH-079,Medicinal,"Chamomile, German",German chamomile,(not given),Flower,Matricaria chamomilla (syn. M. recutita),Matricaria chamomilla,Asteraceae,High,,matricaria-chamomilla,current
+GH-080,Medicinal,Dandelion,Dandelion,(not given),Leaf / root,Taraxacum officinale agg.,Taraxacum officinale,Asteraceae,High,,taraxacum-officinale,current
+GH-081,Medicinal,Echinacea (purpurea),Purple coneflower,(not given),Flower / root,Echinacea purpurea,Echinacea purpurea,Asteraceae,High,,echinacea-purpurea,current
+GH-083,Medicinal,Feverfew,Feverfew,(not given),Leaf / flower,Tanacetum parthenium,Tanacetum parthenium,Asteraceae,High,,tanacetum-parthenium,current
+GH-085,Medicinal,Motherwort,Motherwort,(not given),Leaf / flower,Leonurus cardiaca,Leonurus cardiaca,Lamiaceae,High,,leonurus-cardiaca,current
+GH-086,Medicinal,Peppermint,Peppermint,(not given),Leaf,Mentha × piperita,Mentha × piperita,Lamiaceae,High,,mentha-x-piperita,current
+GH-088,Medicinal,Skullcap,Skullcap,(not given),Aerial parts or root,Scutellaria lateriflora OR Scutellaria baicalensis,Scutellaria (unresolved),Lamiaceae,Unresolved,"Two very different medicinal plants. American skullcap (S. lateriflora, aerial parts) is the usual tea herb. Chinese skullcap (S. baicalensis, root; baicalin, baicalein) is the pharmacology workhorse. Check seed packet.",scutellaria-sp,current
+GH-091,Medicinal,Yarrow,Yarrow,(not given),Aerial parts,Achillea millefolium,Achillea millefolium,Asteraceae,High,,achillea-millefolium,current

@@ -1,0 +1,466 @@
+{
+ "taxa": [
+  {
+   "id": "salvia-rosmarinus",
+   "species_key": "Salvia rosmarinus",
+   "accepted_name": "Salvia rosmarinus",
+   "authority": "Spenn.",
+   "family": "Lamiaceae",
+   "common_names": [
+    "Rosemary"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 39367,
+    "powo_id": "urn:lsid:ipni.org:names:457138-1",
+    "gbif_key": 10902460,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Rosmarinus officinalis L. (POWO urn:lsid:ipni.org:names:455509-1; GBIF 2926634; NCBI synonym of 39367)"
+   ],
+   "columns": [
+    "herbs",
+    "medicinal"
+   ],
+   "identity_status": "confirmed",
+   "profiled": true,
+   "profile_depth": "light",
+   "cultivars": [
+    {
+     "crop_id": "GH-073",
+     "name": null,
+     "type": "Leaf",
+     "list_category": "herbs",
+     "name_as_given": "Salvia rosmarinus (syn. Rosmarinus officinalis)",
+     "identity_status": "confirmed",
+     "note": "Typo. Also listed under Medicinal."
+    },
+    {
+     "crop_id": "GH-089",
+     "name": null,
+     "type": "Leaf",
+     "list_category": "medicinal",
+     "name_as_given": "Salvia rosmarinus (syn. Rosmarinus officinalis)",
+     "identity_status": "confirmed",
+     "note": "DUPLICATE of the Herbs entry (same plant or two plantings?)."
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "The inventory may use Rosmarinus officinalis. POWO, GBIF and NCBI all treat it as a synonym of Salvia rosmarinus. NCBI has no separate taxid for R. officinalis; it is a name on taxid 39367. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-073",
+    "GH-089"
+   ],
+   "n_plantings": 2,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [
+    "rosmarinic-acid",
+    "1-8-cineole",
+    "ursolic-acid",
+    "camphor",
+    "borneol",
+    "carnosic-acid",
+    "carnosol",
+    "alpha-pinene"
+   ],
+   "occurrence_rows": [
+    "rosmarinic-acid#4",
+    "1-8-cineole#2",
+    "ursolic-acid#2",
+    "camphor#1",
+    "borneol#1",
+    "carnosic-acid#1",
+    "carnosol#1",
+    "alpha-pinene#0"
+   ],
+   "safety_evidence": {
+    "taxon_id": "salvia-rosmarinus",
+    "plant_part_used": "leaf; essential oil (cutaneous)",
+    "safety": {
+     "drug_interactions": [],
+     "pregnancy_lactation": {
+      "statement": "'The data available are not sufficient to conclude the safety of rosemary preparations used during pregnancy and lactation' (EMA).",
+      "refs": [
+       12
+      ],
+      "md": "'The data available are not sufficient to conclude the safety of rosemary preparations used during pregnancy and lactation' ([EMA](#term:ema-hmpc))."
+     },
+     "allergy": {
+      "statement": "Carnosol is identified as a major allergen in rosemary contact dermatitis.",
+      "refs": [
+       12
+      ],
+      "md": "Carnosol is identified as a major allergen in rosemary [contact dermatitis](#term:contact-allergen)."
+     },
+     "adverse_event_history": {
+      "statement": "Paediatric camphor seizure reports summarised by EMA.",
+      "refs": [
+       12
+      ],
+      "md": "Paediatric camphor [seizure](#term:convulsant) reports summarised by EMA."
+     },
+     "contraindications": [
+      {
+       "statement": "Oral leaf: obstruction of bile duct, cholangitis, liver disease, gallstones [12]",
+       "md": "Oral leaf: obstruction of bile duct, cholangitis, liver disease, gallstones [12](#cite:12)"
+      },
+      {
+       "statement": "Oil: do not apply to broken or irritated skin [12]",
+       "md": "Oil: do not apply to broken or irritated skin [12](#cite:12)"
+      },
+      {
+       "statement": "Not recommended: leaf under 12 years, oil under 18 years [12]",
+       "md": "Not recommended: leaf under 12 years, oil under 18 years [12](#cite:12)"
+      }
+     ],
+     "constituents_of_concern": [
+      {
+       "compound_id": "camphor",
+       "concern": "convulsant; seizures reported in children",
+       "threshold_or_limit": "EMA toxicity thresholds ~5 mg/kg (insignificant), >30 mg/kg (manifest toxicity)",
+       "refs": [
+        12
+       ],
+       "md": "convulsant; seizures reported in children"
+      },
+      {
+       "compound_id": "carnosol",
+       "concern": "contact allergen",
+       "threshold_or_limit": null,
+       "refs": [
+        12
+       ],
+       "md": "contact allergen"
+      }
+     ]
+    },
+    "evidence": [
+     {
+      "claim": "Rosemary leaf is traditionally used for dyspepsia and mild gastrointestinal spasm.",
+      "grade": "T",
+      "test_article": "whole_herb",
+      "test_article_detail": "rosemary leaf (oral); bath additive; cutaneous oil",
+      "population": "traditional",
+      "outcome_summary": "EMA: 'symptomatic relief of dyspepsia and mild spasmodic disorders of the gastrointestinal tract'; bath/oil for 'minor muscular and articular pain'.",
+      "refs": [
+       12
+      ],
+      "note": null,
+      "md": {
+       "claim": "Rosemary leaf is [traditionally used](#term:traditional-use) for dyspepsia and mild gastrointestinal spasm.",
+       "outcome_summary": "EMA: 'symptomatic relief of dyspepsia and mild spasmodic disorders of the gastrointestinal tract'; bath/oil for 'minor muscular and articular pain'."
+      }
+     }
+    ],
+    "monograph_status": {
+     "ema_hmpc": {
+      "exists": true,
+      "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf"
+     },
+     "escop": {
+      "exists": null,
+      "url": null
+     },
+     "who": {
+      "exists": null,
+      "url": null
+     }
+    },
+    "refs": [
+     12
+    ],
+    "gaps": [
+     "ESCOP/WHO status not checked.",
+     "No human efficacy trial found for any indication (EMA: none for approved indications)."
+    ],
+    "as_of": "2026-09-23",
+    "terms": [
+     "ema-hmpc",
+     "contact-allergen",
+     "convulsant",
+     "traditional-use"
+    ],
+    "cited_refs": [
+     12
+    ]
+   },
+   "preparations": [
+    "herb-tincture-ethanol-water"
+   ],
+   "primer_sections": [
+    "5-three-pathways-that-make-the-greenhouse-smell",
+    "7-from-leaf-to-cup"
+   ],
+   "todo": [
+    {
+     "where": "taxa_safety_evidence/salvia-rosmarinus",
+     "what": "ESCOP/WHO status not checked."
+    },
+    {
+     "where": "taxa_safety_evidence/salvia-rosmarinus",
+     "what": "No human efficacy trial found for any indication (EMA: none for approved indications)."
+    }
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "row": "rosmarinic-acid#4",
+   "compound_id": "rosmarinic-acid",
+   "compound": "rosmarinic acid",
+   "class": "hydroxycinnamic-acid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-rosmarinus",
+   "taxon_known": true,
+   "taxon_name": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": "max 3500",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6384?page&_format=csv",
+   "verified": true,
+   "note": "Duke: Leaf max 3500; Plant max 25000; Inflorescence 25000-43000 ppm. EMA: Ph. Eur. leaf minimum 3 % total hydroxycinnamic derivatives expressed as rosmarinic acid; rosmarinic acid named among leaf constituents. LOTUS lists rosmarinic acid in Rosmarinus officinalis (LTS0092757). | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    12
+   ]
+  },
+  {
+   "row": "1-8-cineole#2",
+   "compound_id": "1-8-cineole",
+   "compound": "1,8-cineole (eucalyptol)",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-rosmarinus",
+   "taxon_known": true,
+   "taxon_name": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "16.0-25.0 (Spanish type); 38.0-55.0 (Moroccan/Tunisian type)",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6384?page&_format=csv",
+   "verified": true,
+   "note": "Duke: Essential Oil 145000-153000 ppm; Leaf Essent. Oil max 293000 ppm. | Basis as recorded: % of essential oil (Ph. Eur.)",
+   "refs": [
+    12
+   ]
+  },
+  {
+   "row": "ursolic-acid#2",
+   "compound_id": "ursolic-acid",
+   "compound": "ursolic acid",
+   "class": "triterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-rosmarinus",
+   "taxon_known": true,
+   "taxon_name": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "EMA names ursolic acid among rosemary leaf constituents (no amount). Database record not confirmed: the Duke CSV response was truncated before 'U', KNApSAcK Rosmarinus list has no ursolic acid, LOTUS visible JSON did not show Rosmarinus (truncated).",
+   "refs": [
+    12
+   ]
+  },
+  {
+   "row": "camphor#1",
+   "compound_id": "camphor",
+   "compound": "camphor",
+   "class": "monoterpenoid-ketone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-rosmarinus",
+   "taxon_known": true,
+   "taxon_name": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "13.0-21.0 (Spanish type); 5.0-15.0 (Moroccan/Tunisian type)",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6384?page&_format=csv",
+   "verified": true,
+   "note": "Duke: Essential Oil 18000-93000 ppm; Leaf Essent. Oil max 121000 ppm. | Basis as recorded: % of essential oil (Ph. Eur.)",
+   "refs": [
+    12
+   ]
+  },
+  {
+   "row": "borneol#1",
+   "compound_id": "borneol",
+   "compound": "borneol",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-rosmarinus",
+   "taxon_known": true,
+   "taxon_name": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "2.0-4.5 (Spanish type); 1.5-5.0 (Moroccan/Tunisian type)",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6384?page&_format=csv",
+   "verified": true,
+   "note": "Duke: Essential Oil 21000-223000 ppm; Leaf Essent. Oil max 47000 ppm. | Basis as recorded: % of essential oil (Ph. Eur.)",
+   "refs": [
+    12
+   ]
+  },
+  {
+   "row": "carnosic-acid#1",
+   "compound_id": "carnosic-acid",
+   "compound": "carnosic acid",
+   "class": "diterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-rosmarinus",
+   "taxon_known": true,
+   "taxon_name": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": "548.4-5000",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6384?page&_format=csv",
+   "verified": true,
+   "note": "KNApSAcK also lists carnosic acid (C00036880) in Rosmarinus officinalis. EMA names it among leaf constituents (no amount). | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    12
+   ]
+  },
+  {
+   "row": "carnosol#1",
+   "compound_id": "carnosol",
+   "compound": "carnosol",
+   "class": "diterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-rosmarinus",
+   "taxon_known": true,
+   "taxon_name": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": "530-46000",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6384?page&_format=csv",
+   "verified": true,
+   "note": "KNApSAcK: carnosol C00003410 in Rosmarinus officinalis. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    12
+   ]
+  },
+  {
+   "row": "alpha-pinene#0",
+   "compound_id": "alpha-pinene",
+   "compound": "α-pinene",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-rosmarinus",
+   "taxon_known": true,
+   "taxon_name": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "18-26 (Spanish type); 9.0-14.0 (Moroccan/Tunisian type)",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6384?page&_format=csv",
+   "verified": true,
+   "note": "Duke: Essential Oil 79000-250000 ppm; Leaf Essent. Oil max 276000 ppm. | Basis as recorded: % of essential oil (Ph. Eur.)",
+   "refs": [
+    12
+   ]
+  }
+ ],
+ "plantings": [
+  {
+   "id": "GH-073",
+   "list_category": "Herbs",
+   "original_entry": "Rosmary",
+   "common_name": "Rosemary",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf",
+   "scientific_name": "Salvia rosmarinus (syn. Rosmarinus officinalis)",
+   "species_key": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "confidence": "High",
+   "note": "Typo. Also listed under Medicinal.",
+   "taxon_id": "salvia-rosmarinus",
+   "status": "current"
+  },
+  {
+   "id": "GH-089",
+   "list_category": "Medicinal",
+   "original_entry": "Rosemary",
+   "common_name": "Rosemary",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf",
+   "scientific_name": "Salvia rosmarinus (syn. Rosmarinus officinalis)",
+   "species_key": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "confidence": "High",
+   "note": "DUPLICATE of the Herbs entry (same plant or two plantings?).",
+   "taxon_id": "salvia-rosmarinus",
+   "status": "current"
+  }
+ ],
+ "preparations": [
+  {
+   "id": "herb-tincture-ethanol-water",
+   "name": "Herb tincture in ethanol-water (lemon balm and rosemary as examples)"
+  }
+ ]
+}

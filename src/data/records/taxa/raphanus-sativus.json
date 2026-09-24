@@ -1,0 +1,101 @@
+{
+ "taxa": [
+  {
+   "id": "raphanus-sativus",
+   "species_key": "Raphanus sativus",
+   "accepted_name": "Raphanus raphanistrum subsp. sativus",
+   "authority": "(L.) Schmalh.",
+   "family": "Brassicaceae",
+   "common_names": [
+    "Radish"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 3726,
+    "powo_id": "urn:lsid:ipni.org:names:77159305-1",
+    "gbif_key": 7678610,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Raphanus sativus L. (POWO urn:lsid:ipni.org:names:288491-1)"
+   ],
+   "columns": [
+    "veggies"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-043",
+     "name": "Donato",
+     "type": "Round",
+     "list_category": "veggies",
+     "name_as_given": "Raphanus sativus",
+     "identity_status": "confirmed",
+     "note": null
+    },
+    {
+     "crop_id": "GH-044",
+     "name": "Sora",
+     "type": "Round",
+     "list_category": "veggies",
+     "name_as_given": "Raphanus sativus",
+     "identity_status": "confirmed",
+     "note": null
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "POWO accepts Raphanus raphanistrum subsp. sativus (L.) Schmalh., confirmed on the POWO taxon page; GBIF gives the authority as '(L.) Domin'. GBIF and NCBI both accept Raphanus sativus L. (GBIF key 7678610, NCBI 3726). In GBIF, 'R. raphanistrum subsp. sativus' is a synonym (key 7772218) of R. sativus, so the GBIF key given is for R. sativus. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-043",
+    "GH-044"
+   ],
+   "n_plantings": 2,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-043",
+   "list_category": "Veggies",
+   "original_entry": "Radishes, Donato",
+   "common_name": "Radish",
+   "cultivar": "Donato",
+   "crop_type": "Round",
+   "scientific_name": "Raphanus sativus",
+   "species_key": "Raphanus sativus",
+   "family": "Brassicaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "raphanus-sativus",
+   "status": "current"
+  },
+  {
+   "id": "GH-044",
+   "list_category": "Veggies",
+   "original_entry": "Radishes, Sora",
+   "common_name": "Radish",
+   "cultivar": "Sora",
+   "crop_type": "Round",
+   "scientific_name": "Raphanus sativus",
+   "species_key": "Raphanus sativus",
+   "family": "Brassicaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "raphanus-sativus",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

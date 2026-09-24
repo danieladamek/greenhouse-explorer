@@ -1,0 +1,99 @@
+{
+ "taxa": [
+  {
+   "id": "spinacia-oleracea",
+   "species_key": "Spinacia oleracea",
+   "accepted_name": "Spinacia oleracea",
+   "authority": "L.",
+   "family": "Amaranthaceae",
+   "common_names": [
+    "Spinach"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 3562,
+    "powo_id": "urn:lsid:ipni.org:names:167384-1",
+    "gbif_key": 3083647,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "leafy_greens"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-010",
+     "name": "Flamingo",
+     "type": "Smooth-leaf",
+     "list_category": "leafy_greens",
+     "name_as_given": "Spinacia oleracea",
+     "identity_status": "confirmed",
+     "note": null
+    },
+    {
+     "crop_id": "GH-011",
+     "name": "Sunangel",
+     "type": "Savoyed",
+     "list_category": "leafy_greens",
+     "name_as_given": "Spinacia oleracea",
+     "identity_status": "confirmed",
+     "note": null
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-010",
+    "GH-011"
+   ],
+   "n_plantings": 2,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-010",
+   "list_category": "Leafy Greens",
+   "original_entry": "Spinach, Smooth Leaf Flamingo",
+   "common_name": "Spinach",
+   "cultivar": "Flamingo",
+   "crop_type": "Smooth-leaf",
+   "scientific_name": "Spinacia oleracea",
+   "species_key": "Spinacia oleracea",
+   "family": "Amaranthaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "spinacia-oleracea",
+   "status": "current"
+  },
+  {
+   "id": "GH-011",
+   "list_category": "Leafy Greens",
+   "original_entry": "Spinach, Savoyed Sunangel",
+   "common_name": "Spinach",
+   "cultivar": "Sunangel",
+   "crop_type": "Savoyed",
+   "scientific_name": "Spinacia oleracea",
+   "species_key": "Spinacia oleracea",
+   "family": "Amaranthaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "spinacia-oleracea",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

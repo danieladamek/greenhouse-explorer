@@ -1,0 +1,233 @@
+{
+ "compound": {
+  "id": "gamma-terpinene",
+  "name": "γ-terpinene",
+  "synonyms": [
+   "1-isopropyl-4-methylcyclohexa-1,4-diene"
+  ],
+  "class": "monoterpene",
+  "subclass": "cyclic monoterpene hydrocarbon",
+  "one_liner": "The cyclic monoterpene from which thyme and oregano build thymol and carvacrol.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "1-methyl-4-propan-2-ylcyclohexa-1,4-diene",
+   "formula": "C10H16",
+   "mw": 136.24,
+   "mw_source": "computed_from_formula",
+   "smiles": "CC1=CCC(=CC1)C(C)C",
+   "inchikey": "YKFLAYDHMOASIY-UHFFFAOYSA-N",
+   "cas": "99-85-4",
+   "pubchem_cid": 7461,
+   "chebi_id": "CHEBI:10577",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/7461/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MEP/terpenoid (plastidial; from geranyl diphosphate)",
+   "note": "Formed from geranyl diphosphate; precursor of thymol and carvacrol [42]."
+  },
+  "occurrences": [
+   {
+    "taxon_id": "thymus-vulgaris",
+    "plant_part": "essential oil",
+    "value": "17800-49500",
+    "unit": "ppm",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013 (12 Nov 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+    "verified": true,
+    "note": "EMA lists γ-terpinene among main oil components. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)"
+   },
+   {
+    "taxon_id": "origanum-vulgare",
+    "plant_part": "inflorescences (chemotype 1)",
+    "value": "2.38",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "De Martino L, De Feo V, Formisano C, Mignola E, Senatore F (2009) Chemical composition and antimicrobial activity of the essential oils from three chemotypes of Origanum vulgare L. ssp. hirtum (Link) Ietswaart growing wild in Campania (Southern Italy). Molecules 14(8):2735-2746",
+    "source_doi_or_url": "https://doi.org/10.3390/molecules14082735",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6068?page&_format=csv",
+    "verified": true,
+    "note": "Duke (Lagouri 1993): Shoot max 4950 ppm. De Martino chemotype 2: 4.59 %. Kosakowska 2021: highest of the monoterpene hydrocarbons, % not extracted. | Basis as recorded: % of essential oil"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "The branch point of the phenolic-monoterpene pathway [42].",
+  "citations": [
+   9,
+   22,
+   42
+  ],
+  "gaps": [
+   "Pharmacology and safety not researched.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "The cyclic [monoterpene](#term:monoterpene) from which thyme and oregano build thymol and carvacrol.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "The branch point of the phenolic-monoterpene pathway [42](#cite:42).",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": "Formed from [geranyl diphosphate](#term:gpp); precursor of thymol and carvacrol [42](#cite:42).",
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "monoterpene",
+   "solubility",
+   "gpp"
+  ],
+  "cited_refs": [
+   9,
+   22,
+   42
+  ],
+  "taxa": [
+   "thymus-vulgaris",
+   "origanum-vulgare"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H16",
+   "inchikeyComputed": "YKFLAYDHMOASIY-UHFFFAOYSA-N",
+   "canonicalSmiles": "CC1=CCC(C(C)C)=CC1",
+   "monoisotopicMass": 136.1252,
+   "averageMass": 136.238,
+   "descriptors": {
+    "heavyAtoms": 10,
+    "rings": 1,
+    "aromaticRings": 0,
+    "hbd": 0,
+    "hba": 0,
+    "rotatableBonds": 1,
+    "logP": 3.31,
+    "tpsa": 0,
+    "fsp3": 0.6,
+    "stereocenters": 0,
+    "charge": 0
+   },
+   "atomCount": 26,
+   "heavyAtomCount": 10,
+   "functionalGroups": [
+    {
+     "id": "isopropyl",
+     "name": "Isopropyl group",
+     "matches": [
+      [
+       7,
+       0,
+       8,
+       1
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/gamma-terpinene.sdf",
+   "svg": {
+    "light": "structures/2d/gamma-terpinene.svg",
+    "dark": "structures/2d/gamma-terpinene.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/gamma-terpinene.json",
+   "mwPack": 136.24,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": [
+   "5-three-pathways-that-make-the-greenhouse-smell"
+  ]
+ },
+ "rows": [
+  {
+   "row": "gamma-terpinene#0",
+   "compound_id": "gamma-terpinene",
+   "compound": "γ-terpinene",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "thymus-vulgaris",
+   "taxon_known": true,
+   "taxon_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "17800-49500",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013 (12 Nov 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+   "verified": true,
+   "note": "EMA lists γ-terpinene among main oil components. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)",
+   "refs": [
+    9
+   ]
+  },
+  {
+   "row": "gamma-terpinene#1",
+   "compound_id": "gamma-terpinene",
+   "compound": "γ-terpinene",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": "inflorescences (chemotype 1)",
+   "value": "2.38",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "De Martino L, De Feo V, Formisano C, Mignola E, Senatore F (2009) Chemical composition and antimicrobial activity of the essential oils from three chemotypes of Origanum vulgare L. ssp. hirtum (Link) Ietswaart growing wild in Campania (Southern Italy). Molecules 14(8):2735-2746",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules14082735",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6068?page&_format=csv",
+   "verified": true,
+   "note": "Duke (Lagouri 1993): Shoot max 4950 ppm. De Martino chemotype 2: 4.59 %. Kosakowska 2021: highest of the monoterpene hydrocarbons, % not extracted. | Basis as recorded: % of essential oil",
+   "refs": [
+    22
+   ]
+  }
+ ],
+ "preparations": []
+}

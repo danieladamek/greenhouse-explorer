@@ -1,0 +1,30 @@
+{
+ "rule": "Every health statement carries a grade AND names its test article: whole_herb | named_extract (with solvent and standardisation where known) | essential_oil | isolated_compound | multi_herb_formula. A grade belongs to the test article, never to the plant, the tea or a single constituent unless that is what was tested. A D or E finding is never phrased as an effect in people; a T grade says \"traditionally used for\", never \"helps\" or \"treats\".",
+ "grades": [
+  {
+   "grade": "A",
+   "basis": "systematic review or meta-analysis of human randomised controlled trials"
+  },
+  {
+   "grade": "B",
+   "basis": "at least one human randomised controlled trial"
+  },
+  {
+   "grade": "C",
+   "basis": "human observational or small uncontrolled studies (open-label, case series); a meta-analysis of observational studies is C, not A"
+  },
+  {
+   "grade": "D",
+   "basis": "animal in vivo"
+  },
+  {
+   "grade": "E",
+   "basis": "in vitro or in silico"
+  },
+  {
+   "grade": "T",
+   "basis": "traditional use documented in an official monograph (EMA HMPC, ESCOP, WHO, Commission E)"
+  }
+ ],
+ "example": "Enteric-coated peppermint oil for IBS symptoms is grade A for that oil in capsules [54]; it is not evidence for menthol alone and not evidence for peppermint tea [6,129]."
+}

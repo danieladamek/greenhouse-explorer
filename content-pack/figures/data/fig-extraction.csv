@@ -1,0 +1,8 @@
+plant,taxon_id,fraction,measured,measure,value_pct,value_low,value_high,comparator,conditions,basis_note,ref
+Peppermint,mentha-x-piperita,essential oil,total essential oil,oil transferred to infusion,22.5,20,25,leaf content,"boiling water, 10 min",% of the leaf's essential oil found in the tea; range as stated by EMA,6
+Peppermint,mentha-x-piperita,polyphenols,total polyphenols,polyphenols extracted into infusion,75,,,leaf content,infusion (conditions not stated),"'about 75 %' of leaf polyphenolic compounds, as stated by EMA",6
+Lemon balm,melissa-officinalis,essential oil,total essential oil,oil extraction yield in tea,31,,,leaf content,tea (conditions not stated in abstract),"10 mg/L oil in tea vs 0.32 % oil in dried leaf, yield as reported",131
+Lemon balm,melissa-officinalis,polyphenols,total polyphenols,polyphenol extraction yield in tea,93,,,leaf content,tea (conditions not stated in abstract),"about 1.07 g/L polyphenols vs 11.8 % in dried leaf, yield as reported",131
+German chamomile,matricaria-chamomilla,essential oil,total essential oil,oil constituents in tea,12.5,10,15,flower content,'depending on conditions of herbal tea preparation',% of the flower's essential-oil constituents; range as stated by EMA,10
+Sage,salvia-officinalis,essential oil,thujone,thujone recovered in aqueous tea,30,,,60 % ethanol extract of the same material,"1.5 g in 150 mL hot water, 15 min","average across products, relative to the maximum-yield ethanol extract, as reported",127
+Sage,salvia-officinalis,polyphenols,rosmarinic acid,rosmarinic acid in water extract,59.3,,,30 % ethanol extract of the same material,"1 g in 20 mL, 60 °C, 30 min",builder's ratio of reported values 2154.02 / 3634.12 mg per 100 g dry matter,132

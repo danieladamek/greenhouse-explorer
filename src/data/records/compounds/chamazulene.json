@@ -1,0 +1,199 @@
+{
+ "compound": {
+  "id": "chamazulene",
+  "name": "chamazulene",
+  "synonyms": [
+   "7-ethyl-1,4-dimethylazulene"
+  ],
+  "class": "sesquiterpene",
+  "subclass": "azulene (sesquiterpene degradation product)",
+  "one_liner": "The blue of chamomile oil, formed from colourless matricin during steam distillation.",
+  "palette_group": "asteraceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "7-ethyl-1,4-dimethylazulene",
+   "formula": "C14H16",
+   "mw": 184.28,
+   "mw_source": "computed_from_formula",
+   "smiles": "CCC1=CC2=C(C=CC2=C(C=C1)C)C",
+   "inchikey": "GXGJIOMUZAGVEH-UHFFFAOYSA-N",
+   "cas": "529-05-5",
+   "pubchem_cid": 10719,
+   "chebi_id": "CHEBI:3573",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/10719/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": "formed_during: steam distillation (from matricin), confirmed by EMA assessment report."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MVA/terpenoid (sesquiterpene; from farnesyl diphosphate); formed from matricin",
+   "note": "Not biosynthesised as such: proazulenes are at least partly converted to chamazulene during steam distillation [10]."
+  },
+  "occurrences": [
+   {
+    "taxon_id": "matricaria-chamomilla",
+    "plant_part": "essential oil (flower; distillation artefact)",
+    "value": "2-18",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+    "verified": true,
+    "note": "EMA: 'proazulenes like matricin and matricarin ... are at least partially converted during steam distillation into azulenes like chamazulene'. Duke: CHAMAZULENE Flower 530-13200 ppm (a distillation product, so best read as oil-derived). | Basis as recorded: % of essential oil | Formed during steam distillation; no claim is made about presence or absence in an infusion (TODO(author))."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": "Inhibited leukotriene B4 synthesis by 50 % at 15 µM in rat neutrophils [10].",
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [
+   {
+    "claim": "Chamazulene inhibits leukotriene B4 formation in neutrophils.",
+    "grade": "E",
+    "test_article": "isolated_compound",
+    "test_article_detail": "chamazulene, rat neutrophilic granulocytes",
+    "population": "in_vitro",
+    "outcome_summary": "50 % inhibition at 15 µM.",
+    "refs": [
+     10
+    ],
+    "note": null
+   }
+  ],
+  "processing_stability": {
+   "heat": "formed on steam distillation",
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": "distillation",
+   "note": "Presence or absence in an infusion is not claimed; EMA states matricin itself is extracted into teas [10].",
+   "refs": [
+    10
+   ]
+  },
+  "safety_flags": [],
+  "teaching_note": "A processing artefact with a colour: the flower is not blue, the oil is [10].",
+  "citations": [
+   10
+  ],
+  "gaps": [
+   "Presence/absence in tea unknown (TODO(author)); chamazulene carboxylic acid route not sourced.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "The blue of chamomile oil, formed from colourless matricin during [steam distillation](#term:steam-distillation).",
+   "mechanism": "Inhibited leukotriene B4 synthesis by 50 % at 15 µM in rat neutrophils [10](#cite:10).",
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "A processing [artefact](#term:artefact) with a colour: the flower is not blue, the oil is [10](#cite:10).",
+   "processing_note": "Presence or absence in an [infusion](#term:infusion) is not claimed; [EMA](#term:ema-hmpc) states matricin itself is extracted into teas [10](#cite:10).",
+   "biosynthesis_note": "Not biosynthesised as such: [proazulenes](#term:proazulene) are at least partly converted to chamazulene during steam distillation [10](#cite:10).",
+   "evidence": [
+    {
+     "claim": "Chamazulene inhibits leukotriene B4 formation in neutrophils.",
+     "outcome_summary": "50 % inhibition at 15 µM."
+    }
+   ],
+   "safety_flags": []
+  },
+  "terms": [
+   "steam-distillation",
+   "artefact",
+   "infusion",
+   "ema-hmpc",
+   "proazulene"
+  ],
+  "cited_refs": [
+   10
+  ],
+  "taxa": [
+   "matricaria-chamomilla"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C14H16",
+   "inchikeyComputed": "GXGJIOMUZAGVEH-UHFFFAOYSA-N",
+   "canonicalSmiles": "CCc1ccc(C)c2ccc(C)c-2c1",
+   "monoisotopicMass": 184.1252,
+   "averageMass": 184.282,
+   "descriptors": {
+    "heavyAtoms": 14,
+    "rings": 2,
+    "aromaticRings": 0,
+    "hbd": 0,
+    "hba": 0,
+    "rotatableBonds": 1,
+    "logP": 3.97,
+    "tpsa": 0,
+    "fsp3": 0.29,
+    "stereocenters": 0,
+    "charge": 0
+   },
+   "atomCount": 30,
+   "heavyAtomCount": 14,
+   "functionalGroups": [],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/chamazulene.sdf",
+   "svg": {
+    "light": "structures/2d/chamazulene.svg",
+    "dark": "structures/2d/chamazulene.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/chamazulene.json",
+   "mwPack": 184.28,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": [
+   "7-from-leaf-to-cup"
+  ]
+ },
+ "rows": [
+  {
+   "row": "chamazulene#0",
+   "compound_id": "chamazulene",
+   "compound": "chamazulene",
+   "class": "sesquiterpene",
+   "palette_group": "asteraceae",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "essential oil (flower; distillation artefact)",
+   "value": "2-18",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "EMA: 'proazulenes like matricin and matricarin ... are at least partially converted during steam distillation into azulenes like chamazulene'. Duke: CHAMAZULENE Flower 530-13200 ppm (a distillation product, so best read as oil-derived). | Basis as recorded: % of essential oil | Formed during steam distillation; no claim is made about presence or absence in an infusion (TODO(author)).",
+   "refs": [
+    10
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "chamomile-flower-hot-infusion",
+   "name": "German chamomile flower, hot-water infusion"
+  }
+ ]
+}

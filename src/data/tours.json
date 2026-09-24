@@ -1,0 +1,92 @@
+[
+ {
+  "id": "two-skullcaps",
+  "title": "Two skullcaps",
+  "subtitle": "One inventory entry, two candidate species, baicalin amounts that cannot be charted, and the adulterant behind skullcap's liver-injury reports. Every step paraphrases a field of the content pack and keeps its citations.",
+  "minutes": 7,
+  "quiz_from": "evidence-grades-and-test-article",
+  "steps": [
+   {
+    "title": "An entry the inventory cannot resolve",
+    "route": "/plants/scutellaria-sp",
+    "text": "The inventory lists a single “Skullcap”, with a note that it could be American skullcap (Scutellaria lateriflora, used from its aerial parts) or Chinese skullcap (S. baicalensis, used from its root), and that the seed packet needs checking. The site keeps one unresolved record with two candidates.",
+    "source": "plantings.csv GH-088 (note); taxa.yaml scutellaria-sp (identity_status, candidates)"
+   },
+   {
+    "title": "Two candidates, two plant parts",
+    "route": "/compare?plants=scutellaria-lateriflora,scutellaria-baicalensis",
+    "text": "Side by side, the candidates differ first in what is used: the aerial parts of S. lateriflora as a tea herb, the root of S. baicalensis in kampo and Chinese formulas. Every amount in the matrix names its plant part, so leaf and root are never read as the same material.",
+    "source": "taxa_safety_evidence.yaml scutellaria-lateriflora, scutellaria-baicalensis (plant_part_used)"
+   },
+   {
+    "title": "Baicalin, with its bases",
+    "route": "/compounds/baicalin#found",
+    "text": "One study gives 11.7 mg/g baicalin in S. lateriflora leaf against 26.1 mg/g in S. baicalensis root; another finds more flavonoid in lateriflora aerial parts than in its own root [24,27]. Neither source states whether its values are per fresh or per dry weight, so every baicalin row is marked “basis not stated in source” and no chart is drawn from them.",
+    "source": "compounds.yaml baicalin (teaching_note, occurrences with basis: unstated)"
+   },
+   {
+    "title": "Teucrin A is not a skullcap compound",
+    "route": "/compounds/teucrin-a",
+    "text": "Teucrin A is a germander (Teucrium) diterpenoid. It was not detected in any authenticated S. lateriflora sample, while germander itself caused hepatitis in people, with injury recurring on re-exposure [25,31]. It is kept as an auxiliary record because it belongs to the skullcap story, not to the skullcap plant.",
+    "source": "compounds.yaml teucrin-a (one_liner, safety_flags, occurrences)"
+   },
+   {
+    "title": "The adulteration story",
+    "route": "/plants/scutellaria-lateriflora#safety",
+    "text": "LiverTox rates skullcap a very likely but rare cause of liver injury, and notes that analysis of some suspected products found germander or mislabelling. Because authenticated S. lateriflora contains no teucrin A, whether skullcap itself injures the liver remains unresolved [13,25,30,31].",
+    "source": "taxa_safety_evidence.yaml scutellaria-lateriflora (adverse_event_history)"
+   },
+   {
+    "title": "How the entry resolves",
+    "route": "/plants/scutellaria-sp#how-it-resolves",
+    "text": "When the packet names the species, one record changes: its identity status becomes confirmed and its candidates collapse to one. The page then becomes an ordinary plant page, and the other candidate leaves the inventory.",
+    "source": "taxa.yaml scutellaria-sp (identity_status, candidates); KICKOFF §4c"
+   }
+  ]
+ },
+ {
+  "id": "why-basil-smells-like-basil",
+  "title": "Why basil smells like basil",
+  "subtitle": "Linalool, the estragole and methyleugenol chemotypes, the safety flags that come with them, and the pathway that makes them. Every step paraphrases a field of the content pack and keeps its citations.",
+  "minutes": 6,
+  "quiz_from": "chemotypes",
+  "steps": [
+   {
+    "title": "Six basils on the benches",
+    "route": "/plants/ocimum-basilicum#grown-here",
+    "text": "The inventory lists several basil cultivars under one species, Ocimum basilicum — sweet, cinnamon, lemon, purple and Thai types among them. One species name, several smells: that is the puzzle this tour follows.",
+    "source": "taxa.yaml ocimum-basilicum (cultivars, common_names)"
+   },
+   {
+    "title": "Linalool: the sweet-basil note",
+    "route": "/compounds/linalool",
+    "text": "Linalool is the floral, sweet alcohol that dominates Genovese-type basil oil. How much linalool a basil makes, relative to estragole and methyleugenol, is what separates the basil chemotypes, and it changes from cultivar to cultivar [18].",
+    "source": "compounds.yaml linalool (one_liner, teaching_note)"
+   },
+   {
+    "title": "Estragole: the aniseed chemotype",
+    "route": "/compounds/estragole#found",
+    "text": "Estragole smells of aniseed. In one GC-MS study of seven cultivars it was a main compound in only one of them, while database records span a small fraction to most of the leaf oil — which is why a cultivar name matters [18]. Look at the basis column: the range is a share of the essential oil.",
+    "source": "compounds.yaml estragole (teaching_note, safety_flags.detail, occurrences)"
+   },
+   {
+    "title": "Methyleugenol: more common than expected",
+    "route": "/compounds/methyleugenol",
+    "text": "Methyleugenol turned out to be rich in six of the seven cultivars studied, the opposite of what an early curation draft assumed, so the record says it is present in most cultivars grown here [18]. Its only occurrence row has no stated basis, so it never enters a chart.",
+    "source": "compounds.yaml methyleugenol (teaching_note, safety_flags.detail, occurrences)"
+   },
+   {
+    "title": "The safety flags",
+    "route": "/plants/ocimum-basilicum#safety",
+    "text": "Estragole and methyleugenol are the two basil constituents the EMA treats as genotoxic carcinogens in rodents. For estragole the EMA sets guidance values for herbal medicinal products; for methyleugenol it gives no number and advises minimising exposure of young children and of pregnant or breastfeeding women [4,5]. These are regulatory limits, not guidance for use.",
+    "source": "taxa_safety_evidence.yaml ocimum-basilicum (constituents_of_concern); compounds.yaml estragole, methyleugenol (safety_flags)"
+   },
+   {
+    "title": "Two pathways, one leaf",
+    "route": "/figures/fig-pathways?compound=estragole",
+    "text": "Linalool is a monoterpene, made on the plastid MEP route from geranyl diphosphate; estragole and methyleugenol are phenylpropanoids from the shikimate route. In basil, closely related O-methyltransferases turn chavicol into estragole and eugenol into methyleugenol, and a single amino-acid difference sets which one an enzyme prefers [120]. A chemotype is what a plant's particular set of enzymes produces.",
+    "source": "compounds.yaml linalool, estragole (biosynthesis.pathway); concepts/chemotypes.md (key idea); figures.yaml fig-pathways"
+   }
+  ]
+ }
+]

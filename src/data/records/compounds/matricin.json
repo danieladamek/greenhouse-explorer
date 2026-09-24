@@ -1,0 +1,240 @@
+{
+ "compound": {
+  "id": "matricin",
+  "name": "matricin",
+  "synonyms": [
+   "proazulene"
+  ],
+  "class": "sesquiterpene",
+  "subclass": "guaianolide sesquiterpene lactone (proazulene)",
+  "one_liner": "The colourless proazulene actually present in the flower (0.03-0.2 %); precursor of chamazulene.",
+  "palette_group": "asteraceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "[(3S,3aR,4S,9R,9aS,9bS)-9-hydroxy-3,6,9-trimethyl-2-oxo-3,3a,4,5,9a,9b-hexahydroazuleno[4,5-b]furan-4-yl] acetate",
+   "formula": "C17H22O5",
+   "mw": 306.36,
+   "mw_source": "computed_from_formula",
+   "smiles": "C[C@H]1[C@@H]2[C@H](CC(=C3C=C[C@@]([C@@H]3[C@H]2OC1=O)(C)O)C)OC(=O)C",
+   "inchikey": "SYTRJRUSWMMZLV-VQGWEXQJSA-N",
+   "cas": "29041-35-8",
+   "pubchem_cid": 92265,
+   "chebi_id": "CHEBI:6699",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/92265/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MVA/terpenoid (sesquiterpene; from farnesyl diphosphate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "matricaria-chamomilla",
+    "plant_part": "flower",
+    "value": "0.03-0.2",
+    "unit": "%",
+    "basis": "dry_weight",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+    "verified": true,
+    "note": "Duke: MATRICIN Plant, no value. | Basis as recorded: % of flower (dried drug)"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": "Less effective than other constituents in a mouse ear inflammation model [10].",
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [
+   {
+    "claim": "Matricin has weaker anti-inflammatory activity than other chamomile constituents in mice.",
+    "grade": "D",
+    "test_article": "isolated_compound",
+    "test_article_detail": "matricin, mouse ear inflammation (EMA summary)",
+    "population": "animal",
+    "outcome_summary": "Less effective than comparators.",
+    "refs": [
+     10
+    ],
+    "note": null
+   }
+  ],
+  "processing_stability": {
+   "heat": "converted (at least partly) to chamazulene on steam distillation [10]",
+   "water_solubility": "extracted into teas at pharmaceutically relevant levels [10]",
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": null,
+   "refs": [
+    10
+   ]
+  },
+  "safety_flags": [],
+  "teaching_note": "Tea keeps matricin; distillation turns it into chamazulene [10].",
+  "citations": [
+   10
+  ],
+  "gaps": [
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "The colourless [proazulene](#term:proazulene) actually present in the flower (0.03-0.2 %); precursor of chamazulene.",
+   "mechanism": "Less effective than other constituents in a mouse ear inflammation model [10](#cite:10).",
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Tea keeps matricin; [distillation](#term:steam-distillation) turns it into chamazulene [10](#cite:10).",
+   "processing_note": null,
+   "biosynthesis_note": null,
+   "evidence": [
+    {
+     "claim": "Matricin has weaker anti-inflammatory activity than other chamomile constituents in mice.",
+     "outcome_summary": "Less effective than comparators."
+    }
+   ],
+   "safety_flags": []
+  },
+  "terms": [
+   "proazulene",
+   "steam-distillation"
+  ],
+  "cited_refs": [
+   10
+  ],
+  "taxa": [
+   "matricaria-chamomilla"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C17H22O5",
+   "inchikeyComputed": "SYTRJRUSWMMZLV-VQGWEXQJSA-N",
+   "canonicalSmiles": "CC(=O)O[C@H]1CC(C)=C2C=C[C@@](C)(O)[C@@H]2[C@H]2OC(=O)[C@@H](C)[C@@H]21",
+   "monoisotopicMass": 306.1467,
+   "averageMass": 306.358,
+   "descriptors": {
+    "heavyAtoms": 22,
+    "rings": 3,
+    "aromaticRings": 0,
+    "hbd": 1,
+    "hba": 5,
+    "rotatableBonds": 1,
+    "logP": 1.75,
+    "tpsa": 72.8,
+    "fsp3": 0.65,
+    "stereocenters": 6,
+    "charge": 0
+   },
+   "atomCount": 44,
+   "heavyAtomCount": 22,
+   "functionalGroups": [
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       2,
+       10
+      ]
+     ]
+    },
+    {
+     "id": "ester",
+     "name": "Ester",
+     "matches": [
+      [
+       9,
+       14,
+       3,
+       0,
+       6
+      ],
+      [
+       21,
+       20,
+       4,
+       1,
+       8
+      ]
+     ]
+    },
+    {
+     "id": "lactone",
+     "name": "Lactone (cyclic ester)",
+     "matches": [
+      [
+       9,
+       14,
+       3,
+       0,
+       6
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/matricin.sdf",
+   "svg": {
+    "light": "structures/2d/matricin.svg",
+    "dark": "structures/2d/matricin.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/matricin.json",
+   "mwPack": 306.36,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": [
+   "7-from-leaf-to-cup"
+  ]
+ },
+ "rows": [
+  {
+   "row": "matricin#0",
+   "compound_id": "matricin",
+   "compound": "matricin",
+   "class": "sesquiterpene",
+   "palette_group": "asteraceae",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "flower",
+   "value": "0.03-0.2",
+   "unit": "%",
+   "basis": "dry_weight",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "Duke: MATRICIN Plant, no value. | Basis as recorded: % of flower (dried drug)",
+   "refs": [
+    10
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "chamomile-flower-hot-infusion",
+   "name": "German chamomile flower, hot-water infusion"
+  }
+ ]
+}

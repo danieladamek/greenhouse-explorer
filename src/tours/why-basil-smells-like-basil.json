@@ -1,0 +1,45 @@
+{
+  "id": "why-basil-smells-like-basil",
+  "title": "Why basil smells like basil",
+  "subtitle": "Linalool, the estragole and methyleugenol chemotypes, the safety flags that come with them, and the pathway that makes them. Every step paraphrases a field of the content pack and keeps its citations.",
+  "minutes": 6,
+  "quiz_from": "chemotypes",
+  "steps": [
+    {
+      "title": "Six basils on the benches",
+      "route": "/plants/ocimum-basilicum#grown-here",
+      "text": "The inventory lists several basil cultivars under one species, Ocimum basilicum — sweet, cinnamon, lemon, purple and Thai types among them. One species name, several smells: that is the puzzle this tour follows.",
+      "source": "taxa.yaml ocimum-basilicum (cultivars, common_names)"
+    },
+    {
+      "title": "Linalool: the sweet-basil note",
+      "route": "/compounds/linalool",
+      "text": "Linalool is the floral, sweet alcohol that dominates Genovese-type basil oil. How much linalool a basil makes, relative to estragole and methyleugenol, is what separates the basil chemotypes, and it changes from cultivar to cultivar [18].",
+      "source": "compounds.yaml linalool (one_liner, teaching_note)"
+    },
+    {
+      "title": "Estragole: the aniseed chemotype",
+      "route": "/compounds/estragole#found",
+      "text": "Estragole smells of aniseed. In one GC-MS study of seven cultivars it was a main compound in only one of them, while database records span a small fraction to most of the leaf oil — which is why a cultivar name matters [18]. Look at the basis column: the range is a share of the essential oil.",
+      "source": "compounds.yaml estragole (teaching_note, safety_flags.detail, occurrences)"
+    },
+    {
+      "title": "Methyleugenol: more common than expected",
+      "route": "/compounds/methyleugenol",
+      "text": "Methyleugenol turned out to be rich in six of the seven cultivars studied, the opposite of what an early curation draft assumed, so the record says it is present in most cultivars grown here [18]. Its only occurrence row has no stated basis, so it never enters a chart.",
+      "source": "compounds.yaml methyleugenol (teaching_note, safety_flags.detail, occurrences)"
+    },
+    {
+      "title": "The safety flags",
+      "route": "/plants/ocimum-basilicum#safety",
+      "text": "Estragole and methyleugenol are the two basil constituents the EMA treats as genotoxic carcinogens in rodents. For estragole the EMA sets guidance values for herbal medicinal products; for methyleugenol it gives no number and advises minimising exposure of young children and of pregnant or breastfeeding women [4,5]. These are regulatory limits, not guidance for use.",
+      "source": "taxa_safety_evidence.yaml ocimum-basilicum (constituents_of_concern); compounds.yaml estragole, methyleugenol (safety_flags)"
+    },
+    {
+      "title": "Two pathways, one leaf",
+      "route": "/figures/fig-pathways?compound=estragole",
+      "text": "Linalool is a monoterpene, made on the plastid MEP route from geranyl diphosphate; estragole and methyleugenol are phenylpropanoids from the shikimate route. In basil, closely related O-methyltransferases turn chavicol into estragole and eugenol into methyleugenol, and a single amino-acid difference sets which one an enzyme prefers [120]. A chemotype is what a plant's particular set of enzymes produces.",
+      "source": "compounds.yaml linalool, estragole (biosynthesis.pathway); concepts/chemotypes.md (key idea); figures.yaml fig-pathways"
+    }
+  ]
+}

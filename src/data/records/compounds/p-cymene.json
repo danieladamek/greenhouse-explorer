@@ -1,0 +1,235 @@
+{
+ "compound": {
+  "id": "p-cymene",
+  "name": "p-cymene",
+  "synonyms": [
+   "4-isopropyltoluene"
+  ],
+  "class": "monoterpene",
+  "subclass": "aromatic monoterpene hydrocarbon",
+  "one_liner": "Aromatic hydrocarbon beside thymol and carvacrol in thyme and oregano oils.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "1-methyl-4-propan-2-ylbenzene",
+   "formula": "C10H14",
+   "mw": 134.22,
+   "mw_source": "computed_from_formula",
+   "smiles": "CC1=CC=C(C=C1)C(C)C",
+   "inchikey": "HFPZCAJZSCWRBC-UHFFFAOYSA-N",
+   "cas": "99-87-6",
+   "pubchem_cid": 7463,
+   "chebi_id": "CHEBI:28768",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/7463/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MEP/terpenoid (plastidial; from geranyl diphosphate)",
+   "note": "Its place in the thymol pathway is revised by [42], which reports a route differing from earlier models; whether p-cymene is an intermediate or a side product needs confirming from the full text."
+  },
+  "occurrences": [
+   {
+    "taxon_id": "thymus-vulgaris",
+    "plant_part": "essential oil",
+    "value": "78300-441300",
+    "unit": "ppm",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013 (12 Nov 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+    "verified": true,
+    "note": "EMA lists p-cymene among main oil components; Kosakowska 2020 reports p-cymene among the highest monoterpene hydrocarbons. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)"
+   },
+   {
+    "taxon_id": "origanum-vulgare",
+    "plant_part": "upper non-woody shoots at bloom onset",
+    "value": "10.45",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+    "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6068?page&_format=csv",
+    "verified": true,
+    "note": "Duke (Lagouri 1993): Shoot max 3420 ppm. De Martino 2009: 2.81 % (chemotype 1), 1.25 % (chemotype 2). | Basis as recorded: % of essential oil"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "The textbook route γ-terpinene → p-cymene → thymol has been revised [42]; a good example of a pathway diagram needing a date.",
+  "citations": [
+   9,
+   21,
+   42
+  ],
+  "gaps": [
+   "Role of p-cymene in the revised pathway not confirmed from full text.",
+   "Pharmacology and safety not researched.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Aromatic hydrocarbon beside thymol and carvacrol in thyme and oregano oils.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "The textbook route γ-terpinene → p-cymene → thymol has been revised [42](#cite:42); a good example of a pathway diagram needing a date.",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": "Its place in the thymol pathway is revised by [42](#cite:42), which reports a route differing from earlier models; whether p-cymene is an intermediate or a side product needs confirming from the full text.",
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "solubility"
+  ],
+  "cited_refs": [
+   9,
+   21,
+   42
+  ],
+  "taxa": [
+   "thymus-vulgaris",
+   "origanum-vulgare"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H14",
+   "inchikeyComputed": "HFPZCAJZSCWRBC-UHFFFAOYSA-N",
+   "canonicalSmiles": "Cc1ccc(C(C)C)cc1",
+   "monoisotopicMass": 134.1096,
+   "averageMass": 134.222,
+   "descriptors": {
+    "heavyAtoms": 10,
+    "rings": 1,
+    "aromaticRings": 1,
+    "hbd": 0,
+    "hba": 0,
+    "rotatableBonds": 1,
+    "logP": 3.12,
+    "tpsa": 0,
+    "fsp3": 0.4,
+    "stereocenters": 0,
+    "charge": 0
+   },
+   "atomCount": 24,
+   "heavyAtomCount": 10,
+   "functionalGroups": [
+    {
+     "id": "isopropyl",
+     "name": "Isopropyl group",
+     "matches": [
+      [
+       2,
+       0,
+       3,
+       1
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/p-cymene.sdf",
+   "svg": {
+    "light": "structures/2d/p-cymene.svg",
+    "dark": "structures/2d/p-cymene.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/p-cymene.json",
+   "mwPack": 134.22,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "p-cymene#0",
+   "compound_id": "p-cymene",
+   "compound": "p-cymene",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "thymus-vulgaris",
+   "taxon_known": true,
+   "taxon_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "78300-441300",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013 (12 Nov 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+   "verified": true,
+   "note": "EMA lists p-cymene among main oil components; Kosakowska 2020 reports p-cymene among the highest monoterpene hydrocarbons. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)",
+   "refs": [
+    9
+   ]
+  },
+  {
+   "row": "p-cymene#1",
+   "compound_id": "p-cymene",
+   "compound": "p-cymene",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": "upper non-woody shoots at bloom onset",
+   "value": "10.45",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6068?page&_format=csv",
+   "verified": true,
+   "note": "Duke (Lagouri 1993): Shoot max 3420 ppm. De Martino 2009: 2.81 % (chemotype 1), 1.25 % (chemotype 2). | Basis as recorded: % of essential oil",
+   "refs": [
+    21
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "thyme-herb-hot-infusion",
+   "name": "Thyme herb, hot-water infusion"
+  }
+ ]
+}

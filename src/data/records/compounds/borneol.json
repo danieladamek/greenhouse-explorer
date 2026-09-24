@@ -1,0 +1,228 @@
+{
+ "compound": {
+  "id": "borneol",
+  "name": "borneol",
+  "synonyms": [
+   "endo-borneol",
+   "bornan-2-ol"
+  ],
+  "class": "monoterpene",
+  "subclass": "bornane alcohol",
+  "one_liner": "Bicyclic alcohol related to camphor; in sage and rosemary oils.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "1,7,7-trimethylbicyclo[2.2.1]heptan-2-ol",
+   "formula": "C10H18O",
+   "mw": 154.25,
+   "mw_source": "computed_from_formula",
+   "smiles": "CC1(C2CCC1(C(C2)O)C)C",
+   "inchikey": "DTGKSKDOIYIVQL-UHFFFAOYSA-N",
+   "cas": "507-70-0",
+   "pubchem_cid": 64685,
+   "chebi_id": "CHEBI:28093",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/64685/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": "Stereo-unspecified record."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MEP/terpenoid (plastidial; from geranyl diphosphate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "salvia-officinalis",
+    "plant_part": "leaf essential oil",
+    "value": "16000-250000",
+    "unit": "ppm",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Ghorbani A, Esmaeilizadeh M (2017) Pharmacological properties of Salvia officinalis and its components. J Tradit Complement Med 7(4):433-440",
+    "source_doi_or_url": "https://doi.org/10.1016/j.jtcme.2016.12.014",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+    "verified": true,
+    "note": "Ghorbani 2017: 'The main components of the oil include borneol, camphor, caryophyllene, cineole, ...'. EMA lists borneol without a range. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)"
+   },
+   {
+    "taxon_id": "salvia-rosmarinus",
+    "plant_part": "essential oil",
+    "value": "2.0-4.5 (Spanish type); 1.5-5.0 (Moroccan/Tunisian type)",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6384?page&_format=csv",
+    "verified": true,
+    "note": "Duke: Essential Oil 21000-223000 ppm; Leaf Essent. Oil max 47000 ppm. | Basis as recorded: % of essential oil (Ph. Eur.)"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "Borneol and camphor are an alcohol/ketone pair on the same bornane skeleton.",
+  "citations": [
+   12,
+   23
+  ],
+  "gaps": [
+   "Pharmacology and safety not researched.",
+   "No human evidence for the isolated compound found in this pass.",
+   "Stereo-unspecified PubChem record.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Bicyclic alcohol related to camphor; in sage and rosemary oils.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Borneol and camphor are an alcohol/[ketone](#term:monoterpenoid-ketone) pair on the same bornane skeleton.",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "monoterpenoid-ketone",
+   "solubility"
+  ],
+  "cited_refs": [
+   12,
+   23
+  ],
+  "taxa": [
+   "salvia-officinalis",
+   "salvia-rosmarinus"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H18O",
+   "inchikeyComputed": "DTGKSKDOIYIVQL-UHFFFAOYSA-N",
+   "canonicalSmiles": "CC1(C)C2CCC1(C)C(O)C2",
+   "monoisotopicMass": 154.1358,
+   "averageMass": 154.253,
+   "descriptors": {
+    "heavyAtoms": 11,
+    "rings": 2,
+    "aromaticRings": 0,
+    "hbd": 1,
+    "hba": 1,
+    "rotatableBonds": 0,
+    "logP": 2.19,
+    "tpsa": 20.2,
+    "fsp3": 1,
+    "stereocenters": 3,
+    "charge": 0
+   },
+   "atomCount": 29,
+   "heavyAtomCount": 11,
+   "functionalGroups": [
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       0,
+       4
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/borneol.sdf",
+   "svg": {
+    "light": "structures/2d/borneol.svg",
+    "dark": "structures/2d/borneol.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/borneol.json",
+   "mwPack": 154.25,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "borneol#0",
+   "compound_id": "borneol",
+   "compound": "borneol",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "leaf essential oil",
+   "value": "16000-250000",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Ghorbani A, Esmaeilizadeh M (2017) Pharmacological properties of Salvia officinalis and its components. J Tradit Complement Med 7(4):433-440",
+   "source_doi_or_url": "https://doi.org/10.1016/j.jtcme.2016.12.014",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Ghorbani 2017: 'The main components of the oil include borneol, camphor, caryophyllene, cineole, ...'. EMA lists borneol without a range. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)",
+   "refs": [
+    23
+   ]
+  },
+  {
+   "row": "borneol#1",
+   "compound_id": "borneol",
+   "compound": "borneol",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-rosmarinus",
+   "taxon_known": true,
+   "taxon_name": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "2.0-4.5 (Spanish type); 1.5-5.0 (Moroccan/Tunisian type)",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6384?page&_format=csv",
+   "verified": true,
+   "note": "Duke: Essential Oil 21000-223000 ppm; Leaf Essent. Oil max 47000 ppm. | Basis as recorded: % of essential oil (Ph. Eur.)",
+   "refs": [
+    12
+   ]
+  }
+ ],
+ "preparations": []
+}

@@ -1,0 +1,1345 @@
+# Greenhouse Explorer - glossary (shared by the primer, the catalogue, Tea Time and the figures).
+# Builder-written definitions, 2026-09-23. Variants are whole-word, case-insensitive reader matches and must not collide.
+
+# ---------------------------------------------------------------- evidence and study design
+- id: evidence-grade
+  term: Evidence grade
+  kind: methods
+  variants: ["evidence grades", "grade", "grades", "graded"]
+  short: "This site's letter for how strong the evidence behind a health statement is: A (pooled human trials) down to E (laboratory only), or T for traditional use in an official monograph."
+  definition: >-
+    A label attached to every health statement on this site. A means a systematic review or meta-analysis of human randomised
+    controlled trials; B at least one human randomised trial; C observational or small uncontrolled human studies; D animal
+    studies; E laboratory (in vitro) or computer (in silico) studies; T traditional use recorded in an official monograph.
+    A grade always belongs to a named test article, never to a plant in general.
+  concept: evidence-grades-and-test-article
+  see: [test-article, rct, meta-analysis, traditional-use]
+
+- id: test-article
+  term: Test article
+  kind: methods
+  variants: ["test articles"]
+  short: "The exact thing a study tested: whole herb, a named extract, an essential oil, an isolated compound or a multi-herb formula. A grade belongs to its test article only."
+  definition: >-
+    The material actually given or applied in a study. An enteric-coated peppermint-oil capsule, a peppermint tea and pure menthol
+    are three different test articles, and evidence about one says nothing direct about the others. This site records the test
+    article next to every grade so that a strong result for an oil capsule is not read as a result for a cup of tea.
+  concept: evidence-grades-and-test-article
+  see: [evidence-grade, named-extract, whole-herb, isolated-compound, multi-herb-formula]
+
+- id: named-extract
+  term: Named extract
+  kind: methods
+  variants: ["named extracts", "standardised extract", "standardized extract", "standardised extracts"]
+  short: "A specific manufactured extract (solvent, plant-to-extract ratio, often a code name) used in a trial. Its results do not transfer automatically to other extracts or to tea."
+  definition: >-
+    An extract made by a defined process, often sold or coded under a name, and sometimes standardised to contain a set amount
+    of a marker compound. Two extracts of the same plant made with different solvents can contain different molecules, so a trial
+    result is attached to that extract alone.
+  see: [test-article, herb-to-extract-ratio]
+
+- id: whole-herb
+  term: Whole herb
+  kind: methods
+  variants: ["whole_herb"]
+  short: "Test article meaning the dried or fresh plant material itself (or a simple preparation of it), rather than an extract, oil or pure compound."
+  definition: >-
+    The plant part as harvested, dried or powdered, including simple preparations such as a tea. Evidence graded against whole herb
+    is the closest this site comes to evidence about the plant as grown, but it still depends on how the herb was prepared.
+  see: [test-article]
+
+- id: isolated-compound
+  term: Isolated compound
+  kind: methods
+  variants: ["isolated_compound", "isolated compounds"]
+  short: "Test article meaning a single purified molecule (e.g. pure menthol), not the plant or an extract containing it."
+  definition: >-
+    A single chemical substance purified or synthesised and tested on its own. Results for an isolated compound say what the molecule
+    can do at the tested concentration; they do not say that a plant containing it, or a tea made from that plant, delivers enough of it.
+  see: [test-article, bioavailability]
+
+- id: multi-herb-formula
+  term: Multi-herb formula
+  kind: methods
+  variants: ["multi_herb_formula", "multi-herb formulas", "multi-herb product", "multi-ingredient products"]
+  short: "Test article made of several plants combined (e.g. Sho-saiko-to, thyme + ivy syrup). Its evidence belongs to the combination, not to any one ingredient."
+  definition: >-
+    A product combining two or more herbs. Traditional Japanese and Chinese formulas and many European cough syrups are of this kind.
+    Because the ingredients cannot be separated after the fact, this site grades the formula and never transfers the grade to a
+    single plant in it.
+  see: [test-article, sho-saiko-to]
+
+- id: rct
+  term: Randomised controlled trial
+  kind: methods
+  variants: ["randomized controlled trial", "randomised controlled trials", "randomized controlled trials", "RCT", "RCTs", "randomised trial", "randomised trials", "human randomised trials", "randomised", "double-blind", "double blind"]
+  short: "A study in which people are assigned by chance to the treatment or a comparison (often placebo), so that differences in outcome can be attributed to the treatment."
+  definition: >-
+    The standard design for testing whether an intervention works in people. Random assignment balances known and unknown differences
+    between groups; blinding (double-blind: neither participants nor assessors know who got what) and a placebo control reduce bias further. One RCT gives grade B on this site; a meta-analysis of several
+    gives grade A.
+  see: [placebo, crossover, meta-analysis]
+
+- id: placebo
+  term: Placebo
+  kind: methods
+  variants: ["placebo-controlled", "placebos"]
+  short: "An inactive look-alike given to the comparison group of a trial, so that expectation effects are the same in both groups."
+  definition: >-
+    A dummy treatment with no active ingredient, made to look, smell or taste like the real one. In herbal trials a convincing
+    placebo is hard to make for strongly flavoured preparations such as peppermint oil or sage.
+  see: [rct]
+
+- id: crossover
+  term: Crossover trial
+  kind: methods
+  variants: ["crossover", "randomised crossover", "crossover trials", "crossover studies"]
+  short: "A trial in which each participant receives both the treatment and the comparison in turn, in random order, so each person is their own control."
+  definition: >-
+    Useful for short-acting effects and small samples, such as single-dose cognition studies or drug-interaction studies. Its
+    weakness is carry-over: the first treatment can still be acting when the second begins.
+  see: [rct]
+
+- id: open-label
+  term: Open-label
+  kind: methods
+  variants: ["open label", "open-label study", "open study", "uncontrolled"]
+  short: "A study in which everyone knows what treatment is being given; there is no blinding and often no control group. Graded C on this site."
+  definition: >-
+    Open-label studies are easier to run but vulnerable to expectation and to improvement that would have happened anyway. Many
+    herbal studies are of this kind, which is one reason they sit at grade C rather than B.
+  see: [rct, observational-study]
+
+- id: observational-study
+  term: Observational study
+  kind: methods
+  variants: ["observational", "observational studies"]
+  short: "A study that records what people already do or experience, without assigning a treatment. It can show association, not cause. Graded C here."
+  definition: >-
+    Cohort, case-control and cross-sectional studies watch rather than intervene. Because people who choose a herb differ in other ways
+    from those who do not, an association is weak evidence of an effect. A meta-analysis of observational studies is still C on this site.
+  see: [evidence-grade, case-report]
+
+- id: case-report
+  term: Case report
+  kind: methods
+  variants: ["case reports", "case series"]
+  short: "A published description of one patient (or a small series) with an unusual event, such as liver injury after a herbal product. Signals a possible harm; does not measure its risk."
+  definition: >-
+    Case reports are how most herbal adverse effects first come to light. They cannot show how often the harm occurs and are easily
+    confounded by other products, contamination or adulteration, which is why the skullcap and chamomile safety blocks treat them with care.
+  see: [adulteration, hepatotoxicity]
+
+- id: meta-analysis
+  term: Meta-analysis
+  kind: statistics
+  variants: ["meta-analyses", "meta-analysed"]
+  short: "A statistical pooling of the results of several studies of the same question, giving one overall estimate. Pooled human RCTs give grade A here."
+  definition: >-
+    Meta-analysis combines effect estimates across studies, weighting larger and more precise ones more heavily. It is only as good as
+    the studies pooled: combining trials of different test articles produces a number that describes none of them.
+  see: [systematic-review, rct]
+
+- id: systematic-review
+  term: Systematic review
+  kind: methods
+  variants: ["systematic reviews"]
+  short: "A review that searches for every study on a question using stated methods and criteria, so the selection itself is not biased."
+  definition: >-
+    Unlike a narrative review, a systematic review publishes its search, inclusion rules and quality appraisal. It may or may not end in a
+    meta-analysis. A systematic review of trials of mixed sage preparations can conclude that the evidence is weak even where the individual
+    trials were positive.
+  see: [meta-analysis]
+
+- id: in-vitro
+  term: In vitro
+  kind: methods
+  variants: ["in-vitro", "in_vitro", "laboratory studies", "in silico", "in-silico"]
+  short: "Studies in test tubes, dishes or isolated cells and receptors, outside a living organism. Graded E here and never phrased as an effect in people."
+  definition: >-
+    In vitro work shows what a molecule can do at a given concentration in a controlled system. Concentrations used are often far higher
+    than anything reached in the blood after eating or drinking a plant. Computer (in silico) predictions such as docking share grade E.
+  see: [bioavailability, evidence-grade]
+
+- id: animal-study
+  term: Animal study
+  kind: methods
+  variants: ["animal studies", "animal data", "in vivo", "rodent studies", "rodent"]
+  short: "An experiment in living animals, usually rats or mice. Graded D here: it can show a mechanism or a hazard but is never phrased as an effect in people."
+  definition: >-
+    Animal studies supply most toxicity data, including the rodent studies behind the EMA limits for thujone, pulegone and estragole.
+    Doses are often far above human exposure, and species differ in metabolism.
+  see: [evidence-grade, carcinogen-rodent]
+
+- id: traditional-use
+  term: Traditional use
+  kind: methods
+  variants: ["traditionally used", "traditional-use", "traditional use indications"]
+  short: "A use accepted by a regulator because a herb has been used safely that way for a long time (EMA: at least 30 years), not because trials proved it works. Graded T here."
+  definition: >-
+    The EMA registers traditional herbal medicinal products on evidence of long-standing use and plausibility rather than clinical
+    efficacy. This site reports such a statement as "traditionally used for", attributed to the monograph, and never as "helps" or "treats".
+  see: [monograph, well-established-use, ema-hmpc]
+
+- id: well-established-use
+  term: Well-established use
+  kind: methods
+  variants: ["well-established"]
+  short: "EMA category for a herbal medicine whose efficacy and safety are supported by published scientific data, as opposed to traditional use alone."
+  definition: >-
+    A higher bar than traditional use. The EMA accepts well-established use for enteric-coated peppermint oil in irritable bowel
+    symptoms, but it rejected it for sage because the products tested in trials did not match products on the EU market.
+  see: [traditional-use, ema-hmpc]
+
+- id: ema-hmpc
+  term: EMA HMPC
+  kind: methods
+  variants: ["EMA", "HMPC", "EMEA", "EMA/HMPC", "European Medicines Agency", "Committee on Herbal Medicinal Products"]
+  short: "The European Medicines Agency's Committee on Herbal Medicinal Products, which writes assessment reports and monographs on herbs and their constituents of concern."
+  definition: >-
+    The HMPC reviews the literature on a herb and publishes an assessment report (the evidence) and an EU herbal monograph (the conclusions),
+    plus public statements on risky constituents such as thujone, pulegone, estragole and methyleugenol. Its documents are the anchor
+    sources of this site.
+  see: [monograph, traditional-use, well-established-use]
+
+- id: monograph
+  term: Monograph
+  kind: methods
+  variants: ["monographs", "herbal monograph", "EU herbal monograph", "assessment report", "assessment reports"]
+  short: "An official summary of what a regulator or expert body accepts about a herb: indications, preparations, contraindications and warnings."
+  definition: >-
+    Monographs are published by the EMA HMPC, ESCOP, the WHO and (historically) Germany's Commission E. A monograph listing a traditional
+    use is the basis of grade T on this site; its posology is never repeated as advice.
+  see: [ema-hmpc, traditional-use, pharmacopoeia]
+
+- id: pharmacopoeia
+  term: European Pharmacopoeia
+  kind: methods
+  variants: ["Ph. Eur.", "Ph. Eur", "pharmacopoeia", "pharmacopoeial"]
+  short: "The official book of quality standards for medicines in Europe. It sets minimum contents, e.g. of thymol + carvacrol in thyme oil or of rosmarinic acid in lemon balm."
+  definition: >-
+    Pharmacopoeial monographs define what a herbal drug must contain to be sold as that drug. They are quality specifications, not
+    evidence of effect, but they are a useful statement of what typical material contains.
+  see: [monograph]
+
+- id: livertox
+  term: LiverTox
+  kind: methods
+  variants: []
+  short: "A free NIH database of drug- and supplement-induced liver injury, with case summaries and a likelihood score for each agent. The skullcap safety block draws on it."
+  definition: >-
+    LiverTox is maintained by the US National Institute of Diabetes and Digestive and Kidney Diseases and hosted on the NCBI Bookshelf.
+    Its entries for herbal products discuss adulteration and multi-ingredient products alongside the herb itself.
+  see: [hepatotoxicity, adulteration]
+
+- id: gc-ms
+  term: GC-MS
+  kind: methods
+  variants: ["gas chromatography-mass spectrometry", "GC/MS"]
+  short: "Gas chromatography-mass spectrometry: separates the volatile molecules of an oil and identifies each by its mass spectrum. The source of most essential-oil percentages."
+  definition: >-
+    The oil is vaporised and carried through a long column; each compound leaves at a characteristic time and is then fragmented and
+    identified. Results are usually given as a percentage of the total peak area, i.e. per cent of the oil, not of the leaf.
+  see: [essential-oil-percent, essential-oil]
+
+- id: hplc
+  term: HPLC
+  kind: methods
+  variants: ["HPLC-UV", "liquid chromatography"]
+  short: "High-performance liquid chromatography: separates dissolved, non-volatile molecules such as rosmarinic acid or baicalin so they can be measured."
+  definition: >-
+    The workhorse method for phenolic acids and flavonoid glycosides in extracts, teas and tinctures. Results are typically reported
+    per gram of dry plant, per gram of extract or per millilitre of liquid.
+  see: [dry-weight, per-g-extract]
+
+# ---------------------------------------------------------------- statistics and notation
+- id: auc
+  term: AUC
+  kind: statistics
+  variants: ["area under the curve", "plasma AUC", "Cmax"]
+  short: "Area under the plasma concentration-time curve: the total exposure of the body to a drug. An interaction that lowers AUC means less drug reached the blood."
+  definition: >-
+    Pharmacokinetic studies measure a drug in blood over time and integrate the curve; Cmax is the peak of that curve. Comparing AUC with
+    and without a herb constituent, as in the baicalin-rosuvastatin study, is how interactions are quantified.
+  see: [drug-interaction]
+
+- id: guidance-value
+  term: Guidance value
+  kind: methods
+  variants: ["guidance values", "exposure limit", "exposure limits", "exposure value", "exposure values", "NOAEL", "benchmark dose"]
+  short: "A regulator's figure for how much of a constituent of concern a person may be exposed to per day without special concern. A safety threshold, not a recommended amount."
+  definition: >-
+    Guidance values for estragole, thujone and pulegone + menthofuran appear in the safety blocks. They are derived from animal toxicology:
+    the highest dose with no observed adverse effect (NOAEL), or a benchmark dose modelled from the dose-response curve, divided by
+    uncertainty factors. They are precautionary and stated for herbal medicinal products, not culinary use.
+  see: [constituent-of-concern]
+
+- id: mg-per-kg-bw
+  term: mg/kg bw
+  kind: notation
+  variants: ["kg bw", "bw", "body weight", "µg/kg bw", "mg/kg bw/day"]
+  short: "Milligrams per kilogram of body weight: a dose scaled to the size of the person or animal."
+  definition: >-
+    Toxicological limits are usually given per kilogram of body weight per day, then multiplied by a reference weight (often 50 or 60 kg)
+    to give a per-person figure.
+  see: [guidance-value]
+
+- id: ppm
+  term: ppm
+  kind: notation
+  variants: ["parts per million"]
+  short: "Parts per million: 1 ppm is 1 mg per kg. 10,000 ppm = 1 %. Dr. Duke's reports most values in ppm, often without saying of what (leaf, oil or plant)."
+  definition: >-
+    A ppm value means nothing until its basis is known: 10,000 ppm of the oil is 1 % of the oil, but 10,000 ppm of the dry leaf is 1 % of
+    the leaf, a far larger amount. The catalogue carries a basis on every value for that reason.
+  see: [basis, dr-dukes]
+
+# ---------------------------------------------------------------- measurement basis and records
+- id: basis
+  term: Measurement basis
+  kind: methods
+  variants: ["basis", "bases"]
+  short: "What an amount is 'per': fresh weight, dry weight, per cent of essential oil or per gram of extract. Values on different bases are never compared on this site."
+  definition: >-
+    The same compound can be 40 % of an oil and 0.5 % of the leaf the oil came from. A number without its basis cannot be compared with
+    anything, so every occurrence row carries one and the compare view refuses to mix them.
+  concept: measurement-basis
+  see: [fresh-weight, dry-weight, essential-oil-percent, per-g-extract]
+
+- id: fresh-weight
+  term: Fresh weight
+  kind: methods
+  variants: ["fresh-weight", "fresh herb", "fresh material"]
+  short: "Amount per gram of plant as harvested, water included. Fresh leaves are mostly water, so fresh-weight values are much lower than dry-weight values for the same plant."
+  definition: >-
+    Leaves are commonly 70-90 % water, so converting between fresh and dry weight needs the water content of that sample, which is often
+    not reported. The site does not convert; it shows the basis as published.
+  concept: measurement-basis
+  see: [basis, dry-weight]
+
+- id: dry-weight
+  term: Dry weight
+  kind: methods
+  variants: ["dry-weight", "dry matter", "dry herb", "dried herb", "dry leaf", "dry root", "dry tissue", "dried drug"]
+  short: "Amount per gram of dried plant material. The usual basis for phenolics and flavonoids measured by HPLC."
+  definition: >-
+    Drying removes water but can also change the chemistry: carnosic acid oxidises to carnosol, and oven-drying lowered chamomile phenolics.
+    A dry-weight value therefore describes dried material, not the living plant.
+  concept: measurement-basis
+  see: [basis, fresh-weight]
+
+- id: essential-oil-percent
+  term: Per cent of essential oil
+  kind: methods
+  variants: ["essential-oil %", "% of essential oil", "% of oil", "per cent of essential oil", "essential_oil_pct", "% of the oil"]
+  short: "An amount expressed as a share of the distilled oil, not of the plant. Thymol at 50 % of thyme oil may be well under 1 % of the dry leaf."
+  definition: >-
+    GC-MS reports the composition of the oil itself. Because oil is typically a few per cent of the plant at most, a large percentage of the
+    oil is a small amount of the leaf, and says nothing about what reaches a water infusion.
+  concept: measurement-basis
+  see: [basis, essential-oil, gc-ms]
+
+- id: per-g-extract
+  term: Per gram of extract
+  kind: methods
+  variants: ["per_g_extract", "per g extract", "per gram extract"]
+  short: "An amount relative to an extract after solvent removal. It depends on how much else the solvent pulled out, so it cannot be converted back to the plant."
+  definition: >-
+    Extracts concentrate some constituents and exclude others; 406 mg baicalin per gram of an aqueous root extract is a statement about the
+    extract, not about the root.
+  concept: measurement-basis
+  see: [basis]
+
+- id: occurrence
+  term: Occurrence
+  kind: methods
+  variants: ["occurrences", "occurrence record", "occurrence records", "occurrence row", "occurrence rows"]
+  short: "One catalogue row saying that a compound was reported in a species' plant part, with amount, basis, source and a verified flag."
+  definition: >-
+    An occurrence links a compound to a greenhouse species. It is species-level unless the source names a cultivar, and it never implies
+    that the greenhouse's own plants were measured.
+  concept: measurement-basis
+  see: [basis, identity-status]
+
+- id: identity-status
+  term: Identity status
+  kind: methods
+  variants: ["identity_status"]
+  short: "Whether the greenhouse entry's species is confirmed, needs checking, or is unresolved (skullcap: S. lateriflora or S. baicalensis?)."
+  definition: >-
+    Recorded on every inventory entry. An unresolved entry is profiled under each candidate species side by side and resolves by changing a
+    single field once the plant is identified.
+  see: [cultivar, accepted-name]
+
+- id: artefact
+  term: Artefact
+  kind: science
+  variants: ["artefacts", "artifact", "artifacts"]
+  short: "A molecule formed by handling rather than by the living plant, e.g. carnosol from carnosic acid on drying, chamazulene from matricin on steam distillation."
+  definition: >-
+    Artefacts matter because a compound reported in dried herb or in an oil may not exist in the fresh plant, and the reverse.
+  concept: extraction-chemistry
+  see: [steam-distillation, proazulene]
+
+# ---------------------------------------------------------------- taxonomy and identifiers
+- id: cultivar
+  term: Cultivar
+  kind: science
+  variants: ["cultivars", "cv."]
+  short: "A cultivated variety selected and named by growers, e.g. 'Genovese' basil. Chemistry can differ sharply between cultivars of one species."
+  definition: >-
+    The greenhouse grows several basil cultivars whose oils are of different chemotypes. This site uses cultivar-level data only when a source
+    names the cultivar, and flags that it is the study's plant, not the greenhouse's.
+  concept: chemotypes
+  see: [chemotype, identity-status]
+
+- id: subspecies
+  term: Subspecies
+  kind: science
+  variants: ["subsp.", "ssp."]
+  short: "A rank below species for a distinct population, e.g. Origanum vulgare subsp. hirtum (Greek oregano). Databases do not always agree on subspecies."
+  definition: >-
+    POWO, GBIF and NCBI sometimes treat the same subspecies differently, which is why each taxon page states which rank the identifiers belong to.
+  see: [accepted-name, powo]
+
+- id: hybrid
+  term: Hybrid (×)
+  kind: notation
+  variants: ["hybrid", "hybrids", "nothospecies"]
+  short: "The × in a name such as Mentha × piperita marks a hybrid: peppermint is a cross between water mint and spearmint."
+  definition: >-
+    Hybrid names carry a multiplication sign before the epithet. Hybrids are often propagated by cuttings, so a named clone can be chemically
+    uniform while the hybrid as a whole varies.
+  see: [cultivar]
+
+- id: aggregate-species
+  term: Aggregate species
+  kind: science
+  variants: ["species aggregate", "agg."]
+  short: "A group of closely related species treated together under one name because they are hard to tell apart."
+  definition: >-
+    Some herbal literature reports results for an aggregate rather than a single species, which weakens any claim about one species.
+  see: [accepted-name]
+
+- id: accepted-name
+  term: Accepted name
+  kind: science
+  variants: ["accepted names", "botanical synonym", "synonym"]
+  short: "The scientific name a taxonomic authority currently recognises for a species; older names become synonyms (e.g. Rosmarinus officinalis is now Salvia rosmarinus)."
+  definition: >-
+    This site takes accepted names from POWO and lists synonyms so that older literature can be matched to the right plant.
+  see: [powo]
+
+- id: lamiaceae
+  term: Lamiaceae
+  kind: science
+  variants: ["mint family", "Labiatae"]
+  short: "The mint family: basil, mints, lemon balm, sage, rosemary, thyme, oregano and skullcap. Aromatic oils in surface glands; rosmarinic acid widespread."
+  definition: >-
+    The best-represented family in the greenhouse and the focus of the prototype's profiles.
+  see: [glandular-trichome]
+
+- id: asteraceae
+  term: Asteraceae
+  kind: science
+  variants: ["daisy family", "Compositae"]
+  short: "The daisy family, including chamomile, ragweed and lettuce. Relevant here for allergy cross-reactivity."
+  definition: >-
+    People allergic to one member, especially ragweed, may react to others such as chamomile; the chamomile safety block carries this.
+  see: [cross-reactivity, sesquiterpene-lactone]
+
+- id: powo
+  term: POWO
+  kind: methods
+  variants: ["Plants of the World Online"]
+  short: "Plants of the World Online, the Royal Botanic Gardens Kew database of accepted plant names; the source of accepted names and POWO ids here."
+  definition: >-
+    POWO identifiers are IPNI name identifiers (urn:lsid:ipni.org:names:...). The site links each taxon to its POWO record.
+  see: [gbif, ncbi-taxid]
+
+- id: gbif
+  term: GBIF
+  kind: methods
+  variants: ["Global Biodiversity Information Facility"]
+  short: "The Global Biodiversity Information Facility: an international species and occurrence database; its API supplied name matches and GBIF keys."
+  definition: >-
+    GBIF also mirrors other checklists, including NCBI Taxonomy, which is how this prototype read NCBI taxids when NCBI itself was unreachable.
+  see: [powo, ncbi-taxid]
+
+- id: ncbi-taxid
+  term: NCBI taxid
+  kind: notation
+  variants: ["NCBI Taxonomy", "taxid", "taxids", "ncbi_taxid"]
+  short: "The numeric identifier of an organism in the NCBI Taxonomy database, used to link a plant to its gene and sequence records."
+  definition: >-
+    NCBI's classification is built for sequence databases and does not always match botanical treatments; it may keep a subspecies that POWO sinks.
+  see: [gbif, powo]
+
+- id: pubchem-cid
+  term: PubChem CID
+  kind: notation
+  variants: ["PubChem", "CID", "pubchem_cid"]
+  short: "The compound identifier in PubChem, the NIH open chemistry database. Each compound record here links to its CID."
+  definition: >-
+    A CID refers to one specific structure; stereoisomers and mixtures (such as citral) can have separate CIDs, so the record notes which was used.
+  see: [inchikey, smiles]
+
+- id: inchikey
+  term: InChIKey
+  kind: notation
+  variants: ["InChI"]
+  short: "A fixed-length 27-character code computed from a structure, used to match the same molecule across databases."
+  definition: >-
+    The first block encodes the connectivity; the second, stereochemistry and isotopes. Two records with the same InChIKey are the same compound.
+  see: [smiles, pubchem-cid]
+
+- id: smiles
+  term: SMILES
+  kind: notation
+  variants: []
+  short: "A line of text that encodes a molecular structure (e.g. linalool: CC(=CCCC(C)(C=C)O)C). The site draws every structure from its SMILES."
+  definition: >-
+    Simplified Molecular-Input Line-Entry System. SMILES strings here were retrieved from PubChem and are recomputed at build time.
+  see: [inchikey]
+
+- id: chebi
+  term: ChEBI
+  kind: notation
+  variants: ["chebi_id"]
+  short: "Chemical Entities of Biological Interest: an ontology of small molecules; ChEBI ids link compounds to biological databases."
+  definition: >-
+    Where a ChEBI id could not be confirmed it is left empty rather than guessed.
+  see: [pubchem-cid]
+
+- id: enantiomer
+  term: Enantiomer
+  kind: science
+  variants: ["enantiomers", "stereoisomer", "stereoisomers"]
+  short: "One of two mirror-image forms of a molecule. They can smell and act differently; basil linalool is usually reported as the (R)-(-) form."
+  definition: >-
+    Databases often hold a stereo-unspecified record; where the plant's form was not confirmed, the record says so.
+  see: [smiles]
+
+- id: dr-dukes
+  term: Dr. Duke's
+  kind: methods
+  variants: ["Dr. Duke's Phytochemical and Ethnobotanical Databases", "Duke"]
+  short: "The USDA database of plant chemicals compiled by James Duke; a source of occurrence rows, often in ppm with the plant part but not always the basis."
+  definition: >-
+    Duke's rows cite older literature and are used here only when a readable source paper supports them.
+  see: [ppm, knapsack, lotus]
+
+- id: knapsack
+  term: KNApSAcK
+  kind: methods
+  variants: []
+  short: "A Japanese database of species-metabolite relationships; used here to confirm that a compound has been reported from a species."
+  definition: >-
+    KNApSAcK lists presence, not amounts, and entries can be ambiguous (its 'wogonin 7-glucoside' is not wogonoside).
+  see: [dr-dukes, lotus]
+
+- id: lotus
+  term: LOTUS
+  kind: methods
+  variants: ["LOTUS database"]
+  short: "The natural-products occurrence database (lotus.naturalproducts.net) linking structures to the organisms they were reported from, with references."
+  definition: >-
+    Used for presence checks; several responses were truncated during the sweep, which is recorded in the gaps.
+  see: [knapsack, dr-dukes]
+
+# ---------------------------------------------------------------- plant biology (primer)
+- id: cellulose
+  term: Cellulose
+  kind: science
+  variants: ["microfibrils", "cellulose microfibrils", "cellulose microfibril"]
+  short: "A linear polymer of glucose that forms the load-bearing fibres of plant cell walls; the most abundant biopolymer on Earth."
+  definition: >-
+    Cellulose chains bundle into microfibrils that resist turgor pressure, the outward push of the cell's contents; they are spun at the cell
+    surface by membrane complexes of cellulose synthase (CESA) subunits guided by microtubules. The wall stays in the strainer when a tea is made.
+  see: [hemicellulose, plastid]
+
+- id: hemicellulose
+  term: Hemicellulose
+  kind: science
+  variants: ["hemicelluloses", "pectin", "pectins", "wall matrix"]
+  short: "Hemicelluloses and pectins: the branched and gel-forming polysaccharides that make up the hydrated matrix around cellulose in the primary cell wall."
+  definition: >-
+    Hemicelluloses such as xyloglucan coat and link cellulose microfibrils; pectins, rich in galacturonic acid, hold water and help cells
+    adhere. Growth proteins called expansins loosen the bonds between these polymers so the wall can yield to turgor pressure.
+  see: [cellulose]
+
+- id: plastid
+  term: Plastid
+  kind: science
+  variants: ["plastids", "plastidic", "plastidial", "chloroplast", "chloroplasts"]
+  short: "A family of plant organelles (chloroplasts among them) with their own metabolism; the site of the MEP pathway to monoterpenes and diterpenes."
+  definition: >-
+    The chloroplast, where photosynthesis happens, is the best-known plastid. Plastids and the cytosol make isoprenoid building blocks by
+    different routes, which is why terpene classes are split between compartments.
+  see: [cytosol, mep-pathway]
+
+- id: cytosol
+  term: Cytosol
+  kind: science
+  variants: ["cytosolic"]
+  short: "The fluid interior of the cell outside the organelles; the site of the mevalonate pathway to sesquiterpenes, sterols and triterpenes."
+  definition: >-
+    Enzymes of many biosynthetic steps float in or are anchored at the edge of the cytosol.
+  see: [mva-pathway, plastid]
+
+- id: thylakoid
+  term: Thylakoid
+  kind: science
+  variants: ["thylakoids", "thylakoid membranes", "thylakoid membrane"]
+  short: "The stacked internal membranes of the chloroplast that carry chlorophyll and the complexes of the light reactions."
+  definition: >-
+    Photosystem II, the cytochrome b6f complex, photosystem I and ATP synthase sit in the thylakoid membrane.
+  see: [photosystem, plastid]
+
+- id: photosystem
+  term: Photosystem
+  kind: science
+  variants: ["photosystems", "photosystem II", "photosystem I", "PSII", "PSI"]
+  short: "A large protein-pigment complex that captures light. Photosystem II splits water and releases oxygen; photosystem I helps make NADPH."
+  definition: >-
+    The two photosystems work in series along the thylakoid electron transport chain.
+  see: [thylakoid, atp]
+
+- id: atp
+  term: ATP and NADPH
+  kind: science
+  variants: ["ATP", "NADPH", "ATP synthase", "adenosine triphosphate", "NADPH-dependent"]
+  short: "The two products of the light reactions: ATP, the cell's energy currency, and NADPH, its carrier of reducing power. Both pay for carbon fixation."
+  definition: >-
+    In the chloroplast ATP is made by ATP synthase, driven by the proton gradient of the electron transport chain, and NADPH by photosystem I.
+    Many biosynthetic enzymes on this site, such as basil's eugenol-forming reductase, are NADPH-dependent.
+  see: [rubisco]
+
+- id: rubisco
+  term: Rubisco
+  kind: science
+  variants: []
+  short: "The enzyme that fixes CO2 into sugar in photosynthesis; slow, and confused by oxygen competing for its active site."
+  definition: >-
+    Rubisco catalyses the first step of net carbon assimilation and is often the limit on photosynthesis. Every carbon atom in the herbs'
+    oils and phenolics passed through it.
+  see: [atp]
+
+- id: secondary-metabolite
+  term: Secondary metabolite
+  kind: science
+  variants: ["secondary metabolites", "secondary metabolism", "specialised metabolism", "specialized metabolism", "specialised metabolite", "specialised metabolites"]
+  short: "A compound not needed for basic growth that varies between lineages (terpenes, phenolics, alkaloids); plants use them in defence and signalling."
+  definition: >-
+    Long treated as waste, secondary metabolites are now understood as part of a plant's survival strategy. Nearly every compound record on
+    this site is one.
+  see: [terpenoid, phenylpropanoid]
+
+- id: glandular-trichome
+  term: Glandular trichome
+  kind: science
+  variants: ["glandular trichomes", "peltate glandular trichomes", "peltate glands", "peltate trichomes", "trichome", "trichomes", "oil glands"]
+  short: "A tiny hair on the leaf surface that makes and stores essential oil. In the mints, oil sits in these glands, which is why rubbing the leaf releases the scent."
+  definition: >-
+    Peltate trichomes of mint and basil are the site of menthol and estragole biosynthesis. Oil stored outside the leaf cells is volatile and
+    partly lost on drying and heating.
+  see: [essential-oil, lamiaceae]
+
+# ---------------------------------------------------------------- pathways and enzymes
+- id: mep-pathway
+  term: MEP pathway
+  kind: science
+  variants: ["MEP", "MEP (DOXP) pathway", "DOXP pathway", "methylerythritol phosphate pathway", "1-deoxy-D-xylulose-5-phosphate pathway"]
+  short: "The plastid route that makes the C5 terpenoid building blocks (IPP/DMAPP) from pyruvate and glyceraldehyde-3-phosphate; feeds monoterpenes and diterpenes."
+  definition: >-
+    Discovered in the 1990s, it runs alongside the older-known mevalonate pathway. The split between the two is broad rather than absolute.
+  see: [mva-pathway, ipp-dmapp, monoterpene]
+
+- id: mva-pathway
+  term: MVA pathway
+  kind: science
+  variants: ["mevalonate pathway", "MVA", "mevalonate", "mevalonate (MVA) pathway"]
+  short: "The cytosolic route from acetyl-CoA to the C5 terpenoid building blocks; feeds sesquiterpenes, sterols and triterpenes."
+  definition: >-
+    Named after its intermediate mevalonic acid. Animals and fungi use it too; the MEP pathway is found in plastids and bacteria.
+  see: [mep-pathway, ipp-dmapp, sesquiterpene]
+
+- id: ipp-dmapp
+  term: IPP / DMAPP
+  kind: notation
+  variants: ["IPP", "DMAPP", "isopentenyl diphosphate", "dimethylallyl diphosphate", "C5 units", "prenyl diphosphate", "prenyl diphosphates"]
+  short: "Isopentenyl diphosphate and dimethylallyl diphosphate: the two five-carbon units from which every terpenoid is assembled."
+  definition: >-
+    Chains of two (C10), three (C15), four (C20) or six (C30) units give the monoterpenes, sesquiterpenes, diterpenes and triterpenes.
+  see: [mep-pathway, mva-pathway, gpp]
+
+- id: gpp
+  term: Geranyl diphosphate
+  kind: science
+  variants: ["GPP", "geranyl diphosphate (C10)"]
+  short: "The ten-carbon precursor of every monoterpene; different terpene synthases fold it into menthol's, thymol's or camphor's skeleton."
+  definition: >-
+    The choice of synthase, not the precursor, decides which monoterpenes a plant makes.
+  see: [terpene-synthase, monoterpene]
+
+- id: terpene-synthase
+  term: Terpene synthase
+  kind: science
+  variants: ["terpene synthases", "monoterpene synthase", "monoterpene synthases", "linalool synthase"]
+  short: "An enzyme that turns a prenyl diphosphate into a terpene skeleton. Its gene sets a plant's scent; one broken basil synthase changes linalool into geraniol."
+  definition: >-
+    Terpene synthases form large gene families and often make several products at once.
+  see: [gpp, chemotype]
+
+- id: cytochrome-p450
+  term: Cytochrome P450
+  kind: science
+  variants: ["P450", "P450s", "CYP", "cytochrome P450 enzymes", "P450 enzymes"]
+  short: "A large family of oxidising enzymes. In plants they decorate terpene skeletons (thymol, ursolic acid); in the liver they metabolise drugs and can bioactivate toxins."
+  definition: >-
+    The same enzyme family underlies two stories on this site: biosynthesis in the plant and bioactivation of pulegone, estragole and teucrin A
+    in the body.
+  see: [cyp3a4, bioactivation]
+
+- id: cyp3a4
+  term: CYP3A4
+  kind: science
+  variants: ["CYP3A4 substrates", "CYP3A"]
+  short: "The liver and gut P450 enzyme that metabolises about half of prescription drugs; inhibiting it can raise drug levels."
+  definition: >-
+    Peppermint oil inhibits CYP3A4 in vitro; whether that matters in people depends on exposure, which is why the interaction is graded E.
+  see: [cytochrome-p450, drug-interaction]
+
+- id: shikimate-pathway
+  term: Shikimate pathway
+  kind: science
+  variants: ["shikimate", "shikimic acid pathway"]
+  short: "The route from phosphoenolpyruvate and erythrose 4-phosphate to the aromatic amino acids; at least 30 % of fixed carbon in vascular plants passes through it."
+  definition: >-
+    It supplies phenylalanine and tyrosine, the starting points of the phenylpropanoid, flavonoid and rosmarinic-acid branches.
+  see: [phenylpropanoid]
+
+- id: o-methyltransferase
+  term: O-methyltransferase
+  kind: science
+  variants: ["O-methyltransferases", "OMT", "OMTs"]
+  short: "An enzyme that adds a methyl group to an oxygen. Two basil OMTs make estragole and methyleugenol; one amino acid decides which."
+  definition: >-
+    Methylation often changes a molecule's volatility, scent and metabolism.
+  see: [estragole, methyleugenol]
+
+# ---------------------------------------------------------------- compound classes
+- id: terpenoid
+  term: Terpenoid
+  kind: science
+  variants: ["terpenoids", "terpene", "terpenes", "isoprenoid", "isoprenoids"]
+  short: "The largest class of plant natural products, built from five-carbon units; includes the essential-oil molecules, carnosic acid and ursolic acid."
+  definition: >-
+    Terpenes are strictly hydrocarbons and terpenoids their oxygenated relatives, but the words are often used interchangeably.
+  see: [monoterpene, sesquiterpene, diterpene, triterpene, ipp-dmapp]
+
+- id: monoterpene
+  term: Monoterpene
+  kind: science
+  variants: ["monoterpenes", "monoterpenoid", "monoterpenoids", "monoterpene alcohol", "monoterpene hydrocarbons"]
+  short: "A ten-carbon terpenoid; the main class of herb essential oils (menthol, thymol, linalool, 1,8-cineole, camphor, thujone)."
+  definition: >-
+    Monoterpenes are small, volatile and poorly soluble in water, which is why only a fraction reaches a tea.
+  see: [terpenoid, gpp, essential-oil]
+
+- id: monoterpenoid-ketone
+  term: Monoterpenoid ketone
+  kind: science
+  variants: ["monoterpenoid ketones", "ketone", "ketones"]
+  short: "A monoterpene carrying a C=O group, such as thujone, camphor, menthone and pulegone; several are the constituents of concern."
+  definition: >-
+    Ketones in the catalogue have their own class label because several carry safety thresholds.
+  see: [thujone, pulegone, monoterpene]
+
+- id: sesquiterpene
+  term: Sesquiterpene
+  kind: science
+  variants: ["sesquiterpenes", "sesquiterpenoid", "sesquiterpene alcohol"]
+  short: "A fifteen-carbon terpenoid, made mainly in the cytosol: β-caryophyllene, α-bisabolol, chamazulene."
+  definition: >-
+    Less volatile than monoterpenes, sesquiterpenes form the heavier notes of an oil.
+  see: [terpenoid, mva-pathway, sesquiterpene-lactone]
+
+- id: sesquiterpene-lactone
+  term: Sesquiterpene lactone
+  kind: science
+  variants: ["sesquiterpene lactones"]
+  short: "A sesquiterpene with a lactone ring; common in the Asteraceae and a frequent cause of contact allergy."
+  definition: >-
+    Sesquiterpene lactones help explain why Asteraceae allergies cross-react. The prototype does not profile one as a compound record.
+  see: [asteraceae, cross-reactivity]
+
+- id: diterpene
+  term: Diterpene
+  kind: science
+  variants: ["diterpenes", "diterpenoid", "diterpenoids", "clerodane", "clerodane diterpenoid"]
+  short: "A twenty-carbon terpenoid: carnosic acid and carnosol in rosemary and sage; teucrin A (a clerodane) in germander."
+  definition: >-
+    Diterpenes are made in plastids from geranylgeranyl diphosphate and are generally not volatile.
+  see: [terpenoid, mep-pathway]
+
+- id: triterpene
+  term: Triterpene
+  kind: science
+  variants: ["triterpenes", "pentacyclic triterpene", "triterpenoid", "triterpenoids"]
+  short: "A thirty-carbon terpenoid such as ursolic acid; waxy, insoluble in water and found in leaf surface wax."
+  definition: >-
+    Pentacyclic triterpenes are made by cyclising 2,3-oxidosqualene and then oxidising the skeleton with P450 enzymes.
+  see: [terpenoid, mva-pathway]
+
+- id: phenylpropanoid
+  term: Phenylpropanoid
+  kind: science
+  variants: ["phenylpropanoids", "phenylpropene", "phenylpropenes", "allylbenzene"]
+  short: "A compound derived from phenylalanine via cinnamic acid: eugenol, estragole, methyleugenol, caffeic and rosmarinic acid."
+  definition: >-
+    The phenylpropanoid pathway also supplies lignin, coumarins and the flavonoids.
+  see: [shikimate-pathway, phenolic-acid]
+
+- id: phenolic-acid
+  term: Phenolic acid
+  kind: science
+  variants: ["phenolic acids", "hydroxycinnamic acid", "hydroxycinnamic acids", "hydroxycinnamic compounds", "hydroxycinnamic derivatives"]
+  short: "A small acid carrying a phenol ring, such as caffeic acid; rosmarinic acid is an ester of two of them. Water-soluble, so well extracted into tea."
+  definition: >-
+    Phenolic acids are the main reason a hot-water infusion of a Lamiaceae herb is chemically different from its oil.
+  see: [polyphenol, phenylpropanoid]
+
+- id: polyphenol
+  term: Polyphenol
+  kind: science
+  variants: ["polyphenols", "polyphenolic", "polyphenolic compounds", "phenolics", "phenolic compounds", "total phenolics"]
+  short: "Loose term for plant compounds with several phenol rings (phenolic acids, flavonoids, tannins). Many are water-soluble; many are poorly absorbed."
+  definition: >-
+    'Total polyphenols' is a sum measured by a chemical assay, not a single compound, and is often given in gallic-acid equivalents.
+  see: [phenolic-acid, flavonoid, bioavailability]
+
+- id: flavonoid
+  term: Flavonoid
+  kind: science
+  variants: ["flavonoids"]
+  short: "A class of phenolics built from a phenylpropanoid unit plus three malonyl units: flavones, flavanones and more. Pigments, UV screens and signals in plants."
+  definition: >-
+    In plants flavonoids occur mostly as glycosides; in the body they are heavily metabolised.
+  see: [flavone, flavanone, glycoside]
+
+- id: flavone
+  term: Flavone
+  kind: science
+  variants: ["flavones", "4′-deoxyflavone", "4′-deoxyflavones"]
+  short: "A subclass of flavonoids including apigenin, luteolin and the skullcap compounds baicalein and wogonin."
+  definition: >-
+    Skullcap roots make unusual 4′-deoxyflavones (chrysin, wogonin, baicalein) by a root-specific pathway.
+  see: [flavonoid, glycoside, glucuronide]
+
+- id: flavanone
+  term: Flavanone
+  kind: science
+  variants: ["flavanones", "flavanone glycoside"]
+  short: "A flavonoid subclass without the 2,3 double bond of flavones; eriocitrin, peppermint tea's dominant phenolic, is a flavanone glycoside."
+  definition: >-
+    Flavanones are intermediates on the way to flavones and other flavonoids.
+  see: [flavonoid, flavone]
+
+- id: glycoside
+  term: Glycoside
+  kind: science
+  variants: ["glycosides", "glucoside", "glucosides", "glycosylated"]
+  short: "A molecule with a sugar attached (a glucoside if the sugar is glucose). The sugar makes flavonoids water-soluble; it must be removed before absorption."
+  definition: >-
+    Apigenin in chamomile and luteolin in thyme occur mainly as glycosides. Hot water extracts them well; gut enzymes cut the sugar off.
+  see: [aglycone, glucuronide]
+
+- id: glucuronide
+  term: Glucuronide
+  kind: science
+  variants: ["glucuronides", "glucuronidation", "glucuronidated", "flavone glucuronide"]
+  short: "A molecule joined to glucuronic acid. Plants make some (baicalin, wogonoside, scutellarin); the human liver and gut make many more to excrete compounds."
+  definition: >-
+    A compound measured in blood after eating a herb is often a glucuronide made by the body, not the plant's own form.
+  see: [glycoside, aglycone, first-pass-metabolism]
+
+- id: aglycone
+  term: Aglycone
+  kind: science
+  variants: ["aglycones"]
+  short: "The non-sugar part of a glycoside: apigenin is the aglycone of apigenin-7-glucoside, baicalein of baicalin."
+  definition: >-
+    Aglycones are less water-soluble than their glycosides but more readily absorbed across the gut wall.
+  see: [glycoside, glucuronide]
+
+- id: coumarin
+  term: Coumarin
+  kind: science
+  variants: ["coumarins"]
+  short: "Both a class of benzopyrone compounds (herniarin, umbelliferone) and one specific molecule, coumarin. The anticoagulant and liver cautions concern the specific molecule."
+  definition: >-
+    Chamomile's herniarin and umbelliferone are coumarins in the class sense but are not the molecule coumarin; the teaching point is to keep
+    the two senses apart.
+  see: [phenylpropanoid]
+
+- id: polyacetylene
+  term: Polyacetylene
+  kind: science
+  variants: ["polyacetylenes", "en-yn-dicycloether", "spiroether", "spiroethers"]
+  short: "A compound with several carbon-carbon triple bonds; chamomile's spiroethers belong here."
+  definition: >-
+    Polyacetylenes are characteristic of the Asteraceae and Apiaceae and are often unstable to light and air.
+  see: [asteraceae]
+
+- id: proazulene
+  term: Proazulene
+  kind: science
+  variants: ["proazulenes"]
+  short: "A colourless precursor, such as matricin in chamomile, that turns into a blue azulene when heated in steam distillation."
+  definition: >-
+    Proazulenes are why chamomile oil is blue while the flower and its tea are not.
+  concept: extraction-chemistry
+  see: [azulene, steam-distillation, artefact]
+
+- id: azulene
+  term: Azulene
+  kind: science
+  variants: ["azulenes"]
+  short: "A blue aromatic hydrocarbon skeleton; chamazulene, formed from matricin during distillation, gives chamomile oil its colour."
+  definition: >-
+    Azulenes in an essential oil are largely artefacts of the distillation.
+  see: [proazulene]
+
+# ---------------------------------------------------------------- oils, solvents, preparations
+- id: essential-oil
+  term: Essential oil
+  kind: science
+  variants: ["essential oils", "volatile oil", "aetheroleum"]
+  short: "The volatile, fragrant fraction of a plant recovered by steam distillation: mostly monoterpenes, sesquiterpenes and phenylpropenes."
+  definition: >-
+    An essential oil is a distillation product, not simply what is in the leaf; some constituents form during distillation and water-soluble
+    compounds are absent. Oil capsules, tea and leaf are different test articles.
+  concept: extraction-chemistry
+  see: [steam-distillation, essential-oil-percent, volatility]
+
+- id: steam-distillation
+  term: Steam distillation
+  kind: methods
+  variants: ["hydrodistillation", "steam-distilled", "hydro/steam-distilled", "distillation", "distilled"]
+  short: "Passing steam through plant material and condensing it; the volatile oil separates from the water. It is how essential oils are made, and heat can create new molecules."
+  definition: >-
+    Hydrodistillation boils the plant in water; steam distillation passes steam through it. Both recover volatiles and lose non-volatile phenolics.
+  concept: extraction-chemistry
+  see: [essential-oil, volatility, proazulene]
+
+- id: infusion
+  term: Infusion
+  kind: methods
+  variants: ["infusions", "hot-water infusion", "hot-water infusions", "herbal tea", "herbal teas"]
+  short: "Pouring hot water on plant material and letting it stand: a tea. It extracts water-soluble compounds well and volatile oil poorly."
+  definition: >-
+    On this site an infusion is described as extraction chemistry (solvent water, a temperature, a time), never as a recipe or a dose.
+  concept: extraction-chemistry
+  see: [decoction, tincture]
+
+- id: decoction
+  term: Decoction
+  kind: methods
+  variants: ["decoctions"]
+  short: "Simmering plant material (usually roots or bark) in water, rather than steeping; longer and hotter than an infusion."
+  definition: >-
+    Decoction is the traditional preparation of tough materials such as skullcap root. No study of what it extracts from S. baicalensis root
+    was read for the prototype.
+  concept: extraction-chemistry
+  see: [infusion]
+
+- id: tincture
+  term: Tincture
+  kind: methods
+  variants: ["tinctures"]
+  short: "An extract made by soaking plant material in a mixture of ethanol and water. It reaches less polar compounds than water alone."
+  definition: >-
+    Tinctures differ in herb-to-extract ratio, alcohol strength and fresh versus dried starting material, all of which change what they contain.
+  concept: extraction-chemistry
+  see: [hydroethanolic, herb-to-extract-ratio, polarity]
+
+- id: hydroethanolic
+  term: Hydroethanolic
+  kind: methods
+  variants: ["aqueous-ethanol", "ethanol-water", "aqueous ethanol", "water-ethanol"]
+  short: "Made with a mixture of water and ethanol, such as a tincture or a 30-60 % ethanol extract."
+  definition: >-
+    Mixtures extract both fairly polar phenolics and moderately non-polar compounds, which is why they often give the widest range.
+  concept: extraction-chemistry
+  see: [tincture, polarity]
+
+- id: herb-to-extract-ratio
+  term: Herb-to-extract ratio
+  kind: methods
+  variants: ["herb-to-extract", "drug-extract ratio", "DER"]
+  short: "How much plant went into how much finished extract, e.g. 1:5. It sets concentration but says nothing on its own about which compounds were extracted."
+  definition: >-
+    A 70:1 dry extract is highly concentrated; a 1:5 tincture is dilute. Comparing extracts needs this ratio and the solvent.
+  see: [named-extract, tincture]
+
+- id: polarity
+  term: Polarity
+  kind: science
+  variants: ["polar", "non-polar", "nonpolar", "less polar"]
+  short: "How unevenly a molecule's electric charge is spread. Polar molecules (sugars, glycosides) dissolve in water; non-polar ones (terpenes) in oils and less-polar solvents."
+  definition: >-
+    'Like dissolves like' is the rule of thumb behind the difference between a tea, a tincture and an oil.
+  concept: extraction-chemistry
+  see: [solubility]
+
+- id: solubility
+  term: Solubility
+  kind: science
+  variants: ["water solubility", "water-soluble", "insoluble", "poorly soluble", "almost insoluble"]
+  short: "How much of a substance dissolves in a solvent at a given temperature; menthol is almost insoluble in water, glycosides dissolve readily."
+  definition: >-
+    Solubility caps what an infusion can contain regardless of how much is in the leaf.
+  concept: extraction-chemistry
+  see: [polarity, volatility]
+
+- id: volatility
+  term: Volatility
+  kind: science
+  variants: ["volatile", "volatiles", "steam-volatile", "semi-volatile"]
+  short: "How readily a substance evaporates. Volatile oil molecules escape from hot water and from drying leaves; phenolics do not."
+  definition: >-
+    Volatility is why a covered cup smells stronger and why some oil that dissolves is then lost to the air.
+  concept: extraction-chemistry
+  see: [essential-oil, solubility]
+
+- id: extraction-yield
+  term: Extraction yield
+  kind: methods
+  variants: ["extraction yields", "recovered", "recovery"]
+  short: "The share of a compound or fraction in the plant that ends up in the preparation, e.g. 31 % of lemon balm oil reaching the tea."
+  definition: >-
+    A yield needs a denominator: the plant's content, or another extract used as the maximum. The figure on Tea Time keeps the two apart.
+  concept: extraction-chemistry
+  see: [infusion, basis]
+
+- id: pseudo-first-order
+  term: Pseudo-first-order kinetics
+  kind: statistics
+  variants: ["pseudo-first-order"]
+  short: "A rate law in which the amount still to be extracted falls exponentially with time: fast at first, then levelling off."
+  definition: >-
+    Chamomile phenolics followed it, with the rate rising with water temperature; sage thujone saturated after about five minutes.
+  concept: extraction-chemistry
+  see: [extraction-yield]
+
+- id: enteric-coated
+  term: Enteric-coated
+  kind: methods
+  variants: ["enteric coating", "gastro-resistant", "enteric-coated capsules", "enteric-coated oil"]
+  short: "A capsule coated to survive stomach acid and release its contents in the intestine; the form of peppermint oil tested for irritable bowel symptoms."
+  definition: >-
+    Enteric coating changes where and how much of the oil acts, which is one reason the capsule evidence does not transfer to tea. Antacids can
+    dissolve the coating early.
+  concept: evidence-grades-and-test-article
+  see: [test-article, ibs]
+
+# ---------------------------------------------------------------- pharmacology
+- id: receptor
+  term: Receptor
+  kind: science
+  variants: ["receptors"]
+  short: "A protein that a signalling molecule binds to, triggering a response in the cell; the named molecular target of a compound."
+  definition: >-
+    A compound binding a receptor in vitro is grade E evidence of a mechanism, not evidence of an effect after drinking a tea.
+  see: [agonist, antagonist]
+
+- id: agonist
+  term: Agonist
+  kind: science
+  variants: ["agonists"]
+  short: "A molecule that binds a receptor and activates it, as menthol activates the cold receptor TRPM8."
+  definition: >-
+    Partial agonists activate less than fully; potency and efficacy are separate properties.
+  see: [receptor, antagonist, trpm8]
+
+- id: antagonist
+  term: Antagonist
+  kind: science
+  variants: ["antagonists", "antagonism", "blocker", "blockers"]
+  short: "A molecule that binds a receptor or channel and blocks its activation, as α-thujone blocks the GABA-A receptor's chloride channel."
+  definition: >-
+    Blocking an inhibitory receptor such as GABA-A makes neurons more excitable, which is the basis of thujone's convulsant toxicity.
+  see: [receptor, gaba-a]
+
+- id: gaba-a
+  term: GABA-A receptor
+  kind: science
+  variants: ["GABA-A", "GABAA", "GABA-A receptors", "GABA-gated chloride channel", "GABA-A receptor's chloride channel", "benzodiazepine site", "benzodiazepine binding site", "benzodiazepine receptor", "benzodiazepine receptors"]
+  short: "The brain's main inhibitory ion channel, opened by GABA. Thujone blocks it (convulsant); benzodiazepines bind a separate site on it."
+  definition: >-
+    Benzodiazepine drugs such as diazepam bind a separate pocket on the receptor, the benzodiazepine site, and enhance its response to GABA.
+    Apigenin's reported binding to that site is laboratory evidence; its low bioavailability limits what it implies for chamomile tea.
+  see: [antagonist, thujone]
+
+- id: trpm8
+  term: TRPM8
+  kind: science
+  variants: ["cold receptor", "CMR1"]
+  short: "An ion channel in sensory nerves that opens at cool temperatures and when menthol binds; why mint feels cold."
+  definition: >-
+    Its cloning in 2002 gave menthol's cooling a single molecular explanation.
+  see: [agonist]
+
+- id: cb2
+  term: CB2 receptor
+  kind: science
+  variants: ["CB2", "CB2 cannabinoid receptor", "cannabinoid receptor", "cannabinoid receptors"]
+  short: "A cannabinoid receptor found mainly on immune cells; β-caryophyllene binds it selectively in laboratory studies."
+  definition: >-
+    CB2 activation does not produce the psychoactive effects of the CB1 receptor.
+  see: [receptor]
+
+- id: oatp
+  term: OATP
+  kind: science
+  variants: ["OATP1B1", "OATP1B1-mediated", "organic anion-transporting polypeptide"]
+  short: "Organic anion-transporting polypeptides: transporters that carry drugs such as statins into liver cells. Baicalin altered rosuvastatin exposure via OATP1B1."
+  definition: >-
+    Transporter interactions are a second route to herb-drug interactions besides P450 enzymes.
+  see: [drug-interaction]
+
+- id: bioavailability
+  term: Bioavailability
+  kind: science
+  variants: ["bioavailable", "oral bioavailability", "poorly bioavailable", "absorption"]
+  short: "The fraction of an ingested compound that reaches the bloodstream unchanged. Many plant polyphenols have very low bioavailability."
+  definition: >-
+    Low bioavailability is the usual gap between a striking in-vitro result and any effect in people. Metabolites, not the plant's own form, are
+    often what circulates.
+  concept: evidence-grades-and-test-article
+  see: [first-pass-metabolism, glucuronide]
+
+- id: first-pass-metabolism
+  term: First-pass metabolism
+  kind: science
+  variants: ["first-pass", "presystemic metabolism", "enterohepatic recycling", "enterohepatic circulation", "enterohepatic recirculation"]
+  short: "Metabolism of a swallowed compound by the gut wall and liver before it reaches general circulation; it can remove most of a dose."
+  definition: >-
+    Glucuronidation and sulfation in the gut and liver are major first-pass routes for flavonoids. Some conjugates are excreted in bile,
+    split again by gut bacteria and reabsorbed (enterohepatic recycling, reported for apigenin), which prolongs exposure.
+  see: [bioavailability]
+
+- id: drug-interaction
+  term: Drug interaction
+  kind: science
+  variants: ["drug interactions", "herb-drug interaction", "herb-drug interactions", "interaction", "interactions"]
+  short: "When one substance changes the effect or blood level of another, e.g. by inhibiting the enzyme or transporter that handles it."
+  definition: >-
+    Each interaction in the safety blocks carries its own grade: many rest on animal or laboratory data.
+  see: [cyp3a4, oatp]
+
+- id: sho-saiko-to
+  term: Sho-saiko-to
+  kind: drug
+  variants: ["Sho Saiko To", "Xiao Chai Hu Tang", "kampo"]
+  short: "A multi-herb Japanese kampo formula containing S. baicalensis root; linked to interstitial pneumonitis and liver injury reports."
+  definition: >-
+    Its evidence belongs to the formula; this site does not transfer it to skullcap alone.
+  see: [multi-herb-formula]
+
+# ---------------------------------------------------------------- safety
+- id: constituent-of-concern
+  term: Constituent of concern
+  kind: methods
+  variants: ["constituents of concern", "safety-signal constituent", "safety signal"]
+  short: "A compound with a known hazard or a regulatory threshold (thujone, pulegone, estragole, methyleugenol). Always curated, regardless of abundance."
+  definition: >-
+    Each appears in the safety block of every plant and preparation that contains it, with the relevant limit and its source.
+  see: [guidance-value, thujone, pulegone, estragole, methyleugenol]
+
+- id: hepatotoxicity
+  term: Hepatotoxicity
+  kind: science
+  variants: ["hepatotoxic", "liver injury", "drug-induced liver injury", "DILI", "hepatitis"]
+  short: "Damage to the liver caused by a chemical. Reported for germander (teucrin A), pulegone and some skullcap products."
+  definition: >-
+    Most herbal liver injury is rare and idiosyncratic, and adulteration can make a harmless herb look guilty.
+  see: [bioactivation, adulteration, livertox]
+
+- id: bioactivation
+  term: Bioactivation
+  kind: science
+  variants: ["metabolic activation", "bioactivated", "sulfoconjugation"]
+  short: "Conversion of a harmless-looking compound into a reactive, toxic one by the body's own enzymes, often cytochrome P450."
+  definition: >-
+    Pulegone (to menthofuran and beyond), estragole (1′-hydroxylation then sulfoconjugation) and teucrin A (furan oxidation) are all toxic only
+    after bioactivation.
+  see: [cytochrome-p450, genotoxic]
+
+- id: genotoxic
+  term: Genotoxic
+  kind: science
+  variants: ["genotoxicity", "genotoxic carcinogen", "genotoxic carcinogens", "DNA adducts", "DNA adduct"]
+  short: "Able to damage DNA, for example by forming DNA adducts. A genotoxic carcinogen is assumed to have no fully safe threshold."
+  definition: >-
+    That assumption is why the EMA sets very low guidance values for estragole and advises minimising methyleugenol exposure.
+  see: [carcinogen-rodent, bioactivation]
+
+- id: carcinogen-rodent
+  term: Carcinogen (rodent)
+  kind: science
+  variants: ["carcinogen", "carcinogens", "carcinogenic", "rodent carcinogen", "hepatocarcinogenic"]
+  short: "Causes cancer in rats or mice at the doses tested. Estragole and methyleugenol are rodent carcinogens; that is a hazard, not a measured human risk."
+  definition: >-
+    Rodent studies use doses far above dietary exposure; regulators extrapolate with safety factors.
+  see: [genotoxic, animal-study]
+
+- id: adulteration
+  term: Adulteration
+  kind: methods
+  variants: ["adulterant", "adulterated", "adulterants", "mislabelling", "mislabeling"]
+  short: "Substitution or contamination of a herbal product with another plant. Some liver injury blamed on skullcap was traced to germander."
+  definition: >-
+    Analytical methods can now distinguish Scutellaria from Teucrium, which is why identity is treated as part of safety.
+  see: [germander, identity-status, hepatotoxicity]
+
+- id: germander
+  term: Germander
+  kind: science
+  variants: ["Teucrium", "Teucrium chamaedrys"]
+  short: "Teucrium, a mint-family genus whose diterpenoid teucrin A causes liver injury; a known adulterant of skullcap."
+  definition: >-
+    Germander was withdrawn from use in France after a series of hepatitis cases in the 1990s.
+  see: [adulteration, hepatotoxicity]
+
+- id: cross-reactivity
+  term: Cross-reactivity
+  kind: science
+  variants: ["cross-reactive", "cross-reactions", "allergy cross-reactivity"]
+  short: "An allergy to one substance causing reactions to related ones: ragweed-allergic people may react to chamomile."
+  definition: >-
+    Cross-reactivity within the Asteraceae and, more rarely, the Lamiaceae is part of the safety blocks.
+  see: [asteraceae, anaphylaxis]
+
+- id: anaphylaxis
+  term: Anaphylaxis
+  kind: science
+  variants: ["anaphylactic shock", "anaphylactic"]
+  short: "A severe, rapid, whole-body allergic reaction that can be fatal; rare reports exist with chamomile."
+  definition: >-
+    Listed in the EU chamomile monograph among hypersensitivity reactions.
+  see: [cross-reactivity]
+
+- id: contact-allergen
+  term: Contact allergen
+  kind: science
+  variants: ["contact allergens", "contact dermatitis", "allergic contact dermatitis"]
+  short: "A substance that causes an allergic skin reaction where it touches; carnosol is a major rosemary contact allergen."
+  definition: >-
+    Contact allergy is a skin-sensitisation effect and says nothing about drinking a tea.
+  see: [cross-reactivity]
+
+- id: convulsant
+  term: Convulsant
+  kind: science
+  variants: ["convulsions", "convulsive", "seizure", "seizures", "clonic seizures"]
+  short: "Able to cause seizures. Thujone and camphor are convulsant at high doses; the EMA thujone limit is based on rodent seizure data."
+  definition: >-
+    Case reports include a toddler's seizure after home-made sage tea; these are why sage carries a safety block.
+  see: [thujone, gaba-a]
+
+- id: reflex-apnoea
+  term: Reflex apnoea
+  kind: science
+  variants: ["apnoea", "apnea", "laryngospasm"]
+  short: "A reflex stop in breathing (with spasm of the larynx) that menthol near the face can trigger in infants; why menthol oils are contraindicated under 2 years."
+  definition: >-
+    Recorded in the EU peppermint-oil monograph.
+  see: [contraindication]
+
+- id: contraindication
+  term: Contraindication
+  kind: methods
+  variants: ["contraindications", "contraindicated"]
+  short: "A condition in which a product should not be used, as stated in a monograph, e.g. hypersensitivity or age under 2 years for menthol oils."
+  definition: >-
+    Contraindications are reported as the monograph's statement, not as the site's advice.
+  see: [monograph]
+
+# ---------------------------------------------------------------- named constituents of concern and chemotype
+- id: thujone
+  term: Thujone
+  kind: science
+  variants: ["thujones", "α-thujone", "β-thujone", "alpha-thujone", "beta-thujone"]
+  short: "The convulsant monoterpenoid ketone of sage (two isomers, α and β); blocks the GABA-A receptor. EMA sets daily exposure values for it."
+  definition: >-
+    In sage tea thujone rises for about five minutes and then levels off; a water infusion recovers only part of what ethanol extracts.
+  see: [convulsant, gaba-a, guidance-value]
+
+- id: pulegone
+  term: Pulegone
+  kind: science
+  variants: []
+  short: "A monoterpenoid ketone of mints that is hepatotoxic after bioactivation; limited by the EMA together with menthofuran."
+  definition: >-
+    Pulegone is an intermediate on peppermint's pathway to menthol; the Ph. Eur. caps it in peppermint oil.
+  see: [menthofuran, bioactivation, hepatotoxicity]
+
+- id: menthofuran
+  term: Menthofuran
+  kind: science
+  variants: []
+  short: "A furan-containing monoterpene in peppermint oil and a major metabolite of pulegone; counted with pulegone under the EMA limit."
+  definition: >-
+    Its furan ring is oxidised in the liver to reactive products.
+  see: [pulegone, hepatotoxicity]
+
+- id: estragole
+  term: Estragole
+  kind: science
+  variants: ["methyl chavicol", "methylchavicol"]
+  short: "The aniseed-scented phenylpropene of some basils; a genotoxic carcinogen in rodents with an EMA guidance value of 0.05 mg per person per day."
+  definition: >-
+    Its level ranges from minor to dominant between basil chemotypes, which is why the basil page shows ranges.
+  see: [genotoxic, chemotype, o-methyltransferase]
+
+- id: methyleugenol
+  term: Methyleugenol
+  kind: science
+  variants: ["methyl eugenol"]
+  short: "A clove-like phenylpropene in most basil cultivars grown here; a rodent genotoxic carcinogen. The EMA gives no number but advises minimising exposure."
+  definition: >-
+    Made from eugenol by an O-methyltransferase in basil's glandular trichomes.
+  see: [genotoxic, estragole]
+
+- id: chemotype
+  term: Chemotype
+  kind: science
+  variants: ["chemotypes", "chemical race", "chemical races"]
+  short: "A chemically distinct form within one species, e.g. thymol-type versus other thyme, or estragole-rich versus linalool-rich basil. Same plant name, different oil."
+  definition: >-
+    Chemotypes are genetic, often traceable to single enzymes, and are why a species-level percentage can mislead about a particular plant.
+  concept: chemotypes
+  see: [cultivar, terpene-synthase]
+
+# ---------------------------------------------------------------- conditions in trials
+- id: ibs
+  term: Irritable bowel syndrome
+  kind: science
+  variants: ["IBS", "irritable bowel symptoms"]
+  short: "A common gut disorder of abdominal pain and altered bowel habit; the condition in the peppermint-oil capsule trials."
+  definition: >-
+    Named here only to identify the trial populations behind a grade, never as a recommendation. (The lemon balm cream trial, similarly,
+    was in cold sores - herpes labialis - with a concentrated 70:1 dry extract as the test article.)
+  see: [enteric-coated]
+
+- id: gad
+  term: Generalised anxiety disorder
+  kind: science
+  variants: ["GAD", "generalized anxiety disorder"]
+  short: "A condition of persistent excessive worry; the population of the chamomile-extract trials."
+  definition: >-
+    Named to identify the trial population behind a grade; the test article was a chamomile extract in capsules, not tea.
+  see: [test-article]
+

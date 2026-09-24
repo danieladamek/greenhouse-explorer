@@ -1,0 +1,232 @@
+{
+ "compound": {
+  "id": "chrysin",
+  "name": "chrysin",
+  "synonyms": [
+   "5,7-dihydroxyflavone"
+  ],
+  "class": "flavone",
+  "subclass": "4'-deoxyflavone aglycone",
+  "one_liner": "Simplest 4'-deoxyflavone; a biosynthetic precursor more than an abundant constituent (≤0.08 % of S. baicalensis root).",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "5,7-dihydroxy-2-phenylchromen-4-one",
+   "formula": "C15H10O4",
+   "mw": 254.24,
+   "mw_source": "pubchem",
+   "smiles": "C1=CC=C(C=C1)C2=CC(=O)C3=C(C=C(C=C3O2)O)O",
+   "inchikey": "RTIXKCRFFJGDFG-UHFFFAOYSA-N",
+   "cas": "480-40-0",
+   "pubchem_cid": 5281607,
+   "chebi_id": "CHEBI:75095",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281607/JSON",
+   "cross_checked": false,
+   "note": "Names-and-Identifiers heading URL was rate-limited (HTTP 429); values read from the full-record URL instead."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "flavonoid (phenylpropanoid + malonate)",
+   "note": "Product of FNSII-2 in S. baicalensis roots and precursor of norwogonin (via SbF8H) [28, 29]."
+  },
+  "occurrences": [
+   {
+    "taxon_id": "scutellaria-baicalensis",
+    "plant_part": "root",
+    "value": "3-800",
+    "unit": "ppm",
+    "basis": "unstated",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Zhao Q, Zhang Y, Wang G, et al. (2016) A specialized flavone biosynthetic pathway has evolved in the medicinal plant, Scutellaria baicalensis. Sci Adv 2:e1501780",
+    "source_doi_or_url": "https://doi.org/10.1126/sciadv.1501780",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+    "verified": true,
+    "note": "Duke also Leaf max 40 ppm. Zhao 2016 (Sci Adv): FNSII-2 in roots synthesises '4′-deoxyRSFs, such as chrysin and wogonin ...'. KNApSAcK C00003794. Costine 2022 found chrysin not detected in most tissues. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": "Benzodiazepine receptor ligand (in vitro/animal) [37].",
+   "mechanism": "Described as a naturally occurring benzodiazepine-receptor ligand with anticonvulsant properties in animals [37].",
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [
+   {
+    "claim": "Chrysin is a benzodiazepine-receptor ligand.",
+    "grade": "E",
+    "test_article": "isolated_compound",
+    "test_article_detail": "chrysin (in vitro binding; review)",
+    "population": "in_vitro",
+    "outcome_summary": "Reviewed as a natural BZD-receptor ligand with anticonvulsant effect in animals.",
+    "refs": [
+     37
+    ],
+    "note": null
+   }
+  ],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Not sourced.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "Chrysin is the pathway's starting flavone; most of it is converted onward, so there is little left to measure [24, 28].",
+  "citations": [
+   24,
+   28,
+   29,
+   37
+  ],
+  "gaps": [
+   "S. lateriflora row dropped (trace, no database record).",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Simplest 4'-deoxyflavone; a biosynthetic precursor more than an abundant constituent (≤0.08 % of S. baicalensis root).",
+   "mechanism": "Described as a naturally occurring benzodiazepine-receptor ligand with anticonvulsant properties in animals [37](#cite:37).",
+   "primary_targets": "[Benzodiazepine receptor](#term:gaba-a) ligand ([in vitro](#term:in-vitro)/animal) [37](#cite:37).",
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Chrysin is the pathway's starting [flavone](#term:flavone); most of it is converted onward, so there is little left to measure [24, 28](#cite:24,28).",
+   "processing_note": "Not sourced.",
+   "biosynthesis_note": "Product of FNSII-2 in S. baicalensis roots and precursor of norwogonin (via SbF8H) [28, 29](#cite:28,29).",
+   "evidence": [
+    {
+     "claim": "Chrysin is a benzodiazepine-receptor ligand.",
+     "outcome_summary": "Reviewed as a natural BZD-receptor ligand with anticonvulsant effect in animals."
+    }
+   ],
+   "safety_flags": []
+  },
+  "terms": [
+   "gaba-a",
+   "in-vitro",
+   "flavone"
+  ],
+  "cited_refs": [
+   24,
+   28,
+   29,
+   37
+  ],
+  "taxa": [
+   "scutellaria-baicalensis"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C15H10O4",
+   "inchikeyComputed": "RTIXKCRFFJGDFG-UHFFFAOYSA-N",
+   "canonicalSmiles": "O=c1cc(-c2ccccc2)oc2cc(O)cc(O)c12",
+   "monoisotopicMass": 254.0579,
+   "averageMass": 254.241,
+   "descriptors": {
+    "heavyAtoms": 19,
+    "rings": 3,
+    "aromaticRings": 3,
+    "hbd": 2,
+    "hba": 4,
+    "rotatableBonds": 1,
+    "logP": 2.87,
+    "tpsa": 70.7,
+    "fsp3": 0,
+    "stereocenters": 0,
+    "charge": 0
+   },
+   "atomCount": 29,
+   "heavyAtomCount": 19,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       1,
+       9
+      ],
+      [
+       3,
+       12
+      ]
+     ]
+    },
+    {
+     "id": "chromone",
+     "name": "Chromone (flavone core)",
+     "matches": [
+      [
+       2,
+       7,
+       10,
+       6,
+       8,
+       0,
+       5,
+       11,
+       12,
+       13,
+       9,
+       4
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/chrysin.sdf",
+   "svg": {
+    "light": "structures/2d/chrysin.svg",
+    "dark": "structures/2d/chrysin.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/chrysin.json",
+   "mwPack": 254.24,
+   "mwSource": "pubchem"
+  },
+  "primer_sections": [
+   "5-three-pathways-that-make-the-greenhouse-smell"
+  ]
+ },
+ "rows": [
+  {
+   "row": "chrysin#0",
+   "compound_id": "chrysin",
+   "compound": "chrysin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "3-800",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Zhao Q, Zhang Y, Wang G, et al. (2016) A specialized flavone biosynthetic pathway has evolved in the medicinal plant, Scutellaria baicalensis. Sci Adv 2:e1501780",
+   "source_doi_or_url": "https://doi.org/10.1126/sciadv.1501780",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "Duke also Leaf max 40 ppm. Zhao 2016 (Sci Adv): FNSII-2 in roots synthesises '4′-deoxyRSFs, such as chrysin and wogonin ...'. KNApSAcK C00003794. Costine 2022 found chrysin not detected in most tissues. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    28
+   ]
+  }
+ ],
+ "preparations": []
+}

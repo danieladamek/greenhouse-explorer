@@ -1,0 +1,306 @@
+{
+ "compound": {
+  "id": "wogonin",
+  "name": "wogonin",
+  "synonyms": [
+   "5,7-dihydroxy-8-methoxyflavone"
+  ],
+  "class": "flavone",
+  "subclass": "O-methylated 4'-deoxyflavone",
+  "one_liner": "8-Methoxy flavone of both skullcaps; a benzodiazepine-site modulator (Ki 0.92 µM) that was anxiolytic in mice without sedation.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "5,7-dihydroxy-8-methoxy-2-phenylchromen-4-one",
+   "formula": "C16H12O5",
+   "mw": 284.27,
+   "mw_source": "computed_from_formula",
+   "smiles": "COC1=C(C=C(C2=C1OC(=CC2=O)C3=CC=CC=C3)O)O",
+   "inchikey": "XLTFNNCXVBYBSX-UHFFFAOYSA-N",
+   "cas": "632-85-9",
+   "pubchem_cid": 5281703,
+   "chebi_id": "CHEBI:10043",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281703/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "flavonoid (phenylpropanoid + malonate)",
+   "note": "Made in S. baicalensis roots via FNSII-2 [28]."
+  },
+  "occurrences": [
+   {
+    "taxon_id": "scutellaria-lateriflora",
+    "plant_part": "aerial parts",
+    "value": null,
+    "unit": null,
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Lin L-Z, Harnly JM, Upton R (2009) Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal 20(4):298-306",
+    "source_doi_or_url": "https://doi.org/10.1002/pca.1127",
+    "database": "LOTUS",
+    "database_url": "https://lotus.naturalproducts.net/api/search/simple?query=wogonin",
+    "verified": true,
+    "note": "LOTUS LTS0176185 lists S. lateriflora (refs decoded as 10.1021/np0205102 and 10.1021/np900068t). Lin 2009 lists wogonin among flavonoids positively identified in authenticated S. lateriflora aerial parts; no mg/g given."
+   },
+   {
+    "taxon_id": "scutellaria-baicalensis",
+    "plant_part": "root",
+    "value": "34.7-7300",
+    "unit": "ppm",
+    "basis": "unstated",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Cosmetic Ingredient Review Expert Panel (2020) Safety Assessment of Scutellaria baicalensis-Derived Ingredients as Used in Cosmetics, final report 29 Sep 2020 (citing Cai et al. 2016). https://www.cir-safety.org/sites/default/files/scutel092020FR_0.pdf",
+    "source_doi_or_url": "https://www.cir-safety.org/sites/default/files/scutel092020FR_0.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+    "verified": true,
+    "note": "CIR/Cai 2016: 30.5 mg/g aqueous root extract. Costine 2022: wogonin detected in roots of all four species studied. KNApSAcK C00001111. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": "Benzodiazepine site of the GABA-A receptor (Ki 0.92 µM) [35].",
+   "mechanism": "Positive allosteric modulation of GABA-A receptors via the benzodiazepine site; enhanced GABA-activated currents in rat neurons and recombinant receptors [35].",
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [
+   {
+    "claim": "Wogonin binds and positively modulates the GABA-A benzodiazepine site.",
+    "grade": "E",
+    "test_article": "isolated_compound",
+    "test_article_detail": "wogonin, binding and electrophysiology",
+    "population": "in_vitro",
+    "outcome_summary": "Ki 0.92 µM; potentiated GABA currents.",
+    "refs": [
+     35
+    ],
+    "note": null
+   },
+   {
+    "claim": "Wogonin is anxiolytic in mice without sedation or muscle relaxation.",
+    "grade": "D",
+    "test_article": "isolated_compound",
+    "test_article_detail": "oral wogonin, elevated plus-maze, holeboard, wire test",
+    "population": "animal",
+    "outcome_summary": "Anxiolytic comparable to diazepam; no sedation.",
+    "refs": [
+     35
+    ],
+    "note": null
+   }
+  ],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Not sourced.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "Wogonin, apigenin and chrysin tell one story across two plant families: flavones at the benzodiazepine site [35, 36, 37].",
+  "citations": [
+   16,
+   25,
+   28,
+   35,
+   36,
+   37
+  ],
+  "gaps": [
+   "No human evidence for the isolated compound found in this pass.",
+   "No amount in S. lateriflora.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "8-Methoxy [flavone](#term:flavone) of both skullcaps; a benzodiazepine-site modulator (Ki 0.92 µM) that was anxiolytic in mice without sedation.",
+   "mechanism": "Positive allosteric modulation of [GABA-A receptors](#term:gaba-a) via the benzodiazepine site; enhanced GABA-activated currents in rat neurons and recombinant [receptors](#term:receptor) [35](#cite:35).",
+   "primary_targets": "Benzodiazepine site of the GABA-A receptor (Ki 0.92 µM) [35](#cite:35).",
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Wogonin, apigenin and chrysin tell one story across two plant families: flavones at the benzodiazepine site [35, 36, 37](#cite:35,36,37).",
+   "processing_note": "Not sourced.",
+   "biosynthesis_note": "Made in S. baicalensis roots via FNSII-2 [28](#cite:28).",
+   "evidence": [
+    {
+     "claim": "Wogonin binds and positively modulates the GABA-A benzodiazepine site.",
+     "outcome_summary": "Ki 0.92 µM; potentiated GABA currents."
+    },
+    {
+     "claim": "Wogonin is anxiolytic in mice without sedation or muscle relaxation.",
+     "outcome_summary": "Anxiolytic comparable to diazepam; no sedation."
+    }
+   ],
+   "safety_flags": []
+  },
+  "terms": [
+   "flavone",
+   "gaba-a",
+   "receptor"
+  ],
+  "cited_refs": [
+   16,
+   25,
+   28,
+   35,
+   36,
+   37
+  ],
+  "taxa": [
+   "scutellaria-lateriflora",
+   "scutellaria-baicalensis"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C16H12O5",
+   "inchikeyComputed": "XLTFNNCXVBYBSX-UHFFFAOYSA-N",
+   "canonicalSmiles": "COc1c(O)cc(O)c2c(=O)cc(-c3ccccc3)oc12",
+   "monoisotopicMass": 284.0685,
+   "averageMass": 284.267,
+   "descriptors": {
+    "heavyAtoms": 21,
+    "rings": 3,
+    "aromaticRings": 3,
+    "hbd": 2,
+    "hba": 5,
+    "rotatableBonds": 2,
+    "logP": 2.88,
+    "tpsa": 79.9,
+    "fsp3": 0.06,
+    "stereocenters": 0,
+    "charge": 0
+   },
+   "atomCount": 33,
+   "heavyAtomCount": 21,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       2,
+       10
+      ],
+      [
+       3,
+       13
+      ]
+     ]
+    },
+    {
+     "id": "methoxy",
+     "name": "Methoxy (aryl methyl ether)",
+     "matches": [
+      [
+       20,
+       1,
+       8
+      ]
+     ]
+    },
+    {
+     "id": "chromone",
+     "name": "Chromone (flavone core)",
+     "matches": [
+      [
+       4,
+       9,
+       11,
+       7,
+       12,
+       0,
+       6,
+       8,
+       13,
+       14,
+       10,
+       5
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/wogonin.sdf",
+   "svg": {
+    "light": "structures/2d/wogonin.svg",
+    "dark": "structures/2d/wogonin.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/wogonin.json",
+   "mwPack": 284.27,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": [
+   "5-three-pathways-that-make-the-greenhouse-smell"
+  ]
+ },
+ "rows": [
+  {
+   "row": "wogonin#0",
+   "compound_id": "wogonin",
+   "compound": "wogonin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "aerial parts",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Lin L-Z, Harnly JM, Upton R (2009) Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal 20(4):298-306",
+   "source_doi_or_url": "https://doi.org/10.1002/pca.1127",
+   "database": "LOTUS",
+   "database_url": "https://lotus.naturalproducts.net/api/search/simple?query=wogonin",
+   "verified": true,
+   "note": "LOTUS LTS0176185 lists S. lateriflora (refs decoded as 10.1021/np0205102 and 10.1021/np900068t). Lin 2009 lists wogonin among flavonoids positively identified in authenticated S. lateriflora aerial parts; no mg/g given.",
+   "refs": [
+    25
+   ]
+  },
+  {
+   "row": "wogonin#1",
+   "compound_id": "wogonin",
+   "compound": "wogonin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "34.7-7300",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Cosmetic Ingredient Review Expert Panel (2020) Safety Assessment of Scutellaria baicalensis-Derived Ingredients as Used in Cosmetics, final report 29 Sep 2020 (citing Cai et al. 2016). https://www.cir-safety.org/sites/default/files/scutel092020FR_0.pdf",
+   "source_doi_or_url": "https://www.cir-safety.org/sites/default/files/scutel092020FR_0.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "CIR/Cai 2016: 30.5 mg/g aqueous root extract. Costine 2022: wogonin detected in roots of all four species studied. KNApSAcK C00001111. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    16
+   ]
+  }
+ ],
+ "preparations": []
+}

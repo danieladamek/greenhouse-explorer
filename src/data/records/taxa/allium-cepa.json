@@ -1,0 +1,103 @@
+{
+ "taxa": [
+  {
+   "id": "allium-cepa",
+   "species_key": "Allium cepa",
+   "accepted_name": "Allium cepa",
+   "authority": "L.",
+   "family": "Amaryllidaceae",
+   "common_names": [
+    "Shallot"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 4679,
+    "powo_id": "urn:lsid:ipni.org:names:527795-1",
+    "gbif_key": 2857697,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Allium cepa Aggregatum Group (shallot)",
+    "Allium cepa var. aggregatum G.Don",
+    "Allium ascalonicum auct."
+   ],
+   "columns": [
+    "veggies"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-045",
+     "name": "Conservor F1",
+     "type": "Seed shallot",
+     "list_category": "veggies",
+     "name_as_given": "Allium cepa (Aggregatum Group)",
+     "identity_status": "confirmed",
+     "note": null
+    },
+    {
+     "crop_id": "GH-046",
+     "name": "Matador",
+     "type": "Seed shallot",
+     "list_category": "veggies",
+     "name_as_given": "Allium cepa (Aggregatum Group)",
+     "identity_status": "confirmed",
+     "note": null
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "Shallot is NCBI 'Allium cepa var. aggregatum', taxid 28911, and NCBI's var. ascalonicum is a synonym of it. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-045",
+    "GH-046"
+   ],
+   "n_plantings": 2,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-045",
+   "list_category": "Veggies",
+   "original_entry": "Shallots, Conservor",
+   "common_name": "Shallot",
+   "cultivar": "Conservor F1",
+   "crop_type": "Seed shallot",
+   "scientific_name": "Allium cepa (Aggregatum Group)",
+   "species_key": "Allium cepa",
+   "family": "Amaryllidaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "allium-cepa",
+   "status": "current"
+  },
+  {
+   "id": "GH-046",
+   "list_category": "Veggies",
+   "original_entry": "Shallots, Matador",
+   "common_name": "Shallot",
+   "cultivar": "Matador",
+   "crop_type": "Seed shallot",
+   "scientific_name": "Allium cepa (Aggregatum Group)",
+   "species_key": "Allium cepa",
+   "family": "Amaryllidaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "allium-cepa",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

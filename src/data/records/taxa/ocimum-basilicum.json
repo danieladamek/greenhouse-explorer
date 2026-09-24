@@ -1,0 +1,522 @@
+{
+ "taxa": [
+  {
+   "id": "ocimum-basilicum",
+   "species_key": "Ocimum basilicum",
+   "accepted_name": "Ocimum basilicum",
+   "authority": "L.",
+   "family": "Lamiaceae",
+   "common_names": [
+    "Sweet basil",
+    "Cinnamon basil",
+    "Lemon basil",
+    "Purple basil",
+    "Thai basil"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 39350,
+    "powo_id": "urn:lsid:ipni.org:names:452874-1",
+    "gbif_key": 2927096,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Ocimum × africanum Lour. (lemon basil): POWO urn:lsid:ipni.org:names:452853-1, GBIF 3898584, NCBI 204098",
+    "Ocimum × citriodorum Vis. (syn. of O. × africanum)"
+   ],
+   "columns": [
+    "herbs"
+   ],
+   "identity_status": "confirmed",
+   "profiled": true,
+   "profile_depth": "light",
+   "cultivars": [
+    {
+     "crop_id": "GH-053",
+     "name": "Genovese",
+     "type": "Sweet",
+     "list_category": "herbs",
+     "name_as_given": "Ocimum basilicum",
+     "identity_status": "confirmed",
+     "note": null
+    },
+    {
+     "crop_id": "GH-054",
+     "name": null,
+     "type": "Compact / dwarf",
+     "list_category": "herbs",
+     "name_as_given": "Ocimum basilicum",
+     "identity_status": "check",
+     "note": "Cultivar not recorded. Could be O. basilicum or O. minimum (Greek bush basil)."
+    },
+    {
+     "crop_id": "GH-055",
+     "name": "Cinnamon",
+     "type": "Aromatic",
+     "list_category": "herbs",
+     "name_as_given": "Ocimum basilicum",
+     "identity_status": "confirmed",
+     "note": "Typo. High methyl cinnamate chemotype."
+    },
+    {
+     "crop_id": "GH-056",
+     "name": "Mrs. Burns' Lemon",
+     "type": "Citrus",
+     "list_category": "herbs",
+     "name_as_given": "Ocimum basilicum (lemon group; sometimes O. × africanum)",
+     "identity_status": "check",
+     "note": "Taxonomy disputed: often treated as the hybrid O. × africanum. Citral chemotype."
+    },
+    {
+     "crop_id": "GH-057",
+     "name": "Red Rubin",
+     "type": "Purple",
+     "list_category": "herbs",
+     "name_as_given": "Ocimum basilicum",
+     "identity_status": "confirmed",
+     "note": "Anthocyanin-rich."
+    },
+    {
+     "crop_id": "GH-058",
+     "name": null,
+     "type": "Thai",
+     "list_category": "herbs",
+     "name_as_given": "Ocimum basilicum var. thyrsiflorum",
+     "identity_status": "confirmed",
+     "note": "Cultivar not recorded."
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "Lemon basil should be recorded as Ocimum × africanum Lour. rather than O. basilicum. Its ids were verified separately and are listed under synonyms. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure). 'Mrs Burns' Lemon' is often treated as the hybrid O. × africanum (NCBI 204098, POWO 452853-1, GBIF 3898584); kept under O. basilicum pending confirmation.",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-053",
+    "GH-054",
+    "GH-055",
+    "GH-056",
+    "GH-057",
+    "GH-058"
+   ],
+   "n_plantings": 6,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [
+    "linalool",
+    "estragole",
+    "eugenol",
+    "methyleugenol",
+    "methyl-cinnamate",
+    "citral",
+    "rosmarinic-acid"
+   ],
+   "occurrence_rows": [
+    "linalool#0",
+    "estragole#0",
+    "eugenol#0",
+    "methyleugenol#0",
+    "methyl-cinnamate#0",
+    "citral#0",
+    "rosmarinic-acid#0"
+   ],
+   "safety_evidence": {
+    "taxon_id": "ocimum-basilicum",
+    "plant_part_used": "leaf (culinary herb); essential oil",
+    "safety": {
+     "drug_interactions": [],
+     "pregnancy_lactation": {
+      "statement": "EMA advises minimising exposure of pregnant and breastfeeding women to methyleugenol, and does not recommend estragole intake above its guidance value in pregnancy and lactation; these statements concern herbal medicinal products, not culinary use.",
+      "refs": [
+       4,
+       5
+      ],
+      "md": "[EMA](#term:ema-hmpc) advises minimising exposure of pregnant and breastfeeding women to [methyleugenol](#term:methyleugenol), and does not recommend [estragole](#term:estragole) intake above its [guidance value](#term:guidance-value) in pregnancy and lactation; these statements concern herbal medicinal products, not culinary use."
+     },
+     "allergy": {
+      "statement": null,
+      "refs": [],
+      "md": null
+     },
+     "adverse_event_history": {
+      "statement": null,
+      "refs": [],
+      "md": null
+     },
+     "contraindications": [],
+     "constituents_of_concern": [
+      {
+       "compound_id": "estragole",
+       "concern": "genotoxic carcinogen in rodents; chemotype-dependent (minor to dominant)",
+       "threshold_or_limit": "0.05 mg/person/day adults; 1.0 µg/kg bw children ≤11 y (EMA guidance values)",
+       "refs": [
+        4,
+        18
+       ],
+       "md": "[genotoxic carcinogen](#term:genotoxic) in rodents; chemotype-dependent (minor to dominant)"
+      },
+      {
+       "compound_id": "methyleugenol",
+       "concern": "genotoxic carcinogen in rodents; present in most cultivars grown here",
+       "threshold_or_limit": "no numerical limit; minimise in young children, pregnancy, breastfeeding (EMA)",
+       "refs": [
+        5,
+        18
+       ],
+       "md": "genotoxic carcinogen in rodents; present in most [cultivars](#term:cultivar) grown here"
+      }
+     ]
+    },
+    "evidence": [],
+    "monograph_status": {
+     "ema_hmpc": {
+      "exists": null,
+      "url": null
+     },
+     "escop": {
+      "exists": null,
+      "url": null
+     },
+     "who": {
+      "exists": null,
+      "url": null
+     }
+    },
+    "refs": [
+     4,
+     5,
+     18,
+     19
+    ],
+    "gaps": [
+     "No whole-plant human evidence researched.",
+     "EMA/ESCOP/WHO monograph status for basil not checked.",
+     "No allergy or interaction data researched.",
+     "Mrs Burns' Lemon taxon (O. × africanum?) and cultivar composition unresolved."
+    ],
+    "as_of": "2026-09-23",
+    "terms": [
+     "ema-hmpc",
+     "methyleugenol",
+     "estragole",
+     "guidance-value",
+     "genotoxic",
+     "cultivar"
+    ],
+    "cited_refs": [
+     4,
+     5,
+     18,
+     19
+    ]
+   },
+   "preparations": [],
+   "primer_sections": [
+    "5-three-pathways-that-make-the-greenhouse-smell",
+    "6-why-plants-make-these-molecules",
+    "8-how-to-read-the-rest-of-this-site"
+   ],
+   "todo": [
+    {
+     "where": "taxa_safety_evidence/ocimum-basilicum",
+     "what": "No whole-plant human evidence researched."
+    },
+    {
+     "where": "taxa_safety_evidence/ocimum-basilicum",
+     "what": "EMA/ESCOP/WHO monograph status for basil not checked."
+    },
+    {
+     "where": "taxa_safety_evidence/ocimum-basilicum",
+     "what": "No allergy or interaction data researched."
+    },
+    {
+     "where": "taxa_safety_evidence/ocimum-basilicum",
+     "what": "Mrs Burns' Lemon taxon (O. × africanum?) and cultivar composition unresolved."
+    }
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "row": "linalool#0",
+   "compound_id": "linalool",
+   "compound": "linalool",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "ocimum-basilicum",
+   "taxon_known": true,
+   "taxon_name": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "plant_part": "leaf essential oil",
+   "value": "14000-593000",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Muráriková A, Ťažký A, Neugebauerová J, et al. (2017) Characterization of essential oil composition in different basil species and pot cultures by a GC-MS method. Molecules 22(7):1221",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules22071221",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+   "verified": true,
+   "note": "Duke rows: LINALOOL Leaf Essent. Oil 14000-593000 ppm; Essential Oil 10-630000; Plant 5-8730 (Duke 1992). Paper: linalool quantified in all 7 cultivars, e.g. 'Ohře' 5.99 mg/mL, 'Red Rubin' 0.46 mg/mL (mg per mL of the analysed oil solution, GC-MS). Majdi 2020 also: linalool the major volatile in Cinnamon basil. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)",
+   "refs": [
+    18
+   ]
+  },
+  {
+   "row": "estragole#0",
+   "compound_id": "estragole",
+   "compound": "estragole (methyl chavicol)",
+   "class": "phenylpropanoid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "ocimum-basilicum",
+   "taxon_known": true,
+   "taxon_name": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "plant_part": "leaf essential oil",
+   "value": "7500-900000",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Muráriková A, Ťažký A, Neugebauerová J, et al. (2017) Characterization of essential oil composition in different basil species and pot cultures by a GC-MS method. Molecules 22(7):1221",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules22071221",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+   "verified": true,
+   "note": "Duke: ESTRAGOLE Leaf Essent. Oil 7500-900000 ppm (0.75-90 % of oil); Plant 35-9000 ppm; METHYL-CHAVICOL Plant 238-8780 ppm. Paper: estragole a main compound only in 'Lettuce Leaf' (2.27 mg/mL); strongly chemotype-dependent. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)",
+   "refs": [
+    18
+   ]
+  },
+  {
+   "row": "eugenol#0",
+   "compound_id": "eugenol",
+   "compound": "eugenol",
+   "class": "phenylpropanoid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "ocimum-basilicum",
+   "taxon_known": true,
+   "taxon_name": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "plant_part": "leaf essential oil",
+   "value": "51200-270000",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Muráriková A, Ťažký A, Neugebauerová J, et al. (2017) Characterization of essential oil composition in different basil species and pot cultures by a GC-MS method. Molecules 22(7):1221",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules22071221",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+   "verified": true,
+   "note": "Duke: EUGENOL Leaf Essent. Oil 51200-270000 ppm; Leaf 14-8575 ppm. Paper: eugenol a major component in 'Mammolo Genovese' (1.19 mg/mL), 'Mánes' (0.40), 'Red Rubin' (0.56). | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)",
+   "refs": [
+    18
+   ]
+  },
+  {
+   "row": "methyleugenol#0",
+   "compound_id": "methyleugenol",
+   "compound": "methyleugenol",
+   "class": "phenylpropanoid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "ocimum-basilicum",
+   "taxon_known": true,
+   "taxon_name": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "plant_part": "plant",
+   "value": "13-1400",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Muráriková A, Ťažký A, Neugebauerová J, et al. (2017) Characterization of essential oil composition in different basil species and pot cultures by a GC-MS method. Molecules 22(7):1221",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules22071221",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+   "verified": true,
+   "note": "Duke: METHYL-EUGENOL Plant 13-1400 ppm (Duke 1992). Paper states 'all the studied varieties, except from Lettuce Leaf, were methyl eugenol-rich' (includes 'Red Rubin' and 'Mammolo Genovese'); no individual values extracted. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    18
+   ]
+  },
+  {
+   "row": "methyl-cinnamate#0",
+   "compound_id": "methyl-cinnamate",
+   "compound": "methyl cinnamate",
+   "class": "phenylpropanoid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "ocimum-basilicum",
+   "taxon_known": true,
+   "taxon_name": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "plant_part": "aerial parts (not re-confirmed)",
+   "value": "24.7",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "cultivar",
+   "cultivar": "Cinnamon",
+   "source_citation": "Majdi C, Pereira C, Dias MI, et al. (2020) Phytochemical characterization and bioactive properties of cinnamon basil (Ocimum basilicum cv. 'Cinnamon') and lemon basil (Ocimum × citriodorum). Antioxidants 9(5):369",
+   "source_doi_or_url": "https://doi.org/10.3390/antiox9050369",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+   "verified": true,
+   "note": "Value from paper: in O. basilicum cv. 'Cinnamon', (E)-methyl cinnamate 'presented also a very high amount (24.7%)', second to linalool. Duke: METHYL-CINNAMATE Plant 1-2800 ppm. | Basis as recorded: % of total volatiles",
+   "refs": [
+    19
+   ]
+  },
+  {
+   "row": "citral#0",
+   "compound_id": "citral",
+   "compound": "citral (geranial/neral)",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "ocimum-basilicum",
+   "taxon_known": true,
+   "taxon_name": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "cultivar",
+   "cultivar": "Mrs. Burns' Lemon",
+   "source_citation": "Majdi C, Pereira C, Dias MI, et al. (2020) Phytochemical characterization and bioactive properties of cinnamon basil (Ocimum basilicum cv. 'Cinnamon') and lemon basil (Ocimum × citriodorum). Antioxidants 9(5):369",
+   "source_doi_or_url": "https://doi.org/10.3390/antiox9050369",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+   "verified": false,
+   "note": "TODO(author): cultivar-specific composition. The only paper value found is citral 4.9 % of volatiles in Ocimum × citriodorum (linalool 32.8 % dominant), not O. basilicum 'Mrs Burns' Lemon'. Duke's species-level O. basilicum records list citral up to 700000 ppm of oil. Duke (O. basilicum): CITRAL Essential Oil max 700000 ppm; Plant 560-7000 ppm; GERANIAL Leaf EO max 2000; NERAL Leaf EO max 1000 ppm. Paper value: citral 4.9 % of total volatiles in lemon basil, where linalool (32.8 %) was the major compound - but the paper's lemon basil is Ocimum × citriodorum, not O. basilicum s.str. (see flags). | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)",
+   "refs": [
+    19
+   ]
+  },
+  {
+   "row": "rosmarinic-acid#0",
+   "compound_id": "rosmarinic-acid",
+   "compound": "rosmarinic acid",
+   "class": "hydroxycinnamic-acid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "ocimum-basilicum",
+   "taxon_known": true,
+   "taxon_name": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "plant_part": "plant",
+   "value": "1000-19000",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Majdi C, Pereira C, Dias MI, et al. (2020) Phytochemical characterization and bioactive properties of cinnamon basil (Ocimum basilicum cv. 'Cinnamon') and lemon basil (Ocimum × citriodorum). Antioxidants 9(5):369",
+   "source_doi_or_url": "https://doi.org/10.3390/antiox9050369",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+   "verified": true,
+   "note": "Duke: ROSMARINIC-ACID Plant 1000-19000 ppm; Shoot max 1300 ppm. Paper: 77 ± 1 mg/g hydroethanolic extract in Cinnamon basil (per g extract, not per g plant). | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    19
+   ]
+  }
+ ],
+ "plantings": [
+  {
+   "id": "GH-053",
+   "list_category": "Herbs",
+   "original_entry": "Basil,Genovese",
+   "common_name": "Sweet basil",
+   "cultivar": "Genovese",
+   "crop_type": "Sweet",
+   "scientific_name": "Ocimum basilicum",
+   "species_key": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "ocimum-basilicum",
+   "status": "current"
+  },
+  {
+   "id": "GH-054",
+   "list_category": "Herbs",
+   "original_entry": "Basil, Compact",
+   "common_name": "Sweet basil",
+   "cultivar": "(not given; compact type)",
+   "crop_type": "Compact / dwarf",
+   "scientific_name": "Ocimum basilicum",
+   "species_key": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "confidence": "Check",
+   "note": "Cultivar not recorded. Could be O. basilicum or O. minimum (Greek bush basil).",
+   "taxon_id": "ocimum-basilicum",
+   "status": "current"
+  },
+  {
+   "id": "GH-055",
+   "list_category": "Herbs",
+   "original_entry": "Basi,l Cinnamon",
+   "common_name": "Cinnamon basil",
+   "cultivar": "Cinnamon",
+   "crop_type": "Aromatic",
+   "scientific_name": "Ocimum basilicum",
+   "species_key": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "confidence": "High",
+   "note": "Typo. High methyl cinnamate chemotype.",
+   "taxon_id": "ocimum-basilicum",
+   "status": "current"
+  },
+  {
+   "id": "GH-056",
+   "list_category": "Herbs",
+   "original_entry": "Basil Citrus, Mrs. Burns",
+   "common_name": "Lemon basil",
+   "cultivar": "Mrs. Burns' Lemon",
+   "crop_type": "Citrus",
+   "scientific_name": "Ocimum basilicum (lemon group; sometimes O. × africanum)",
+   "species_key": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "confidence": "Check",
+   "note": "Taxonomy disputed: often treated as the hybrid O. × africanum. Citral chemotype.",
+   "taxon_id": "ocimum-basilicum",
+   "status": "current"
+  },
+  {
+   "id": "GH-057",
+   "list_category": "Herbs",
+   "original_entry": "Basil Purple, Red Rubin Red",
+   "common_name": "Purple basil",
+   "cultivar": "Red Rubin",
+   "crop_type": "Purple",
+   "scientific_name": "Ocimum basilicum",
+   "species_key": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "confidence": "High",
+   "note": "Anthocyanin-rich.",
+   "taxon_id": "ocimum-basilicum",
+   "status": "current"
+  },
+  {
+   "id": "GH-058",
+   "list_category": "Herbs",
+   "original_entry": "Basil, Sweet Thai",
+   "common_name": "Thai basil",
+   "cultivar": "(not given)",
+   "crop_type": "Thai",
+   "scientific_name": "Ocimum basilicum var. thyrsiflorum",
+   "species_key": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "confidence": "High",
+   "note": "Cultivar not recorded.",
+   "taxon_id": "ocimum-basilicum",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

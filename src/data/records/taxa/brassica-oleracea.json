@@ -1,0 +1,104 @@
+{
+ "taxa": [
+  {
+   "id": "brassica-oleracea",
+   "species_key": "Brassica oleracea",
+   "accepted_name": "Brassica oleracea",
+   "authority": "L.",
+   "family": "Brassicaceae",
+   "common_names": [
+    "Collards",
+    "Kohlrabi"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 3712,
+    "powo_id": "urn:lsid:ipni.org:names:279435-1",
+    "gbif_key": 3042845,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Brassica oleracea Viridis Group (collards/kale)",
+    "Brassica oleracea Gongylodes Group (kohlrabi)"
+   ],
+   "columns": [
+    "leafy_greens",
+    "veggies"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-007",
+     "name": null,
+     "type": "Leaf",
+     "list_category": "leafy_greens",
+     "name_as_given": "Brassica oleracea (Viridis Group)",
+     "identity_status": "confirmed",
+     "note": "Cultivar not recorded."
+    },
+    {
+     "crop_id": "GH-033",
+     "name": null,
+     "type": "Swollen stem",
+     "list_category": "veggies",
+     "name_as_given": "Brassica oleracea (Gongylodes Group)",
+     "identity_status": "confirmed",
+     "note": "Cultivar not recorded."
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "In NCBI, B. oleracea var. viridis is taxid 3713. Cultivar groups have no separate POWO or GBIF ids. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-007",
+    "GH-033"
+   ],
+   "n_plantings": 2,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-007",
+   "list_category": "Leafy Greens",
+   "original_entry": "Collards",
+   "common_name": "Collards",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf",
+   "scientific_name": "Brassica oleracea (Viridis Group)",
+   "species_key": "Brassica oleracea",
+   "family": "Brassicaceae",
+   "confidence": "High",
+   "note": "Cultivar not recorded.",
+   "taxon_id": "brassica-oleracea",
+   "status": "current"
+  },
+  {
+   "id": "GH-033",
+   "list_category": "Veggies",
+   "original_entry": "Kohlrabi",
+   "common_name": "Kohlrabi",
+   "cultivar": "(not given)",
+   "crop_type": "Swollen stem",
+   "scientific_name": "Brassica oleracea (Gongylodes Group)",
+   "species_key": "Brassica oleracea",
+   "family": "Brassicaceae",
+   "confidence": "High",
+   "note": "Cultivar not recorded.",
+   "taxon_id": "brassica-oleracea",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

@@ -1,0 +1,590 @@
+{
+ "taxa": [
+  {
+   "id": "matricaria-chamomilla",
+   "species_key": "Matricaria chamomilla",
+   "accepted_name": "Matricaria chamomilla",
+   "authority": "L.",
+   "family": "Asteraceae",
+   "common_names": [
+    "German chamomile"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 98504,
+    "powo_id": "urn:lsid:ipni.org:names:154715-2",
+    "gbif_key": 8370958,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Matricaria recutita L. (POWO urn:lsid:ipni.org:names:231986-1; GBIF 3103774; NCBI: synonym of 'Matricaria chamomilla var. recutita', taxid 127986)",
+    "Chamomilla recutita (L.) Rauschert"
+   ],
+   "columns": [
+    "medicinal"
+   ],
+   "identity_status": "confirmed",
+   "profiled": true,
+   "profile_depth": "guest",
+   "cultivars": [
+    {
+     "crop_id": "GH-079",
+     "name": null,
+     "type": "Flower",
+     "list_category": "medicinal",
+     "name_as_given": "Matricaria chamomilla (syn. M. recutita)",
+     "identity_status": "confirmed",
+     "note": null
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "POWO and GBIF treat M. recutita as a synonym of M. chamomilla. NCBI differs: it maps M. recutita to the variety M. chamomilla var. recutita (taxid 127986), not to the species (98504). NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-079"
+   ],
+   "n_plantings": 1,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [
+    "luteolin-7-glucoside",
+    "apigenin",
+    "apigenin-7-glucoside",
+    "alpha-bisabolol",
+    "bisabolol-oxide-a",
+    "chamazulene",
+    "matricin",
+    "herniarin",
+    "umbelliferone",
+    "cis-spiroether"
+   ],
+   "occurrence_rows": [
+    "luteolin-7-glucoside#3",
+    "apigenin#2",
+    "apigenin-7-glucoside#0",
+    "alpha-bisabolol#0",
+    "bisabolol-oxide-a#0",
+    "chamazulene#0",
+    "matricin#0",
+    "herniarin#0",
+    "umbelliferone#0",
+    "cis-spiroether#0"
+   ],
+   "safety_evidence": {
+    "taxon_id": "matricaria-chamomilla",
+    "plant_part_used": "flower heads (tea, extracts, cream); essential oil",
+    "safety": {
+     "drug_interactions": [
+      {
+       "with": "warfarin",
+       "effect": "INR rise to 7.9 with bleeding in one patient using chamomile tea and lotion; mechanism proposed, not shown",
+       "evidence_grade": "C",
+       "refs": [
+        48,
+        15
+       ],
+       "md": "INR rise to 7.9 with bleeding in one patient using chamomile tea and lotion; mechanism proposed, not shown"
+      },
+      {
+       "with": "cyclosporine / CYP450 substrates",
+       "effect": "interactions reported in renal-transplant patients on long, high oral intake; CYP1A2 influence 'conceivable'",
+       "evidence_grade": "C",
+       "refs": [
+        11,
+        10
+       ],
+       "md": "[interactions](#term:drug-interaction) reported in renal-transplant patients on long, high oral intake; CYP1A2 influence 'conceivable'"
+      }
+     ],
+     "pregnancy_lactation": {
+      "statement": "EMA monograph: 'Safety during pregnancy and lactation has not been established' for most preparations (not for preparation a); NCCIH: little is known.",
+      "refs": [
+       11,
+       15
+      ],
+      "md": "[EMA](#term:ema-hmpc) [monograph](#term:monograph): 'Safety during pregnancy and lactation has not been established' for most preparations (not for preparation a); NCCIH: little is known."
+     },
+     "allergy": {
+      "statement": "Contraindicated in hypersensitivity to chamomile or other Asteraceae (Compositae); hypersensitivity reactions including anaphylactic shock reported; higher risk with ragweed, chrysanthemum, marigold or daisy allergy. Anthemis cotula contamination (sesquiterpene lactone anthecotulid) is a further allergy risk.",
+      "refs": [
+       11,
+       15,
+       10
+      ],
+      "md": "[Contraindicated](#term:contraindication) in hypersensitivity to chamomile or other [Asteraceae](#term:asteraceae) (Compositae); hypersensitivity reactions including [anaphylactic shock](#term:anaphylaxis) reported; higher risk with ragweed, chrysanthemum, marigold or daisy allergy. Anthemis cotula contamination ([sesquiterpene lactone](#term:sesquiterpene-lactone) anthecotulid) is a further allergy risk."
+     },
+     "adverse_event_history": {
+      "statement": "Severe allergic reactions (dyspnoea, angioedema, vascular collapse, anaphylactic shock) listed with frequency unknown.",
+      "refs": [
+       11
+      ],
+      "md": "Severe allergic reactions (dyspnoea, angioedema, vascular collapse, anaphylactic shock) listed with frequency unknown."
+     },
+     "contraindications": [
+      {
+       "statement": "Hypersensitivity to chamomile or other Asteraceae [11]",
+       "md": "Hypersensitivity to chamomile or other Asteraceae [11](#cite:11)"
+      },
+      {
+       "statement": "Full baths: open wounds, severe infections, high fever, cardiac insufficiency [11]",
+       "md": "Full baths: open wounds, severe infections, high fever, cardiac insufficiency [11](#cite:11)"
+      }
+     ],
+     "constituents_of_concern": [
+      {
+       "compound_id": "herniarin",
+       "concern": "coumarin often assumed to be anticoagulant; EMA gives no such warning (teaching point, see compound)",
+       "threshold_or_limit": null,
+       "refs": [
+        10,
+        48
+       ],
+       "md": "[coumarin](#term:coumarin) often assumed to be anticoagulant; EMA gives no such warning (teaching point, see compound)"
+      }
+     ]
+    },
+    "evidence": [
+     {
+      "claim": "A chamomile extract reduced anxiety scores in mild to moderate GAD more than placebo.",
+      "grade": "B",
+      "test_article": "named_extract",
+      "test_article_detail": "oral standardised chamomile extract capsules, 8 weeks",
+      "population": "human",
+      "outcome_summary": "Greater HAM-A reduction than placebo (57 randomised).",
+      "refs": [
+       57
+      ],
+      "note": null,
+      "md": {
+       "claim": "A chamomile extract reduced anxiety scores in mild to moderate [GAD](#term:gad) more than [placebo](#term:placebo).",
+       "outcome_summary": "Greater HAM-A reduction than placebo (57 [randomised](#term:rct))."
+      }
+     },
+     {
+      "claim": "Continued chamomile extract did not significantly reduce GAD relapse versus placebo.",
+      "grade": "B",
+      "test_article": "named_extract",
+      "test_article_detail": "pharmaceutical-grade chamomile extract capsules; 26-week randomised placebo substitution",
+      "population": "human",
+      "outcome_summary": "Relapse 15.2 % vs 25.5 % (HR 0.52, p = 0.16); symptoms stayed lower on chamomile (n = 93).",
+      "refs": [
+       58
+      ],
+      "note": null,
+      "md": {
+       "claim": "Continued chamomile extract did not significantly reduce GAD relapse versus placebo.",
+       "outcome_summary": "Relapse 15.2 % vs 25.5 % (HR 0.52, p = 0.16); symptoms stayed lower on chamomile (n = 93)."
+      }
+     },
+     {
+      "claim": "A standardised chamomile extract did not improve sleep in chronic primary insomnia.",
+      "grade": "B",
+      "test_article": "named_extract",
+      "test_article_detail": "standardised chamomile extract, 28 days, pilot RCT",
+      "population": "human",
+      "outcome_summary": "No significant difference in sleep-diary outcomes (n = 34); NCCIH judges insomnia evidence minimal.",
+      "refs": [
+       59,
+       15
+      ],
+      "note": "Brief expected 'C'; the one RCT read is null, so the honest summary is 'tested, no benefit shown'.",
+      "md": {
+       "claim": "A standardised chamomile extract did not improve sleep in chronic primary insomnia.",
+       "outcome_summary": "No significant difference in sleep-diary outcomes (n = 34); NCCIH judges insomnia evidence minimal."
+      }
+     },
+     {
+      "claim": "Chamomile flower is traditionally used for minor gastrointestinal complaints and mouth, throat and skin inflammations.",
+      "grade": "T",
+      "test_article": "whole_herb",
+      "test_article_detail": "chamomile flower (tea and other preparations)",
+      "population": "traditional",
+      "outcome_summary": "EMA: 'symptomatic treatment of minor gastro-intestinal complaints such as bloating and minor spasms'.",
+      "refs": [
+       11
+      ],
+      "note": null,
+      "md": {
+       "claim": "Chamomile flower is [traditionally used](#term:traditional-use) for minor gastrointestinal complaints and mouth, throat and skin inflammations.",
+       "outcome_summary": "EMA: 'symptomatic treatment of minor gastro-intestinal complaints such as bloating and minor spasms'."
+      }
+     }
+    ],
+    "monograph_status": {
+     "ema_hmpc": {
+      "exists": true,
+      "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-matricaria-recutita-l-flos-first-version_en.pdf"
+     },
+     "escop": {
+      "exists": true,
+      "url": "https://www.escop.com/downloads/matricariae-flos-matricaria-flower/"
+     },
+     "who": {
+      "exists": true,
+      "url": "https://iris.who.int/handle/10665/42052"
+     }
+    },
+    "refs": [
+     10,
+     11,
+     15,
+     17,
+     48,
+     57,
+     58,
+     59
+    ],
+    "gaps": [
+     "Topical eczema cream (Kamillosan) trial not read.",
+     "WHO Flos Chamomillae text not read (table of contents only).",
+     "ESCOP monograph content not read (listing URL only).",
+     "Standardisation (% apigenin) of the GAD trial extracts not captured."
+    ],
+    "as_of": "2026-09-23",
+    "terms": [
+     "drug-interaction",
+     "ema-hmpc",
+     "monograph",
+     "contraindication",
+     "asteraceae",
+     "anaphylaxis",
+     "sesquiterpene-lactone",
+     "coumarin",
+     "gad",
+     "placebo",
+     "rct",
+     "traditional-use"
+    ],
+    "cited_refs": [
+     10,
+     11,
+     15,
+     17,
+     48,
+     57,
+     58,
+     59
+    ]
+   },
+   "preparations": [
+    "chamomile-flower-hot-infusion"
+   ],
+   "primer_sections": [
+    "5-three-pathways-that-make-the-greenhouse-smell",
+    "7-from-leaf-to-cup"
+   ],
+   "todo": [
+    {
+     "where": "taxa_safety_evidence/matricaria-chamomilla",
+     "what": "Topical eczema cream (Kamillosan) trial not read."
+    },
+    {
+     "where": "taxa_safety_evidence/matricaria-chamomilla",
+     "what": "WHO Flos Chamomillae text not read (table of contents only)."
+    },
+    {
+     "where": "taxa_safety_evidence/matricaria-chamomilla",
+     "what": "ESCOP monograph content not read (listing URL only)."
+    },
+    {
+     "where": "taxa_safety_evidence/matricaria-chamomilla",
+     "what": "Standardisation (% apigenin) of the GAD trial extracts not captured."
+    }
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "row": "luteolin-7-glucoside#3",
+   "compound_id": "luteolin-7-glucoside",
+   "compound": "luteolin-7-O-glucoside (cynaroside)",
+   "class": "flavone-glycoside",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "flower",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Dr. Duke's record LUTEOLIN-7-O-GLUCOSIDE, Flower (citing Bisset 1994, Herbal Drugs and Phytopharmaceuticals)",
+   "source_doi_or_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "Added per ruling (verified per ruling); rests on Duke citing a handbook, no value. EMA lists luteolin among chamomile flavonoids.",
+   "refs": []
+  },
+  {
+   "row": "apigenin#2",
+   "compound_id": "apigenin",
+   "compound": "apigenin",
+   "class": "flavone",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "flower",
+   "value": "6-8400",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "EMA: flavonoids 'such as apigenin-7-glucoside (0.5%), apigenin and luteolin'. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) (Tramil) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    10
+   ]
+  },
+  {
+   "row": "apigenin-7-glucoside#0",
+   "compound_id": "apigenin-7-glucoside",
+   "compound": "apigenin-7-O-glucoside (cosmosiin, apigetrin)",
+   "class": "flavone-glycoside",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "flower (dried drug)",
+   "value": "minimum 0.25",
+   "unit": "%",
+   "basis": "dry_weight",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "EMA: apigenin-7-glucoside about 0.5 %; total flavonoids up to 6 %. Duke: APIGETRIN Flower (Leung & Foster 1995); APIGENIN-7-GLUCOSIDE Plant (citation mismatch, see flags). | Basis as recorded: Ph. Eur. minimum, dried drug",
+   "refs": [
+    10
+   ]
+  },
+  {
+   "row": "alpha-bisabolol#0",
+   "compound_id": "alpha-bisabolol",
+   "compound": "(-)-α-bisabolol (levomenol)",
+   "class": "sesquiterpene",
+   "palette_group": "asteraceae",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "essential oil (flower)",
+   "value": "up to 50",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "EMA: (-)-alpha-bisabolol up to 50 %; oil 0.3-1.9 % of flower. Duke: ALPHA-BISABOLOL Flower 725-10000 ppm. | Basis as recorded: % of essential oil",
+   "refs": [
+    10
+   ]
+  },
+  {
+   "row": "bisabolol-oxide-a#0",
+   "compound_id": "bisabolol-oxide-a",
+   "compound": "α-bisabolol oxide A",
+   "class": "sesquiterpene",
+   "palette_group": "asteraceae",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "essential oil (flower)",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "EMA: bisabolol oxides A and B present (one study '0.45 mg/ml of bisabolol oxides'); no % range extracted. Duke: ALPHA-BISABOLOL-OXIDE-A Plant, no value (citation mismatch, see flags).",
+   "refs": [
+    10
+   ]
+  },
+  {
+   "row": "chamazulene#0",
+   "compound_id": "chamazulene",
+   "compound": "chamazulene",
+   "class": "sesquiterpene",
+   "palette_group": "asteraceae",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "essential oil (flower; distillation artefact)",
+   "value": "2-18",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "EMA: 'proazulenes like matricin and matricarin ... are at least partially converted during steam distillation into azulenes like chamazulene'. Duke: CHAMAZULENE Flower 530-13200 ppm (a distillation product, so best read as oil-derived). | Basis as recorded: % of essential oil | Formed during steam distillation; no claim is made about presence or absence in an infusion (TODO(author)).",
+   "refs": [
+    10
+   ]
+  },
+  {
+   "row": "matricin#0",
+   "compound_id": "matricin",
+   "compound": "matricin",
+   "class": "sesquiterpene",
+   "palette_group": "asteraceae",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "flower",
+   "value": "0.03-0.2",
+   "unit": "%",
+   "basis": "dry_weight",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "Duke: MATRICIN Plant, no value. | Basis as recorded: % of flower (dried drug)",
+   "refs": [
+    10
+   ]
+  },
+  {
+   "row": "herniarin#0",
+   "compound_id": "herniarin",
+   "compound": "herniarin (7-methoxycoumarin)",
+   "class": "coumarin",
+   "palette_group": "asteraceae",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "flower",
+   "value": "0.01-0.08",
+   "unit": "%",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "Duke: HERNIARIN Flower 320-915 ppm. | Basis as recorded: % of flower; range given for herniarin and umbelliferone together Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    10
+   ]
+  },
+  {
+   "row": "umbelliferone#0",
+   "compound_id": "umbelliferone",
+   "compound": "umbelliferone (7-hydroxycoumarin)",
+   "class": "coumarin",
+   "palette_group": "asteraceae",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "flower",
+   "value": "20-290",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "EMA: herniarin and umbelliferone 0.01-0.08 % together. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    10
+   ]
+  },
+  {
+   "row": "cis-spiroether#0",
+   "compound_id": "cis-spiroether",
+   "compound": "cis-spiroether (cis-en-yn-dicycloether, (Z)-tonghaosu)",
+   "class": "polyacetylene",
+   "palette_group": "asteraceae",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "essential oil",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "Amount null per ruling: EMA '20-30 %' (re-read in this pass as cis + trans spiroethers together) needs its basis confirmed before display. Duke: CIS-SPIROETHER Plant (Newall 1996) and CIS-EN-YN-DICYCLOETHER Plant (Kameoka & Nakai 1987), no values. | Basis as recorded: % of essential oil (as extracted for cis/trans-en-yn-dicycloethers together; value seems high - re-check against the report)",
+   "refs": [
+    10
+   ]
+  }
+ ],
+ "plantings": [
+  {
+   "id": "GH-079",
+   "list_category": "Medicinal",
+   "original_entry": "Chamomile, German",
+   "common_name": "German chamomile",
+   "cultivar": "(not given)",
+   "crop_type": "Flower",
+   "scientific_name": "Matricaria chamomilla (syn. M. recutita)",
+   "species_key": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "matricaria-chamomilla",
+   "status": "current"
+  }
+ ],
+ "preparations": [
+  {
+   "id": "chamomile-flower-hot-infusion",
+   "name": "German chamomile flower, hot-water infusion"
+  }
+ ]
+}

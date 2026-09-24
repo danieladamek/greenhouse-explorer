@@ -1,0 +1,226 @@
+{
+ "compound": {
+  "id": "alpha-bisabolol",
+  "name": "(-)-α-bisabolol (levomenol)",
+  "synonyms": [
+   "levomenol",
+   "(-)-α-bisabolol"
+  ],
+  "class": "sesquiterpene",
+  "subclass": "monocyclic sesquiterpene alcohol",
+  "one_liner": "Chamomile oil's anti-inflammatory alcohol (up to 50 % of oil in the bisabolol chemotype).",
+  "palette_group": "asteraceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "(2S)-6-methyl-2-[(1S)-4-methylcyclohex-3-en-1-yl]hept-5-en-2-ol",
+   "formula": "C15H26O",
+   "mw": 222.37,
+   "mw_source": "computed_from_formula",
+   "smiles": "CC1=CC[C@H](CC1)[C@](C)(CCC=C(C)C)O",
+   "inchikey": "RGZSQWQPBWRIAQ-CABCVRRESA-N",
+   "cas": "23089-26-1",
+   "pubchem_cid": 442343,
+   "chebi_id": null,
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/442343/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": "Chamomile form is (-)-α-bisabolol = levomenol. Note: PubChem CID 1549992 titled 'Bisabolol' (CAS 515-69-5) is the (2R,1R) enantiomer - do not use it for chamomile. ChEBI ID 'CHEBI:125' as returned by the summariser; unusually low, so re-check it."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MVA/terpenoid (sesquiterpene; from farnesyl diphosphate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "matricaria-chamomilla",
+    "plant_part": "essential oil (flower)",
+    "value": "up to 50",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+    "verified": true,
+    "note": "EMA: (-)-alpha-bisabolol up to 50 %; oil 0.3-1.9 % of flower. Duke: ALPHA-BISABOLOL Flower 725-10000 ppm. | Basis as recorded: % of essential oil"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": "In rats it decreased leukocyte migration, protein extravasation and TNF-α in paw oedema and inhibited experimental gastric ulcers; on guinea-pig ileum it was 91 % as effective as papaverine against barium chloride spasms [10].",
+   "functional_notes": null
+  },
+  "absorption_bioavailability": "No human absorption data found in the EMA report [10].",
+  "evidence": [
+   {
+    "claim": "α-Bisabolol is anti-inflammatory and anti-ulcer in rats.",
+    "grade": "D",
+    "test_article": "isolated_compound",
+    "test_article_detail": "α-bisabolol, rat paw oedema and ulcer models (EMA summary)",
+    "population": "animal",
+    "outcome_summary": "Reduced leukocyte migration, TNF-α and ulcers.",
+    "refs": [
+     10
+    ],
+    "note": null
+   },
+   {
+    "claim": "α-Bisabolol is spasmolytic on isolated ileum.",
+    "grade": "E",
+    "test_article": "isolated_compound",
+    "test_article_detail": "α-bisabolol, guinea-pig ileum",
+    "population": "in_vitro",
+    "outcome_summary": "91 % of papaverine's effect.",
+    "refs": [
+     10
+    ],
+    "note": null
+   }
+  ],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "Identity trap: PubChem 'Bisabolol' (CID 1549992) is the wrong enantiomer; chamomile's compound is levomenol (CID 442343).",
+  "citations": [
+   10
+  ],
+  "gaps": [
+   "ChEBI id: verification returned CHEBI:125, judged wrong; left null pending re-check.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Chamomile oil's anti-inflammatory alcohol (up to 50 [% of oil](#term:essential-oil-percent) in the bisabolol [chemotype](#term:chemotype)).",
+   "mechanism": "In rats it decreased leukocyte migration, protein extravasation and TNF-α in paw oedema and inhibited experimental gastric ulcers; on guinea-pig ileum it was 91 % as effective as papaverine against barium chloride spasms [10](#cite:10).",
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": "No human [absorption](#term:bioavailability) data found in the [EMA](#term:ema-hmpc) report [10](#cite:10).",
+   "teaching_note": "Identity trap: [PubChem](#term:pubchem-cid) 'Bisabolol' (CID 1549992) is the wrong [enantiomer](#term:enantiomer); chamomile's compound is levomenol (CID 442343).",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": null,
+   "evidence": [
+    {
+     "claim": "α-Bisabolol is anti-inflammatory and anti-ulcer in rats.",
+     "outcome_summary": "Reduced leukocyte migration, TNF-α and ulcers."
+    },
+    {
+     "claim": "α-Bisabolol is spasmolytic on isolated ileum.",
+     "outcome_summary": "91 % of papaverine's effect."
+    }
+   ],
+   "safety_flags": []
+  },
+  "terms": [
+   "essential-oil-percent",
+   "chemotype",
+   "bioavailability",
+   "ema-hmpc",
+   "pubchem-cid",
+   "enantiomer",
+   "solubility"
+  ],
+  "cited_refs": [
+   10
+  ],
+  "taxa": [
+   "matricaria-chamomilla"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C15H26O",
+   "inchikeyComputed": "RGZSQWQPBWRIAQ-CABCVRRESA-N",
+   "canonicalSmiles": "CC(C)=CCC[C@](C)(O)[C@@H]1CC=C(C)CC1",
+   "monoisotopicMass": 222.1984,
+   "averageMass": 222.372,
+   "descriptors": {
+    "heavyAtoms": 16,
+    "rings": 1,
+    "aromaticRings": 0,
+    "hbd": 1,
+    "hba": 1,
+    "rotatableBonds": 4,
+    "logP": 4.23,
+    "tpsa": 20.2,
+    "fsp3": 0.73,
+    "stereocenters": 2,
+    "charge": 0
+   },
+   "atomCount": 42,
+   "heavyAtomCount": 16,
+   "functionalGroups": [
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       0,
+       2
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/alpha-bisabolol.sdf",
+   "svg": {
+    "light": "structures/2d/alpha-bisabolol.svg",
+    "dark": "structures/2d/alpha-bisabolol.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/alpha-bisabolol.json",
+   "mwPack": 222.37,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "alpha-bisabolol#0",
+   "compound_id": "alpha-bisabolol",
+   "compound": "(-)-α-bisabolol (levomenol)",
+   "class": "sesquiterpene",
+   "palette_group": "asteraceae",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "essential oil (flower)",
+   "value": "up to 50",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "EMA: (-)-alpha-bisabolol up to 50 %; oil 0.3-1.9 % of flower. Duke: ALPHA-BISABOLOL Flower 725-10000 ppm. | Basis as recorded: % of essential oil",
+   "refs": [
+    10
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "chamomile-flower-hot-infusion",
+   "name": "German chamomile flower, hot-water infusion"
+  }
+ ]
+}

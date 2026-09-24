@@ -1,0 +1,1901 @@
+[
+ {
+  "id": "menthol",
+  "name": "(-)-menthol",
+  "class": "monoterpene",
+  "subclass": "p-menthane alcohol",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Peppermint's cooling alcohol (30-55 % of the oil); the TRPM8 agonist.",
+  "synonyms": [
+   "(-)-menthol",
+   "l-menthol",
+   "(1R,2S,5R)-menthol"
+  ],
+  "formula": "C10H20O",
+  "inchikey": "NOOLISFMXDJSKH-KXUCPTDWSA-N",
+  "mw": 156.26,
+  "taxa": [
+   "mentha-x-piperita"
+  ],
+  "parts": [
+   "essential oil"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 1,
+  "safety_flags": 1,
+  "grades": [
+   "E"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/menthol.svg",
+   "dark": "structures/2d/menthol.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "alpha-bisabolol",
+  "name": "(-)-α-bisabolol (levomenol)",
+  "class": "sesquiterpene",
+  "subclass": "monocyclic sesquiterpene alcohol",
+  "palette_group": "asteraceae",
+  "auxiliary": false,
+  "one_liner": "Chamomile oil's anti-inflammatory alcohol (up to 50 % of oil in the bisabolol chemotype).",
+  "synonyms": [
+   "levomenol",
+   "(-)-α-bisabolol"
+  ],
+  "formula": "C15H26O",
+  "inchikey": "RGZSQWQPBWRIAQ-CABCVRRESA-N",
+  "mw": 222.37,
+  "taxa": [
+   "matricaria-chamomilla"
+  ],
+  "parts": [
+   "essential oil (flower)"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 2,
+  "safety_flags": 0,
+  "grades": [
+   "D",
+   "E"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/alpha-bisabolol.svg",
+   "dark": "structures/2d/alpha-bisabolol.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "pulegone",
+  "name": "(+)-pulegone",
+  "class": "monoterpenoid-ketone",
+  "subclass": "p-menthane ketone",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Peppermint oil ketone limited to ≤3 % by Ph. Eur.; hepatotoxic via bioactivation, with an EMA combined limit.",
+  "synonyms": [
+   "(+)-pulegone",
+   "(R)-pulegone"
+  ],
+  "formula": "C10H16O",
+  "inchikey": "NZGWDASTMWDZIW-MRVPVSSYSA-N",
+  "mw": 152.24,
+  "taxa": [
+   "mentha-x-piperita"
+  ],
+  "parts": [
+   "essential oil"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 1,
+  "safety_flags": 1,
+  "grades": [
+   "D"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/pulegone.svg",
+   "dark": "structures/2d/pulegone.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "1-8-cineole",
+  "name": "1,8-cineole (eucalyptol)",
+  "class": "monoterpene",
+  "subclass": "bicyclic monoterpene ether (oxide)",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "The eucalyptus-camphor note shared by rosemary, sage and peppermint oils; tested as an isolated compound in asthma.",
+  "synonyms": [
+   "eucalyptol",
+   "1,8-epoxy-p-menthane",
+   "cineol"
+  ],
+  "formula": "C10H18O",
+  "inchikey": "WEEGYLXZBRQIMU-UHFFFAOYSA-N",
+  "mw": 154.25,
+  "taxa": [
+   "mentha-x-piperita",
+   "salvia-officinalis",
+   "salvia-rosmarinus"
+  ],
+  "parts": [
+   "essential oil"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": true,
+  "evidence": 1,
+  "safety_flags": 0,
+  "grades": [
+   "B"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/1-8-cineole.svg",
+   "dark": "structures/2d/1-8-cineole.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "apigenin",
+  "name": "apigenin",
+  "class": "flavone",
+  "subclass": "flavone aglycone",
+  "palette_group": "shared",
+  "auxiliary": false,
+  "one_liner": "Chamomile's benzodiazepine-site flavone (Ki ~4 µM in vitro); anxiolytic in mice, poorly bioavailable in people.",
+  "synonyms": [
+   "4',5,7-trihydroxyflavone"
+  ],
+  "formula": "C15H10O5",
+  "inchikey": "KZNIFHPLKGYRTM-UHFFFAOYSA-N",
+  "mw": 270.24,
+  "taxa": [
+   "salvia-officinalis",
+   "origanum-vulgare",
+   "matricaria-chamomilla"
+  ],
+  "parts": [
+   "plant; shoot",
+   "flower"
+  ],
+  "bases": [
+   "presence_only",
+   "unstated"
+  ],
+  "has_human_evidence": false,
+  "evidence": 3,
+  "safety_flags": 0,
+  "grades": [
+   "D",
+   "E"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/apigenin.svg",
+   "dark": "structures/2d/apigenin.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "apigenin-7-glucoside",
+  "name": "apigenin-7-O-glucoside (cosmosiin, apigetrin)",
+  "class": "flavone-glycoside",
+  "subclass": "flavone 7-O-glucoside",
+  "palette_group": "shared",
+  "auxiliary": false,
+  "one_liner": "The form in which chamomile actually stores apigenin (about 0.5 % of the flower; Ph. Eur. minimum 0.25 %).",
+  "synonyms": [
+   "cosmosiin",
+   "apigetrin",
+   "apigenin 7-O-β-D-glucoside"
+  ],
+  "formula": "C21H20O10",
+  "inchikey": "KMOUJOKENFFTPU-QNDFHXLGSA-N",
+  "mw": 432.38,
+  "taxa": [
+   "matricaria-chamomilla",
+   "origanum-vulgare"
+  ],
+  "parts": [
+   "flower (dried drug)",
+   "upper non-woody shoots at bloom onset (hydroethanolic extract)"
+  ],
+  "bases": [
+   "dry_weight",
+   "presence_only"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/apigenin-7-glucoside.svg",
+   "dark": "structures/2d/apigenin-7-glucoside.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "baicalein",
+  "name": "baicalein",
+  "class": "flavone",
+  "subclass": "4'-deoxyflavone aglycone",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Aglycone of baicalin; studied in people as an isolated compound (phase I tablets).",
+  "synonyms": [
+   "5,6,7-trihydroxyflavone"
+  ],
+  "formula": "C15H10O5",
+  "inchikey": "FXNFHKRTJBSTCS-UHFFFAOYSA-N",
+  "mw": 270.24,
+  "taxa": [
+   "scutellaria-lateriflora",
+   "scutellaria-baicalensis"
+  ],
+  "parts": [
+   "leaf",
+   "root"
+  ],
+  "bases": [
+   "unstated"
+  ],
+  "has_human_evidence": true,
+  "evidence": 1,
+  "safety_flags": 0,
+  "grades": [
+   "B"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/baicalein.svg",
+   "dark": "structures/2d/baicalein.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "baicalin",
+  "name": "baicalin",
+  "class": "flavone-glucuronide",
+  "subclass": "4'-deoxyflavone 7-O-glucuronide",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "The main flavone of Chinese skullcap root, also abundant in American skullcap leaf; alters rosuvastatin exposure in people.",
+  "synonyms": [
+   "baicalein 7-O-β-D-glucuronide"
+  ],
+  "formula": "C21H18O11",
+  "inchikey": "IKIIZLYTISPENI-ZFORQUDYSA-N",
+  "mw": 446.36,
+  "taxa": [
+   "scutellaria-lateriflora",
+   "scutellaria-baicalensis"
+  ],
+  "parts": [
+   "leaf",
+   "root"
+  ],
+  "bases": [
+   "unstated"
+  ],
+  "has_human_evidence": true,
+  "evidence": 2,
+  "safety_flags": 2,
+  "grades": [
+   "B",
+   "D"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/baicalin.svg",
+   "dark": "structures/2d/baicalin.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "borneol",
+  "name": "borneol",
+  "class": "monoterpene",
+  "subclass": "bornane alcohol",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Bicyclic alcohol related to camphor; in sage and rosemary oils.",
+  "synonyms": [
+   "endo-borneol",
+   "bornan-2-ol"
+  ],
+  "formula": "C10H18O",
+  "inchikey": "DTGKSKDOIYIVQL-UHFFFAOYSA-N",
+  "mw": 154.25,
+  "taxa": [
+   "salvia-officinalis",
+   "salvia-rosmarinus"
+  ],
+  "parts": [
+   "leaf essential oil",
+   "essential oil"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/borneol.svg",
+   "dark": "structures/2d/borneol.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "caffeic-acid",
+  "name": "caffeic acid",
+  "class": "hydroxycinnamic-acid",
+  "subclass": "hydroxycinnamic acid",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "The building block of rosmarinic acid; also one of its breakdown products in people.",
+  "synonyms": [
+   "3,4-dihydroxycinnamic acid"
+  ],
+  "formula": "C9H8O4",
+  "inchikey": "QAIPRVGONGVQAS-DUXPYHPUSA-N",
+  "mw": 180.16,
+  "taxa": [
+   "melissa-officinalis"
+  ],
+  "parts": [
+   "plant"
+  ],
+  "bases": [
+   "unstated"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/caffeic-acid.svg",
+   "dark": "structures/2d/caffeic-acid.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "camphor",
+  "name": "camphor",
+  "class": "monoterpenoid-ketone",
+  "subclass": "bornane ketone",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Convulsant bicyclic ketone in sage (5-20 % of oil) and rosemary (13-21 % Spanish type).",
+  "synonyms": [
+   "2-bornanone",
+   "bornan-2-one"
+  ],
+  "formula": "C10H16O",
+  "inchikey": "DSSYKIVIOFKYAU-UHFFFAOYSA-N",
+  "mw": 152.24,
+  "taxa": [
+   "salvia-officinalis",
+   "salvia-rosmarinus"
+  ],
+  "parts": [
+   "essential oil"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 1,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/camphor.svg",
+   "dark": "structures/2d/camphor.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "carnosic-acid",
+  "name": "carnosic acid",
+  "class": "diterpene",
+  "subclass": "abietane phenolic diterpene",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Lamiaceae-only phenolic diterpene; rosemary's antioxidant (E392) that oxidises to carnosol on drying.",
+  "synonyms": [],
+  "formula": "C20H28O4",
+  "inchikey": "QRYRORQUOLYVBU-VBKZILBWSA-N",
+  "mw": 332.44,
+  "taxa": [
+   "salvia-officinalis",
+   "salvia-rosmarinus"
+  ],
+  "parts": [
+   "leaf"
+  ],
+  "bases": [
+   "unstated"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/carnosic-acid.svg",
+   "dark": "structures/2d/carnosic-acid.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "carnosol",
+  "name": "carnosol",
+  "class": "diterpene",
+  "subclass": "abietane diterpene lactone",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Oxidation product of carnosic acid formed after harvest and on drying; a major rosemary contact allergen.",
+  "synonyms": [
+   "pikrosalvin"
+  ],
+  "formula": "C20H26O4",
+  "inchikey": "XUSYGBPHQBWGAD-PJSUUKDQSA-N",
+  "mw": 330.42,
+  "taxa": [
+   "salvia-officinalis",
+   "salvia-rosmarinus"
+  ],
+  "parts": [
+   "leaf"
+  ],
+  "bases": [
+   "unstated"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 1,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/carnosol.svg",
+   "dark": "structures/2d/carnosol.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": "drying"
+ },
+ {
+  "id": "carvacrol",
+  "name": "carvacrol",
+  "class": "monoterpene",
+  "subclass": "phenolic monoterpene (p-cymene type)",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Thymol's positional isomer; the main phenol of Greek oregano oil (39.8 % cultivated; 23.3 % wild chemotype).",
+  "synonyms": [
+   "2-methyl-5-isopropylphenol"
+  ],
+  "formula": "C10H14O",
+  "inchikey": "RECUKUPTGUEGMW-UHFFFAOYSA-N",
+  "mw": 150.22,
+  "taxa": [
+   "thymus-vulgaris",
+   "origanum-vulgare"
+  ],
+  "parts": [
+   "essential oil",
+   "upper non-woody shoots at bloom onset"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/carvacrol.svg",
+   "dark": "structures/2d/carvacrol.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "chamazulene",
+  "name": "chamazulene",
+  "class": "sesquiterpene",
+  "subclass": "azulene (sesquiterpene degradation product)",
+  "palette_group": "asteraceae",
+  "auxiliary": false,
+  "one_liner": "The blue of chamomile oil, formed from colourless matricin during steam distillation.",
+  "synonyms": [
+   "7-ethyl-1,4-dimethylazulene"
+  ],
+  "formula": "C14H16",
+  "inchikey": "GXGJIOMUZAGVEH-UHFFFAOYSA-N",
+  "mw": 184.28,
+  "taxa": [
+   "matricaria-chamomilla"
+  ],
+  "parts": [
+   "essential oil (flower; distillation artefact)"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 1,
+  "safety_flags": 0,
+  "grades": [
+   "E"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/chamazulene.svg",
+   "dark": "structures/2d/chamazulene.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": "distillation"
+ },
+ {
+  "id": "chrysin",
+  "name": "chrysin",
+  "class": "flavone",
+  "subclass": "4'-deoxyflavone aglycone",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Simplest 4'-deoxyflavone; a biosynthetic precursor more than an abundant constituent (≤0.08 % of S. baicalensis root).",
+  "synonyms": [
+   "5,7-dihydroxyflavone"
+  ],
+  "formula": "C15H10O4",
+  "inchikey": "RTIXKCRFFJGDFG-UHFFFAOYSA-N",
+  "mw": 254.24,
+  "taxa": [
+   "scutellaria-baicalensis"
+  ],
+  "parts": [
+   "root"
+  ],
+  "bases": [
+   "unstated"
+  ],
+  "has_human_evidence": false,
+  "evidence": 1,
+  "safety_flags": 0,
+  "grades": [
+   "E"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/chrysin.svg",
+   "dark": "structures/2d/chrysin.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "cis-spiroether",
+  "name": "cis-spiroether (cis-en-yn-dicycloether, (Z)-tonghaosu)",
+  "class": "polyacetylene",
+  "subclass": "spiroketal enol ether polyyne",
+  "palette_group": "asteraceae",
+  "auxiliary": false,
+  "one_liner": "Chamomile's polyacetylene spiroether; anti-inflammatory in mouse ear tests.",
+  "synonyms": [
+   "cis-en-yn-dicycloether",
+   "(Z)-tonghaosu"
+  ],
+  "formula": "C13H12O2",
+  "inchikey": "WTRXKCNFPMTAJV-GHXNOFRVSA-N",
+  "mw": 200.2332,
+  "taxa": [
+   "matricaria-chamomilla"
+  ],
+  "parts": [
+   "essential oil"
+  ],
+  "bases": [
+   "presence_only"
+  ],
+  "has_human_evidence": false,
+  "evidence": 1,
+  "safety_flags": 0,
+  "grades": [
+   "D"
+  ],
+  "has_structure": false,
+  "svg": null,
+  "formed_during": null
+ },
+ {
+  "id": "citral",
+  "name": "citral (geranial/neral)",
+  "class": "monoterpene",
+  "subclass": "acyclic monoterpene aldehyde (E/Z pair)",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "The lemon aldehyde pair (geranial + neral) of lemon balm oil and lemon basils.",
+  "synonyms": [
+   "geranial + neral",
+   "3,7-dimethylocta-2,6-dienal"
+  ],
+  "formula": "C10H16O",
+  "inchikey": "WTEVQBCEXWBHNA-UHFFFAOYSA-N",
+  "mw": 152.23,
+  "taxa": [
+   "ocimum-basilicum",
+   "melissa-officinalis"
+  ],
+  "parts": [
+   "essential oil",
+   "leaf (drug)"
+  ],
+  "bases": [
+   "presence_only",
+   "dry_weight"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/citral.svg",
+   "dark": "structures/2d/citral.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "citronellal",
+  "name": "citronellal",
+  "class": "monoterpene",
+  "subclass": "acyclic monoterpene aldehyde",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Second lemon-balm aldehyde beside citral.",
+  "synonyms": [
+   "3,7-dimethyloct-6-enal"
+  ],
+  "formula": "C10H18O",
+  "inchikey": "NEHNMFOYXAPHSD-UHFFFAOYSA-N",
+  "mw": 154.25,
+  "taxa": [
+   "melissa-officinalis"
+  ],
+  "parts": [
+   "leaf (drug)"
+  ],
+  "bases": [
+   "dry_weight"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/citronellal.svg",
+   "dark": "structures/2d/citronellal.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "dihydrobaicalin",
+  "name": "dihydrobaicalin",
+  "class": "flavanone-glucuronide",
+  "subclass": "flavanone 7-O-glucuronide",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Flavanone glucuronide among the predominant flavonoids of S. lateriflora extract.",
+  "synonyms": [
+   "(2S)-dihydrobaicalin"
+  ],
+  "formula": "C21H20O11",
+  "inchikey": "UVNUGBQJLDGZKE-XDZPIWCFSA-N",
+  "mw": 448.38,
+  "taxa": [
+   "scutellaria-lateriflora"
+  ],
+  "parts": [
+   "above-ground parts (70 % ethanol extract)"
+  ],
+  "bases": [
+   "presence_only"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/dihydrobaicalin.svg",
+   "dark": "structures/2d/dihydrobaicalin.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "eriocitrin",
+  "name": "eriocitrin",
+  "class": "flavanone-glycoside",
+  "subclass": "eriodictyol rutinoside",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "The flavanone glycoside EMA calls the dominant phenolic of peppermint leaf: the tea compound, absent from the oil.",
+  "synonyms": [
+   "eriodictyol 7-O-rutinoside"
+  ],
+  "formula": "C27H32O15",
+  "inchikey": "OMQADRGFMLGFJF-MNPJBKLOSA-N",
+  "mw": 596.54,
+  "taxa": [
+   "mentha-x-piperita"
+  ],
+  "parts": [
+   "leaf"
+  ],
+  "bases": [
+   "presence_only"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/eriocitrin.svg",
+   "dark": "structures/2d/eriocitrin.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "estragole",
+  "name": "estragole (methyl chavicol)",
+  "class": "phenylpropanoid",
+  "subclass": "allylbenzene (methyl ether)",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Aniseed-scented basil constituent; a genotoxic carcinogen in rodents with an EMA exposure guidance value.",
+  "synonyms": [
+   "methyl chavicol",
+   "4-allylanisole",
+   "p-allylanisole"
+  ],
+  "formula": "C10H12O",
+  "inchikey": "ZFMSMUAANRJZFM-UHFFFAOYSA-N",
+  "mw": 148.2,
+  "taxa": [
+   "ocimum-basilicum"
+  ],
+  "parts": [
+   "leaf essential oil"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 1,
+  "safety_flags": 1,
+  "grades": [
+   "D"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/estragole.svg",
+   "dark": "structures/2d/estragole.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "eugenol",
+  "name": "eugenol",
+  "class": "phenylpropanoid",
+  "subclass": "allylphenol",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Clove-scented phenylpropanoid; a major oil component in several basil cultivars.",
+  "synonyms": [
+   "4-allyl-2-methoxyphenol"
+  ],
+  "formula": "C10H12O2",
+  "inchikey": "RRAFCDWBNXTKKO-UHFFFAOYSA-N",
+  "mw": 164.2,
+  "taxa": [
+   "ocimum-basilicum"
+  ],
+  "parts": [
+   "leaf essential oil"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/eugenol.svg",
+   "dark": "structures/2d/eugenol.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "herniarin",
+  "name": "herniarin (7-methoxycoumarin)",
+  "class": "coumarin",
+  "subclass": "simple 7-oxygenated coumarin",
+  "palette_group": "asteraceae",
+  "auxiliary": false,
+  "one_liner": "Simple coumarin of chamomile flower (with umbelliferone 0.01-0.08 %); not an anticoagulant coumarin.",
+  "synonyms": [
+   "7-methoxycoumarin",
+   "methylumbelliferone (7-O-methyl)"
+  ],
+  "formula": "C10H8O3",
+  "inchikey": "LIIALPBMIOVAHH-UHFFFAOYSA-N",
+  "mw": 176.17,
+  "taxa": [
+   "matricaria-chamomilla"
+  ],
+  "parts": [
+   "flower"
+  ],
+  "bases": [
+   "unstated"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/herniarin.svg",
+   "dark": "structures/2d/herniarin.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "linalool",
+  "name": "linalool",
+  "class": "monoterpene",
+  "subclass": "acyclic monoterpene alcohol",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "The floral-sweet alcohol that dominates Genovese-type basil oil; also a minor thyme oil constituent.",
+  "synonyms": [
+   "3,7-dimethylocta-1,6-dien-3-ol"
+  ],
+  "formula": "C10H18O",
+  "inchikey": "CDOSHBSSFJOMGT-UHFFFAOYSA-N",
+  "mw": 154.25,
+  "taxa": [
+   "ocimum-basilicum",
+   "thymus-vulgaris"
+  ],
+  "parts": [
+   "leaf essential oil",
+   "essential oil"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/linalool.svg",
+   "dark": "structures/2d/linalool.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "luteolin",
+  "name": "luteolin",
+  "class": "flavone",
+  "subclass": "flavone aglycone",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Flavone aglycone of sage and thyme; in plants mostly present as glycosides such as luteolin-7-glucoside.",
+  "synonyms": [
+   "3',4',5,7-tetrahydroxyflavone"
+  ],
+  "formula": "C15H10O6",
+  "inchikey": "IQPNAANSBPBGFQ-UHFFFAOYSA-N",
+  "mw": 286.24,
+  "taxa": [
+   "salvia-officinalis",
+   "thymus-vulgaris",
+   "origanum-vulgare"
+  ],
+  "parts": [
+   "leaf",
+   "herbal substance (dried herb)"
+  ],
+  "bases": [
+   "presence_only",
+   "dry_weight"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/luteolin.svg",
+   "dark": "structures/2d/luteolin.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "luteolin-7-glucoside",
+  "name": "luteolin-7-O-glucoside (cynaroside)",
+  "class": "flavone-glycoside",
+  "subclass": "flavone 7-O-glucoside",
+  "palette_group": "shared",
+  "auxiliary": false,
+  "one_liner": "The plant form of luteolin: dominant flavonoid of Greek oregano extract, and present in sage, thyme and chamomile.",
+  "synonyms": [
+   "cynaroside",
+   "luteolin 7-O-β-D-glucoside"
+  ],
+  "formula": "C21H20O11",
+  "inchikey": "PEFNSGRTCBGNAN-QNDFHXLGSA-N",
+  "mw": 448.38,
+  "taxa": [
+   "salvia-officinalis",
+   "thymus-vulgaris",
+   "origanum-vulgare",
+   "matricaria-chamomilla"
+  ],
+  "parts": [
+   "plant; leaf (as cynaroside)",
+   "herb (aerial parts), cv. 'Standard Winter'",
+   "upper non-woody shoots at bloom onset (hydroethanolic extract)",
+   "flower"
+  ],
+  "bases": [
+   "presence_only",
+   "dry_weight"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/luteolin-7-glucoside.svg",
+   "dark": "structures/2d/luteolin-7-glucoside.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "matricin",
+  "name": "matricin",
+  "class": "sesquiterpene",
+  "subclass": "guaianolide sesquiterpene lactone (proazulene)",
+  "palette_group": "asteraceae",
+  "auxiliary": false,
+  "one_liner": "The colourless proazulene actually present in the flower (0.03-0.2 %); precursor of chamazulene.",
+  "synonyms": [
+   "proazulene"
+  ],
+  "formula": "C17H22O5",
+  "inchikey": "SYTRJRUSWMMZLV-VQGWEXQJSA-N",
+  "mw": 306.36,
+  "taxa": [
+   "matricaria-chamomilla"
+  ],
+  "parts": [
+   "flower"
+  ],
+  "bases": [
+   "dry_weight"
+  ],
+  "has_human_evidence": false,
+  "evidence": 1,
+  "safety_flags": 0,
+  "grades": [
+   "D"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/matricin.svg",
+   "dark": "structures/2d/matricin.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "menthofuran",
+  "name": "menthofuran",
+  "class": "monoterpene",
+  "subclass": "p-menthane furan",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Minor peppermint oil constituent (1-8 %) and hepatotoxic metabolite of pulegone; limited together with pulegone by EMA.",
+  "synonyms": [
+   "(+)-menthofuran",
+   "3,6-dimethyl-4,5,6,7-tetrahydrobenzofuran"
+  ],
+  "formula": "C10H14O",
+  "inchikey": "YGWKXXYGDYYFJU-UHFFFAOYSA-N",
+  "mw": 150.22,
+  "taxa": [
+   "mentha-x-piperita"
+  ],
+  "parts": [
+   "essential oil"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 1,
+  "safety_flags": 1,
+  "grades": [
+   "D"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/menthofuran.svg",
+   "dark": "structures/2d/menthofuran.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "menthone",
+  "name": "menthone",
+  "class": "monoterpenoid-ketone",
+  "subclass": "p-menthane ketone",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Second major peppermint oil constituent (14-32 %); the ketone that menthol is reduced from.",
+  "synonyms": [
+   "l-menthone",
+   "(2S,5R)-menthone"
+  ],
+  "formula": "C10H18O",
+  "inchikey": "NFLGAXVYCFJBMK-BDAKNGLRSA-N",
+  "mw": 154.25,
+  "taxa": [
+   "mentha-x-piperita"
+  ],
+  "parts": [
+   "essential oil"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/menthone.svg",
+   "dark": "structures/2d/menthone.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "methyl-cinnamate",
+  "name": "methyl cinnamate",
+  "class": "phenylpropanoid",
+  "subclass": "cinnamic acid ester",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Fruity-balsamic ester that gives 'Cinnamon' basil its name: 24.7 % of volatiles, second to linalool.",
+  "synonyms": [
+   "methyl (E)-cinnamate",
+   "methyl 3-phenylprop-2-enoate"
+  ],
+  "formula": "C10H10O2",
+  "inchikey": "CCRCUPLGCSFEDV-BQYQJAHWSA-N",
+  "mw": 162.18,
+  "taxa": [
+   "ocimum-basilicum"
+  ],
+  "parts": [
+   "aerial parts (not re-confirmed)"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/methyl-cinnamate.svg",
+   "dark": "structures/2d/methyl-cinnamate.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "methyleugenol",
+  "name": "methyleugenol",
+  "class": "phenylpropanoid",
+  "subclass": "allylbenzene (dimethyl ether)",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Basil phenylpropanoid classed by EMA as a naturally occurring genotoxic carcinogen.",
+  "synonyms": [
+   "methyl eugenol",
+   "eugenol methyl ether",
+   "4-allyl-1,2-dimethoxybenzene"
+  ],
+  "formula": "C11H14O2",
+  "inchikey": "ZYEMGPIYFIJGTP-UHFFFAOYSA-N",
+  "mw": 178.23,
+  "taxa": [
+   "ocimum-basilicum"
+  ],
+  "parts": [
+   "plant"
+  ],
+  "bases": [
+   "unstated"
+  ],
+  "has_human_evidence": false,
+  "evidence": 1,
+  "safety_flags": 1,
+  "grades": [
+   "D"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/methyleugenol.svg",
+   "dark": "structures/2d/methyleugenol.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "norwogonin",
+  "name": "norwogonin",
+  "class": "flavone",
+  "subclass": "4'-deoxyflavone aglycone",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "8-Hydroxylated chrysin; the precursor of wogonin in S. baicalensis (database-only occurrence).",
+  "synonyms": [
+   "5,7,8-trihydroxyflavone"
+  ],
+  "formula": "C15H10O5",
+  "inchikey": "ZFKKRRMUPBBYRS-UHFFFAOYSA-N",
+  "mw": 270.24,
+  "taxa": [
+   "scutellaria-baicalensis"
+  ],
+  "parts": [
+   "root (pathway product)"
+  ],
+  "bases": [
+   "presence_only"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/norwogonin.svg",
+   "dark": "structures/2d/norwogonin.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "oroxylin-a",
+  "name": "oroxylin A",
+  "class": "flavone",
+  "subclass": "O-methylated 4'-deoxyflavone",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "6-Methoxy isomer of wogonin, found in both skullcaps.",
+  "synonyms": [
+   "5,7-dihydroxy-6-methoxyflavone",
+   "baicalein 6-methyl ether"
+  ],
+  "formula": "C16H12O5",
+  "inchikey": "LKOJGSWUMISDOF-UHFFFAOYSA-N",
+  "mw": 284.27,
+  "taxa": [
+   "scutellaria-lateriflora",
+   "scutellaria-baicalensis"
+  ],
+  "parts": [
+   "aerial parts",
+   "root"
+  ],
+  "bases": [
+   "presence_only",
+   "unstated"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/oroxylin-a.svg",
+   "dark": "structures/2d/oroxylin-a.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "p-cymene",
+  "name": "p-cymene",
+  "class": "monoterpene",
+  "subclass": "aromatic monoterpene hydrocarbon",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Aromatic hydrocarbon beside thymol and carvacrol in thyme and oregano oils.",
+  "synonyms": [
+   "4-isopropyltoluene"
+  ],
+  "formula": "C10H14",
+  "inchikey": "HFPZCAJZSCWRBC-UHFFFAOYSA-N",
+  "mw": 134.22,
+  "taxa": [
+   "thymus-vulgaris",
+   "origanum-vulgare"
+  ],
+  "parts": [
+   "essential oil",
+   "upper non-woody shoots at bloom onset"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/p-cymene.svg",
+   "dark": "structures/2d/p-cymene.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "rosmarinic-acid",
+  "name": "rosmarinic acid",
+  "class": "hydroxycinnamic-acid",
+  "subclass": "caffeic acid ester (depside)",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "The signature water-soluble phenolic of the mint family, shared by every Lamiaceae plant profiled here.",
+  "synonyms": [
+   "RA",
+   "(R)-O-caffeoyl-3-(3,4-dihydroxyphenyl)lactic acid"
+  ],
+  "formula": "C18H16O8",
+  "inchikey": "DOUMFZQKYFQNTF-WUTVXBCWSA-N",
+  "mw": 360.3,
+  "taxa": [
+   "ocimum-basilicum",
+   "mentha-x-piperita",
+   "melissa-officinalis",
+   "salvia-officinalis",
+   "salvia-rosmarinus",
+   "thymus-vulgaris",
+   "origanum-vulgare"
+  ],
+  "parts": [
+   "plant",
+   "leaf dry extract (Ph. Eur.)",
+   "leaf (dried drug)",
+   "leaf",
+   "herb (aerial parts), cv. 'Standard Winter'",
+   "upper non-woody shoots at bloom onset"
+  ],
+  "bases": [
+   "unstated",
+   "per_g_extract",
+   "dry_weight"
+  ],
+  "has_human_evidence": true,
+  "evidence": 1,
+  "safety_flags": 0,
+  "grades": [
+   "B"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/rosmarinic-acid.svg",
+   "dark": "structures/2d/rosmarinic-acid.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "scutellarin",
+  "name": "scutellarin (scutellarein 7-O-glucuronide)",
+  "class": "flavone-glucuronide",
+  "subclass": "flavone 7-O-glucuronide",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Aerial-part flavone glucuronide of American skullcap.",
+  "synonyms": [
+   "scutellarein 7-O-β-D-glucuronide"
+  ],
+  "formula": "C21H18O12",
+  "inchikey": "DJSISFGPUUYILV-ZFORQUDYSA-N",
+  "mw": 462.36,
+  "taxa": [
+   "scutellaria-lateriflora"
+  ],
+  "parts": [
+   "plant"
+  ],
+  "bases": [
+   "presence_only"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/scutellarin.svg",
+   "dark": "structures/2d/scutellarin.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "teucrin-a",
+  "name": "teucrin A",
+  "class": "clerodane-diterpenoid",
+  "subclass": "furan-containing neoclerodane diterpene",
+  "palette_group": "lamiaceae",
+  "auxiliary": true,
+  "one_liner": "NOT a skullcap constituent: the germander (Teucrium) hepatotoxin behind 'skullcap' liver injury cases caused by adulteration.",
+  "synonyms": [
+   "teucrin A (neoclerodane diterpenoid)"
+  ],
+  "formula": "C19H20O6",
+  "inchikey": "AONLJCCUYGGOSW-PJERILTQSA-N",
+  "mw": 344.36,
+  "taxa": [
+   "teucrium-chamaedrys",
+   "scutellaria-lateriflora"
+  ],
+  "parts": [
+   "plant",
+   "aerial parts"
+  ],
+  "bases": [
+   "presence_only"
+  ],
+  "has_human_evidence": false,
+  "evidence": 1,
+  "safety_flags": 1,
+  "grades": [
+   "D"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/teucrin-a.svg",
+   "dark": "structures/2d/teucrin-a.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "thymol",
+  "name": "thymol",
+  "class": "monoterpene",
+  "subclass": "phenolic monoterpene (p-cymene type)",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Thyme's phenolic monoterpene (37-55 % of 'Standard Winter' oil); antimicrobial, irritant at high dose.",
+  "synonyms": [
+   "2-isopropyl-5-methylphenol"
+  ],
+  "formula": "C10H14O",
+  "inchikey": "MGSRCZKZVOBKFT-UHFFFAOYSA-N",
+  "mw": 150.22,
+  "taxa": [
+   "thymus-vulgaris",
+   "origanum-vulgare"
+  ],
+  "parts": [
+   "essential oil of dried herb, cv. 'Standard Winter'",
+   "inflorescences (chemotype 1, carvacrol/thymol type)"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 1,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/thymol.svg",
+   "dark": "structures/2d/thymol.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "umbelliferone",
+  "name": "umbelliferone (7-hydroxycoumarin)",
+  "class": "coumarin",
+  "subclass": "simple 7-oxygenated coumarin",
+  "palette_group": "asteraceae",
+  "auxiliary": false,
+  "one_liner": "7-Hydroxycoumarin beside herniarin in chamomile; the pair carries the 'not the anticoagulant coumarins' point.",
+  "synonyms": [
+   "7-hydroxycoumarin"
+  ],
+  "formula": "C9H6O3",
+  "inchikey": "ORHBXUUXSCNDEV-UHFFFAOYSA-N",
+  "mw": 162.14,
+  "taxa": [
+   "matricaria-chamomilla"
+  ],
+  "parts": [
+   "flower"
+  ],
+  "bases": [
+   "unstated"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/umbelliferone.svg",
+   "dark": "structures/2d/umbelliferone.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "ursolic-acid",
+  "name": "ursolic acid",
+  "class": "triterpene",
+  "subclass": "ursane-type pentacyclic triterpenoid acid",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Waxy pentacyclic triterpene acid in sage, rosemary and lemon balm leaves.",
+  "synonyms": [
+   "(+)-ursolic acid",
+   "3β-hydroxyurs-12-en-28-oic acid"
+  ],
+  "formula": "C30H48O3",
+  "inchikey": "WCGUUGGRBIKTOS-GPOJBZKASA-N",
+  "mw": 456.71,
+  "taxa": [
+   "melissa-officinalis",
+   "salvia-officinalis",
+   "salvia-rosmarinus"
+  ],
+  "parts": [
+   "plant",
+   "leaf"
+  ],
+  "bases": [
+   "presence_only",
+   "dry_weight"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/ursolic-acid.svg",
+   "dark": "structures/2d/ursolic-acid.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "wogonin",
+  "name": "wogonin",
+  "class": "flavone",
+  "subclass": "O-methylated 4'-deoxyflavone",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "8-Methoxy flavone of both skullcaps; a benzodiazepine-site modulator (Ki 0.92 µM) that was anxiolytic in mice without sedation.",
+  "synonyms": [
+   "5,7-dihydroxy-8-methoxyflavone"
+  ],
+  "formula": "C16H12O5",
+  "inchikey": "XLTFNNCXVBYBSX-UHFFFAOYSA-N",
+  "mw": 284.27,
+  "taxa": [
+   "scutellaria-lateriflora",
+   "scutellaria-baicalensis"
+  ],
+  "parts": [
+   "aerial parts",
+   "root"
+  ],
+  "bases": [
+   "presence_only",
+   "unstated"
+  ],
+  "has_human_evidence": false,
+  "evidence": 2,
+  "safety_flags": 0,
+  "grades": [
+   "D",
+   "E"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/wogonin.svg",
+   "dark": "structures/2d/wogonin.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "wogonoside",
+  "name": "wogonoside (wogonin 7-O-glucuronide)",
+  "class": "flavone-glucuronide",
+  "subclass": "O-methylated 4'-deoxyflavone glucuronide",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Glucuronide of wogonin, a major root flavone of Chinese skullcap.",
+  "synonyms": [
+   "oroxindin",
+   "wogonin 7-O-β-D-glucuronide"
+  ],
+  "formula": "C22H20O11",
+  "inchikey": "LNOHXHDWGCMVCO-NTKSAMNMSA-N",
+  "mw": 460.39,
+  "taxa": [
+   "scutellaria-baicalensis"
+  ],
+  "parts": [
+   "root"
+  ],
+  "bases": [
+   "unstated"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/wogonoside.svg",
+   "dark": "structures/2d/wogonoside.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "bisabolol-oxide-a",
+  "name": "α-bisabolol oxide A",
+  "class": "sesquiterpene",
+  "subclass": "sesquiterpene tetrahydropyran oxide",
+  "palette_group": "asteraceae",
+  "auxiliary": false,
+  "one_liner": "Oxidised bisabolol marking the 'oxide' chemotypes of chamomile.",
+  "synonyms": [
+   "α-bisabolol oxide A"
+  ],
+  "formula": "C15H26O2",
+  "inchikey": "WJHRAVIQWFQMKF-IPYPFGDCSA-N",
+  "mw": 238.37,
+  "taxa": [
+   "matricaria-chamomilla"
+  ],
+  "parts": [
+   "essential oil (flower)"
+  ],
+  "bases": [
+   "presence_only"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/bisabolol-oxide-a.svg",
+   "dark": "structures/2d/bisabolol-oxide-a.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "alpha-pinene",
+  "name": "α-pinene",
+  "class": "monoterpene",
+  "subclass": "bicyclic monoterpene hydrocarbon",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Pine-scented hydrocarbon marking the Spanish rosemary chemotype (18-26 % of oil).",
+  "synonyms": [
+   "(±)-α-pinene",
+   "2-pinene"
+  ],
+  "formula": "C10H16",
+  "inchikey": "GRWFGVWFFZKLTI-UHFFFAOYSA-N",
+  "mw": 136.24,
+  "taxa": [
+   "salvia-rosmarinus"
+  ],
+  "parts": [
+   "essential oil"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/alpha-pinene.svg",
+   "dark": "structures/2d/alpha-pinene.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "alpha-thujone",
+  "name": "α-thujone",
+  "class": "monoterpenoid-ketone",
+  "subclass": "thujane ketone",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Sage's convulsant ketone (10-60 % of the oil); a GABA-A antagonist with an EMA intake limit.",
+  "synonyms": [
+   "(-)-α-thujone",
+   "thujone"
+  ],
+  "formula": "C10H16O",
+  "inchikey": "USMNOWBWPHYOEA-MRTMQBJTSA-N",
+  "mw": 152.24,
+  "taxa": [
+   "salvia-officinalis"
+  ],
+  "parts": [
+   "essential oil"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 2,
+  "safety_flags": 1,
+  "grades": [
+   "D",
+   "E"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/alpha-thujone.svg",
+   "dark": "structures/2d/alpha-thujone.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "beta-caryophyllene",
+  "name": "β-caryophyllene",
+  "class": "sesquiterpene",
+  "subclass": "bicyclic sesquiterpene hydrocarbon",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "Spicy sesquiterpene (about 10 % of lemon balm oil) that binds the CB2 cannabinoid receptor.",
+  "synonyms": [
+   "(-)-β-caryophyllene",
+   "(E)-β-caryophyllene",
+   "trans-caryophyllene"
+  ],
+  "formula": "C15H24",
+  "inchikey": "NPNUFJAVOOONJE-GFUGXAQUSA-N",
+  "mw": 204.36,
+  "taxa": [
+   "melissa-officinalis"
+  ],
+  "parts": [
+   "essential oil"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 2,
+  "safety_flags": 0,
+  "grades": [
+   "D",
+   "E"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/beta-caryophyllene.svg",
+   "dark": "structures/2d/beta-caryophyllene.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "beta-thujone",
+  "name": "β-thujone",
+  "class": "monoterpenoid-ketone",
+  "subclass": "thujane ketone",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "The less toxic thujone diastereomer (4-36 % of sage oil); counted with α-thujone in EMA limits.",
+  "synonyms": [
+   "(+)-β-thujone"
+  ],
+  "formula": "C10H16O",
+  "inchikey": "USMNOWBWPHYOEA-XKSSXDPKSA-N",
+  "mw": 152.24,
+  "taxa": [
+   "salvia-officinalis"
+  ],
+  "parts": [
+   "essential oil"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 1,
+  "safety_flags": 1,
+  "grades": [
+   "D"
+  ],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/beta-thujone.svg",
+   "dark": "structures/2d/beta-thujone.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ },
+ {
+  "id": "gamma-terpinene",
+  "name": "γ-terpinene",
+  "class": "monoterpene",
+  "subclass": "cyclic monoterpene hydrocarbon",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "one_liner": "The cyclic monoterpene from which thyme and oregano build thymol and carvacrol.",
+  "synonyms": [
+   "1-isopropyl-4-methylcyclohexa-1,4-diene"
+  ],
+  "formula": "C10H16",
+  "inchikey": "YKFLAYDHMOASIY-UHFFFAOYSA-N",
+  "mw": 136.24,
+  "taxa": [
+   "thymus-vulgaris",
+   "origanum-vulgare"
+  ],
+  "parts": [
+   "essential oil",
+   "inflorescences (chemotype 1)"
+  ],
+  "bases": [
+   "essential_oil_pct"
+  ],
+  "has_human_evidence": false,
+  "evidence": 0,
+  "safety_flags": 0,
+  "grades": [],
+  "has_structure": true,
+  "svg": {
+   "light": "structures/2d/gamma-terpinene.svg",
+   "dark": "structures/2d/gamma-terpinene.dark.svg",
+   "width": 380,
+   "height": 300
+  },
+  "formed_during": null
+ }
+]

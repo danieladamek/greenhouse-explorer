@@ -1,0 +1,78 @@
+[
+ {
+  "id": "1-what-every-plant-shares",
+  "title": "1. What every plant shares",
+  "depth": 2,
+  "number": "1",
+  "words": 128,
+  "figures": [],
+  "synthesis_blocks": 0
+ },
+ {
+  "id": "2-the-cell-wall-and-cellulose",
+  "title": "2. The cell wall and cellulose",
+  "depth": 2,
+  "number": "2",
+  "words": 201,
+  "figures": [],
+  "synthesis_blocks": 1
+ },
+ {
+  "id": "3-photosynthesis-and-chlorophyll",
+  "title": "3. Photosynthesis and chlorophyll",
+  "depth": 2,
+  "number": "3",
+  "words": 190,
+  "figures": [],
+  "synthesis_blocks": 0
+ },
+ {
+  "id": "4-primary-versus-secondary-metabolism",
+  "title": "4. Primary versus secondary metabolism",
+  "depth": 2,
+  "number": "4",
+  "words": 182,
+  "figures": [],
+  "synthesis_blocks": 1
+ },
+ {
+  "id": "5-three-pathways-that-make-the-greenhouse-smell",
+  "title": "5. Three pathways that make the greenhouse smell",
+  "depth": 2,
+  "number": "5",
+  "words": 578,
+  "figures": [
+   "fig-pathways"
+  ],
+  "synthesis_blocks": 0
+ },
+ {
+  "id": "6-why-plants-make-these-molecules",
+  "title": "6. Why plants make these molecules",
+  "depth": 2,
+  "number": "6",
+  "words": 310,
+  "figures": [],
+  "synthesis_blocks": 1
+ },
+ {
+  "id": "7-from-leaf-to-cup",
+  "title": "7. From leaf to cup",
+  "depth": 2,
+  "number": "7",
+  "words": 678,
+  "figures": [
+   "fig-extraction"
+  ],
+  "synthesis_blocks": 1
+ },
+ {
+  "id": "8-how-to-read-the-rest-of-this-site",
+  "title": "8. How to read the rest of this site",
+  "depth": 2,
+  "number": "8",
+  "words": 354,
+  "figures": [],
+  "synthesis_blocks": 0
+ }
+]

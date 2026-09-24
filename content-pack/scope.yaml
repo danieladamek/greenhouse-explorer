@@ -1,0 +1,1855 @@
+# Greenhouse Explorer - scope.yaml (topic mode). Rendered on /methods; it is the record the review and catalogue are accountable to.
+# Interview answers are taken from the requirements record (claude/greenhouse-requirements.md v0.3, §7a and §8, 2026-09-23),
+# where Daniel's rulings are recorded as decisions ("he took the recommendation on all five"); they are quoted from that record,
+# not from a transcript of his own words.
+topic: "every plant in the UAH MARS Research Greenhouse and its constituents, with a literature base across pharmacology, nutrition, health and ecology"
+question: >-
+  What is actually known about the chemical constituents of the plants grown in the UAH MARS Research Greenhouse, and how
+  strong is the human evidence behind what is said about them?
+purpose: teaching
+boundary:
+  in:
+    - "the 45 inventory taxa (91 inventory entries, 9 families), each with an identity page: accepted name, authority, family, POWO / GBIF / NCBI identifiers and identity status"
+    - "curated constituents of the 11 profiled taxa (basil, peppermint, lemon balm, sage, rosemary, thyme, Greek oregano, the skullcap entry with S. lateriflora and S. baicalensis side by side, and German chamomile as guest): 49 compound records including one auxiliary (teucrin A)"
+    - "graded human evidence (A-E, T) on every health statement, each naming its test article"
+    - "safety blocks: drug interactions, pregnancy and lactation, allergy cross-reactivity, constituents of concern with their regulatory thresholds, adverse-event history"
+    - "preparation (infusion, tincture) described as extraction chemistry: solvent, temperature and time as the conditions under which published values were measured"
+    - "a plant primer: cell wall, photosynthesis, primary vs secondary metabolism, the terpenoid / phenylpropanoid / flavonoid pathways, why plants make these molecules, leaf to cup"
+  out:
+    - "dosing to treat a condition, and anything that stands in for medical advice"
+    - "sourcing and practical-use guidance (where to buy, how much to take, how often)"
+    - "the database long tail (every other reported constituent from LOTUS, FooDB, Dr. Duke's, KNApSAcK): imported in P1, displayed in P2; long_tail_display: none"
+    - "kitchen page, culinary processing and recipes (P2)"
+    - "family chapters (P2)"
+    - "double extraction: the prototype is single-pass; double extraction returns in P1"
+    - "cultivar-level chemistry, unless a source names the cultivar (and then it is flagged as a study cultivar, not the greenhouse's plant)"
+    - "the 34 unprofiled taxa beyond identity: they render 'profile in progress'"
+  rationale: >-
+    Daniel's direction (2026-09-23, evening) was that colleagues should critique a working prototype rather than wait for a
+    finished resource, so the prototype carries every surface at small scale: all 45 species at identity level, a deep pair of
+    profiles (sage; skullcap) to test the evidence handling, light profiles for the other Lamiaceae plus chamomile, the primer,
+    and Tea Time. The content line is his ruling of the same day: preparation is in because it is extraction chemistry, and
+    treatment dosing is out because a ratio-and-steep-time instruction for a medicinal plant is a dose in disguise.
+level: "molecule (structure, identifiers) -> plant part and preparation (occurrence, extraction) -> person (graded human evidence, safety)"
+time_window: { current_from: 2021, seminal: "any age if load-bearing" }
+stance: primer-with-controversies
+depth: standard
+anchors:
+  - { citation: "EMA/HMPC assessment reports and EU herbal monographs for sage, peppermint, lemon balm, thyme, rosemary and chamomile, and the HMPC public statements on thujone, pulegone/menthofuran, estragole and methyleugenol", refs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], why: "Anchor set chosen by the builder under Daniel's safety-layer ruling (§5.4 names EMA HMPC as a primary safety source): EMA HMPC has assessment reports or monographs for six of the profiled herbs and public statements on all four constituents of concern named in the requirements" }
+  - { citation: "LiverTox. Skullcap. NIDDK, NCBI Bookshelf NBK548757.", url: "https://www.ncbi.nlm.nih.gov/books/NBK548757/", why: "Named in the requirements (§5.4: 'skullcap: adulteration and LiverTox') as the adverse-event source for the skullcap showcase", refs: [13] }
+excluded:
+  - { what: "dosing to treat a condition; medical advice", why: "Daniel's content-line ruling, 2026-09-23 (§5.4). Monograph posology may be quoted only as the monograph's statement under grade T; this prototype quotes none." }
+  - { what: "the long-tail database import", why: "Ruling 5, 2026-09-23: import in P1, display in P2; the prototype has neither." }
+  - { what: "kitchen, recipes, family chapters", why: "§7a: deliberately left out of the prototype." }
+  - { what: "Phenol-Explorer retention factors and polyphenol tables", why: "Not excluded by choice: phenol-explorer.eu could not be read (TLS certificate mismatch). Listed under known_gaps." }
+  - { what: "multi-herb formula data as evidence for a single plant", why: "Builder rule under the test-article ruling: formula evidence (e.g. Sho-saiko-to for S. baicalensis, thyme + ivy syrup) is graded for the formula and never transferred to the plant." }
+assumed: false
+interview:
+  - { q: "What gets built first?", answer: "Prototype first: colleagues should be critiquing a working prototype; perfecting is not the goal now (§7a). Built as mode: topic with the compound-catalogue extension; the catalogue mode comes after the critique round.", asked: "2026-09-23" }
+  - { q: "What are colleagues critiquing?", answer: "All three, per Daniel: the concept and page structure; the science and evidence handling (hence two deep profiles); and fit for the greenhouse's own use (hence the inventory page and Tea Time being real) (§7a).", asked: "2026-09-23" }
+  - { q: "Which plants are profiled?", answer: "The Lamiaceae pilot cut to 6-8 profiles for the prototype - O. basilicum, M. x piperita, M. officinalis, S. officinalis (deep), S. rosmarinus, T. vulgaris, O. vulgare, and skullcap (deep, two candidates side by side) - plus German chamomile; the rest render 'profile in progress' from taxa data (§7a).", asked: "2026-09-23" }
+  - { q: "German chamomile as a pilot guest?", answer: "Yes (ruling 4). It brings the Asteraceae cross-reactivity story and the matricin -> chamazulene distillation story; its family chapter waits for P2.", asked: "2026-09-23" }
+  - { q: "Delivery - local or GitHub Pages?", answer: "pages, public under danieladamek/greenhouse-explorer, because colleagues need a URL; the banner on every page (prototype for critique, not peer reviewed, not an official UAH resource) does the protective work the earlier local-first ruling was for (§7a).", asked: "2026-09-23" }
+  - { q: "mode: catalogue as a new mode, or a surface for every mode?", answer: "Both, split (ruling 1): a new fourth mode, catalogue, for this app later; the compound record becomes a shared optional pack file. The prototype runs under mode: topic with the extension.", asked: "2026-09-23" }
+  - { q: "Preparation ratios in, treatment dosing out?", answer: "Yes, with refinements (ruling 2): parameters presented as extraction chemistry; monograph posology quoted only as grade T and attributed; regulatory thresholds in as safety; no therapeutic dosing.", asked: "2026-09-23" }
+  - { q: "Are the grades and curation criteria right?", answer: "Accepted with amendments (ruling 3): the test article is recorded on every graded statement; observational meta-analyses are C; safety-signal constituents are curated mandatorily; 5-12 compounds per species, effort budgeted by unique records.", asked: "2026-09-23" }
+  - { q: "Long tail in P1 or P2?", answer: "Import in P1, display in P2 (ruling 5); the prototype shows none.", asked: "2026-09-23" }
+
+search_strategy:
+  run_on: '2026-09-23'
+  sources:
+  - PubChem PUG-View
+  - GBIF API
+  - POWO API
+  - NCBI taxonomy (via GBIF mirror)
+  - Dr. Duke's
+  - KNApSAcK
+  - LOTUS search API
+  - EMA HMPC
+  - LiverTox
+  - NCCIH
+  - OpenAlex
+  - Semantic Scholar
+  - Crossref
+  - publisher pages
+  - web search
+  queries_note: 'Reconstructed on 2026-09-23 from the URL lists actually fetched (taxa-ids.yaml sources, compound-verification.yaml source/database URLs,
+    and the doi/url of every reference). One entry per distinct query or endpoint. hits is null wherever the result count was not recorded, which is every
+    entry: the prototype sweep did not log counts, and none has been invented. Discovery searches in OpenAlex, Semantic Scholar, Crossref and web search
+    were not logged query by query; each has a single placeholder entry saying so. Failed endpoints are listed with kept: 0. The CIR, NIST WebBook, WHO
+    IRIS and ESCOP pages are counted under publisher pages.'
+  queries:
+  - q: https://api.gbif.org/v1/species/match?name=Eruca%20vesicaria
+    source: GBIF API
+    hits: null
+    note: Name match for 'Eruca vesicaria'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Brassica%20rapa
+    source: GBIF API
+    hits: null
+    note: Name match for 'Brassica rapa'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Coriandrum%20sativum
+    source: GBIF API
+    hits: null
+    note: Name match for 'Coriandrum sativum'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Beta%20vulgaris
+    source: GBIF API
+    hits: null
+    note: Name match for 'Beta vulgaris'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Brassica%20oleracea
+    source: GBIF API
+    hits: null
+    note: Name match for 'Brassica oleracea'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Foeniculum%20vulgare
+    source: GBIF API
+    hits: null
+    note: Name match for 'Foeniculum vulgare'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Allium%20ampeloprasum
+    source: GBIF API
+    hits: null
+    note: Name match for 'Allium ampeloprasum'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Spinacia%20oleracea
+    source: GBIF API
+    hits: null
+    note: Name match for 'Spinacia oleracea'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Lactuca%20sativa
+    source: GBIF API
+    hits: null
+    note: Name match for 'Lactuca sativa'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Phaseolus%20vulgaris
+    source: GBIF API
+    hits: null
+    note: Name match for 'Phaseolus vulgaris'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Apium%20graveolens
+    source: GBIF API
+    hits: null
+    note: Name match for 'Apium graveolens'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Cucumis%20sativus
+    source: GBIF API
+    hits: null
+    note: Name match for 'Cucumis sativus'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Solanum%20melongena
+    source: GBIF API
+    hits: null
+    note: Name match for 'Solanum melongena'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Brassica%20napus
+    source: GBIF API
+    hits: null
+    note: Name match for 'Brassica napus'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Allium%20fistulosum
+    source: GBIF API
+    hits: null
+    note: Name match for 'Allium fistulosum'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Pisum%20sativum
+    source: GBIF API
+    hits: null
+    note: Name match for 'Pisum sativum'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Capsicum%20annuum
+    source: GBIF API
+    hits: null
+    note: Name match for 'Capsicum annuum'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Raphanus%20sativus
+    source: GBIF API
+    hits: null
+    note: Name match for 'Raphanus sativus'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Raphanus%20raphanistrum%20subsp.%20sativus
+    source: GBIF API
+    hits: null
+    note: Name match for 'Raphanus raphanistrum subsp. sativus'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Allium%20cepa
+    source: GBIF API
+    hits: null
+    note: Name match for 'Allium cepa'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Solanum%20lycopersicum
+    source: GBIF API
+    hits: null
+    note: Name match for 'Solanum lycopersicum'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Ocimum%20basilicum
+    source: GBIF API
+    hits: null
+    note: Name match for 'Ocimum basilicum'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Ocimum%20africanum
+    source: GBIF API
+    hits: null
+    note: Name match for 'Ocimum africanum'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Anthriscus%20cerefolium
+    source: GBIF API
+    hits: null
+    note: Name match for 'Anthriscus cerefolium'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Allium%20schoenoprasum
+    source: GBIF API
+    hits: null
+    note: Name match for 'Allium schoenoprasum'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Allium%20tuberosum
+    source: GBIF API
+    hits: null
+    note: Name match for 'Allium tuberosum'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Anethum%20graveolens
+    source: GBIF API
+    hits: null
+    note: Name match for 'Anethum graveolens'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Melissa%20officinalis
+    source: GBIF API
+    hits: null
+    note: Name match for 'Melissa officinalis'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Origanum%20majorana
+    source: GBIF API
+    hits: null
+    note: Name match for 'Origanum majorana'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Mentha%20spicata
+    source: GBIF API
+    hits: null
+    note: Name match for 'Mentha spicata'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Brassica%20carinata
+    source: GBIF API
+    hits: null
+    note: Name match for 'Brassica carinata'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Mutarda%20carinata
+    source: GBIF API
+    hits: null
+    note: Name match for 'Mutarda carinata'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Origanum%20vulgare
+    source: GBIF API
+    hits: null
+    note: Name match for 'Origanum vulgare'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Petroselinum%20crispum
+    source: GBIF API
+    hits: null
+    note: Name match for 'Petroselinum crispum'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Salvia%20rosmarinus
+    source: GBIF API
+    hits: null
+    note: Name match for 'Salvia rosmarinus'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Rosmarinus%20officinalis
+    source: GBIF API
+    hits: null
+    note: Name match for 'Rosmarinus officinalis'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Salvia%20officinalis
+    source: GBIF API
+    hits: null
+    note: Name match for 'Salvia officinalis'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Thymus%20vulgaris
+    source: GBIF API
+    hits: null
+    note: Name match for 'Thymus vulgaris'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Nasturtium%20officinale
+    source: GBIF API
+    hits: null
+    note: Name match for 'Nasturtium officinale'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Ocimum%20tenuiflorum
+    source: GBIF API
+    hits: null
+    note: Name match for 'Ocimum tenuiflorum'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Ocimum%20sanctum
+    source: GBIF API
+    hits: null
+    note: Name match for 'Ocimum sanctum'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Calendula%20officinalis
+    source: GBIF API
+    hits: null
+    note: Name match for 'Calendula officinalis'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Matricaria%20chamomilla
+    source: GBIF API
+    hits: null
+    note: Name match for 'Matricaria chamomilla'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Matricaria%20recutita
+    source: GBIF API
+    hits: null
+    note: Name match for 'Matricaria recutita'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Taraxacum%20officinale
+    source: GBIF API
+    hits: null
+    note: Name match for 'Taraxacum officinale'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Echinacea%20purpurea
+    source: GBIF API
+    hits: null
+    note: Name match for 'Echinacea purpurea'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Tanacetum%20parthenium
+    source: GBIF API
+    hits: null
+    note: Name match for 'Tanacetum parthenium'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Leonurus%20cardiaca
+    source: GBIF API
+    hits: null
+    note: Name match for 'Leonurus cardiaca'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Mentha%20%C3%97%20piperita
+    source: GBIF API
+    hits: null
+    note: Name match for 'Mentha × piperita'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Scutellaria%20lateriflora
+    source: GBIF API
+    hits: null
+    note: Name match for 'Scutellaria lateriflora'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Scutellaria%20baicalensis
+    source: GBIF API
+    hits: null
+    note: Name match for 'Scutellaria baicalensis'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/match?name=Achillea%20millefolium
+    source: GBIF API
+    hits: null
+    note: Name match for 'Achillea millefolium'; one best-match record returned by design, count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Eruca%20vesicaria
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Eruca vesicaria'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Brassica%20rapa
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Brassica rapa'; used because NCBI pages and E-utilities were unreachable. Result count
+      not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Coriandrum%20sativum
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Coriandrum sativum'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Beta%20vulgaris
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Beta vulgaris'; used because NCBI pages and E-utilities were unreachable. Result count
+      not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Brassica%20oleracea
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Brassica oleracea'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Foeniculum
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Foeniculum'; used because NCBI pages and E-utilities were unreachable. Result count
+      not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Allium%20ampeloprasum
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Allium ampeloprasum'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Spinacia%20oleracea
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Spinacia oleracea'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Lactuca%20sativa
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Lactuca sativa'; used because NCBI pages and E-utilities were unreachable. Result count
+      not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Phaseolus%20vulgaris
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Phaseolus vulgaris'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Apium%20graveolens
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Apium graveolens'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Cucumis%20sativus
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Cucumis sativus'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Solanum%20melongena
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Solanum melongena'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Brassica%20napus
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Brassica napus'; used because NCBI pages and E-utilities were unreachable. Result count
+      not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Allium%20fistulosum
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Allium fistulosum'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Pisum%20sativum
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Pisum sativum'; used because NCBI pages and E-utilities were unreachable. Result count
+      not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Capsicum%20annuum
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Capsicum annuum'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Raphanus%20sativus
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Raphanus sativus'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Allium%20cepa
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Allium cepa'; used because NCBI pages and E-utilities were unreachable. Result count
+      not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Solanum%20lycopersicum
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Solanum lycopersicum'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Ocimum%20basilicum
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Ocimum basilicum'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Ocimum
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Ocimum'; used because NCBI pages and E-utilities were unreachable. Result count not
+      logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Anthriscus%20cerefolium
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Anthriscus cerefolium'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Allium%20schoenoprasum
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Allium schoenoprasum'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Allium%20tuberosum
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Allium tuberosum'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Anethum%20graveolens
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Anethum graveolens'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Melissa%20officinalis
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Melissa officinalis'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Origanum
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Origanum'; used because NCBI pages and E-utilities were unreachable. Result count not
+      logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Mentha
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Mentha'; used because NCBI pages and E-utilities were unreachable. Result count not
+      logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Brassica%20carinata
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Brassica carinata'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Petroselinum%20crispum
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Petroselinum crispum'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=rosmarinus
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'rosmarinus'; used because NCBI pages and E-utilities were unreachable. Result count
+      not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Salvia%20officinalis
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Salvia officinalis'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Thymus%20vulgaris
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Thymus vulgaris'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Nasturtium%20officinale
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Nasturtium officinale'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Calendula%20officinalis
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Calendula officinalis'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Matricaria
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Matricaria'; used because NCBI pages and E-utilities were unreachable. Result count
+      not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Taraxacum%20officinale
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Taraxacum officinale'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Echinacea%20purpurea
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Echinacea purpurea'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Tanacetum%20parthenium
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Tanacetum parthenium'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Leonurus%20cardiaca
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Leonurus cardiaca'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Scutellaria%20lateriflora
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Scutellaria lateriflora'; used because NCBI pages and E-utilities were unreachable.
+      Result count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Scutellaria%20baicalensis
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Scutellaria baicalensis'; used because NCBI pages and E-utilities were unreachable.
+      Result count not logged.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/search?datasetKey=fab88965-e69d-4491-a04d-e3198b626e52&q=Achillea%20millefolium
+    source: NCBI taxonomy (via GBIF mirror)
+    hits: null
+    note: NCBI Taxonomy checklist as mirrored in GBIF, searched for 'Achillea millefolium'; used because NCBI pages and E-utilities were unreachable. Result
+      count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Eruca%20vesicaria
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Eruca vesicaria'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Brassica%20rapa
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Brassica rapa'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Coriandrum%20sativum
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Coriandrum sativum'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Beta%20vulgaris
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Beta vulgaris'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Brassica%20oleracea
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Brassica oleracea'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Foeniculum%20vulgare
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Foeniculum vulgare'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Allium%20ampeloprasum
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Allium ampeloprasum'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Spinacia%20oleracea
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Spinacia oleracea'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Lactuca%20sativa
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Lactuca sativa'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Phaseolus%20vulgaris
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Phaseolus vulgaris'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Apium%20graveolens
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Apium graveolens'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Cucumis%20sativus
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Cucumis sativus'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Solanum%20melongena
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Solanum melongena'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Brassica%20napus
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Brassica napus'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Allium%20fistulosum
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Allium fistulosum'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Pisum%20sativum
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Pisum sativum'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Capsicum%20annuum
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Capsicum annuum'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Raphanus%20sativus
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Raphanus sativus'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Allium%20cepa
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Allium cepa'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Solanum%20lycopersicum
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Solanum lycopersicum'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Ocimum%20basilicum
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Ocimum basilicum'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Ocimum%20africanum
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Ocimum africanum'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Anthriscus%20cerefolium
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Anthriscus cerefolium'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Allium%20schoenoprasum
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Allium schoenoprasum'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Allium%20tuberosum
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Allium tuberosum'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Anethum%20graveolens
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Anethum graveolens'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Melissa%20officinalis
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Melissa officinalis'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Origanum%20majorana
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Origanum majorana'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Mentha%20spicata
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Mentha spicata'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Brassica%20carinata
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Brassica carinata'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Origanum%20vulgare
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Origanum vulgare'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Origanum%20vulgare%20subsp.%20hirtum
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Origanum vulgare subsp. hirtum'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Petroselinum%20crispum
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Petroselinum crispum'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Salvia%20rosmarinus
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Salvia rosmarinus'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Rosmarinus%20officinalis
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Rosmarinus officinalis'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Salvia%20officinalis
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Salvia officinalis'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Thymus%20vulgaris
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Thymus vulgaris'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Nasturtium%20officinale
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Nasturtium officinale'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Ocimum%20tenuiflorum
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Ocimum tenuiflorum'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Ocimum%20sanctum
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Ocimum sanctum'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Calendula%20officinalis
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Calendula officinalis'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Matricaria%20chamomilla
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Matricaria chamomilla'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Matricaria%20recutita
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Matricaria recutita'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Taraxacum%20officinale
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Taraxacum officinale'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Echinacea%20purpurea
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Echinacea purpurea'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Tanacetum%20parthenium
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Tanacetum parthenium'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Leonurus%20cardiaca
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Leonurus cardiaca'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Mentha%20piperita
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Mentha piperita'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Scutellaria%20lateriflora
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Scutellaria lateriflora'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Scutellaria%20baicalensis
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Scutellaria baicalensis'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/api/2/search?q=Achillea%20millefolium
+    source: POWO API
+    hits: null
+    note: POWO name search for 'Achillea millefolium'. Result count not logged.
+    lane: taxa
+  - q: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1137625-2
+    source: POWO API
+    hits: null
+    note: Direct record read to settle a taxonomy note; a record lookup, not a search.
+    lane: taxa
+  - q: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:279485-1
+    source: POWO API
+    hits: null
+    note: Direct record read to settle a taxonomy note; a record lookup, not a search.
+    lane: taxa
+  - q: https://api.gbif.org/v1/species/5347846
+    source: GBIF API
+    hits: null
+    note: Direct record read to settle a taxonomy note; a record lookup, not a search.
+    lane: taxa
+  - q: https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77159305-1
+    source: POWO API
+    hits: null
+    note: Direct record read to settle a taxonomy note; a record lookup, not a search.
+    lane: taxa
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6549/JSON
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 6549 (linalool): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/8815/JSON
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 8815 (estragole): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/3314/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 3314 (eugenol): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/7127/JSON
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 7127 (methyleugenol): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/637520/JSON
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 637520 (methyl-cinnamate): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/8843/JSON
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 8843 (citral): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281792/JSON
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 5281792 (rosmarinic-acid): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/16666/JSON
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 16666 (menthol): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/26447/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 26447 (menthone): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/329983/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 329983 (menthofuran): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/442495/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 442495 (pulegone): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2758/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 2758 (1-8-cineole): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/83489/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 83489 (eriocitrin): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/7794/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 7794 (citronellal): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281515/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 5281515 (beta-caryophyllene): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/689043/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 689043 (caffeic-acid): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/64945/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 64945 (ursolic-acid): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/261491/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 261491 (alpha-thujone): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/91456/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 91456 (beta-thujone): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2537/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 2537 (camphor): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/64685/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 64685 (borneol): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/65126/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 65126 (carnosic-acid): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/442009/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 442009 (carnosol): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280445/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 5280445 (luteolin): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280637/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 5280637 (luteolin-7-glucoside): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280443/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 5280443 (apigenin): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6654/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 6654 (alpha-pinene): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6989/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 6989 (thymol): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/10364/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 10364 (carvacrol): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/7463/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 7463 (p-cymene): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/7461/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 7461 (gamma-terpinene): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/64982/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 64982 (baicalin): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281605/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 5281605 (baicalein): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281703/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 5281703 (wogonin): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/3084961/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 3084961 (wogonoside): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/185617/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 185617 (scutellarin): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/14135325/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 14135325 (dihydrobaicalin): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5320315/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 5320315 (oroxylin-a): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281607/JSON
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 5281607 (chrysin): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281674/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 5281674 (norwogonin): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/159529/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 159529 (teucrin-a): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280704/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 5280704 (apigenin-7-glucoside): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/442343/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 442343 (alpha-bisabolol): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/13092559/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 13092559 (bisabolol-oxide-a): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/10719/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 10719 (chamazulene): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/92265/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 92265 (matricin): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/10748/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 10748 (herniarin): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281426/JSON?heading=Names+and+Identifiers
+    source: PubChem PUG-View
+    hits: null
+    note: 'Identity record for CID 5281426 (umbelliferone): name, formula, SMILES, InChIKey, CAS, ChEBI cross-reference. A record lookup, not a search.'
+    lane: compounds
+  - q: https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv
+    source: Dr. Duke's
+    hits: null
+    note: 'CSV export of all chemicals listed for one plant (used for: ocimum-basilicum); row count not logged.'
+    lane: compounds
+  - q: https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv
+    source: Dr. Duke's
+    hits: null
+    note: 'CSV export of all chemicals listed for one plant (used for: thymus-vulgaris); row count not logged.'
+    lane: compounds
+  - q: https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5947?page&_format=csv
+    source: Dr. Duke's
+    hits: null
+    note: 'CSV export of all chemicals listed for one plant (used for: melissa-officinalis); row count not logged.'
+    lane: compounds
+  - q: https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv
+    source: Dr. Duke's
+    hits: null
+    note: 'CSV export of all chemicals listed for one plant (used for: mentha-x-piperita); row count not logged.'
+    lane: compounds
+  - q: https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv
+    source: Dr. Duke's
+    hits: null
+    note: 'CSV export of all chemicals listed for one plant (used for: salvia-officinalis); row count not logged.'
+    lane: compounds
+  - q: https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6384?page&_format=csv
+    source: Dr. Duke's
+    hits: null
+    note: 'CSV export of all chemicals listed for one plant (used for: salvia-rosmarinus); row count not logged.'
+    lane: compounds
+  - q: https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv
+    source: Dr. Duke's
+    hits: null
+    note: 'CSV export of all chemicals listed for one plant (used for: matricaria-chamomilla); row count not logged.'
+    lane: compounds
+  - q: https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6068?page&_format=csv
+    source: Dr. Duke's
+    hits: null
+    note: 'CSV export of all chemicals listed for one plant (used for: origanum-vulgare); row count not logged.'
+    lane: compounds
+  - q: https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv
+    source: Dr. Duke's
+    hits: null
+    note: 'CSV export of all chemicals listed for one plant (used for: scutellaria-baicalensis); row count not logged.'
+    lane: compounds
+  - q: https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6468?page&_format=csv
+    source: Dr. Duke's
+    hits: null
+    note: 'CSV export of all chemicals listed for one plant (used for: scutellaria-lateriflora); row count not logged.'
+    lane: compounds
+  - q: https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6644?page&_format=csv
+    source: Dr. Duke's
+    hits: null
+    note: 'CSV export of all chemicals listed for one plant (used for: teucrium-chamaedrys); row count not logged.'
+    lane: compounds
+  - q: http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Mentha%20piperita
+    source: KNApSAcK
+    hits: null
+    note: Organism search for 'Mentha piperita'; result count not logged.
+    lane: compounds
+  - q: http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Origanum%20vulgare
+    source: KNApSAcK
+    hits: null
+    note: Organism search for 'Origanum vulgare'; result count not logged.
+    lane: compounds
+  - q: http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Scutellaria%20lateriflora
+    source: KNApSAcK
+    hits: null
+    note: Organism search for 'Scutellaria lateriflora'; result count not logged.
+    lane: compounds
+  - q: http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Scutellaria%20baicalensis
+    source: KNApSAcK
+    hits: null
+    note: Organism search for 'Scutellaria baicalensis'; result count not logged.
+    lane: compounds
+  - q: https://lotus.naturalproducts.net/api/search/simple?query=<compound> (other compounds, e.g. rosmarinic acid, ursolic acid, wogonoside)
+    source: LOTUS search API
+    hits: null
+    note: Further LOTUS lookups are mentioned in the verification notes (rosmarinic acid LTS0124509/LTS0092757, ursolic acid LTS0250838, no hit for wogonoside)
+      but their exact query strings were not recorded; several responses were truncated.
+    lane: compounds
+  - q: https://lotus.naturalproducts.net/api/search/simple?query=wogonin
+    source: LOTUS search API
+    hits: null
+    note: Simple search for 'wogonin'; result count not logged.
+    lane: compounds
+  - q: https://lotus.naturalproducts.net/api/search/simple?query=oroxylin%20A
+    source: LOTUS search API
+    hits: null
+    note: Simple search for 'oroxylin A'; result count not logged.
+    lane: compounds
+  - q: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf
+    source: EMA HMPC
+    hits: null
+    note: Document read (reference 9).
+    lane: monographs & safety
+  - q: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf
+    source: EMA HMPC
+    hits: null
+    note: Document read (reference 8).
+    lane: monographs & safety
+  - q: https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf
+    source: EMA HMPC
+    hits: null
+    note: Document read (reference 6).
+    lane: monographs & safety
+  - q: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf
+    source: EMA HMPC
+    hits: null
+    note: Document read (reference 1).
+    lane: monographs & safety
+  - q: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf
+    source: EMA HMPC
+    hits: null
+    note: Document read (reference 12).
+    lane: monographs & safety
+  - q: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0
+    source: EMA HMPC
+    hits: null
+    note: Document read (reference 10).
+    lane: monographs & safety
+  - q: https://www.ema.europa.eu/en/documents/herbal-monograph/european-union-herbal-monograph-mentha-x-piperita-l-aetheroleum-revision-1_en.pdf
+    source: EMA HMPC
+    hits: null
+    note: Document read (reference 7).
+    lane: monographs & safety
+  - q: https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-matricaria-recutita-l-flos-first-version_en.pdf
+    source: EMA HMPC
+    hits: null
+    note: Document read (reference 11).
+    lane: monographs & safety
+  - q: https://www.ema.europa.eu/en/documents/scientific-guideline/public-statement-use-herbal-medicinal-products-containing-thujone-revision-1_en.pdf
+    source: EMA HMPC
+    hits: null
+    note: Document read (reference 2).
+    lane: monographs & safety
+  - q: https://www.ema.europa.eu/en/documents/scientific-guideline/public-statement-use-herbal-medicinal-products-containing-pulegone-and-menthofuran-revision-1_en.pdf
+    source: EMA HMPC
+    hits: null
+    note: Document read (reference 3).
+    lane: monographs & safety
+  - q: https://www.ema.europa.eu/en/documents/other/public-statement-use-herbal-medicinal-products-containing-estragole-revision-1_en.pdf
+    source: EMA HMPC
+    hits: null
+    note: Document read (reference 4).
+    lane: monographs & safety
+  - q: https://www.ema.europa.eu/en/documents/scientific-guideline/public-statement-use-herbal-medicinal-products-containing-methyleugenol_en.pdf
+    source: EMA HMPC
+    hits: null
+    note: Document read (reference 5).
+    lane: monographs & safety
+  - q: https://www.ncbi.nlm.nih.gov/books/NBK548757/
+    source: LiverTox
+    hits: null
+    note: Page read (reference 13).
+    lane: monographs & safety
+  - q: https://www.ncbi.nlm.nih.gov/books/NBK548777/
+    source: LiverTox
+    hits: null
+    note: Page read (reference 14).
+    lane: monographs & safety
+  - q: https://www.ncbi.nlm.nih.gov/books/NBK242285/
+    source: NCBI Bookshelf
+    hits: null
+    note: Page read (reference 53).
+    lane: monographs & safety
+  - q: https://www.nccih.nih.gov/health/chamomile
+    source: NCCIH
+    hits: null
+    note: Page read (reference 15).
+    lane: monographs & safety
+  - q: https://www.cir-safety.org/sites/default/files/scutel092020FR_0.pdf
+    source: publisher pages
+    hits: null
+    note: Page read (reference 16).
+    lane: literature
+  - q: https://webbook.nist.gov/cgi/cbook.cgi?ID=R203171
+    source: publisher pages
+    hits: null
+    note: Page read (cited from a catalogue record, not in references.yaml).
+    lane: literature
+  - q: https://doi.org/10.3390/molecules22071221
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 18).
+    lane: literature
+  - q: https://doi.org/10.3390/antiox9050369
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 19).
+    lane: literature
+  - q: https://doi.org/10.3390/agronomy10060909
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 20).
+    lane: literature
+  - q: https://doi.org/10.3390/molecules26040988
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 21).
+    lane: literature
+  - q: https://doi.org/10.1016/j.jtcme.2016.12.014
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 23).
+    lane: literature
+  - q: https://doi.org/10.3390/molecules14082735
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 22).
+    lane: literature
+  - q: https://doi.org/10.1038/s41598-022-17586-1
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 24).
+    lane: literature
+  - q: https://doi.org/10.1002/pca.1127
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 25).
+    lane: literature
+  - q: https://doi.org/10.1093/jaoac/86.3.453
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 26).
+    lane: literature
+  - q: https://doi.org/10.1126/sciadv.1501780
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 28).
+    lane: literature
+  - q: https://doi.org/10.3389/fpls.2022.866282
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 29).
+    lane: literature
+  - q: https://doi.org/10.1021/tx00042a020
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 30).
+    lane: literature
+  - q: https://iris.who.int/handle/10665/42052
+    source: publisher pages
+    hits: null
+    note: Page read (reference 17).
+    lane: literature
+  - q: https://www.escop.com/downloads/matricariae-flos-matricaria-flower/
+    source: publisher pages
+    hits: null
+    note: Page read (cited from a catalogue record, not in references.yaml).
+    lane: literature
+  - q: https://doi.org/10.1007/s11418-008-0230-7
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 27).
+    lane: literature
+  - q: https://doi.org/10.7326/0003-4819-117-2-129
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 31).
+    lane: literature
+  - q: https://doi.org/10.7326/0003-4819-156-12-201206190-00006
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 32).
+    lane: literature
+  - q: https://doi.org/10.1038/sj.clpt.6100318
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 33).
+    lane: literature
+  - q: https://doi.org/10.1016/j.jep.2014.08.031
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 34).
+    lane: literature
+  - q: https://doi.org/10.1016/S0006-2952(02)01347-3
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 35).
+    lane: literature
+  - q: https://doi.org/10.1055/s-2006-958058
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 36).
+    lane: literature
+  - q: https://doi.org/10.1023/A:1027303609517
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 37).
+    lane: literature
+  - q: https://doi.org/10.1038/nature719
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 38).
+    lane: literature
+  - q: https://doi.org/10.1073/pnas.070042397
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 39).
+    lane: literature
+  - q: https://doi.org/10.1073/pnas.0803601105
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 40).
+    lane: literature
+  - q: https://doi.org/10.1053/rmed.2003.1432
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 41).
+    lane: literature
+  - q: https://doi.org/10.1073/pnas.2110092118
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 42).
+    lane: literature
+  - q: https://doi.org/10.1016/j.phytochem.2014.12.026
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 43).
+    lane: literature
+  - q: https://doi.org/10.3389/fphar.2021.681477
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 44).
+    lane: literature
+  - q: https://doi.org/10.1007/s00394-004-0482-2
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 45).
+    lane: literature
+  - q: https://doi.org/10.1177/153537020422900305
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 46).
+    lane: literature
+  - q: https://doi.org/10.1211/0022357001777621
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 47).
+    lane: literature
+  - q: https://doi.org/10.1503/cmaj.051191
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 48).
+    lane: literature
+  - q: https://doi.org/10.1007/s12325-011-0027-z
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 49).
+    lane: literature
+  - q: https://doi.org/10.1016/j.heliyon.2021.e05910
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 50).
+    lane: literature
+  - q: https://doi.org/10.1046/j.1365-2710.2003.00463.x
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 51).
+    lane: literature
+  - q: https://doi.org/10.1038/sj.npp.1300907
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 52).
+    lane: literature
+  - q: https://doi.org/10.1186/s12906-018-2409-0
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 54).
+    lane: literature
+  - q: https://doi.org/10.1016/S0944-7113(99)80013-0
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 55).
+    lane: literature
+  - q: https://doi.org/10.1055/s-0031-1296767
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 56).
+    lane: literature
+  - q: https://doi.org/10.1097/JCP.0b013e3181ac935c
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 57).
+    lane: literature
+  - q: https://doi.org/10.1016/j.phymed.2016.10.012
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 58).
+    lane: literature
+  - q: https://doi.org/10.1186/1472-6882-11-78
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 59).
+    lane: literature
+  - q: https://doi.org/10.1002/ptr.5044
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 60).
+    lane: literature
+  - q: https://doi.org/10.1146/annurev.cellbio.22.022206.160206
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 101).
+    lane: literature
+  - q: https://doi.org/10.1038/nrm1746
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 102).
+    lane: literature
+  - q: https://doi.org/10.1038/nature11744
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 103).
+    lane: literature
+  - q: https://doi.org/10.1146/annurev-biochem-060614-033930
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 104).
+    lane: literature
+  - q: https://doi.org/10.1038/nrm1525
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 105).
+    lane: literature
+  - q: https://doi.org/10.1146/annurev.arplant.53.100301.135233
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 106).
+    lane: literature
+  - q: https://doi.org/10.1146/annurev.arplant.57.032905.105448
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 107).
+    lane: literature
+  - q: https://doi.org/10.1016/j.phytochem.2007.09.017
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 108).
+    lane: literature
+  - q: https://garfield.library.upenn.edu/classics1984/A1984SE93900001.pdf
+    source: publisher pages
+    hits: null
+    note: Page read (reference 109).
+    lane: literature
+  - q: https://doi.org/10.1126/science.129.3361.1466
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 109).
+    lane: literature
+  - q: https://doi.org/10.1146/annurev.arplant.50.1.47
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 110).
+    lane: literature
+  - q: https://doi.org/10.1146/annurev-arplant-050312-120116
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 111).
+    lane: literature
+  - q: https://doi.org/10.1016/j.pbi.2006.03.014
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 112).
+    lane: literature
+  - q: https://doi.org/10.1007/s00114-005-0055-0
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 113).
+    lane: literature
+  - q: https://doi.org/10.1074/jbc.273.24.14891
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 114).
+    lane: literature
+  - q: https://doi.org/10.1093/pcp/pcr146
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 115).
+    lane: literature
+  - q: https://doi.org/10.1146/annurev-arplant-042811-105439
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 116).
+    lane: literature
+  - q: https://doi.org/10.1093/mp/ssp106
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 117).
+    lane: literature
+  - q: https://doi.org/10.1016/S0031-9422(02)00513-7
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 118).
+    lane: literature
+  - q: https://doi.org/10.1073/pnas.0603732103
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 119).
+    lane: literature
+  - q: https://doi.org/10.1105/tpc.010327
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 120).
+    lane: literature
+  - q: https://doi.org/10.1104/pp.104.051318
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 121).
+    lane: literature
+  - q: https://doi.org/10.1104/pp.126.2.485
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 122).
+    lane: literature
+  - q: https://doi.org/10.1038/11553
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 123).
+    lane: literature
+  - q: https://doi.org/10.1105/tpc.5.2.171
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 124).
+    lane: literature
+  - q: https://doi.org/10.1104/pp.104.049981
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 125).
+    lane: literature
+  - q: https://doi.org/10.3390/ijms131217077
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 126).
+    lane: literature
+  - q: https://doi.org/10.1186/1752-153X-5-44
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 127).
+    lane: literature
+  - q: https://doi.org/10.1021/jf072284d
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 128).
+    lane: literature
+  - q: https://doi.org/10.37527/2012.62.4.011
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 129).
+    lane: literature
+  - q: https://doi.org/10.3390/beverages12030038
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 130).
+    lane: literature
+  - q: https://doi.org/10.1016/S0031-6865(97)00026-5
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 131).
+    lane: literature
+  - q: https://www.ftb.com.hr/images/pdfarticles/2013/Vol.51_No.1/ftb_51-1_084-091.pdf
+    source: publisher pages
+    hits: null
+    note: Page read (reference 132).
+    lane: literature
+  - q: https://doi.org/10.1016/j.foodchem.2008.11.044
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 133).
+    lane: literature
+  - q: https://www.mcpharmacol.com/index.php/Journals/article/view/28
+    source: publisher pages
+    hits: null
+    note: Page read (reference 134).
+    lane: literature
+  - q: https://www.academia.edu/77270662/Comparison_of_rosmarinic_acid_content_in_commercial_tinctures_produced_from_fresh_and_dried_lemon_balm_Melissa_officinalis_
+    source: publisher pages
+    hits: null
+    note: Page read (reference 135).
+    lane: literature
+  - q: https://doi.org/10.1016/j.crci.2015.12.013
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 136).
+    lane: literature
+  - q: https://doi.org/10.1007/s11694-018-9874-5
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 137).
+    lane: literature
+  - q: https://doi.org/10.1016/j.fitote.2011.05.006
+    source: publisher pages
+    hits: null
+    note: DOI resolved and the landing page / abstract read (reference 138).
+    lane: literature
+  - q: https://books.google.com/books/about/Plant_Physiology_and_Development.html?id=02TBoQEACAAJ
+    source: publisher pages
+    hits: null
+    note: Page read (reference 139).
+    lane: literature
+  - q: https://www.wiley.com/en-us/Biochemistry+and+Molecular+Biology+of+Plants,+2nd+Edition-p-9780470714218
+    source: publisher pages
+    hits: null
+    note: Page read (reference 140).
+    lane: literature
+  - q: (query strings not logged) - OpenAlex used for discovery and for confirming DOIs, titles and years
+    source: OpenAlex
+    hits: null
+    note: The prototype sweep did not log individual query strings or hit counts for this source; entries are not reconstructed rather than invented. See
+      known_gaps.
+    lane: literature
+  - q: (query strings not logged) - Semantic Scholar used for discovery and for confirming DOIs, titles and years
+    source: Semantic Scholar
+    hits: null
+    note: The prototype sweep did not log individual query strings or hit counts for this source; entries are not reconstructed rather than invented. See
+      known_gaps.
+    lane: literature
+  - q: (query strings not logged) - Crossref used for discovery and for confirming DOIs, titles and years
+    source: Crossref
+    hits: null
+    note: The prototype sweep did not log individual query strings or hit counts for this source; entries are not reconstructed rather than invented. See
+      known_gaps.
+    lane: literature
+  - q: (query strings not logged) - web search used for discovery and for confirming DOIs, titles and years
+    source: web search
+    hits: null
+    note: The prototype sweep did not log individual query strings or hit counts for this source; entries are not reconstructed rather than invented. See
+      known_gaps.
+    lane: literature
+  - q: https://pubmed.ncbi.nlm.nih.gov/ ; https://www.ebi.ac.uk/europepmc/
+    source: PubMed / PMC / Europe PMC
+    hits: null
+    kept: 0
+    note: Attempted; blocked or rate-limited during the sweep (e.g. PubMed 25942003 abstract for oregano ursolic acid could not be read).
+    lane: failed
+  - q: https://phenol-explorer.eu/
+    source: Phenol-Explorer
+    hits: null
+    kept: 0
+    note: Attempted; TLS certificate mismatch, nothing read.
+    lane: failed
+  - q: https://www.worldfloraonline.org/
+    source: WFO
+    hits: null
+    kept: 0
+    note: Attempted for WFO ids; TLS/robots failure, so wfo_id is null for every taxon.
+    lane: failed
+  - q: https://www.ncbi.nlm.nih.gov/taxonomy ; E-utilities
+    source: NCBI Taxonomy (direct)
+    hits: null
+    kept: 0
+    note: Attempted; browser rate-limited and E-utilities blocked by robots.txt; replaced by the GBIF mirror.
+    lane: failed
+  snowball:
+  - backward from the EMA HMPC assessment reports (their cited trials and constituent studies seeded the evidence rows)
+  - backward from LiverTox Skullcap to the germander adulteration case literature
+  - database occurrence rows (Dr. Duke's, KNApSAcK, LOTUS) followed to the primary paper they cite, which was then read
+  inclusion:
+  - a database occurrence record for the species AND a review or primary source read by the builder (curation rule)
+  - human studies for any graded health statement at A-C; animal and in-vitro work admitted only at D/E and never phrased as an effect in people
+  - official monographs (EMA HMPC, WHO) for grade T and for regulatory thresholds
+  - English-language sources whose abstract or relevant page could be read
+  exclusion:
+  - 'database rows with no readable source paper (kept only as verified: false with a gap noted)'
+  - citations mismatched to the compound (e.g. Duke chamomile rows citing a 1987 liquorice-oil paper)
+  - evidence for multi-herb formulas transferred to a single plant
+  - papers whose abstract could not be read (listed in todo.yaml, not cited)
+  known_gaps:
+  - PubMed, PMC and Europe PMC were blocked or rate-limited for most of the sweep; several abstracts (e.g. PubMed 25942003, Rohmer 1999, Ramadan 2006) could
+    not be read and are not cited
+  - 'Phenol-Explorer unreachable (TLS certificate mismatch): no polyphenol retention or content data from it'
+  - 'World Flora Online unreachable (TLS/robots failure): wfo_id is null for every taxon'
+  - 'NCBI Taxonomy not reachable directly (browser rate-limited, E-utilities blocked by robots.txt): taxids read from the GBIF mirror of the NCBI checklist'
+  - per-query hit counts were not logged in the prototype, so every hits value is null
+  - 'single-pass extraction: no quantitative value has been extracted twice (double extraction returns in P1)'
+  - FooDB, COCONUT/NPASS, ChEMBL and USDA FoodData Central, listed in the requirements as sources, were not queried in this pass
+corpus_profile:
+  by_tier:
+    seminal: 6
+    classic: 29
+    current: 30
+    background: 35
+  total: 100
+  verified: 98
+  year_range:
+  - 1959
+  - 2026
+  current_before_window: 23
+  concentration: 12 of 100 references are EMA/HMPC documents (refs 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12); 21 of 49 graded evidence rows cite at least one
+    of them and 19 rest on EMA documents alone, and every grade-T row does. Safety thresholds for thujone, pulegone/menthofuran, estragole and methyleugenol
+    each rest on a single EMA public statement. The primer (refs 101-140) leans on a small number of reviews per pathway.
+  dissent_represented: true
+  dissent_examples:
+  - 'Skullcap baicalin: one study reports 11.7 mg/g in S. lateriflora leaf against 26.1 mg/g in S. baicalensis root, another finds more flavonoid in lateriflora
+    aerial parts than in its own root; the curation note''s "far lower" was withdrawn and both numbers are shown with their bases [24,27]. Hepatotoxicity
+    reports attributed to skullcap are in part germander adulteration [13,30,31].'
+  - 'Oregano carvacrol: the commonly repeated 60-80 % of oil is not supported by the papers read, which give 39.8 % and 23.3 %; thymol- and linalyl acetate/linalool-type
+    Greek oreganos exist [21,22].'
+  - 'Thyme chemotypes: EMA records at least six chemotypes of T. vulgaris, of which only the thymol type meets the pharmacopoeia; no paper read names a
+    linalool chemotype, so that row stays unverified [9,20].'
+  - 'Sage trials: the EMA judged the cognition and hot-flush trial products not to match EU-marketed products and a systematic review found the trials methodologically
+    weak, so each is graded for its own preparation [1,53].'
+  note: Counts computed from references.yaml at assembly (2026-09-23).
+content_line:
+  in:
+  - preparation methods (solvent, temperature, time) explained as extraction chemistry, as the conditions under which published values were measured
+  - regulatory and monograph thresholds for constituents of concern, as the safety layer
+  - monograph statements of traditional use, attributed and graded T ("the EMA HMPC monograph lists ...")
+  - published trial populations and test articles, as the context of a grade
+  out:
+  - dosing to treat a condition, and anything that stands in for medical advice
+  - recommendations to take, buy or prepare anything for a health purpose
+  - serving sizes, frequencies or ratios offered as instructions
+  - any phrasing of a D or E finding as an effect in people; any T grade phrased as "helps" or "treats"
+extraction_rule: single pass, every value with source and basis; double extraction returns in P1
+evidence_grades:
+  rule: 'Every health statement carries a grade AND names its test article: whole_herb | named_extract (with solvent and standardisation where known) |
+    essential_oil | isolated_compound | multi_herb_formula. A grade belongs to the test article, never to the plant, the tea or a single constituent unless
+    that is what was tested. A D or E finding is never phrased as an effect in people; a T grade says "traditionally used for", never "helps" or "treats".'
+  grades:
+  - grade: A
+    basis: systematic review or meta-analysis of human randomised controlled trials
+  - grade: B
+    basis: at least one human randomised controlled trial
+  - grade: C
+    basis: human observational or small uncontrolled studies (open-label, case series); a meta-analysis of observational studies is C, not A
+  - grade: D
+    basis: animal in vivo
+  - grade: E
+    basis: in vitro or in silico
+  - grade: T
+    basis: traditional use documented in an official monograph (EMA HMPC, ESCOP, WHO, Commission E)
+  example: Enteric-coated peppermint oil for IBS symptoms is grade A for that oil in capsules [54]; it is not evidence for menthol alone and not evidence
+    for peppermint tea [6,129].

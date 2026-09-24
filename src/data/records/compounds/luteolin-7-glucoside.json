@@ -1,0 +1,405 @@
+{
+ "compound": {
+  "id": "luteolin-7-glucoside",
+  "name": "luteolin-7-O-glucoside (cynaroside)",
+  "synonyms": [
+   "cynaroside",
+   "luteolin 7-O-β-D-glucoside"
+  ],
+  "class": "flavone-glycoside",
+  "subclass": "flavone 7-O-glucoside",
+  "one_liner": "The plant form of luteolin: dominant flavonoid of Greek oregano extract, and present in sage, thyme and chamomile.",
+  "palette_group": "shared",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "2-(3,4-dihydroxyphenyl)-5-hydroxy-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "formula": "C21H20O11",
+   "mw": 448.38,
+   "mw_source": "computed_from_formula",
+   "smiles": "C1=CC(=C(C=C1C2=CC(=O)C3=C(C=C(C=C3O2)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O)O",
+   "inchikey": "PEFNSGRTCBGNAN-QNDFHXLGSA-N",
+   "cas": "5373-11-5",
+   "pubchem_cid": 5280637,
+   "chebi_id": "CHEBI:27994",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280637/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "flavonoid (phenylpropanoid + malonate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "salvia-officinalis",
+    "plant_part": "plant; leaf (as cynaroside)",
+    "value": null,
+    "unit": null,
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Ghorbani A, Esmaeilizadeh M (2017) Pharmacological properties of Salvia officinalis and its components. J Tradit Complement Med 7(4):433-440",
+    "source_doi_or_url": "https://doi.org/10.1016/j.jtcme.2016.12.014",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+    "verified": true,
+    "note": "Duke: LUTEOLIN-7-GLUCOSIDE Plant (Duke writeups); CYNAROSIDE Leaf (Duke 1992); no values. Ghorbani 2017: sage extracts 'rich in flavonoids particularly rosmarinic acid and luteolin-7-glucoside'. EMA sage report also lists it (unquantified)."
+   },
+   {
+    "taxon_id": "thymus-vulgaris",
+    "plant_part": "herb (aerial parts), cv. 'Standard Winter'",
+    "value": "46.77-325.11",
+    "unit": "mg/100 g",
+    "basis": "dry_weight",
+    "level": "cultivar",
+    "cultivar": "Standard Winter",
+    "source_citation": "Kosakowska O, Bączek K, Przybył JL, et al. (2020) Morphological and chemical traits as quality determinants of common thyme (Thymus vulgaris L.), on the example of 'Standard Winter' cultivar. Agronomy 10(6):909",
+    "source_doi_or_url": "https://doi.org/10.3390/agronomy10060909",
+    "database": null,
+    "database_url": null,
+    "verified": true,
+    "note": "Added per ruling; value from the verification pass notes (luteolin entry). Study cultivar, not the greenhouse 'German Winter'."
+   },
+   {
+    "taxon_id": "origanum-vulgare",
+    "plant_part": "upper non-woody shoots at bloom onset (hydroethanolic extract)",
+    "value": null,
+    "unit": null,
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+    "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+    "database": null,
+    "database_url": null,
+    "verified": true,
+    "note": "Added per ruling: the dominant flavonoid of the subsp. hirtum extract (not quantified in the verification notes)."
+   },
+   {
+    "taxon_id": "matricaria-chamomilla",
+    "plant_part": "flower",
+    "value": null,
+    "unit": null,
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Dr. Duke's record LUTEOLIN-7-O-GLUCOSIDE, Flower (citing Bisset 1994, Herbal Drugs and Phytopharmaceuticals)",
+    "source_doi_or_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+    "verified": true,
+    "note": "Added per ruling (verified per ruling); rests on Duke citing a handbook, no value. EMA lists luteolin among chamomile flavonoids."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": "By analogy with apigenin-7-glucoside, glycosides are hydrolysed by intestinal or bacterial β-glucosidases before the aglycone is absorbed [44]; not studied here for this compound.",
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": "hydrolysis to luteolin by β-glucosidases in gut (by analogy; see absorption)",
+   "formed_during": null,
+   "note": null,
+   "refs": [
+    44
+   ]
+  },
+  "safety_flags": [],
+  "teaching_note": "One of the few records that crosses from the mint family into the daisy family (chamomile).",
+  "citations": [
+   20,
+   21,
+   23,
+   44
+  ],
+  "gaps": [
+   "Chamomile row rests on Duke (Bisset 1994 handbook) without a value.",
+   "No quantitative value for oregano.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "The plant form of luteolin: dominant [flavonoid](#term:flavonoid) of Greek oregano extract, and present in sage, thyme and chamomile.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": "By analogy with apigenin-7-glucoside, [glycosides](#term:glycoside) are hydrolysed by intestinal or bacterial β-glucosidases before the [aglycone](#term:aglycone) is absorbed [44](#cite:44); not studied here for this compound.",
+   "teaching_note": "One of the few records that crosses from the [mint family](#term:lamiaceae) into the [daisy family](#term:asteraceae) (chamomile).",
+   "processing_note": null,
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "flavonoid",
+   "glycoside",
+   "aglycone",
+   "lamiaceae",
+   "asteraceae"
+  ],
+  "cited_refs": [
+   20,
+   21,
+   23,
+   44
+  ],
+  "taxa": [
+   "salvia-officinalis",
+   "thymus-vulgaris",
+   "origanum-vulgare",
+   "matricaria-chamomilla"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C21H20O11",
+   "inchikeyComputed": "PEFNSGRTCBGNAN-QNDFHXLGSA-N",
+   "canonicalSmiles": "O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c12",
+   "monoisotopicMass": 448.1006,
+   "averageMass": 448.38,
+   "descriptors": {
+    "heavyAtoms": 32,
+    "rings": 4,
+    "aromaticRings": 3,
+    "hbd": 7,
+    "hba": 11,
+    "rotatableBonds": 4,
+    "logP": -0.24,
+    "tpsa": 190.3,
+    "fsp3": 0.29,
+    "stereocenters": 5,
+    "charge": 0
+   },
+   "atomCount": 52,
+   "heavyAtomCount": 32,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       7,
+       22
+      ],
+      [
+       9,
+       29
+      ],
+      [
+       10,
+       31
+      ]
+     ]
+    },
+    {
+     "id": "catechol",
+     "name": "Catechol (1,2-diol)",
+     "matches": [
+      [
+       9,
+       29,
+       31,
+       10
+      ]
+     ]
+    },
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       2,
+       11
+      ],
+      [
+       3,
+       12
+      ],
+      [
+       4,
+       13
+      ],
+      [
+       5,
+       16
+      ]
+     ]
+    },
+    {
+     "id": "glycoside",
+     "name": "Sugar (glycoside / glucuronide)",
+     "matches": [
+      [
+       0,
+       14,
+       12,
+       3,
+       11,
+       2,
+       13,
+       4,
+       15
+      ]
+     ]
+    },
+    {
+     "id": "chromone",
+     "name": "Chromone (flavone core)",
+     "matches": [
+      [
+       8,
+       23,
+       25,
+       24,
+       26,
+       6,
+       20,
+       18,
+       17,
+       19,
+       22,
+       21
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/luteolin-7-glucoside.sdf",
+   "svg": {
+    "light": "structures/2d/luteolin-7-glucoside.svg",
+    "dark": "structures/2d/luteolin-7-glucoside.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/luteolin-7-glucoside.json",
+   "mwPack": 448.38,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "luteolin-7-glucoside#0",
+   "compound_id": "luteolin-7-glucoside",
+   "compound": "luteolin-7-O-glucoside (cynaroside)",
+   "class": "flavone-glycoside",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "plant; leaf (as cynaroside)",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Ghorbani A, Esmaeilizadeh M (2017) Pharmacological properties of Salvia officinalis and its components. J Tradit Complement Med 7(4):433-440",
+   "source_doi_or_url": "https://doi.org/10.1016/j.jtcme.2016.12.014",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Duke: LUTEOLIN-7-GLUCOSIDE Plant (Duke writeups); CYNAROSIDE Leaf (Duke 1992); no values. Ghorbani 2017: sage extracts 'rich in flavonoids particularly rosmarinic acid and luteolin-7-glucoside'. EMA sage report also lists it (unquantified).",
+   "refs": [
+    23
+   ]
+  },
+  {
+   "row": "luteolin-7-glucoside#1",
+   "compound_id": "luteolin-7-glucoside",
+   "compound": "luteolin-7-O-glucoside (cynaroside)",
+   "class": "flavone-glycoside",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "thymus-vulgaris",
+   "taxon_known": true,
+   "taxon_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "plant_part": "herb (aerial parts), cv. 'Standard Winter'",
+   "value": "46.77-325.11",
+   "unit": "mg/100 g",
+   "basis": "dry_weight",
+   "level": "cultivar",
+   "cultivar": "Standard Winter",
+   "source_citation": "Kosakowska O, Bączek K, Przybył JL, et al. (2020) Morphological and chemical traits as quality determinants of common thyme (Thymus vulgaris L.), on the example of 'Standard Winter' cultivar. Agronomy 10(6):909",
+   "source_doi_or_url": "https://doi.org/10.3390/agronomy10060909",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "Added per ruling; value from the verification pass notes (luteolin entry). Study cultivar, not the greenhouse 'German Winter'.",
+   "refs": [
+    20
+   ]
+  },
+  {
+   "row": "luteolin-7-glucoside#2",
+   "compound_id": "luteolin-7-glucoside",
+   "compound": "luteolin-7-O-glucoside (cynaroside)",
+   "class": "flavone-glycoside",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": "upper non-woody shoots at bloom onset (hydroethanolic extract)",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "Added per ruling: the dominant flavonoid of the subsp. hirtum extract (not quantified in the verification notes).",
+   "refs": [
+    21
+   ]
+  },
+  {
+   "row": "luteolin-7-glucoside#3",
+   "compound_id": "luteolin-7-glucoside",
+   "compound": "luteolin-7-O-glucoside (cynaroside)",
+   "class": "flavone-glycoside",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "flower",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Dr. Duke's record LUTEOLIN-7-O-GLUCOSIDE, Flower (citing Bisset 1994, Herbal Drugs and Phytopharmaceuticals)",
+   "source_doi_or_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "Added per ruling (verified per ruling); rests on Duke citing a handbook, no value. EMA lists luteolin among chamomile flavonoids.",
+   "refs": []
+  }
+ ],
+ "preparations": [
+  {
+   "id": "sage-leaf-hot-infusion",
+   "name": "Sage leaf, hot-water infusion"
+  }
+ ]
+}

@@ -1,0 +1,220 @@
+{
+ "compound": {
+  "id": "norwogonin",
+  "name": "norwogonin",
+  "synonyms": [
+   "5,7,8-trihydroxyflavone"
+  ],
+  "class": "flavone",
+  "subclass": "4'-deoxyflavone aglycone",
+  "one_liner": "8-Hydroxylated chrysin; the precursor of wogonin in S. baicalensis (database-only occurrence).",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "5,7,8-trihydroxy-2-phenylchromen-4-one",
+   "formula": "C15H10O5",
+   "mw": 270.24,
+   "mw_source": "computed_from_formula",
+   "smiles": "C1=CC=C(C=C1)C2=CC(=O)C3=C(O2)C(=C(C=C3O)O)O",
+   "inchikey": "ZFKKRRMUPBBYRS-UHFFFAOYSA-N",
+   "cas": "4443-09-8",
+   "pubchem_cid": 5281674,
+   "chebi_id": "CHEBI:7642",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281674/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "flavonoid (phenylpropanoid + malonate)",
+   "note": "SbF8H (CYP82D2) product from chrysin [29]."
+  },
+  "occurrences": [
+   {
+    "taxon_id": "scutellaria-baicalensis",
+    "plant_part": "root (pathway product)",
+    "value": null,
+    "unit": null,
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Pei T, et al. (2022) Specific flavonoids and their biosynthetic pathway in Scutellaria baicalensis. Front Plant Sci 13:866282",
+    "source_doi_or_url": "https://doi.org/10.3389/fpls.2022.866282",
+    "database": "KNApSAcK",
+    "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Scutellaria%20baicalensis",
+    "verified": false,
+    "note": "KNApSAcK: Norwogonin C00001077 in S. baicalensis (no Duke row). Pei 2022 describes norwogonin only as the SbF8H (CYP82D2) product from chrysin, not as a measured root constituent, so paper-level verification is false."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Not sourced.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "A real constituent that the app must present honestly: it rests on a database record and a pathway paper, not on a measured amount [29].",
+  "citations": [
+   29
+  ],
+  "gaps": [
+   "Occurrence database-only (KNApSAcK); paper describes it as a biosynthetic product, not a quantified root constituent.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "8-Hydroxylated chrysin; the precursor of wogonin in S. baicalensis (database-only [occurrence](#term:occurrence)).",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "A real constituent that the app must present honestly: it rests on a database record and a pathway paper, not on a measured amount [29](#cite:29).",
+   "processing_note": "Not sourced.",
+   "biosynthesis_note": "SbF8H (CYP82D2) product from chrysin [29](#cite:29).",
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "occurrence"
+  ],
+  "cited_refs": [
+   29
+  ],
+  "taxa": [
+   "scutellaria-baicalensis"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C15H10O5",
+   "inchikeyComputed": "ZFKKRRMUPBBYRS-UHFFFAOYSA-N",
+   "canonicalSmiles": "O=c1cc(-c2ccccc2)oc2c(O)c(O)cc(O)c12",
+   "monoisotopicMass": 270.0528,
+   "averageMass": 270.24,
+   "descriptors": {
+    "heavyAtoms": 20,
+    "rings": 3,
+    "aromaticRings": 3,
+    "hbd": 3,
+    "hba": 5,
+    "rotatableBonds": 1,
+    "logP": 2.58,
+    "tpsa": 90.9,
+    "fsp3": 0,
+    "stereocenters": 0,
+    "charge": 0
+   },
+   "atomCount": 30,
+   "heavyAtomCount": 20,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       1,
+       9
+      ],
+      [
+       2,
+       10
+      ],
+      [
+       3,
+       13
+      ]
+     ]
+    },
+    {
+     "id": "catechol",
+     "name": "Catechol (1,2-diol)",
+     "matches": [
+      [
+       2,
+       10,
+       13,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "chromone",
+     "name": "Chromone (flavone core)",
+     "matches": [
+      [
+       4,
+       8,
+       11,
+       7,
+       12,
+       0,
+       6,
+       10,
+       13,
+       14,
+       9,
+       5
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/norwogonin.sdf",
+   "svg": {
+    "light": "structures/2d/norwogonin.svg",
+    "dark": "structures/2d/norwogonin.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/norwogonin.json",
+   "mwPack": 270.24,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "norwogonin#0",
+   "compound_id": "norwogonin",
+   "compound": "norwogonin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root (pathway product)",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Pei T, et al. (2022) Specific flavonoids and their biosynthetic pathway in Scutellaria baicalensis. Front Plant Sci 13:866282",
+   "source_doi_or_url": "https://doi.org/10.3389/fpls.2022.866282",
+   "database": "KNApSAcK",
+   "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Scutellaria%20baicalensis",
+   "verified": false,
+   "note": "KNApSAcK: Norwogonin C00001077 in S. baicalensis (no Duke row). Pei 2022 describes norwogonin only as the SbF8H (CYP82D2) product from chrysin, not as a measured root constituent, so paper-level verification is false.",
+   "refs": [
+    29
+   ]
+  }
+ ],
+ "preparations": []
+}

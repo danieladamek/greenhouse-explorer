@@ -1,0 +1,77 @@
+{
+ "taxa": [
+  {
+   "id": "mentha-spicata",
+   "species_key": "Mentha spicata",
+   "accepted_name": "Mentha spicata",
+   "authority": "L.",
+   "family": "Lamiaceae",
+   "common_names": [
+    "Mint"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 29719,
+    "powo_id": "urn:lsid:ipni.org:names:451162-1",
+    "gbif_key": 2927175,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "herbs"
+   ],
+   "identity_status": "check",
+   "candidates": [
+    "mentha-spicata"
+   ],
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-069",
+     "name": null,
+     "type": "Leaf",
+     "list_category": "herbs",
+     "name_as_given": "Mentha spicata (probable)",
+     "identity_status": "unresolved",
+     "note": "'Common mint' usually means spearmint, but it could be another Mentha. Check label or crush-test (spearmint = carvone; peppermint = menthol)."
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure). Inventory entry is 'Mint, Common' — spearmint is the usual meaning but unconfirmed.",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-069"
+   ],
+   "n_plantings": 1,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-069",
+   "list_category": "Herbs",
+   "original_entry": "Mint, Common",
+   "common_name": "Mint",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf",
+   "scientific_name": "Mentha spicata (probable)",
+   "species_key": "Mentha spicata",
+   "family": "Lamiaceae",
+   "confidence": "Unresolved",
+   "note": "'Common mint' usually means spearmint, but it could be another Mentha. Check label or crush-test (spearmint = carvone; peppermint = menthol).",
+   "taxon_id": "mentha-spicata",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

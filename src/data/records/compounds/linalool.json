@@ -1,0 +1,233 @@
+{
+ "compound": {
+  "id": "linalool",
+  "name": "linalool",
+  "synonyms": [
+   "3,7-dimethylocta-1,6-dien-3-ol"
+  ],
+  "class": "monoterpene",
+  "subclass": "acyclic monoterpene alcohol",
+  "one_liner": "The floral-sweet alcohol that dominates Genovese-type basil oil; also a minor thyme oil constituent.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "3,7-dimethylocta-1,6-dien-3-ol",
+   "formula": "C10H18O",
+   "mw": 154.25,
+   "mw_source": "pubchem",
+   "smiles": "CC(=CCCC(C)(C=C)O)C",
+   "inchikey": "CDOSHBSSFJOMGT-UHFFFAOYSA-N",
+   "cas": "78-70-6",
+   "pubchem_cid": 6549,
+   "chebi_id": "CHEBI:17580",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6549/JSON",
+   "cross_checked": false,
+   "note": "Stereo-unspecified record; basil oils are usually reported as (-)-(R)-linalool (Duke lists '(-)-LINALOOL' rows) but the enantiomer record was not fetched."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MEP/terpenoid (plastidial; from geranyl diphosphate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "ocimum-basilicum",
+    "plant_part": "leaf essential oil",
+    "value": "14000-593000",
+    "unit": "ppm",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Muráriková A, Ťažký A, Neugebauerová J, et al. (2017) Characterization of essential oil composition in different basil species and pot cultures by a GC-MS method. Molecules 22(7):1221",
+    "source_doi_or_url": "https://doi.org/10.3390/molecules22071221",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+    "verified": true,
+    "note": "Duke rows: LINALOOL Leaf Essent. Oil 14000-593000 ppm; Essential Oil 10-630000; Plant 5-8730 (Duke 1992). Paper: linalool quantified in all 7 cultivars, e.g. 'Ohře' 5.99 mg/mL, 'Red Rubin' 0.46 mg/mL (mg per mL of the analysed oil solution, GC-MS). Majdi 2020 also: linalool the major volatile in Cinnamon basil. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)"
+   },
+   {
+    "taxon_id": "thymus-vulgaris",
+    "plant_part": "essential oil",
+    "value": "28200-42800",
+    "unit": "ppm",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013 (12 Nov 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+    "verified": false,
+    "note": "Duke: LINALOOL Essential Oil 28200-42800 ppm (2.8-4.3 % of oil); Plant 20-17420 ppm. EMA lists linalool among the main oil components and notes 'at least 6 chemotypes of Thymus vulgaris'; only the thymol type meets Ph. Eur. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) | RULING: EMA confirms ≥6 thyme chemotypes but no paper read names a linalool chemotype, so this row is verified:false."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "Linalool is why a sweet basil smells 'basil' rather than aniseed: the ratio of linalool to estragole and methyleugenol defines the basil chemotypes grown in the greenhouse, and it differs cultivar by cultivar [18].",
+  "citations": [
+   9,
+   18
+  ],
+  "gaps": [
+   "Pharmacology, absorption and safety not researched in this pass.",
+   "No human evidence for the isolated compound found in this pass.",
+   "Enantiomer in basil (reported as (-)-(R)) not confirmed from a primary record.",
+   "Thyme linalool chemotype not named by a paper read; thyme row kept verified:false.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "The floral-sweet alcohol that dominates Genovese-type basil oil; also a minor thyme oil constituent.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Linalool is why a sweet basil smells 'basil' rather than aniseed: the ratio of linalool to [estragole](#term:estragole) and [methyleugenol](#term:methyleugenol) defines the basil [chemotypes](#term:chemotype) grown in the greenhouse, and it differs [cultivar](#term:cultivar) by cultivar [18](#cite:18).",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "estragole",
+   "methyleugenol",
+   "chemotype",
+   "cultivar",
+   "solubility"
+  ],
+  "cited_refs": [
+   9,
+   18
+  ],
+  "taxa": [
+   "ocimum-basilicum",
+   "thymus-vulgaris"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H18O",
+   "inchikeyComputed": "CDOSHBSSFJOMGT-UHFFFAOYSA-N",
+   "canonicalSmiles": "C=CC(C)(O)CCC=C(C)C",
+   "monoisotopicMass": 154.1358,
+   "averageMass": 154.253,
+   "descriptors": {
+    "heavyAtoms": 11,
+    "rings": 0,
+    "aromaticRings": 0,
+    "hbd": 1,
+    "hba": 1,
+    "rotatableBonds": 4,
+    "logP": 2.67,
+    "tpsa": 20.2,
+    "fsp3": 0.6,
+    "stereocenters": 1,
+    "charge": 0
+   },
+   "atomCount": 29,
+   "heavyAtomCount": 11,
+   "functionalGroups": [
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       0,
+       1
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/linalool.sdf",
+   "svg": {
+    "light": "structures/2d/linalool.svg",
+    "dark": "structures/2d/linalool.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/linalool.json",
+   "mwPack": 154.25,
+   "mwSource": "pubchem"
+  },
+  "primer_sections": [
+   "5-three-pathways-that-make-the-greenhouse-smell"
+  ]
+ },
+ "rows": [
+  {
+   "row": "linalool#0",
+   "compound_id": "linalool",
+   "compound": "linalool",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "ocimum-basilicum",
+   "taxon_known": true,
+   "taxon_name": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "plant_part": "leaf essential oil",
+   "value": "14000-593000",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Muráriková A, Ťažký A, Neugebauerová J, et al. (2017) Characterization of essential oil composition in different basil species and pot cultures by a GC-MS method. Molecules 22(7):1221",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules22071221",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+   "verified": true,
+   "note": "Duke rows: LINALOOL Leaf Essent. Oil 14000-593000 ppm; Essential Oil 10-630000; Plant 5-8730 (Duke 1992). Paper: linalool quantified in all 7 cultivars, e.g. 'Ohře' 5.99 mg/mL, 'Red Rubin' 0.46 mg/mL (mg per mL of the analysed oil solution, GC-MS). Majdi 2020 also: linalool the major volatile in Cinnamon basil. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)",
+   "refs": [
+    18
+   ]
+  },
+  {
+   "row": "linalool#1",
+   "compound_id": "linalool",
+   "compound": "linalool",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "thymus-vulgaris",
+   "taxon_known": true,
+   "taxon_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "28200-42800",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013 (12 Nov 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+   "verified": false,
+   "note": "Duke: LINALOOL Essential Oil 28200-42800 ppm (2.8-4.3 % of oil); Plant 20-17420 ppm. EMA lists linalool among the main oil components and notes 'at least 6 chemotypes of Thymus vulgaris'; only the thymol type meets Ph. Eur. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) | RULING: EMA confirms ≥6 thyme chemotypes but no paper read names a linalool chemotype, so this row is verified:false.",
+   "refs": [
+    9
+   ]
+  }
+ ],
+ "preparations": []
+}

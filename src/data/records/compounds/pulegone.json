@@ -1,0 +1,233 @@
+{
+ "compound": {
+  "id": "pulegone",
+  "name": "(+)-pulegone",
+  "synonyms": [
+   "(+)-pulegone",
+   "(R)-pulegone"
+  ],
+  "class": "monoterpenoid-ketone",
+  "subclass": "p-menthane ketone",
+  "one_liner": "Peppermint oil ketone limited to ≤3 % by Ph. Eur.; hepatotoxic via bioactivation, with an EMA combined limit.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "(5R)-5-methyl-2-propan-2-ylidenecyclohexan-1-one",
+   "formula": "C10H16O",
+   "mw": 152.24,
+   "mw_source": "computed_from_formula",
+   "smiles": "C[C@@H]1CCC(=C(C)C)C(=O)C1",
+   "inchikey": "NZGWDASTMWDZIW-MRVPVSSYSA-N",
+   "cas": "89-82-7",
+   "pubchem_cid": 442495,
+   "chebi_id": "CHEBI:35596",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/442495/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MEP/terpenoid (plastidial; from geranyl diphosphate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "mentha-x-piperita",
+    "plant_part": "essential oil",
+    "value": "maximum 3",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv",
+    "verified": true,
+    "note": "Duke: PULEGONE Leaf 0-440 ppm. KNApSAcK: Pulegone C00000827 in Mentha piperita. | Basis as recorded: % of essential oil (Ph. Eur. limit)"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": "Bioactivation of pulegone, with menthofuran as a major metabolite, is a prerequisite for its hepatotoxicity [3].",
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [
+   {
+    "claim": "Pulegone is toxic to liver and kidney in rats.",
+    "grade": "D",
+    "test_article": "isolated_compound",
+    "test_article_detail": "pulegone, NTP 3-month rat study (as summarised by EMA)",
+    "population": "animal",
+    "outcome_summary": "NOAEL 37.5 mg/kg bw/day; basis of the EMA limit.",
+    "refs": [
+     3
+    ],
+    "note": null
+   }
+  ],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [
+   {
+    "flag": "hepatotoxicity (rodent)",
+    "detail": "Ph. Eur. limits pulegone to ≤3 % of peppermint oil [6].",
+    "threshold_or_limit": "pulegone + menthofuran 0.75 mg/kg bw/day (37.5 mg/person/day) lifelong; 75 mg/day for use under 1 year",
+    "source_citation": "EMA/HMPC public statement on pulegone and menthofuran, EMA/HMPC/138386/2005 Rev.1 (2016)",
+    "refs": [
+     3,
+     6
+    ]
+   }
+  ],
+  "teaching_note": "In peppermint, pulegone is kept low by pharmacopoeial specification (≤3 % of oil) [6].",
+  "citations": [
+   3,
+   6
+  ],
+  "gaps": [
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Peppermint oil [ketone](#term:monoterpenoid-ketone) limited to ≤3 % by [Ph. Eur.](#term:pharmacopoeia); [hepatotoxic](#term:hepatotoxicity) via [bioactivation](#term:bioactivation), with an [EMA](#term:ema-hmpc) combined limit.",
+   "mechanism": "Bioactivation of [pulegone](#term:pulegone), with [menthofuran](#term:menthofuran) as a major metabolite, is a prerequisite for its hepatotoxicity [3](#cite:3).",
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "In peppermint, pulegone is kept low by pharmacopoeial specification (≤3 [% of oil](#term:essential-oil-percent)) [6](#cite:6).",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": null,
+   "evidence": [
+    {
+     "claim": "Pulegone is toxic to liver and kidney in rats.",
+     "outcome_summary": "[NOAEL](#term:guidance-value) 37.5 [mg/kg bw/day](#term:mg-per-kg-bw); [basis](#term:basis) of the EMA limit."
+    }
+   ],
+   "safety_flags": [
+    "Ph. Eur. limits pulegone to ≤3 % of peppermint oil [6](#cite:6)."
+   ]
+  },
+  "terms": [
+   "monoterpenoid-ketone",
+   "pharmacopoeia",
+   "hepatotoxicity",
+   "bioactivation",
+   "ema-hmpc",
+   "pulegone",
+   "menthofuran",
+   "essential-oil-percent",
+   "solubility",
+   "guidance-value",
+   "mg-per-kg-bw",
+   "basis"
+  ],
+  "cited_refs": [
+   3,
+   6
+  ],
+  "taxa": [
+   "mentha-x-piperita"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H16O",
+   "inchikeyComputed": "NZGWDASTMWDZIW-MRVPVSSYSA-N",
+   "canonicalSmiles": "CC(C)=C1CC[C@@H](C)CC1=O",
+   "monoisotopicMass": 152.1201,
+   "averageMass": 152.237,
+   "descriptors": {
+    "heavyAtoms": 11,
+    "rings": 1,
+    "aromaticRings": 0,
+    "hbd": 0,
+    "hba": 1,
+    "rotatableBonds": 0,
+    "logP": 2.71,
+    "tpsa": 17.1,
+    "fsp3": 0.7,
+    "stereocenters": 1,
+    "charge": 0
+   },
+   "atomCount": 27,
+   "heavyAtomCount": 11,
+   "functionalGroups": [
+    {
+     "id": "ketone",
+     "name": "Ketone",
+     "matches": [
+      [
+       3,
+       6,
+       0,
+       5
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/pulegone.sdf",
+   "svg": {
+    "light": "structures/2d/pulegone.svg",
+    "dark": "structures/2d/pulegone.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/pulegone.json",
+   "mwPack": 152.24,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": [
+   "5-three-pathways-that-make-the-greenhouse-smell"
+  ]
+ },
+ "rows": [
+  {
+   "row": "pulegone#0",
+   "compound_id": "pulegone",
+   "compound": "(+)-pulegone",
+   "class": "monoterpenoid-ketone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "mentha-x-piperita",
+   "taxon_known": true,
+   "taxon_name": "Mentha × piperita",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "maximum 3",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv",
+   "verified": true,
+   "note": "Duke: PULEGONE Leaf 0-440 ppm. KNApSAcK: Pulegone C00000827 in Mentha piperita. | Basis as recorded: % of essential oil (Ph. Eur. limit)",
+   "refs": [
+    6
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "peppermint-leaf-hot-infusion",
+   "name": "Peppermint leaf, hot-water infusion"
+  }
+ ]
+}

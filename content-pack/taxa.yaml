@@ -1,0 +1,1893 @@
+# Greenhouse Explorer — taxa.yaml (schema extension; normative spec in KICKOFF)
+meta:
+  generated: '2026-09-23'
+  source: source/greenhouse_crops_cleaned.csv (inventory dated 2025-10-25) + taxa-ids.yaml (GBIF/POWO/NCBI-mirror
+    lookups, 2026-09-23)
+  counts:
+    taxa: 47
+    profiled: 11
+    unresolved: 1
+    check: 2
+  note: identity_status at species level is confirmed unless the inventory name does not decide the species; per-cultivar
+    identity_status carries the crop-list confidence. WFO ids are null throughout (site unreachable at build); NCBI
+    taxids come from GBIF's mirror of the NCBI checklist.
+taxa:
+- id: eruca-vesicaria
+  species_key: Eruca vesicaria
+  accepted_name: Eruca vesicaria
+  authority: (L.) Cav.
+  family: Brassicaceae
+  common_names:
+  - Arugula
+  identifiers:
+    ncbi_taxid: 180536
+    powo_id: urn:lsid:ipni.org:names:1137625-2
+    gbif_key: 5375920
+    wfo_id: null
+  synonyms:
+  - Eruca sativa Mill.
+  - Eruca vesicaria subsp. sativa (Mill.) Thell.
+  columns:
+  - leafy_greens
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-001
+    name: null
+    type: Salad rocket
+    list_category: leafy_greens
+    name_as_given: Eruca vesicaria subsp. sativa
+    identity_status: confirmed
+    note: Cultivar not recorded.
+  safety: null
+  taxonomy_note: The inventory names this subsp. sativa (arugula). POWO recognises no infraspecific taxa and places
+    the subspecies under the species. NCBI keeps Eruca vesicaria subsp. sativa as its own taxon (taxid 29727). NCBI
+    taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: brassica-rapa
+  species_key: Brassica rapa
+  accepted_name: Brassica rapa
+  authority: L.
+  family: Brassicaceae
+  common_names:
+  - Pac choi
+  - Turnip
+  - Chinese cabbage
+  identifiers:
+    ncbi_taxid: 3711
+    powo_id: urn:lsid:ipni.org:names:279485-1
+    gbif_key: 7903057
+    wfo_id: null
+  synonyms:
+  - Brassica rapa subsp. chinensis (L.) Hanelt
+  - Brassica rapa subsp. pekinensis (Lour.) Hanelt
+  - Brassica rapa subsp. rapa
+  columns:
+  - leafy_greens
+  - veggies
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-002
+    name: null
+    type: Heading
+    list_category: leafy_greens
+    name_as_given: Brassica rapa subsp. pekinensis
+    identity_status: confirmed
+    note: Cultivar not recorded.
+  - crop_id: GH-035
+    name: null
+    type: Pac choi
+    list_category: veggies
+    name_as_given: Brassica rapa subsp. chinensis
+    identity_status: check
+    note: Cultivar not recorded. May duplicate one of the named pac chois.
+  - crop_id: GH-036
+    name: Joi Choi F1
+    type: Pac choi
+    list_category: veggies
+    name_as_given: Brassica rapa subsp. chinensis
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-037
+    name: Little Shanghai
+    type: Green-stem (Shanghai)
+    list_category: veggies
+    name_as_given: Brassica rapa subsp. chinensis
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-038
+    name: Win-Win Choi F1
+    type: Pac choi
+    list_category: veggies
+    name_as_given: Brassica rapa subsp. chinensis
+    identity_status: confirmed
+    note: Typo 'Wi-Win' → Win-Win.
+  - crop_id: GH-051
+    name: Hakurei (probable)
+    type: Salad turnip
+    list_category: veggies
+    name_as_given: Brassica rapa subsp. rapa
+    identity_status: check
+    note: '''Hakuren'' is probably ''Hakurei''. Check packet.'
+  - crop_id: GH-052
+    name: Hirosaki Red
+    type: Red Japanese turnip
+    list_category: veggies
+    name_as_given: Brassica rapa subsp. rapa
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: Covers the inventory's subsp. chinensis (pak choi), pekinensis (napa cabbage) and rapa (turnip).
+    Only the species-rank ids were resolved; subspecies ids were not looked up. NCBI taxid read from the NCBI Taxonomy
+    checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not
+    be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org
+    could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: coriandrum-sativum
+  species_key: Coriandrum sativum
+  accepted_name: Coriandrum sativum
+  authority: L.
+  family: Apiaceae
+  common_names:
+  - Cilantro
+  - Cilantro / coriander
+  identifiers:
+    ncbi_taxid: 4047
+    powo_id: urn:lsid:ipni.org:names:840760-1
+    gbif_key: 3034871
+    wfo_id: null
+  synonyms: []
+  columns:
+  - herbs
+  - leafy_greens
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-003
+    name: Santo
+    type: Leaf
+    list_category: leafy_greens
+    name_as_given: Coriandrum sativum
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-004
+    name: Calypso
+    type: Leaf
+    list_category: leafy_greens
+    name_as_given: Coriandrum sativum
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-063
+    name: null
+    type: Leaf / seed
+    list_category: herbs
+    name_as_given: Coriandrum sativum
+    identity_status: check
+    note: Typo 'Corriander'. May duplicate Santo or Calypso under Leafy Greens.
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: beta-vulgaris
+  species_key: Beta vulgaris
+  accepted_name: Beta vulgaris
+  authority: L.
+  family: Amaranthaceae
+  common_names:
+  - Swiss chard
+  - Beet
+  identifiers:
+    ncbi_taxid: 161934
+    powo_id: urn:lsid:ipni.org:names:164505-1
+    gbif_key: 8971274
+    wfo_id: null
+  synonyms:
+  - Beta vulgaris subsp. vulgaris
+  - Beta vulgaris Cicla Group (chard)
+  - Beta vulgaris Conditiva Group (beetroot)
+  columns:
+  - leafy_greens
+  - veggies
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-005
+    name: Bright Lights
+    type: Leaf beet
+    list_category: leafy_greens
+    name_as_given: Beta vulgaris subsp. vulgaris (Cicla Group)
+    identity_status: confirmed
+    note: Typo 'Swish' → Swiss.
+  - crop_id: GH-006
+    name: Rhubarb
+    type: Leaf beet
+    list_category: leafy_greens
+    name_as_given: Beta vulgaris subsp. vulgaris (Cicla Group)
+    identity_status: confirmed
+    note: Typo 'Swish' → Swiss.
+  - crop_id: GH-027
+    name: null
+    type: Root
+    list_category: veggies
+    name_as_given: Beta vulgaris subsp. vulgaris (Conditiva Group)
+    identity_status: confirmed
+    note: Cultivar name not recorded. Same species as chard.
+  safety: null
+  taxonomy_note: NCBI species taxid is 161934. NCBI Beta vulgaris subsp. vulgaris is taxid 3555, and the Cicla Group
+    name maps to NCBI 1527200. Chenopodiaceae is included in Amaranthaceae under APG IV. NCBI taxid read from the
+    NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages
+    could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because
+    worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: brassica-oleracea
+  species_key: Brassica oleracea
+  accepted_name: Brassica oleracea
+  authority: L.
+  family: Brassicaceae
+  common_names:
+  - Collards
+  - Kohlrabi
+  identifiers:
+    ncbi_taxid: 3712
+    powo_id: urn:lsid:ipni.org:names:279435-1
+    gbif_key: 3042845
+    wfo_id: null
+  synonyms:
+  - Brassica oleracea Viridis Group (collards/kale)
+  - Brassica oleracea Gongylodes Group (kohlrabi)
+  columns:
+  - leafy_greens
+  - veggies
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-007
+    name: null
+    type: Leaf
+    list_category: leafy_greens
+    name_as_given: Brassica oleracea (Viridis Group)
+    identity_status: confirmed
+    note: Cultivar not recorded.
+  - crop_id: GH-033
+    name: null
+    type: Swollen stem
+    list_category: veggies
+    name_as_given: Brassica oleracea (Gongylodes Group)
+    identity_status: confirmed
+    note: Cultivar not recorded.
+  safety: null
+  taxonomy_note: In NCBI, B. oleracea var. viridis is taxid 3713. Cultivar groups have no separate POWO or GBIF
+    ids. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: foeniculum-vulgare
+  species_key: Foeniculum vulgare
+  accepted_name: Foeniculum vulgare
+  authority: Mill.
+  family: Apiaceae
+  common_names:
+  - Florence fennel
+  identifiers:
+    ncbi_taxid: 2849586
+    powo_id: urn:lsid:ipni.org:names:842680-1
+    gbif_key: 3034922
+    wfo_id: null
+  synonyms:
+  - Anethum foeniculum L. (the NCBI accepted name)
+  - Foeniculum vulgare Azoricum Group (Florence fennel)
+  columns:
+  - herbs
+  - leafy_greens
+  - medicinal
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-008
+    name: Dragon F1
+    type: Bulb
+    list_category: leafy_greens
+    name_as_given: Foeniculum vulgare (Azoricum Group)
+    identity_status: confirmed
+    note: Listed twice (also under Herbs). 'Dragon' is a bulb fennel, not tarragon.
+  - crop_id: GH-066
+    name: Dragon F1
+    type: Bulb
+    list_category: herbs
+    name_as_given: Foeniculum vulgare (Azoricum Group)
+    identity_status: confirmed
+    note: DUPLICATE of the Leafy Greens entry.
+  - crop_id: GH-082
+    name: Preludio
+    type: Bulb
+    list_category: medicinal
+    name_as_given: Foeniculum vulgare (Azoricum Group)
+    identity_status: confirmed
+    note: A second bulb fennel, distinct from Dragon.
+  safety: null
+  taxonomy_note: Taxonomies disagree here. POWO and GBIF accept Foeniculum vulgare Mill., but NCBI treats F. vulgare
+    as a synonym of Anethum foeniculum L. (taxid 2849586). The older NCBI taxid 48038 for F. vulgare did not appear
+    in the mirror and was not verified. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset
+    fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited,
+    E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots
+    failure).
+  as_of: '2026-09-23'
+- id: allium-ampeloprasum
+  species_key: Allium ampeloprasum
+  accepted_name: Allium ampeloprasum
+  authority: L.
+  family: Amaryllidaceae
+  common_names:
+  - Leek
+  identifiers:
+    ncbi_taxid: 4681
+    powo_id: urn:lsid:ipni.org:names:332079-2
+    gbif_key: 2856037
+    wfo_id: null
+  synonyms:
+  - Allium porrum L.
+  - Allium ampeloprasum Porrum Group (leek)
+  columns:
+  - leafy_greens
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-009
+    name: null
+    type: Stem
+    list_category: leafy_greens
+    name_as_given: Allium ampeloprasum (Porrum Group)
+    identity_status: confirmed
+    note: Cultivar not recorded.
+  safety: null
+  taxonomy_note: The inventory's leek belongs to the Porrum group. Alliaceae is included in Amaryllidaceae under
+    APG IV. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: spinacia-oleracea
+  species_key: Spinacia oleracea
+  accepted_name: Spinacia oleracea
+  authority: L.
+  family: Amaranthaceae
+  common_names:
+  - Spinach
+  identifiers:
+    ncbi_taxid: 3562
+    powo_id: urn:lsid:ipni.org:names:167384-1
+    gbif_key: 3083647
+    wfo_id: null
+  synonyms: []
+  columns:
+  - leafy_greens
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-010
+    name: Flamingo
+    type: Smooth-leaf
+    list_category: leafy_greens
+    name_as_given: Spinacia oleracea
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-011
+    name: Sunangel
+    type: Savoyed
+    list_category: leafy_greens
+    name_as_given: Spinacia oleracea
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: lactuca-sativa
+  species_key: Lactuca sativa
+  accepted_name: Lactuca sativa
+  authority: L.
+  family: Asteraceae
+  common_names:
+  - Lettuce
+  identifiers:
+    ncbi_taxid: 4236
+    powo_id: urn:lsid:ipni.org:names:228239-1
+    gbif_key: 7403263
+    wfo_id: null
+  synonyms: []
+  columns:
+  - leafy_greens
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-012
+    name: Buttercrunch
+    type: Butterhead (Bibb)
+    list_category: leafy_greens
+    name_as_given: Lactuca sativa
+    identity_status: confirmed
+    note: Typo 'Buttercruch' → Buttercrunch.
+  - crop_id: GH-013
+    name: Rex
+    type: Butterhead
+    list_category: leafy_greens
+    name_as_given: Lactuca sativa
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-014
+    name: Salanova Green Butter
+    type: Butterhead (Salanova)
+    list_category: leafy_greens
+    name_as_given: Lactuca sativa
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-015
+    name: Salanova Green Oakleaf
+    type: Oakleaf (Salanova)
+    list_category: leafy_greens
+    name_as_given: Lactuca sativa
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-016
+    name: Salanova Green Sweet Crisp
+    type: Crisp (Salanova)
+    list_category: leafy_greens
+    name_as_given: Lactuca sativa
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-017
+    name: Crispino (probable)
+    type: Iceberg
+    list_category: leafy_greens
+    name_as_given: Lactuca sativa
+    identity_status: check
+    note: '''Crispiro'' is probably ''Crispino'' iceberg. Check packet.'
+  - crop_id: GH-018
+    name: Salanova Red Oakleaf
+    type: Oakleaf (Salanova)
+    list_category: leafy_greens
+    name_as_given: Lactuca sativa
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-019
+    name: Outredgeous (probable)
+    type: Red romaine
+    list_category: leafy_greens
+    name_as_given: Lactuca sativa
+    identity_status: check
+    note: Probably 'Outredgeous', the red romaine grown on the ISS in NASA's Veggie system. Good story for a MARS
+      greenhouse.
+  - crop_id: GH-020
+    name: Salanova Red Butter
+    type: Butterhead (Salanova)
+    list_category: leafy_greens
+    name_as_given: Lactuca sativa
+    identity_status: confirmed
+    note: Typo 'Solanova' → Salanova.
+  - crop_id: GH-021
+    name: Waldmann's Dark Green
+    type: Green leaf
+    list_category: leafy_greens
+    name_as_given: Lactuca sativa
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-022
+    name: Coastal Star
+    type: Romaine
+    list_category: leafy_greens
+    name_as_given: Lactuca sativa
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-023
+    name: Dragoon
+    type: Romaine
+    list_category: leafy_greens
+    name_as_given: Lactuca sativa
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-024
+    name: Sunland
+    type: Romaine
+    list_category: leafy_greens
+    name_as_given: Lactuca sativa
+    identity_status: confirmed
+    note: Typo 'Romane' → Romaine.
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: phaseolus-vulgaris
+  species_key: Phaseolus vulgaris
+  accepted_name: Phaseolus vulgaris
+  authority: L.
+  family: Fabaceae
+  common_names:
+  - Common bean
+  identifiers:
+    ncbi_taxid: 3885
+    powo_id: urn:lsid:ipni.org:names:514191-1
+    gbif_key: 5350452
+    wfo_id: null
+  synonyms: []
+  columns:
+  - veggies
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-025
+    name: null
+    type: Pole
+    list_category: veggies
+    name_as_given: Phaseolus vulgaris
+    identity_status: check
+    note: Cultivar not recorded. Assumed common bean; confirm it isn't a runner or yard-long bean.
+  - crop_id: GH-026
+    name: null
+    type: Bush
+    list_category: veggies
+    name_as_given: Phaseolus vulgaris
+    identity_status: confirmed
+    note: Cultivar not recorded.
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: apium-graveolens
+  species_key: Apium graveolens
+  accepted_name: Apium graveolens
+  authority: L.
+  family: Apiaceae
+  common_names:
+  - Celery
+  identifiers:
+    ncbi_taxid: 4045
+    powo_id: urn:lsid:ipni.org:names:838067-1
+    gbif_key: 5371879
+    wfo_id: null
+  synonyms:
+  - Apium graveolens var. dulce (Mill.) Pers.
+  - Apium graveolens Dulce Group
+  columns:
+  - veggies
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-028
+    name: Conquistador
+    type: Stalk
+    list_category: veggies
+    name_as_given: Apium graveolens var. dulce
+    identity_status: confirmed
+    note: Typos 'Cellery' and 'Conquistqador'.
+  - crop_id: GH-029
+    name: Kelvin
+    type: Stalk
+    list_category: veggies
+    name_as_given: Apium graveolens var. dulce
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: The inventory's var. dulce (celery) is NCBI 'Apium graveolens Dulce Group', taxid 117781. NCBI
+    taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: cucumis-sativus
+  species_key: Cucumis sativus
+  accepted_name: Cucumis sativus
+  authority: L.
+  family: Cucurbitaceae
+  common_names:
+  - Cucumber
+  identifiers:
+    ncbi_taxid: 3659
+    powo_id: urn:lsid:ipni.org:names:292296-1
+    gbif_key: 2874569
+    wfo_id: null
+  synonyms: []
+  columns:
+  - veggies
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-030
+    name: Corinto
+    type: Slicing, parthenocarpic
+    list_category: veggies
+    name_as_given: Cucumis sativus
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: solanum-melongena
+  species_key: Solanum melongena
+  accepted_name: Solanum melongena
+  authority: L.
+  family: Solanaceae
+  common_names:
+  - Eggplant
+  identifiers:
+    ncbi_taxid: 4111
+    powo_id: urn:lsid:ipni.org:names:820053-1
+    gbif_key: 2930617
+    wfo_id: null
+  synonyms: []
+  columns:
+  - veggies
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-031
+    name: Orient Express
+    type: Asian (long)
+    list_category: veggies
+    name_as_given: Solanum melongena
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: brassica-napus
+  species_key: Brassica napus
+  accepted_name: Brassica napus
+  authority: L.
+  family: Brassicaceae
+  common_names:
+  - Kale
+  identifiers:
+    ncbi_taxid: 3708
+    powo_id: urn:lsid:ipni.org:names:279419-1
+    gbif_key: 3042636
+    wfo_id: null
+  synonyms:
+  - Brassica napus Pabularia Group (Red Russian kale)
+  - Brassica napus var. pabularia (DC.) Rchb.
+  columns:
+  - veggies
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-032
+    name: Red Russian
+    type: Siberian kale
+    list_category: veggies
+    name_as_given: Brassica napus (Pabularia Group)
+    identity_status: confirmed
+    note: Red Russian kale is Brassica napus (Siberian kale), not B. oleracea like most kales.
+  safety: null
+  taxonomy_note: Red Russian kale belongs to B. napus, not B. oleracea. No separate id was resolved for the Pabularia
+    group. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: allium-fistulosum
+  species_key: Allium fistulosum
+  accepted_name: Allium fistulosum
+  authority: L.
+  family: Amaryllidaceae
+  common_names:
+  - Bunching onion
+  identifiers:
+    ncbi_taxid: 35875
+    powo_id: urn:lsid:ipni.org:names:528046-1
+    gbif_key: 2856504
+    wfo_id: null
+  synonyms: []
+  columns:
+  - veggies
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-034
+    name: Parade
+    type: Scallion
+    list_category: veggies
+    name_as_given: Allium fistulosum
+    identity_status: check
+    note: Assumed A. fistulosum; some bunching onions are A. cepa. Check packet.
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: pisum-sativum
+  species_key: Pisum sativum
+  accepted_name: Lathyrus oleraceus
+  authority: Lam.
+  family: Fabaceae
+  common_names:
+  - Snap pea
+  identifiers:
+    ncbi_taxid: 3888
+    powo_id: urn:lsid:ipni.org:names:501912-1
+    gbif_key: 5347846
+    wfo_id: null
+  synonyms:
+  - Pisum sativum L. (POWO urn:lsid:ipni.org:names:60454055-2; GBIF 5347845)
+  - Pisum sativum var. macrocarpon Ser.
+  columns:
+  - veggies
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-039
+    name: Sugar Snap
+    type: Edible pod
+    list_category: veggies
+    name_as_given: Pisum sativum var. macrocarpon
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: POWO, GBIF and NCBI all now accept Lathyrus oleraceus Lam., with Pisum sativum L. as a synonym.
+    NCBI taxid 3888 now carries the name Lathyrus oleraceus. The ids given are for the accepted name. No separate
+    id was resolved for var. macrocarpon (snow pea). NCBI taxid read from the NCBI Taxonomy checklist that GBIF
+    mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly
+    (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could
+    not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: capsicum-annuum
+  species_key: Capsicum annuum
+  accepted_name: Capsicum annuum
+  authority: L.
+  family: Solanaceae
+  common_names:
+  - Hot pepper
+  - Sweet pepper
+  identifiers:
+    ncbi_taxid: 4072
+    powo_id: urn:lsid:ipni.org:names:316944-2
+    gbif_key: 2932944
+    wfo_id: null
+  synonyms: []
+  columns:
+  - veggies
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-040
+    name: King Arthur
+    type: Bell
+    list_category: veggies
+    name_as_given: Capsicum annuum
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-041
+    name: Cayennetta
+    type: Cayenne
+    list_category: veggies
+    name_as_given: Capsicum annuum
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-042
+    name: Red Rocket
+    type: Cayenne
+    list_category: veggies
+    name_as_given: Capsicum annuum
+    identity_status: check
+    note: The Johnny's 'Red Rocket' is a hot cayenne, but a sweet 'Red Rocket' is also sold. Check packet (it decides
+      whether capsaicin is present).
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: raphanus-sativus
+  species_key: Raphanus sativus
+  accepted_name: Raphanus raphanistrum subsp. sativus
+  authority: (L.) Schmalh.
+  family: Brassicaceae
+  common_names:
+  - Radish
+  identifiers:
+    ncbi_taxid: 3726
+    powo_id: urn:lsid:ipni.org:names:77159305-1
+    gbif_key: 7678610
+    wfo_id: null
+  synonyms:
+  - Raphanus sativus L. (POWO urn:lsid:ipni.org:names:288491-1)
+  columns:
+  - veggies
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-043
+    name: Donato
+    type: Round
+    list_category: veggies
+    name_as_given: Raphanus sativus
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-044
+    name: Sora
+    type: Round
+    list_category: veggies
+    name_as_given: Raphanus sativus
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: POWO accepts Raphanus raphanistrum subsp. sativus (L.) Schmalh., confirmed on the POWO taxon page;
+    GBIF gives the authority as '(L.) Domin'. GBIF and NCBI both accept Raphanus sativus L. (GBIF key 7678610, NCBI
+    3726). In GBIF, 'R. raphanistrum subsp. sativus' is a synonym (key 7772218) of R. sativus, so the GBIF key given
+    is for R. sativus. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: allium-cepa
+  species_key: Allium cepa
+  accepted_name: Allium cepa
+  authority: L.
+  family: Amaryllidaceae
+  common_names:
+  - Shallot
+  identifiers:
+    ncbi_taxid: 4679
+    powo_id: urn:lsid:ipni.org:names:527795-1
+    gbif_key: 2857697
+    wfo_id: null
+  synonyms:
+  - Allium cepa Aggregatum Group (shallot)
+  - Allium cepa var. aggregatum G.Don
+  - Allium ascalonicum auct.
+  columns:
+  - veggies
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-045
+    name: Conservor F1
+    type: Seed shallot
+    list_category: veggies
+    name_as_given: Allium cepa (Aggregatum Group)
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-046
+    name: Matador
+    type: Seed shallot
+    list_category: veggies
+    name_as_given: Allium cepa (Aggregatum Group)
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: Shallot is NCBI 'Allium cepa var. aggregatum', taxid 28911, and NCBI's var. ascalonicum is a synonym
+    of it. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: solanum-lycopersicum
+  species_key: Solanum lycopersicum
+  accepted_name: Solanum lycopersicum
+  authority: L.
+  family: Solanaceae
+  common_names:
+  - Tomato
+  identifiers:
+    ncbi_taxid: 4081
+    powo_id: urn:lsid:ipni.org:names:316947-2
+    gbif_key: 2930137
+    wfo_id: null
+  synonyms:
+  - Lycopersicon esculentum Mill.
+  columns:
+  - veggies
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-047
+    name: Red Robin
+    type: Dwarf
+    list_category: veggies
+    name_as_given: Solanum lycopersicum
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-048
+    name: Tiny Tim
+    type: Dwarf cherry
+    list_category: veggies
+    name_as_given: Solanum lycopersicum
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-049
+    name: Bush Champion II
+    type: Bush
+    list_category: veggies
+    name_as_given: Solanum lycopersicum
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-050
+    name: New Big Dwarf
+    type: Dwarf
+    list_category: veggies
+    name_as_given: Solanum lycopersicum
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: ocimum-basilicum
+  species_key: Ocimum basilicum
+  accepted_name: Ocimum basilicum
+  authority: L.
+  family: Lamiaceae
+  common_names:
+  - Sweet basil
+  - Cinnamon basil
+  - Lemon basil
+  - Purple basil
+  - Thai basil
+  identifiers:
+    ncbi_taxid: 39350
+    powo_id: urn:lsid:ipni.org:names:452874-1
+    gbif_key: 2927096
+    wfo_id: null
+  synonyms:
+  - 'Ocimum × africanum Lour. (lemon basil): POWO urn:lsid:ipni.org:names:452853-1, GBIF 3898584, NCBI 204098'
+  - Ocimum × citriodorum Vis. (syn. of O. × africanum)
+  columns:
+  - herbs
+  identity_status: confirmed
+  profiled: true
+  profile_depth: light
+  cultivars:
+  - crop_id: GH-053
+    name: Genovese
+    type: Sweet
+    list_category: herbs
+    name_as_given: Ocimum basilicum
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-054
+    name: null
+    type: Compact / dwarf
+    list_category: herbs
+    name_as_given: Ocimum basilicum
+    identity_status: check
+    note: Cultivar not recorded. Could be O. basilicum or O. minimum (Greek bush basil).
+  - crop_id: GH-055
+    name: Cinnamon
+    type: Aromatic
+    list_category: herbs
+    name_as_given: Ocimum basilicum
+    identity_status: confirmed
+    note: Typo. High methyl cinnamate chemotype.
+  - crop_id: GH-056
+    name: Mrs. Burns' Lemon
+    type: Citrus
+    list_category: herbs
+    name_as_given: Ocimum basilicum (lemon group; sometimes O. × africanum)
+    identity_status: check
+    note: 'Taxonomy disputed: often treated as the hybrid O. × africanum. Citral chemotype.'
+  - crop_id: GH-057
+    name: Red Rubin
+    type: Purple
+    list_category: herbs
+    name_as_given: Ocimum basilicum
+    identity_status: confirmed
+    note: Anthocyanin-rich.
+  - crop_id: GH-058
+    name: null
+    type: Thai
+    list_category: herbs
+    name_as_given: Ocimum basilicum var. thyrsiflorum
+    identity_status: confirmed
+    note: Cultivar not recorded.
+  safety: null
+  taxonomy_note: Lemon basil should be recorded as Ocimum × africanum Lour. rather than O. basilicum. Its ids were
+    verified separately and are listed under synonyms. NCBI taxid read from the NCBI Taxonomy checklist that GBIF
+    mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly
+    (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could
+    not be fetched (TLS/robots failure). 'Mrs Burns' Lemon' is often treated as the hybrid O. × africanum (NCBI
+    204098, POWO 452853-1, GBIF 3898584); kept under O. basilicum pending confirmation.
+  as_of: '2026-09-23'
+- id: anthriscus-cerefolium
+  species_key: Anthriscus cerefolium
+  accepted_name: Anthriscus cerefolium
+  authority: (L.) Hoffm.
+  family: Apiaceae
+  common_names:
+  - Chervil
+  identifiers:
+    ncbi_taxid: 40888
+    powo_id: urn:lsid:ipni.org:names:837913-1
+    gbif_key: 5371746
+    wfo_id: null
+  synonyms: []
+  columns:
+  - herbs
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-059
+    name: Vertissimo
+    type: Leaf
+    list_category: herbs
+    name_as_given: Anthriscus cerefolium
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: allium-schoenoprasum
+  species_key: Allium schoenoprasum
+  accepted_name: Allium schoenoprasum
+  authority: L.
+  family: Amaryllidaceae
+  common_names:
+  - Chives
+  identifiers:
+    ncbi_taxid: 74900
+    powo_id: urn:lsid:ipni.org:names:528823-1
+    gbif_key: 2855860
+    wfo_id: null
+  synonyms: []
+  columns:
+  - herbs
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-060
+    name: Purly
+    type: Leaf
+    list_category: herbs
+    name_as_given: Allium schoenoprasum
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-061
+    name: Staro
+    type: Leaf
+    list_category: herbs
+    name_as_given: Allium schoenoprasum
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: allium-tuberosum
+  species_key: Allium tuberosum
+  accepted_name: Allium tuberosum
+  authority: Rottler ex Spreng.
+  family: Amaryllidaceae
+  common_names:
+  - Garlic chives
+  identifiers:
+    ncbi_taxid: 4683
+    powo_id: urn:lsid:ipni.org:names:529062-1
+    gbif_key: 2856297
+    wfo_id: null
+  synonyms: []
+  columns:
+  - herbs
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-062
+    name: null
+    type: Leaf
+    list_category: herbs
+    name_as_given: Allium tuberosum
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: anethum-graveolens
+  species_key: Anethum graveolens
+  accepted_name: Anethum graveolens
+  authority: L.
+  family: Apiaceae
+  common_names:
+  - Dill
+  identifiers:
+    ncbi_taxid: 40922
+    powo_id: urn:lsid:ipni.org:names:837530-1
+    gbif_key: 3034646
+    wfo_id: null
+  synonyms: []
+  columns:
+  - herbs
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-064
+    name: Fernleaf
+    type: Dwarf leaf
+    list_category: herbs
+    name_as_given: Anethum graveolens
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-065
+    name: Teddy
+    type: Dwarf leaf
+    list_category: herbs
+    name_as_given: Anethum graveolens
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: melissa-officinalis
+  species_key: Melissa officinalis
+  accepted_name: Melissa officinalis
+  authority: L.
+  family: Lamiaceae
+  common_names:
+  - Lemon balm
+  identifiers:
+    ncbi_taxid: 39338
+    powo_id: urn:lsid:ipni.org:names:450084-1
+    gbif_key: 5341501
+    wfo_id: null
+  synonyms: []
+  columns:
+  - herbs
+  - medicinal
+  identity_status: confirmed
+  profiled: true
+  profile_depth: light
+  cultivars:
+  - crop_id: GH-067
+    name: null
+    type: Leaf
+    list_category: herbs
+    name_as_given: Melissa officinalis
+    identity_status: confirmed
+    note: Also listed under Medicinal. Same plant or two plantings?
+  - crop_id: GH-084
+    name: null
+    type: Leaf
+    list_category: medicinal
+    name_as_given: Melissa officinalis
+    identity_status: confirmed
+    note: DUPLICATE of the Herbs entry (same plant or two plantings?).
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: origanum-majorana
+  species_key: Origanum majorana
+  accepted_name: Origanum majorana
+  authority: L.
+  family: Lamiaceae
+  common_names:
+  - Sweet marjoram
+  identifiers:
+    ncbi_taxid: 268884
+    powo_id: urn:lsid:ipni.org:names:453303-1
+    gbif_key: 2926615
+    wfo_id: null
+  synonyms: []
+  columns:
+  - herbs
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-068
+    name: null
+    type: Leaf
+    list_category: herbs
+    name_as_given: Origanum majorana
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: mentha-spicata
+  species_key: Mentha spicata
+  accepted_name: Mentha spicata
+  authority: L.
+  family: Lamiaceae
+  common_names:
+  - Mint
+  identifiers:
+    ncbi_taxid: 29719
+    powo_id: urn:lsid:ipni.org:names:451162-1
+    gbif_key: 2927175
+    wfo_id: null
+  synonyms: []
+  columns:
+  - herbs
+  identity_status: check
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-069
+    name: null
+    type: Leaf
+    list_category: herbs
+    name_as_given: Mentha spicata (probable)
+    identity_status: unresolved
+    note: '''Common mint'' usually means spearmint, but it could be another Mentha. Check label or crush-test (spearmint
+      = carvone; peppermint = menthol).'
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure). Inventory entry is 'Mint,
+    Common' — spearmint is the usual meaning but unconfirmed.
+  as_of: '2026-09-23'
+  candidates:
+  - mentha-spicata
+- id: brassica-carinata
+  species_key: Brassica carinata
+  accepted_name: Mutarda carinata
+  authority: (A.Braun) D.A.German
+  family: Brassicaceae
+  common_names:
+  - Ethiopian kale / Amara mustard
+  identifiers:
+    ncbi_taxid: 52824
+    powo_id: urn:lsid:ipni.org:names:77313886-1
+    gbif_key: 3042925
+    wfo_id: null
+  synonyms:
+  - Brassica carinata A.Braun (POWO urn:lsid:ipni.org:names:279278-1)
+  - Sinabraca carinata (A.Braun) G.H.Loos
+  columns:
+  - herbs
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-070
+    name: Amara
+    type: Leaf
+    list_category: herbs
+    name_as_given: Brassica carinata
+    identity_status: confirmed
+    note: Not the usual mustard green (B. juncea). Amara is Ethiopian mustard, B. carinata.
+  safety: null
+  taxonomy_note: Taxonomies disagree here. POWO accepts Mutarda carinata and treats Brassica carinata as a synonym.
+    GBIF and NCBI still accept Brassica carinata A.Braun (GBIF 3042925, NCBI 52824, with Mutarda carinata as an
+    NCBI synonym). The GBIF key given is for B. carinata, because a GBIF match on 'Mutarda carinata' only reached
+    genus level. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: origanum-vulgare
+  species_key: Origanum vulgare
+  accepted_name: Origanum vulgare
+  authority: L.
+  family: Lamiaceae
+  common_names:
+  - Greek oregano
+  identifiers:
+    ncbi_taxid: 39352
+    powo_id: urn:lsid:ipni.org:names:453395-1
+    gbif_key: 2926612
+    wfo_id: null
+  synonyms:
+  - Origanum vulgare subsp. hirtum (Link) A.Terracc. (POWO urn:lsid:ipni.org:names:60473145-2; NCBI 497766)
+  - Origanum hirtum Link
+  columns:
+  - herbs
+  identity_status: confirmed
+  profiled: true
+  profile_depth: light
+  cultivars:
+  - crop_id: GH-071
+    name: null
+    type: Leaf
+    list_category: herbs
+    name_as_given: Origanum vulgare subsp. hirtum
+    identity_status: confirmed
+    note: Carvacrol-rich subspecies.
+  safety: null
+  taxonomy_note: The inventory names this subsp. hirtum (Greek oregano). Its POWO and NCBI ids are listed under
+    synonyms. No GBIF key was resolved for the subspecies. NCBI taxid read from the NCBI Taxonomy checklist that
+    GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly
+    (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could
+    not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: petroselinum-crispum
+  species_key: Petroselinum crispum
+  accepted_name: Petroselinum crispum
+  authority: (Mill.) Fuss
+  family: Apiaceae
+  common_names:
+  - Flat-leaf parsley
+  identifiers:
+    ncbi_taxid: 4043
+    powo_id: urn:lsid:ipni.org:names:60442790-2
+    gbif_key: 7828157
+    wfo_id: null
+  synonyms: []
+  columns:
+  - herbs
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-072
+    name: Giant of Italy
+    type: Flat-leaf
+    list_category: herbs
+    name_as_given: Petroselinum crispum (neapolitanum type)
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: salvia-rosmarinus
+  species_key: Salvia rosmarinus
+  accepted_name: Salvia rosmarinus
+  authority: Spenn.
+  family: Lamiaceae
+  common_names:
+  - Rosemary
+  identifiers:
+    ncbi_taxid: 39367
+    powo_id: urn:lsid:ipni.org:names:457138-1
+    gbif_key: 10902460
+    wfo_id: null
+  synonyms:
+  - Rosmarinus officinalis L. (POWO urn:lsid:ipni.org:names:455509-1; GBIF 2926634; NCBI synonym of 39367)
+  columns:
+  - herbs
+  - medicinal
+  identity_status: confirmed
+  profiled: true
+  profile_depth: light
+  cultivars:
+  - crop_id: GH-073
+    name: null
+    type: Leaf
+    list_category: herbs
+    name_as_given: Salvia rosmarinus (syn. Rosmarinus officinalis)
+    identity_status: confirmed
+    note: Typo. Also listed under Medicinal.
+  - crop_id: GH-089
+    name: null
+    type: Leaf
+    list_category: medicinal
+    name_as_given: Salvia rosmarinus (syn. Rosmarinus officinalis)
+    identity_status: confirmed
+    note: DUPLICATE of the Herbs entry (same plant or two plantings?).
+  safety: null
+  taxonomy_note: The inventory may use Rosmarinus officinalis. POWO, GBIF and NCBI all treat it as a synonym of
+    Salvia rosmarinus. NCBI has no separate taxid for R. officinalis; it is a name on taxid 39367. NCBI taxid read
+    from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the
+    NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is
+    null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: salvia-officinalis
+  species_key: Salvia officinalis
+  accepted_name: Salvia officinalis
+  authority: L.
+  family: Lamiaceae
+  common_names:
+  - Common sage
+  identifiers:
+    ncbi_taxid: 38868
+    powo_id: urn:lsid:ipni.org:names:456833-1
+    gbif_key: 2927004
+    wfo_id: null
+  synonyms: []
+  columns:
+  - herbs
+  - medicinal
+  identity_status: confirmed
+  profiled: true
+  profile_depth: deep
+  cultivars:
+  - crop_id: GH-074
+    name: null
+    type: Leaf
+    list_category: herbs
+    name_as_given: Salvia officinalis
+    identity_status: confirmed
+    note: Also listed under Medicinal.
+  - crop_id: GH-087
+    name: null
+    type: Leaf
+    list_category: medicinal
+    name_as_given: Salvia officinalis
+    identity_status: confirmed
+    note: DUPLICATE of the Herbs entry (same plant or two plantings?).
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: thymus-vulgaris
+  species_key: Thymus vulgaris
+  accepted_name: Thymus vulgaris
+  authority: L.
+  family: Lamiaceae
+  common_names:
+  - Common thyme
+  - Thyme
+  identifiers:
+    ncbi_taxid: 49992
+    powo_id: urn:lsid:ipni.org:names:461765-1
+    gbif_key: 5341442
+    wfo_id: null
+  synonyms: []
+  columns:
+  - herbs
+  - medicinal
+  identity_status: confirmed
+  profiled: true
+  profile_depth: light
+  cultivars:
+  - crop_id: GH-075
+    name: German Winter
+    type: Leaf
+    list_category: herbs
+    name_as_given: Thymus vulgaris
+    identity_status: confirmed
+    note: null
+  - crop_id: GH-090
+    name: null
+    type: Leaf
+    list_category: medicinal
+    name_as_given: Thymus vulgaris (probable)
+    identity_status: check
+    note: May be the German Winter plant listed under Herbs, or a separate thyme (e.g. lemon thyme, T. × citriodorus).
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: nasturtium-officinale
+  species_key: Nasturtium officinale
+  accepted_name: Nasturtium officinale
+  authority: W.T.Aiton
+  family: Brassicaceae
+  common_names:
+  - Watercress
+  identifiers:
+    ncbi_taxid: 65948
+    powo_id: urn:lsid:ipni.org:names:287534-1
+    gbif_key: 7701037
+    wfo_id: null
+  synonyms:
+  - Rorippa nasturtium-aquaticum (L.) Hayek
+  columns:
+  - herbs
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-076
+    name: null
+    type: Leaf
+    list_category: herbs
+    name_as_given: Nasturtium officinale
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: 'The authority differs: POWO gives W.T.Aiton, while the GBIF backbone gives R.Br. NCBI taxid read
+    from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the
+    NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is
+    null because worldfloraonline.org could not be fetched (TLS/robots failure).'
+  as_of: '2026-09-23'
+- id: ocimum-tenuiflorum
+  species_key: Ocimum tenuiflorum
+  accepted_name: Ocimum tenuiflorum
+  authority: L.
+  family: Lamiaceae
+  common_names:
+  - Holy basil
+  identifiers:
+    ncbi_taxid: 204149
+    powo_id: urn:lsid:ipni.org:names:453130-1
+    gbif_key: 2927100
+    wfo_id: null
+  synonyms:
+  - Ocimum sanctum L. (POWO urn:lsid:ipni.org:names:30252269-2; GBIF 2927101; NCBI synonym of 204149)
+  columns:
+  - medicinal
+  identity_status: check
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-077
+    name: null
+    type: Tulsi
+    list_category: medicinal
+    name_as_given: Ocimum tenuiflorum (syn. O. sanctum)
+    identity_status: check
+    note: Ask which tulsi. 'Rama' and 'Krishna' are O. tenuiflorum, but 'Vana' tulsi is O. gratissimum, a different
+      species.
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: calendula-officinalis
+  species_key: Calendula officinalis
+  accepted_name: Calendula officinalis
+  authority: L.
+  family: Asteraceae
+  common_names:
+  - Calendula
+  identifiers:
+    ncbi_taxid: 41496
+    powo_id: urn:lsid:ipni.org:names:187894-1
+    gbif_key: 5391480
+    wfo_id: null
+  synonyms: []
+  columns:
+  - medicinal
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-078
+    name: null
+    type: Flower
+    list_category: medicinal
+    name_as_given: Calendula officinalis
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: matricaria-chamomilla
+  species_key: Matricaria chamomilla
+  accepted_name: Matricaria chamomilla
+  authority: L.
+  family: Asteraceae
+  common_names:
+  - German chamomile
+  identifiers:
+    ncbi_taxid: 98504
+    powo_id: urn:lsid:ipni.org:names:154715-2
+    gbif_key: 8370958
+    wfo_id: null
+  synonyms:
+  - 'Matricaria recutita L. (POWO urn:lsid:ipni.org:names:231986-1; GBIF 3103774; NCBI: synonym of ''Matricaria
+    chamomilla var. recutita'', taxid 127986)'
+  - Chamomilla recutita (L.) Rauschert
+  columns:
+  - medicinal
+  identity_status: confirmed
+  profiled: true
+  profile_depth: guest
+  cultivars:
+  - crop_id: GH-079
+    name: null
+    type: Flower
+    list_category: medicinal
+    name_as_given: Matricaria chamomilla (syn. M. recutita)
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: 'POWO and GBIF treat M. recutita as a synonym of M. chamomilla. NCBI differs: it maps M. recutita
+    to the variety M. chamomilla var. recutita (taxid 127986), not to the species (98504). NCBI taxid read from
+    the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI
+    pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null
+    because worldfloraonline.org could not be fetched (TLS/robots failure).'
+  as_of: '2026-09-23'
+- id: taraxacum-officinale
+  species_key: Taraxacum officinale
+  accepted_name: Taraxacum sect. Taraxacum
+  authority: F.H.Wigg.
+  family: Asteraceae
+  common_names:
+  - Dandelion
+  identifiers:
+    ncbi_taxid: 50225
+    powo_id: urn:lsid:ipni.org:names:254151-1
+    gbif_key: 5394163
+    wfo_id: null
+  synonyms:
+  - Taraxacum officinale F.H.Wigg. (POWO urn:lsid:ipni.org:names:1003018-2, not accepted)
+  - Taraxacum officinale aggregate
+  columns:
+  - medicinal
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-080
+    name: null
+    type: Leaf / root
+    list_category: medicinal
+    name_as_given: Taraxacum officinale agg.
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: POWO does not accept T. officinale at species rank; it treats the name as a synonym of the aggregate
+    Taraxacum sect. Taraxacum, which gives the POWO id. GBIF and NCBI accept Taraxacum officinale (GBIF 5394163,
+    authority 'Weber ex F.H.Wigg.'; NCBI 50225). For an aggregate, the GBIF and NCBI ids are the practical choice.
+    NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: echinacea-purpurea
+  species_key: Echinacea purpurea
+  accepted_name: Echinacea purpurea
+  authority: (L.) Moench
+  family: Asteraceae
+  common_names:
+  - Purple coneflower
+  identifiers:
+    ncbi_taxid: 53751
+    powo_id: urn:lsid:ipni.org:names:1174497-2
+    gbif_key: 3150935
+    wfo_id: null
+  synonyms:
+  - Rudbeckia purpurea L.
+  columns:
+  - medicinal
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-081
+    name: null
+    type: Flower / root
+    list_category: medicinal
+    name_as_given: Echinacea purpurea
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: tanacetum-parthenium
+  species_key: Tanacetum parthenium
+  accepted_name: Tanacetum parthenium
+  authority: (L.) Sch.Bip.
+  family: Asteraceae
+  common_names:
+  - Feverfew
+  identifiers:
+    ncbi_taxid: 127999
+    powo_id: urn:lsid:ipni.org:names:252460-1
+    gbif_key: 3118430
+    wfo_id: null
+  synonyms:
+  - Chrysanthemum parthenium (L.) Bernh.
+  - Matricaria parthenium L.
+  - Pyrethrum parthenium (L.) Sm.
+  columns:
+  - medicinal
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-083
+    name: null
+    type: Leaf / flower
+    list_category: medicinal
+    name_as_given: Tanacetum parthenium
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: leonurus-cardiaca
+  species_key: Leonurus cardiaca
+  accepted_name: Leonurus cardiaca
+  authority: L.
+  family: Lamiaceae
+  common_names:
+  - Motherwort
+  identifiers:
+    ncbi_taxid: 587664
+    powo_id: urn:lsid:ipni.org:names:449168-1
+    gbif_key: 5341389
+    wfo_id: null
+  synonyms: []
+  columns:
+  - medicinal
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-085
+    name: null
+    type: Leaf / flower
+    list_category: medicinal
+    name_as_given: Leonurus cardiaca
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: mentha-x-piperita
+  species_key: Mentha × piperita
+  accepted_name: Mentha × piperita
+  authority: L.
+  family: Lamiaceae
+  common_names:
+  - Peppermint
+  identifiers:
+    ncbi_taxid: 34256
+    powo_id: urn:lsid:ipni.org:names:450969-1
+    gbif_key: 8707933
+    wfo_id: null
+  synonyms:
+  - Mentha piperita L.
+  columns:
+  - medicinal
+  identity_status: confirmed
+  profiled: true
+  profile_depth: light
+  cultivars:
+  - crop_id: GH-086
+    name: null
+    type: Leaf
+    list_category: medicinal
+    name_as_given: Mentha × piperita
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: scutellaria-lateriflora
+  species_key: Scutellaria lateriflora
+  accepted_name: Scutellaria lateriflora
+  authority: L.
+  family: Lamiaceae
+  common_names:
+  - American skullcap
+  identifiers:
+    ncbi_taxid: 233893
+    powo_id: urn:lsid:ipni.org:names:458402-1
+    gbif_key: 5341325
+    wfo_id: null
+  synonyms: []
+  columns:
+  - medicinal
+  identity_status: confirmed
+  profiled: true
+  profile_depth: deep
+  cultivars: []
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: scutellaria-baicalensis
+  species_key: Scutellaria baicalensis
+  accepted_name: Scutellaria baicalensis
+  authority: Georgi
+  family: Lamiaceae
+  common_names:
+  - Chinese skullcap
+  - Huang qin
+  identifiers:
+    ncbi_taxid: 65409
+    powo_id: urn:lsid:ipni.org:names:458155-1
+    gbif_key: 7309014
+    wfo_id: null
+  synonyms: []
+  columns:
+  - medicinal
+  identity_status: confirmed
+  profiled: true
+  profile_depth: deep
+  cultivars: []
+  safety: null
+  taxonomy_note: NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52),
+    because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt).
+    WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'
+- id: scutellaria-sp
+  species_key: Scutellaria (unresolved)
+  accepted_name: Scutellaria sp.
+  authority: null
+  family: Lamiaceae
+  common_names:
+  - Skullcap
+  identifiers:
+    ncbi_taxid: null
+    powo_id: null
+    gbif_key: null
+    wfo_id: null
+  synonyms: []
+  columns:
+  - medicinal
+  identity_status: unresolved
+  profiled: true
+  profile_depth: deep
+  cultivars:
+  - crop_id: GH-088
+    name: null
+    type: Aerial parts or root
+    list_category: medicinal
+    name_as_given: Scutellaria lateriflora OR Scutellaria baicalensis
+    identity_status: unresolved
+    note: Two very different medicinal plants. American skullcap (S. lateriflora, aerial parts) is the usual tea
+      herb. Chinese skullcap (S. baicalensis, root; baicalin, baicalein) is the pharmacology workhorse. Check seed
+      packet.
+  safety: null
+  taxonomy_note: Inventory says only 'Skullcap'. Two very different medicinal plants are sold under that name; both
+    are profiled until the seed packet decides.
+  as_of: '2026-09-23'
+  candidates:
+  - scutellaria-lateriflora
+  - scutellaria-baicalensis
+- id: achillea-millefolium
+  species_key: Achillea millefolium
+  accepted_name: Achillea millefolium
+  authority: L.
+  family: Asteraceae
+  common_names:
+  - Yarrow
+  identifiers:
+    ncbi_taxid: 13329
+    powo_id: urn:lsid:ipni.org:names:2294-2
+    gbif_key: 3120060
+    wfo_id: null
+  synonyms: []
+  columns:
+  - medicinal
+  identity_status: confirmed
+  profiled: false
+  profile_depth: stub
+  cultivars:
+  - crop_id: GH-091
+    name: null
+    type: Aerial parts
+    list_category: medicinal
+    name_as_given: Achillea millefolium
+    identity_status: confirmed
+    note: null
+  safety: null
+  taxonomy_note: NCBI also has 'Achillea millefolium complex', taxid 1095267. NCBI taxid read from the NCBI Taxonomy
+    checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not
+    be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org
+    could not be fetched (TLS/robots failure).
+  as_of: '2026-09-23'

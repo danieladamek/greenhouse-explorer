@@ -1,0 +1,130 @@
+{
+ "taxa": [
+  {
+   "id": "beta-vulgaris",
+   "species_key": "Beta vulgaris",
+   "accepted_name": "Beta vulgaris",
+   "authority": "L.",
+   "family": "Amaranthaceae",
+   "common_names": [
+    "Swiss chard",
+    "Beet"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 161934,
+    "powo_id": "urn:lsid:ipni.org:names:164505-1",
+    "gbif_key": 8971274,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Beta vulgaris subsp. vulgaris",
+    "Beta vulgaris Cicla Group (chard)",
+    "Beta vulgaris Conditiva Group (beetroot)"
+   ],
+   "columns": [
+    "leafy_greens",
+    "veggies"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-005",
+     "name": "Bright Lights",
+     "type": "Leaf beet",
+     "list_category": "leafy_greens",
+     "name_as_given": "Beta vulgaris subsp. vulgaris (Cicla Group)",
+     "identity_status": "confirmed",
+     "note": "Typo 'Swish' → Swiss."
+    },
+    {
+     "crop_id": "GH-006",
+     "name": "Rhubarb",
+     "type": "Leaf beet",
+     "list_category": "leafy_greens",
+     "name_as_given": "Beta vulgaris subsp. vulgaris (Cicla Group)",
+     "identity_status": "confirmed",
+     "note": "Typo 'Swish' → Swiss."
+    },
+    {
+     "crop_id": "GH-027",
+     "name": null,
+     "type": "Root",
+     "list_category": "veggies",
+     "name_as_given": "Beta vulgaris subsp. vulgaris (Conditiva Group)",
+     "identity_status": "confirmed",
+     "note": "Cultivar name not recorded. Same species as chard."
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "NCBI species taxid is 161934. NCBI Beta vulgaris subsp. vulgaris is taxid 3555, and the Cicla Group name maps to NCBI 1527200. Chenopodiaceae is included in Amaranthaceae under APG IV. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-005",
+    "GH-006",
+    "GH-027"
+   ],
+   "n_plantings": 3,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-005",
+   "list_category": "Leafy Greens",
+   "original_entry": "Chard, Swish Bright Lights",
+   "common_name": "Swiss chard",
+   "cultivar": "Bright Lights",
+   "crop_type": "Leaf beet",
+   "scientific_name": "Beta vulgaris subsp. vulgaris (Cicla Group)",
+   "species_key": "Beta vulgaris",
+   "family": "Amaranthaceae",
+   "confidence": "High",
+   "note": "Typo 'Swish' → Swiss.",
+   "taxon_id": "beta-vulgaris",
+   "status": "current"
+  },
+  {
+   "id": "GH-006",
+   "list_category": "Leafy Greens",
+   "original_entry": "Chard, Swish Rhubarb Chard",
+   "common_name": "Swiss chard",
+   "cultivar": "Rhubarb",
+   "crop_type": "Leaf beet",
+   "scientific_name": "Beta vulgaris subsp. vulgaris (Cicla Group)",
+   "species_key": "Beta vulgaris",
+   "family": "Amaranthaceae",
+   "confidence": "High",
+   "note": "Typo 'Swish' → Swiss.",
+   "taxon_id": "beta-vulgaris",
+   "status": "current"
+  },
+  {
+   "id": "GH-027",
+   "list_category": "Veggies",
+   "original_entry": "Beets, Hybrid Round Red",
+   "common_name": "Beet",
+   "cultivar": "(not given; hybrid round red)",
+   "crop_type": "Root",
+   "scientific_name": "Beta vulgaris subsp. vulgaris (Conditiva Group)",
+   "species_key": "Beta vulgaris",
+   "family": "Amaranthaceae",
+   "confidence": "High",
+   "note": "Cultivar name not recorded. Same species as chard.",
+   "taxon_id": "beta-vulgaris",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

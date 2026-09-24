@@ -1,0 +1,66 @@
+# Greenhouse Explorer - primer chapter figures (topic mode: every figure is the builder's own synthesis).
+- id: fig-pathways
+  label: "Figure 1"
+  title: "Three routes from fixed carbon to the greenhouse's aroma and phenolic compounds"
+  kind: pathway
+  synthesis: conceptual
+  refs: [6, 10, 20, 24, 28, 29, 40, 42, 43, 106, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 132, 134]
+  data: figures/data/fig-pathways.json
+  caption: >-
+    Simplified biosynthetic map. Fixed carbon feeds the cytosolic mevalonate (MVA) and plastidic MEP pathways, which make the C5
+    units of all terpenoids, and the shikimate pathway, which makes phenylalanine and tyrosine for the phenylpropanoid and flavonoid
+    branches. End products are the curated compounds of this site; dashed edges compress several steps, and two edges mark
+    artefacts formed after the plant (carnosol on drying, chamazulene on steam distillation).
+  how_to_read: >-
+    Start at the top with the carbon Rubisco fixes and follow it down one of three trunks. On the terpenoid trunk, the length of
+    the prenyl chain decides the class: ten carbons for the monoterpenes of mint, sage, thyme and basil, fifteen for the
+    sesquiterpenes of chamomile and lemon balm, twenty for rosemary's carnosic acid and thirty for ursolic acid. On the phenolic
+    trunk, phenylalanine becomes cinnamic acid and then p-coumaric acid, which splits three ways: towards rosmarinic acid, towards
+    basil's eugenol and estragole, and, with three malonyl-CoA units, into the flavonoids. Each coloured end node opens its compound
+    page. Every edge carries the reference it was drawn from; hover it to see which.
+  explain:
+    - { on: "MVA / MEP", text: "Two pathways in two compartments make the same C5 building blocks; the plastid route mainly supplies monoterpenes and diterpenes, the cytosolic route sesquiterpenes and triterpenes [110,111]." }
+    - { on: "geranyl diphosphate", text: "The single C10 precursor from which basil, thyme, sage and peppermint synthases make different skeletons [113,114,121]." }
+    - { on: "γ-terpinene → thymol", text: "In thyme the aromatic ring of thymol is made from γ-terpinene by P450 enzymes and a dehydrogenase [42]." }
+    - { on: "matricin → chamazulene", text: "Not a plant step: matricin is at least partly converted to chamazulene during steam distillation [10]." }
+    - { on: "carnosic acid → carnosol", text: "Oxidation after harvest and during drying; carnosol is described as an artefact [43]." }
+    - { on: "rosmarinic acid", text: "Drawn as its two building blocks, caffeic acid and 3,4-dihydroxyphenyllactic acid, from phenylalanine and tyrosine; the enzyme sequence is not shown [118]." }
+    - { on: "chalcone synthase", text: "Condenses one p-coumaroyl-CoA with three malonyl-CoA, the entry to all flavonoids [123]." }
+    - { on: "chrysin branch", text: "A root-specific 4′-deoxyflavone pathway in Scutellaria baicalensis [28]." }
+  discussed_in: [5-three-pathways-that-make-the-greenhouse-smell, 4-primary-versus-secondary-metabolism]
+  source: >-
+    Drawn by the AI builder from the cited reviews and primary papers (refs listed on each node and edge). It is a conceptual
+    simplification, not a reproduction of any published figure: many enzymatic steps are compressed into dashed edges, the
+    ursolic-acid step is shown from work in a legume and grape rather than in the Lamiaceae, and the routes from p-coumaric acid
+    to chavicol and from flavanones to specific glycosides are drawn at class level without step-by-step sources.
+
+- id: fig-extraction
+  label: "Figure 2"
+  title: "How much of a herb's oil and phenolic fraction reaches a hot-water infusion"
+  kind: chart
+  synthesis: data
+  refs: [6, 10, 127, 131, 132]
+  chart: { type: grouped-bar, x: {field: plant, label: "Plant"}, y: {field: value_pct, label: "Recovered in hot-water infusion", unit: "%"}, series: fraction, ci: [value_low, value_high] }
+  data: figures/data/fig-extraction.csv
+  caption: >-
+    Share of each herb's essential-oil fraction and phenolic fraction recovered in a hot-water infusion, as published. Peppermint,
+    lemon balm and chamomile values are percentages of the content of the dried plant; the two sage values are percentages of what
+    an aqueous-ethanol extract of the same material recovered. Not a meta-analysis; conditions differ between studies.
+  how_to_read: >-
+    Each plant has up to two bars: essential oil (the volatile, water-shy fraction) and polyphenols (the water-soluble fraction).
+    Where a source gave a range, the bar sits at its midpoint and the whisker shows the range. Compare the two bars within a plant,
+    not heights across plants: the studies used different teas, times and temperatures, and the sage bars are measured against an
+    ethanol extract, not against the leaf. The pattern to look for is the gap - in every plant with both measurements, far more of
+    the phenolic fraction than of the oil reaches the cup.
+  explain:
+    - { on: "Peppermint oil bar", text: "EMA: 20-25 % of the oil was found in the tea after 10 minutes with boiling water; the bar is the midpoint [6]." }
+    - { on: "Lemon balm bars", text: "One study of dried leaf and its tea: 31 % of the oil and 93 % of the polyphenols were extracted [131]." }
+    - { on: "Chamomile bar", text: "EMA gives about 10-15 % of the oil constituents in tea, depending on preparation; no comparable polyphenol recovery figure was found [10]." }
+    - { on: "Sage bars", text: "Different comparator: thujone in tea as a share of a 60 % ethanol extract [127]; rosmarinic acid in a 60 °C water extract as a share of a 30 % ethanol extract, a ratio the builder computed from the published values [132]." }
+  discussed_in: [7-from-leaf-to-cup]
+  source: >-
+    Extracted by the AI builder from the reported values in refs 6, 10, 127, 131 and 132 (one row per value; the `ref` column names
+    the source). Values are as published except the sage rosmarinic-acid bar, which is the builder's ratio of two published
+    means (2154.02 and 3634.12 mg per 100 g dry matter, Table 3 of ref 132), and the midpoints of the two EMA ranges. Nothing was
+    pooled or re-analysed, and none of it was measured on the greenhouse's own plants. The two comparators (plant content vs
+    ethanol extract) are kept in the `comparator` column and must not be read as one scale.

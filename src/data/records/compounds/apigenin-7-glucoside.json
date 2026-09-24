@@ -1,0 +1,302 @@
+{
+ "compound": {
+  "id": "apigenin-7-glucoside",
+  "name": "apigenin-7-O-glucoside (cosmosiin, apigetrin)",
+  "synonyms": [
+   "cosmosiin",
+   "apigetrin",
+   "apigenin 7-O-β-D-glucoside"
+  ],
+  "class": "flavone-glycoside",
+  "subclass": "flavone 7-O-glucoside",
+  "one_liner": "The form in which chamomile actually stores apigenin (about 0.5 % of the flower; Ph. Eur. minimum 0.25 %).",
+  "palette_group": "shared",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "5-hydroxy-2-(4-hydroxyphenyl)-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",
+   "formula": "C21H20O10",
+   "mw": 432.38,
+   "mw_source": "computed_from_formula",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O",
+   "inchikey": "KMOUJOKENFFTPU-QNDFHXLGSA-N",
+   "cas": "578-74-5",
+   "pubchem_cid": 5280704,
+   "chebi_id": "CHEBI:16778",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280704/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "flavonoid (phenylpropanoid + malonate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "matricaria-chamomilla",
+    "plant_part": "flower (dried drug)",
+    "value": "minimum 0.25",
+    "unit": "%",
+    "basis": "dry_weight",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+    "verified": true,
+    "note": "EMA: apigenin-7-glucoside about 0.5 %; total flavonoids up to 6 %. Duke: APIGETRIN Flower (Leung & Foster 1995); APIGENIN-7-GLUCOSIDE Plant (citation mismatch, see flags). | Basis as recorded: Ph. Eur. minimum, dried drug"
+   },
+   {
+    "taxon_id": "origanum-vulgare",
+    "plant_part": "upper non-woody shoots at bloom onset (hydroethanolic extract)",
+    "value": null,
+    "unit": null,
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+    "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+    "database": null,
+    "database_url": null,
+    "verified": true,
+    "note": "Added per ruling as the plant form of apigenin in Greek oregano; reported present, not quantified in the verification notes."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": "Acts mainly as a pro-form: hydrolysed to apigenin in the gut [44].",
+   "functional_notes": null
+  },
+  "absorption_bioavailability": "Must be hydrolysed by intestinal or colonic bacterial β-glucosidases before the aglycone is absorbed [44].",
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": "hydrolysis to apigenin by intestinal/bacterial β-glucosidases [44]",
+   "formed_during": null,
+   "note": "Behaviour during infusion not sourced.",
+   "refs": [
+    44
+   ]
+  },
+  "safety_flags": [],
+  "teaching_note": "Chamomile tea delivers mostly the glucoside; the 'apigenin' of pharmacology papers is made from it in the gut [44].",
+  "citations": [
+   10,
+   21,
+   44
+  ],
+  "gaps": [
+   "Hydrolysis during infusion (curation note) not sourced.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "The form in which chamomile actually stores apigenin (about 0.5 % of the flower; [Ph. Eur.](#term:pharmacopoeia) minimum 0.25 %).",
+   "mechanism": "Acts mainly as a pro-form: hydrolysed to apigenin in the gut [44](#cite:44).",
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": "Must be hydrolysed by intestinal or colonic bacterial β-glucosidases before the [aglycone](#term:aglycone) is absorbed [44](#cite:44).",
+   "teaching_note": "Chamomile tea delivers mostly the [glucoside](#term:glycoside); the 'apigenin' of pharmacology papers is made from it in the gut [44](#cite:44).",
+   "processing_note": "Behaviour during [infusion](#term:infusion) not sourced.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "pharmacopoeia",
+   "aglycone",
+   "glycoside",
+   "infusion"
+  ],
+  "cited_refs": [
+   10,
+   21,
+   44
+  ],
+  "taxa": [
+   "matricaria-chamomilla",
+   "origanum-vulgare"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C21H20O10",
+   "inchikeyComputed": "KMOUJOKENFFTPU-QNDFHXLGSA-N",
+   "canonicalSmiles": "O=c1cc(-c2ccc(O)cc2)oc2cc(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c12",
+   "monoisotopicMass": 432.1056,
+   "averageMass": 432.381,
+   "descriptors": {
+    "heavyAtoms": 31,
+    "rings": 4,
+    "aromaticRings": 3,
+    "hbd": 6,
+    "hba": 10,
+    "rotatableBonds": 4,
+    "logP": 0.05,
+    "tpsa": 170,
+    "fsp3": 0.29,
+    "stereocenters": 5,
+    "charge": 0
+   },
+   "atomCount": 51,
+   "heavyAtomCount": 31,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       7,
+       21
+      ],
+      [
+       9,
+       30
+      ]
+     ]
+    },
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       2,
+       10
+      ],
+      [
+       3,
+       11
+      ],
+      [
+       4,
+       12
+      ],
+      [
+       5,
+       15
+      ]
+     ]
+    },
+    {
+     "id": "glycoside",
+     "name": "Sugar (glycoside / glucuronide)",
+     "matches": [
+      [
+       0,
+       13,
+       11,
+       3,
+       10,
+       2,
+       12,
+       4,
+       14
+      ]
+     ]
+    },
+    {
+     "id": "chromone",
+     "name": "Chromone (flavone core)",
+     "matches": [
+      [
+       8,
+       22,
+       24,
+       23,
+       25,
+       6,
+       19,
+       17,
+       16,
+       18,
+       21,
+       20
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/apigenin-7-glucoside.sdf",
+   "svg": {
+    "light": "structures/2d/apigenin-7-glucoside.svg",
+    "dark": "structures/2d/apigenin-7-glucoside.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/apigenin-7-glucoside.json",
+   "mwPack": 432.38,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "apigenin-7-glucoside#0",
+   "compound_id": "apigenin-7-glucoside",
+   "compound": "apigenin-7-O-glucoside (cosmosiin, apigetrin)",
+   "class": "flavone-glycoside",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "flower (dried drug)",
+   "value": "minimum 0.25",
+   "unit": "%",
+   "basis": "dry_weight",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "EMA: apigenin-7-glucoside about 0.5 %; total flavonoids up to 6 %. Duke: APIGETRIN Flower (Leung & Foster 1995); APIGENIN-7-GLUCOSIDE Plant (citation mismatch, see flags). | Basis as recorded: Ph. Eur. minimum, dried drug",
+   "refs": [
+    10
+   ]
+  },
+  {
+   "row": "apigenin-7-glucoside#1",
+   "compound_id": "apigenin-7-glucoside",
+   "compound": "apigenin-7-O-glucoside (cosmosiin, apigetrin)",
+   "class": "flavone-glycoside",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": "upper non-woody shoots at bloom onset (hydroethanolic extract)",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "Added per ruling as the plant form of apigenin in Greek oregano; reported present, not quantified in the verification notes.",
+   "refs": [
+    21
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "chamomile-flower-hot-infusion",
+   "name": "German chamomile flower, hot-water infusion"
+  }
+ ]
+}

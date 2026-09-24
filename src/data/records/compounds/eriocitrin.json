@@ -1,0 +1,284 @@
+{
+ "compound": {
+  "id": "eriocitrin",
+  "name": "eriocitrin",
+  "synonyms": [
+   "eriodictyol 7-O-rutinoside"
+  ],
+  "class": "flavanone-glycoside",
+  "subclass": "eriodictyol rutinoside",
+  "one_liner": "The flavanone glycoside EMA calls the dominant phenolic of peppermint leaf: the tea compound, absent from the oil.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "(2S)-2-(3,4-dihydroxyphenyl)-5-hydroxy-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxan-2-yl]oxy-2,3-dihydrochromen-4-one",
+   "formula": "C27H32O15",
+   "mw": 596.54,
+   "mw_source": "computed_from_formula",
+   "smiles": "C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)OC[C@@H]2[C@H]([C@@H]([C@H]([C@@H](O2)OC3=CC(=C4C(=O)C[C@H](OC4=C3)C5=CC(=C(C=C5)O)O)O)O)O)O)O)O)O",
+   "inchikey": "OMQADRGFMLGFJF-MNPJBKLOSA-N",
+   "cas": "13463-28-0",
+   "pubchem_cid": 83489,
+   "chebi_id": "CHEBI:28709",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/83489/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "flavonoid (phenylpropanoid + malonate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "mentha-x-piperita",
+    "plant_part": "leaf",
+    "value": null,
+    "unit": null,
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+    "database": "KNApSAcK",
+    "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Mentha%20piperita",
+    "verified": true,
+    "note": "Presence verified; amount null because EMA quotes 6.6-15.0 % without a confirmed denominator (possibly % of phenolic metabolites). KNApSAcK: Eriocitrin C00008295 (CAS 13463-28-0) in Mentha piperita. Not in Duke. EMA calls eriocitrin 'the dominant phenolic secondary metabolite'. | Basis as recorded: as quoted by EMA for peppermint leaf clones (denominator not captured - check the report before publishing)"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "As a glycoside it belongs to the leaf/tea side of the oil-versus-tea contrast; solubility values not sourced.",
+   "refs": [
+    6
+   ]
+  },
+  "safety_flags": [],
+  "teaching_note": "Peppermint oil and peppermint tea are different chemical objects: the oil is menthol/menthone; the leaf's dominant phenolic is eriocitrin [6].",
+  "citations": [
+   6
+  ],
+  "gaps": [
+   "Amount null: EMA's 6.6-15.0 % figure lacks a confirmed denominator (possibly % of phenolic metabolites; check the report).",
+   "Only database record is KNApSAcK.",
+   "Water solubility / infusion transfer not sourced.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "The [flavanone glycoside](#term:flavanone) [EMA](#term:ema-hmpc) calls the dominant phenolic of peppermint leaf: the tea compound, absent from the oil.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Peppermint oil and peppermint tea are different chemical objects: the oil is menthol/menthone; the leaf's dominant phenolic is eriocitrin [6](#cite:6).",
+   "processing_note": "As a [glycoside](#term:glycoside) it belongs to the leaf/tea side of the oil-versus-tea contrast; [solubility](#term:solubility) values not sourced.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "flavanone",
+   "ema-hmpc",
+   "glycoside",
+   "solubility"
+  ],
+  "cited_refs": [
+   6
+  ],
+  "taxa": [
+   "mentha-x-piperita"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C27H32O15",
+   "inchikeyComputed": "OMQADRGFMLGFJF-MNPJBKLOSA-N",
+   "canonicalSmiles": "C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3cc(O)c4c(c3)O[C@H](c3ccc(O)c(O)c3)CC4=O)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O",
+   "monoisotopicMass": 596.1741,
+   "averageMass": 596.538,
+   "descriptors": {
+    "heavyAtoms": 42,
+    "rings": 5,
+    "aromaticRings": 2,
+    "hbd": 9,
+    "hba": 15,
+    "rotatableBonds": 6,
+    "logP": -1.46,
+    "tpsa": 245.3,
+    "fsp3": 0.52,
+    "stereocenters": 11,
+    "charge": 0
+   },
+   "atomCount": 74,
+   "heavyAtomCount": 42,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       11,
+       34
+      ],
+      [
+       13,
+       39
+      ],
+      [
+       14,
+       41
+      ]
+     ]
+    },
+    {
+     "id": "catechol",
+     "name": "Catechol (1,2-diol)",
+     "matches": [
+      [
+       13,
+       39,
+       41,
+       14
+      ]
+     ]
+    },
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       3,
+       16
+      ],
+      [
+       5,
+       17
+      ],
+      [
+       6,
+       18
+      ],
+      [
+       7,
+       19
+      ],
+      [
+       8,
+       21
+      ],
+      [
+       9,
+       22
+      ]
+     ]
+    },
+    {
+     "id": "ketone",
+     "name": "Ketone",
+     "matches": [
+      [
+       32,
+       35,
+       12,
+       33
+      ]
+     ]
+    },
+    {
+     "id": "glycoside",
+     "name": "Sugar (glycoside / glucuronide)",
+     "matches": [
+      [
+       0,
+       15,
+       16,
+       3,
+       17,
+       5,
+       18,
+       6,
+       23
+      ],
+      [
+       2,
+       20,
+       19,
+       7,
+       21,
+       8,
+       22,
+       9,
+       25
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/eriocitrin.sdf",
+   "svg": {
+    "light": "structures/2d/eriocitrin.svg",
+    "dark": "structures/2d/eriocitrin.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/eriocitrin.json",
+   "mwPack": 596.54,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": [
+   "7-from-leaf-to-cup"
+  ]
+ },
+ "rows": [
+  {
+   "row": "eriocitrin#0",
+   "compound_id": "eriocitrin",
+   "compound": "eriocitrin",
+   "class": "flavanone-glycoside",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "mentha-x-piperita",
+   "taxon_known": true,
+   "taxon_name": "Mentha × piperita",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "database": "KNApSAcK",
+   "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Mentha%20piperita",
+   "verified": true,
+   "note": "Presence verified; amount null because EMA quotes 6.6-15.0 % without a confirmed denominator (possibly % of phenolic metabolites). KNApSAcK: Eriocitrin C00008295 (CAS 13463-28-0) in Mentha piperita. Not in Duke. EMA calls eriocitrin 'the dominant phenolic secondary metabolite'. | Basis as recorded: as quoted by EMA for peppermint leaf clones (denominator not captured - check the report before publishing)",
+   "refs": [
+    6
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "peppermint-leaf-hot-infusion",
+   "name": "Peppermint leaf, hot-water infusion"
+  }
+ ]
+}

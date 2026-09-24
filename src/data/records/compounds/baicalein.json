@@ -1,0 +1,310 @@
+{
+ "compound": {
+  "id": "baicalein",
+  "name": "baicalein",
+  "synonyms": [
+   "5,6,7-trihydroxyflavone"
+  ],
+  "class": "flavone",
+  "subclass": "4'-deoxyflavone aglycone",
+  "one_liner": "Aglycone of baicalin; studied in people as an isolated compound (phase I tablets).",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "5,6,7-trihydroxy-2-phenylchromen-4-one",
+   "formula": "C15H10O5",
+   "mw": 270.24,
+   "mw_source": "computed_from_formula",
+   "smiles": "C1=CC=C(C=C1)C2=CC(=O)C3=C(O2)C=C(C(=C3O)O)O",
+   "inchikey": "FXNFHKRTJBSTCS-UHFFFAOYSA-N",
+   "cas": "491-67-8",
+   "pubchem_cid": 5281605,
+   "chebi_id": "CHEBI:2979",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281605/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "flavonoid (phenylpropanoid + malonate)",
+   "note": "4'-deoxyflavone of the root-specific pathway [28]."
+  },
+  "occurrences": [
+   {
+    "taxon_id": "scutellaria-lateriflora",
+    "plant_part": "leaf",
+    "value": "2.24 ± 0.7",
+    "unit": "mg/g",
+    "basis": "unstated",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+    "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+    "database": "KNApSAcK",
+    "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Scutellaria%20lateriflora",
+    "verified": true,
+    "note": "Costine 2022: leaf 2.24 ± 0.7, stem 0.6 ± 0.1 mg/g. KNApSAcK: Baicalein C00001022. | Basis as recorded: fresh weight (see baicalin note) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed."
+   },
+   {
+    "taxon_id": "scutellaria-baicalensis",
+    "plant_part": "root",
+    "value": "1000-54000",
+    "unit": "ppm",
+    "basis": "unstated",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+    "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+    "verified": true,
+    "note": "Costine 2022: root 1.3 ± 0.7 mg/g. CIR/Cai 2016: 31.7 mg/g aqueous root extract. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": "In a phase I study of single ascending doses, baicalein reached peak plasma levels in 0.75-3.5 h and was converted to baicalin; about 27 % was eliminated unchanged in faeces and urinary excretion was under 1 % [34].",
+  "evidence": [
+   {
+    "claim": "Single ascending doses of isolated baicalein were tolerated by healthy volunteers.",
+    "grade": "B",
+    "test_article": "isolated_compound",
+    "test_article_detail": "baicalein chewable tablets, phase I randomised double-blind",
+    "population": "human",
+    "outcome_summary": "Eleven mild treatment-related adverse events, none serious (72 enrolled).",
+    "refs": [
+     34
+    ],
+    "note": "A tolerability/PK study, not an efficacy trial."
+   }
+  ],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Formed from baicalin by gut-bacterial hydrolysis [47].",
+   "refs": [
+    47
+   ]
+  },
+  "safety_flags": [],
+  "teaching_note": "Baicalin and baicalein interconvert in the body: the gut removes the glucuronide, the liver puts it back [47, 34].",
+  "citations": [
+   24,
+   28,
+   34,
+   47
+  ],
+  "gaps": [
+   "Efficacy evidence not found for the isolated compound.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "[Aglycone](#term:aglycone) of baicalin; studied in people as an [isolated compound](#term:isolated-compound) (phase I tablets).",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": "In a phase I study of single ascending doses, baicalein reached peak plasma levels in 0.75-3.5 h and was converted to baicalin; about 27 % was eliminated unchanged in faeces and urinary excretion was under 1 % [34](#cite:34).",
+   "teaching_note": "Baicalin and baicalein interconvert in the body: the gut removes the [glucuronide](#term:glucuronide), the liver puts it back [47, 34](#cite:47,34).",
+   "processing_note": "Formed from baicalin by gut-bacterial hydrolysis [47](#cite:47).",
+   "biosynthesis_note": "4'-deoxyflavone of the root-specific pathway [28](#cite:28).",
+   "evidence": [
+    {
+     "claim": "Single ascending doses of isolated baicalein were tolerated by healthy volunteers.",
+     "outcome_summary": "Eleven mild treatment-related adverse events, none serious (72 enrolled)."
+    }
+   ],
+   "safety_flags": []
+  },
+  "terms": [
+   "aglycone",
+   "isolated-compound",
+   "glucuronide"
+  ],
+  "cited_refs": [
+   24,
+   28,
+   34,
+   47
+  ],
+  "taxa": [
+   "scutellaria-lateriflora",
+   "scutellaria-baicalensis"
+  ],
+  "has_human_evidence": true,
+  "structure": {
+   "formulaComputed": "C15H10O5",
+   "inchikeyComputed": "FXNFHKRTJBSTCS-UHFFFAOYSA-N",
+   "canonicalSmiles": "O=c1cc(-c2ccccc2)oc2cc(O)c(O)c(O)c12",
+   "monoisotopicMass": 270.0528,
+   "averageMass": 270.24,
+   "descriptors": {
+    "heavyAtoms": 20,
+    "rings": 3,
+    "aromaticRings": 3,
+    "hbd": 3,
+    "hba": 5,
+    "rotatableBonds": 1,
+    "logP": 2.58,
+    "tpsa": 90.9,
+    "fsp3": 0,
+    "stereocenters": 0,
+    "charge": 0
+   },
+   "atomCount": 30,
+   "heavyAtomCount": 20,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       1,
+       8
+      ],
+      [
+       2,
+       13
+      ],
+      [
+       3,
+       14
+      ]
+     ]
+    },
+    {
+     "id": "catechol",
+     "name": "Catechol (1,2-diol)",
+     "matches": [
+      [
+       1,
+       8,
+       13,
+       2
+      ],
+      [
+       2,
+       13,
+       14,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "pyrogallol",
+     "name": "Pyrogallol (1,2,3-triol)",
+     "matches": [
+      [
+       1,
+       8,
+       13,
+       2,
+       14,
+       3
+      ]
+     ]
+    },
+    {
+     "id": "chromone",
+     "name": "Chromone (flavone core)",
+     "matches": [
+      [
+       4,
+       9,
+       10,
+       7,
+       11,
+       0,
+       6,
+       12,
+       14,
+       13,
+       8,
+       5
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/baicalein.sdf",
+   "svg": {
+    "light": "structures/2d/baicalein.svg",
+    "dark": "structures/2d/baicalein.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/baicalein.json",
+   "mwPack": 270.24,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "baicalein#0",
+   "compound_id": "baicalein",
+   "compound": "baicalein",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": "2.24 ± 0.7",
+   "unit": "mg/g",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "KNApSAcK",
+   "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Scutellaria%20lateriflora",
+   "verified": true,
+   "note": "Costine 2022: leaf 2.24 ± 0.7, stem 0.6 ± 0.1 mg/g. KNApSAcK: Baicalein C00001022. | Basis as recorded: fresh weight (see baicalin note) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "baicalein#1",
+   "compound_id": "baicalein",
+   "compound": "baicalein",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "1000-54000",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "Costine 2022: root 1.3 ± 0.7 mg/g. CIR/Cai 2016: 31.7 mg/g aqueous root extract. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  }
+ ],
+ "preparations": []
+}

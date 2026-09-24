@@ -1,0 +1,1602 @@
+# Greenhouse Explorer - references (topic mode). Merged 2026-09-23 from references-compounds.yaml (n 1-60) and
+# references-primer.yaml (n 101-140); numbers kept as issued, so the numbering is non-contiguous by design.
+# cited_in: review.md section ids and figures.yaml ids only (the validator resolves these).
+# cited_in_catalogue: informational - catalogue records that cite the reference, as "compounds:<id>",
+#   "preparations:<id>", "taxa:<taxon_id>" (taxa_safety_evidence.yaml). Kept in a separate key because the validator
+#   rejects cited_in entries that are not section or figure ids.
+# verified: true = the builder read the abstract/page named in the summary; it does not mean peer review.
+- n: 1
+  tier: background
+  citation: >-
+    EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Revision 1. EMA/HMPC/150801/2015.
+    20 Sep 2016.
+  url: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf
+  year: 2016
+  summary: >-
+    HMPC assessment of sage leaf and oil. Adopts four traditional-use indications and rejects well-established use because the products
+    tested (Bommer 2011 hot-flush study, Kennedy 2006 and Scholey 2008 cognition studies, Hubbert 2006 sage spray) do not correspond
+    to products marketed in the EU for 10 years. Records convulsions in rats at high sage-oil doses, a toddler seizure case after home-made
+    sage tea, and that pregnancy and lactation use cannot be recommended.
+  role_here: guideline
+  role_note: Sage indications, pregnancy statement, seizure/camphor toxicity, overview of the clinical trials.
+  cited_in: [8-how-to-read-the-rest-of-this-site]
+  cited_in_catalogue: ['compounds:1-8-cineole', 'compounds:alpha-thujone', 'compounds:apigenin', 'compounds:beta-thujone', 'compounds:camphor',
+    'compounds:carnosol', 'compounds:luteolin', 'compounds:rosmarinic-acid', 'compounds:ursolic-acid', 'preparations:sage-leaf-hot-infusion',
+    'taxa:salvia-officinalis']
+  verified: true
+- n: 2
+  tier: background
+  citation: >-
+    EMA/HMPC. Public statement on the use of herbal medicinal products containing thujone. EMA/HMPC/732886/2010 Rev.1. 22 May 2012.
+  url: https://www.ema.europa.eu/en/documents/scientific-guideline/public-statement-use-herbal-medicinal-products-containing-thujone-revision-1_en.pdf
+  year: 2012
+  summary: >-
+    Derives exposure limits for thujone in herbal medicinal products from a 14-week rat gavage study and the NTP 2-year study (clonic
+    seizures as the critical endpoint): 3.5 mg/day (uncertainty factor 100) and 6.6 mg/day (benchmark dose), with 3-7 mg/day stated
+    to pose no special concern. Describes alpha-thujone as a rapidly acting modulator of the GABA-gated chloride channel and says use
+    in pregnant women and children should be minimised.
+  role_here: guideline
+  role_note: Thujone limit and mechanism statement.
+  cited_in: [7-from-leaf-to-cup]
+  cited_in_catalogue: ['compounds:alpha-thujone', 'compounds:beta-thujone', 'preparations:sage-leaf-hot-infusion', 'taxa:salvia-officinalis']
+  verified: true
+- n: 3
+  tier: background
+  citation: >-
+    EMA/HMPC. Public statement on the use of herbal medicinal products containing pulegone and menthofuran. EMA/HMPC/138386/2005 Rev.1.
+    Adopted 12 Jul 2016.
+  url: https://www.ema.europa.eu/en/documents/scientific-guideline/public-statement-use-herbal-medicinal-products-containing-pulegone-and-menthofuran-revision-1_en.pdf
+  year: 2016
+  summary: >-
+    Sets a combined pulegone + menthofuran limit of 0.75 mg/kg bw/day (37.5 mg/person/day for a 50 kg adult) for lifelong exposure and
+    75 mg/day for use under one year, from the NTP 3-month rat study (liver and kidney toxicity; NOAEL 37.5 mg/kg bw/day, uncertainty
+    factor 50). States that bioactivation of pulegone, with menthofuran as a major metabolite, is a prerequisite for hepatotoxicity.
+    Contains no statement on variation with leaf age or harvest time.
+  role_here: guideline
+  role_note: Pulegone/menthofuran limit and mechanism.
+  cited_in: []
+  cited_in_catalogue: ['compounds:menthofuran', 'compounds:pulegone', 'preparations:peppermint-leaf-hot-infusion', 'taxa:mentha-x-piperita']
+  verified: true
+- n: 4
+  tier: background
+  citation: >-
+    EMA/HMPC. Public statement on the use of herbal medicinal products containing estragole. EMA/HMPC/137212/2005 Rev 1 Corr 1. Adopted
+    22 Sep 2021.
+  url: https://www.ema.europa.eu/en/documents/other/public-statement-use-herbal-medicinal-products-containing-estragole-revision-1_en.pdf
+  year: 2021
+  summary: >-
+    Classifies estragole as a genotoxic carcinogen after 1'-hydroxylation and sulfoconjugation (DNA adducts; rodent hepatocellular carcinomas).
+    Guidance value 0.05 mg/person/day for adults and 1.0 µg/kg bw for children up to 11 years; use above these in pregnancy, lactation
+    and children is not recommended without a risk assessment. Mentions that nevadensin in basil may inhibit sulfoconjugation (a hypothetical
+    matrix effect).
+  role_here: guideline
+  role_note: Estragole limit and mechanism.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, 8-how-to-read-the-rest-of-this-site]
+  cited_in_catalogue: ['compounds:estragole', 'taxa:ocimum-basilicum']
+  verified: true
+- n: 5
+  tier: background
+  citation: >-
+    EMEA/HMPC. Public statement on the use of herbal medicinal products containing methyleugenol. EMEA/HMPC/138363/2005. 23 Nov 2005.
+  url: https://www.ema.europa.eu/en/documents/scientific-guideline/public-statement-use-herbal-medicinal-products-containing-methyleugenol_en.pdf
+  year: 2005
+  summary: >-
+    Describes methyleugenol as a naturally occurring genotoxic carcinogen (NTP rodent studies; P450 bioactivation to 1'-hydroxy and
+    epoxide metabolites). Gives no numerical limit; concludes short-term adult use of herbal medicinal products at recommended posology
+    does not pose a significant cancer risk, and that exposure of young children and pregnant or breastfeeding women should be minimised.
+    Lists sweet basil at 13-1400 ppm.
+  role_here: guideline
+  role_note: Methyleugenol safety statement.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell]
+  cited_in_catalogue: ['compounds:eugenol', 'compounds:methyleugenol', 'taxa:ocimum-basilicum']
+  verified: true
+- n: 6
+  tier: background
+  citation: >-
+    EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Revision 1. EMA/HMPC/522409/2013. 15 Jan 2020.
+  url: https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf
+  year: 2020
+  summary: >-
+    HMPC assessment of peppermint leaf and oil. Accepts well-established use of the oil in gastro-resistant capsules for IBS-type spasm
+    and pain and of cutaneous oil for tension headache; leaf is traditional use for dyspepsia and flatulence. Reports that eriocitrin
+    (6.6-15.0 %, denominator not stated in the part read) is the dominant phenolic of the leaf, and summarises interaction signals (CYP3A4
+    inhibition in vitro, raised cyclosporine exposure in rats, calcium-channel antagonism in animals).
+  role_here: background
+  role_note: Peppermint composition, interactions and indications.
+  cited_in: [2-the-cell-wall-and-cellulose, 6-why-plants-make-these-molecules, 7-from-leaf-to-cup, 8-how-to-read-the-rest-of-this-site,
+    fig-pathways, fig-extraction]
+  cited_in_catalogue: ['compounds:1-8-cineole', 'compounds:eriocitrin', 'compounds:menthofuran', 'compounds:menthol', 'compounds:menthone',
+    'compounds:pulegone', 'compounds:rosmarinic-acid', 'preparations:peppermint-leaf-hot-infusion', 'taxa:mentha-x-piperita']
+  verified: true
+- n: 7
+  tier: background
+  citation: >-
+    EMA/HMPC. European Union herbal monograph on Mentha x piperita L., aetheroleum, Revision 1. EMA/HMPC/522410/2013. 15 Jan 2020.
+  url: https://www.ema.europa.eu/en/documents/herbal-monograph/european-union-herbal-monograph-mentha-x-piperita-l-aetheroleum-revision-1_en.pdf
+  year: 2020
+  summary: >-
+    Monograph for peppermint oil. Contraindications include liver disease, cholangitis, achlorhydria, gallstones and other biliary disorders
+    (oral well-established use) and, for traditional use, children under 2 years (reflex apnoea, laryngospasm) and children with a history
+    of seizures. Warns of heartburn in patients with reflux or hiatus hernia; antacids and acid suppressants may dissolve enteric coatings
+    early; pregnancy and lactation use not recommended.
+  role_here: guideline
+  role_note: Peppermint oil contraindications, warnings, pregnancy.
+  cited_in: []
+  cited_in_catalogue: ['compounds:menthol', 'preparations:peppermint-leaf-hot-infusion', 'taxa:mentha-x-piperita']
+  verified: true
+- n: 8
+  tier: background
+  citation: EMA/HMPC. Assessment report on Melissa officinalis L., folium. EMA/HMPC/196746/2012. 14 May 2013.
+  url: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf
+  year: 2013
+  summary: >-
+    Adopts traditional use for mild mental stress and to aid sleep and for mild gastrointestinal complaints. Reviews small randomised
+    crossover studies with methanol extracts (Kennedy 2002, 2004) and an open study of Cyracos (Cases 2011) and finds them insufficient
+    for well-established use; considers the 70:1 dry extract cream data for herpes labialis not transferable to a monograph. Pregnancy
+    and lactation use cannot be recommended; notes possible TSH inhibition in vitro of unknown clinical relevance.
+  role_here: background
+  role_note: Lemon balm composition, indications, clinical overview and safety.
+  cited_in: []
+  cited_in_catalogue: ['compounds:beta-caryophyllene', 'compounds:caffeic-acid', 'compounds:citral', 'compounds:citronellal', 'compounds:rosmarinic-acid',
+    'compounds:ursolic-acid', 'preparations:herb-tincture-ethanol-water', 'preparations:lemon-balm-hot-infusion', 'taxa:melissa-officinalis']
+  verified: true
+- n: 9
+  tier: background
+  citation: >-
+    EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013. 12 Nov 2013.
+  url: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf
+  year: 2013
+  summary: >-
+    Adopts traditional use in productive cough associated with cold. Summarises combination-product studies (thyme + ivy, thyme + primrose)
+    chiefly for tolerability, notes at least six chemotypes with only the thymol type meeting Ph. Eur., rare hypersensitivity with possible
+    Lamiaceae cross-reactivity, and historical thymol vermifuge toxicity at doses far above those in medicinal use. Pregnancy and lactation
+    use not recommended.
+  role_here: background
+  role_note: Thyme composition, chemotypes and safety.
+  cited_in: [7-from-leaf-to-cup, 8-how-to-read-the-rest-of-this-site]
+  cited_in_catalogue: ['compounds:carvacrol', 'compounds:gamma-terpinene', 'compounds:linalool', 'compounds:luteolin', 'compounds:p-cymene',
+    'compounds:thymol', 'preparations:herb-tincture-ethanol-water', 'preparations:thyme-herb-hot-infusion', 'taxa:thymus-vulgaris']
+  verified: true
+- n: 10
+  tier: background
+  citation: >-
+    EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011. 7 Jul
+    2015.
+  url: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0
+  year: 2015
+  summary: >-
+    HMPC assessment of chamomile flower and oil. States that proazulenes such as matricin are at least partly converted into chamazulene
+    during steam distillation, and that matricin is extracted into teas at pharmaceutically relevant levels. Summarises non-clinical
+    pharmacology of alpha-bisabolol, chamazulene, spiroethers and apigenin, Asteraceae cross-reactivity, Anthemis cotula contamination,
+    and case reports of interactions with warfarin and cyclosporine.
+  role_here: background
+  role_note: Chamomile composition, processing chemistry, preclinical pharmacology and safety.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, 7-from-leaf-to-cup, fig-pathways, fig-extraction]
+  cited_in_catalogue: ['compounds:alpha-bisabolol', 'compounds:apigenin', 'compounds:apigenin-7-glucoside', 'compounds:bisabolol-oxide-a',
+    'compounds:chamazulene', 'compounds:cis-spiroether', 'compounds:herniarin', 'compounds:matricin', 'compounds:umbelliferone', 'preparations:chamomile-flower-hot-infusion',
+    'taxa:matricaria-chamomilla']
+  verified: true
+- n: 11
+  tier: background
+  citation: >-
+    EMA/HMPC. European Union herbal monograph on Matricaria recutita L., flos. EMA/HMPC/55843/2011. 7 Jul 2015.
+  url: https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-matricaria-recutita-l-flos-first-version_en.pdf
+  year: 2015
+  summary: >-
+    Traditional-use monograph for chamomile flower. Contraindicated in hypersensitivity to the plant or to other Asteraceae; hypersensitivity
+    reactions including anaphylactic shock are listed; CYP450-based interactions reported in renal-transplant patients on long, high
+    oral intake. Safety in pregnancy and lactation not established for most preparations.
+  role_here: guideline
+  role_note: Chamomile indications and safety.
+  cited_in: []
+  cited_in_catalogue: ['preparations:chamomile-flower-hot-infusion', 'taxa:matricaria-chamomilla']
+  verified: true
+- n: 12
+  tier: background
+  citation: >-
+    EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Revision 1. EMA/HMPC/681037/2021.
+    29 May 2024.
+  url: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf
+  year: 2024
+  summary: >-
+    Adopts traditional-use indications for rosemary leaf (dyspepsia, mild GI spasm; bath additive for muscle/joint pain and minor circulatory
+    disorders) and cutaneous oil. Gives Ph. Eur. chemotype ranges, camphor toxicity thresholds and paediatric seizure reports, identifies
+    carnosol as a major rosemary contact allergen, and finds data insufficient for use in pregnancy and lactation.
+  role_here: background
+  role_note: Rosemary chemotypes, camphor toxicity, carnosol allergy, indications.
+  cited_in: []
+  cited_in_catalogue: ['compounds:1-8-cineole', 'compounds:alpha-pinene', 'compounds:borneol', 'compounds:camphor', 'compounds:carnosic-acid',
+    'compounds:carnosol', 'compounds:rosmarinic-acid', 'compounds:ursolic-acid', 'preparations:herb-tincture-ethanol-water', 'preparations:sage-leaf-hot-infusion',
+    'taxa:salvia-officinalis', 'taxa:salvia-rosmarinus']
+  verified: true
+- n: 13
+  tier: background
+  citation: >-
+    LiverTox: Clinical and Research Information on Drug-Induced Liver Injury. Skullcap. National Institute of Diabetes and Digestive
+    and Kidney Diseases; last updated 28 Mar 2020.
+  url: https://www.ncbi.nlm.nih.gov/books/NBK548757/
+  year: 2020
+  summary: >-
+    LiverTox entry covering S. lateriflora and S. baicalensis. Likelihood score B; hepatocellular injury 1-12 weeks after starting.
+    Notes that phytochemical analysis has in some cases found germander adulteration or mislabelling, and describes cases with multi-ingredient
+    products containing Chinese skullcap (Move Free Advanced; flavocoxid).
+  role_here: background
+  role_note: Skullcap hepatotoxicity record and the adulteration story.
+  cited_in: [8-how-to-read-the-rest-of-this-site]
+  cited_in_catalogue: ['compounds:baicalin', 'compounds:teucrin-a', 'taxa:scutellaria-baicalensis', 'taxa:scutellaria-lateriflora']
+  verified: true
+- n: 14
+  tier: background
+  citation: LiverTox. Sho Saiko To and Dai Saiko To. NIDDK; last updated 15 Aug 2020.
+  url: https://www.ncbi.nlm.nih.gov/books/NBK548777/
+  year: 2020
+  summary: >-
+    Lists the seven components of Sho-saiko-to including Scutellaria baicalensis root. Likelihood score B, hepatocellular pattern; interstitial
+    pneumonitis described as an uncommon adverse event (a cited review counted 19 cases). The responsible component is not known but
+    is suspected to be S. baicalensis.
+  role_here: background
+  role_note: Multi-herb formula safety with the test article named.
+  cited_in: []
+  cited_in_catalogue: ['taxa:scutellaria-baicalensis']
+  verified: true
+- n: 15
+  tier: background
+  citation: >-
+    NCCIH. Chamomile: Usefulness and Safety. National Center for Complementary and Integrative Health; last updated Nov 2024.
+  url: https://www.nccih.nih.gov/health/chamomile
+  year: 2024
+  summary: >-
+    Fact sheet: preliminary studies suggest a chamomile supplement may help GAD; evidence for insomnia is minimal. Allergic reactions
+    including anaphylaxis, higher risk with ragweed/daisy allergy; reported interactions with warfarin and drugs metabolised by the
+    liver; little known about pregnancy.
+  role_here: review
+  role_note: Plain-language evidence and safety summary for chamomile.
+  cited_in: []
+  cited_in_catalogue: ['preparations:chamomile-flower-hot-infusion', 'taxa:matricaria-chamomilla']
+  verified: true
+- n: 16
+  tier: background
+  citation: >-
+    Cosmetic Ingredient Review Expert Panel. Safety Assessment of Scutellaria baicalensis-Derived Ingredients as Used in Cosmetics.
+    Final report, 29 Sep 2020.
+  url: https://www.cir-safety.org/sites/default/files/scutel092020FR_0.pdf
+  year: 2020
+  summary: >-
+    Cosmetic safety assessment of S. baicalensis ingredients; tabulates flavone contents of an aqueous root extract (citing Cai et al.
+    2016).
+  role_here: data-source
+  role_note: >-
+    Root-extract flavone values. Read by the 2026-09-23 verification pass (compound-verification.yaml), not re-read here.
+  cited_in: []
+  cited_in_catalogue: ['compounds:oroxylin-a', 'compounds:wogonin', 'taxa:scutellaria-baicalensis']
+  verified: true
+- n: 17
+  tier: background
+  citation: 'World Health Organization. WHO monographs on selected medicinal plants, Volume 1. Geneva: WHO; 1999.'
+  url: https://iris.who.int/handle/10665/42052
+  year: 1999
+  summary: >-
+    Volume 1 of the WHO monograph series; its contents include Flos Chamomillae and Herba Thymi (table of contents read from a mirror
+    copy; the monograph texts were not read).
+  role_here: background
+  role_note: Monograph-status source for chamomile and thyme.
+  cited_in: []
+  cited_in_catalogue: ['taxa:matricaria-chamomilla', 'taxa:thymus-vulgaris']
+  verified: true
+- n: 18
+  tier: current
+  citation: >-
+    Muráriková A, Ťažký A, Neugebauerová J, et al. Characterization of essential oil composition in different basil species and pot
+    cultures by a GC-MS method. Molecules. 2017;22(7):1221.
+  doi: 10.3390/molecules22071221
+  year: 2017
+  summary: >-
+    GC-MS of basil essential oils from seven cultivars; linalool in all; estragole a main compound only in 'Lettuce Leaf'; all varieties
+    except 'Lettuce Leaf' methyleugenol-rich.
+  role_here: data-source
+  role_note: >-
+    Basil cultivar chemotypes. Read by the 2026-09-23 verification pass (compound-verification.yaml), not re-read here.
+  cited_in: [8-how-to-read-the-rest-of-this-site]
+  cited_in_catalogue: ['compounds:estragole', 'compounds:eugenol', 'compounds:linalool', 'compounds:methyleugenol', 'taxa:ocimum-basilicum']
+  verified: true
+- n: 19
+  tier: current
+  citation: >-
+    Majdi C, Pereira C, Dias MI, et al. Phytochemical characterization and bioactive properties of cinnamon basil (Ocimum basilicum
+    cv. 'Cinnamon') and lemon basil (Ocimum × citriodorum). Antioxidants. 2020;9(5):369.
+  doi: 10.3390/antiox9050369
+  year: 2020
+  summary: >-
+    Volatile and phenolic profiles: (E)-methyl cinnamate 24.7 % in 'Cinnamon' (second to linalool); citral 4.9 % in O. × citriodorum
+    with linalool 32.8 % dominant; rosmarinic acid per g extract.
+  role_here: data-source
+  role_note: >-
+    Cinnamon- and lemon-basil values. Read by the 2026-09-23 verification pass (compound-verification.yaml), not re-read here.
+  cited_in: []
+  cited_in_catalogue: ['compounds:citral', 'compounds:methyl-cinnamate', 'compounds:rosmarinic-acid', 'taxa:ocimum-basilicum']
+  verified: true
+- n: 20
+  tier: current
+  citation: >-
+    Kosakowska O, Bączek K, Przybył JL, et al. Morphological and chemical traits as quality determinants of common thyme (Thymus vulgaris
+    L.), on the example of 'Standard Winter' cultivar. Agronomy. 2020;10(6):909.
+  doi: 10.3390/agronomy10060909
+  year: 2020
+  summary: >-
+    Chemical variation within thyme 'Standard Winter': thymol 36.7-54.6 % of oil, rosmarinic acid and luteolin 7-O-glucoside per 100
+    g dry herb.
+  role_here: data-source
+  role_note: >-
+    Thyme values (winter cultivar). Read by the 2026-09-23 verification pass (compound-verification.yaml), not re-read here.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, 8-how-to-read-the-rest-of-this-site, fig-pathways]
+  cited_in_catalogue: ['compounds:luteolin-7-glucoside', 'compounds:rosmarinic-acid', 'compounds:thymol']
+  verified: true
+- n: 21
+  tier: current
+  citation: >-
+    Kosakowska O, et al. Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare
+    L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules. 2021;26(4):988.
+  doi: 10.3390/molecules26040988
+  year: 2021
+  summary: >-
+    Cultivated Greek oregano: carvacrol 39.8 % of oil; rosmarinic acid and luteolin 7-O-glucoside (dominant flavonoid) in the hydroethanolic
+    extract; apigenin 7-O-glucoside present.
+  role_here: data-source
+  role_note: >-
+    Greek oregano values. Read by the 2026-09-23 verification pass (compound-verification.yaml), not re-read here.
+  cited_in: []
+  cited_in_catalogue: ['compounds:apigenin', 'compounds:apigenin-7-glucoside', 'compounds:carvacrol', 'compounds:luteolin', 'compounds:luteolin-7-glucoside',
+    'compounds:p-cymene', 'compounds:rosmarinic-acid', 'taxa:origanum-vulgare']
+  verified: true
+- n: 22
+  tier: classic
+  citation: >-
+    De Martino L, De Feo V, Formisano C, Mignola E, Senatore F. Chemical composition and antimicrobial activity of the essential oils
+    from three chemotypes of Origanum vulgare L. ssp. hirtum (Link) Ietswaart growing wild in Campania (Southern Italy). Molecules.
+    2009;14(8):2735-2746.
+  doi: 10.3390/molecules14082735
+  year: 2009
+  summary: >-
+    Characterised three chemotypes of wild Greek oregano by GC-MS. One chemotype was carvacrol/thymol-rich (carvacrol 23.3 %, thymol
+    22.2 %), a second thymol-dominated, and a third with linalyl acetate/linalool. The oils were tested for antimicrobial activity in
+    vitro. It shows that 'Greek oregano' is not a single chemistry.
+  role_here: data-source
+  role_note: >-
+    Oregano chemotype variation. Read by the 2026-09-23 verification pass (compound-verification.yaml), not re-read here.
+  cited_in: []
+  cited_in_catalogue: ['compounds:carvacrol', 'compounds:gamma-terpinene', 'compounds:thymol', 'taxa:origanum-vulgare']
+  verified: true
+- n: 23
+  tier: current
+  citation: >-
+    Ghorbani A, Esmaeilizadeh M. Pharmacological properties of Salvia officinalis and its components. J Tradit Complement Med. 2017;7(4):433-440.
+  doi: 10.1016/j.jtcme.2016.12.014
+  year: 2017
+  summary: >-
+    Narrative review of sage chemistry and pharmacology; names borneol, camphor, cineole and thujones as oil constituents and carnosol,
+    carnosic acid and rosmarinic acid as the main antioxidants.
+  role_here: review
+  role_note: >-
+    Sage constituent overview. Read by the 2026-09-23 verification pass (compound-verification.yaml), not re-read here.
+  cited_in: []
+  cited_in_catalogue: ['compounds:borneol', 'compounds:carnosic-acid', 'compounds:luteolin-7-glucoside']
+  verified: true
+- n: 24
+  tier: current
+  citation: >-
+    Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS. Exploring native Scutellaria species provides insight into differential
+    accumulation of flavones with medicinal properties. Sci Rep. 2022;12:13201.
+  doi: 10.1038/s41598-022-17586-1
+  year: 2022
+  summary: >-
+    Quantified flavones by tissue in four Scutellaria species: baicalin 11.7 mg/g in S. lateriflora leaf vs 26.1 mg/g in S. baicalensis
+    root; chrysin only in insignificant amounts in aerial parts.
+  role_here: data-source
+  role_note: >-
+    Side-by-side Scutellaria flavone values. Read by the 2026-09-23 verification pass (compound-verification.yaml), not re-read here.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, 7-from-leaf-to-cup, 8-how-to-read-the-rest-of-this-site, fig-pathways]
+  cited_in_catalogue: ['compounds:baicalein', 'compounds:baicalin', 'compounds:chrysin', 'compounds:wogonoside', 'taxa:scutellaria-baicalensis',
+    'taxa:scutellaria-lateriflora']
+  verified: true
+- n: 25
+  tier: classic
+  citation: >-
+    Lin L-Z, Harnly JM, Upton R. Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium
+    canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal. 2009;20(4):298-306.
+  doi: 10.1002/pca.1127
+  year: 2009
+  summary: >-
+    LC-MS profiling of authenticated S. lateriflora against two germander species. Identified baicalin, wogonin, oroxylin A, scutellarin
+    and related flavones in skullcap. Teucrin A, teuflin and teucvidin were found in Teucrium but not detected in any authenticated
+    skullcap sample. Provides the analytical basis for detecting germander adulteration.
+  role_here: data-source
+  role_note: >-
+    Authentication and the negative teucrin A record. Read by the 2026-09-23 verification pass (compound-verification.yaml), not re-read
+    here.
+  cited_in: [8-how-to-read-the-rest-of-this-site]
+  cited_in_catalogue: ['compounds:oroxylin-a', 'compounds:scutellarin', 'compounds:teucrin-a', 'compounds:wogonin', 'taxa:scutellaria-lateriflora']
+  verified: true
+- n: 26
+  tier: classic
+  citation: >-
+    Gafner S, Bergeron C, Batcha LL, et al. Analysis of Scutellaria lateriflora and its adulterants Teucrium canadense and Teucrium
+    chamaedrys by LC-UV/MS, TLC, and digital photomicroscopy. J AOAC Int. 2003;86(3):453-460.
+  doi: 10.1093/jaoac/86.3.453
+  year: 2003
+  summary: >-
+    Developed LC-UV/MS, TLC and microscopy methods to distinguish skullcap from germander. The 70 % ethanol extract flavonoids of S.
+    lateriflora were predominantly baicalin, lateriflorin, dihydrobaicalin and baicalein. Supports quality control against adulteration.
+  role_here: data-source
+  role_note: >-
+    Dihydrobaicalin occurrence; adulteration methods. Read by the 2026-09-23 verification pass (compound-verification.yaml), not re-read
+    here.
+  cited_in: [8-how-to-read-the-rest-of-this-site]
+  cited_in_catalogue: ['compounds:dihydrobaicalin']
+  verified: true
+- n: 27
+  tier: classic
+  citation: >-
+    Makino T, Hishida A, Goda Y, Mizukami H. Comparison of the major flavonoid content of S. baicalensis, S. lateriflora, and their
+    commercial products. J Nat Med. 2008;62(3):294-299.
+  doi: 10.1007/s11418-008-0230-7
+  year: 2008
+  summary: >-
+    Measured four flavonoids including baicalin in roots, stems and leaves of both species and in S. lateriflora teas and supplements.
+    In S. baicalensis the flavonoids were in the root; in S. lateriflora the aerial parts contained more than the root. Commercial S.
+    lateriflora supplements had amounts comparable with kampo medicine. The authors questioned classing S. lateriflora aerial parts
+    as non-pharmaceutical.
+  role_here: data-source
+  role_note: Counter-evidence to 'far lower baicalin in lateriflora'.
+  cited_in: [7-from-leaf-to-cup]
+  cited_in_catalogue: ['compounds:baicalin', 'taxa:scutellaria-lateriflora']
+  verified: true
+- n: 28
+  tier: current
+  citation: >-
+    Zhao Q, Zhang Y, Wang G, et al. A specialized flavone biosynthetic pathway has evolved in the medicinal plant, Scutellaria baicalensis.
+    Sci Adv. 2016;2:e1501780.
+  doi: 10.1126/sciadv.1501780
+  year: 2016
+  summary: >-
+    Showed a root-specific flavone pathway in S. baicalensis in which FNSII-2 makes 4'-deoxy flavones such as chrysin and wogonin.
+  role_here: data-source
+  role_note: >-
+    Root-specific 4'-deoxyflavone biosynthesis. Read by the 2026-09-23 verification pass (compound-verification.yaml), not re-read here.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, fig-pathways]
+  cited_in_catalogue: ['compounds:baicalein', 'compounds:baicalin', 'compounds:chrysin', 'compounds:wogonin', 'taxa:scutellaria-baicalensis']
+  verified: true
+- n: 29
+  tier: current
+  citation: >-
+    Pei T, et al. Specific flavonoids and their biosynthetic pathway in Scutellaria baicalensis. Front Plant Sci. 2022;13:866282.
+  doi: 10.3389/fpls.2022.866282
+  year: 2022
+  summary: >-
+    Review of S. baicalensis flavone biosynthesis; describes norwogonin as the SbF8H (CYP82D2) product from chrysin and scutellarein
+    as widespread in aerial tissues.
+  role_here: review
+  role_note: >-
+    Biosynthesis of norwogonin and aerial-part flavones. Read by the 2026-09-23 verification pass (compound-verification.yaml), not
+    re-read here.
+  cited_in: [fig-pathways]
+  cited_in_catalogue: ['compounds:chrysin', 'compounds:norwogonin', 'compounds:scutellarin']
+  verified: true
+- n: 30
+  tier: classic
+  citation: >-
+    Kouzi SA, McMurtry RJ, Nelson SD. Hepatotoxicity of germander (Teucrium chamaedrys L.) and one of its constituent neoclerodane diterpenes
+    teucrin A in the mouse. Chem Res Toxicol. 1994;7(6):850-856.
+  doi: 10.1021/tx00042a020
+  year: 1994
+  summary: >-
+    Gave germander extract and isolated teucrin A to mice. Teucrin A reproduced the centrilobular liver necrosis seen with the plant.
+    Toxicity was increased by phenobarbital and reduced by piperonyl butoxide, showing a requirement for cytochrome P450 bioactivation.
+    A tetrahydrofuran analogue with the furan reduced was not hepatotoxic, implicating furan oxidation.
+  role_here: prior-result
+  role_note: Mechanism of germander hepatotoxicity (teucrin A).
+  cited_in: []
+  cited_in_catalogue: ['compounds:teucrin-a', 'taxa:scutellaria-lateriflora']
+  verified: true
+- n: 31
+  tier: classic
+  citation: >-
+    Larrey D, Vial T, Pauwels A, Castot A, Biour M, David M, Michel H. Hepatitis after germander (Teucrium chamaedrys) administration:
+    another instance of herbal medicine hepatotoxicity. Ann Intern Med. 1992;117(2):129-132.
+  doi: 10.7326/0003-4819-117-2-129
+  year: 1992
+  summary: >-
+    Retrospective series of seven patients from French pharmacovigilance centres who developed hepatitis after taking germander for
+    weight loss. Jaundice and high aminotransferases appeared 3-18 weeks after starting; biopsy showed hepatocyte necrosis. Recovery
+    followed withdrawal, and rechallenge in two patients caused immediate recurrence.
+  role_here: prior-result
+  role_note: Human germander hepatitis that later 'skullcap' cases were traced to.
+  cited_in: []
+  cited_in_catalogue: ['compounds:teucrin-a', 'taxa:scutellaria-lateriflora']
+  verified: true
+- n: 32
+  tier: current
+  citation: >-
+    Chalasani N, Vuppalanchi R, Navarro V, et al.; Drug-Induced Liver Injury Network. Acute liver injury due to flavocoxid (Limbrel),
+    a medical food for osteoarthritis: a case series. Ann Intern Med. 2012;156(12):857-860.
+  doi: 10.7326/0003-4819-156-12-201206190-00006
+  year: 2012
+  summary: >-
+    Four DILIN cases of liver injury 1-3 months after starting flavocoxid, a blend of baicalin and catechins from S. baicalensis and
+    Acacia catechu; all recovered after stopping.
+  role_here: prior-result
+  role_note: Hepatotoxicity with a baicalin-containing product (test article named).
+  cited_in: []
+  cited_in_catalogue: ['compounds:baicalin', 'taxa:scutellaria-baicalensis']
+  verified: true
+- n: 33
+  tier: current
+  citation: >-
+    Fan L, Zhang W, Guo D, et al. The effect of herbal medicine baicalin on pharmacokinetics of rosuvastatin, substrate of organic anion-transporting
+    polypeptide 1B1. Clin Pharmacol Ther. 2008;83(3):471-476.
+  doi: 10.1038/sj.clpt.6100318
+  year: 2008
+  summary: >-
+    Randomised crossover in 18 healthy volunteers: baicalin reduced rosuvastatin AUC by about 9-47 % depending on OATP1B1 haplotype.
+  role_here: prior-result
+  role_note: Human interaction study with isolated baicalin.
+  cited_in: []
+  cited_in_catalogue: ['compounds:baicalin', 'taxa:scutellaria-baicalensis']
+  verified: true
+- n: 34
+  tier: current
+  citation: >-
+    Li M, Shi A, Pang H, et al. Safety, tolerability, and pharmacokinetics of a single ascending dose of baicalein chewable tablets
+    in healthy subjects. J Ethnopharmacol. 2014;156:210-215.
+  doi: 10.1016/j.jep.2014.08.031
+  year: 2014
+  summary: >-
+    Phase I randomised double-blind study (72 enrolled): single ascending doses of baicalein were tolerated with only mild adverse events;
+    baicalin appeared in plasma as a metabolite; urinary excretion under 1 %.
+  role_here: prior-result
+  role_note: Human PK and tolerability of isolated baicalein.
+  cited_in: []
+  cited_in_catalogue: ['compounds:baicalein', 'compounds:baicalin', 'taxa:scutellaria-baicalensis']
+  verified: true
+- n: 35
+  tier: classic
+  citation: >-
+    Hui KM, et al. Anxiolytic effect of wogonin, a benzodiazepine receptor ligand isolated from Scutellaria baicalensis Georgi. Biochem
+    Pharmacol. 2002;64(9):1415-1424.
+  doi: 10.1016/S0006-2952(02)01347-3
+  year: 2002
+  summary: >-
+    Wogonin bound the benzodiazepine site of the GABA-A receptor (Ki 0.92 µM) and enhanced GABA-activated currents in rat neurons and
+    recombinant receptors. Given orally to mice it was anxiolytic in the elevated plus-maze without sedation or muscle relaxation. Establishes
+    wogonin as a positive allosteric modulator in animals.
+  role_here: prior-result
+  role_note: Wogonin mechanism (animal/in vitro).
+  cited_in: []
+  cited_in_catalogue: ['compounds:wogonin']
+  verified: true
+- n: 36
+  tier: seminal
+  citation: >-
+    Viola H, Wasowski C, Levi de Stein M, et al. Apigenin, a component of Matricaria recutita flowers, is a central benzodiazepine receptors-ligand
+    with anxiolytic effects. Planta Med. 1995;61(3):213-216.
+  doi: 10.1055/s-2006-958058
+  year: 1995
+  summary: >-
+    Isolated apigenin from chamomile flowers as a ligand of central benzodiazepine receptors. Apigenin competitively inhibited flunitrazepam
+    binding (Ki about 4 µM). In mice it was anxiolytic without sedation, muscle relaxation or anticonvulsant action; mild sedation appeared
+    only at much higher doses. The authors proposed it as a partial ligand at the benzodiazepine site.
+  why_it_mattered: >-
+    It gave the traditional 'calming chamomile' claim a molecular hypothesis and launched the study of flavones as benzodiazepine-site
+    ligands, which later drew in chrysin and the Scutellaria flavones.
+  role_here: prior-result
+  role_note: Origin of the apigenin/GABA-A story.
+  cited_in: []
+  cited_in_catalogue: ['compounds:apigenin', 'compounds:wogonin']
+  verified: true
+- n: 37
+  tier: classic
+  citation: >-
+    Medina JH, Viola H, Wolfman C, et al. Overview - flavonoids: a new family of benzodiazepine receptor ligands. Neurochem Res. 1997;22:419-425.
+  doi: 10.1023/A:1027303609517
+  year: 1997
+  summary: >-
+    Review of flavonoids that bind the benzodiazepine receptor. Describes chrysin as a naturally occurring ligand with anticonvulsant
+    properties and apigenin as the chamomile anxiolytic. Reports that synthetic derivatives such as 6,3'-dinitroflavone bind with nanomolar
+    affinity. The flavonoid effects were described as anxiolytic without myorelaxant, amnestic or sedative actions in animals.
+  role_here: review
+  role_note: Chrysin and flavone benzodiazepine-site pharmacology.
+  cited_in: []
+  cited_in_catalogue: ['compounds:apigenin', 'compounds:chrysin', 'compounds:wogonin']
+  verified: true
+- n: 38
+  tier: seminal
+  citation: >-
+    McKemy DD, Neuhausser WM, Julius D. Identification of a cold receptor reveals a general role for TRP channels in thermosensation.
+    Nature. 2002;416:52-58.
+  doi: 10.1038/nature719
+  year: 2002
+  summary: >-
+    Cloned a menthol receptor (CMR1, now TRPM8) from sensory neurons. The channel is activated by menthol and by cool-to-cold temperatures.
+    With the heat-sensing TRPV channels, this showed that TRP channels sense temperature over a wide range. It explains why menthol
+    feels cold.
+  why_it_mattered: >-
+    It identified the receptor behind menthol's cooling and, with TRPV1, established TRP channels as the main thermosensors of the peripheral
+    nervous system.
+  role_here: prior-result
+  role_note: Menthol's molecular target.
+  cited_in: [6-why-plants-make-these-molecules]
+  cited_in_catalogue: ['compounds:menthol']
+  verified: true
+- n: 39
+  tier: seminal
+  citation: >-
+    Höld KM, Sirisoma NS, Ikeda T, Narahashi T, Casida JE. alpha-Thujone (the active component of absinthe): gamma-aminobutyric acid
+    type A receptor modulation and metabolic detoxification. PNAS. 2000;97(8):3826-3831.
+  doi: 10.1073/pnas.070042397
+  year: 2000
+  summary: >-
+    Showed that alpha-thujone is a rapidly acting, readily detoxified modulator of the GABA-gated chloride channel, acting like picrotoxinin
+    as a GABA-A antagonist. Toxicity was reversed by benzodiazepines and barbiturates, and Drosophila GABA-receptor mutants were cross-resistant.
+    The main metabolite, 7-hydroxy-alpha-thujone, was 56-fold less potent; beta-thujone was less toxic.
+  why_it_mattered: >-
+    It moved the absinthe-thujone story from folklore to a defined receptor mechanism and underpins current regulatory thujone limits.
+  role_here: prior-result
+  role_note: Thujone mechanism.
+  cited_in: [6-why-plants-make-these-molecules]
+  cited_in_catalogue: ['compounds:alpha-thujone', 'compounds:beta-thujone', 'preparations:sage-leaf-hot-infusion', 'taxa:salvia-officinalis']
+  verified: true
+- n: 40
+  tier: seminal
+  citation: >-
+    Gertsch J, Leonti M, Raduner S, et al. Beta-caryophyllene is a dietary cannabinoid. PNAS. 2008;105(26):9099-9104.
+  doi: 10.1073/pnas.0803601105
+  year: 2008
+  summary: >-
+    Showed that (E)-beta-caryophyllene, a widespread plant volatile, binds selectively to the CB2 cannabinoid receptor as a functional
+    agonist. In human monocytes it inhibited adenylate cyclase and triggered calcium responses. Oral administration reduced carrageenan-induced
+    inflammation in wild-type mice but not in CB2-knockout mice.
+  why_it_mattered: >-
+    It showed that a common dietary terpene acts on the endocannabinoid system, opening the 'dietary cannabinoid' research line.
+  role_here: prior-result
+  role_note: Beta-caryophyllene CB2 pharmacology (in vitro/animal).
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, fig-pathways]
+  cited_in_catalogue: ['compounds:beta-caryophyllene']
+  verified: true
+- n: 41
+  tier: classic
+  citation: >-
+    Juergens UR, Dethlefsen U, Steinkamp G, et al. Anti-inflammatory activity of 1.8-cineol (eucalyptol) in bronchial asthma: a double-blind
+    placebo-controlled trial. Respir Med. 2003;97(3):250-256.
+  doi: 10.1053/rmed.2003.1432
+  year: 2003
+  summary: >-
+    Randomised, double-blind trial in 32 steroid-dependent asthma patients given 1,8-cineole in enteric-coated capsules or placebo for
+    12 weeks. The primary outcome was reduction of oral prednisolone. Twelve of 16 on cineole vs 4 of 16 on placebo could reduce steroids
+    (p = 0.012). A small trial of the isolated compound.
+  role_here: prior-result
+  role_note: Human RCT of isolated 1,8-cineole.
+  cited_in: []
+  cited_in_catalogue: ['compounds:1-8-cineole']
+  verified: true
+- n: 42
+  tier: current
+  citation: >-
+    Krause ST, Liao P, Crocoll C, et al. The biosynthesis of thymol, carvacrol, and thymohydroquinone in Lamiaceae proceeds via cytochrome
+    P450s and a short-chain dehydrogenase. PNAS. 2021;118(52):e2110092118.
+  doi: 10.1073/pnas.2110092118
+  year: 2021
+  summary: >-
+    Established the pathway from gamma-terpinene (from GPP) to thymol and carvacrol via P450s and a dehydrogenase through an unstable
+    intermediate, differing from earlier proposed routes.
+  role_here: prior-result
+  role_note: Phenolic monoterpene biosynthesis.
+  cited_in: [1-what-every-plant-shares, 5-three-pathways-that-make-the-greenhouse-smell, fig-pathways]
+  cited_in_catalogue: ['compounds:carvacrol', 'compounds:gamma-terpinene', 'compounds:p-cymene', 'compounds:thymol']
+  verified: true
+- n: 43
+  tier: current
+  citation: Birtić S, Dussort P, Pierre F-X, Bily AC, Roller M. Carnosic acid. Phytochemistry. 2015;115:9-19.
+  doi: 10.1016/j.phytochem.2014.12.026
+  year: 2015
+  summary: >-
+    Review: carnosic acid is exclusive to Lamiaceae; carnosol is its oxidative artefact formed after harvest and during drying; proposed
+    biosynthesis from GGPP via miltiradiene and ferruginol; rosemary extracts approved as food additive E392 in 2010.
+  role_here: review
+  role_note: Carnosic acid chemistry, drying/oxidation, biosynthesis.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, 7-from-leaf-to-cup, fig-pathways]
+  cited_in_catalogue: ['compounds:carnosic-acid', 'compounds:carnosol', 'preparations:herb-tincture-ethanol-water']
+  verified: true
+- n: 44
+  tier: current
+  citation: >-
+    DeRango-Adem EF, Blay J. Does oral apigenin have real potential for a therapeutic effect in the context of human gastrointestinal
+    and other cancers? Front Pharmacol. 2021;12:681477.
+  doi: 10.3389/fphar.2021.681477
+  year: 2021
+  summary: >-
+    Review of apigenin absorption and metabolism: plant glycosides must be hydrolysed by intestinal or bacterial beta-glucosidases before
+    absorption; extensive glucuronidation/sulfation and enterohepatic recycling; human plasma levels after parsley are in the nanomolar
+    range; oral bioavailability characterised as low.
+  role_here: review
+  role_note: Apigenin/apigenin-7-glucoside bioavailability.
+  cited_in: []
+  cited_in_catalogue: ['compounds:apigenin', 'compounds:apigenin-7-glucoside', 'compounds:luteolin', 'compounds:luteolin-7-glucoside']
+  verified: true
+- n: 45
+  tier: classic
+  citation: >-
+    Baba S, Osakabe N, Natsume M, et al. Absorption, metabolism, degradation and urinary excretion of rosmarinic acid after intake of
+    Perilla frutescens extract in humans. Eur J Nutr. 2005;44(1):1-9.
+  doi: 10.1007/s00394-004-0482-2
+  year: 2005
+  summary: >-
+    Six healthy men took a Perilla extract containing rosmarinic acid. Rosmarinic acid, methylated rosmarinic acid and ferulic acid
+    appeared in plasma, mostly as glucuronide/sulfate conjugates. Only 6.3 ± 2.2 % of the dose was recovered in urine, most within 6
+    hours, along with caffeic, ferulic and m-coumaric acids.
+  role_here: prior-result
+  role_note: Human rosmarinic acid PK.
+  cited_in: []
+  cited_in_catalogue: ['compounds:caffeic-acid', 'compounds:rosmarinic-acid']
+  verified: true
+- n: 46
+  tier: classic
+  citation: >-
+    Takano H, Osakabe N, Sanbongi C, et al. Extract of Perilla frutescens enriched for rosmarinic acid, a polyphenolic phytochemical,
+    inhibits seasonal allergic rhinoconjunctivitis in humans. Exp Biol Med. 2004;229(3):247-254.
+  doi: 10.1177/153537020422900305
+  year: 2004
+  summary: >-
+    Randomised double-blind 21-day trial of a rosmarinic-acid-enriched Perilla extract vs placebo in mild seasonal allergic rhinoconjunctivitis.
+    Active treatment increased responder rates for nasal itching and eye symptoms and reduced neutrophils and eosinophils in nasal lavage.
+    No adverse events were reported. The test article is a named, RA-enriched extract of a non-greenhouse plant.
+  role_here: prior-result
+  role_note: Human RCT where rosmarinic acid is the named active.
+  cited_in: []
+  cited_in_catalogue: ['compounds:rosmarinic-acid']
+  verified: true
+- n: 47
+  tier: classic
+  citation: >-
+    Akao T, Kawabata K, Yanagisawa E, et al. Baicalin, the predominant flavone glucuronide of Scutellariae radix, is absorbed from the
+    rat gastrointestinal tract as the aglycone and restored to its original form. J Pharm Pharmacol. 2000;52(12):1563-1568.
+  doi: 10.1211/0022357001777621
+  year: 2000
+  summary: >-
+    In conventional rats oral baicalin appeared in plasma while baicalein did not; in germ-free rats plasma exposure was only 12 %.
+    Baicalin was hydrolysed by gut bacteria to baicalein, which was absorbed and re-glucuronidated. Baicalin itself is poorly absorbed.
+  role_here: prior-result
+  role_note: Baicalin absorption depends on gut bacteria (rat).
+  cited_in: []
+  cited_in_catalogue: ['compounds:baicalein', 'compounds:baicalin']
+  verified: true
+- n: 48
+  tier: classic
+  citation: Segal R, Pilote L. Warfarin interaction with Matricaria chamomilla. CMAJ. 2006;174(9):1281-1282.
+  doi: 10.1503/cmaj.051191
+  year: 2006
+  summary: >-
+    Case report: a 70-year-old woman on warfarin developed an INR rise from 3.6 to 7.9 with retroperitoneal and rectus sheath haematomas
+    after drinking chamomile tea and applying a chamomile lotion. The authors proposed an additive pharmacodynamic effect of chamomile
+    coumarins, with weak CYP inhibition as a lesser possibility. It was described as the first such case.
+  role_here: prior-result
+  role_note: Chamomile-warfarin interaction (single case).
+  cited_in: []
+  cited_in_catalogue: ['compounds:herniarin', 'preparations:chamomile-flower-hot-infusion', 'taxa:matricaria-chamomilla']
+  verified: true
+- n: 49
+  tier: current
+  citation: >-
+    Bommer S, Klein P, Suter A. First time proof of sage's tolerability and efficacy in menopausal women with hot flushes. Adv Ther.
+    2011;28(6):490-500.
+  doi: 10.1007/s12325-011-0027-z
+  year: 2011
+  summary: >-
+    Open, uncontrolled multicentre study (ITT n = 69) of a once-daily fresh sage leaf tablet for 8 weeks; hot-flush intensity score
+    fell 50 % by week 4 and 64 % by week 8.
+  role_here: prior-result
+  role_note: Sage hot-flush evidence (uncontrolled).
+  cited_in: []
+  cited_in_catalogue: ['taxa:salvia-officinalis']
+  verified: true
+- n: 50
+  tier: current
+  citation: >-
+    Dimpfel W, Chiegoua Dipah GN, Bommer S. Effectiveness of Menosan Salvia officinalis in the treatment of a wide spectrum of menopausal
+    complaints. A double-blind, randomized, placebo-controlled, clinical trial. Heliyon. 2021;7(2):e05910.
+  doi: 10.1016/j.heliyon.2021.e05910
+  year: 2021
+  summary: >-
+    RCT, 80 women (48 per protocol), 4 weeks: Menopause Rating Scale fell 39.2 % on sage extract vs 6.3 % on placebo; hot-flush severity
+    improved; EEG changes reported.
+  role_here: prior-result
+  role_note: Sage hot-flush RCT (named extract).
+  cited_in: []
+  cited_in_catalogue: ['taxa:salvia-officinalis']
+  verified: true
+- n: 51
+  tier: classic
+  citation: >-
+    Akhondzadeh S, Noroozian M, Mohammadi M, Ohadinia S, Jamshidi AH, Khani M. Salvia officinalis extract in the treatment of patients
+    with mild to moderate Alzheimer's disease: a double blind, randomized and placebo-controlled trial. J Clin Pharm Ther. 2003;28(1):53-59.
+  doi: 10.1046/j.1365-2710.2003.00463.x
+  year: 2003
+  summary: >-
+    Four-month randomised placebo-controlled trial in 42 patients with mild to moderate Alzheimer's disease in Tehran. The sage extract
+    group had better outcomes on ADAS-cog and CDR-SB than placebo. Agitation was somewhat more frequent on sage. A single small trial
+    of one extract.
+  role_here: prior-result
+  role_note: Sage cognition RCT in dementia.
+  cited_in: []
+  cited_in_catalogue: ['taxa:salvia-officinalis']
+  verified: true
+- n: 52
+  tier: classic
+  citation: >-
+    Kennedy DO, Pace S, Haskell C, Okello EJ, Milne A, Scholey AB. Effects of cholinesterase inhibiting sage (Salvia officinalis) on
+    mood, anxiety and performance on a psychological stressor battery. Neuropsychopharmacology. 2006;31(4):845-852.
+  doi: 10.1038/sj.npp.1300907
+  year: 2006
+  summary: >-
+    Double-blind, placebo-controlled crossover in 30 healthy adults given two amounts of dried sage leaf or placebo. Both improved mood
+    ratings; effects on anxiety and alertness differed by amount. An extract of the leaf inhibited acetylcholinesterase and, more strongly,
+    butyrylcholinesterase in vitro.
+  role_here: prior-result
+  role_note: Sage acute mood/cognition RCT (dried leaf).
+  cited_in: []
+  cited_in_catalogue: ['taxa:salvia-officinalis']
+  verified: true
+- n: 53
+  tier: current
+  citation: >-
+    Miroddi M, Navarra M, Quattropani MC, Calapai F, Gangemi S, Calapai G. Systematic review of clinical trials assessing pharmacological
+    properties of Salvia species on memory, cognitive impairment and Alzheimer's disease. CNS Neurosci Ther. 2014;20(6):485-495. [DARE
+    record]
+  url: https://www.ncbi.nlm.nih.gov/books/NBK242285/
+  year: 2014
+  summary: >-
+    Systematic review of trials of S. officinalis and S. lavandulaefolia on cognition; benefits reported but undermined by methodological
+    issues and heterogeneous preparations (extracts, oils, raw material).
+  role_here: review
+  role_note: Why the sage cognition evidence stays at B.
+  cited_in: []
+  cited_in_catalogue: ['taxa:salvia-officinalis']
+  verified: true
+- n: 54
+  tier: current
+  citation: >-
+    Alammar N, Wang L, Saberi B, et al. The impact of peppermint oil on the irritable bowel syndrome: a meta-analysis of the pooled
+    clinical data. BMC Complement Altern Med. 2019;19:21.
+  doi: 10.1186/s12906-018-2409-0
+  year: 2019
+  summary: >-
+    Meta-analysis of 12 RCTs (835 patients) of peppermint oil (enteric-coated capsules): global symptom improvement RR 2.39 (NNT 3),
+    abdominal pain RR 1.78 (NNT 4); adverse events not significantly more frequent than placebo.
+  role_here: prior-result
+  role_note: Grade-A evidence for peppermint OIL capsules in IBS.
+  cited_in: [7-from-leaf-to-cup, 8-how-to-read-the-rest-of-this-site]
+  cited_in_catalogue: ['compounds:menthol', 'taxa:mentha-x-piperita']
+  verified: true
+- n: 55
+  tier: classic
+  citation: >-
+    Koytchev R, Alken RG, Dundarov S. Balm mint extract (Lo-701) for topical treatment of recurring herpes labialis. Phytomedicine.
+    1999;6(4):225-230.
+  doi: 10.1016/S0944-7113(99)80013-0
+  year: 1999
+  summary: >-
+    Double-blind, placebo-controlled randomised trial in 66 patients with recurrent herpes labialis. A cream with 1 % of a 70:1 dry
+    extract of Melissa leaf (Lo-701) was applied for five days. The combined symptom score on day 2 was significantly lower than placebo.
+  role_here: prior-result
+  role_note: Topical lemon balm RCT (named extract).
+  cited_in: []
+  cited_in_catalogue: ['taxa:melissa-officinalis']
+  verified: true
+- n: 56
+  tier: classic
+  citation: >-
+    Kemmerich B, Eberhardt R, Stammer H. Efficacy and tolerability of a fluid extract combination of thyme herb and ivy leaves and matched
+    placebo in adults suffering from acute bronchitis with productive cough. A prospective, double-blind, placebo-controlled clinical
+    trial. Arzneimittelforschung. 2006;56(9):652-660.
+  doi: 10.1055/s-0031-1296767
+  year: 2006
+  summary: >-
+    Multicentre double-blind placebo-controlled trial in 361 adults with acute bronchitis given a fixed thyme + ivy fluid extract syrup
+    for 11 days. Coughing fits fell 68.7 % vs 47.6 % on placebo by days 7-9 (p < 0.0001), and the 50 % reduction came two days earlier.
+    The test article is a two-herb combination.
+  role_here: prior-result
+  role_note: Thyme combination RCT.
+  cited_in: []
+  cited_in_catalogue: ['taxa:thymus-vulgaris']
+  verified: true
+- n: 57
+  tier: classic
+  citation: >-
+    Amsterdam JD, Li Y, Soeller I, Rockwell K, Mao JJ, Shults J. A randomized, double-blind, placebo-controlled trial of oral Matricaria
+    recutita (chamomile) extract therapy for generalized anxiety disorder. J Clin Psychopharmacol. 2009;29(4):378-382.
+  doi: 10.1097/JCP.0b013e3181ac935c
+  year: 2009
+  summary: >-
+    Eight-week randomised double-blind trial in 57 outpatients with mild to moderate GAD given a chamomile extract or placebo. HAM-A
+    scores fell significantly more on chamomile; secondary measures showed modest differences. Tolerability was similar to placebo.
+  role_here: prior-result
+  role_note: Chamomile GAD RCT (standardised extract).
+  cited_in: []
+  cited_in_catalogue: ['compounds:apigenin', 'taxa:matricaria-chamomilla']
+  verified: true
+- n: 58
+  tier: current
+  citation: >-
+    Mao JJ, Xie SX, Keefe JR, Soeller I, Li QS, Amsterdam JD. Long-term chamomile (Matricaria chamomilla L.) treatment for generalized
+    anxiety disorder: a randomized clinical trial. Phytomedicine. 2016;23(14):1735-1742.
+  doi: 10.1016/j.phymed.2016.10.012
+  year: 2016
+  summary: >-
+    Open-label phase then 26-week randomised placebo-substitution (93 responders): relapse 15.2 % vs 25.5 %, not significant (HR 0.52,
+    p = 0.16); GAD symptoms stayed lower on chamomile.
+  role_here: prior-result
+  role_note: Chamomile GAD maintenance RCT.
+  cited_in: []
+  cited_in_catalogue: ['taxa:matricaria-chamomilla']
+  verified: true
+- n: 59
+  tier: current
+  citation: >-
+    Zick SM, Wright BD, Sen A, Arnedt JT. Preliminary examination of the efficacy and safety of a standardized chamomile extract for
+    chronic primary insomnia: a randomized placebo-controlled pilot study. BMC Complement Altern Med. 2011;11:78.
+  doi: 10.1186/1472-6882-11-78
+  year: 2011
+  summary: >-
+    Pilot RCT, 34 adults with chronic primary insomnia, 28 days: no significant differences from placebo in sleep-diary outcomes; modest
+    non-significant gain in daytime functioning.
+  role_here: contrast
+  role_note: Null sleep RCT that limits chamomile sleep claims.
+  cited_in: []
+  cited_in_catalogue: ['taxa:matricaria-chamomilla']
+  verified: true
+- n: 60
+  tier: current
+  citation: >-
+    Brock C, Whitehouse J, Tewfik I, Towell T. American skullcap (Scutellaria lateriflora): a randomised, double-blind placebo-controlled
+    crossover study of its effects on mood in healthy volunteers. Phytother Res. 2014;28(5):692-698.
+  doi: 10.1002/ptr.5044
+  year: 2014
+  summary: >-
+    Crossover RCT in 43 healthy, mostly mildly anxious volunteers, two-week periods: no significant difference from placebo on anxiety
+    (p = 0.191); total mood disturbance fell from baseline in both arms.
+  role_here: prior-result
+  role_note: The one skullcap RCT.
+  cited_in: []
+  cited_in_catalogue: ['taxa:scutellaria-lateriflora']
+  verified: true
+- n: 101
+  tier: background
+  citation: Somerville C. Cellulose synthesis in higher plants. Annu Rev Cell Dev Biol. 2006;22:53-78.
+  doi: 10.1146/annurev.cellbio.22.022206.160206
+  year: 2006
+  summary: >-
+    Review of cellulose synthesis. Cellulose microfibrils organise the plant cell wall and make a turgor-based growth habit possible.
+    They are made by plasma-membrane complexes about 30 nm across containing roughly 36 subunits of at least three CESA proteins; the
+    complexes are assembled inactive in the Golgi and become active in the plasma membrane. Live-cell imaging shows the complexes moving
+    along tracks set by cortical microtubules.
+  role_here: background
+  role_note: Cellulose synthase complexes, microtubule guidance, turgor-based growth.
+  cited_in: [1-what-every-plant-shares, 2-the-cell-wall-and-cellulose]
+  cited_in_catalogue: []
+  verified: true
+- n: 102
+  tier: background
+  citation: Cosgrove DJ. Growth of the plant cell wall. Nat Rev Mol Cell Biol. 2005;6(11):850-861.
+  doi: 10.1038/nrm1746
+  year: 2005
+  summary: >-
+    Review of primary-wall structure and growth. The primary wall consists of cellulose microfibrils in a hydrated matrix of hemicelluloses
+    and pectins. Growth requires wall stress relaxation, mediated by expansins that disrupt non-covalent bonds between wall polymers,
+    with possible roles for xyloglucan endotransglucosylases and cellulases; turgor drives water uptake as the wall yields.
+  role_here: background
+  role_note: Wall composition and expansin-mediated loosening.
+  cited_in: [1-what-every-plant-shares, 2-the-cell-wall-and-cellulose]
+  cited_in_catalogue: []
+  verified: true
+- n: 103
+  tier: current
+  citation: >-
+    Morgan JLW, Strumillo J, Zimmer J. Crystallographic snapshot of cellulose synthesis and membrane translocation. Nature. 2013;493(7431):181-186.
+  doi: 10.1038/nature11744
+  year: 2013
+  summary: >-
+    Crystal structure of the bacterial cellulose synthase BcsA-BcsB complex from Rhodobacter sphaeroides, showing a channel through
+    which the growing glucan is translocated across the membrane as glucose units are added one at a time. Describes cellulose as a
+    linear polymer of glucose.
+  role_here: background
+  role_note: >-
+    Definition of cellulose as a linear glucose polymer; structural basis of synthesis (bacterial model).
+  cited_in: [2-the-cell-wall-and-cellulose]
+  cited_in_catalogue: []
+  verified: true
+- n: 104
+  tier: background
+  citation: >-
+    McNamara JT, Morgan JLW, Zimmer J. A molecular description of cellulose biosynthesis. Annu Rev Biochem. 2015;84:895-921.
+  doi: 10.1146/annurev-biochem-060614-033930
+  year: 2015
+  summary: >-
+    Review of cellulose polymerisation, membrane transport and regulation, focused on bacterial cellulose synthases. States that cellulose
+    is the most abundant biopolymer on Earth.
+  role_here: background
+  role_note: Abundance statement.
+  cited_in: [2-the-cell-wall-and-cellulose]
+  cited_in_catalogue: []
+  verified: true
+- n: 105
+  tier: background
+  citation: >-
+    Nelson N, Ben-Shem A. The complex architecture of oxygenic photosynthesis. Nat Rev Mol Cell Biol. 2004;5(12):971-982.
+  doi: 10.1038/nrm1525
+  year: 2004
+  summary: >-
+    Review of the four thylakoid membrane complexes of oxygenic photosynthesis - photosystem II, cytochrome b6f, photosystem I and ATP
+    synthase. PSII oxidises water at a Mn4-Ca-Cl cluster; electron transport yields NADPH and a proton gradient that drives ATP synthesis;
+    PSI binds more than 100 chlorophyll and carotenoid molecules. Crystal structures of the complexes are summarised.
+  role_here: background
+  role_note: Light reactions and their machinery.
+  cited_in: [1-what-every-plant-shares, 3-photosynthesis-and-chlorophyll]
+  cited_in_catalogue: []
+  verified: true
+- n: 106
+  tier: background
+  citation: >-
+    Spreitzer RJ, Salvucci ME. Rubisco: structure, regulatory interactions, and possibilities for a better enzyme. Annu Rev Plant Biol.
+    2002;53:449-475.
+  doi: 10.1146/annurev.arplant.53.100301.135233
+  year: 2002
+  summary: >-
+    Review of Rubisco, which catalyses the first step of net photosynthetic CO2 assimilation and of photorespiratory carbon oxidation.
+    Its catalytic inefficiency, competitive inhibition by O2, dead-end inhibition by RuBP and loss of carbamylation make it rate-limiting
+    for photosynthesis; Rubisco activase is discussed as a target for improvement.
+  role_here: background
+  role_note: Carbon fixation and Rubisco's limits.
+  cited_in: [1-what-every-plant-shares, 3-photosynthesis-and-chlorophyll, fig-pathways]
+  cited_in_catalogue: []
+  verified: true
+- n: 107
+  tier: background
+  citation: >-
+    Tanaka R, Tanaka A. Tetrapyrrole biosynthesis in higher plants. Annu Rev Plant Biol. 2007;58:321-346.
+  doi: 10.1146/annurev.arplant.57.032905.105448
+  year: 2007
+  summary: >-
+    Review of tetrapyrrole biosynthesis. Higher plants make chlorophyll, heme, siroheme and phytochromobilin from a common pathway starting
+    with glutamate converted to 5-aminolevulinic acid. Regulation (for example through magnesium chelatase) keeps phototoxic intermediates
+    at safe levels; links to senescence, cell death and plastid-to-nucleus signalling are covered.
+  role_here: background
+  role_note: Chlorophyll biosynthesis.
+  cited_in: [1-what-every-plant-shares, 3-photosynthesis-and-chlorophyll]
+  cited_in_catalogue: []
+  verified: true
+- n: 108
+  tier: background
+  citation: >-
+    Hartmann T. From waste products to ecochemicals: fifty years research of plant secondary metabolism. Phytochemistry. 2007;68(22-24):2831-2846.
+  doi: 10.1016/j.phytochem.2007.09.017
+  year: 2007
+  summary: >-
+    Historical review. For about 150 years phytochemistry isolated and described structures and secondary compounds were regarded as
+    waste products. Tracer studies (1950s-60s), enzymology (1970s-80s) and gene identification (from the late 1980s) changed this; molecular
+    evidence shows genes of primary metabolism duplicated and recruited to ecological functions. Cites more than 200,000 known secondary
+    metabolites.
+  role_here: background
+  role_note: Primary vs secondary metabolism; the 'waste products' history.
+  cited_in: [1-what-every-plant-shares, 4-primary-versus-secondary-metabolism, 6-why-plants-make-these-molecules]
+  cited_in_catalogue: []
+  verified: true
+- n: 109
+  tier: seminal
+  citation: Fraenkel GS. The raison d'être of secondary plant substances. Science. 1959;129(3361):1466-1470.
+  doi: 10.1126/science.129.3361.1466
+  url: https://garfield.library.upenn.edu/classics1984/A1984SE93900001.pdf
+  year: 1959
+  summary: >-
+    Argued that secondary plant substances, which have no nutritional role, exist to repel or attract insects. Because plants are nutritionally
+    much alike for insects yet are eaten very selectively, these compounds would explain both their own diversity and the host specificity
+    of plant-feeding insects. Read through the author's 1984 Citation Classic commentary (Current Contents), not the original article
+    text.
+  why_it_mattered: >-
+    The commentary records near-silence and mostly negative comment for about six years, then rapidly rising citation from the mid-1970s;
+    the paper is credited with helping create chemical ecology as a discipline, and the defence-and-attraction view it proposed is now
+    the standard framing for why plants make secondary metabolites.
+  role_here: prior-result
+  role_note: Origin of the ecological explanation for secondary metabolites.
+  cited_in: [6-why-plants-make-these-molecules]
+  cited_in_catalogue: []
+  verified: true
+- n: 110
+  tier: seminal
+  citation: >-
+    Lichtenthaler HK. The 1-deoxy-D-xylulose-5-phosphate pathway of isoprenoid biosynthesis in plants. Annu Rev Plant Physiol Plant
+    Mol Biol. 1999;50:47-65.
+  doi: 10.1146/annurev.arplant.50.1.47
+  year: 1999
+  summary: >-
+    Review establishing, for plants, the two-pathway model of isoprenoid biosynthesis. The cytosolic mevalonate pathway supplies sterols,
+    sesquiterpenes and triterpenoids; the plastidic DOXP (now MEP) pathway, starting from glyceraldehyde-3-phosphate and pyruvate with
+    DOXP synthase as first enzyme, supplies carotenoids, phytol, plastoquinone-9, isoprene and mono- and diterpenes. Both yield isopentenyl
+    diphosphate, from which other isoprenoids form by head-to-tail addition.
+  why_it_mattered: >-
+    It replaced the textbook view that all plant isoprenoids come from mevalonate, and it gave the compartment rule (plastid mono- and
+    diterpenes, cytosolic sesqui- and triterpenes) that later pathway and engineering work in essential-oil plants starts from.
+  role_here: background
+  role_note: MEP vs MVA, compartments and product classes.
+  cited_in: [1-what-every-plant-shares, 3-photosynthesis-and-chlorophyll, 4-primary-versus-secondary-metabolism, 5-three-pathways-that-make-the-greenhouse-smell,
+    fig-pathways]
+  cited_in_catalogue: []
+  verified: true
+- n: 111
+  tier: background
+  citation: >-
+    Vranová E, Coman D, Gruissem W. Network analysis of the MVA and MEP pathways for isoprenoid synthesis. Annu Rev Plant Biol. 2013;64:665-700.
+  doi: 10.1146/annurev-arplant-050312-120116
+  year: 2013
+  summary: >-
+    Review of the cytosolic MVA and plastidic MEP pathways as a network. All isoprenoids derive from prenyl diphosphate precursors;
+    plants, unlike most organisms, use both pathways, and the review analyses gene organisation, regulation and the physiological effects
+    of perturbing either route.
+  role_here: background
+  role_note: The two pathways and their compartments.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, fig-pathways]
+  cited_in_catalogue: []
+  verified: true
+- n: 112
+  tier: background
+  citation: >-
+    Tholl D. Terpene synthases and the regulation, diversity and biological roles of terpene metabolism. Curr Opin Plant Biol. 2006;9(3):297-304.
+  doi: 10.1016/j.pbi.2006.03.014
+  year: 2006
+  summary: >-
+    Review of terpene synthases. They form large gene families, many enzymes make multiple products, and their expression is regulated
+    in space and time and in response to developmental and environmental cues, which together generate terpene diversity.
+  role_here: background
+  role_note: Terpene synthase gene families and multi-product enzymes.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, fig-pathways]
+  cited_in_catalogue: []
+  verified: true
+- n: 113
+  tier: background
+  citation: >-
+    Croteau RB, Davis EM, Ringer KL, Wildung MR. (-)-Menthol biosynthesis and molecular genetics. Naturwissenschaften. 2005;92(12):562-577.
+  doi: 10.1007/s00114-005-0055-0
+  year: 2005
+  summary: >-
+    Review of menthol biosynthesis in peppermint. Eight enzymatic steps lead from primary metabolism to (-)-menthol, in four subcellular
+    compartments of the peltate glandular trichomes; geranyl diphosphate is cyclised to (-)-limonene, followed by C3 hydroxylation and
+    a series of redox steps and an isomerisation through intermediates including pulegone and menthone, with menthofuran as a side product.
+    Regulation is mainly at the level of gene expression, and engineering has improved oil yield and composition.
+  role_here: background
+  role_note: Menthol pathway and trichome localisation.
+  cited_in: [1-what-every-plant-shares, 5-three-pathways-that-make-the-greenhouse-smell, 6-why-plants-make-these-molecules, fig-pathways]
+  cited_in_catalogue: []
+  verified: true
+- n: 114
+  tier: classic
+  citation: >-
+    Wise ML, Savage TJ, Katahira E, Croteau R. Monoterpene synthases from common sage (Salvia officinalis): cDNA isolation, characterization,
+    and functional expression of (+)-sabinene synthase, 1,8-cineole synthase, and (+)-bornyl diphosphate synthase. J Biol Chem. 1998;273(24):14891-14899.
+  doi: 10.1074/jbc.273.24.14891
+  year: 1998
+  summary: >-
+    Cloned and expressed three sage monoterpene synthases that convert geranyl diphosphate to (+)-sabinene, 1,8-cineole and (+)-bornyl
+    diphosphate, each with minor side products. Sabinene is the precursor of the thujones and bornyl diphosphate the immediate precursor
+    of (+)-camphor. Bornyl diphosphate synthase is a homodimer, the other two monomers, matching the native enzymes from sage oil glands.
+  role_here: prior-result
+  role_note: Where sage's thujone, cineole and camphor start.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, fig-pathways]
+  cited_in_catalogue: []
+  verified: true
+- n: 115
+  tier: current
+  citation: >-
+    Fukushima EO, Seki H, Ohyama K, et al. CYP716A subfamily members are multifunctional oxidases in triterpenoid biosynthesis. Plant
+    Cell Physiol. 2011;52(12):2050-2061.
+  doi: 10.1093/pcp/pcr146
+  year: 2011
+  summary: >-
+    Showed that CYP716A12 (and grape homologues CYP716A15 and CYP716A17) oxidise triterpene skeletons at C-28, converting alpha-amyrin
+    to ursolic acid, beta-amyrin to oleanolic acid and lupeol to betulinic acid via alcohol intermediates.
+  role_here: prior-result
+  role_note: Ursolic acid formation from alpha-amyrin (shown outside the Lamiaceae).
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, fig-pathways]
+  cited_in_catalogue: []
+  verified: true
+- n: 116
+  tier: background
+  citation: >-
+    Maeda H, Dudareva N. The shikimate pathway and aromatic amino acid biosynthesis in plants. Annu Rev Plant Biol. 2012;63:73-105.
+  doi: 10.1146/annurev-arplant-042811-105439
+  year: 2012
+  summary: >-
+    Review of the plastid shikimate pathway from phosphoenolpyruvate and erythrose 4-phosphate to tryptophan, phenylalanine and tyrosine,
+    which serve both protein synthesis and natural-product pathways (pigments, alkaloids, hormones, cell-wall components). States that
+    at least 30 % of photosynthetically fixed carbon in vascular plants passes through the pathway.
+  role_here: background
+  role_note: Shikimate pathway inputs and carbon share.
+  cited_in: [1-what-every-plant-shares, 3-photosynthesis-and-chlorophyll, 4-primary-versus-secondary-metabolism, fig-pathways]
+  cited_in_catalogue: []
+  verified: true
+- n: 117
+  tier: background
+  citation: Vogt T. Phenylpropanoid biosynthesis. Mol Plant. 2010;3(1):2-20.
+  doi: 10.1093/mp/ssp106
+  year: 2010
+  summary: >-
+    Review of general phenylpropanoid metabolism. Phenylalanine ammonia-lyase deaminates phenylalanine to cinnamate, directing carbon
+    from the shikimate pathway into hydroxycinnamic acids, which reductases, oxygenases and transferases convert into flavonoids and
+    anthocyanins, lignin, coumarins, phenolic volatiles and hydrolysable tannins.
+  role_here: background
+  role_note: The phenylpropanoid entry step and its branches.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, fig-pathways]
+  cited_in_catalogue: []
+  verified: true
+- n: 118
+  tier: background
+  citation: Petersen M, Simmonds MSJ. Rosmarinic acid. Phytochemistry. 2003;62(2):121-125.
+  doi: 10.1016/S0031-9422(02)00513-7
+  year: 2003
+  summary: >-
+    Short review. Rosmarinic acid is an ester of caffeic acid and 3,4-dihydroxyphenyllactic acid, found mainly in the Boraginaceae and
+    the Nepetoideae subfamily of the Lamiaceae; its biosynthesis starts from L-phenylalanine and L-tyrosine through eight enzymes, all
+    characterised. Reports antiviral, antibacterial, anti-inflammatory and antioxidant activities (non-human) and accumulation up to
+    36 % of cell dry weight in cell cultures.
+  role_here: background
+  role_note: Structure, distribution and origin of rosmarinic acid.
+  cited_in: [1-what-every-plant-shares, 4-primary-versus-secondary-metabolism, 5-three-pathways-that-make-the-greenhouse-smell, fig-pathways]
+  cited_in_catalogue: ['preparations:lemon-balm-hot-infusion']
+  verified: true
+- n: 119
+  tier: classic
+  citation: >-
+    Koeduka T, Fridman E, Gang DR, et al. Eugenol and isoeugenol, characteristic aromatic constituents of spices, are biosynthesized
+    via reduction of a coniferyl alcohol ester. Proc Natl Acad Sci USA. 2006;103(26):10128-10133.
+  doi: 10.1073/pnas.0603732103
+  year: 2006
+  summary: >-
+    Identified eugenol synthase (EGS1) in sweet basil glandular trichomes, which makes eugenol from coniferyl acetate and NADPH, and
+    the homologous isoeugenol synthase in petunia flowers. Both belong to the family of NADPH-dependent reductases that includes pinoresinol-lariciresinol
+    reductase; the acetate ester, not free coniferyl alcohol, is the substrate.
+  role_here: prior-result
+  role_note: Eugenol biosynthesis in basil.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, fig-pathways]
+  cited_in_catalogue: []
+  verified: true
+- n: 120
+  tier: classic
+  citation: >-
+    Gang DR, Lavid N, Zubieta C, et al. Characterization of phenylpropene O-methyltransferases from sweet basil: facile change of substrate
+    specificity and convergent evolution within a plant O-methyltransferase family. Plant Cell. 2002;14(2):505-519.
+  doi: 10.1105/tpc.010327
+  year: 2002
+  summary: >-
+    Isolated two basil O-methyltransferases, CVOMT1 (chavicol to methylchavicol, i.e. estragole) and EOMT1 (eugenol to methyleugenol),
+    which share 90 % identity and are expressed mainly in peltate glandular trichomes of young leaves. A single amino-acid difference
+    (Phe vs Ser at 260/261) determines substrate preference, and mutagenesis reversed it.
+  role_here: prior-result
+  role_note: How basil makes estragole and methyleugenol.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, 6-why-plants-make-these-molecules, fig-pathways]
+  cited_in_catalogue: []
+  verified: true
+- n: 121
+  tier: classic
+  citation: >-
+    Iijima Y, Davidovich-Rikanati R, Fridman E, et al. The biochemical and molecular basis for the divergent patterns in the biosynthesis
+    of terpenes and phenylpropenes in the peltate glands of three cultivars of basil. Plant Physiol. 2004;136(3):3724-3736.
+  doi: 10.1104/pp.104.051318
+  year: 2004
+  summary: >-
+    Compared peltate glands of three basil cultivars. Terpene composition tracked terpene synthase transcript levels; a linalool-producing
+    line was dominated by linalool synthase transcript, while a geraniol-producing line carried a frameshift in its linalool synthase
+    gene. Total terpene production correlated inversely with phenylpropene levels, indicating competition between the pathways.
+  role_here: prior-result
+  role_note: Why basil cultivars smell different.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, fig-pathways]
+  cited_in_catalogue: []
+  verified: true
+- n: 122
+  tier: background
+  citation: >-
+    Winkel-Shirley B. Flavonoid biosynthesis. A colorful model for genetics, biochemistry, cell biology, and biotechnology. Plant Physiol.
+    2001;126(2):485-493.
+  doi: 10.1104/pp.126.2.485
+  year: 2001
+  summary: >-
+    Review of flavonoid biosynthesis. Flavonoids derive from phenylalanine and malonyl-CoA and comprise chalcones, flavones, flavonols,
+    flavandiols, anthocyanins, condensed tannins and aurones, with lineage-specific branches; they serve as pigments, UV protectants
+    and signalling molecules. Only the abstract/extract was accessible.
+  role_here: background
+  role_note: Flavonoid origins and functions.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, 6-why-plants-make-these-molecules, fig-pathways]
+  cited_in_catalogue: []
+  verified: true
+- n: 123
+  tier: classic
+  citation: >-
+    Ferrer J-L, Jez JM, Bowman ME, Dixon RA, Noel JP. Structure of chalcone synthase and the molecular basis of plant polyketide biosynthesis.
+    Nat Struct Biol. 1999;6(8):775-784.
+  doi: 10.1038/11553
+  year: 1999
+  summary: >-
+    Crystal structures of chalcone synthase, which condenses one p-coumaroyl-CoA and three malonyl-CoA thioesters to chalcone, the first
+    product of flavonoid biosynthesis. The structures explain the decarboxylation, condensation and cyclisation sequence and, with a
+    resveratrol complex, the related stilbene synthase.
+  role_here: prior-result
+  role_note: Entry step of the flavonoid branch.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, fig-pathways]
+  cited_in_catalogue: []
+  verified: true
+- n: 124
+  tier: classic
+  citation: >-
+    Li J, Ou-Lee TM, Raba R, Amundson RG, Last RL. Arabidopsis flavonoid mutants are hypersensitive to UV-B irradiation. Plant Cell.
+    1993;5(2):171-179.
+  doi: 10.1105/tpc.5.2.171
+  year: 1993
+  summary: >-
+    Arabidopsis tt4 mutants lacking flavonoids were more UV-B sensitive than wild type despite normal sinapate esters, and tt5 and tt6
+    mutants lacking both leaf flavonoids and monocyclic phenolics were highly sensitive; the authors conclude that flavonoids and other
+    phenolics protect plants from UV-B in vivo.
+  role_here: prior-result
+  role_note: Genetic evidence for the UV-screening role of flavonoids.
+  cited_in: [6-why-plants-make-these-molecules]
+  cited_in_catalogue: []
+  verified: true
+- n: 125
+  tier: background
+  citation: >-
+    Dudareva N, Pichersky E, Gershenzon J. Biochemistry of plant volatiles. Plant Physiol. 2004;135(4):1893-1902.
+  doi: 10.1104/pp.104.049981
+  year: 2004
+  summary: >-
+    Update on plant volatiles. More than 1,000 low-molecular-weight compounds are known to be emitted from flowers, vegetative parts
+    and roots, mainly terpenoids, fatty-acid derivatives, benzenoids/phenylpropanoids and C5-branched compounds; herbivore damage can
+    greatly increase emission, including beyond the damaged site. Only the extract was accessible.
+  role_here: background
+  role_note: Scale and classes of plant volatiles; induced emission.
+  cited_in: [6-why-plants-make-these-molecules]
+  cited_in_catalogue: []
+  verified: true
+- n: 126
+  tier: background
+  citation: >-
+    Glas JJ, Schimmel BCJ, Alba JM, et al. Plant glandular trichomes as targets for breeding or engineering of resistance to herbivores.
+    Int J Mol Sci. 2012;13(12):17077-17103.
+  doi: 10.3390/ijms131217077
+  year: 2012
+  summary: >-
+    Review. Glandular trichomes occur on about 30 % of vascular plants and produce, store and secrete terpenoids, phenylpropenes, flavonoids,
+    methyl ketones, acyl sugars and defensive proteins. Some products are directly toxic or entrapping, others attract herbivores' enemies;
+    trichome density is among the main correlates of herbivore resistance.
+  role_here: background
+  role_note: Glandular trichomes as defensive chemistry.
+  cited_in: [6-why-plants-make-these-molecules]
+  cited_in_catalogue: []
+  verified: true
+- n: 127
+  tier: current
+  citation: >-
+    Walch SG, Kuballa T, Stühlinger W, Lachenmeier DW. Determination of the biologically active flavour substances thujone and camphor
+    in foods and medicines containing sage (Salvia officinalis L.). Chem Cent J. 2011;5:44.
+  doi: 10.1186/1752-153X-5-44
+  year: 2011
+  summary: >-
+    Validated GC/MS for alpha- and beta-thujone and camphor in sage products. Teas were prepared from 1.5 g dried material in 150 mL
+    hot water for 15 min (DIN 10809/ISO 3103, modified); analyte content rose up to about 5 min of infusion and then saturated. Food
+    teas averaged 4.4 mg/L thujone and 16.7 mg/L camphor, medicinal teas 11.3 and 25.4 mg/L; compared with a 60 % vol ethanol extract
+    (maximum yield), the aqueous teas recovered on average 30 % of the thujone. The authors estimate that 3-6 cups a day stay below
+    toxicological thresholds (a statement this site reports, not adopts).
+  role_here: data-source
+  role_note: Thujone in the cup; water vs ethanol recovery; time to saturation.
+  cited_in: [7-from-leaf-to-cup, 8-how-to-read-the-rest-of-this-site, fig-extraction]
+  cited_in_catalogue: ['preparations:sage-leaf-hot-infusion']
+  verified: true
+- n: 128
+  tier: classic
+  citation: >-
+    Fecka I, Turek S. Determination of water-soluble polyphenolic compounds in commercial herbal teas from Lamiaceae: peppermint, melissa,
+    and sage. J Agric Food Chem. 2007;55(26):10908-10917.
+  doi: 10.1021/jf072284d
+  year: 2007
+  summary: >-
+    HPLC and HPTLC analysis of water-soluble polyphenols in commercial peppermint, lemon balm and sage teas. Identified luteolin 7-O-beta-glucuronide
+    and lithospermic acid as new peppermint constituents and found that the infusion of one peppermint tea bag supplied up to 182.2
+    mg of polyphenolic compounds. Abstract read as a summary; per-compound values not extracted.
+  role_here: data-source
+  role_note: Polyphenols delivered by peppermint tea.
+  cited_in: [7-from-leaf-to-cup]
+  cited_in_catalogue: ['preparations:peppermint-leaf-hot-infusion']
+  verified: true
+- n: 129
+  tier: current
+  citation: >-
+    Riachi LG, Abi-Zaid IE, Moreira RFA, De Maria CAB. Volatile composition of peppermint (Mentha piperita L.) commercial teas through
+    solid phase extraction. Arch Latinoam Nutr. 2012;62(4).
+  doi: 10.37527/2012.62.4.011
+  year: 2012
+  summary: >-
+    Commercial peppermint tea bags were infused in boiling water for 10 min and volatiles trapped on Porapak Q. Thirty-one volatiles
+    were identified; terpenes were 275-382 µg/kg (89 % of volatiles). The infusion contained 14 terpenes against 70 compounds in peppermint
+    oil, and the authors conclude that the oil's chemistry is not fully reproduced in tea.
+  role_here: data-source
+  role_note: Oil-vs-tea contrast for peppermint.
+  cited_in: [7-from-leaf-to-cup, 8-how-to-read-the-rest-of-this-site]
+  cited_in_catalogue: ['preparations:peppermint-leaf-hot-infusion']
+  verified: true
+- n: 130
+  tier: current
+  citation: >-
+    Raal A, Lodi R, Lepiku M, Nguyen TT, Grytsyk A, Koshovyi O. Quality and safety assessment of commercial peppermint teas based on
+    essential oil yield and composition. Beverages. 2026;12(3):38.
+  doi: 10.3390/beverages12030038
+  year: 2026
+  summary: >-
+    GC-MS of hydrodistilled oil from 39 commercial peppermint teas from several countries; oil yield 0.8-26.8 mL/kg, menthol 0.1-25.2
+    %, menthone 0.1-21.8 %, carvone 0.6-30.0 %; pulegone (0.02-2.56 %) and menthofuran (0.02-6.58 %) within Ph. Eur. limits. The discussion
+    states that menthol is almost insoluble in water and gives menthone's water solubility as 688 mg/L at 25 °C. The authors' own estimate
+    of oil per cup is not used here because its arithmetic could not be reproduced.
+  role_here: support
+  role_note: Water solubility of menthol and menthone; variability of commercial teas.
+  cited_in: [6-why-plants-make-these-molecules, 7-from-leaf-to-cup]
+  cited_in_catalogue: ['preparations:peppermint-leaf-hot-infusion']
+  verified: true
+- n: 131
+  tier: classic
+  citation: >-
+    Carnat AP, Carnat A, Fraisse D, Lamaison JL. The aromatic and polyphenolic composition of lemon balm (Melissa officinalis L. subsp.
+    officinalis) tea. Pharm Acta Helv. 1998;72(5):301-305.
+  doi: 10.1016/S0031-6865(97)00026-5
+  year: 1998
+  summary: >-
+    Compared dried lemon balm leaf with its tea. The leaf held 0.32 % essential oil (citral 0.13 % of leaf), 11.8 % total polyphenols
+    (hydroxycinnamic compounds 11.3 %, rosmarinic acid 4.1 %) and 0.5 % flavonoids. The tea contained 10 mg/L essential oil (extraction
+    yield 31 %), in which citral made up 74 %, and about 1.07 g/L polyphenols (extraction yield 93 %). Tea preparation conditions were
+    not stated in the abstract.
+  role_here: data-source
+  role_note: Leaf-to-cup yields for lemon balm oil and polyphenols.
+  cited_in: [2-the-cell-wall-and-cellulose, 6-why-plants-make-these-molecules, 7-from-leaf-to-cup, fig-extraction]
+  cited_in_catalogue: ['preparations:lemon-balm-hot-infusion']
+  verified: true
+- n: 132
+  tier: current
+  citation: >-
+    Dent M, Dragović-Uzelac V, Penić M, Brnčić M, Bosiljkov T, Levaj B. The effect of extraction solvents, temperature and time on the
+    composition and mass fraction of polyphenols in Dalmatian wild sage (Salvia officinalis L.) extracts. Food Technol Biotechnol. 2013;51(1):84-91.
+  url: https://www.ftb.com.hr/images/pdfarticles/2013/Vol.51_No.1/ftb_51-1_084-091.pdf
+  year: 2013
+  summary: >-
+    Dried wild sage leaves (about 1 g in 20 mL) were extracted with water and 30, 50 and 70 % ethanol or acetone at 60 and 90 °C for
+    30-90 min. Rosmarinic acid and luteolin-3-glucuronide were the main polyphenols; flavone glycosides of luteolin and apigenin were
+    quantified. At 60 °C for 30 min rosmarinic acid was 2154.02 mg/100 g dry matter with water and 3634.12 mg/100 g with 30 % ethanol
+    (Table 3, read twice); the authors conclude that 30 % aqueous ethanol or acetone at 60 °C for 30 min was most efficient.
+  role_here: data-source
+  role_note: Water vs aqueous ethanol for rosmarinic acid in sage.
+  cited_in: [5-three-pathways-that-make-the-greenhouse-smell, 7-from-leaf-to-cup, fig-pathways, fig-extraction]
+  cited_in_catalogue: ['preparations:herb-tincture-ethanol-water', 'preparations:sage-leaf-hot-infusion']
+  verified: true
+- n: 133
+  tier: classic
+  citation: >-
+    Harbourne N, Jacquier JC, O'Riordan D. Optimisation of the extraction and processing conditions of chamomile (Matricaria chamomilla
+    L.) for incorporation into a beverage. Food Chem. 2009;115(1):15-19.
+  doi: 10.1016/j.foodchem.2008.11.044
+  year: 2009
+  summary: >-
+    Extraction of chamomile phenolics into water followed pseudo-first-order kinetics, with rates increasing from 57 to 100 °C; 90 °C
+    for 20 min gave maximal phenols with low turbidity. Oven-drying at 80 °C reduced phenols from 19.7 to 13 mg/g GAE relative to fresh
+    material, while 40 °C drying caused no significant colour change versus freeze-drying.
+  role_here: data-source
+  role_note: Temperature dependence of extraction; drying losses.
+  cited_in: [7-from-leaf-to-cup]
+  cited_in_catalogue: ['preparations:chamomile-flower-hot-infusion']
+  verified: true
+- n: 134
+  tier: classic
+  citation: >-
+    Srivastava JK, Gupta S. Extraction, characterization, stability and biological activity of flavonoids isolated from chamomile flowers.
+    Mol Cell Pharmacol. 2009;1(3):138-147.
+  url: https://www.mcpharmacol.com/index.php/Journals/article/view/28
+  year: 2009
+  summary: >-
+    Compared aqueous and methanolic chamomile extracts. Apigenin-7-O-glucoside was the major constituent; the glucosides were stable
+    in solution across temperatures but degraded on prolonged storage and at some pH values. Cell-culture activity differed with the
+    extraction process and storage.
+  role_here: data-source
+  role_note: Apigenin-7-glucoside as the main flavonoid of chamomile extracts and its stability.
+  cited_in: [fig-pathways]
+  cited_in_catalogue: ['preparations:chamomile-flower-hot-infusion']
+  verified: true
+- n: 135
+  tier: classic
+  citation: >-
+    Sanchez-Medina A, Etheridge CJ, Hawkes GE, et al. Comparison of rosmarinic acid content in commercial tinctures produced from fresh
+    and dried lemon balm (Melissa officinalis). J Pharm Pharm Sci. 2007;10(4):455-463.
+  url: https://www.academia.edu/77270662/Comparison_of_rosmarinic_acid_content_in_commercial_tinctures_produced_from_fresh_and_dried_lemon_balm_Melissa_officinalis_
+  year: 2007
+  summary: >-
+    HPLC-UV of eight commercial lemon balm tinctures (herb-to-extract 1:1 to 1:5; 25-45 % alcohol). Tinctures from dried herb contained
+    2.96-22.18 mg/mL rosmarinic acid, those from fresh herb no more than 0.92 mg/mL. The authors' therapeutic inference about herpes
+    is not adopted here.
+  role_here: data-source
+  role_note: Rosmarinic acid in real tinctures; fresh vs dried herb.
+  cited_in: [7-from-leaf-to-cup]
+  cited_in_catalogue: ['preparations:herb-tincture-ethanol-water']
+  verified: true
+- n: 136
+  tier: current
+  citation: >-
+    Bellumori M, Innocenti M, Binello A, Boffa L, Mulinacci N, Cravotto G. Selective recovery of rosmarinic and carnosic acids from
+    rosemary leaves under ultrasound- and microwave-assisted extraction procedures. C R Chim. 2016;19(6):699-706.
+  doi: 10.1016/j.crci.2015.12.013
+  year: 2016
+  summary: >-
+    Compared ultrasound- and microwave-assisted extraction of dried rosemary with food-grade solvents. Rosmarinic acid was highest (6.8
+    % of dried extract) with ethanol under ultrasound; carnosic acid reached up to 13 % of the dried extract with n-hexane under ultrasound.
+    Ethanol and acetone gave about 35 mg/g total phenols, more than three times conventional extraction, within 10 min.
+  role_here: data-source
+  role_note: Polarity split between rosmarinic and carnosic acids.
+  cited_in: [7-from-leaf-to-cup]
+  cited_in_catalogue: ['preparations:herb-tincture-ethanol-water']
+  verified: true
+- n: 137
+  tier: current
+  citation: >-
+    Sonmezdag AS, Kelebek H, Selli S. Characterization of bioactive and volatile profiles of thyme (Thymus vulgaris L.) teas as affected
+    by infusion times. J Food Meas Charact. 2018;12(4):2570-2580.
+  doi: 10.1007/s11694-018-9874-5
+  year: 2018
+  summary: >-
+    Thyme teas made with freshly boiled water at 0, 2 and 5 min infusion. Luteolin-diglucuronide-glucuronide was the main phenolic;
+    27 volatiles were identified, terpenes about 90 % of volatiles, with thymol 61.74-78.82 %, p-cymene 8.92-17.90 % and carvacrol 4.41-5.62
+    % of the volatile fraction. Panelists preferred the shortest infusion; phenolics correlated with antioxidant capacity in vitro.
+  role_here: data-source
+  role_note: What a thyme infusion contains.
+  cited_in: []
+  cited_in_catalogue: ['preparations:thyme-herb-hot-infusion']
+  verified: true
+- n: 138
+  tier: current
+  citation: >-
+    Tschiggerl C, Bucar F. Influence of saponin plants on the volatile fraction of thyme in herbal teas. Fitoterapia. 2011;82(6):903-910.
+  doi: 10.1016/j.fitote.2011.05.006
+  year: 2011
+  summary: >-
+    Thyme infusions mixed with cowslip root (about 18.6 % saponins) or liquorice root (6.86 %) were analysed by hydrodistillation, SPE,
+    GC-MS and HPLC; total volatiles and thymol in the infusions fell as the proportion of the saponin plants rose, while the share of
+    monoterpene hydrocarbons increased.
+  role_here: data-source
+  role_note: Matrix effect of blended teas on thymol recovery.
+  cited_in: []
+  cited_in_catalogue: ['preparations:thyme-herb-hot-infusion']
+  verified: true
+- n: 139
+  tier: background
+  citation: >-
+    Taiz L, Zeiger E, Møller IM, Murphy A. Plant Physiology and Development. 6th ed. Sunderland (MA) Sinauer Associates; 2015.
+  url: https://books.google.com/books/about/Plant_Physiology_and_Development.html?id=02TBoQEACAAJ
+  year: 2015
+  summary: >-
+    Standard plant physiology textbook (cell walls, photosynthesis, secondary metabolism). Listed as further reading; its text was not
+    read for this pack.
+  role_here: background
+  role_note: Further reading for sections 2-5; not used to support any claim.
+  cited_in: []
+  cited_in_catalogue: []
+  verified: false
+- n: 140
+  tier: background
+  citation: >-
+    Buchanan BB, Gruissem W, Jones RL, eds. Biochemistry and Molecular Biology of Plants. 2nd ed. Chichester Wiley-Blackwell; 2015.
+  url: https://www.wiley.com/en-us/Biochemistry+and+Molecular+Biology+of+Plants,+2nd+Edition-p-9780470714218
+  year: 2015
+  summary: >-
+    Standard plant biochemistry textbook, including chapters on cell walls, photosynthesis and natural products. Listed as further reading;
+    its text was not read for this pack.
+  role_here: background
+  role_note: Further reading for sections 2-5; not used to support any claim.
+  cited_in: []
+  cited_in_catalogue: []
+  verified: false

@@ -1,0 +1,270 @@
+{
+ "compound": {
+  "id": "scutellarin",
+  "name": "scutellarin (scutellarein 7-O-glucuronide)",
+  "synonyms": [
+   "scutellarein 7-O-β-D-glucuronide"
+  ],
+  "class": "flavone-glucuronide",
+  "subclass": "flavone 7-O-glucuronide",
+  "one_liner": "Aerial-part flavone glucuronide of American skullcap.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "(2S,3S,4S,5R,6S)-6-[5,6-dihydroxy-2-(4-hydroxyphenyl)-4-oxochromen-7-yl]oxy-3,4,5-trihydroxyoxane-2-carboxylic acid",
+   "formula": "C21H18O12",
+   "mw": 462.36,
+   "mw_source": "computed_from_formula",
+   "smiles": "C1=CC(=CC=C1C2=CC(=O)C3=C(C(=C(C=C3O2)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)C(=O)O)O)O)O)O)O)O",
+   "inchikey": "DJSISFGPUUYILV-ZFORQUDYSA-N",
+   "cas": "27740-01-8",
+   "pubchem_cid": 185617,
+   "chebi_id": "CHEBI:61278",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/185617/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "flavonoid (phenylpropanoid + malonate)",
+   "note": "Scutellarein-type flavones are widespread in aerial tissues of S. baicalensis [29]."
+  },
+  "occurrences": [
+   {
+    "taxon_id": "scutellaria-lateriflora",
+    "plant_part": "plant",
+    "value": null,
+    "unit": null,
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Lin L-Z, Harnly JM, Upton R (2009) Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal 20(4):298-306",
+    "source_doi_or_url": "https://doi.org/10.1002/pca.1127",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6468?page&_format=csv",
+    "verified": true,
+    "note": "Duke: SCUTELLARIN Plant (Hager's Handbuch), no value. Lin 2009 lists scutellarin among flavonoids identified in authenticated aerial parts."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Not sourced.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "Scutellarin is reported from aerial parts, not the root drug: it separates the tea herb (lateriflora aerial parts) from the root drug (baicalensis) [25, 29].",
+  "citations": [
+   25,
+   29
+  ],
+  "gaps": [
+   "No amount for S. lateriflora.",
+   "Pharmacology not researched.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Aerial-part [flavone glucuronide](#term:glucuronide) of American skullcap.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Scutellarin is reported from aerial parts, not the root drug: it separates the tea herb (lateriflora aerial parts) from the root drug (baicalensis) [25, 29](#cite:25,29).",
+   "processing_note": "Not sourced.",
+   "biosynthesis_note": "Scutellarein-type [flavones](#term:flavone) are widespread in aerial tissues of S. baicalensis [29](#cite:29).",
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "glucuronide",
+   "flavone"
+  ],
+  "cited_refs": [
+   25,
+   29
+  ],
+  "taxa": [
+   "scutellaria-lateriflora"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C21H18O12",
+   "inchikeyComputed": "DJSISFGPUUYILV-ZFORQUDYSA-N",
+   "canonicalSmiles": "O=C(O)[C@H]1O[C@@H](Oc2cc3oc(-c4ccc(O)cc4)cc(=O)c3c(O)c2O)[C@H](O)[C@@H](O)[C@@H]1O",
+   "monoisotopicMass": 462.0798,
+   "averageMass": 462.363,
+   "descriptors": {
+    "heavyAtoms": 33,
+    "rings": 4,
+    "aromaticRings": 3,
+    "hbd": 7,
+    "hba": 11,
+    "rotatableBonds": 4,
+    "logP": -0.15,
+    "tpsa": 207.3,
+    "fsp3": 0.24,
+    "stereocenters": 5,
+    "charge": 0
+   },
+   "atomCount": 51,
+   "heavyAtomCount": 33,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       8,
+       20
+      ],
+      [
+       9,
+       23
+      ],
+      [
+       11,
+       32
+      ]
+     ]
+    },
+    {
+     "id": "catechol",
+     "name": "Catechol (1,2-diol)",
+     "matches": [
+      [
+       8,
+       20,
+       23,
+       9
+      ]
+     ]
+    },
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       2,
+       12
+      ],
+      [
+       3,
+       13
+      ],
+      [
+       4,
+       14
+      ]
+     ]
+    },
+    {
+     "id": "carboxylic-acid",
+     "name": "Carboxylic acid / carboxylate",
+     "matches": [
+      [
+       17,
+       6,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "glycoside",
+     "name": "Sugar (glycoside / glucuronide)",
+     "matches": [
+      [
+       0,
+       15,
+       13,
+       3,
+       12,
+       2,
+       14,
+       4,
+       16
+      ]
+     ]
+    },
+    {
+     "id": "chromone",
+     "name": "Chromone (flavone core)",
+     "matches": [
+      [
+       10,
+       24,
+       26,
+       25,
+       27,
+       7,
+       21,
+       19,
+       18,
+       20,
+       23,
+       22
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/scutellarin.sdf",
+   "svg": {
+    "light": "structures/2d/scutellarin.svg",
+    "dark": "structures/2d/scutellarin.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/scutellarin.json",
+   "mwPack": 462.36,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "scutellarin#0",
+   "compound_id": "scutellarin",
+   "compound": "scutellarin (scutellarein 7-O-glucuronide)",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "plant",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Lin L-Z, Harnly JM, Upton R (2009) Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal 20(4):298-306",
+   "source_doi_or_url": "https://doi.org/10.1002/pca.1127",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6468?page&_format=csv",
+   "verified": true,
+   "note": "Duke: SCUTELLARIN Plant (Hager's Handbuch), no value. Lin 2009 lists scutellarin among flavonoids identified in authenticated aerial parts.",
+   "refs": [
+    25
+   ]
+  }
+ ],
+ "preparations": []
+}

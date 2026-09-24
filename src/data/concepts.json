@@ -1,0 +1,351 @@
+[
+ {
+  "id": "chemotypes",
+  "title": "Chemotypes",
+  "one_liner": "Plants of one species can make different oils - thymol-type or other thyme, linalool- or estragole-rich basil, cineole- or pinene-type rosemary - so a species name does not fix the chemistry.",
+  "why_here": "The greenhouse grows several basil cultivars, a named thyme and a rosemary of unknown chemotype. Species-level percentages in the catalogue are shown as ranges with their sources for exactly this reason.",
+  "prerequisites": [
+   "measurement-basis"
+  ],
+  "terms": [
+   "chemotype",
+   "cultivar",
+   "terpene-synthase",
+   "o-methyltransferase",
+   "essential-oil",
+   "essential-oil-percent",
+   "estragole",
+   "methyleugenol",
+   "subspecies"
+  ],
+  "figures": [
+   "fig-pathways"
+  ],
+  "further_reading": [
+   {
+    "title": "Muráriková A et al. Characterization of essential oil composition in different basil species and pot cultures by a GC-MS method. Molecules 2017",
+    "url": "https://doi.org/10.3390/molecules22071221",
+    "kind": "paper"
+   },
+   {
+    "title": "Iijima Y et al. The biochemical and molecular basis for the divergent patterns in the biosynthesis of terpenes and phenylpropenes in the peltate glands of three cultivars of basil. Plant Physiol 2004",
+    "url": "https://doi.org/10.1104/pp.104.051318",
+    "kind": "paper"
+   },
+   {
+    "title": "De Martino L et al. Chemical composition and antimicrobial activity of the essential oils from three chemotypes of Origanum vulgare L. ssp. hirtum. Molecules 2009",
+    "url": "https://doi.org/10.3390/molecules14082735",
+    "kind": "paper"
+   },
+   {
+    "title": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba (2013)",
+    "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+    "kind": "review"
+   }
+  ],
+  "self_check": [
+   {
+    "q": "The EMA records at least six chemotypes of Thymus vulgaris. What follows for the greenhouse's thyme?",
+    "options": [
+     "Its thymol content is 36.7-54.6 % of the oil",
+     "Its chemotype is unknown until its oil is analysed; published ranges describe other plants",
+     "It must be the thymol type because it is sold as thyme",
+     "It has no thymol"
+    ],
+    "answer": 1,
+    "explanation": "Published values describe the plants that were analysed. Only the thymol type meets the pharmacopoeia, and a garden thyme need not be that type [9]."
+   },
+   {
+    "q": "In basil, a single amino-acid difference between two O-methyltransferases decides whether the enzyme prefers chavicol or eugenol. What does this illustrate?",
+    "options": [
+     "That basil oil is random",
+     "That a chemotype can come down to a small genetic difference in one enzyme",
+     "That estragole and methyleugenol are the same compound",
+     "That cultivars do not matter"
+    ],
+    "answer": 1,
+    "explanation": "Chemotypes are genetic; small changes in a synthase or methyltransferase can switch the main product [120,121]."
+   }
+  ],
+  "body_before": "## What it is\n\n<!-- framing -->\nA chemotype is a chemically distinct form within a single species. The plants look alike and carry the same name, but they fill their oil glands with different molecules.\n\nThyme is the textbook case. The EMA assessment notes at least six chemotypes of *Thymus vulgaris*, and only the thymol type meets the European Pharmacopoeia's requirements for the herb [9]. Within one thymol-type cultivar, 'Standard Winter', thymol still ranged from 36.7 to 54.6 % of the oil between plants [20].\n\nBasil varies between cultivars. In a GC-MS study of seven cultivars, linalool was found in all of them, estragole was a main compound only in 'Lettuce Leaf', and every cultivar except 'Lettuce Leaf' was rich in methyleugenol [18]. 'Cinnamon' basil carried 24.7 % methyl cinnamate, second only to linalool [19]. Because estragole and methyleugenol are the basil constituents the EMA treats as genotoxic carcinogens in rodents [4,5], which chemotype a basil belongs to is a safety question as well as a question of scent.\n\nRosemary has two recognised oil types. The pharmacopoeial ranges quoted by the EMA give a Spanish type with 18-26 % α-pinene and 16-25 % 1,8-cineole, and a Moroccan/Tunisian type with 38-55 % 1,8-cineole [12]. Greek oregano is usually carvacrol-rich, at 39.8 % of the oil in one cultivated sample [21], but three chemotypes were described from wild plants, one carvacrol and thymol type (23.3 % and 22.2 %), one dominated by thymol and one by linalyl acetate and linalool [22].",
+  "picture": "Use Figure 1. Put a finger on geranyl diphosphate and follow the arrows out of it: which terpene synthase a plant expresses decides which branch it takes. In basil, a line dominated by linalool synthase makes linalool, and a line carrying a frameshift in that gene makes geraniol instead [121]. On the phenylpropanoid side, two closely related O-methyltransferases turn chavicol into estragole and eugenol into methyleugenol, and a single amino-acid difference sets which one an enzyme prefers [120]. A chemotype is what the plant's particular set of enzymes produces.",
+  "body_after": "## The maths, gently\n\n<!-- framing -->\nNothing heavier than a range. A chemotype-dependent value is reported as a closed interval with a source for each end, and it is never collapsed to a single mean, because the mean of a thymol-type and a linalool-type plant describes no plant at all.\n\n## How this paper uses it\n\nOil percentages in the catalogue are species-level ranges with their sources, and cultivar values are used only when the source names the cultivar. Even then they are the study's plant: the thyme data come from 'Standard Winter' [20], which is relevant to the greenhouse's 'German Winter' but not the same record. The oregano page gives 39.8 % and 23.3 % carvacrol from the papers read, rather than the higher figure often repeated [21,22]. No paper read names a linalool chemotype of thyme, so that occurrence row stays unverified even though the EMA confirms that several chemotypes exist [9].\n\n<!-- synthesis -->\nThe practical consequence for the greenhouse is that none of its aromatic plants has a known chemotype until its own oil is analysed; the catalogue can say what the species has been found to make, and how widely that varies, but not what is on the bench [9,12,18,20,22].",
+  "has_math": false,
+  "used_by_terms": [
+   "cultivar",
+   "chemotype"
+  ],
+  "used_by_figures": [],
+  "used_by_concepts": []
+ },
+ {
+  "id": "evidence-grades-and-test-article",
+  "title": "Evidence grades and the test article",
+  "one_liner": "Every health statement here carries a letter for how strong the human evidence is, and names exactly what was tested - because the grade belongs to that thing and nothing else.",
+  "why_here": "Peppermint has grade A evidence and peppermint tea has almost none. That sentence is only true, and only readable, if every grade names its test article. The plant, compound and tea pages all depend on this rule.",
+  "prerequisites": [],
+  "terms": [
+   "evidence-grade",
+   "test-article",
+   "rct",
+   "meta-analysis",
+   "systematic-review",
+   "open-label",
+   "traditional-use",
+   "named-extract",
+   "whole-herb",
+   "isolated-compound",
+   "multi-herb-formula",
+   "enteric-coated",
+   "bioavailability",
+   "monograph"
+  ],
+  "figures": [],
+  "further_reading": [
+   {
+    "title": "Alammar N et al. The impact of peppermint oil on the irritable bowel syndrome: a meta-analysis of the pooled clinical data. BMC Complement Altern Med 2019",
+    "url": "https://doi.org/10.1186/s12906-018-2409-0",
+    "kind": "review"
+   },
+   {
+    "title": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1 (2020)",
+    "url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+    "kind": "review"
+   },
+   {
+    "title": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and aetheroleum, Rev. 1 (2016)",
+    "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+    "kind": "review"
+   }
+  ],
+  "self_check": [
+   {
+    "q": "A meta-analysis of 12 randomised trials found enteric-coated peppermint oil capsules improved irritable bowel symptoms. What grade does that give peppermint tea for the same symptoms?",
+    "options": [
+     "A, because it is the same plant",
+     "B, because tea is a weaker form of the oil",
+     "None: the tea was not the test article, so the trials say nothing direct about it",
+     "T, because tea is traditional"
+    ],
+    "answer": 2,
+    "explanation": "The grade A belongs to the enteric-coated oil capsules that were tested. Tea is a different test article with a different composition, dominated by water-soluble phenolics rather than oil."
+   },
+   {
+    "q": "A laboratory study shows apigenin binds the benzodiazepine site of the GABA-A receptor. How may this site phrase it?",
+    "options": [
+     "Apigenin calms people (grade E)",
+     "In laboratory studies apigenin binds the benzodiazepine site (grade E)",
+     "Chamomile tea treats anxiety",
+     "Apigenin is traditionally used for sleep (grade T)"
+    ],
+    "answer": 1,
+    "explanation": "A D or E finding is never phrased as an effect in people. It is reported as what was observed, in the system in which it was observed."
+   },
+   {
+    "q": "The EU monograph lists thyme as 'traditionally used' for productive cough associated with a cold. What does grade T mean?",
+    "options": [
+     "Trials proved it works",
+     "A regulator accepted long-standing use; it is not trial evidence of efficacy",
+     "The site recommends it",
+     "It is untested and unsafe"
+    ],
+    "answer": 1,
+    "explanation": "Traditional use rests on documented long-standing use and plausibility. The site reports it as the monograph's statement, never as 'helps' or 'treats'."
+   }
+  ],
+  "body_before": "## What it is\n\n<!-- framing -->\nTwo questions sit behind every health statement on this site. How strong is the human evidence? And what, exactly, was tested? The first is answered by a letter; the second by a named test article. Neither makes sense without the other.\n\nThe letter runs from A to E, plus T. A is a systematic review or meta-analysis of human randomised controlled trials; B is at least one human randomised trial; C is observational or small uncontrolled human work; D is animal studies; E is laboratory or computer work; T is traditional use recorded in an official monograph, such as the EMA's listing of thyme for productive cough associated with a cold [9]. A D or E finding is never phrased as an effect in people, and a T grade is phrased as \"traditionally used for\", never as \"helps\".\n\nThe test article is the material a study actually used: the whole herb, a named extract, an essential oil, an isolated compound or a multi-herb formula. It matters because the same plant name covers very different chemical mixtures. The strongest human evidence attached to peppermint comes from a meta-analysis of 12 randomised trials in 835 patients of peppermint oil in enteric-coated capsules for irritable bowel symptoms [54]. The leaf's dominant phenolic, by contrast, is the flavanone glycoside eriocitrin, and a hot-water infusion carries about three-quarters of the leaf's polyphenols but only 20-25 % of its oil [6]. A tea made in one analysis contained 14 terpenes against the 70 compounds of peppermint oil [129]. So the grade A belongs to the capsule. It is not evidence about the tea, and it is not evidence about menthol alone, even though menthol is the oil's cooling molecule and acts on the cold receptor TRPM8 [38].",
+  "picture": "Draw three columns headed \"peppermint oil capsule\", \"pure menthol\" and \"peppermint tea\". Under each, list what it mostly contains and the grade of the best human evidence for it. Only the first column carries an A [54]; the arrow from it to the other two columns is crossed out. Beneath the tea column, note that its chemistry is mostly eriocitrin and rosmarinic acid [6].",
+  "body_after": "## The maths, gently\n\n<!-- framing -->\nThere is no formula here, only a rule of attachment. Write a graded statement as a triple: (claim, grade, test article). The grade is a property of the whole triple. Changing the test article produces a new triple whose grade has to be established from its own evidence, and it may have none.\n\n## How this paper uses it\n\nThe sage page shows why the rule is needed. The EMA assessed the sage trials for hot flushes and cognition and declined to accept well-established use, because the products tested did not correspond to products on the EU market [1]; a systematic review of the cognition trials found benefits undermined by methodological problems and by the mix of extracts, oils and raw herb used [53]. Each sage trial is therefore graded for its own preparation. The same applies to the chamomile anxiety trials, which tested an extract in capsules [57], to the thyme cough trial, whose test article was a thyme and ivy combination syrup [56], and to the baicalin study, in which isolated baicalin reduced rosuvastatin exposure in healthy volunteers [33]: that is a grade B finding for baicalin, not for skullcap tea.\n\n<!-- synthesis -->\nRead together, these cases show that the letter alone would mislead in nearly every profile on this site; it is the pairing with a test article that stops strong evidence for one preparation spreading to its relatives [1,6,33,54,129].",
+  "has_math": false,
+  "used_by_terms": [
+   "evidence-grade",
+   "test-article",
+   "enteric-coated",
+   "bioavailability"
+  ],
+  "used_by_figures": [],
+  "used_by_concepts": []
+ },
+ {
+  "id": "extraction-chemistry",
+  "title": "Extraction chemistry",
+  "one_liner": "A tea, a tincture and an essential oil are three extractions of the same leaf; polarity, volatility and heat decide which molecules each one contains.",
+  "why_here": "Tea Time describes every preparation as chemistry - a solvent, a temperature and a time - rather than as a recipe. This 101 gives the three rules that make those pages readable, and the chamomile story in which heat makes a molecule the plant never did.",
+  "prerequisites": [
+   "measurement-basis"
+  ],
+  "terms": [
+   "infusion",
+   "decoction",
+   "tincture",
+   "steam-distillation",
+   "polarity",
+   "solubility",
+   "volatility",
+   "extraction-yield",
+   "hydroethanolic",
+   "herb-to-extract-ratio",
+   "glycoside",
+   "proazulene",
+   "azulene",
+   "artefact",
+   "pseudo-first-order"
+  ],
+  "figures": [
+   "fig-extraction"
+  ],
+  "further_reading": [
+   {
+    "title": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and aetheroleum (2015)",
+    "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "kind": "review"
+   },
+   {
+    "title": "Walch SG et al. Determination of the biologically active flavour substances thujone and camphor in foods and medicines containing sage. Chem Cent J 2011",
+    "url": "https://doi.org/10.1186/1752-153X-5-44",
+    "kind": "paper"
+   },
+   {
+    "title": "Harbourne N et al. Optimisation of the extraction and processing conditions of chamomile (Matricaria chamomilla L.) for incorporation into a beverage. Food Chem 2009",
+    "url": "https://doi.org/10.1016/j.foodchem.2008.11.044",
+    "kind": "paper"
+   }
+  ],
+  "self_check": [
+   {
+    "q": "Hot water extracted about 93 % of lemon balm's polyphenols but only 31 % of its oil. Which two properties explain the gap?",
+    "options": [
+     "Colour and taste",
+     "Polarity (phenolics dissolve in water) and volatility (oil molecules are poorly soluble and escape)",
+     "Leaf size and age",
+     "Price and availability"
+    ],
+    "answer": 1,
+    "explanation": "Polar phenolic acids and glycosides dissolve readily in hot water; non-polar, volatile terpenes dissolve poorly and some of what dissolves evaporates [131]."
+   },
+   {
+    "q": "Chamomile essential oil is blue from chamazulene. Is chamazulene in chamomile tea?",
+    "options": [
+     "Yes, at the same level as in the oil",
+     "No, never",
+     "Not established by the sources read: chamazulene forms from matricin during steam distillation, and matricin itself reaches the tea",
+     "Only in cold tea"
+    ],
+    "answer": 2,
+    "explanation": "The EMA describes conversion during steam distillation and extraction of matricin into teas; presence or absence of chamazulene in a cup is not claimed [10]."
+   },
+   {
+    "q": "Which solvent recovered the most carnosic acid from dried rosemary in one study?",
+    "options": [
+     "Water",
+     "Ethanol",
+     "n-Hexane",
+     "Vinegar"
+    ],
+    "answer": 2,
+    "explanation": "Carnosic acid is less polar than rosmarinic acid; hexane reached 13 % of the dried extract while ethanol favoured rosmarinic acid [136]."
+   }
+  ],
+  "body_before": "## What it is\n\n<!-- framing -->\nEvery preparation on Tea Time is an extraction: a solvent applied to plant tissue at some temperature for some time. Three properties of each molecule decide how much of it ends up in the liquid.\n\nPolarity comes first. Water dissolves polar molecules such as phenolic acids and flavonoid glycosides, and dissolves the small, non-polar terpenes of the oil poorly; menthol is almost insoluble in water [130]. That is why a hot-water infusion of peppermint takes up about 75 % of the leaf's polyphenols but only 20-25 % of its oil after 10 minutes with boiling water [6], and why a lemon balm tea took up 93 % of the polyphenols and 31 % of the oil [131]. Adding ethanol shifts the balance towards less polar compounds. Sage leaf gave 3,634 mg rosmarinic acid per 100 g dry matter in 30 % ethanol against 2,154 mg in water under the same conditions [132]; thyme phenolics were extracted best by 60 % ethanol [9]; and carnosic acid, less polar again, reached 13 % of a dried rosemary extract only with hexane [136].\n\nVolatility comes second. Oil molecules that do dissolve can escape into the air, and the terpenes found in a peppermint tea were a narrower set than the oil's, 14 compounds against 70 [129]. Heat and time come third. Chamomile phenolics were extracted faster as water temperature rose from 57 to 100 °C [133], while thujone and camphor in sage tea rose for about five minutes and then levelled off, with a water infusion recovering on average 30 % of the thujone released by 60 % ethanol [127].",
+  "picture": "Figure 2 is the picture. For each herb with both measurements, the phenolic bar stands far above the oil bar [6,131]. Imagine a horizontal line from very polar (sugars, glycosides) on the left to non-polar (terpenes, carnosic acid) on the right, and place water, 30-60 % ethanol and hexane along it: each solvent reaches its own stretch of the line [9,132,136].",
+  "body_after": "## The maths, gently\n\nExtraction yield is a ratio, and it needs a stated denominator:\n\n$$ Y = \\frac{m_{\\text{in preparation}}}{m_{\\text{reference}}} $$\n\n- $m_{\\text{in preparation}}$ is the amount of the compound or fraction found in the tea or tincture.\n- $m_{\\text{reference}}$ is either the plant's content (lemon balm, peppermint) or the amount a stronger extract released (sage). Figure 2 keeps the two kinds apart.\n\nWhen extraction follows pseudo-first-order kinetics, as chamomile phenolics did [133], the amount extracted approaches a ceiling exponentially:\n\n$$ C(t) = C_{\\infty}\\left(1 - e^{-kt}\\right) $$\n\n- $C(t)$ is the concentration in the liquid at time $t$; $C_{\\infty}$ the level it approaches; $k$ a rate constant that rises with temperature.\n\n## How this paper uses it\n\nHeat can also make molecules. Chamomile flowers contain matricin, a colourless proazulene, and during steam distillation it is at least partly converted into azulenes such as chamazulene, which is why the pharmacopoeia describes the oil as blue [10]. The same EMA report says matricin itself is extracted into teas at pharmaceutically relevant levels [10]. No source read establishes whether chamazulene forms in a cup, so the chamomile page claims neither its presence nor its absence. Drying is a chemical step in the same sense: carnosol in rosemary and sage is an oxidative artefact of carnosic acid formed after harvest [43], and oven-drying chamomile at 80 °C lowered its phenolics [133]. What else is in the cup matters too: thyme infusions mixed with saponin-rich roots held less thymol and fewer volatiles as the share of those roots rose [138]. Tinctures differ by starting material as well as solvent: commercial lemon balm tinctures from dried herb held 2.96-22.18 mg/mL rosmarinic acid against no more than 0.92 mg/mL from fresh herb [135].\n\n<!-- synthesis -->\nTaken together, a tea is best read as a phenolic-glycoside extract with a minor, partly lost terpene fraction; a tincture as a broader extract whose reach depends on its alcohol strength and starting material; and an essential oil as a distillation product that can contain molecules the plant never made [6,10,127,131,132,136].",
+  "has_math": true,
+  "used_by_terms": [
+   "artefact",
+   "proazulene",
+   "essential-oil",
+   "steam-distillation",
+   "infusion",
+   "decoction",
+   "tincture",
+   "hydroethanolic",
+   "polarity",
+   "solubility",
+   "volatility",
+   "extraction-yield",
+   "pseudo-first-order"
+  ],
+  "used_by_figures": [],
+  "used_by_concepts": []
+ },
+ {
+  "id": "measurement-basis",
+  "title": "Measurement basis",
+  "one_liner": "An amount is always an amount per something - fresh leaf, dry leaf, the oil or an extract - and two values on different bases cannot be compared.",
+  "why_here": "The catalogue holds values per gram of dry leaf, per cent of essential oil, per litre of tea and per gram of extract, often for the same compound. The compare view refuses to put them on one axis, and this 101 explains why.",
+  "prerequisites": [],
+  "terms": [
+   "basis",
+   "fresh-weight",
+   "dry-weight",
+   "essential-oil-percent",
+   "per-g-extract",
+   "occurrence",
+   "ppm",
+   "gc-ms",
+   "hplc",
+   "essential-oil"
+  ],
+  "figures": [
+   "fig-extraction"
+  ],
+  "further_reading": [
+   {
+    "title": "Carnat AP et al. The aromatic and polyphenolic composition of lemon balm (Melissa officinalis L. subsp. officinalis) tea. Pharm Acta Helv 1998",
+    "url": "https://doi.org/10.1016/S0031-6865(97)00026-5",
+    "kind": "paper"
+   },
+   {
+    "title": "Kosakowska O et al. Morphological and chemical traits as quality determinants of common thyme. Agronomy 2020",
+    "url": "https://doi.org/10.3390/agronomy10060909",
+    "kind": "paper"
+   },
+   {
+    "title": "Costine B et al. Exploring native Scutellaria species provides insight into differential accumulation of flavones. Sci Rep 2022",
+    "url": "https://doi.org/10.1038/s41598-022-17586-1",
+    "kind": "paper"
+   }
+  ],
+  "self_check": [
+   {
+    "q": "Citral is 74 % of the essential oil in a lemon balm tea but 0.13 % of the dried leaf. Which statement is right?",
+    "options": [
+     "The tea is richer in citral than the leaf",
+     "The two numbers contradict each other",
+     "They are on different bases (per cent of oil vs per cent of leaf) and describe different quantities",
+     "One of them must be a typo"
+    ],
+    "answer": 2,
+    "explanation": "74 % is a share of the oil fraction; 0.13 % is a share of the whole dry leaf. Both are true at once [131]."
+   },
+   {
+    "q": "Why does the compare view refuse to plot thymol (% of oil) next to rosmarinic acid (mg per 100 g dry herb)?",
+    "options": [
+     "Because thymol is more important",
+     "Because the two values are per different things, so bar heights would mean nothing",
+     "Because rosmarinic acid is not in thyme",
+     "Because the values are unverified"
+    ],
+    "answer": 1,
+    "explanation": "A bar chart implies one scale. Values per oil and per dry herb are not on one scale without the oil content of that sample."
+   }
+  ],
+  "body_before": "## What it is\n\n<!-- framing -->\nA concentration has two parts: a number and what that number is per. The second part is the basis, and on this site it is never optional.\n\nFour bases dominate the catalogue. Fresh weight is per gram of plant as harvested, water included. Dry weight is per gram of dried material, the usual basis for phenolics measured by HPLC. Per cent of essential oil is a share of the distilled oil, which is how GC-MS reports oil composition. Per gram of extract is relative to an extract after the solvent is removed. They can differ by orders of magnitude for the same compound in the same plant. In one thyme cultivar thymol made up 36.7-54.6 % of the oil [20]; the pharmacopoeia requires at least 1.2 % oil in thyme herb with at least 40 % thymol plus carvacrol [9], which means a thymol-rich oil can still be well under one per cent of the herb itself.\n\nLemon balm makes the point in one study. The dried leaf held 0.32 % essential oil and citral made up 0.13 % of the leaf, while in the tea citral was 74 % of a much smaller oil fraction of 10 mg/L [131]. Both statements are true, and they describe different things.",
+  "picture": "Draw a leaf as a box. Inside it, a small box labelled \"oil, a few per cent at most\"; inside that, a slice labelled \"thymol, about half of the oil\" [9,20]. Next to it, a second large box labelled \"dry herb\" with a band across it for \"rosmarinic acid, per 100 g\". Arrows from each inner box to separate axes make the rule visible: the two numbers live on different scales.",
+  "body_after": "## The maths, gently\n\nTo move from one basis to another you need a conversion factor that belongs to the same sample:\n\n$$ c_{\\text{leaf}} = c_{\\text{oil}} \\times f_{\\text{oil}} $$\n\n- $c_{\\text{oil}}$ is the compound's share of the oil (for example 0.40 for 40 %).\n- $f_{\\text{oil}}$ is the oil's share of the dry leaf (for example 0.012 for 1.2 %).\n- $c_{\\text{leaf}}$ is then the compound's share of the dry leaf.\n\nWith the pharmacopoeial minimums above the product is 0.0048, about 0.5 % of the herb [9]. That is the builder's arithmetic on stated minimums, not a measurement. The catalogue does not perform such conversions, because $f_{\\text{oil}}$ and the water content needed for fresh-to-dry conversion are rarely reported for the sample that gave $c_{\\text{oil}}$.\n\n## How this paper uses it\n\nEvery occurrence row carries a basis, and the compare view will not plot values on different bases together. Skullcap shows why the discipline matters: one comparison reported baicalin at 11.7 mg/g in *S. lateriflora* leaf against 26.1 mg/g in *S. baicalensis* root [24], and the catalogue flags that the basis of the root value may be fresh rather than dry weight, which would make it the low end of a much wider range. Values from Dr. Duke's arrive in ppm, often without saying whether the denominator is leaf, plant or oil, and are labelled as such. Tea values are per litre of infusion: food-grade sage teas averaged 4.4 mg/L thujone [127], a number about a cup, not about a leaf.\n\nFigure 2 on Tea Time keeps a second kind of denominator apart as well. Its peppermint, lemon balm and chamomile bars are shares of the plant's content [6,10,131]; its sage bars are shares of what an ethanol extract of the same material released [127,132].",
+  "has_math": true,
+  "used_by_terms": [
+   "basis",
+   "fresh-weight",
+   "dry-weight",
+   "essential-oil-percent",
+   "per-g-extract",
+   "occurrence"
+  ],
+  "used_by_figures": [],
+  "used_by_concepts": [
+   "chemotypes",
+   "extraction-chemistry"
+  ]
+ }
+]

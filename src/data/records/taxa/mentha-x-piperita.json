@@ -1,0 +1,507 @@
+{
+ "taxa": [
+  {
+   "id": "mentha-x-piperita",
+   "species_key": "Mentha × piperita",
+   "accepted_name": "Mentha × piperita",
+   "authority": "L.",
+   "family": "Lamiaceae",
+   "common_names": [
+    "Peppermint"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 34256,
+    "powo_id": "urn:lsid:ipni.org:names:450969-1",
+    "gbif_key": 8707933,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Mentha piperita L."
+   ],
+   "columns": [
+    "medicinal"
+   ],
+   "identity_status": "confirmed",
+   "profiled": true,
+   "profile_depth": "light",
+   "cultivars": [
+    {
+     "crop_id": "GH-086",
+     "name": null,
+     "type": "Leaf",
+     "list_category": "medicinal",
+     "name_as_given": "Mentha × piperita",
+     "identity_status": "confirmed",
+     "note": null
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-086"
+   ],
+   "n_plantings": 1,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [
+    "rosmarinic-acid",
+    "menthol",
+    "menthone",
+    "menthofuran",
+    "pulegone",
+    "1-8-cineole",
+    "eriocitrin"
+   ],
+   "occurrence_rows": [
+    "rosmarinic-acid#1",
+    "menthol#0",
+    "menthone#0",
+    "menthofuran#0",
+    "pulegone#0",
+    "1-8-cineole#0",
+    "eriocitrin#0"
+   ],
+   "safety_evidence": {
+    "taxon_id": "mentha-x-piperita",
+    "plant_part_used": "leaf (tea); essential oil (enteric-coated capsules, cutaneous)",
+    "safety": {
+     "drug_interactions": [
+      {
+       "with": "cyclosporine",
+       "effect": "peppermint oil tripled mean cyclosporine Cmax (animal data summarised by EMA)",
+       "evidence_grade": "D",
+       "refs": [
+        6
+       ],
+       "md": "peppermint oil tripled mean cyclosporine [Cmax](#term:auc) ([animal data](#term:animal-study) summarised by [EMA](#term:ema-hmpc))"
+      },
+      {
+       "with": "CYP3A4 substrates",
+       "effect": "peppermint oil a moderately potent reversible CYP3A4 inhibitor in vitro",
+       "evidence_grade": "E",
+       "refs": [
+        6
+       ],
+       "md": "peppermint oil a moderately potent reversible [CYP3A4](#term:cyp3a4) inhibitor [in vitro](#term:in-vitro)"
+      },
+      {
+       "with": "calcium-channel blockers",
+       "effect": "competitive calcium-channel antagonism by the oil in animals; effectiveness of blockers may be modified",
+       "evidence_grade": "D",
+       "refs": [
+        6
+       ],
+       "md": "competitive calcium-channel [antagonism](#term:antagonist) by the oil in animals; effectiveness of blockers may be modified"
+      },
+      {
+       "with": "antacids, H2 blockers, proton-pump inhibitors",
+       "effect": "may dissolve enteric-coated oil capsules early; monograph says avoid concomitant use (regulatory warning, not graded)",
+       "evidence_grade": null,
+       "refs": [
+        7
+       ],
+       "md": "may dissolve [enteric-coated oil](#term:enteric-coated) capsules early; [monograph](#term:monograph) says avoid concomitant use (regulatory warning, not [graded](#term:evidence-grade))"
+      }
+     ],
+     "pregnancy_lactation": {
+      "statement": "Peppermint oil: 'Safety during pregnancy and lactation has not been established... use during pregnancy and lactation is not recommended' (EMA monograph).",
+      "refs": [
+       7
+      ],
+      "md": "Peppermint oil: 'Safety during pregnancy and lactation has not been established... use during pregnancy and lactation is not recommended' (EMA monograph)."
+     },
+     "allergy": {
+      "statement": "Hypersensitivity to peppermint oil or menthol is a contraindication; allergic reactions and contact dermatitis are listed.",
+      "refs": [
+       7
+      ],
+      "md": "Hypersensitivity to peppermint oil or menthol is a [contraindication](#term:contraindication); allergic reactions and [contact dermatitis](#term:contact-allergen) are listed."
+     },
+     "adverse_event_history": {
+      "statement": "Monograph lists heartburn, perianal burning, blurred vision, nausea and vomiting with oral capsules, and rare allergic reactions including anaphylactic shock.",
+      "refs": [
+       7
+      ],
+      "md": "Monograph lists heartburn, perianal burning, blurred vision, nausea and vomiting with oral capsules, and rare allergic reactions including [anaphylactic shock](#term:anaphylaxis)."
+     },
+     "contraindications": [
+      {
+       "statement": "Oral oil: liver disease, cholangitis, achlorhydria, gallstones and other biliary disorders [7]",
+       "md": "Oral oil: liver disease, cholangitis, achlorhydria, gallstones and other biliary disorders [7](#cite:7)"
+      },
+      {
+       "statement": "Children under 2 years; children with a history of seizures (traditional-use oil preparations) [7]",
+       "md": "Children under 2 years; children with a history of [seizures](#term:convulsant) ([traditional-use](#term:traditional-use) oil preparations) [7](#cite:7)"
+      },
+      {
+       "statement": "Hypersensitivity to peppermint oil or menthol [7]",
+       "md": "Hypersensitivity to peppermint oil or menthol [7](#cite:7)"
+      }
+     ],
+     "constituents_of_concern": [
+      {
+       "compound_id": "pulegone",
+       "concern": "hepatotoxic after bioactivation; ≤3 % of oil by Ph. Eur.",
+       "threshold_or_limit": "pulegone + menthofuran 0.75 mg/kg bw/day (37.5 mg/person/day) lifelong; 75 mg/day <1 year",
+       "refs": [
+        3,
+        6
+       ],
+       "md": "[hepatotoxic](#term:hepatotoxicity) after [bioactivation](#term:bioactivation); ≤3 [% of oil](#term:essential-oil-percent) by [Ph. Eur.](#term:pharmacopoeia)"
+      },
+      {
+       "compound_id": "menthofuran",
+       "concern": "hepatotoxic metabolite of pulegone; 1-8 % of oil",
+       "threshold_or_limit": "counted with pulegone (same limit)",
+       "refs": [
+        3
+       ],
+       "md": "hepatotoxic metabolite of [pulegone](#term:pulegone); 1-8 % of oil"
+      },
+      {
+       "compound_id": "menthol",
+       "concern": "reflex apnoea and laryngospasm in infants",
+       "threshold_or_limit": "oil contraindicated in children under 2 years and in children with a history of seizures",
+       "refs": [
+        7
+       ],
+       "md": "[reflex apnoea](#term:reflex-apnoea) and laryngospasm in infants"
+      }
+     ]
+    },
+    "evidence": [
+     {
+      "claim": "Peppermint oil improves global symptoms and abdominal pain in adults with IBS.",
+      "grade": "A",
+      "test_article": "essential_oil",
+      "test_article_detail": "enteric-coated peppermint oil capsules (NOT tea)",
+      "population": "human",
+      "outcome_summary": "Meta-analysis of 12 RCTs (835 patients): global symptoms RR 2.39 (NNT 3); abdominal pain RR 1.78 (NNT 4); adverse events not significantly increased.",
+      "refs": [
+       54
+      ],
+      "note": "EMA accepts well-established use of gastro-resistant capsules for this indication [6]. Evidence does not transfer to peppermint tea.",
+      "md": {
+       "claim": "Peppermint oil improves global symptoms and abdominal pain in adults with [IBS](#term:ibs).",
+       "outcome_summary": "[Meta-analysis](#term:meta-analysis) of 12 [RCTs](#term:rct) (835 patients): global symptoms RR 2.39 (NNT 3); abdominal pain RR 1.78 (NNT 4); adverse events not significantly increased."
+      }
+     },
+     {
+      "claim": "Peppermint leaf is traditionally used for digestive disorders.",
+      "grade": "T",
+      "test_article": "whole_herb",
+      "test_article_detail": "peppermint leaf (herbal tea and other preparations)",
+      "population": "traditional",
+      "outcome_summary": "EMA traditional-use indication: 'symptomatic relief of digestive disorders such as dyspepsia and flatulence'.",
+      "refs": [
+       6
+      ],
+      "note": null,
+      "md": {
+       "claim": "Peppermint leaf is traditionally used for digestive disorders.",
+       "outcome_summary": "EMA traditional-use indication: 'symptomatic relief of digestive disorders such as dyspepsia and flatulence'."
+      }
+     }
+    ],
+    "monograph_status": {
+     "ema_hmpc": {
+      "exists": true,
+      "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/european-union-herbal-monograph-mentha-x-piperita-l-aetheroleum-revision-1_en.pdf"
+     },
+     "escop": {
+      "exists": null,
+      "url": null
+     },
+     "who": {
+      "exists": null,
+      "url": null
+     }
+    },
+    "refs": [
+     3,
+     6,
+     7,
+     54
+    ],
+    "gaps": [
+     "ESCOP and WHO monograph status not checked.",
+     "Peppermint leaf monograph URL not recorded (oil monograph given).",
+     "Cutaneous oil for tension headache (EMA well-established use) not graded; no trial read."
+    ],
+    "as_of": "2026-09-23",
+    "terms": [
+     "auc",
+     "animal-study",
+     "ema-hmpc",
+     "cyp3a4",
+     "in-vitro",
+     "antagonist",
+     "enteric-coated",
+     "monograph",
+     "evidence-grade",
+     "contraindication",
+     "contact-allergen",
+     "anaphylaxis",
+     "convulsant",
+     "traditional-use",
+     "hepatotoxicity",
+     "bioactivation",
+     "essential-oil-percent",
+     "pharmacopoeia",
+     "pulegone",
+     "reflex-apnoea",
+     "ibs",
+     "meta-analysis",
+     "rct"
+    ],
+    "cited_refs": [
+     3,
+     6,
+     7,
+     54
+    ]
+   },
+   "preparations": [
+    "peppermint-leaf-hot-infusion"
+   ],
+   "primer_sections": [
+    "1-what-every-plant-shares",
+    "5-three-pathways-that-make-the-greenhouse-smell",
+    "6-why-plants-make-these-molecules",
+    "7-from-leaf-to-cup",
+    "8-how-to-read-the-rest-of-this-site"
+   ],
+   "todo": [
+    {
+     "where": "taxa_safety_evidence/mentha-x-piperita",
+     "what": "ESCOP and WHO monograph status not checked."
+    },
+    {
+     "where": "taxa_safety_evidence/mentha-x-piperita",
+     "what": "Peppermint leaf monograph URL not recorded (oil monograph given)."
+    },
+    {
+     "where": "taxa_safety_evidence/mentha-x-piperita",
+     "what": "Cutaneous oil for tension headache (EMA well-established use) not graded; no trial read."
+    }
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "row": "rosmarinic-acid#1",
+   "compound_id": "rosmarinic-acid",
+   "compound": "rosmarinic acid",
+   "class": "hydroxycinnamic-acid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "mentha-x-piperita",
+   "taxon_known": true,
+   "taxon_name": "Mentha × piperita",
+   "family": "Lamiaceae",
+   "plant_part": "leaf dry extract (Ph. Eur.)",
+   "value": "minimum 0.5",
+   "unit": "%",
+   "basis": "per_g_extract",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv",
+   "verified": true,
+   "note": "Duke: ROSMARINIC-ACID Shoot 700-1800 ppm. EMA quotes the Ph. Eur. dry-extract minimum of 0.5 % rosmarinic acid. | Basis as recorded: Ph. Eur. 2382 specification for peppermint leaf dry extract",
+   "refs": [
+    6
+   ]
+  },
+  {
+   "row": "menthol#0",
+   "compound_id": "menthol",
+   "compound": "(-)-menthol",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "mentha-x-piperita",
+   "taxon_known": true,
+   "taxon_name": "Mentha × piperita",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "30-55",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv",
+   "verified": true,
+   "note": "Duke: MENTHOL Leaf 570-22800 ppm and 156-20000 ppm. | Basis as recorded: % of essential oil (Ph. Eur. range)",
+   "refs": [
+    6
+   ]
+  },
+  {
+   "row": "menthone#0",
+   "compound_id": "menthone",
+   "compound": "menthone",
+   "class": "monoterpenoid-ketone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "mentha-x-piperita",
+   "taxon_known": true,
+   "taxon_name": "Mentha × piperita",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "14-32",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv",
+   "verified": true,
+   "note": "Duke: MENTHONE Leaf 310-12400 ppm; Plant 20-10000 ppm. Isomenthone 1.5-10 % is specified separately. | Basis as recorded: % of essential oil (Ph. Eur. range)",
+   "refs": [
+    6
+   ]
+  },
+  {
+   "row": "menthofuran#0",
+   "compound_id": "menthofuran",
+   "compound": "menthofuran",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "mentha-x-piperita",
+   "taxon_known": true,
+   "taxon_name": "Mentha × piperita",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "1-8",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv",
+   "verified": true,
+   "note": "Duke: MENTHOFURAN Plant 0-2800 ppm. KNApSAcK lists (+)-menthofuran (C00003049) for Mentha piperita. EMA report has no statement on young leaves / early harvest. | Basis as recorded: % of essential oil (Ph. Eur. range) | The curation claim 'higher in young leaves / early-season oil' is removed (unsourced).",
+   "refs": [
+    6
+   ]
+  },
+  {
+   "row": "pulegone#0",
+   "compound_id": "pulegone",
+   "compound": "(+)-pulegone",
+   "class": "monoterpenoid-ketone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "mentha-x-piperita",
+   "taxon_known": true,
+   "taxon_name": "Mentha × piperita",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "maximum 3",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv",
+   "verified": true,
+   "note": "Duke: PULEGONE Leaf 0-440 ppm. KNApSAcK: Pulegone C00000827 in Mentha piperita. | Basis as recorded: % of essential oil (Ph. Eur. limit)",
+   "refs": [
+    6
+   ]
+  },
+  {
+   "row": "1-8-cineole#0",
+   "compound_id": "1-8-cineole",
+   "compound": "1,8-cineole (eucalyptol)",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "mentha-x-piperita",
+   "taxon_known": true,
+   "taxon_name": "Mentha × piperita",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "3.5-8",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv",
+   "verified": true,
+   "note": "Duke: 1,8-CINEOLE Leaf 45-3000 ppm. | Basis as recorded: % of essential oil (Ph. Eur. range)",
+   "refs": [
+    6
+   ]
+  },
+  {
+   "row": "eriocitrin#0",
+   "compound_id": "eriocitrin",
+   "compound": "eriocitrin",
+   "class": "flavanone-glycoside",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "mentha-x-piperita",
+   "taxon_known": true,
+   "taxon_name": "Mentha × piperita",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "database": "KNApSAcK",
+   "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Mentha%20piperita",
+   "verified": true,
+   "note": "Presence verified; amount null because EMA quotes 6.6-15.0 % without a confirmed denominator (possibly % of phenolic metabolites). KNApSAcK: Eriocitrin C00008295 (CAS 13463-28-0) in Mentha piperita. Not in Duke. EMA calls eriocitrin 'the dominant phenolic secondary metabolite'. | Basis as recorded: as quoted by EMA for peppermint leaf clones (denominator not captured - check the report before publishing)",
+   "refs": [
+    6
+   ]
+  }
+ ],
+ "plantings": [
+  {
+   "id": "GH-086",
+   "list_category": "Medicinal",
+   "original_entry": "Peppermint",
+   "common_name": "Peppermint",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf",
+   "scientific_name": "Mentha × piperita",
+   "species_key": "Mentha × piperita",
+   "family": "Lamiaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "mentha-x-piperita",
+   "status": "current"
+  }
+ ],
+ "preparations": [
+  {
+   "id": "peppermint-leaf-hot-infusion",
+   "name": "Peppermint leaf, hot-water infusion"
+  }
+ ]
+}

@@ -1,0 +1,767 @@
+# Greenhouse Explorer compound pack - generated 2026-09-23 from compound-verification.yaml + curation.md rulings + evidence sweep.
+# Whole-plant / extract evidence and safety for the 10 profiled taxa (the unresolved scutellaria-sp entry renders both Scutellaria records side by side). [n] -> references.yaml.
+- taxon_id: ocimum-basilicum
+  plant_part_used: leaf (culinary herb); essential oil
+  safety:
+    drug_interactions: []
+    pregnancy_lactation:
+      statement: EMA advises minimising exposure of pregnant and breastfeeding women to methyleugenol, and does not recommend estragole intake above its guidance
+        value in pregnancy and lactation; these statements concern herbal medicinal products, not culinary use.
+      refs:
+      - 4
+      - 5
+    allergy:
+      statement: null
+      refs: []
+    constituents_of_concern:
+    - compound_id: estragole
+      concern: genotoxic carcinogen in rodents; chemotype-dependent (minor to dominant)
+      threshold_or_limit: 0.05 mg/person/day adults; 1.0 µg/kg bw children ≤11 y (EMA guidance values)
+      refs:
+      - 4
+      - 18
+    - compound_id: methyleugenol
+      concern: genotoxic carcinogen in rodents; present in most cultivars grown here
+      threshold_or_limit: no numerical limit; minimise in young children, pregnancy, breastfeeding (EMA)
+      refs:
+      - 5
+      - 18
+    adverse_event_history:
+      statement: null
+      refs: []
+    contraindications: []
+  evidence: []
+  monograph_status:
+    ema_hmpc:
+      exists: null
+      url: null
+    escop:
+      exists: null
+      url: null
+    who:
+      exists: null
+      url: null
+  refs:
+  - 4
+  - 5
+  - 18
+  - 19
+  gaps:
+  - No whole-plant human evidence researched.
+  - EMA/ESCOP/WHO monograph status for basil not checked.
+  - No allergy or interaction data researched.
+  - Mrs Burns' Lemon taxon (O. × africanum?) and cultivar composition unresolved.
+  as_of: '2026-09-23'
+- taxon_id: mentha-x-piperita
+  plant_part_used: leaf (tea); essential oil (enteric-coated capsules, cutaneous)
+  safety:
+    drug_interactions:
+    - with: cyclosporine
+      effect: peppermint oil tripled mean cyclosporine Cmax (animal data summarised by EMA)
+      evidence_grade: D
+      refs:
+      - 6
+    - with: CYP3A4 substrates
+      effect: peppermint oil a moderately potent reversible CYP3A4 inhibitor in vitro
+      evidence_grade: E
+      refs:
+      - 6
+    - with: calcium-channel blockers
+      effect: competitive calcium-channel antagonism by the oil in animals; effectiveness of blockers may be modified
+      evidence_grade: D
+      refs:
+      - 6
+    - with: antacids, H2 blockers, proton-pump inhibitors
+      effect: may dissolve enteric-coated oil capsules early; monograph says avoid concomitant use (regulatory warning, not graded)
+      evidence_grade: null
+      refs:
+      - 7
+    pregnancy_lactation:
+      statement: 'Peppermint oil: ''Safety during pregnancy and lactation has not been established... use during pregnancy and lactation is not recommended'' (EMA
+        monograph).'
+      refs:
+      - 7
+    allergy:
+      statement: Hypersensitivity to peppermint oil or menthol is a contraindication; allergic reactions and contact dermatitis are listed.
+      refs:
+      - 7
+    constituents_of_concern:
+    - compound_id: pulegone
+      concern: hepatotoxic after bioactivation; ≤3 % of oil by Ph. Eur.
+      threshold_or_limit: pulegone + menthofuran 0.75 mg/kg bw/day (37.5 mg/person/day) lifelong; 75 mg/day <1 year
+      refs:
+      - 3
+      - 6
+    - compound_id: menthofuran
+      concern: hepatotoxic metabolite of pulegone; 1-8 % of oil
+      threshold_or_limit: counted with pulegone (same limit)
+      refs:
+      - 3
+    - compound_id: menthol
+      concern: reflex apnoea and laryngospasm in infants
+      threshold_or_limit: oil contraindicated in children under 2 years and in children with a history of seizures
+      refs:
+      - 7
+    adverse_event_history:
+      statement: Monograph lists heartburn, perianal burning, blurred vision, nausea and vomiting with oral capsules, and rare allergic reactions including anaphylactic
+        shock.
+      refs:
+      - 7
+    contraindications:
+    - 'Oral oil: liver disease, cholangitis, achlorhydria, gallstones and other biliary disorders [7]'
+    - Children under 2 years; children with a history of seizures (traditional-use oil preparations) [7]
+    - Hypersensitivity to peppermint oil or menthol [7]
+  evidence:
+  - claim: Peppermint oil improves global symptoms and abdominal pain in adults with IBS.
+    grade: A
+    test_article: essential_oil
+    test_article_detail: enteric-coated peppermint oil capsules (NOT tea)
+    population: human
+    outcome_summary: 'Meta-analysis of 12 RCTs (835 patients): global symptoms RR 2.39 (NNT 3); abdominal pain RR 1.78 (NNT 4); adverse events not significantly increased.'
+    refs:
+    - 54
+    note: EMA accepts well-established use of gastro-resistant capsules for this indication [6]. Evidence does not transfer to peppermint tea.
+  - claim: Peppermint leaf is traditionally used for digestive disorders.
+    grade: T
+    test_article: whole_herb
+    test_article_detail: peppermint leaf (herbal tea and other preparations)
+    population: traditional
+    outcome_summary: 'EMA traditional-use indication: ''symptomatic relief of digestive disorders such as dyspepsia and flatulence''.'
+    refs:
+    - 6
+    note: null
+  monograph_status:
+    ema_hmpc:
+      exists: true
+      url: https://www.ema.europa.eu/en/documents/herbal-monograph/european-union-herbal-monograph-mentha-x-piperita-l-aetheroleum-revision-1_en.pdf
+    escop:
+      exists: null
+      url: null
+    who:
+      exists: null
+      url: null
+  refs:
+  - 3
+  - 6
+  - 7
+  - 54
+  gaps:
+  - ESCOP and WHO monograph status not checked.
+  - Peppermint leaf monograph URL not recorded (oil monograph given).
+  - Cutaneous oil for tension headache (EMA well-established use) not graded; no trial read.
+  as_of: '2026-09-23'
+- taxon_id: melissa-officinalis
+  plant_part_used: leaf (tea, extracts; topical cream)
+  safety:
+    drug_interactions:
+    - with: thyroid hormone / TSH
+      effect: aqueous extracts may inhibit TSH activity in vitro; clinical relevance unknown
+      evidence_grade: E
+      refs:
+      - 8
+    pregnancy_lactation:
+      statement: '''As there is no information on reproductive and developmental toxicity the use during pregnancy and lactation cannot be recommended'' (EMA).'
+      refs:
+      - 8
+    allergy:
+      statement: Hypersensitivity to the active substance is the only contraindication listed.
+      refs:
+      - 8
+    constituents_of_concern: []
+    adverse_event_history:
+      statement: No clinical signals of harm under the specified conditions of use; EMA advises a driving/machinery warning because of empirically acknowledged sedative
+        properties.
+      refs:
+      - 8
+    contraindications:
+    - Hypersensitivity to the active substance [8]
+  evidence:
+  - claim: A lemon balm leaf extract cream shortened and eased recurrent herpes labialis episodes.
+    grade: B
+    test_article: named_extract
+    test_article_detail: cream with 1 % Lo-701 (70:1 dry aqueous extract of Melissa leaf), topical, 5 days
+    population: human
+    outcome_summary: Lower combined symptom score than placebo on day 2 (n = 66).
+    refs:
+    - 55
+    note: EMA considered this product's data not transferable to a general monograph [8].
+  - claim: Single doses of a lemon balm methanol extract changed attention and self-rated calmness in healthy volunteers.
+    grade: B
+    test_article: named_extract
+    test_article_detail: 30 % methanol dry extract (Kennedy 2002, 2004), crossover
+    population: human
+    outcome_summary: Improved quality of attention and increased calmness under laboratory stress in small crossover studies (n = 18-20), as summarised by EMA.
+    refs:
+    - 8
+    note: Primary papers not read here; extracts not covered by the HMPC monograph.
+  - claim: An open study of a standardised extract reported lower anxiety and insomnia scores.
+    grade: C
+    test_article: named_extract
+    test_article_detail: Cyracos (30 % ethanol extract), open-label, no control
+    population: human
+    outcome_summary: Anxiety manifestations -18 %, insomnia -42 % (n = 20; uncontrolled), as summarised by EMA.
+    refs:
+    - 8
+    note: null
+  - claim: Lemon balm leaf is traditionally used for mild stress, sleep and mild digestive complaints.
+    grade: T
+    test_article: whole_herb
+    test_article_detail: Melissa leaf preparations
+    population: traditional
+    outcome_summary: 'EMA: ''for relief of mild symptoms of mental stress and to aid sleep''; ''for symptomatic treatment of mild gastrointestinal complaints including
+      bloating and flatulence''.'
+    refs:
+    - 8
+    note: null
+  monograph_status:
+    ema_hmpc:
+      exists: true
+      url: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf
+    escop:
+      exists: null
+      url: null
+    who:
+      exists: null
+      url: null
+  refs:
+  - 8
+  - 55
+  gaps:
+  - EMA monograph URL not recorded (assessment report given).
+  - ESCOP/WHO status not checked.
+  - Kennedy 2002/2004 and Cases 2011 primary papers not read (EMA summary used).
+  as_of: '2026-09-23'
+- taxon_id: salvia-officinalis
+  plant_part_used: leaf (tea, extracts, fresh-leaf tablets); essential oil
+  safety:
+    drug_interactions:
+    - with: CYP2D6 substrates
+      effect: 'in vitro screening suggested CYP2D6 inhibition; EMA: no conclusions could be drawn'
+      evidence_grade: E
+      refs:
+      - 1
+    - with: antidiabetic drugs (hypoglycaemia claims)
+      effect: no interaction data found; EMA states 'No data available' on pharmacodynamic interactions
+      evidence_grade: null
+      refs:
+      - 1
+    pregnancy_lactation:
+      statement: '''As there is no information on reproductive and developmental toxicity, the use during pregnancy and lactation cannot be recommended'' (EMA). EMA''s
+        thujone statement adds that use of thujone-containing products in pregnant women and children should be minimised.'
+      refs:
+      - 1
+      - 2
+    allergy:
+      statement: null
+      refs: []
+    constituents_of_concern:
+    - compound_id: alpha-thujone
+      concern: GABA-A antagonist; convulsant
+      threshold_or_limit: 3.5 mg/day or 6.6 mg/day thujone (EMA derivations); 3-7 mg/day stated to pose no special concern
+      refs:
+      - 2
+    - compound_id: beta-thujone
+      concern: weaker GABA-A antagonist
+      threshold_or_limit: included in thujone limits
+      refs:
+      - 2
+      - 39
+    - compound_id: camphor
+      concern: convulsant at high exposure; 7-50 % of commercial sage oils
+      threshold_or_limit: EMA toxicity thresholds ~5 mg/kg (insignificant) and >30 mg/kg (manifest toxicity), reported in the rosemary report
+      refs:
+      - 1
+      - 12
+    adverse_event_history:
+      statement: A toddler developed tonic-clonic seizures after home-made sage tea; EMA also records epileptiform convulsions after prolonged use of alcoholic extracts
+        or pure oil, and convulsions in rats at high sage-oil doses.
+      refs:
+      - 1
+    contraindications: []
+  evidence:
+  - claim: A sage extract reduced menopausal hot-flush severity and overall menopausal complaints compared with placebo.
+    grade: B
+    test_article: named_extract
+    test_article_detail: Menosan (ethanolic S. officinalis extract tablets), 4 weeks
+    population: human
+    outcome_summary: Menopause Rating Scale -39.2 % vs -6.3 %; hot-flush severity -55.3 % (80 randomised, 48 per protocol).
+    refs:
+    - 50
+    note: null
+  - claim: Hot-flush intensity fell during 8 weeks of a fresh sage leaf tablet in an uncontrolled study.
+    grade: C
+    test_article: named_extract
+    test_article_detail: once-daily fresh sage leaf tablet, open multicentre, no control
+    population: human
+    outcome_summary: Hot-flush intensity score -50 % at 4 weeks, -64 % at 8 weeks (ITT n = 69).
+    refs:
+    - 49
+    note: No placebo arm; EMA did not accept it for well-established use [1].
+  - claim: Sage extract improved cognition in mild to moderate Alzheimer's disease over 4 months.
+    grade: B
+    test_article: named_extract
+    test_article_detail: S. officinalis extract (drops), placebo-controlled
+    population: human
+    outcome_summary: Better ADAS-cog and CDR-SB than placebo (n = 42); more agitation on sage.
+    refs:
+    - 51
+    note: Single small trial; a systematic review found benefits undermined by methodological issues and heterogeneous preparations [53].
+  - claim: Dried sage leaf changed mood and alertness acutely in healthy adults.
+    grade: B
+    test_article: whole_herb
+    test_article_detail: dried S. officinalis leaf in capsules, two amounts, crossover
+    population: human
+    outcome_summary: Improved mood; anxiety/alertness effects differed by amount (n = 30).
+    refs:
+    - 52
+    note: 'Test article matters: other cognition trials used extracts, oils or S. lavandulaefolia [53].'
+  - claim: A sage spray eased acute pharyngitis pain slightly more than placebo.
+    grade: B
+    test_article: named_extract
+    test_article_detail: 15 % sage spray (Hubbert et al. 2006, as described by EMA)
+    population: human
+    outcome_summary: About 44 % vs 34 % pain reduction within 2 hours.
+    refs:
+    - 1
+    note: Primary paper not read; EMA notes the concentration differs from EU-marketed products.
+  - claim: Sage leaf is traditionally used for mild dyspepsia, excessive sweating, mouth/throat inflammation and minor skin inflammation.
+    grade: T
+    test_article: whole_herb
+    test_article_detail: sage leaf preparations
+    population: traditional
+    outcome_summary: 'EMA: ''relief of mild dyspeptic complaints such as heartburn and bloating''; ''relief of excessive sweating''; ''relief of inflammations in
+      the mouth or the throat''.'
+    refs:
+    - 1
+    note: null
+  monograph_status:
+    ema_hmpc:
+      exists: true
+      url: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf
+    escop:
+      exists: null
+      url: null
+    who:
+      exists: null
+      url: null
+  refs:
+  - 1
+  - 2
+  - 12
+  - 39
+  - 49
+  - 50
+  - 51
+  - 52
+  - 53
+  gaps:
+  - EMA monograph URL not recorded (assessment report given).
+  - ESCOP/WHO status not checked.
+  - Hubbert 2006 and Scholey 2008 primary papers not read.
+  - Thujone content of a home infusion not sourced.
+  - 'Hypoglycaemic interaction claims: no human data found.'
+  as_of: '2026-09-23'
+- taxon_id: salvia-rosmarinus
+  plant_part_used: leaf; essential oil (cutaneous)
+  safety:
+    drug_interactions: []
+    pregnancy_lactation:
+      statement: '''The data available are not sufficient to conclude the safety of rosemary preparations used during pregnancy and lactation'' (EMA).'
+      refs:
+      - 12
+    allergy:
+      statement: Carnosol is identified as a major allergen in rosemary contact dermatitis.
+      refs:
+      - 12
+    constituents_of_concern:
+    - compound_id: camphor
+      concern: convulsant; seizures reported in children
+      threshold_or_limit: EMA toxicity thresholds ~5 mg/kg (insignificant), >30 mg/kg (manifest toxicity)
+      refs:
+      - 12
+    - compound_id: carnosol
+      concern: contact allergen
+      threshold_or_limit: null
+      refs:
+      - 12
+    adverse_event_history:
+      statement: Paediatric camphor seizure reports summarised by EMA.
+      refs:
+      - 12
+    contraindications:
+    - 'Oral leaf: obstruction of bile duct, cholangitis, liver disease, gallstones [12]'
+    - 'Oil: do not apply to broken or irritated skin [12]'
+    - 'Not recommended: leaf under 12 years, oil under 18 years [12]'
+  evidence:
+  - claim: Rosemary leaf is traditionally used for dyspepsia and mild gastrointestinal spasm.
+    grade: T
+    test_article: whole_herb
+    test_article_detail: rosemary leaf (oral); bath additive; cutaneous oil
+    population: traditional
+    outcome_summary: 'EMA: ''symptomatic relief of dyspepsia and mild spasmodic disorders of the gastrointestinal tract''; bath/oil for ''minor muscular and articular
+      pain''.'
+    refs:
+    - 12
+    note: null
+  monograph_status:
+    ema_hmpc:
+      exists: true
+      url: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf
+    escop:
+      exists: null
+      url: null
+    who:
+      exists: null
+      url: null
+  refs:
+  - 12
+  gaps:
+  - ESCOP/WHO status not checked.
+  - 'No human efficacy trial found for any indication (EMA: none for approved indications).'
+  as_of: '2026-09-23'
+- taxon_id: thymus-vulgaris
+  plant_part_used: herb (aerial parts); combination syrups
+  safety:
+    drug_interactions:
+    - with: CYP450 substrates
+      effect: aqueous extracts inhibited CYP450 in vitro; no clinical interactions reported
+      evidence_grade: E
+      refs:
+      - 9
+    pregnancy_lactation:
+      statement: '''Safety during pregnancy and lactation has not been established... use during pregnancy and lactation is not recommended'' (EMA).'
+      refs:
+      - 9
+    allergy:
+      statement: Very rare hypersensitivity; possible cross-reactivity within Lamiaceae; contact dermatitis and asthma from thyme dust; one anaphylaxis case reported.
+      refs:
+      - 9
+    constituents_of_concern:
+    - compound_id: thymol
+      concern: historical vermifuge doses far above medicinal exposure caused abdominal pain and collapse
+      threshold_or_limit: EMA estimates ~38 mg thymol daily from medicinal thyme use (context, not a limit)
+      refs:
+      - 9
+    adverse_event_history:
+      statement: Mostly mild gastrointestinal or skin reactions; one case of acute hepatitis after ingesting pure thyme essential oil.
+      refs:
+      - 9
+    contraindications:
+    - Hypersensitivity to thyme or other Lamiaceae [9]
+  evidence:
+  - claim: A thyme + ivy fluid-extract syrup reduced coughing fits in acute bronchitis faster than placebo.
+    grade: B
+    test_article: multi_herb_formula
+    test_article_detail: fixed fluid extract combination of thyme herb and ivy leaves, 11 days
+    population: human
+    outcome_summary: Coughing fits -68.7 % vs -47.6 % by days 7-9 (p < 0.0001; n = 361).
+    refs:
+    - 56
+    note: Two-herb product; not transferable to thyme alone or to thyme honey.
+  - claim: Thyme herb is traditionally used in productive cough associated with cold.
+    grade: T
+    test_article: whole_herb
+    test_article_detail: thyme herb preparations
+    population: traditional
+    outcome_summary: 'EMA: ''Traditional herbal medicinal product used in productive cough associated with cold''.'
+    refs:
+    - 9
+    note: null
+  monograph_status:
+    ema_hmpc:
+      exists: true
+      url: https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf
+    escop:
+      exists: null
+      url: null
+    who:
+      exists: true
+      url: https://iris.who.int/handle/10665/42052
+  refs:
+  - 9
+  - 17
+  - 56
+  gaps:
+  - EMA monograph URL not recorded.
+  - ESCOP status not checked.
+  - WHO Herba Thymi text not read (only the table of contents).
+  - Thyme honey for cough not researched.
+  as_of: '2026-09-23'
+- taxon_id: origanum-vulgare
+  plant_part_used: leaf/flowering tops (culinary); essential oil
+  safety:
+    drug_interactions: []
+    pregnancy_lactation:
+      statement: null
+      refs: []
+    allergy:
+      statement: null
+      refs: []
+    constituents_of_concern: []
+    adverse_event_history:
+      statement: null
+      refs: []
+    contraindications: []
+  evidence: []
+  monograph_status:
+    ema_hmpc:
+      exists: null
+      url: null
+    escop:
+      exists: null
+      url: null
+    who:
+      exists: null
+      url: null
+  refs:
+  - 21
+  - 22
+  gaps:
+  - No safety, interaction, pregnancy or allergy data researched.
+  - No human evidence researched.
+  - Monograph status not checked.
+  as_of: '2026-09-23'
+- taxon_id: scutellaria-lateriflora
+  plant_part_used: aerial parts (tea herb)
+  safety:
+    drug_interactions: []
+    pregnancy_lactation:
+      statement: null
+      refs: []
+    allergy:
+      statement: null
+      refs: []
+    constituents_of_concern:
+    - compound_id: teucrin-a
+      concern: 'not a skullcap constituent: germander hepatotoxin found in adulterated ''skullcap'' products; not detected in authenticated S. lateriflora'
+      threshold_or_limit: null
+      refs:
+      - 25
+      - 30
+    adverse_event_history:
+      statement: LiverTox rates skullcap a 'very likely but rare' cause of liver injury (score B), with hepatocellular injury 1-12 weeks after starting, and notes
+        that analysis has in some suspected cases found germander adulteration or mislabelling. Germander itself caused hepatitis with positive rechallenge in a French
+        series, and its diterpenoid teucrin A reproduces the injury in mice. Authenticated S. lateriflora contains no teucrin A. Whether skullcap itself is hepatotoxic
+        therefore remains unresolved.
+      refs:
+      - 13
+      - 31
+      - 30
+      - 25
+    contraindications: []
+  evidence:
+  - claim: S. lateriflora did not reduce anxiety versus placebo in healthy, mostly mildly anxious volunteers.
+    grade: B
+    test_article: whole_herb
+    test_article_detail: S. lateriflora capsules, three times daily, 2-week crossover periods (preparation type not stated in the abstract read)
+    population: human
+    outcome_summary: No significant anxiety difference (p = 0.191); mood disturbance fell from baseline in both arms (n = 43).
+    refs:
+    - 60
+    note: The only RCT found; the brief's 'freeze-dried aerial parts' description is not confirmed from the abstract.
+  monograph_status:
+    ema_hmpc:
+      exists: null
+      url: null
+    escop:
+      exists: null
+      url: null
+    who:
+      exists: null
+      url: null
+  refs:
+  - 13
+  - 24
+  - 25
+  - 27
+  - 30
+  - 31
+  - 60
+  gaps:
+  - No EMA/ESCOP/WHO monograph found in this pass (absence not confirmed).
+  - 'Pregnancy/lactation: no data found.'
+  - Sedation/interaction data not researched.
+  as_of: '2026-09-23'
+- taxon_id: scutellaria-baicalensis
+  plant_part_used: root (huang qin; kampo and TCM formulas)
+  safety:
+    drug_interactions:
+    - with: rosuvastatin (OATP1B1 substrates)
+      effect: isolated baicalin lowered rosuvastatin AUC ~9-47 %, haplotype-dependent
+      evidence_grade: B
+      refs:
+      - 33
+    pregnancy_lactation:
+      statement: null
+      refs: []
+    allergy:
+      statement: null
+      refs: []
+    constituents_of_concern:
+    - compound_id: baicalin
+      concern: OATP1B1-mediated interaction; hepatotoxicity reported with the baicalin + catechin product flavocoxid
+      threshold_or_limit: null
+      refs:
+      - 32
+      - 33
+    adverse_event_history:
+      statement: 'All reports found involve mixtures, with the test article named: (1) flavocoxid (Limbrel), baicalin + catechins from S. baicalensis and Acacia catechu
+        - four DILIN liver-injury cases, all recovered; (2) Move Free Advanced (Chinese skullcap with glucosamine/chondroitin) - liver injury, one case with pneumonitis;
+        (3) Sho-saiko-to, a seven-herb kampo formula including S. baicalensis root - hepatocellular injury (LiverTox score B) and interstitial pneumonitis described
+        as uncommon (a cited review counted 19 cases), with S. baicalensis the suspected component.'
+      refs:
+      - 32
+      - 13
+      - 14
+    contraindications: []
+  evidence:
+  - claim: A multi-herb kampo formula containing S. baicalensis root is associated with liver injury and interstitial pneumonitis.
+    grade: C
+    test_article: multi_herb_formula
+    test_article_detail: Sho-saiko-to (7 herbs incl. Scutellaria baicalensis root)
+    population: human
+    outcome_summary: Case reports/series summarised by LiverTox; causal component unknown, S. baicalensis suspected.
+    refs:
+    - 14
+    note: null
+  - claim: A baicalin-containing medical food caused clinically significant liver injury.
+    grade: C
+    test_article: multi_herb_formula
+    test_article_detail: flavocoxid (baicalin + catechins; S. baicalensis + Acacia catechu)
+    population: human
+    outcome_summary: Four cases, onset 1-3 months, recovery within 12 weeks of stopping.
+    refs:
+    - 32
+    note: null
+  monograph_status:
+    ema_hmpc:
+      exists: null
+      url: null
+    escop:
+      exists: null
+      url: null
+    who:
+      exists: null
+      url: null
+  refs:
+  - 13
+  - 14
+  - 16
+  - 24
+  - 28
+  - 32
+  - 33
+  - 34
+  gaps:
+  - No EMA/ESCOP/WHO monograph checked (WHO vol. 1 does not include Radix Scutellariae; later volumes not checked).
+  - No efficacy evidence researched; mostly D/E expected.
+  - Pregnancy data not researched.
+  - Move Free Advanced case details from LiverTox summary only.
+  as_of: '2026-09-23'
+- taxon_id: matricaria-chamomilla
+  plant_part_used: flower heads (tea, extracts, cream); essential oil
+  safety:
+    drug_interactions:
+    - with: warfarin
+      effect: INR rise to 7.9 with bleeding in one patient using chamomile tea and lotion; mechanism proposed, not shown
+      evidence_grade: C
+      refs:
+      - 48
+      - 15
+    - with: cyclosporine / CYP450 substrates
+      effect: interactions reported in renal-transplant patients on long, high oral intake; CYP1A2 influence 'conceivable'
+      evidence_grade: C
+      refs:
+      - 11
+      - 10
+    pregnancy_lactation:
+      statement: 'EMA monograph: ''Safety during pregnancy and lactation has not been established'' for most preparations (not for preparation a); NCCIH: little is
+        known.'
+      refs:
+      - 11
+      - 15
+    allergy:
+      statement: Contraindicated in hypersensitivity to chamomile or other Asteraceae (Compositae); hypersensitivity reactions including anaphylactic shock reported;
+        higher risk with ragweed, chrysanthemum, marigold or daisy allergy. Anthemis cotula contamination (sesquiterpene lactone anthecotulid) is a further allergy
+        risk.
+      refs:
+      - 11
+      - 15
+      - 10
+    constituents_of_concern:
+    - compound_id: herniarin
+      concern: coumarin often assumed to be anticoagulant; EMA gives no such warning (teaching point, see compound)
+      threshold_or_limit: null
+      refs:
+      - 10
+      - 48
+    adverse_event_history:
+      statement: Severe allergic reactions (dyspnoea, angioedema, vascular collapse, anaphylactic shock) listed with frequency unknown.
+      refs:
+      - 11
+    contraindications:
+    - Hypersensitivity to chamomile or other Asteraceae [11]
+    - 'Full baths: open wounds, severe infections, high fever, cardiac insufficiency [11]'
+  evidence:
+  - claim: A chamomile extract reduced anxiety scores in mild to moderate GAD more than placebo.
+    grade: B
+    test_article: named_extract
+    test_article_detail: oral standardised chamomile extract capsules, 8 weeks
+    population: human
+    outcome_summary: Greater HAM-A reduction than placebo (57 randomised).
+    refs:
+    - 57
+    note: null
+  - claim: Continued chamomile extract did not significantly reduce GAD relapse versus placebo.
+    grade: B
+    test_article: named_extract
+    test_article_detail: pharmaceutical-grade chamomile extract capsules; 26-week randomised placebo substitution
+    population: human
+    outcome_summary: Relapse 15.2 % vs 25.5 % (HR 0.52, p = 0.16); symptoms stayed lower on chamomile (n = 93).
+    refs:
+    - 58
+    note: null
+  - claim: A standardised chamomile extract did not improve sleep in chronic primary insomnia.
+    grade: B
+    test_article: named_extract
+    test_article_detail: standardised chamomile extract, 28 days, pilot RCT
+    population: human
+    outcome_summary: No significant difference in sleep-diary outcomes (n = 34); NCCIH judges insomnia evidence minimal.
+    refs:
+    - 59
+    - 15
+    note: Brief expected 'C'; the one RCT read is null, so the honest summary is 'tested, no benefit shown'.
+  - claim: Chamomile flower is traditionally used for minor gastrointestinal complaints and mouth, throat and skin inflammations.
+    grade: T
+    test_article: whole_herb
+    test_article_detail: chamomile flower (tea and other preparations)
+    population: traditional
+    outcome_summary: 'EMA: ''symptomatic treatment of minor gastro-intestinal complaints such as bloating and minor spasms''.'
+    refs:
+    - 11
+    note: null
+  monograph_status:
+    ema_hmpc:
+      exists: true
+      url: https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-matricaria-recutita-l-flos-first-version_en.pdf
+    escop:
+      exists: true
+      url: https://www.escop.com/downloads/matricariae-flos-matricaria-flower/
+    who:
+      exists: true
+      url: https://iris.who.int/handle/10665/42052
+  refs:
+  - 10
+  - 11
+  - 15
+  - 17
+  - 48
+  - 57
+  - 58
+  - 59
+  gaps:
+  - Topical eczema cream (Kamillosan) trial not read.
+  - WHO Flos Chamomillae text not read (table of contents only).
+  - ESCOP monograph content not read (listing URL only).
+  - Standardisation (% apigenin) of the GAD trial extracts not captured.
+  as_of: '2026-09-23'

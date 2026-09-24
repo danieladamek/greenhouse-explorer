@@ -1,0 +1,246 @@
+{
+ "compound": {
+  "id": "methyleugenol",
+  "name": "methyleugenol",
+  "synonyms": [
+   "methyl eugenol",
+   "eugenol methyl ether",
+   "4-allyl-1,2-dimethoxybenzene"
+  ],
+  "class": "phenylpropanoid",
+  "subclass": "allylbenzene (dimethyl ether)",
+  "one_liner": "Basil phenylpropanoid classed by EMA as a naturally occurring genotoxic carcinogen.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "1,2-dimethoxy-4-prop-2-enylbenzene",
+   "formula": "C11H14O2",
+   "mw": 178.23,
+   "mw_source": "pubchem",
+   "smiles": "COC1=C(C=C(C=C1)CC=C)OC",
+   "inchikey": "ZYEMGPIYFIJGTP-UHFFFAOYSA-N",
+   "cas": "93-15-2",
+   "pubchem_cid": 7127,
+   "chebi_id": "CHEBI:4918",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/7127/JSON",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "shikimate/phenylpropanoid",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "ocimum-basilicum",
+    "plant_part": "plant",
+    "value": "13-1400",
+    "unit": "ppm",
+    "basis": "unstated",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Muráriková A, Ťažký A, Neugebauerová J, et al. (2017) Characterization of essential oil composition in different basil species and pot cultures by a GC-MS method. Molecules 22(7):1221",
+    "source_doi_or_url": "https://doi.org/10.3390/molecules22071221",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+    "verified": true,
+    "note": "Duke: METHYL-EUGENOL Plant 13-1400 ppm (Duke 1992). Paper states 'all the studied varieties, except from Lettuce Leaf, were methyl eugenol-rich' (includes 'Red Rubin' and 'Mammolo Genovese'); no individual values extracted. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": "Bioactivated by cytochrome P450 to 1'-hydroxy-methyleugenol and epoxide-diol metabolites that bind DNA; hepatic and other tumours in NTP rodent studies [5].",
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [
+   {
+    "claim": "Methyleugenol is a genotoxic carcinogen in rodents.",
+    "grade": "D",
+    "test_article": "isolated_compound",
+    "test_article_detail": "methyleugenol (NTP rodent studies summarised by EMA)",
+    "population": "animal",
+    "outcome_summary": "Hepatic tumours and other neoplasms; DNA-binding potency similar to safrole.",
+    "refs": [
+     5
+    ],
+    "note": null
+   }
+  ],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [
+   {
+    "flag": "genotoxic carcinogen (rodent)",
+    "detail": "Present in most basil cultivars grown here, at levels that vary by cultivar and leaf age: six of seven cultivars studied were methyleugenol-rich, 'Red Rubin' and 'Mammolo Genovese' included [18].",
+    "threshold_or_limit": "No numerical limit; EMA advises minimising exposure of young children and pregnant or breastfeeding women",
+    "source_citation": "EMEA/HMPC public statement on methyleugenol, EMEA/HMPC/138363/2005",
+    "refs": [
+     5,
+     18
+    ]
+   }
+  ],
+  "teaching_note": "The curation draft called methyleugenol 'minor in most cultivars'; the GC-MS study found the opposite, which is why the pack says 'most cultivars grown here' [18].",
+  "citations": [
+   5,
+   18
+  ],
+  "gaps": [
+   "No human evidence for the isolated compound found in this pass.",
+   "Leaf-age dependence (ruling wording) not sourced in this pass.",
+   "Per-cultivar methyleugenol values not extracted from Muráriková 2017.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Basil [phenylpropanoid](#term:phenylpropanoid) classed by [EMA](#term:ema-hmpc) as a naturally occurring [genotoxic carcinogen](#term:genotoxic).",
+   "mechanism": "[Bioactivated](#term:bioactivation) by [cytochrome P450](#term:cytochrome-p450) to 1'-hydroxy-methyleugenol and epoxide-diol metabolites that bind DNA; hepatic and other tumours in NTP [rodent studies](#term:animal-study) [5](#cite:5).",
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "The curation draft called [methyleugenol](#term:methyleugenol) 'minor in most [cultivars](#term:cultivar)'; the [GC-MS](#term:gc-ms) study found the opposite, which is why the pack says 'most cultivars grown here' [18](#cite:18).",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": null,
+   "evidence": [
+    {
+     "claim": "Methyleugenol is a genotoxic carcinogen in rodents.",
+     "outcome_summary": "Hepatic tumours and other neoplasms; DNA-binding potency similar to safrole."
+    }
+   ],
+   "safety_flags": [
+    "Present in most basil cultivars grown here, at levels that vary by cultivar and leaf age: six of seven cultivars studied were methyleugenol-rich, 'Red Rubin' and 'Mammolo Genovese' included [18](#cite:18)."
+   ]
+  },
+  "terms": [
+   "phenylpropanoid",
+   "ema-hmpc",
+   "genotoxic",
+   "bioactivation",
+   "cytochrome-p450",
+   "animal-study",
+   "methyleugenol",
+   "cultivar",
+   "gc-ms",
+   "solubility"
+  ],
+  "cited_refs": [
+   5,
+   18
+  ],
+  "taxa": [
+   "ocimum-basilicum"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C11H14O2",
+   "inchikeyComputed": "ZYEMGPIYFIJGTP-UHFFFAOYSA-N",
+   "canonicalSmiles": "C=CCc1ccc(OC)c(OC)c1",
+   "monoisotopicMass": 178.0994,
+   "averageMass": 178.231,
+   "descriptors": {
+    "heavyAtoms": 13,
+    "rings": 1,
+    "aromaticRings": 1,
+    "hbd": 0,
+    "hba": 2,
+    "rotatableBonds": 4,
+    "logP": 2.43,
+    "tpsa": 18.5,
+    "fsp3": 0.27,
+    "stereocenters": 0,
+    "charge": 0
+   },
+   "atomCount": 27,
+   "heavyAtomCount": 13,
+   "functionalGroups": [
+    {
+     "id": "methoxy",
+     "name": "Methoxy (aryl methyl ether)",
+     "matches": [
+      [
+       10,
+       0,
+       5
+      ],
+      [
+       11,
+       1,
+       7
+      ]
+     ]
+    },
+    {
+     "id": "allyl",
+     "name": "Allyl side chain",
+     "matches": [
+      [
+       12,
+       9,
+       3,
+       2
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/methyleugenol.sdf",
+   "svg": {
+    "light": "structures/2d/methyleugenol.svg",
+    "dark": "structures/2d/methyleugenol.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/methyleugenol.json",
+   "mwPack": 178.23,
+   "mwSource": "pubchem"
+  },
+  "primer_sections": [
+   "5-three-pathways-that-make-the-greenhouse-smell",
+   "6-why-plants-make-these-molecules"
+  ]
+ },
+ "rows": [
+  {
+   "row": "methyleugenol#0",
+   "compound_id": "methyleugenol",
+   "compound": "methyleugenol",
+   "class": "phenylpropanoid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "ocimum-basilicum",
+   "taxon_known": true,
+   "taxon_name": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "plant_part": "plant",
+   "value": "13-1400",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Muráriková A, Ťažký A, Neugebauerová J, et al. (2017) Characterization of essential oil composition in different basil species and pot cultures by a GC-MS method. Molecules 22(7):1221",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules22071221",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+   "verified": true,
+   "note": "Duke: METHYL-EUGENOL Plant 13-1400 ppm (Duke 1992). Paper states 'all the studied varieties, except from Lettuce Leaf, were methyl eugenol-rich' (includes 'Red Rubin' and 'Mammolo Genovese'); no individual values extracted. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    18
+   ]
+  }
+ ],
+ "preparations": []
+}

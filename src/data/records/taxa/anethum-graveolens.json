@@ -1,0 +1,99 @@
+{
+ "taxa": [
+  {
+   "id": "anethum-graveolens",
+   "species_key": "Anethum graveolens",
+   "accepted_name": "Anethum graveolens",
+   "authority": "L.",
+   "family": "Apiaceae",
+   "common_names": [
+    "Dill"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 40922,
+    "powo_id": "urn:lsid:ipni.org:names:837530-1",
+    "gbif_key": 3034646,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "herbs"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-064",
+     "name": "Fernleaf",
+     "type": "Dwarf leaf",
+     "list_category": "herbs",
+     "name_as_given": "Anethum graveolens",
+     "identity_status": "confirmed",
+     "note": null
+    },
+    {
+     "crop_id": "GH-065",
+     "name": "Teddy",
+     "type": "Dwarf leaf",
+     "list_category": "herbs",
+     "name_as_given": "Anethum graveolens",
+     "identity_status": "confirmed",
+     "note": null
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-064",
+    "GH-065"
+   ],
+   "n_plantings": 2,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-064",
+   "list_category": "Herbs",
+   "original_entry": "Dill, Fernleaf",
+   "common_name": "Dill",
+   "cultivar": "Fernleaf",
+   "crop_type": "Dwarf leaf",
+   "scientific_name": "Anethum graveolens",
+   "species_key": "Anethum graveolens",
+   "family": "Apiaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "anethum-graveolens",
+   "status": "current"
+  },
+  {
+   "id": "GH-065",
+   "list_category": "Herbs",
+   "original_entry": "Dill, Teddy",
+   "common_name": "Dill",
+   "cultivar": "Teddy",
+   "crop_type": "Dwarf leaf",
+   "scientific_name": "Anethum graveolens",
+   "species_key": "Anethum graveolens",
+   "family": "Apiaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "anethum-graveolens",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

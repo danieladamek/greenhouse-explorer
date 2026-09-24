@@ -1,0 +1,376 @@
+[
+ {
+  "id": "amaranthaceae",
+  "family": "Amaranthaceae",
+  "colour": "#7a3b2e",
+  "taxa": [
+   "beta-vulgaris",
+   "spinacia-oleracea"
+  ],
+  "profiled": [],
+  "plantings": 5,
+  "compounds": [],
+  "shared_compounds": [],
+  "primer_sections": []
+ },
+ {
+  "id": "amaryllidaceae",
+  "family": "Amaryllidaceae",
+  "colour": "#c2527a",
+  "taxa": [
+   "allium-ampeloprasum",
+   "allium-fistulosum",
+   "allium-cepa",
+   "allium-schoenoprasum",
+   "allium-tuberosum"
+  ],
+  "profiled": [],
+  "plantings": 7,
+  "compounds": [],
+  "shared_compounds": [],
+  "primer_sections": []
+ },
+ {
+  "id": "apiaceae",
+  "family": "Apiaceae",
+  "colour": "#8a5fb0",
+  "taxa": [
+   "coriandrum-sativum",
+   "foeniculum-vulgare",
+   "apium-graveolens",
+   "anthriscus-cerefolium",
+   "anethum-graveolens",
+   "petroselinum-crispum"
+  ],
+  "profiled": [],
+  "plantings": 12,
+  "compounds": [],
+  "shared_compounds": [],
+  "primer_sections": []
+ },
+ {
+  "id": "asteraceae",
+  "family": "Asteraceae",
+  "colour": "#d49a1c",
+  "taxa": [
+   "lactuca-sativa",
+   "calendula-officinalis",
+   "matricaria-chamomilla",
+   "taraxacum-officinale",
+   "echinacea-purpurea",
+   "tanacetum-parthenium",
+   "achillea-millefolium"
+  ],
+  "profiled": [
+   "matricaria-chamomilla"
+  ],
+  "plantings": 19,
+  "compounds": [
+   "alpha-bisabolol",
+   "apigenin",
+   "apigenin-7-glucoside",
+   "bisabolol-oxide-a",
+   "chamazulene",
+   "cis-spiroether",
+   "herniarin",
+   "luteolin-7-glucoside",
+   "matricin",
+   "umbelliferone"
+  ],
+  "shared_compounds": [],
+  "primer_sections": []
+ },
+ {
+  "id": "brassicaceae",
+  "family": "Brassicaceae",
+  "colour": "#3b6fb6",
+  "taxa": [
+   "eruca-vesicaria",
+   "brassica-rapa",
+   "brassica-oleracea",
+   "brassica-napus",
+   "raphanus-sativus",
+   "brassica-carinata",
+   "nasturtium-officinale"
+  ],
+  "profiled": [],
+  "plantings": 15,
+  "compounds": [],
+  "shared_compounds": [],
+  "primer_sections": []
+ },
+ {
+  "id": "cucurbitaceae",
+  "family": "Cucurbitaceae",
+  "colour": "#1f9c9c",
+  "taxa": [
+   "cucumis-sativus"
+  ],
+  "profiled": [],
+  "plantings": 1,
+  "compounds": [],
+  "shared_compounds": [],
+  "primer_sections": []
+ },
+ {
+  "id": "fabaceae",
+  "family": "Fabaceae",
+  "colour": "#5f9e2f",
+  "taxa": [
+   "phaseolus-vulgaris",
+   "pisum-sativum"
+  ],
+  "profiled": [],
+  "plantings": 3,
+  "compounds": [],
+  "shared_compounds": [],
+  "primer_sections": []
+ },
+ {
+  "id": "lamiaceae",
+  "family": "Lamiaceae",
+  "colour": "#2f7d4f",
+  "taxa": [
+   "ocimum-basilicum",
+   "melissa-officinalis",
+   "origanum-majorana",
+   "mentha-spicata",
+   "origanum-vulgare",
+   "salvia-rosmarinus",
+   "salvia-officinalis",
+   "thymus-vulgaris",
+   "ocimum-tenuiflorum",
+   "leonurus-cardiaca",
+   "mentha-x-piperita",
+   "scutellaria-lateriflora",
+   "scutellaria-baicalensis",
+   "scutellaria-sp"
+  ],
+  "profiled": [
+   "ocimum-basilicum",
+   "melissa-officinalis",
+   "origanum-vulgare",
+   "salvia-rosmarinus",
+   "salvia-officinalis",
+   "thymus-vulgaris",
+   "mentha-x-piperita",
+   "scutellaria-lateriflora",
+   "scutellaria-baicalensis",
+   "scutellaria-sp"
+  ],
+  "plantings": 21,
+  "compounds": [
+   "1-8-cineole",
+   "alpha-pinene",
+   "alpha-thujone",
+   "apigenin",
+   "apigenin-7-glucoside",
+   "baicalein",
+   "baicalin",
+   "beta-caryophyllene",
+   "beta-thujone",
+   "borneol",
+   "caffeic-acid",
+   "camphor",
+   "carnosic-acid",
+   "carnosol",
+   "carvacrol",
+   "chrysin",
+   "citral",
+   "citronellal",
+   "dihydrobaicalin",
+   "eriocitrin",
+   "estragole",
+   "eugenol",
+   "gamma-terpinene",
+   "linalool",
+   "luteolin",
+   "luteolin-7-glucoside",
+   "menthofuran",
+   "menthol",
+   "menthone",
+   "methyl-cinnamate",
+   "methyleugenol",
+   "norwogonin",
+   "oroxylin-a",
+   "p-cymene",
+   "pulegone",
+   "rosmarinic-acid",
+   "scutellarin",
+   "teucrin-a",
+   "thymol",
+   "ursolic-acid",
+   "wogonin",
+   "wogonoside"
+  ],
+  "shared_compounds": [
+   {
+    "id": "linalool",
+    "taxa": [
+     "ocimum-basilicum",
+     "thymus-vulgaris"
+    ]
+   },
+   {
+    "id": "citral",
+    "taxa": [
+     "melissa-officinalis",
+     "ocimum-basilicum"
+    ]
+   },
+   {
+    "id": "rosmarinic-acid",
+    "taxa": [
+     "melissa-officinalis",
+     "mentha-x-piperita",
+     "ocimum-basilicum",
+     "origanum-vulgare",
+     "salvia-officinalis",
+     "salvia-rosmarinus",
+     "thymus-vulgaris"
+    ]
+   },
+   {
+    "id": "1-8-cineole",
+    "taxa": [
+     "mentha-x-piperita",
+     "salvia-officinalis",
+     "salvia-rosmarinus"
+    ]
+   },
+   {
+    "id": "ursolic-acid",
+    "taxa": [
+     "melissa-officinalis",
+     "salvia-officinalis",
+     "salvia-rosmarinus"
+    ]
+   },
+   {
+    "id": "camphor",
+    "taxa": [
+     "salvia-officinalis",
+     "salvia-rosmarinus"
+    ]
+   },
+   {
+    "id": "borneol",
+    "taxa": [
+     "salvia-officinalis",
+     "salvia-rosmarinus"
+    ]
+   },
+   {
+    "id": "carnosic-acid",
+    "taxa": [
+     "salvia-officinalis",
+     "salvia-rosmarinus"
+    ]
+   },
+   {
+    "id": "carnosol",
+    "taxa": [
+     "salvia-officinalis",
+     "salvia-rosmarinus"
+    ]
+   },
+   {
+    "id": "luteolin",
+    "taxa": [
+     "origanum-vulgare",
+     "salvia-officinalis",
+     "thymus-vulgaris"
+    ]
+   },
+   {
+    "id": "luteolin-7-glucoside",
+    "taxa": [
+     "origanum-vulgare",
+     "salvia-officinalis",
+     "thymus-vulgaris"
+    ]
+   },
+   {
+    "id": "apigenin",
+    "taxa": [
+     "origanum-vulgare",
+     "salvia-officinalis"
+    ]
+   },
+   {
+    "id": "thymol",
+    "taxa": [
+     "origanum-vulgare",
+     "thymus-vulgaris"
+    ]
+   },
+   {
+    "id": "carvacrol",
+    "taxa": [
+     "origanum-vulgare",
+     "thymus-vulgaris"
+    ]
+   },
+   {
+    "id": "p-cymene",
+    "taxa": [
+     "origanum-vulgare",
+     "thymus-vulgaris"
+    ]
+   },
+   {
+    "id": "gamma-terpinene",
+    "taxa": [
+     "origanum-vulgare",
+     "thymus-vulgaris"
+    ]
+   },
+   {
+    "id": "baicalin",
+    "taxa": [
+     "scutellaria-baicalensis",
+     "scutellaria-lateriflora"
+    ]
+   },
+   {
+    "id": "baicalein",
+    "taxa": [
+     "scutellaria-baicalensis",
+     "scutellaria-lateriflora"
+    ]
+   },
+   {
+    "id": "wogonin",
+    "taxa": [
+     "scutellaria-baicalensis",
+     "scutellaria-lateriflora"
+    ]
+   },
+   {
+    "id": "oroxylin-a",
+    "taxa": [
+     "scutellaria-baicalensis",
+     "scutellaria-lateriflora"
+    ]
+   }
+  ],
+  "primer_sections": [
+   "5-three-pathways-that-make-the-greenhouse-smell"
+  ]
+ },
+ {
+  "id": "solanaceae",
+  "family": "Solanaceae",
+  "colour": "#c8452f",
+  "taxa": [
+   "solanum-melongena",
+   "capsicum-annuum",
+   "solanum-lycopersicum"
+  ],
+  "profiled": [],
+  "plantings": 8,
+  "compounds": [],
+  "shared_compounds": [],
+  "primer_sections": []
+ }
+]

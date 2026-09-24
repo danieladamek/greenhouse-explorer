@@ -1,0 +1,77 @@
+{
+ "taxa": [
+  {
+   "id": "brassica-carinata",
+   "species_key": "Brassica carinata",
+   "accepted_name": "Mutarda carinata",
+   "authority": "(A.Braun) D.A.German",
+   "family": "Brassicaceae",
+   "common_names": [
+    "Ethiopian kale / Amara mustard"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 52824,
+    "powo_id": "urn:lsid:ipni.org:names:77313886-1",
+    "gbif_key": 3042925,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Brassica carinata A.Braun (POWO urn:lsid:ipni.org:names:279278-1)",
+    "Sinabraca carinata (A.Braun) G.H.Loos"
+   ],
+   "columns": [
+    "herbs"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-070",
+     "name": "Amara",
+     "type": "Leaf",
+     "list_category": "herbs",
+     "name_as_given": "Brassica carinata",
+     "identity_status": "confirmed",
+     "note": "Not the usual mustard green (B. juncea). Amara is Ethiopian mustard, B. carinata."
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "Taxonomies disagree here. POWO accepts Mutarda carinata and treats Brassica carinata as a synonym. GBIF and NCBI still accept Brassica carinata A.Braun (GBIF 3042925, NCBI 52824, with Mutarda carinata as an NCBI synonym). The GBIF key given is for B. carinata, because a GBIF match on 'Mutarda carinata' only reached genus level. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-070"
+   ],
+   "n_plantings": 1,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-070",
+   "list_category": "Herbs",
+   "original_entry": "Mustard, Green Amara",
+   "common_name": "Ethiopian kale / Amara mustard",
+   "cultivar": "Amara",
+   "crop_type": "Leaf",
+   "scientific_name": "Brassica carinata",
+   "species_key": "Brassica carinata",
+   "family": "Brassicaceae",
+   "confidence": "High",
+   "note": "Not the usual mustard green (B. juncea). Amara is Ethiopian mustard, B. carinata.",
+   "taxon_id": "brassica-carinata",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

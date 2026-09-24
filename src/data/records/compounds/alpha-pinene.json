@@ -1,0 +1,173 @@
+{
+ "compound": {
+  "id": "alpha-pinene",
+  "name": "α-pinene",
+  "synonyms": [
+   "(±)-α-pinene",
+   "2-pinene"
+  ],
+  "class": "monoterpene",
+  "subclass": "bicyclic monoterpene hydrocarbon",
+  "one_liner": "Pine-scented hydrocarbon marking the Spanish rosemary chemotype (18-26 % of oil).",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "2,6,6-trimethylbicyclo[3.1.1]hept-2-ene",
+   "formula": "C10H16",
+   "mw": 136.24,
+   "mw_source": "computed_from_formula",
+   "smiles": "CC1=CCC2CC1C2(C)C",
+   "inchikey": "GRWFGVWFFZKLTI-UHFFFAOYSA-N",
+   "cas": "80-56-8",
+   "pubchem_cid": 6654,
+   "chebi_id": "CHEBI:36740",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6654/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": "PubChem title '(+-)-alpha-Pinene' (racemic/unspecified)."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MEP/terpenoid (plastidial; from geranyl diphosphate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "salvia-rosmarinus",
+    "plant_part": "essential oil",
+    "value": "18-26 (Spanish type); 9.0-14.0 (Moroccan/Tunisian type)",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6384?page&_format=csv",
+    "verified": true,
+    "note": "Duke: Essential Oil 79000-250000 ppm; Leaf Essent. Oil max 276000 ppm. | Basis as recorded: % of essential oil (Ph. Eur.)"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "Chemotype marker: Spanish-type rosemary oil has more α-pinene than cineole [12].",
+  "citations": [
+   12
+  ],
+  "gaps": [
+   "Pharmacology and safety not researched.",
+   "No human evidence for the isolated compound found in this pass.",
+   "Enantiomer not resolved.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Pine-scented hydrocarbon marking the Spanish rosemary [chemotype](#term:chemotype) (18-26 [% of oil](#term:essential-oil-percent)).",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Chemotype marker: Spanish-type rosemary oil has more α-pinene than cineole [12](#cite:12).",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "chemotype",
+   "essential-oil-percent",
+   "solubility"
+  ],
+  "cited_refs": [
+   12
+  ],
+  "taxa": [
+   "salvia-rosmarinus"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H16",
+   "inchikeyComputed": "GRWFGVWFFZKLTI-UHFFFAOYSA-N",
+   "canonicalSmiles": "CC1=CCC2CC1C2(C)C",
+   "monoisotopicMass": 136.1252,
+   "averageMass": 136.238,
+   "descriptors": {
+    "heavyAtoms": 10,
+    "rings": 3,
+    "aromaticRings": 0,
+    "hbd": 0,
+    "hba": 0,
+    "rotatableBonds": 0,
+    "logP": 3,
+    "tpsa": 0,
+    "fsp3": 0.8,
+    "stereocenters": 2,
+    "charge": 0
+   },
+   "atomCount": 26,
+   "heavyAtomCount": 10,
+   "functionalGroups": [],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/alpha-pinene.sdf",
+   "svg": {
+    "light": "structures/2d/alpha-pinene.svg",
+    "dark": "structures/2d/alpha-pinene.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/alpha-pinene.json",
+   "mwPack": 136.24,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "alpha-pinene#0",
+   "compound_id": "alpha-pinene",
+   "compound": "α-pinene",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-rosmarinus",
+   "taxon_known": true,
+   "taxon_name": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "18-26 (Spanish type); 9.0-14.0 (Moroccan/Tunisian type)",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6384?page&_format=csv",
+   "verified": true,
+   "note": "Duke: Essential Oil 79000-250000 ppm; Leaf Essent. Oil max 276000 ppm. | Basis as recorded: % of essential oil (Ph. Eur.)",
+   "refs": [
+    12
+   ]
+  }
+ ],
+ "preparations": []
+}

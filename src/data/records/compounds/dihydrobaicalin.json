@@ -1,0 +1,258 @@
+{
+ "compound": {
+  "id": "dihydrobaicalin",
+  "name": "dihydrobaicalin",
+  "synonyms": [
+   "(2S)-dihydrobaicalin"
+  ],
+  "class": "flavanone-glucuronide",
+  "subclass": "flavanone 7-O-glucuronide",
+  "one_liner": "Flavanone glucuronide among the predominant flavonoids of S. lateriflora extract.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "(2S,3S,4S,5R,6S)-6-[[(2S)-5,6-dihydroxy-4-oxo-2-phenyl-2,3-dihydrochromen-7-yl]oxy]-3,4,5-trihydroxyoxane-2-carboxylic acid",
+   "formula": "C21H20O11",
+   "mw": 448.38,
+   "mw_source": "computed_from_formula",
+   "smiles": "C1[C@H](OC2=CC(=C(C(=C2C1=O)O)O)O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)C(=O)O)O)O)O)C4=CC=CC=C4",
+   "inchikey": "UVNUGBQJLDGZKE-XDZPIWCFSA-N",
+   "cas": null,
+   "pubchem_cid": 14135325,
+   "chebi_id": null,
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/14135325/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": "No CAS or ChEBI shown in the PubChem record."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "flavonoid (phenylpropanoid + malonate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "scutellaria-lateriflora",
+    "plant_part": "above-ground parts (70 % ethanol extract)",
+    "value": null,
+    "unit": null,
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Gafner S, Bergeron C, Batcha LL, et al. (2003) Analysis of Scutellaria lateriflora and its adulterants Teucrium canadense and Teucrium chamaedrys by LC-UV/MS, TLC, and digital photomicroscopy. J AOAC Int 86(3):453-460",
+    "source_doi_or_url": "https://doi.org/10.1093/jaoac/86.3.453",
+    "database": null,
+    "database_url": null,
+    "verified": true,
+    "note": "No database record found (Duke S. lateriflora rows, KNApSAcK S. lateriflora list). Gafner 2003: extract flavonoids 'predominantly baicalin, lateriflorin, dihydrobaicalin, and baicalein'."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Not sourced.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "A lateriflora marker used in authentication against germander [26].",
+  "citations": [
+   26
+  ],
+  "gaps": [
+   "No database record; occurrence rests on Gafner 2003.",
+   "No CAS or ChEBI id in PubChem.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "[Flavanone](#term:flavanone) [glucuronide](#term:glucuronide) among the predominant [flavonoids](#term:flavonoid) of S. lateriflora extract.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "A lateriflora marker used in authentication against [germander](#term:germander) [26](#cite:26).",
+   "processing_note": "Not sourced.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "flavanone",
+   "glucuronide",
+   "flavonoid",
+   "germander"
+  ],
+  "cited_refs": [
+   26
+  ],
+  "taxa": [
+   "scutellaria-lateriflora"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C21H20O11",
+   "inchikeyComputed": "UVNUGBQJLDGZKE-XDZPIWCFSA-N",
+   "canonicalSmiles": "O=C1C[C@@H](c2ccccc2)Oc2cc(O[C@@H]3O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]3O)c(O)c(O)c21",
+   "monoisotopicMass": 448.1006,
+   "averageMass": 448.38,
+   "descriptors": {
+    "heavyAtoms": 32,
+    "rings": 4,
+    "aromaticRings": 2,
+    "hbd": 6,
+    "hba": 10,
+    "rotatableBonds": 4,
+    "logP": 0.08,
+    "tpsa": 183.2,
+    "fsp3": 0.33,
+    "stereocenters": 6,
+    "charge": 0
+   },
+   "atomCount": 52,
+   "heavyAtomCount": 32,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       8,
+       24
+      ],
+      [
+       9,
+       25
+      ]
+     ]
+    },
+    {
+     "id": "catechol",
+     "name": "Catechol (1,2-diol)",
+     "matches": [
+      [
+       8,
+       24,
+       25,
+       9
+      ]
+     ]
+    },
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       2,
+       11
+      ],
+      [
+       3,
+       12
+      ],
+      [
+       4,
+       13
+      ]
+     ]
+    },
+    {
+     "id": "ketone",
+     "name": "Ketone",
+     "matches": [
+      [
+       19,
+       23,
+       10,
+       21
+      ]
+     ]
+    },
+    {
+     "id": "carboxylic-acid",
+     "name": "Carboxylic acid / carboxylate",
+     "matches": [
+      [
+       16,
+       7,
+       6
+      ]
+     ]
+    },
+    {
+     "id": "glycoside",
+     "name": "Sugar (glycoside / glucuronide)",
+     "matches": [
+      [
+       0,
+       14,
+       12,
+       3,
+       11,
+       2,
+       13,
+       4,
+       15
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/dihydrobaicalin.sdf",
+   "svg": {
+    "light": "structures/2d/dihydrobaicalin.svg",
+    "dark": "structures/2d/dihydrobaicalin.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/dihydrobaicalin.json",
+   "mwPack": 448.38,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "dihydrobaicalin#0",
+   "compound_id": "dihydrobaicalin",
+   "compound": "dihydrobaicalin",
+   "class": "flavanone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "above-ground parts (70 % ethanol extract)",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Gafner S, Bergeron C, Batcha LL, et al. (2003) Analysis of Scutellaria lateriflora and its adulterants Teucrium canadense and Teucrium chamaedrys by LC-UV/MS, TLC, and digital photomicroscopy. J AOAC Int 86(3):453-460",
+   "source_doi_or_url": "https://doi.org/10.1093/jaoac/86.3.453",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "No database record found (Duke S. lateriflora rows, KNApSAcK S. lateriflora list). Gafner 2003: extract flavonoids 'predominantly baicalin, lateriflorin, dihydrobaicalin, and baicalein'.",
+   "refs": [
+    26
+   ]
+  }
+ ],
+ "preparations": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "two-skullcaps",
+  "title": "Two skullcaps",
+  "subtitle": "One inventory entry, two candidate species, baicalin amounts that cannot be charted, and the adulterant behind skullcap's liver-injury reports. Every step paraphrases a field of the content pack and keeps its citations.",
+  "minutes": 7,
+  "quiz_from": "evidence-grades-and-test-article",
+  "steps": [
+    {
+      "title": "An entry the inventory cannot resolve",
+      "route": "/plants/scutellaria-sp",
+      "text": "The inventory lists a single “Skullcap”, with a note that it could be American skullcap (Scutellaria lateriflora, used from its aerial parts) or Chinese skullcap (S. baicalensis, used from its root), and that the seed packet needs checking. The site keeps one unresolved record with two candidates.",
+      "source": "plantings.csv GH-088 (note); taxa.yaml scutellaria-sp (identity_status, candidates)"
+    },
+    {
+      "title": "Two candidates, two plant parts",
+      "route": "/compare?plants=scutellaria-lateriflora,scutellaria-baicalensis",
+      "text": "Side by side, the candidates differ first in what is used: the aerial parts of S. lateriflora as a tea herb, the root of S. baicalensis in kampo and Chinese formulas. Every amount in the matrix names its plant part, so leaf and root are never read as the same material.",
+      "source": "taxa_safety_evidence.yaml scutellaria-lateriflora, scutellaria-baicalensis (plant_part_used)"
+    },
+    {
+      "title": "Baicalin, with its bases",
+      "route": "/compounds/baicalin#found",
+      "text": "One study gives 11.7 mg/g baicalin in S. lateriflora leaf against 26.1 mg/g in S. baicalensis root; another finds more flavonoid in lateriflora aerial parts than in its own root [24,27]. Neither source states whether its values are per fresh or per dry weight, so every baicalin row is marked “basis not stated in source” and no chart is drawn from them.",
+      "source": "compounds.yaml baicalin (teaching_note, occurrences with basis: unstated)"
+    },
+    {
+      "title": "Teucrin A is not a skullcap compound",
+      "route": "/compounds/teucrin-a",
+      "text": "Teucrin A is a germander (Teucrium) diterpenoid. It was not detected in any authenticated S. lateriflora sample, while germander itself caused hepatitis in people, with injury recurring on re-exposure [25,31]. It is kept as an auxiliary record because it belongs to the skullcap story, not to the skullcap plant.",
+      "source": "compounds.yaml teucrin-a (one_liner, safety_flags, occurrences)"
+    },
+    {
+      "title": "The adulteration story",
+      "route": "/plants/scutellaria-lateriflora#safety",
+      "text": "LiverTox rates skullcap a very likely but rare cause of liver injury, and notes that analysis of some suspected products found germander or mislabelling. Because authenticated S. lateriflora contains no teucrin A, whether skullcap itself injures the liver remains unresolved [13,25,30,31].",
+      "source": "taxa_safety_evidence.yaml scutellaria-lateriflora (adverse_event_history)"
+    },
+    {
+      "title": "How the entry resolves",
+      "route": "/plants/scutellaria-sp#how-it-resolves",
+      "text": "When the packet names the species, one record changes: its identity status becomes confirmed and its candidates collapse to one. The page then becomes an ordinary plant page, and the other candidate leaves the inventory.",
+      "source": "taxa.yaml scutellaria-sp (identity_status, candidates); KICKOFF §4c"
+    }
+  ]
+}

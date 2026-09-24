@@ -1,0 +1,214 @@
+[
+ {
+  "id": "chemotypes",
+  "title": "Chemotypes",
+  "one_liner": "Plants of one species can make different oils - thymol-type or other thyme, linalool- or estragole-rich basil, cineole- or pinene-type rosemary - so a species name does not fix the chemistry.",
+  "prerequisites": [
+   "measurement-basis"
+  ],
+  "figures": [
+   "fig-pathways"
+  ],
+  "terms": [
+   "chemotype",
+   "cultivar",
+   "terpene-synthase",
+   "o-methyltransferase",
+   "essential-oil",
+   "essential-oil-percent",
+   "estragole",
+   "methyleugenol",
+   "subspecies"
+  ],
+  "self_check": [
+   {
+    "q": "The EMA records at least six chemotypes of Thymus vulgaris. What follows for the greenhouse's thyme?",
+    "options": [
+     "Its thymol content is 36.7-54.6 % of the oil",
+     "Its chemotype is unknown until its oil is analysed; published ranges describe other plants",
+     "It must be the thymol type because it is sold as thyme",
+     "It has no thymol"
+    ],
+    "answer": 1,
+    "explanation": "Published values describe the plants that were analysed. Only the thymol type meets the pharmacopoeia, and a garden thyme need not be that type [9]."
+   },
+   {
+    "q": "In basil, a single amino-acid difference between two O-methyltransferases decides whether the enzyme prefers chavicol or eugenol. What does this illustrate?",
+    "options": [
+     "That basil oil is random",
+     "That a chemotype can come down to a small genetic difference in one enzyme",
+     "That estragole and methyleugenol are the same compound",
+     "That cultivars do not matter"
+    ],
+    "answer": 1,
+    "explanation": "Chemotypes are genetic; small changes in a synthase or methyltransferase can switch the main product [120,121]."
+   }
+  ]
+ },
+ {
+  "id": "evidence-grades-and-test-article",
+  "title": "Evidence grades and the test article",
+  "one_liner": "Every health statement here carries a letter for how strong the human evidence is, and names exactly what was tested - because the grade belongs to that thing and nothing else.",
+  "prerequisites": [],
+  "figures": [],
+  "terms": [
+   "evidence-grade",
+   "test-article",
+   "rct",
+   "meta-analysis",
+   "systematic-review",
+   "open-label",
+   "traditional-use",
+   "named-extract",
+   "whole-herb",
+   "isolated-compound",
+   "multi-herb-formula",
+   "enteric-coated",
+   "bioavailability",
+   "monograph"
+  ],
+  "self_check": [
+   {
+    "q": "A meta-analysis of 12 randomised trials found enteric-coated peppermint oil capsules improved irritable bowel symptoms. What grade does that give peppermint tea for the same symptoms?",
+    "options": [
+     "A, because it is the same plant",
+     "B, because tea is a weaker form of the oil",
+     "None: the tea was not the test article, so the trials say nothing direct about it",
+     "T, because tea is traditional"
+    ],
+    "answer": 2,
+    "explanation": "The grade A belongs to the enteric-coated oil capsules that were tested. Tea is a different test article with a different composition, dominated by water-soluble phenolics rather than oil."
+   },
+   {
+    "q": "A laboratory study shows apigenin binds the benzodiazepine site of the GABA-A receptor. How may this site phrase it?",
+    "options": [
+     "Apigenin calms people (grade E)",
+     "In laboratory studies apigenin binds the benzodiazepine site (grade E)",
+     "Chamomile tea treats anxiety",
+     "Apigenin is traditionally used for sleep (grade T)"
+    ],
+    "answer": 1,
+    "explanation": "A D or E finding is never phrased as an effect in people. It is reported as what was observed, in the system in which it was observed."
+   },
+   {
+    "q": "The EU monograph lists thyme as 'traditionally used' for productive cough associated with a cold. What does grade T mean?",
+    "options": [
+     "Trials proved it works",
+     "A regulator accepted long-standing use; it is not trial evidence of efficacy",
+     "The site recommends it",
+     "It is untested and unsafe"
+    ],
+    "answer": 1,
+    "explanation": "Traditional use rests on documented long-standing use and plausibility. The site reports it as the monograph's statement, never as 'helps' or 'treats'."
+   }
+  ]
+ },
+ {
+  "id": "extraction-chemistry",
+  "title": "Extraction chemistry",
+  "one_liner": "A tea, a tincture and an essential oil are three extractions of the same leaf; polarity, volatility and heat decide which molecules each one contains.",
+  "prerequisites": [
+   "measurement-basis"
+  ],
+  "figures": [
+   "fig-extraction"
+  ],
+  "terms": [
+   "infusion",
+   "decoction",
+   "tincture",
+   "steam-distillation",
+   "polarity",
+   "solubility",
+   "volatility",
+   "extraction-yield",
+   "hydroethanolic",
+   "herb-to-extract-ratio",
+   "glycoside",
+   "proazulene",
+   "azulene",
+   "artefact",
+   "pseudo-first-order"
+  ],
+  "self_check": [
+   {
+    "q": "Hot water extracted about 93 % of lemon balm's polyphenols but only 31 % of its oil. Which two properties explain the gap?",
+    "options": [
+     "Colour and taste",
+     "Polarity (phenolics dissolve in water) and volatility (oil molecules are poorly soluble and escape)",
+     "Leaf size and age",
+     "Price and availability"
+    ],
+    "answer": 1,
+    "explanation": "Polar phenolic acids and glycosides dissolve readily in hot water; non-polar, volatile terpenes dissolve poorly and some of what dissolves evaporates [131]."
+   },
+   {
+    "q": "Chamomile essential oil is blue from chamazulene. Is chamazulene in chamomile tea?",
+    "options": [
+     "Yes, at the same level as in the oil",
+     "No, never",
+     "Not established by the sources read: chamazulene forms from matricin during steam distillation, and matricin itself reaches the tea",
+     "Only in cold tea"
+    ],
+    "answer": 2,
+    "explanation": "The EMA describes conversion during steam distillation and extraction of matricin into teas; presence or absence of chamazulene in a cup is not claimed [10]."
+   },
+   {
+    "q": "Which solvent recovered the most carnosic acid from dried rosemary in one study?",
+    "options": [
+     "Water",
+     "Ethanol",
+     "n-Hexane",
+     "Vinegar"
+    ],
+    "answer": 2,
+    "explanation": "Carnosic acid is less polar than rosmarinic acid; hexane reached 13 % of the dried extract while ethanol favoured rosmarinic acid [136]."
+   }
+  ]
+ },
+ {
+  "id": "measurement-basis",
+  "title": "Measurement basis",
+  "one_liner": "An amount is always an amount per something - fresh leaf, dry leaf, the oil or an extract - and two values on different bases cannot be compared.",
+  "prerequisites": [],
+  "figures": [
+   "fig-extraction"
+  ],
+  "terms": [
+   "basis",
+   "fresh-weight",
+   "dry-weight",
+   "essential-oil-percent",
+   "per-g-extract",
+   "occurrence",
+   "ppm",
+   "gc-ms",
+   "hplc",
+   "essential-oil"
+  ],
+  "self_check": [
+   {
+    "q": "Citral is 74 % of the essential oil in a lemon balm tea but 0.13 % of the dried leaf. Which statement is right?",
+    "options": [
+     "The tea is richer in citral than the leaf",
+     "The two numbers contradict each other",
+     "They are on different bases (per cent of oil vs per cent of leaf) and describe different quantities",
+     "One of them must be a typo"
+    ],
+    "answer": 2,
+    "explanation": "74 % is a share of the oil fraction; 0.13 % is a share of the whole dry leaf. Both are true at once [131]."
+   },
+   {
+    "q": "Why does the compare view refuse to plot thymol (% of oil) next to rosmarinic acid (mg per 100 g dry herb)?",
+    "options": [
+     "Because thymol is more important",
+     "Because the two values are per different things, so bar heights would mean nothing",
+     "Because rosmarinic acid is not in thyme",
+     "Because the values are unverified"
+    ],
+    "answer": 1,
+    "explanation": "A bar chart implies one scale. Values per oil and per dry herb are not on one scale without the oil content of that sample."
+   }
+  ]
+ }
+]

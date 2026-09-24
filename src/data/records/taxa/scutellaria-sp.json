@@ -1,0 +1,871 @@
+{
+ "taxa": [
+  {
+   "id": "scutellaria-sp",
+   "species_key": "Scutellaria (unresolved)",
+   "accepted_name": "Scutellaria sp.",
+   "authority": null,
+   "family": "Lamiaceae",
+   "common_names": [
+    "Skullcap"
+   ],
+   "identifiers": {
+    "ncbi_taxid": null,
+    "powo_id": null,
+    "gbif_key": null,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "medicinal"
+   ],
+   "identity_status": "unresolved",
+   "candidates": [
+    "scutellaria-lateriflora",
+    "scutellaria-baicalensis"
+   ],
+   "profiled": true,
+   "profile_depth": "deep",
+   "cultivars": [
+    {
+     "crop_id": "GH-088",
+     "name": null,
+     "type": "Aerial parts or root",
+     "list_category": "medicinal",
+     "name_as_given": "Scutellaria lateriflora OR Scutellaria baicalensis",
+     "identity_status": "unresolved",
+     "note": "Two very different medicinal plants. American skullcap (S. lateriflora, aerial parts) is the usual tea herb. Chinese skullcap (S. baicalensis, root; baicalin, baicalein) is the pharmacology workhorse. Check seed packet."
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "Inventory says only 'Skullcap'. Two very different medicinal plants are sold under that name; both are profiled until the seed packet decides.",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-088"
+   ],
+   "n_plantings": 1,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [
+    "5-three-pathways-that-make-the-greenhouse-smell",
+    "7-from-leaf-to-cup",
+    "8-how-to-read-the-rest-of-this-site"
+   ],
+   "todo": []
+  },
+  {
+   "id": "scutellaria-lateriflora",
+   "species_key": "Scutellaria lateriflora",
+   "accepted_name": "Scutellaria lateriflora",
+   "authority": "L.",
+   "family": "Lamiaceae",
+   "common_names": [
+    "American skullcap"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 233893,
+    "powo_id": "urn:lsid:ipni.org:names:458402-1",
+    "gbif_key": 5341325,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "medicinal"
+   ],
+   "identity_status": "confirmed",
+   "profiled": true,
+   "profile_depth": "deep",
+   "cultivars": [],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [],
+   "n_plantings": 0,
+   "statuses": [],
+   "candidate_of": "scutellaria-sp",
+   "compounds": [
+    "baicalin",
+    "baicalein",
+    "wogonin",
+    "scutellarin",
+    "dihydrobaicalin",
+    "oroxylin-a",
+    "teucrin-a"
+   ],
+   "occurrence_rows": [
+    "baicalin#0",
+    "baicalein#0",
+    "wogonin#0",
+    "scutellarin#0",
+    "dihydrobaicalin#0",
+    "oroxylin-a#0",
+    "teucrin-a#1"
+   ],
+   "safety_evidence": {
+    "taxon_id": "scutellaria-lateriflora",
+    "plant_part_used": "aerial parts (tea herb)",
+    "safety": {
+     "drug_interactions": [],
+     "pregnancy_lactation": {
+      "statement": null,
+      "refs": [],
+      "md": null
+     },
+     "allergy": {
+      "statement": null,
+      "refs": [],
+      "md": null
+     },
+     "adverse_event_history": {
+      "statement": "LiverTox rates skullcap a 'very likely but rare' cause of liver injury (score B), with hepatocellular injury 1-12 weeks after starting, and notes that analysis has in some suspected cases found germander adulteration or mislabelling. Germander itself caused hepatitis with positive rechallenge in a French series, and its diterpenoid teucrin A reproduces the injury in mice. Authenticated S. lateriflora contains no teucrin A. Whether skullcap itself is hepatotoxic therefore remains unresolved.",
+      "refs": [
+       13,
+       31,
+       30,
+       25
+      ],
+      "md": "[LiverTox](#term:livertox) rates skullcap a 'very likely but rare' cause of [liver injury](#term:hepatotoxicity) (score B), with hepatocellular injury 1-12 weeks after starting, and notes that analysis has in some suspected cases found [germander](#term:germander) [adulteration](#term:adulteration) or mislabelling. Germander itself caused hepatitis with positive rechallenge in a French series, and its [diterpenoid](#term:diterpene) teucrin A reproduces the injury in mice. Authenticated S. lateriflora contains no teucrin A. Whether skullcap itself is hepatotoxic therefore remains unresolved."
+     },
+     "contraindications": [],
+     "constituents_of_concern": [
+      {
+       "compound_id": "teucrin-a",
+       "concern": "not a skullcap constituent: germander hepatotoxin found in adulterated 'skullcap' products; not detected in authenticated S. lateriflora",
+       "threshold_or_limit": null,
+       "refs": [
+        25,
+        30
+       ],
+       "md": "not a skullcap constituent: germander hepatotoxin found in adulterated 'skullcap' products; not detected in authenticated S. lateriflora"
+      }
+     ]
+    },
+    "evidence": [
+     {
+      "claim": "S. lateriflora did not reduce anxiety versus placebo in healthy, mostly mildly anxious volunteers.",
+      "grade": "B",
+      "test_article": "whole_herb",
+      "test_article_detail": "S. lateriflora capsules, three times daily, 2-week crossover periods (preparation type not stated in the abstract read)",
+      "population": "human",
+      "outcome_summary": "No significant anxiety difference (p = 0.191); mood disturbance fell from baseline in both arms (n = 43).",
+      "refs": [
+       60
+      ],
+      "note": "The only RCT found; the brief's 'freeze-dried aerial parts' description is not confirmed from the abstract.",
+      "md": {
+       "claim": "S. lateriflora did not reduce anxiety versus [placebo](#term:placebo) in healthy, mostly mildly anxious volunteers.",
+       "outcome_summary": "No significant anxiety difference (p = 0.191); mood disturbance fell from baseline in both arms (n = 43)."
+      }
+     }
+    ],
+    "monograph_status": {
+     "ema_hmpc": {
+      "exists": null,
+      "url": null
+     },
+     "escop": {
+      "exists": null,
+      "url": null
+     },
+     "who": {
+      "exists": null,
+      "url": null
+     }
+    },
+    "refs": [
+     13,
+     24,
+     25,
+     27,
+     30,
+     31,
+     60
+    ],
+    "gaps": [
+     "No EMA/ESCOP/WHO monograph found in this pass (absence not confirmed).",
+     "Pregnancy/lactation: no data found.",
+     "Sedation/interaction data not researched."
+    ],
+    "as_of": "2026-09-23",
+    "terms": [
+     "livertox",
+     "hepatotoxicity",
+     "germander",
+     "adulteration",
+     "diterpene",
+     "placebo"
+    ],
+    "cited_refs": [
+     13,
+     24,
+     25,
+     27,
+     30,
+     31,
+     60
+    ]
+   },
+   "preparations": [],
+   "primer_sections": [
+    "5-three-pathways-that-make-the-greenhouse-smell",
+    "7-from-leaf-to-cup",
+    "8-how-to-read-the-rest-of-this-site"
+   ],
+   "todo": [
+    {
+     "where": "taxa_safety_evidence/scutellaria-lateriflora",
+     "what": "No EMA/ESCOP/WHO monograph found in this pass (absence not confirmed)."
+    },
+    {
+     "where": "taxa_safety_evidence/scutellaria-lateriflora",
+     "what": "Pregnancy/lactation: no data found."
+    },
+    {
+     "where": "taxa_safety_evidence/scutellaria-lateriflora",
+     "what": "Sedation/interaction data not researched."
+    }
+   ]
+  },
+  {
+   "id": "scutellaria-baicalensis",
+   "species_key": "Scutellaria baicalensis",
+   "accepted_name": "Scutellaria baicalensis",
+   "authority": "Georgi",
+   "family": "Lamiaceae",
+   "common_names": [
+    "Chinese skullcap",
+    "Huang qin"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 65409,
+    "powo_id": "urn:lsid:ipni.org:names:458155-1",
+    "gbif_key": 7309014,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "medicinal"
+   ],
+   "identity_status": "confirmed",
+   "profiled": true,
+   "profile_depth": "deep",
+   "cultivars": [],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [],
+   "n_plantings": 0,
+   "statuses": [],
+   "candidate_of": "scutellaria-sp",
+   "compounds": [
+    "baicalin",
+    "baicalein",
+    "wogonin",
+    "wogonoside",
+    "oroxylin-a",
+    "chrysin",
+    "norwogonin"
+   ],
+   "occurrence_rows": [
+    "baicalin#1",
+    "baicalin#2",
+    "baicalein#1",
+    "wogonin#1",
+    "wogonoside#0",
+    "oroxylin-a#1",
+    "chrysin#0",
+    "norwogonin#0"
+   ],
+   "safety_evidence": {
+    "taxon_id": "scutellaria-baicalensis",
+    "plant_part_used": "root (huang qin; kampo and TCM formulas)",
+    "safety": {
+     "drug_interactions": [
+      {
+       "with": "rosuvastatin (OATP1B1 substrates)",
+       "effect": "isolated baicalin lowered rosuvastatin AUC ~9-47 %, haplotype-dependent",
+       "evidence_grade": "B",
+       "refs": [
+        33
+       ],
+       "md": "isolated baicalin lowered rosuvastatin [AUC](#term:auc) ~9-47 %, haplotype-dependent"
+      }
+     ],
+     "pregnancy_lactation": {
+      "statement": null,
+      "refs": [],
+      "md": null
+     },
+     "allergy": {
+      "statement": null,
+      "refs": [],
+      "md": null
+     },
+     "adverse_event_history": {
+      "statement": "All reports found involve mixtures, with the test article named: (1) flavocoxid (Limbrel), baicalin + catechins from S. baicalensis and Acacia catechu - four DILIN liver-injury cases, all recovered; (2) Move Free Advanced (Chinese skullcap with glucosamine/chondroitin) - liver injury, one case with pneumonitis; (3) Sho-saiko-to, a seven-herb kampo formula including S. baicalensis root - hepatocellular injury (LiverTox score B) and interstitial pneumonitis described as uncommon (a cited review counted 19 cases), with S. baicalensis the suspected component.",
+      "refs": [
+       32,
+       13,
+       14
+      ],
+      "md": "All reports found involve mixtures, with the [test article](#term:test-article) named: (1) flavocoxid (Limbrel), baicalin + catechins from S. baicalensis and Acacia catechu - four DILIN liver-injury cases, all [recovered](#term:extraction-yield); (2) Move Free Advanced (Chinese skullcap with glucosamine/chondroitin) - [liver injury](#term:hepatotoxicity), one case with pneumonitis; (3) [Sho-saiko-to](#term:sho-saiko-to), a seven-herb kampo formula including S. baicalensis root - hepatocellular injury ([LiverTox](#term:livertox) score B) and interstitial pneumonitis described as uncommon (a cited review counted 19 cases), with S. baicalensis the suspected component."
+     },
+     "contraindications": [],
+     "constituents_of_concern": [
+      {
+       "compound_id": "baicalin",
+       "concern": "OATP1B1-mediated interaction; hepatotoxicity reported with the baicalin + catechin product flavocoxid",
+       "threshold_or_limit": null,
+       "refs": [
+        32,
+        33
+       ],
+       "md": "[OATP1B1-mediated](#term:oatp) [interaction](#term:drug-interaction); hepatotoxicity reported with the baicalin + catechin product flavocoxid"
+      }
+     ]
+    },
+    "evidence": [
+     {
+      "claim": "A multi-herb kampo formula containing S. baicalensis root is associated with liver injury and interstitial pneumonitis.",
+      "grade": "C",
+      "test_article": "multi_herb_formula",
+      "test_article_detail": "Sho-saiko-to (7 herbs incl. Scutellaria baicalensis root)",
+      "population": "human",
+      "outcome_summary": "Case reports/series summarised by LiverTox; causal component unknown, S. baicalensis suspected.",
+      "refs": [
+       14
+      ],
+      "note": null,
+      "md": {
+       "claim": "A multi-herb kampo formula containing S. baicalensis root is associated with liver injury and interstitial pneumonitis.",
+       "outcome_summary": "[Case reports](#term:case-report)/series summarised by LiverTox; causal component unknown, S. baicalensis suspected."
+      }
+     },
+     {
+      "claim": "A baicalin-containing medical food caused clinically significant liver injury.",
+      "grade": "C",
+      "test_article": "multi_herb_formula",
+      "test_article_detail": "flavocoxid (baicalin + catechins; S. baicalensis + Acacia catechu)",
+      "population": "human",
+      "outcome_summary": "Four cases, onset 1-3 months, recovery within 12 weeks of stopping.",
+      "refs": [
+       32
+      ],
+      "note": null,
+      "md": {
+       "claim": "A baicalin-containing medical food caused clinically significant liver injury.",
+       "outcome_summary": "Four cases, onset 1-3 months, recovery within 12 weeks of stopping."
+      }
+     }
+    ],
+    "monograph_status": {
+     "ema_hmpc": {
+      "exists": null,
+      "url": null
+     },
+     "escop": {
+      "exists": null,
+      "url": null
+     },
+     "who": {
+      "exists": null,
+      "url": null
+     }
+    },
+    "refs": [
+     13,
+     14,
+     16,
+     24,
+     28,
+     32,
+     33,
+     34
+    ],
+    "gaps": [
+     "No EMA/ESCOP/WHO monograph checked (WHO vol. 1 does not include Radix Scutellariae; later volumes not checked).",
+     "No efficacy evidence researched; mostly D/E expected.",
+     "Pregnancy data not researched.",
+     "Move Free Advanced case details from LiverTox summary only."
+    ],
+    "as_of": "2026-09-23",
+    "terms": [
+     "auc",
+     "test-article",
+     "extraction-yield",
+     "hepatotoxicity",
+     "sho-saiko-to",
+     "livertox",
+     "oatp",
+     "drug-interaction",
+     "case-report"
+    ],
+    "cited_refs": [
+     13,
+     14,
+     16,
+     24,
+     28,
+     32,
+     33,
+     34
+    ]
+   },
+   "preparations": [],
+   "primer_sections": [
+    "5-three-pathways-that-make-the-greenhouse-smell",
+    "7-from-leaf-to-cup",
+    "8-how-to-read-the-rest-of-this-site"
+   ],
+   "todo": [
+    {
+     "where": "taxa_safety_evidence/scutellaria-baicalensis",
+     "what": "No EMA/ESCOP/WHO monograph checked (WHO vol. 1 does not include Radix Scutellariae; later volumes not checked)."
+    },
+    {
+     "where": "taxa_safety_evidence/scutellaria-baicalensis",
+     "what": "No efficacy evidence researched; mostly D/E expected."
+    },
+    {
+     "where": "taxa_safety_evidence/scutellaria-baicalensis",
+     "what": "Pregnancy data not researched."
+    },
+    {
+     "where": "taxa_safety_evidence/scutellaria-baicalensis",
+     "what": "Move Free Advanced case details from LiverTox summary only."
+    }
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "row": "baicalin#0",
+   "compound_id": "baicalin",
+   "compound": "baicalin",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": "11.7 ± 2.9",
+   "unit": "mg/g",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "KNApSAcK",
+   "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Scutellaria%20lateriflora",
+   "verified": true,
+   "note": "KNApSAcK: Baicalin C00001024 in S. lateriflora. Gafner 2003 and Lin 2009 also identify baicalin as a predominant flavonoid of the aerial parts. | Basis as recorded: fresh weight (the paper's results give leaf flavone totals per g fresh weight; methods extracted ground tissue - confirm basis) | Makino 2008 (doi 10.1007/s11418-008-0230-7): flavonoids higher in S. lateriflora aerial parts than in its root. Basis (fresh vs dry weight) unconfirmed, so basis: null. Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "baicalin#1",
+   "compound_id": "baicalin",
+   "compound": "baicalin",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "1000-206000",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "Duke root range (upper value 20.6 %). Duke also: Stem 5800-43000 ppm. Costine 2022: root 26.1 ± 3.9 mg/g. CIR 2020 (citing Cai et al. 2016): 406 mg/g in an aqueous root extract (per g extract). | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "baicalin#2",
+   "compound_id": "baicalin",
+   "compound": "baicalin",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "26.1 ± 3.9",
+   "unit": "mg/g",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "Costine 2022 root value (2.6 %); basis possibly fresh weight - flagged, so the low end of the 2.6-20.6 % range is basis-uncertain. Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "baicalein#0",
+   "compound_id": "baicalein",
+   "compound": "baicalein",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": "2.24 ± 0.7",
+   "unit": "mg/g",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "KNApSAcK",
+   "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Scutellaria%20lateriflora",
+   "verified": true,
+   "note": "Costine 2022: leaf 2.24 ± 0.7, stem 0.6 ± 0.1 mg/g. KNApSAcK: Baicalein C00001022. | Basis as recorded: fresh weight (see baicalin note) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "baicalein#1",
+   "compound_id": "baicalein",
+   "compound": "baicalein",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "1000-54000",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "Costine 2022: root 1.3 ± 0.7 mg/g. CIR/Cai 2016: 31.7 mg/g aqueous root extract. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "wogonin#0",
+   "compound_id": "wogonin",
+   "compound": "wogonin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "aerial parts",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Lin L-Z, Harnly JM, Upton R (2009) Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal 20(4):298-306",
+   "source_doi_or_url": "https://doi.org/10.1002/pca.1127",
+   "database": "LOTUS",
+   "database_url": "https://lotus.naturalproducts.net/api/search/simple?query=wogonin",
+   "verified": true,
+   "note": "LOTUS LTS0176185 lists S. lateriflora (refs decoded as 10.1021/np0205102 and 10.1021/np900068t). Lin 2009 lists wogonin among flavonoids positively identified in authenticated S. lateriflora aerial parts; no mg/g given.",
+   "refs": [
+    25
+   ]
+  },
+  {
+   "row": "wogonin#1",
+   "compound_id": "wogonin",
+   "compound": "wogonin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "34.7-7300",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Cosmetic Ingredient Review Expert Panel (2020) Safety Assessment of Scutellaria baicalensis-Derived Ingredients as Used in Cosmetics, final report 29 Sep 2020 (citing Cai et al. 2016). https://www.cir-safety.org/sites/default/files/scutel092020FR_0.pdf",
+   "source_doi_or_url": "https://www.cir-safety.org/sites/default/files/scutel092020FR_0.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "CIR/Cai 2016: 30.5 mg/g aqueous root extract. Costine 2022: wogonin detected in roots of all four species studied. KNApSAcK C00001111. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    16
+   ]
+  },
+  {
+   "row": "wogonoside#0",
+   "compound_id": "wogonoside",
+   "compound": "wogonoside (wogonin 7-O-glucuronide)",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "max 39700",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "Duke also WOGONIN-7-O-GLUCURONIDE Root 119-54000 ppm. Costine 2022: root 3.8 ± 0.9 mg/g. CIR/Cai 2016: 155 mg/g aqueous root extract. KNApSAcK C00004131. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "scutellarin#0",
+   "compound_id": "scutellarin",
+   "compound": "scutellarin (scutellarein 7-O-glucuronide)",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "plant",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Lin L-Z, Harnly JM, Upton R (2009) Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal 20(4):298-306",
+   "source_doi_or_url": "https://doi.org/10.1002/pca.1127",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6468?page&_format=csv",
+   "verified": true,
+   "note": "Duke: SCUTELLARIN Plant (Hager's Handbuch), no value. Lin 2009 lists scutellarin among flavonoids identified in authenticated aerial parts.",
+   "refs": [
+    25
+   ]
+  },
+  {
+   "row": "dihydrobaicalin#0",
+   "compound_id": "dihydrobaicalin",
+   "compound": "dihydrobaicalin",
+   "class": "flavanone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "above-ground parts (70 % ethanol extract)",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Gafner S, Bergeron C, Batcha LL, et al. (2003) Analysis of Scutellaria lateriflora and its adulterants Teucrium canadense and Teucrium chamaedrys by LC-UV/MS, TLC, and digital photomicroscopy. J AOAC Int 86(3):453-460",
+   "source_doi_or_url": "https://doi.org/10.1093/jaoac/86.3.453",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "No database record found (Duke S. lateriflora rows, KNApSAcK S. lateriflora list). Gafner 2003: extract flavonoids 'predominantly baicalin, lateriflorin, dihydrobaicalin, and baicalein'.",
+   "refs": [
+    26
+   ]
+  },
+  {
+   "row": "oroxylin-a#0",
+   "compound_id": "oroxylin-a",
+   "compound": "oroxylin A",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "aerial parts",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Lin L-Z, Harnly JM, Upton R (2009) Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal 20(4):298-306",
+   "source_doi_or_url": "https://doi.org/10.1002/pca.1127",
+   "database": "LOTUS",
+   "database_url": "https://lotus.naturalproducts.net/api/search/simple?query=oroxylin%20A",
+   "verified": true,
+   "note": "LOTUS LTS0188883 lists S. lateriflora (ref 10.1021/np900068t, as decoded). Lin 2009 identified oroxylin A and oroxylin A 7-O-glucuronide in authenticated aerial parts.",
+   "refs": [
+    25
+   ]
+  },
+  {
+   "row": "oroxylin-a#1",
+   "compound_id": "oroxylin-a",
+   "compound": "oroxylin A",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "110-415",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Cosmetic Ingredient Review Expert Panel (2020) Safety Assessment of Scutellaria baicalensis-Derived Ingredients as Used in Cosmetics, final report 29 Sep 2020 (citing Cai et al. 2016). https://www.cir-safety.org/sites/default/files/scutel092020FR_0.pdf",
+   "source_doi_or_url": "https://www.cir-safety.org/sites/default/files/scutel092020FR_0.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "CIR/Cai 2016: 7.24 mg/g aqueous root extract. Duke also OROXYLIN-A-7-O-GLUCURONIDE Root 1000-41000 ppm. KNApSAcK C00003804. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    16
+   ]
+  },
+  {
+   "row": "chrysin#0",
+   "compound_id": "chrysin",
+   "compound": "chrysin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "3-800",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Zhao Q, Zhang Y, Wang G, et al. (2016) A specialized flavone biosynthetic pathway has evolved in the medicinal plant, Scutellaria baicalensis. Sci Adv 2:e1501780",
+   "source_doi_or_url": "https://doi.org/10.1126/sciadv.1501780",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "Duke also Leaf max 40 ppm. Zhao 2016 (Sci Adv): FNSII-2 in roots synthesises '4′-deoxyRSFs, such as chrysin and wogonin ...'. KNApSAcK C00003794. Costine 2022 found chrysin not detected in most tissues. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    28
+   ]
+  },
+  {
+   "row": "norwogonin#0",
+   "compound_id": "norwogonin",
+   "compound": "norwogonin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root (pathway product)",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Pei T, et al. (2022) Specific flavonoids and their biosynthetic pathway in Scutellaria baicalensis. Front Plant Sci 13:866282",
+   "source_doi_or_url": "https://doi.org/10.3389/fpls.2022.866282",
+   "database": "KNApSAcK",
+   "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Scutellaria%20baicalensis",
+   "verified": false,
+   "note": "KNApSAcK: Norwogonin C00001077 in S. baicalensis (no Duke row). Pei 2022 describes norwogonin only as the SbF8H (CYP82D2) product from chrysin, not as a measured root constituent, so paper-level verification is false.",
+   "refs": [
+    29
+   ]
+  },
+  {
+   "row": "teucrin-a#1",
+   "compound_id": "teucrin-a",
+   "compound": "teucrin A",
+   "class": "clerodane-diterpenoid",
+   "palette_group": "lamiaceae",
+   "auxiliary": true,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "aerial parts",
+   "value": "not detected",
+   "unit": "qualitative",
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Lin L-Z, Harnly JM, Upton R (2009) Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal 20(4):298-306",
+   "source_doi_or_url": "https://doi.org/10.1002/pca.1127",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "Negative record: Lin 2009 found teucrin A, teuflin and teucvidin in Teucrium spp. but 'none of these compounds were detected in any of the authenticated S. lateriflora ... samples using TIC or SIM detection'. No TEUCRIN rows in the Duke S. lateriflora set. Consistent with curation.md (auxiliary record).",
+   "refs": [
+    25
+   ]
+  }
+ ],
+ "plantings": [
+  {
+   "id": "GH-088",
+   "list_category": "Medicinal",
+   "original_entry": "Skullcap",
+   "common_name": "Skullcap",
+   "cultivar": "(not given)",
+   "crop_type": "Aerial parts or root",
+   "scientific_name": "Scutellaria lateriflora OR Scutellaria baicalensis",
+   "species_key": "Scutellaria (unresolved)",
+   "family": "Lamiaceae",
+   "confidence": "Unresolved",
+   "note": "Two very different medicinal plants. American skullcap (S. lateriflora, aerial parts) is the usual tea herb. Chinese skullcap (S. baicalensis, root; baicalin, baicalein) is the pharmacology workhorse. Check seed packet.",
+   "taxon_id": "scutellaria-sp",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

@@ -1,0 +1,2034 @@
+[
+ {
+  "kind": "term",
+  "id": "evidence-grade",
+  "title": "Evidence grade",
+  "subtitle": "This site's letter for how strong the evidence behind a health statement is: A (pooled human trials) down to E (laboratory only), or T for traditional use in an official monograph.",
+  "to": "/glossary#evidence-grade",
+  "hay": "evidence grade evidence grades grade grades graded this site's letter for how strong the evidence behind a health statement is: a (pooled human trials) down to e (laboratory only), or t for traditional use in an official monograph."
+ },
+ {
+  "kind": "term",
+  "id": "test-article",
+  "title": "Test article",
+  "subtitle": "The exact thing a study tested: whole herb, a named extract, an essential oil, an isolated compound or a multi-herb formula. A grade belongs to its test article only.",
+  "to": "/glossary#test-article",
+  "hay": "test article test articles the exact thing a study tested: whole herb, a named extract, an essential oil, an isolated compound or a multi-herb formula. a grade belongs to its test article only."
+ },
+ {
+  "kind": "term",
+  "id": "named-extract",
+  "title": "Named extract",
+  "subtitle": "A specific manufactured extract (solvent, plant-to-extract ratio, often a code name) used in a trial. Its results do not transfer automatically to other extracts or to tea.",
+  "to": "/glossary#named-extract",
+  "hay": "named extract named extracts standardised extract standardized extract standardised extracts a specific manufactured extract (solvent, plant-to-extract ratio, often a code name) used in a trial. its results do not transfer automatically to other extracts or to tea."
+ },
+ {
+  "kind": "term",
+  "id": "whole-herb",
+  "title": "Whole herb",
+  "subtitle": "Test article meaning the dried or fresh plant material itself (or a simple preparation of it), rather than an extract, oil or pure compound.",
+  "to": "/glossary#whole-herb",
+  "hay": "whole herb whole_herb test article meaning the dried or fresh plant material itself (or a simple preparation of it), rather than an extract, oil or pure compound."
+ },
+ {
+  "kind": "term",
+  "id": "isolated-compound",
+  "title": "Isolated compound",
+  "subtitle": "Test article meaning a single purified molecule (e.g. pure menthol), not the plant or an extract containing it.",
+  "to": "/glossary#isolated-compound",
+  "hay": "isolated compound isolated_compound isolated compounds test article meaning a single purified molecule (e.g. pure menthol), not the plant or an extract containing it."
+ },
+ {
+  "kind": "term",
+  "id": "multi-herb-formula",
+  "title": "Multi-herb formula",
+  "subtitle": "Test article made of several plants combined (e.g. Sho-saiko-to, thyme + ivy syrup). Its evidence belongs to the combination, not to any one ingredient.",
+  "to": "/glossary#multi-herb-formula",
+  "hay": "multi-herb formula multi_herb_formula multi-herb formulas multi-herb product multi-ingredient products test article made of several plants combined (e.g. sho-saiko-to, thyme + ivy syrup). its evidence belongs to the combination, not to any one ingredient."
+ },
+ {
+  "kind": "term",
+  "id": "rct",
+  "title": "Randomised controlled trial",
+  "subtitle": "A study in which people are assigned by chance to the treatment or a comparison (often placebo), so that differences in outcome can be attributed to the treatment.",
+  "to": "/glossary#rct",
+  "hay": "randomised controlled trial randomized controlled trial randomised controlled trials randomized controlled trials rct rcts randomised trial randomised trials human randomised trials randomised double-blind double blind a study in which people are assigned by chance to the treatment or a comparison (often placebo), so that differences in outcome can be attributed to the treatment."
+ },
+ {
+  "kind": "term",
+  "id": "placebo",
+  "title": "Placebo",
+  "subtitle": "An inactive look-alike given to the comparison group of a trial, so that expectation effects are the same in both groups.",
+  "to": "/glossary#placebo",
+  "hay": "placebo placebo-controlled placebos an inactive look-alike given to the comparison group of a trial, so that expectation effects are the same in both groups."
+ },
+ {
+  "kind": "term",
+  "id": "crossover",
+  "title": "Crossover trial",
+  "subtitle": "A trial in which each participant receives both the treatment and the comparison in turn, in random order, so each person is their own control.",
+  "to": "/glossary#crossover",
+  "hay": "crossover trial crossover randomised crossover crossover trials crossover studies a trial in which each participant receives both the treatment and the comparison in turn, in random order, so each person is their own control."
+ },
+ {
+  "kind": "term",
+  "id": "open-label",
+  "title": "Open-label",
+  "subtitle": "A study in which everyone knows what treatment is being given; there is no blinding and often no control group. Graded C on this site.",
+  "to": "/glossary#open-label",
+  "hay": "open-label open label open-label study open study uncontrolled a study in which everyone knows what treatment is being given; there is no blinding and often no control group. graded c on this site."
+ },
+ {
+  "kind": "term",
+  "id": "observational-study",
+  "title": "Observational study",
+  "subtitle": "A study that records what people already do or experience, without assigning a treatment. It can show association, not cause. Graded C here.",
+  "to": "/glossary#observational-study",
+  "hay": "observational study observational observational studies a study that records what people already do or experience, without assigning a treatment. it can show association, not cause. graded c here."
+ },
+ {
+  "kind": "term",
+  "id": "case-report",
+  "title": "Case report",
+  "subtitle": "A published description of one patient (or a small series) with an unusual event, such as liver injury after a herbal product. Signals a possible harm; does not measure its risk.",
+  "to": "/glossary#case-report",
+  "hay": "case report case reports case series a published description of one patient (or a small series) with an unusual event, such as liver injury after a herbal product. signals a possible harm; does not measure its risk."
+ },
+ {
+  "kind": "term",
+  "id": "meta-analysis",
+  "title": "Meta-analysis",
+  "subtitle": "A statistical pooling of the results of several studies of the same question, giving one overall estimate. Pooled human RCTs give grade A here.",
+  "to": "/glossary#meta-analysis",
+  "hay": "meta-analysis meta-analyses meta-analysed a statistical pooling of the results of several studies of the same question, giving one overall estimate. pooled human rcts give grade a here."
+ },
+ {
+  "kind": "term",
+  "id": "systematic-review",
+  "title": "Systematic review",
+  "subtitle": "A review that searches for every study on a question using stated methods and criteria, so the selection itself is not biased.",
+  "to": "/glossary#systematic-review",
+  "hay": "systematic review systematic reviews a review that searches for every study on a question using stated methods and criteria, so the selection itself is not biased."
+ },
+ {
+  "kind": "term",
+  "id": "in-vitro",
+  "title": "In vitro",
+  "subtitle": "Studies in test tubes, dishes or isolated cells and receptors, outside a living organism. Graded E here and never phrased as an effect in people.",
+  "to": "/glossary#in-vitro",
+  "hay": "in vitro in-vitro in_vitro laboratory studies in silico in-silico studies in test tubes, dishes or isolated cells and receptors, outside a living organism. graded e here and never phrased as an effect in people."
+ },
+ {
+  "kind": "term",
+  "id": "animal-study",
+  "title": "Animal study",
+  "subtitle": "An experiment in living animals, usually rats or mice. Graded D here: it can show a mechanism or a hazard but is never phrased as an effect in people.",
+  "to": "/glossary#animal-study",
+  "hay": "animal study animal studies animal data in vivo rodent studies rodent an experiment in living animals, usually rats or mice. graded d here: it can show a mechanism or a hazard but is never phrased as an effect in people."
+ },
+ {
+  "kind": "term",
+  "id": "traditional-use",
+  "title": "Traditional use",
+  "subtitle": "A use accepted by a regulator because a herb has been used safely that way for a long time (EMA: at least 30 years), not because trials proved it works. Graded T here.",
+  "to": "/glossary#traditional-use",
+  "hay": "traditional use traditionally used traditional-use traditional use indications a use accepted by a regulator because a herb has been used safely that way for a long time (ema: at least 30 years), not because trials proved it works. graded t here."
+ },
+ {
+  "kind": "term",
+  "id": "well-established-use",
+  "title": "Well-established use",
+  "subtitle": "EMA category for a herbal medicine whose efficacy and safety are supported by published scientific data, as opposed to traditional use alone.",
+  "to": "/glossary#well-established-use",
+  "hay": "well-established use well-established ema category for a herbal medicine whose efficacy and safety are supported by published scientific data, as opposed to traditional use alone."
+ },
+ {
+  "kind": "term",
+  "id": "ema-hmpc",
+  "title": "EMA HMPC",
+  "subtitle": "The European Medicines Agency's Committee on Herbal Medicinal Products, which writes assessment reports and monographs on herbs and their constituents of concern.",
+  "to": "/glossary#ema-hmpc",
+  "hay": "ema hmpc ema hmpc emea ema/hmpc european medicines agency committee on herbal medicinal products the european medicines agency's committee on herbal medicinal products, which writes assessment reports and monographs on herbs and their constituents of concern."
+ },
+ {
+  "kind": "term",
+  "id": "monograph",
+  "title": "Monograph",
+  "subtitle": "An official summary of what a regulator or expert body accepts about a herb: indications, preparations, contraindications and warnings.",
+  "to": "/glossary#monograph",
+  "hay": "monograph monographs herbal monograph eu herbal monograph assessment report assessment reports an official summary of what a regulator or expert body accepts about a herb: indications, preparations, contraindications and warnings."
+ },
+ {
+  "kind": "term",
+  "id": "pharmacopoeia",
+  "title": "European Pharmacopoeia",
+  "subtitle": "The official book of quality standards for medicines in Europe. It sets minimum contents, e.g. of thymol + carvacrol in thyme oil or of rosmarinic acid in lemon balm.",
+  "to": "/glossary#pharmacopoeia",
+  "hay": "european pharmacopoeia ph. eur. ph. eur pharmacopoeia pharmacopoeial the official book of quality standards for medicines in europe. it sets minimum contents, e.g. of thymol + carvacrol in thyme oil or of rosmarinic acid in lemon balm."
+ },
+ {
+  "kind": "term",
+  "id": "livertox",
+  "title": "LiverTox",
+  "subtitle": "A free NIH database of drug- and supplement-induced liver injury, with case summaries and a likelihood score for each agent. The skullcap safety block draws on it.",
+  "to": "/glossary#livertox",
+  "hay": "livertox  a free nih database of drug- and supplement-induced liver injury, with case summaries and a likelihood score for each agent. the skullcap safety block draws on it."
+ },
+ {
+  "kind": "term",
+  "id": "gc-ms",
+  "title": "GC-MS",
+  "subtitle": "Gas chromatography-mass spectrometry: separates the volatile molecules of an oil and identifies each by its mass spectrum. The source of most essential-oil percentages.",
+  "to": "/glossary#gc-ms",
+  "hay": "gc-ms gas chromatography-mass spectrometry gc/ms gas chromatography-mass spectrometry: separates the volatile molecules of an oil and identifies each by its mass spectrum. the source of most essential-oil percentages."
+ },
+ {
+  "kind": "term",
+  "id": "hplc",
+  "title": "HPLC",
+  "subtitle": "High-performance liquid chromatography: separates dissolved, non-volatile molecules such as rosmarinic acid or baicalin so they can be measured.",
+  "to": "/glossary#hplc",
+  "hay": "hplc hplc-uv liquid chromatography high-performance liquid chromatography: separates dissolved, non-volatile molecules such as rosmarinic acid or baicalin so they can be measured."
+ },
+ {
+  "kind": "term",
+  "id": "auc",
+  "title": "AUC",
+  "subtitle": "Area under the plasma concentration-time curve: the total exposure of the body to a drug. An interaction that lowers AUC means less drug reached the blood.",
+  "to": "/glossary#auc",
+  "hay": "auc area under the curve plasma auc cmax area under the plasma concentration-time curve: the total exposure of the body to a drug. an interaction that lowers auc means less drug reached the blood."
+ },
+ {
+  "kind": "term",
+  "id": "guidance-value",
+  "title": "Guidance value",
+  "subtitle": "A regulator's figure for how much of a constituent of concern a person may be exposed to per day without special concern. A safety threshold, not a recommended amount.",
+  "to": "/glossary#guidance-value",
+  "hay": "guidance value guidance values exposure limit exposure limits exposure value exposure values noael benchmark dose a regulator's figure for how much of a constituent of concern a person may be exposed to per day without special concern. a safety threshold, not a recommended amount."
+ },
+ {
+  "kind": "term",
+  "id": "mg-per-kg-bw",
+  "title": "mg/kg bw",
+  "subtitle": "Milligrams per kilogram of body weight: a dose scaled to the size of the person or animal.",
+  "to": "/glossary#mg-per-kg-bw",
+  "hay": "mg/kg bw kg bw bw body weight µg/kg bw mg/kg bw/day milligrams per kilogram of body weight: a dose scaled to the size of the person or animal."
+ },
+ {
+  "kind": "term",
+  "id": "ppm",
+  "title": "ppm",
+  "subtitle": "Parts per million: 1 ppm is 1 mg per kg. 10,000 ppm = 1 %. Dr. Duke's reports most values in ppm, often without saying of what (leaf, oil or plant).",
+  "to": "/glossary#ppm",
+  "hay": "ppm parts per million parts per million: 1 ppm is 1 mg per kg. 10,000 ppm = 1 %. dr. duke's reports most values in ppm, often without saying of what (leaf, oil or plant)."
+ },
+ {
+  "kind": "term",
+  "id": "basis",
+  "title": "Measurement basis",
+  "subtitle": "What an amount is 'per': fresh weight, dry weight, per cent of essential oil or per gram of extract. Values on different bases are never compared on this site.",
+  "to": "/glossary#basis",
+  "hay": "measurement basis basis bases what an amount is 'per': fresh weight, dry weight, per cent of essential oil or per gram of extract. values on different bases are never compared on this site."
+ },
+ {
+  "kind": "term",
+  "id": "fresh-weight",
+  "title": "Fresh weight",
+  "subtitle": "Amount per gram of plant as harvested, water included. Fresh leaves are mostly water, so fresh-weight values are much lower than dry-weight values for the same plant.",
+  "to": "/glossary#fresh-weight",
+  "hay": "fresh weight fresh-weight fresh herb fresh material amount per gram of plant as harvested, water included. fresh leaves are mostly water, so fresh-weight values are much lower than dry-weight values for the same plant."
+ },
+ {
+  "kind": "term",
+  "id": "dry-weight",
+  "title": "Dry weight",
+  "subtitle": "Amount per gram of dried plant material. The usual basis for phenolics and flavonoids measured by HPLC.",
+  "to": "/glossary#dry-weight",
+  "hay": "dry weight dry-weight dry matter dry herb dried herb dry leaf dry root dry tissue dried drug amount per gram of dried plant material. the usual basis for phenolics and flavonoids measured by hplc."
+ },
+ {
+  "kind": "term",
+  "id": "essential-oil-percent",
+  "title": "Per cent of essential oil",
+  "subtitle": "An amount expressed as a share of the distilled oil, not of the plant. Thymol at 50 % of thyme oil may be well under 1 % of the dry leaf.",
+  "to": "/glossary#essential-oil-percent",
+  "hay": "per cent of essential oil essential-oil % % of essential oil % of oil per cent of essential oil essential_oil_pct % of the oil an amount expressed as a share of the distilled oil, not of the plant. thymol at 50 % of thyme oil may be well under 1 % of the dry leaf."
+ },
+ {
+  "kind": "term",
+  "id": "per-g-extract",
+  "title": "Per gram of extract",
+  "subtitle": "An amount relative to an extract after solvent removal. It depends on how much else the solvent pulled out, so it cannot be converted back to the plant.",
+  "to": "/glossary#per-g-extract",
+  "hay": "per gram of extract per_g_extract per g extract per gram extract an amount relative to an extract after solvent removal. it depends on how much else the solvent pulled out, so it cannot be converted back to the plant."
+ },
+ {
+  "kind": "term",
+  "id": "occurrence",
+  "title": "Occurrence",
+  "subtitle": "One catalogue row saying that a compound was reported in a species' plant part, with amount, basis, source and a verified flag.",
+  "to": "/glossary#occurrence",
+  "hay": "occurrence occurrences occurrence record occurrence records occurrence row occurrence rows one catalogue row saying that a compound was reported in a species' plant part, with amount, basis, source and a verified flag."
+ },
+ {
+  "kind": "term",
+  "id": "identity-status",
+  "title": "Identity status",
+  "subtitle": "Whether the greenhouse entry's species is confirmed, needs checking, or is unresolved (skullcap: S. lateriflora or S. baicalensis?).",
+  "to": "/glossary#identity-status",
+  "hay": "identity status identity_status whether the greenhouse entry's species is confirmed, needs checking, or is unresolved (skullcap: s. lateriflora or s. baicalensis?)."
+ },
+ {
+  "kind": "term",
+  "id": "artefact",
+  "title": "Artefact",
+  "subtitle": "A molecule formed by handling rather than by the living plant, e.g. carnosol from carnosic acid on drying, chamazulene from matricin on steam distillation.",
+  "to": "/glossary#artefact",
+  "hay": "artefact artefacts artifact artifacts a molecule formed by handling rather than by the living plant, e.g. carnosol from carnosic acid on drying, chamazulene from matricin on steam distillation."
+ },
+ {
+  "kind": "term",
+  "id": "cultivar",
+  "title": "Cultivar",
+  "subtitle": "A cultivated variety selected and named by growers, e.g. 'Genovese' basil. Chemistry can differ sharply between cultivars of one species.",
+  "to": "/glossary#cultivar",
+  "hay": "cultivar cultivars cv. a cultivated variety selected and named by growers, e.g. 'genovese' basil. chemistry can differ sharply between cultivars of one species."
+ },
+ {
+  "kind": "term",
+  "id": "subspecies",
+  "title": "Subspecies",
+  "subtitle": "A rank below species for a distinct population, e.g. Origanum vulgare subsp. hirtum (Greek oregano). Databases do not always agree on subspecies.",
+  "to": "/glossary#subspecies",
+  "hay": "subspecies subsp. ssp. a rank below species for a distinct population, e.g. origanum vulgare subsp. hirtum (greek oregano). databases do not always agree on subspecies."
+ },
+ {
+  "kind": "term",
+  "id": "hybrid",
+  "title": "Hybrid (×)",
+  "subtitle": "The × in a name such as Mentha × piperita marks a hybrid: peppermint is a cross between water mint and spearmint.",
+  "to": "/glossary#hybrid",
+  "hay": "hybrid (×) hybrid hybrids nothospecies the × in a name such as mentha × piperita marks a hybrid: peppermint is a cross between water mint and spearmint."
+ },
+ {
+  "kind": "term",
+  "id": "aggregate-species",
+  "title": "Aggregate species",
+  "subtitle": "A group of closely related species treated together under one name because they are hard to tell apart.",
+  "to": "/glossary#aggregate-species",
+  "hay": "aggregate species species aggregate agg. a group of closely related species treated together under one name because they are hard to tell apart."
+ },
+ {
+  "kind": "term",
+  "id": "accepted-name",
+  "title": "Accepted name",
+  "subtitle": "The scientific name a taxonomic authority currently recognises for a species; older names become synonyms (e.g. Rosmarinus officinalis is now Salvia rosmarinus).",
+  "to": "/glossary#accepted-name",
+  "hay": "accepted name accepted names botanical synonym synonym the scientific name a taxonomic authority currently recognises for a species; older names become synonyms (e.g. rosmarinus officinalis is now salvia rosmarinus)."
+ },
+ {
+  "kind": "term",
+  "id": "lamiaceae",
+  "title": "Lamiaceae",
+  "subtitle": "The mint family: basil, mints, lemon balm, sage, rosemary, thyme, oregano and skullcap. Aromatic oils in surface glands; rosmarinic acid widespread.",
+  "to": "/glossary#lamiaceae",
+  "hay": "lamiaceae mint family labiatae the mint family: basil, mints, lemon balm, sage, rosemary, thyme, oregano and skullcap. aromatic oils in surface glands; rosmarinic acid widespread."
+ },
+ {
+  "kind": "term",
+  "id": "asteraceae",
+  "title": "Asteraceae",
+  "subtitle": "The daisy family, including chamomile, ragweed and lettuce. Relevant here for allergy cross-reactivity.",
+  "to": "/glossary#asteraceae",
+  "hay": "asteraceae daisy family compositae the daisy family, including chamomile, ragweed and lettuce. relevant here for allergy cross-reactivity."
+ },
+ {
+  "kind": "term",
+  "id": "powo",
+  "title": "POWO",
+  "subtitle": "Plants of the World Online, the Royal Botanic Gardens Kew database of accepted plant names; the source of accepted names and POWO ids here.",
+  "to": "/glossary#powo",
+  "hay": "powo plants of the world online plants of the world online, the royal botanic gardens kew database of accepted plant names; the source of accepted names and powo ids here."
+ },
+ {
+  "kind": "term",
+  "id": "gbif",
+  "title": "GBIF",
+  "subtitle": "The Global Biodiversity Information Facility: an international species and occurrence database; its API supplied name matches and GBIF keys.",
+  "to": "/glossary#gbif",
+  "hay": "gbif global biodiversity information facility the global biodiversity information facility: an international species and occurrence database; its api supplied name matches and gbif keys."
+ },
+ {
+  "kind": "term",
+  "id": "ncbi-taxid",
+  "title": "NCBI taxid",
+  "subtitle": "The numeric identifier of an organism in the NCBI Taxonomy database, used to link a plant to its gene and sequence records.",
+  "to": "/glossary#ncbi-taxid",
+  "hay": "ncbi taxid ncbi taxonomy taxid taxids ncbi_taxid the numeric identifier of an organism in the ncbi taxonomy database, used to link a plant to its gene and sequence records."
+ },
+ {
+  "kind": "term",
+  "id": "pubchem-cid",
+  "title": "PubChem CID",
+  "subtitle": "The compound identifier in PubChem, the NIH open chemistry database. Each compound record here links to its CID.",
+  "to": "/glossary#pubchem-cid",
+  "hay": "pubchem cid pubchem cid pubchem_cid the compound identifier in pubchem, the nih open chemistry database. each compound record here links to its cid."
+ },
+ {
+  "kind": "term",
+  "id": "inchikey",
+  "title": "InChIKey",
+  "subtitle": "A fixed-length 27-character code computed from a structure, used to match the same molecule across databases.",
+  "to": "/glossary#inchikey",
+  "hay": "inchikey inchi a fixed-length 27-character code computed from a structure, used to match the same molecule across databases."
+ },
+ {
+  "kind": "term",
+  "id": "smiles",
+  "title": "SMILES",
+  "subtitle": "A line of text that encodes a molecular structure (e.g. linalool: CC(=CCCC(C)(C=C)O)C). The site draws every structure from its SMILES.",
+  "to": "/glossary#smiles",
+  "hay": "smiles  a line of text that encodes a molecular structure (e.g. linalool: cc(=cccc(c)(c=c)o)c). the site draws every structure from its smiles."
+ },
+ {
+  "kind": "term",
+  "id": "chebi",
+  "title": "ChEBI",
+  "subtitle": "Chemical Entities of Biological Interest: an ontology of small molecules; ChEBI ids link compounds to biological databases.",
+  "to": "/glossary#chebi",
+  "hay": "chebi chebi_id chemical entities of biological interest: an ontology of small molecules; chebi ids link compounds to biological databases."
+ },
+ {
+  "kind": "term",
+  "id": "enantiomer",
+  "title": "Enantiomer",
+  "subtitle": "One of two mirror-image forms of a molecule. They can smell and act differently; basil linalool is usually reported as the (R)-(-) form.",
+  "to": "/glossary#enantiomer",
+  "hay": "enantiomer enantiomers stereoisomer stereoisomers one of two mirror-image forms of a molecule. they can smell and act differently; basil linalool is usually reported as the (r)-(-) form."
+ },
+ {
+  "kind": "term",
+  "id": "dr-dukes",
+  "title": "Dr. Duke's",
+  "subtitle": "The USDA database of plant chemicals compiled by James Duke; a source of occurrence rows, often in ppm with the plant part but not always the basis.",
+  "to": "/glossary#dr-dukes",
+  "hay": "dr. duke's dr. duke's phytochemical and ethnobotanical databases duke the usda database of plant chemicals compiled by james duke; a source of occurrence rows, often in ppm with the plant part but not always the basis."
+ },
+ {
+  "kind": "term",
+  "id": "knapsack",
+  "title": "KNApSAcK",
+  "subtitle": "A Japanese database of species-metabolite relationships; used here to confirm that a compound has been reported from a species.",
+  "to": "/glossary#knapsack",
+  "hay": "knapsack  a japanese database of species-metabolite relationships; used here to confirm that a compound has been reported from a species."
+ },
+ {
+  "kind": "term",
+  "id": "lotus",
+  "title": "LOTUS",
+  "subtitle": "The natural-products occurrence database (lotus.naturalproducts.net) linking structures to the organisms they were reported from, with references.",
+  "to": "/glossary#lotus",
+  "hay": "lotus lotus database the natural-products occurrence database (lotus.naturalproducts.net) linking structures to the organisms they were reported from, with references."
+ },
+ {
+  "kind": "term",
+  "id": "cellulose",
+  "title": "Cellulose",
+  "subtitle": "A linear polymer of glucose that forms the load-bearing fibres of plant cell walls; the most abundant biopolymer on Earth.",
+  "to": "/glossary#cellulose",
+  "hay": "cellulose microfibrils cellulose microfibrils cellulose microfibril a linear polymer of glucose that forms the load-bearing fibres of plant cell walls; the most abundant biopolymer on earth."
+ },
+ {
+  "kind": "term",
+  "id": "hemicellulose",
+  "title": "Hemicellulose",
+  "subtitle": "Hemicelluloses and pectins: the branched and gel-forming polysaccharides that make up the hydrated matrix around cellulose in the primary cell wall.",
+  "to": "/glossary#hemicellulose",
+  "hay": "hemicellulose hemicelluloses pectin pectins wall matrix hemicelluloses and pectins: the branched and gel-forming polysaccharides that make up the hydrated matrix around cellulose in the primary cell wall."
+ },
+ {
+  "kind": "term",
+  "id": "plastid",
+  "title": "Plastid",
+  "subtitle": "A family of plant organelles (chloroplasts among them) with their own metabolism; the site of the MEP pathway to monoterpenes and diterpenes.",
+  "to": "/glossary#plastid",
+  "hay": "plastid plastids plastidic plastidial chloroplast chloroplasts a family of plant organelles (chloroplasts among them) with their own metabolism; the site of the mep pathway to monoterpenes and diterpenes."
+ },
+ {
+  "kind": "term",
+  "id": "cytosol",
+  "title": "Cytosol",
+  "subtitle": "The fluid interior of the cell outside the organelles; the site of the mevalonate pathway to sesquiterpenes, sterols and triterpenes.",
+  "to": "/glossary#cytosol",
+  "hay": "cytosol cytosolic the fluid interior of the cell outside the organelles; the site of the mevalonate pathway to sesquiterpenes, sterols and triterpenes."
+ },
+ {
+  "kind": "term",
+  "id": "thylakoid",
+  "title": "Thylakoid",
+  "subtitle": "The stacked internal membranes of the chloroplast that carry chlorophyll and the complexes of the light reactions.",
+  "to": "/glossary#thylakoid",
+  "hay": "thylakoid thylakoids thylakoid membranes thylakoid membrane the stacked internal membranes of the chloroplast that carry chlorophyll and the complexes of the light reactions."
+ },
+ {
+  "kind": "term",
+  "id": "photosystem",
+  "title": "Photosystem",
+  "subtitle": "A large protein-pigment complex that captures light. Photosystem II splits water and releases oxygen; photosystem I helps make NADPH.",
+  "to": "/glossary#photosystem",
+  "hay": "photosystem photosystems photosystem ii photosystem i psii psi a large protein-pigment complex that captures light. photosystem ii splits water and releases oxygen; photosystem i helps make nadph."
+ },
+ {
+  "kind": "term",
+  "id": "atp",
+  "title": "ATP and NADPH",
+  "subtitle": "The two products of the light reactions: ATP, the cell's energy currency, and NADPH, its carrier of reducing power. Both pay for carbon fixation.",
+  "to": "/glossary#atp",
+  "hay": "atp and nadph atp nadph atp synthase adenosine triphosphate nadph-dependent the two products of the light reactions: atp, the cell's energy currency, and nadph, its carrier of reducing power. both pay for carbon fixation."
+ },
+ {
+  "kind": "term",
+  "id": "rubisco",
+  "title": "Rubisco",
+  "subtitle": "The enzyme that fixes CO2 into sugar in photosynthesis; slow, and confused by oxygen competing for its active site.",
+  "to": "/glossary#rubisco",
+  "hay": "rubisco  the enzyme that fixes co2 into sugar in photosynthesis; slow, and confused by oxygen competing for its active site."
+ },
+ {
+  "kind": "term",
+  "id": "secondary-metabolite",
+  "title": "Secondary metabolite",
+  "subtitle": "A compound not needed for basic growth that varies between lineages (terpenes, phenolics, alkaloids); plants use them in defence and signalling.",
+  "to": "/glossary#secondary-metabolite",
+  "hay": "secondary metabolite secondary metabolites secondary metabolism specialised metabolism specialized metabolism specialised metabolite specialised metabolites a compound not needed for basic growth that varies between lineages (terpenes, phenolics, alkaloids); plants use them in defence and signalling."
+ },
+ {
+  "kind": "term",
+  "id": "glandular-trichome",
+  "title": "Glandular trichome",
+  "subtitle": "A tiny hair on the leaf surface that makes and stores essential oil. In the mints, oil sits in these glands, which is why rubbing the leaf releases the scent.",
+  "to": "/glossary#glandular-trichome",
+  "hay": "glandular trichome glandular trichomes peltate glandular trichomes peltate glands peltate trichomes trichome trichomes oil glands a tiny hair on the leaf surface that makes and stores essential oil. in the mints, oil sits in these glands, which is why rubbing the leaf releases the scent."
+ },
+ {
+  "kind": "term",
+  "id": "mep-pathway",
+  "title": "MEP pathway",
+  "subtitle": "The plastid route that makes the C5 terpenoid building blocks (IPP/DMAPP) from pyruvate and glyceraldehyde-3-phosphate; feeds monoterpenes and diterpenes.",
+  "to": "/glossary#mep-pathway",
+  "hay": "mep pathway mep mep (doxp) pathway doxp pathway methylerythritol phosphate pathway 1-deoxy-d-xylulose-5-phosphate pathway the plastid route that makes the c5 terpenoid building blocks (ipp/dmapp) from pyruvate and glyceraldehyde-3-phosphate; feeds monoterpenes and diterpenes."
+ },
+ {
+  "kind": "term",
+  "id": "mva-pathway",
+  "title": "MVA pathway",
+  "subtitle": "The cytosolic route from acetyl-CoA to the C5 terpenoid building blocks; feeds sesquiterpenes, sterols and triterpenes.",
+  "to": "/glossary#mva-pathway",
+  "hay": "mva pathway mevalonate pathway mva mevalonate mevalonate (mva) pathway the cytosolic route from acetyl-coa to the c5 terpenoid building blocks; feeds sesquiterpenes, sterols and triterpenes."
+ },
+ {
+  "kind": "term",
+  "id": "ipp-dmapp",
+  "title": "IPP / DMAPP",
+  "subtitle": "Isopentenyl diphosphate and dimethylallyl diphosphate: the two five-carbon units from which every terpenoid is assembled.",
+  "to": "/glossary#ipp-dmapp",
+  "hay": "ipp / dmapp ipp dmapp isopentenyl diphosphate dimethylallyl diphosphate c5 units prenyl diphosphate prenyl diphosphates isopentenyl diphosphate and dimethylallyl diphosphate: the two five-carbon units from which every terpenoid is assembled."
+ },
+ {
+  "kind": "term",
+  "id": "gpp",
+  "title": "Geranyl diphosphate",
+  "subtitle": "The ten-carbon precursor of every monoterpene; different terpene synthases fold it into menthol's, thymol's or camphor's skeleton.",
+  "to": "/glossary#gpp",
+  "hay": "geranyl diphosphate gpp geranyl diphosphate (c10) the ten-carbon precursor of every monoterpene; different terpene synthases fold it into menthol's, thymol's or camphor's skeleton."
+ },
+ {
+  "kind": "term",
+  "id": "terpene-synthase",
+  "title": "Terpene synthase",
+  "subtitle": "An enzyme that turns a prenyl diphosphate into a terpene skeleton. Its gene sets a plant's scent; one broken basil synthase changes linalool into geraniol.",
+  "to": "/glossary#terpene-synthase",
+  "hay": "terpene synthase terpene synthases monoterpene synthase monoterpene synthases linalool synthase an enzyme that turns a prenyl diphosphate into a terpene skeleton. its gene sets a plant's scent; one broken basil synthase changes linalool into geraniol."
+ },
+ {
+  "kind": "term",
+  "id": "cytochrome-p450",
+  "title": "Cytochrome P450",
+  "subtitle": "A large family of oxidising enzymes. In plants they decorate terpene skeletons (thymol, ursolic acid); in the liver they metabolise drugs and can bioactivate toxins.",
+  "to": "/glossary#cytochrome-p450",
+  "hay": "cytochrome p450 p450 p450s cyp cytochrome p450 enzymes p450 enzymes a large family of oxidising enzymes. in plants they decorate terpene skeletons (thymol, ursolic acid); in the liver they metabolise drugs and can bioactivate toxins."
+ },
+ {
+  "kind": "term",
+  "id": "cyp3a4",
+  "title": "CYP3A4",
+  "subtitle": "The liver and gut P450 enzyme that metabolises about half of prescription drugs; inhibiting it can raise drug levels.",
+  "to": "/glossary#cyp3a4",
+  "hay": "cyp3a4 cyp3a4 substrates cyp3a the liver and gut p450 enzyme that metabolises about half of prescription drugs; inhibiting it can raise drug levels."
+ },
+ {
+  "kind": "term",
+  "id": "shikimate-pathway",
+  "title": "Shikimate pathway",
+  "subtitle": "The route from phosphoenolpyruvate and erythrose 4-phosphate to the aromatic amino acids; at least 30 % of fixed carbon in vascular plants passes through it.",
+  "to": "/glossary#shikimate-pathway",
+  "hay": "shikimate pathway shikimate shikimic acid pathway the route from phosphoenolpyruvate and erythrose 4-phosphate to the aromatic amino acids; at least 30 % of fixed carbon in vascular plants passes through it."
+ },
+ {
+  "kind": "term",
+  "id": "o-methyltransferase",
+  "title": "O-methyltransferase",
+  "subtitle": "An enzyme that adds a methyl group to an oxygen. Two basil OMTs make estragole and methyleugenol; one amino acid decides which.",
+  "to": "/glossary#o-methyltransferase",
+  "hay": "o-methyltransferase o-methyltransferases omt omts an enzyme that adds a methyl group to an oxygen. two basil omts make estragole and methyleugenol; one amino acid decides which."
+ },
+ {
+  "kind": "term",
+  "id": "terpenoid",
+  "title": "Terpenoid",
+  "subtitle": "The largest class of plant natural products, built from five-carbon units; includes the essential-oil molecules, carnosic acid and ursolic acid.",
+  "to": "/glossary#terpenoid",
+  "hay": "terpenoid terpenoids terpene terpenes isoprenoid isoprenoids the largest class of plant natural products, built from five-carbon units; includes the essential-oil molecules, carnosic acid and ursolic acid."
+ },
+ {
+  "kind": "term",
+  "id": "monoterpene",
+  "title": "Monoterpene",
+  "subtitle": "A ten-carbon terpenoid; the main class of herb essential oils (menthol, thymol, linalool, 1,8-cineole, camphor, thujone).",
+  "to": "/glossary#monoterpene",
+  "hay": "monoterpene monoterpenes monoterpenoid monoterpenoids monoterpene alcohol monoterpene hydrocarbons a ten-carbon terpenoid; the main class of herb essential oils (menthol, thymol, linalool, 1,8-cineole, camphor, thujone)."
+ },
+ {
+  "kind": "term",
+  "id": "monoterpenoid-ketone",
+  "title": "Monoterpenoid ketone",
+  "subtitle": "A monoterpene carrying a C=O group, such as thujone, camphor, menthone and pulegone; several are the constituents of concern.",
+  "to": "/glossary#monoterpenoid-ketone",
+  "hay": "monoterpenoid ketone monoterpenoid ketones ketone ketones a monoterpene carrying a c=o group, such as thujone, camphor, menthone and pulegone; several are the constituents of concern."
+ },
+ {
+  "kind": "term",
+  "id": "sesquiterpene",
+  "title": "Sesquiterpene",
+  "subtitle": "A fifteen-carbon terpenoid, made mainly in the cytosol: β-caryophyllene, α-bisabolol, chamazulene.",
+  "to": "/glossary#sesquiterpene",
+  "hay": "sesquiterpene sesquiterpenes sesquiterpenoid sesquiterpene alcohol a fifteen-carbon terpenoid, made mainly in the cytosol: β-caryophyllene, α-bisabolol, chamazulene."
+ },
+ {
+  "kind": "term",
+  "id": "sesquiterpene-lactone",
+  "title": "Sesquiterpene lactone",
+  "subtitle": "A sesquiterpene with a lactone ring; common in the Asteraceae and a frequent cause of contact allergy.",
+  "to": "/glossary#sesquiterpene-lactone",
+  "hay": "sesquiterpene lactone sesquiterpene lactones a sesquiterpene with a lactone ring; common in the asteraceae and a frequent cause of contact allergy."
+ },
+ {
+  "kind": "term",
+  "id": "diterpene",
+  "title": "Diterpene",
+  "subtitle": "A twenty-carbon terpenoid: carnosic acid and carnosol in rosemary and sage; teucrin A (a clerodane) in germander.",
+  "to": "/glossary#diterpene",
+  "hay": "diterpene diterpenes diterpenoid diterpenoids clerodane clerodane diterpenoid a twenty-carbon terpenoid: carnosic acid and carnosol in rosemary and sage; teucrin a (a clerodane) in germander."
+ },
+ {
+  "kind": "term",
+  "id": "triterpene",
+  "title": "Triterpene",
+  "subtitle": "A thirty-carbon terpenoid such as ursolic acid; waxy, insoluble in water and found in leaf surface wax.",
+  "to": "/glossary#triterpene",
+  "hay": "triterpene triterpenes pentacyclic triterpene triterpenoid triterpenoids a thirty-carbon terpenoid such as ursolic acid; waxy, insoluble in water and found in leaf surface wax."
+ },
+ {
+  "kind": "term",
+  "id": "phenylpropanoid",
+  "title": "Phenylpropanoid",
+  "subtitle": "A compound derived from phenylalanine via cinnamic acid: eugenol, estragole, methyleugenol, caffeic and rosmarinic acid.",
+  "to": "/glossary#phenylpropanoid",
+  "hay": "phenylpropanoid phenylpropanoids phenylpropene phenylpropenes allylbenzene a compound derived from phenylalanine via cinnamic acid: eugenol, estragole, methyleugenol, caffeic and rosmarinic acid."
+ },
+ {
+  "kind": "term",
+  "id": "phenolic-acid",
+  "title": "Phenolic acid",
+  "subtitle": "A small acid carrying a phenol ring, such as caffeic acid; rosmarinic acid is an ester of two of them. Water-soluble, so well extracted into tea.",
+  "to": "/glossary#phenolic-acid",
+  "hay": "phenolic acid phenolic acids hydroxycinnamic acid hydroxycinnamic acids hydroxycinnamic compounds hydroxycinnamic derivatives a small acid carrying a phenol ring, such as caffeic acid; rosmarinic acid is an ester of two of them. water-soluble, so well extracted into tea."
+ },
+ {
+  "kind": "term",
+  "id": "polyphenol",
+  "title": "Polyphenol",
+  "subtitle": "Loose term for plant compounds with several phenol rings (phenolic acids, flavonoids, tannins). Many are water-soluble; many are poorly absorbed.",
+  "to": "/glossary#polyphenol",
+  "hay": "polyphenol polyphenols polyphenolic polyphenolic compounds phenolics phenolic compounds total phenolics loose term for plant compounds with several phenol rings (phenolic acids, flavonoids, tannins). many are water-soluble; many are poorly absorbed."
+ },
+ {
+  "kind": "term",
+  "id": "flavonoid",
+  "title": "Flavonoid",
+  "subtitle": "A class of phenolics built from a phenylpropanoid unit plus three malonyl units: flavones, flavanones and more. Pigments, UV screens and signals in plants.",
+  "to": "/glossary#flavonoid",
+  "hay": "flavonoid flavonoids a class of phenolics built from a phenylpropanoid unit plus three malonyl units: flavones, flavanones and more. pigments, uv screens and signals in plants."
+ },
+ {
+  "kind": "term",
+  "id": "flavone",
+  "title": "Flavone",
+  "subtitle": "A subclass of flavonoids including apigenin, luteolin and the skullcap compounds baicalein and wogonin.",
+  "to": "/glossary#flavone",
+  "hay": "flavone flavones 4′-deoxyflavone 4′-deoxyflavones a subclass of flavonoids including apigenin, luteolin and the skullcap compounds baicalein and wogonin."
+ },
+ {
+  "kind": "term",
+  "id": "flavanone",
+  "title": "Flavanone",
+  "subtitle": "A flavonoid subclass without the 2,3 double bond of flavones; eriocitrin, peppermint tea's dominant phenolic, is a flavanone glycoside.",
+  "to": "/glossary#flavanone",
+  "hay": "flavanone flavanones flavanone glycoside a flavonoid subclass without the 2,3 double bond of flavones; eriocitrin, peppermint tea's dominant phenolic, is a flavanone glycoside."
+ },
+ {
+  "kind": "term",
+  "id": "glycoside",
+  "title": "Glycoside",
+  "subtitle": "A molecule with a sugar attached (a glucoside if the sugar is glucose). The sugar makes flavonoids water-soluble; it must be removed before absorption.",
+  "to": "/glossary#glycoside",
+  "hay": "glycoside glycosides glucoside glucosides glycosylated a molecule with a sugar attached (a glucoside if the sugar is glucose). the sugar makes flavonoids water-soluble; it must be removed before absorption."
+ },
+ {
+  "kind": "term",
+  "id": "glucuronide",
+  "title": "Glucuronide",
+  "subtitle": "A molecule joined to glucuronic acid. Plants make some (baicalin, wogonoside, scutellarin); the human liver and gut make many more to excrete compounds.",
+  "to": "/glossary#glucuronide",
+  "hay": "glucuronide glucuronides glucuronidation glucuronidated flavone glucuronide a molecule joined to glucuronic acid. plants make some (baicalin, wogonoside, scutellarin); the human liver and gut make many more to excrete compounds."
+ },
+ {
+  "kind": "term",
+  "id": "aglycone",
+  "title": "Aglycone",
+  "subtitle": "The non-sugar part of a glycoside: apigenin is the aglycone of apigenin-7-glucoside, baicalein of baicalin.",
+  "to": "/glossary#aglycone",
+  "hay": "aglycone aglycones the non-sugar part of a glycoside: apigenin is the aglycone of apigenin-7-glucoside, baicalein of baicalin."
+ },
+ {
+  "kind": "term",
+  "id": "coumarin",
+  "title": "Coumarin",
+  "subtitle": "Both a class of benzopyrone compounds (herniarin, umbelliferone) and one specific molecule, coumarin. The anticoagulant and liver cautions concern the specific molecule.",
+  "to": "/glossary#coumarin",
+  "hay": "coumarin coumarins both a class of benzopyrone compounds (herniarin, umbelliferone) and one specific molecule, coumarin. the anticoagulant and liver cautions concern the specific molecule."
+ },
+ {
+  "kind": "term",
+  "id": "polyacetylene",
+  "title": "Polyacetylene",
+  "subtitle": "A compound with several carbon-carbon triple bonds; chamomile's spiroethers belong here.",
+  "to": "/glossary#polyacetylene",
+  "hay": "polyacetylene polyacetylenes en-yn-dicycloether spiroether spiroethers a compound with several carbon-carbon triple bonds; chamomile's spiroethers belong here."
+ },
+ {
+  "kind": "term",
+  "id": "proazulene",
+  "title": "Proazulene",
+  "subtitle": "A colourless precursor, such as matricin in chamomile, that turns into a blue azulene when heated in steam distillation.",
+  "to": "/glossary#proazulene",
+  "hay": "proazulene proazulenes a colourless precursor, such as matricin in chamomile, that turns into a blue azulene when heated in steam distillation."
+ },
+ {
+  "kind": "term",
+  "id": "azulene",
+  "title": "Azulene",
+  "subtitle": "A blue aromatic hydrocarbon skeleton; chamazulene, formed from matricin during distillation, gives chamomile oil its colour.",
+  "to": "/glossary#azulene",
+  "hay": "azulene azulenes a blue aromatic hydrocarbon skeleton; chamazulene, formed from matricin during distillation, gives chamomile oil its colour."
+ },
+ {
+  "kind": "term",
+  "id": "essential-oil",
+  "title": "Essential oil",
+  "subtitle": "The volatile, fragrant fraction of a plant recovered by steam distillation: mostly monoterpenes, sesquiterpenes and phenylpropenes.",
+  "to": "/glossary#essential-oil",
+  "hay": "essential oil essential oils volatile oil aetheroleum the volatile, fragrant fraction of a plant recovered by steam distillation: mostly monoterpenes, sesquiterpenes and phenylpropenes."
+ },
+ {
+  "kind": "term",
+  "id": "steam-distillation",
+  "title": "Steam distillation",
+  "subtitle": "Passing steam through plant material and condensing it; the volatile oil separates from the water. It is how essential oils are made, and heat can create new molecules.",
+  "to": "/glossary#steam-distillation",
+  "hay": "steam distillation hydrodistillation steam-distilled hydro/steam-distilled distillation distilled passing steam through plant material and condensing it; the volatile oil separates from the water. it is how essential oils are made, and heat can create new molecules."
+ },
+ {
+  "kind": "term",
+  "id": "infusion",
+  "title": "Infusion",
+  "subtitle": "Pouring hot water on plant material and letting it stand: a tea. It extracts water-soluble compounds well and volatile oil poorly.",
+  "to": "/glossary#infusion",
+  "hay": "infusion infusions hot-water infusion hot-water infusions herbal tea herbal teas pouring hot water on plant material and letting it stand: a tea. it extracts water-soluble compounds well and volatile oil poorly."
+ },
+ {
+  "kind": "term",
+  "id": "decoction",
+  "title": "Decoction",
+  "subtitle": "Simmering plant material (usually roots or bark) in water, rather than steeping; longer and hotter than an infusion.",
+  "to": "/glossary#decoction",
+  "hay": "decoction decoctions simmering plant material (usually roots or bark) in water, rather than steeping; longer and hotter than an infusion."
+ },
+ {
+  "kind": "term",
+  "id": "tincture",
+  "title": "Tincture",
+  "subtitle": "An extract made by soaking plant material in a mixture of ethanol and water. It reaches less polar compounds than water alone.",
+  "to": "/glossary#tincture",
+  "hay": "tincture tinctures an extract made by soaking plant material in a mixture of ethanol and water. it reaches less polar compounds than water alone."
+ },
+ {
+  "kind": "term",
+  "id": "hydroethanolic",
+  "title": "Hydroethanolic",
+  "subtitle": "Made with a mixture of water and ethanol, such as a tincture or a 30-60 % ethanol extract.",
+  "to": "/glossary#hydroethanolic",
+  "hay": "hydroethanolic aqueous-ethanol ethanol-water aqueous ethanol water-ethanol made with a mixture of water and ethanol, such as a tincture or a 30-60 % ethanol extract."
+ },
+ {
+  "kind": "term",
+  "id": "herb-to-extract-ratio",
+  "title": "Herb-to-extract ratio",
+  "subtitle": "How much plant went into how much finished extract, e.g. 1:5. It sets concentration but says nothing on its own about which compounds were extracted.",
+  "to": "/glossary#herb-to-extract-ratio",
+  "hay": "herb-to-extract ratio herb-to-extract drug-extract ratio der how much plant went into how much finished extract, e.g. 1:5. it sets concentration but says nothing on its own about which compounds were extracted."
+ },
+ {
+  "kind": "term",
+  "id": "polarity",
+  "title": "Polarity",
+  "subtitle": "How unevenly a molecule's electric charge is spread. Polar molecules (sugars, glycosides) dissolve in water; non-polar ones (terpenes) in oils and less-polar solvents.",
+  "to": "/glossary#polarity",
+  "hay": "polarity polar non-polar nonpolar less polar how unevenly a molecule's electric charge is spread. polar molecules (sugars, glycosides) dissolve in water; non-polar ones (terpenes) in oils and less-polar solvents."
+ },
+ {
+  "kind": "term",
+  "id": "solubility",
+  "title": "Solubility",
+  "subtitle": "How much of a substance dissolves in a solvent at a given temperature; menthol is almost insoluble in water, glycosides dissolve readily.",
+  "to": "/glossary#solubility",
+  "hay": "solubility water solubility water-soluble insoluble poorly soluble almost insoluble how much of a substance dissolves in a solvent at a given temperature; menthol is almost insoluble in water, glycosides dissolve readily."
+ },
+ {
+  "kind": "term",
+  "id": "volatility",
+  "title": "Volatility",
+  "subtitle": "How readily a substance evaporates. Volatile oil molecules escape from hot water and from drying leaves; phenolics do not.",
+  "to": "/glossary#volatility",
+  "hay": "volatility volatile volatiles steam-volatile semi-volatile how readily a substance evaporates. volatile oil molecules escape from hot water and from drying leaves; phenolics do not."
+ },
+ {
+  "kind": "term",
+  "id": "extraction-yield",
+  "title": "Extraction yield",
+  "subtitle": "The share of a compound or fraction in the plant that ends up in the preparation, e.g. 31 % of lemon balm oil reaching the tea.",
+  "to": "/glossary#extraction-yield",
+  "hay": "extraction yield extraction yields recovered recovery the share of a compound or fraction in the plant that ends up in the preparation, e.g. 31 % of lemon balm oil reaching the tea."
+ },
+ {
+  "kind": "term",
+  "id": "pseudo-first-order",
+  "title": "Pseudo-first-order kinetics",
+  "subtitle": "A rate law in which the amount still to be extracted falls exponentially with time: fast at first, then levelling off.",
+  "to": "/glossary#pseudo-first-order",
+  "hay": "pseudo-first-order kinetics pseudo-first-order a rate law in which the amount still to be extracted falls exponentially with time: fast at first, then levelling off."
+ },
+ {
+  "kind": "term",
+  "id": "enteric-coated",
+  "title": "Enteric-coated",
+  "subtitle": "A capsule coated to survive stomach acid and release its contents in the intestine; the form of peppermint oil tested for irritable bowel symptoms.",
+  "to": "/glossary#enteric-coated",
+  "hay": "enteric-coated enteric coating gastro-resistant enteric-coated capsules enteric-coated oil a capsule coated to survive stomach acid and release its contents in the intestine; the form of peppermint oil tested for irritable bowel symptoms."
+ },
+ {
+  "kind": "term",
+  "id": "receptor",
+  "title": "Receptor",
+  "subtitle": "A protein that a signalling molecule binds to, triggering a response in the cell; the named molecular target of a compound.",
+  "to": "/glossary#receptor",
+  "hay": "receptor receptors a protein that a signalling molecule binds to, triggering a response in the cell; the named molecular target of a compound."
+ },
+ {
+  "kind": "term",
+  "id": "agonist",
+  "title": "Agonist",
+  "subtitle": "A molecule that binds a receptor and activates it, as menthol activates the cold receptor TRPM8.",
+  "to": "/glossary#agonist",
+  "hay": "agonist agonists a molecule that binds a receptor and activates it, as menthol activates the cold receptor trpm8."
+ },
+ {
+  "kind": "term",
+  "id": "antagonist",
+  "title": "Antagonist",
+  "subtitle": "A molecule that binds a receptor or channel and blocks its activation, as α-thujone blocks the GABA-A receptor's chloride channel.",
+  "to": "/glossary#antagonist",
+  "hay": "antagonist antagonists antagonism blocker blockers a molecule that binds a receptor or channel and blocks its activation, as α-thujone blocks the gaba-a receptor's chloride channel."
+ },
+ {
+  "kind": "term",
+  "id": "gaba-a",
+  "title": "GABA-A receptor",
+  "subtitle": "The brain's main inhibitory ion channel, opened by GABA. Thujone blocks it (convulsant); benzodiazepines bind a separate site on it.",
+  "to": "/glossary#gaba-a",
+  "hay": "gaba-a receptor gaba-a gabaa gaba-a receptors gaba-gated chloride channel gaba-a receptor's chloride channel benzodiazepine site benzodiazepine binding site benzodiazepine receptor benzodiazepine receptors the brain's main inhibitory ion channel, opened by gaba. thujone blocks it (convulsant); benzodiazepines bind a separate site on it."
+ },
+ {
+  "kind": "term",
+  "id": "trpm8",
+  "title": "TRPM8",
+  "subtitle": "An ion channel in sensory nerves that opens at cool temperatures and when menthol binds; why mint feels cold.",
+  "to": "/glossary#trpm8",
+  "hay": "trpm8 cold receptor cmr1 an ion channel in sensory nerves that opens at cool temperatures and when menthol binds; why mint feels cold."
+ },
+ {
+  "kind": "term",
+  "id": "cb2",
+  "title": "CB2 receptor",
+  "subtitle": "A cannabinoid receptor found mainly on immune cells; β-caryophyllene binds it selectively in laboratory studies.",
+  "to": "/glossary#cb2",
+  "hay": "cb2 receptor cb2 cb2 cannabinoid receptor cannabinoid receptor cannabinoid receptors a cannabinoid receptor found mainly on immune cells; β-caryophyllene binds it selectively in laboratory studies."
+ },
+ {
+  "kind": "term",
+  "id": "oatp",
+  "title": "OATP",
+  "subtitle": "Organic anion-transporting polypeptides: transporters that carry drugs such as statins into liver cells. Baicalin altered rosuvastatin exposure via OATP1B1.",
+  "to": "/glossary#oatp",
+  "hay": "oatp oatp1b1 oatp1b1-mediated organic anion-transporting polypeptide organic anion-transporting polypeptides: transporters that carry drugs such as statins into liver cells. baicalin altered rosuvastatin exposure via oatp1b1."
+ },
+ {
+  "kind": "term",
+  "id": "bioavailability",
+  "title": "Bioavailability",
+  "subtitle": "The fraction of an ingested compound that reaches the bloodstream unchanged. Many plant polyphenols have very low bioavailability.",
+  "to": "/glossary#bioavailability",
+  "hay": "bioavailability bioavailable oral bioavailability poorly bioavailable absorption the fraction of an ingested compound that reaches the bloodstream unchanged. many plant polyphenols have very low bioavailability."
+ },
+ {
+  "kind": "term",
+  "id": "first-pass-metabolism",
+  "title": "First-pass metabolism",
+  "subtitle": "Metabolism of a swallowed compound by the gut wall and liver before it reaches general circulation; it can remove most of a dose.",
+  "to": "/glossary#first-pass-metabolism",
+  "hay": "first-pass metabolism first-pass presystemic metabolism enterohepatic recycling enterohepatic circulation enterohepatic recirculation metabolism of a swallowed compound by the gut wall and liver before it reaches general circulation; it can remove most of a dose."
+ },
+ {
+  "kind": "term",
+  "id": "drug-interaction",
+  "title": "Drug interaction",
+  "subtitle": "When one substance changes the effect or blood level of another, e.g. by inhibiting the enzyme or transporter that handles it.",
+  "to": "/glossary#drug-interaction",
+  "hay": "drug interaction drug interactions herb-drug interaction herb-drug interactions interaction interactions when one substance changes the effect or blood level of another, e.g. by inhibiting the enzyme or transporter that handles it."
+ },
+ {
+  "kind": "term",
+  "id": "sho-saiko-to",
+  "title": "Sho-saiko-to",
+  "subtitle": "A multi-herb Japanese kampo formula containing S. baicalensis root; linked to interstitial pneumonitis and liver injury reports.",
+  "to": "/glossary#sho-saiko-to",
+  "hay": "sho-saiko-to sho saiko to xiao chai hu tang kampo a multi-herb japanese kampo formula containing s. baicalensis root; linked to interstitial pneumonitis and liver injury reports."
+ },
+ {
+  "kind": "term",
+  "id": "constituent-of-concern",
+  "title": "Constituent of concern",
+  "subtitle": "A compound with a known hazard or a regulatory threshold (thujone, pulegone, estragole, methyleugenol). Always curated, regardless of abundance.",
+  "to": "/glossary#constituent-of-concern",
+  "hay": "constituent of concern constituents of concern safety-signal constituent safety signal a compound with a known hazard or a regulatory threshold (thujone, pulegone, estragole, methyleugenol). always curated, regardless of abundance."
+ },
+ {
+  "kind": "term",
+  "id": "hepatotoxicity",
+  "title": "Hepatotoxicity",
+  "subtitle": "Damage to the liver caused by a chemical. Reported for germander (teucrin A), pulegone and some skullcap products.",
+  "to": "/glossary#hepatotoxicity",
+  "hay": "hepatotoxicity hepatotoxic liver injury drug-induced liver injury dili hepatitis damage to the liver caused by a chemical. reported for germander (teucrin a), pulegone and some skullcap products."
+ },
+ {
+  "kind": "term",
+  "id": "bioactivation",
+  "title": "Bioactivation",
+  "subtitle": "Conversion of a harmless-looking compound into a reactive, toxic one by the body's own enzymes, often cytochrome P450.",
+  "to": "/glossary#bioactivation",
+  "hay": "bioactivation metabolic activation bioactivated sulfoconjugation conversion of a harmless-looking compound into a reactive, toxic one by the body's own enzymes, often cytochrome p450."
+ },
+ {
+  "kind": "term",
+  "id": "genotoxic",
+  "title": "Genotoxic",
+  "subtitle": "Able to damage DNA, for example by forming DNA adducts. A genotoxic carcinogen is assumed to have no fully safe threshold.",
+  "to": "/glossary#genotoxic",
+  "hay": "genotoxic genotoxicity genotoxic carcinogen genotoxic carcinogens dna adducts dna adduct able to damage dna, for example by forming dna adducts. a genotoxic carcinogen is assumed to have no fully safe threshold."
+ },
+ {
+  "kind": "term",
+  "id": "carcinogen-rodent",
+  "title": "Carcinogen (rodent)",
+  "subtitle": "Causes cancer in rats or mice at the doses tested. Estragole and methyleugenol are rodent carcinogens; that is a hazard, not a measured human risk.",
+  "to": "/glossary#carcinogen-rodent",
+  "hay": "carcinogen (rodent) carcinogen carcinogens carcinogenic rodent carcinogen hepatocarcinogenic causes cancer in rats or mice at the doses tested. estragole and methyleugenol are rodent carcinogens; that is a hazard, not a measured human risk."
+ },
+ {
+  "kind": "term",
+  "id": "adulteration",
+  "title": "Adulteration",
+  "subtitle": "Substitution or contamination of a herbal product with another plant. Some liver injury blamed on skullcap was traced to germander.",
+  "to": "/glossary#adulteration",
+  "hay": "adulteration adulterant adulterated adulterants mislabelling mislabeling substitution or contamination of a herbal product with another plant. some liver injury blamed on skullcap was traced to germander."
+ },
+ {
+  "kind": "term",
+  "id": "germander",
+  "title": "Germander",
+  "subtitle": "Teucrium, a mint-family genus whose diterpenoid teucrin A causes liver injury; a known adulterant of skullcap.",
+  "to": "/glossary#germander",
+  "hay": "germander teucrium teucrium chamaedrys teucrium, a mint-family genus whose diterpenoid teucrin a causes liver injury; a known adulterant of skullcap."
+ },
+ {
+  "kind": "term",
+  "id": "cross-reactivity",
+  "title": "Cross-reactivity",
+  "subtitle": "An allergy to one substance causing reactions to related ones: ragweed-allergic people may react to chamomile.",
+  "to": "/glossary#cross-reactivity",
+  "hay": "cross-reactivity cross-reactive cross-reactions allergy cross-reactivity an allergy to one substance causing reactions to related ones: ragweed-allergic people may react to chamomile."
+ },
+ {
+  "kind": "term",
+  "id": "anaphylaxis",
+  "title": "Anaphylaxis",
+  "subtitle": "A severe, rapid, whole-body allergic reaction that can be fatal; rare reports exist with chamomile.",
+  "to": "/glossary#anaphylaxis",
+  "hay": "anaphylaxis anaphylactic shock anaphylactic a severe, rapid, whole-body allergic reaction that can be fatal; rare reports exist with chamomile."
+ },
+ {
+  "kind": "term",
+  "id": "contact-allergen",
+  "title": "Contact allergen",
+  "subtitle": "A substance that causes an allergic skin reaction where it touches; carnosol is a major rosemary contact allergen.",
+  "to": "/glossary#contact-allergen",
+  "hay": "contact allergen contact allergens contact dermatitis allergic contact dermatitis a substance that causes an allergic skin reaction where it touches; carnosol is a major rosemary contact allergen."
+ },
+ {
+  "kind": "term",
+  "id": "convulsant",
+  "title": "Convulsant",
+  "subtitle": "Able to cause seizures. Thujone and camphor are convulsant at high doses; the EMA thujone limit is based on rodent seizure data.",
+  "to": "/glossary#convulsant",
+  "hay": "convulsant convulsions convulsive seizure seizures clonic seizures able to cause seizures. thujone and camphor are convulsant at high doses; the ema thujone limit is based on rodent seizure data."
+ },
+ {
+  "kind": "term",
+  "id": "reflex-apnoea",
+  "title": "Reflex apnoea",
+  "subtitle": "A reflex stop in breathing (with spasm of the larynx) that menthol near the face can trigger in infants; why menthol oils are contraindicated under 2 years.",
+  "to": "/glossary#reflex-apnoea",
+  "hay": "reflex apnoea apnoea apnea laryngospasm a reflex stop in breathing (with spasm of the larynx) that menthol near the face can trigger in infants; why menthol oils are contraindicated under 2 years."
+ },
+ {
+  "kind": "term",
+  "id": "contraindication",
+  "title": "Contraindication",
+  "subtitle": "A condition in which a product should not be used, as stated in a monograph, e.g. hypersensitivity or age under 2 years for menthol oils.",
+  "to": "/glossary#contraindication",
+  "hay": "contraindication contraindications contraindicated a condition in which a product should not be used, as stated in a monograph, e.g. hypersensitivity or age under 2 years for menthol oils."
+ },
+ {
+  "kind": "term",
+  "id": "thujone",
+  "title": "Thujone",
+  "subtitle": "The convulsant monoterpenoid ketone of sage (two isomers, α and β); blocks the GABA-A receptor. EMA sets daily exposure values for it.",
+  "to": "/glossary#thujone",
+  "hay": "thujone thujones α-thujone β-thujone alpha-thujone beta-thujone the convulsant monoterpenoid ketone of sage (two isomers, α and β); blocks the gaba-a receptor. ema sets daily exposure values for it."
+ },
+ {
+  "kind": "term",
+  "id": "pulegone",
+  "title": "Pulegone",
+  "subtitle": "A monoterpenoid ketone of mints that is hepatotoxic after bioactivation; limited by the EMA together with menthofuran.",
+  "to": "/glossary#pulegone",
+  "hay": "pulegone  a monoterpenoid ketone of mints that is hepatotoxic after bioactivation; limited by the ema together with menthofuran."
+ },
+ {
+  "kind": "term",
+  "id": "menthofuran",
+  "title": "Menthofuran",
+  "subtitle": "A furan-containing monoterpene in peppermint oil and a major metabolite of pulegone; counted with pulegone under the EMA limit.",
+  "to": "/glossary#menthofuran",
+  "hay": "menthofuran  a furan-containing monoterpene in peppermint oil and a major metabolite of pulegone; counted with pulegone under the ema limit."
+ },
+ {
+  "kind": "term",
+  "id": "estragole",
+  "title": "Estragole",
+  "subtitle": "The aniseed-scented phenylpropene of some basils; a genotoxic carcinogen in rodents with an EMA guidance value of 0.05 mg per person per day.",
+  "to": "/glossary#estragole",
+  "hay": "estragole methyl chavicol methylchavicol the aniseed-scented phenylpropene of some basils; a genotoxic carcinogen in rodents with an ema guidance value of 0.05 mg per person per day."
+ },
+ {
+  "kind": "term",
+  "id": "methyleugenol",
+  "title": "Methyleugenol",
+  "subtitle": "A clove-like phenylpropene in most basil cultivars grown here; a rodent genotoxic carcinogen. The EMA gives no number but advises minimising exposure.",
+  "to": "/glossary#methyleugenol",
+  "hay": "methyleugenol methyl eugenol a clove-like phenylpropene in most basil cultivars grown here; a rodent genotoxic carcinogen. the ema gives no number but advises minimising exposure."
+ },
+ {
+  "kind": "term",
+  "id": "chemotype",
+  "title": "Chemotype",
+  "subtitle": "A chemically distinct form within one species, e.g. thymol-type versus other thyme, or estragole-rich versus linalool-rich basil. Same plant name, different oil.",
+  "to": "/glossary#chemotype",
+  "hay": "chemotype chemotypes chemical race chemical races a chemically distinct form within one species, e.g. thymol-type versus other thyme, or estragole-rich versus linalool-rich basil. same plant name, different oil."
+ },
+ {
+  "kind": "term",
+  "id": "ibs",
+  "title": "Irritable bowel syndrome",
+  "subtitle": "A common gut disorder of abdominal pain and altered bowel habit; the condition in the peppermint-oil capsule trials.",
+  "to": "/glossary#ibs",
+  "hay": "irritable bowel syndrome ibs irritable bowel symptoms a common gut disorder of abdominal pain and altered bowel habit; the condition in the peppermint-oil capsule trials."
+ },
+ {
+  "kind": "term",
+  "id": "gad",
+  "title": "Generalised anxiety disorder",
+  "subtitle": "A condition of persistent excessive worry; the population of the chamomile-extract trials.",
+  "to": "/glossary#gad",
+  "hay": "generalised anxiety disorder gad generalized anxiety disorder a condition of persistent excessive worry; the population of the chamomile-extract trials."
+ },
+ {
+  "kind": "concept",
+  "id": "chemotypes",
+  "title": "Chemotypes",
+  "subtitle": "Plants of one species can make different oils - thymol-type or other thyme, linalool- or estragole-rich basil, cineole- or pinene-type rosemary - so a species name does not fix the chemistry.",
+  "to": "/concepts/chemotypes",
+  "hay": "chemotypes plants of one species can make different oils - thymol-type or other thyme, linalool- or estragole-rich basil, cineole- or pinene-type rosemary - so a species name does not fix the chemistry."
+ },
+ {
+  "kind": "concept",
+  "id": "evidence-grades-and-test-article",
+  "title": "Evidence grades and the test article",
+  "subtitle": "Every health statement here carries a letter for how strong the human evidence is, and names exactly what was tested - because the grade belongs to that thing and nothing else.",
+  "to": "/concepts/evidence-grades-and-test-article",
+  "hay": "evidence grades and the test article every health statement here carries a letter for how strong the human evidence is, and names exactly what was tested - because the grade belongs to that thing and nothing else."
+ },
+ {
+  "kind": "concept",
+  "id": "extraction-chemistry",
+  "title": "Extraction chemistry",
+  "subtitle": "A tea, a tincture and an essential oil are three extractions of the same leaf; polarity, volatility and heat decide which molecules each one contains.",
+  "to": "/concepts/extraction-chemistry",
+  "hay": "extraction chemistry a tea, a tincture and an essential oil are three extractions of the same leaf; polarity, volatility and heat decide which molecules each one contains."
+ },
+ {
+  "kind": "concept",
+  "id": "measurement-basis",
+  "title": "Measurement basis",
+  "subtitle": "An amount is always an amount per something - fresh leaf, dry leaf, the oil or an extract - and two values on different bases cannot be compared.",
+  "to": "/concepts/measurement-basis",
+  "hay": "measurement basis an amount is always an amount per something - fresh leaf, dry leaf, the oil or an extract - and two values on different bases cannot be compared."
+ },
+ {
+  "kind": "compound",
+  "id": "linalool",
+  "title": "linalool",
+  "subtitle": "The floral-sweet alcohol that dominates Genovese-type basil oil; also a minor thyme oil constituent.",
+  "to": "/compounds/linalool",
+  "hay": "linalool 3,7-dimethylocta-1,6-dien-3-ol monoterpene c10h18o cdoshbssfjomgt-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "estragole",
+  "title": "estragole (methyl chavicol)",
+  "subtitle": "Aniseed-scented basil constituent; a genotoxic carcinogen in rodents with an EMA exposure guidance value.",
+  "to": "/compounds/estragole",
+  "hay": "estragole (methyl chavicol) methyl chavicol 4-allylanisole p-allylanisole phenylpropanoid c10h12o zfmsmuaanrjzfm-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "eugenol",
+  "title": "eugenol",
+  "subtitle": "Clove-scented phenylpropanoid; a major oil component in several basil cultivars.",
+  "to": "/compounds/eugenol",
+  "hay": "eugenol 4-allyl-2-methoxyphenol phenylpropanoid c10h12o2 rrafcdwbnxtkko-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "methyleugenol",
+  "title": "methyleugenol",
+  "subtitle": "Basil phenylpropanoid classed by EMA as a naturally occurring genotoxic carcinogen.",
+  "to": "/compounds/methyleugenol",
+  "hay": "methyleugenol methyl eugenol eugenol methyl ether 4-allyl-1,2-dimethoxybenzene phenylpropanoid c11h14o2 zyemgpiyfijgtp-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "methyl-cinnamate",
+  "title": "methyl cinnamate",
+  "subtitle": "Fruity-balsamic ester that gives 'Cinnamon' basil its name: 24.7 % of volatiles, second to linalool.",
+  "to": "/compounds/methyl-cinnamate",
+  "hay": "methyl cinnamate methyl (e)-cinnamate methyl 3-phenylprop-2-enoate phenylpropanoid c10h10o2 ccrcuplgcsfedv-bqyqjahwsa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "citral",
+  "title": "citral (geranial/neral)",
+  "subtitle": "The lemon aldehyde pair (geranial + neral) of lemon balm oil and lemon basils.",
+  "to": "/compounds/citral",
+  "hay": "citral (geranial/neral) geranial + neral 3,7-dimethylocta-2,6-dienal monoterpene c10h16o wtevqbcexwbhna-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "rosmarinic-acid",
+  "title": "rosmarinic acid",
+  "subtitle": "The signature water-soluble phenolic of the mint family, shared by every Lamiaceae plant profiled here.",
+  "to": "/compounds/rosmarinic-acid",
+  "hay": "rosmarinic acid ra (r)-o-caffeoyl-3-(3,4-dihydroxyphenyl)lactic acid hydroxycinnamic-acid c18h16o8 doumfzqkyfqntf-wutvxbcwsa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "menthol",
+  "title": "(-)-menthol",
+  "subtitle": "Peppermint's cooling alcohol (30-55 % of the oil); the TRPM8 agonist.",
+  "to": "/compounds/menthol",
+  "hay": "(-)-menthol (-)-menthol l-menthol (1r,2s,5r)-menthol monoterpene c10h20o noolisfmxdjskh-kxucptdwsa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "menthone",
+  "title": "menthone",
+  "subtitle": "Second major peppermint oil constituent (14-32 %); the ketone that menthol is reduced from.",
+  "to": "/compounds/menthone",
+  "hay": "menthone l-menthone (2s,5r)-menthone monoterpenoid-ketone c10h18o nflgaxvycfjbmk-bdaknglrsa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "menthofuran",
+  "title": "menthofuran",
+  "subtitle": "Minor peppermint oil constituent (1-8 %) and hepatotoxic metabolite of pulegone; limited together with pulegone by EMA.",
+  "to": "/compounds/menthofuran",
+  "hay": "menthofuran (+)-menthofuran 3,6-dimethyl-4,5,6,7-tetrahydrobenzofuran monoterpene c10h14o ygwkxxygdyyfju-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "pulegone",
+  "title": "(+)-pulegone",
+  "subtitle": "Peppermint oil ketone limited to ≤3 % by Ph. Eur.; hepatotoxic via bioactivation, with an EMA combined limit.",
+  "to": "/compounds/pulegone",
+  "hay": "(+)-pulegone (+)-pulegone (r)-pulegone monoterpenoid-ketone c10h16o nzgwdastmwdziw-mrvpvssysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "1-8-cineole",
+  "title": "1,8-cineole (eucalyptol)",
+  "subtitle": "The eucalyptus-camphor note shared by rosemary, sage and peppermint oils; tested as an isolated compound in asthma.",
+  "to": "/compounds/1-8-cineole",
+  "hay": "1,8-cineole (eucalyptol) eucalyptol 1,8-epoxy-p-menthane cineol monoterpene c10h18o weegylxzbrqimu-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "eriocitrin",
+  "title": "eriocitrin",
+  "subtitle": "The flavanone glycoside EMA calls the dominant phenolic of peppermint leaf: the tea compound, absent from the oil.",
+  "to": "/compounds/eriocitrin",
+  "hay": "eriocitrin eriodictyol 7-o-rutinoside flavanone-glycoside c27h32o15 omqadrgfmlgfjf-mnpjbklosa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "citronellal",
+  "title": "citronellal",
+  "subtitle": "Second lemon-balm aldehyde beside citral.",
+  "to": "/compounds/citronellal",
+  "hay": "citronellal 3,7-dimethyloct-6-enal monoterpene c10h18o nehnmfoyxaphsd-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "beta-caryophyllene",
+  "title": "β-caryophyllene",
+  "subtitle": "Spicy sesquiterpene (about 10 % of lemon balm oil) that binds the CB2 cannabinoid receptor.",
+  "to": "/compounds/beta-caryophyllene",
+  "hay": "β-caryophyllene (-)-β-caryophyllene (e)-β-caryophyllene trans-caryophyllene sesquiterpene c15h24 npnufjavooonje-gfugxaqusa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "caffeic-acid",
+  "title": "caffeic acid",
+  "subtitle": "The building block of rosmarinic acid; also one of its breakdown products in people.",
+  "to": "/compounds/caffeic-acid",
+  "hay": "caffeic acid 3,4-dihydroxycinnamic acid hydroxycinnamic-acid c9h8o4 qaiprvgongvqas-duxpyhpusa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "ursolic-acid",
+  "title": "ursolic acid",
+  "subtitle": "Waxy pentacyclic triterpene acid in sage, rosemary and lemon balm leaves.",
+  "to": "/compounds/ursolic-acid",
+  "hay": "ursolic acid (+)-ursolic acid 3β-hydroxyurs-12-en-28-oic acid triterpene c30h48o3 wcguuggrbiktos-gpojbzkasa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "alpha-thujone",
+  "title": "α-thujone",
+  "subtitle": "Sage's convulsant ketone (10-60 % of the oil); a GABA-A antagonist with an EMA intake limit.",
+  "to": "/compounds/alpha-thujone",
+  "hay": "α-thujone (-)-α-thujone thujone monoterpenoid-ketone c10h16o usmnowbwphyoea-mrtmqbjtsa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "beta-thujone",
+  "title": "β-thujone",
+  "subtitle": "The less toxic thujone diastereomer (4-36 % of sage oil); counted with α-thujone in EMA limits.",
+  "to": "/compounds/beta-thujone",
+  "hay": "β-thujone (+)-β-thujone monoterpenoid-ketone c10h16o usmnowbwphyoea-xkssxdpksa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "camphor",
+  "title": "camphor",
+  "subtitle": "Convulsant bicyclic ketone in sage (5-20 % of oil) and rosemary (13-21 % Spanish type).",
+  "to": "/compounds/camphor",
+  "hay": "camphor 2-bornanone bornan-2-one monoterpenoid-ketone c10h16o dssykiviofkyau-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "borneol",
+  "title": "borneol",
+  "subtitle": "Bicyclic alcohol related to camphor; in sage and rosemary oils.",
+  "to": "/compounds/borneol",
+  "hay": "borneol endo-borneol bornan-2-ol monoterpene c10h18o dtgkskdoiyivql-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "carnosic-acid",
+  "title": "carnosic acid",
+  "subtitle": "Lamiaceae-only phenolic diterpene; rosemary's antioxidant (E392) that oxidises to carnosol on drying.",
+  "to": "/compounds/carnosic-acid",
+  "hay": "carnosic acid  diterpene c20h28o4 qryrorquolyvbu-vbkzilbwsa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "carnosol",
+  "title": "carnosol",
+  "subtitle": "Oxidation product of carnosic acid formed after harvest and on drying; a major rosemary contact allergen.",
+  "to": "/compounds/carnosol",
+  "hay": "carnosol pikrosalvin diterpene c20h26o4 xusygbphqbwgad-pjsuukdqsa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "luteolin",
+  "title": "luteolin",
+  "subtitle": "Flavone aglycone of sage and thyme; in plants mostly present as glycosides such as luteolin-7-glucoside.",
+  "to": "/compounds/luteolin",
+  "hay": "luteolin 3',4',5,7-tetrahydroxyflavone flavone c15h10o6 iqpnaansbpbgfq-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "luteolin-7-glucoside",
+  "title": "luteolin-7-O-glucoside (cynaroside)",
+  "subtitle": "The plant form of luteolin: dominant flavonoid of Greek oregano extract, and present in sage, thyme and chamomile.",
+  "to": "/compounds/luteolin-7-glucoside",
+  "hay": "luteolin-7-o-glucoside (cynaroside) cynaroside luteolin 7-o-β-d-glucoside flavone-glycoside c21h20o11 pefnsgrtcbgnan-qndfhxlgsa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "apigenin",
+  "title": "apigenin",
+  "subtitle": "Chamomile's benzodiazepine-site flavone (Ki ~4 µM in vitro); anxiolytic in mice, poorly bioavailable in people.",
+  "to": "/compounds/apigenin",
+  "hay": "apigenin 4',5,7-trihydroxyflavone flavone c15h10o5 kznifhplkgyrtm-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "alpha-pinene",
+  "title": "α-pinene",
+  "subtitle": "Pine-scented hydrocarbon marking the Spanish rosemary chemotype (18-26 % of oil).",
+  "to": "/compounds/alpha-pinene",
+  "hay": "α-pinene (±)-α-pinene 2-pinene monoterpene c10h16 grwfgvwffzklti-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "thymol",
+  "title": "thymol",
+  "subtitle": "Thyme's phenolic monoterpene (37-55 % of 'Standard Winter' oil); antimicrobial, irritant at high dose.",
+  "to": "/compounds/thymol",
+  "hay": "thymol 2-isopropyl-5-methylphenol monoterpene c10h14o mgsrczkzvobkft-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "carvacrol",
+  "title": "carvacrol",
+  "subtitle": "Thymol's positional isomer; the main phenol of Greek oregano oil (39.8 % cultivated; 23.3 % wild chemotype).",
+  "to": "/compounds/carvacrol",
+  "hay": "carvacrol 2-methyl-5-isopropylphenol monoterpene c10h14o recukuptguegmw-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "p-cymene",
+  "title": "p-cymene",
+  "subtitle": "Aromatic hydrocarbon beside thymol and carvacrol in thyme and oregano oils.",
+  "to": "/compounds/p-cymene",
+  "hay": "p-cymene 4-isopropyltoluene monoterpene c10h14 hfpzcajzscwrbc-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "gamma-terpinene",
+  "title": "γ-terpinene",
+  "subtitle": "The cyclic monoterpene from which thyme and oregano build thymol and carvacrol.",
+  "to": "/compounds/gamma-terpinene",
+  "hay": "γ-terpinene 1-isopropyl-4-methylcyclohexa-1,4-diene monoterpene c10h16 ykflaydhmoasiy-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "baicalin",
+  "title": "baicalin",
+  "subtitle": "The main flavone of Chinese skullcap root, also abundant in American skullcap leaf; alters rosuvastatin exposure in people.",
+  "to": "/compounds/baicalin",
+  "hay": "baicalin baicalein 7-o-β-d-glucuronide flavone-glucuronide c21h18o11 ikiizlytispeni-zforqudysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "baicalein",
+  "title": "baicalein",
+  "subtitle": "Aglycone of baicalin; studied in people as an isolated compound (phase I tablets).",
+  "to": "/compounds/baicalein",
+  "hay": "baicalein 5,6,7-trihydroxyflavone flavone c15h10o5 fxnfhkrtjbstcs-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "wogonin",
+  "title": "wogonin",
+  "subtitle": "8-Methoxy flavone of both skullcaps; a benzodiazepine-site modulator (Ki 0.92 µM) that was anxiolytic in mice without sedation.",
+  "to": "/compounds/wogonin",
+  "hay": "wogonin 5,7-dihydroxy-8-methoxyflavone flavone c16h12o5 xltfnncxvbybsx-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "wogonoside",
+  "title": "wogonoside (wogonin 7-O-glucuronide)",
+  "subtitle": "Glucuronide of wogonin, a major root flavone of Chinese skullcap.",
+  "to": "/compounds/wogonoside",
+  "hay": "wogonoside (wogonin 7-o-glucuronide) oroxindin wogonin 7-o-β-d-glucuronide flavone-glucuronide c22h20o11 lnohxhdwgcmvco-ntksamnmsa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "scutellarin",
+  "title": "scutellarin (scutellarein 7-O-glucuronide)",
+  "subtitle": "Aerial-part flavone glucuronide of American skullcap.",
+  "to": "/compounds/scutellarin",
+  "hay": "scutellarin (scutellarein 7-o-glucuronide) scutellarein 7-o-β-d-glucuronide flavone-glucuronide c21h18o12 djsisfgpuuyilv-zforqudysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "dihydrobaicalin",
+  "title": "dihydrobaicalin",
+  "subtitle": "Flavanone glucuronide among the predominant flavonoids of S. lateriflora extract.",
+  "to": "/compounds/dihydrobaicalin",
+  "hay": "dihydrobaicalin (2s)-dihydrobaicalin flavanone-glucuronide c21h20o11 uvnugbqjldgzke-xdzpiwcfsa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "oroxylin-a",
+  "title": "oroxylin A",
+  "subtitle": "6-Methoxy isomer of wogonin, found in both skullcaps.",
+  "to": "/compounds/oroxylin-a",
+  "hay": "oroxylin a 5,7-dihydroxy-6-methoxyflavone baicalein 6-methyl ether flavone c16h12o5 lkojgswumisdof-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "chrysin",
+  "title": "chrysin",
+  "subtitle": "Simplest 4'-deoxyflavone; a biosynthetic precursor more than an abundant constituent (≤0.08 % of S. baicalensis root).",
+  "to": "/compounds/chrysin",
+  "hay": "chrysin 5,7-dihydroxyflavone flavone c15h10o4 rtixkcrffjgdfg-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "norwogonin",
+  "title": "norwogonin",
+  "subtitle": "8-Hydroxylated chrysin; the precursor of wogonin in S. baicalensis (database-only occurrence).",
+  "to": "/compounds/norwogonin",
+  "hay": "norwogonin 5,7,8-trihydroxyflavone flavone c15h10o5 zfkkrrmupbbyrs-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "teucrin-a",
+  "title": "teucrin A",
+  "subtitle": "NOT a skullcap constituent: the germander (Teucrium) hepatotoxin behind 'skullcap' liver injury cases caused by adulteration.",
+  "to": "/compounds/teucrin-a",
+  "hay": "teucrin a teucrin a (neoclerodane diterpenoid) clerodane-diterpenoid c19h20o6 aonljccuyggosw-pjeriltqsa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "apigenin-7-glucoside",
+  "title": "apigenin-7-O-glucoside (cosmosiin, apigetrin)",
+  "subtitle": "The form in which chamomile actually stores apigenin (about 0.5 % of the flower; Ph. Eur. minimum 0.25 %).",
+  "to": "/compounds/apigenin-7-glucoside",
+  "hay": "apigenin-7-o-glucoside (cosmosiin, apigetrin) cosmosiin apigetrin apigenin 7-o-β-d-glucoside flavone-glycoside c21h20o10 kmoujokenfftpu-qndfhxlgsa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "alpha-bisabolol",
+  "title": "(-)-α-bisabolol (levomenol)",
+  "subtitle": "Chamomile oil's anti-inflammatory alcohol (up to 50 % of oil in the bisabolol chemotype).",
+  "to": "/compounds/alpha-bisabolol",
+  "hay": "(-)-α-bisabolol (levomenol) levomenol (-)-α-bisabolol sesquiterpene c15h26o rgzsqwqpbwriaq-cabcvrresa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "bisabolol-oxide-a",
+  "title": "α-bisabolol oxide A",
+  "subtitle": "Oxidised bisabolol marking the 'oxide' chemotypes of chamomile.",
+  "to": "/compounds/bisabolol-oxide-a",
+  "hay": "α-bisabolol oxide a α-bisabolol oxide a sesquiterpene c15h26o2 wjhraviqwfqmkf-ipypfgdcsa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "chamazulene",
+  "title": "chamazulene",
+  "subtitle": "The blue of chamomile oil, formed from colourless matricin during steam distillation.",
+  "to": "/compounds/chamazulene",
+  "hay": "chamazulene 7-ethyl-1,4-dimethylazulene sesquiterpene c14h16 gxgjiomuzagveh-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "matricin",
+  "title": "matricin",
+  "subtitle": "The colourless proazulene actually present in the flower (0.03-0.2 %); precursor of chamazulene.",
+  "to": "/compounds/matricin",
+  "hay": "matricin proazulene sesquiterpene c17h22o5 sytrjruswmmzlv-vqgwexqjsa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "herniarin",
+  "title": "herniarin (7-methoxycoumarin)",
+  "subtitle": "Simple coumarin of chamomile flower (with umbelliferone 0.01-0.08 %); not an anticoagulant coumarin.",
+  "to": "/compounds/herniarin",
+  "hay": "herniarin (7-methoxycoumarin) 7-methoxycoumarin methylumbelliferone (7-o-methyl) coumarin c10h8o3 liialpbmiovahh-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "umbelliferone",
+  "title": "umbelliferone (7-hydroxycoumarin)",
+  "subtitle": "7-Hydroxycoumarin beside herniarin in chamomile; the pair carries the 'not the anticoagulant coumarins' point.",
+  "to": "/compounds/umbelliferone",
+  "hay": "umbelliferone (7-hydroxycoumarin) 7-hydroxycoumarin coumarin c9h6o3 orhbxuuxscndev-uhfffaoysa-n"
+ },
+ {
+  "kind": "compound",
+  "id": "cis-spiroether",
+  "title": "cis-spiroether (cis-en-yn-dicycloether, (Z)-tonghaosu)",
+  "subtitle": "Chamomile's polyacetylene spiroether; anti-inflammatory in mouse ear tests.",
+  "to": "/compounds/cis-spiroether",
+  "hay": "cis-spiroether (cis-en-yn-dicycloether, (z)-tonghaosu) cis-en-yn-dicycloether (z)-tonghaosu polyacetylene c13h12o2 wtrxkcnfpmtajv-ghxnofrvsa-n"
+ },
+ {
+  "kind": "plant",
+  "id": "eruca-vesicaria",
+  "title": "Eruca vesicaria",
+  "subtitle": "Arugula · Brassicaceae · profile in progress",
+  "to": "/plants/eruca-vesicaria",
+  "hay": "eruca vesicaria arugula eruca sativa mill. eruca vesicaria subsp. sativa (mill.) thell. brassicaceae "
+ },
+ {
+  "kind": "plant",
+  "id": "brassica-rapa",
+  "title": "Brassica rapa",
+  "subtitle": "Pac choi, Turnip, Chinese cabbage · Brassicaceae · profile in progress",
+  "to": "/plants/brassica-rapa",
+  "hay": "brassica rapa pac choi turnip chinese cabbage brassica rapa subsp. chinensis (l.) hanelt brassica rapa subsp. pekinensis (lour.) hanelt brassica rapa subsp. rapa brassicaceae   joi choi f1 little shanghai win-win choi f1 hakurei (probable) hirosaki red"
+ },
+ {
+  "kind": "plant",
+  "id": "coriandrum-sativum",
+  "title": "Coriandrum sativum",
+  "subtitle": "Cilantro, Cilantro / coriander · Apiaceae · profile in progress",
+  "to": "/plants/coriandrum-sativum",
+  "hay": "coriandrum sativum cilantro cilantro / coriander  apiaceae santo calypso "
+ },
+ {
+  "kind": "plant",
+  "id": "beta-vulgaris",
+  "title": "Beta vulgaris",
+  "subtitle": "Swiss chard, Beet · Amaranthaceae · profile in progress",
+  "to": "/plants/beta-vulgaris",
+  "hay": "beta vulgaris swiss chard beet beta vulgaris subsp. vulgaris beta vulgaris cicla group (chard) beta vulgaris conditiva group (beetroot) amaranthaceae bright lights rhubarb "
+ },
+ {
+  "kind": "plant",
+  "id": "brassica-oleracea",
+  "title": "Brassica oleracea",
+  "subtitle": "Collards, Kohlrabi · Brassicaceae · profile in progress",
+  "to": "/plants/brassica-oleracea",
+  "hay": "brassica oleracea collards kohlrabi brassica oleracea viridis group (collards/kale) brassica oleracea gongylodes group (kohlrabi) brassicaceae  "
+ },
+ {
+  "kind": "plant",
+  "id": "foeniculum-vulgare",
+  "title": "Foeniculum vulgare",
+  "subtitle": "Florence fennel · Apiaceae · profile in progress",
+  "to": "/plants/foeniculum-vulgare",
+  "hay": "foeniculum vulgare florence fennel anethum foeniculum l. (the ncbi accepted name) foeniculum vulgare azoricum group (florence fennel) apiaceae dragon f1 dragon f1 preludio"
+ },
+ {
+  "kind": "plant",
+  "id": "allium-ampeloprasum",
+  "title": "Allium ampeloprasum",
+  "subtitle": "Leek · Amaryllidaceae · profile in progress",
+  "to": "/plants/allium-ampeloprasum",
+  "hay": "allium ampeloprasum leek allium porrum l. allium ampeloprasum porrum group (leek) amaryllidaceae "
+ },
+ {
+  "kind": "plant",
+  "id": "spinacia-oleracea",
+  "title": "Spinacia oleracea",
+  "subtitle": "Spinach · Amaranthaceae · profile in progress",
+  "to": "/plants/spinacia-oleracea",
+  "hay": "spinacia oleracea spinach  amaranthaceae flamingo sunangel"
+ },
+ {
+  "kind": "plant",
+  "id": "lactuca-sativa",
+  "title": "Lactuca sativa",
+  "subtitle": "Lettuce · Asteraceae · profile in progress",
+  "to": "/plants/lactuca-sativa",
+  "hay": "lactuca sativa lettuce  asteraceae buttercrunch rex salanova green butter salanova green oakleaf salanova green sweet crisp crispino (probable) salanova red oakleaf outredgeous (probable) salanova red butter waldmann's dark green coastal star dragoon sunland"
+ },
+ {
+  "kind": "plant",
+  "id": "phaseolus-vulgaris",
+  "title": "Phaseolus vulgaris",
+  "subtitle": "Common bean · Fabaceae · profile in progress",
+  "to": "/plants/phaseolus-vulgaris",
+  "hay": "phaseolus vulgaris common bean  fabaceae  "
+ },
+ {
+  "kind": "plant",
+  "id": "apium-graveolens",
+  "title": "Apium graveolens",
+  "subtitle": "Celery · Apiaceae · profile in progress",
+  "to": "/plants/apium-graveolens",
+  "hay": "apium graveolens celery apium graveolens var. dulce (mill.) pers. apium graveolens dulce group apiaceae conquistador kelvin"
+ },
+ {
+  "kind": "plant",
+  "id": "cucumis-sativus",
+  "title": "Cucumis sativus",
+  "subtitle": "Cucumber · Cucurbitaceae · profile in progress",
+  "to": "/plants/cucumis-sativus",
+  "hay": "cucumis sativus cucumber  cucurbitaceae corinto"
+ },
+ {
+  "kind": "plant",
+  "id": "solanum-melongena",
+  "title": "Solanum melongena",
+  "subtitle": "Eggplant · Solanaceae · profile in progress",
+  "to": "/plants/solanum-melongena",
+  "hay": "solanum melongena eggplant  solanaceae orient express"
+ },
+ {
+  "kind": "plant",
+  "id": "brassica-napus",
+  "title": "Brassica napus",
+  "subtitle": "Kale · Brassicaceae · profile in progress",
+  "to": "/plants/brassica-napus",
+  "hay": "brassica napus kale brassica napus pabularia group (red russian kale) brassica napus var. pabularia (dc.) rchb. brassicaceae red russian"
+ },
+ {
+  "kind": "plant",
+  "id": "allium-fistulosum",
+  "title": "Allium fistulosum",
+  "subtitle": "Bunching onion · Amaryllidaceae · profile in progress",
+  "to": "/plants/allium-fistulosum",
+  "hay": "allium fistulosum bunching onion  amaryllidaceae parade"
+ },
+ {
+  "kind": "plant",
+  "id": "pisum-sativum",
+  "title": "Lathyrus oleraceus",
+  "subtitle": "Snap pea · Fabaceae · profile in progress",
+  "to": "/plants/pisum-sativum",
+  "hay": "lathyrus oleraceus snap pea pisum sativum l. (powo urn:lsid:ipni.org:names:60454055-2; gbif 5347845) pisum sativum var. macrocarpon ser. fabaceae sugar snap"
+ },
+ {
+  "kind": "plant",
+  "id": "capsicum-annuum",
+  "title": "Capsicum annuum",
+  "subtitle": "Hot pepper, Sweet pepper · Solanaceae · profile in progress",
+  "to": "/plants/capsicum-annuum",
+  "hay": "capsicum annuum hot pepper sweet pepper  solanaceae king arthur cayennetta red rocket"
+ },
+ {
+  "kind": "plant",
+  "id": "raphanus-sativus",
+  "title": "Raphanus raphanistrum subsp. sativus",
+  "subtitle": "Radish · Brassicaceae · profile in progress",
+  "to": "/plants/raphanus-sativus",
+  "hay": "raphanus raphanistrum subsp. sativus radish raphanus sativus l. (powo urn:lsid:ipni.org:names:288491-1) brassicaceae donato sora"
+ },
+ {
+  "kind": "plant",
+  "id": "allium-cepa",
+  "title": "Allium cepa",
+  "subtitle": "Shallot · Amaryllidaceae · profile in progress",
+  "to": "/plants/allium-cepa",
+  "hay": "allium cepa shallot allium cepa aggregatum group (shallot) allium cepa var. aggregatum g.don allium ascalonicum auct. amaryllidaceae conservor f1 matador"
+ },
+ {
+  "kind": "plant",
+  "id": "solanum-lycopersicum",
+  "title": "Solanum lycopersicum",
+  "subtitle": "Tomato · Solanaceae · profile in progress",
+  "to": "/plants/solanum-lycopersicum",
+  "hay": "solanum lycopersicum tomato lycopersicon esculentum mill. solanaceae red robin tiny tim bush champion ii new big dwarf"
+ },
+ {
+  "kind": "plant",
+  "id": "ocimum-basilicum",
+  "title": "Ocimum basilicum",
+  "subtitle": "Sweet basil, Cinnamon basil, Lemon basil, Purple basil, Thai basil · Lamiaceae",
+  "to": "/plants/ocimum-basilicum",
+  "hay": "ocimum basilicum sweet basil cinnamon basil lemon basil purple basil thai basil ocimum × africanum lour. (lemon basil): powo urn:lsid:ipni.org:names:452853-1, gbif 3898584, ncbi 204098 ocimum × citriodorum vis. (syn. of o. × africanum) lamiaceae genovese  cinnamon mrs. burns' lemon red rubin "
+ },
+ {
+  "kind": "plant",
+  "id": "anthriscus-cerefolium",
+  "title": "Anthriscus cerefolium",
+  "subtitle": "Chervil · Apiaceae · profile in progress",
+  "to": "/plants/anthriscus-cerefolium",
+  "hay": "anthriscus cerefolium chervil  apiaceae vertissimo"
+ },
+ {
+  "kind": "plant",
+  "id": "allium-schoenoprasum",
+  "title": "Allium schoenoprasum",
+  "subtitle": "Chives · Amaryllidaceae · profile in progress",
+  "to": "/plants/allium-schoenoprasum",
+  "hay": "allium schoenoprasum chives  amaryllidaceae purly staro"
+ },
+ {
+  "kind": "plant",
+  "id": "allium-tuberosum",
+  "title": "Allium tuberosum",
+  "subtitle": "Garlic chives · Amaryllidaceae · profile in progress",
+  "to": "/plants/allium-tuberosum",
+  "hay": "allium tuberosum garlic chives  amaryllidaceae "
+ },
+ {
+  "kind": "plant",
+  "id": "anethum-graveolens",
+  "title": "Anethum graveolens",
+  "subtitle": "Dill · Apiaceae · profile in progress",
+  "to": "/plants/anethum-graveolens",
+  "hay": "anethum graveolens dill  apiaceae fernleaf teddy"
+ },
+ {
+  "kind": "plant",
+  "id": "melissa-officinalis",
+  "title": "Melissa officinalis",
+  "subtitle": "Lemon balm · Lamiaceae",
+  "to": "/plants/melissa-officinalis",
+  "hay": "melissa officinalis lemon balm  lamiaceae  "
+ },
+ {
+  "kind": "plant",
+  "id": "origanum-majorana",
+  "title": "Origanum majorana",
+  "subtitle": "Sweet marjoram · Lamiaceae · profile in progress",
+  "to": "/plants/origanum-majorana",
+  "hay": "origanum majorana sweet marjoram  lamiaceae "
+ },
+ {
+  "kind": "plant",
+  "id": "mentha-spicata",
+  "title": "Mentha spicata",
+  "subtitle": "Mint · Lamiaceae · profile in progress",
+  "to": "/plants/mentha-spicata",
+  "hay": "mentha spicata mint  lamiaceae "
+ },
+ {
+  "kind": "plant",
+  "id": "brassica-carinata",
+  "title": "Mutarda carinata",
+  "subtitle": "Ethiopian kale / Amara mustard · Brassicaceae · profile in progress",
+  "to": "/plants/brassica-carinata",
+  "hay": "mutarda carinata ethiopian kale / amara mustard brassica carinata a.braun (powo urn:lsid:ipni.org:names:279278-1) sinabraca carinata (a.braun) g.h.loos brassicaceae amara"
+ },
+ {
+  "kind": "plant",
+  "id": "origanum-vulgare",
+  "title": "Origanum vulgare",
+  "subtitle": "Greek oregano · Lamiaceae",
+  "to": "/plants/origanum-vulgare",
+  "hay": "origanum vulgare greek oregano origanum vulgare subsp. hirtum (link) a.terracc. (powo urn:lsid:ipni.org:names:60473145-2; ncbi 497766) origanum hirtum link lamiaceae "
+ },
+ {
+  "kind": "plant",
+  "id": "petroselinum-crispum",
+  "title": "Petroselinum crispum",
+  "subtitle": "Flat-leaf parsley · Apiaceae · profile in progress",
+  "to": "/plants/petroselinum-crispum",
+  "hay": "petroselinum crispum flat-leaf parsley  apiaceae giant of italy"
+ },
+ {
+  "kind": "plant",
+  "id": "salvia-rosmarinus",
+  "title": "Salvia rosmarinus",
+  "subtitle": "Rosemary · Lamiaceae",
+  "to": "/plants/salvia-rosmarinus",
+  "hay": "salvia rosmarinus rosemary rosmarinus officinalis l. (powo urn:lsid:ipni.org:names:455509-1; gbif 2926634; ncbi synonym of 39367) lamiaceae  "
+ },
+ {
+  "kind": "plant",
+  "id": "salvia-officinalis",
+  "title": "Salvia officinalis",
+  "subtitle": "Common sage · Lamiaceae",
+  "to": "/plants/salvia-officinalis",
+  "hay": "salvia officinalis common sage  lamiaceae  "
+ },
+ {
+  "kind": "plant",
+  "id": "thymus-vulgaris",
+  "title": "Thymus vulgaris",
+  "subtitle": "Common thyme, Thyme · Lamiaceae",
+  "to": "/plants/thymus-vulgaris",
+  "hay": "thymus vulgaris common thyme thyme  lamiaceae german winter "
+ },
+ {
+  "kind": "plant",
+  "id": "nasturtium-officinale",
+  "title": "Nasturtium officinale",
+  "subtitle": "Watercress · Brassicaceae · profile in progress",
+  "to": "/plants/nasturtium-officinale",
+  "hay": "nasturtium officinale watercress rorippa nasturtium-aquaticum (l.) hayek brassicaceae "
+ },
+ {
+  "kind": "plant",
+  "id": "ocimum-tenuiflorum",
+  "title": "Ocimum tenuiflorum",
+  "subtitle": "Holy basil · Lamiaceae · profile in progress",
+  "to": "/plants/ocimum-tenuiflorum",
+  "hay": "ocimum tenuiflorum holy basil ocimum sanctum l. (powo urn:lsid:ipni.org:names:30252269-2; gbif 2927101; ncbi synonym of 204149) lamiaceae "
+ },
+ {
+  "kind": "plant",
+  "id": "calendula-officinalis",
+  "title": "Calendula officinalis",
+  "subtitle": "Calendula · Asteraceae · profile in progress",
+  "to": "/plants/calendula-officinalis",
+  "hay": "calendula officinalis calendula  asteraceae "
+ },
+ {
+  "kind": "plant",
+  "id": "matricaria-chamomilla",
+  "title": "Matricaria chamomilla",
+  "subtitle": "German chamomile · Asteraceae",
+  "to": "/plants/matricaria-chamomilla",
+  "hay": "matricaria chamomilla german chamomile matricaria recutita l. (powo urn:lsid:ipni.org:names:231986-1; gbif 3103774; ncbi: synonym of 'matricaria chamomilla var. recutita', taxid 127986) chamomilla recutita (l.) rauschert asteraceae "
+ },
+ {
+  "kind": "plant",
+  "id": "taraxacum-officinale",
+  "title": "Taraxacum sect. Taraxacum",
+  "subtitle": "Dandelion · Asteraceae · profile in progress",
+  "to": "/plants/taraxacum-officinale",
+  "hay": "taraxacum sect. taraxacum dandelion taraxacum officinale f.h.wigg. (powo urn:lsid:ipni.org:names:1003018-2, not accepted) taraxacum officinale aggregate asteraceae "
+ },
+ {
+  "kind": "plant",
+  "id": "echinacea-purpurea",
+  "title": "Echinacea purpurea",
+  "subtitle": "Purple coneflower · Asteraceae · profile in progress",
+  "to": "/plants/echinacea-purpurea",
+  "hay": "echinacea purpurea purple coneflower rudbeckia purpurea l. asteraceae "
+ },
+ {
+  "kind": "plant",
+  "id": "tanacetum-parthenium",
+  "title": "Tanacetum parthenium",
+  "subtitle": "Feverfew · Asteraceae · profile in progress",
+  "to": "/plants/tanacetum-parthenium",
+  "hay": "tanacetum parthenium feverfew chrysanthemum parthenium (l.) bernh. matricaria parthenium l. pyrethrum parthenium (l.) sm. asteraceae "
+ },
+ {
+  "kind": "plant",
+  "id": "leonurus-cardiaca",
+  "title": "Leonurus cardiaca",
+  "subtitle": "Motherwort · Lamiaceae · profile in progress",
+  "to": "/plants/leonurus-cardiaca",
+  "hay": "leonurus cardiaca motherwort  lamiaceae "
+ },
+ {
+  "kind": "plant",
+  "id": "mentha-x-piperita",
+  "title": "Mentha × piperita",
+  "subtitle": "Peppermint · Lamiaceae",
+  "to": "/plants/mentha-x-piperita",
+  "hay": "mentha × piperita peppermint mentha piperita l. lamiaceae "
+ },
+ {
+  "kind": "plant",
+  "id": "scutellaria-lateriflora",
+  "title": "Scutellaria lateriflora",
+  "subtitle": "American skullcap · Lamiaceae",
+  "to": "/plants/scutellaria-lateriflora",
+  "hay": "scutellaria lateriflora american skullcap  lamiaceae "
+ },
+ {
+  "kind": "plant",
+  "id": "scutellaria-baicalensis",
+  "title": "Scutellaria baicalensis",
+  "subtitle": "Chinese skullcap, Huang qin · Lamiaceae",
+  "to": "/plants/scutellaria-baicalensis",
+  "hay": "scutellaria baicalensis chinese skullcap huang qin  lamiaceae "
+ },
+ {
+  "kind": "plant",
+  "id": "scutellaria-sp",
+  "title": "Scutellaria sp.",
+  "subtitle": "Skullcap · Lamiaceae",
+  "to": "/plants/scutellaria-sp",
+  "hay": "scutellaria sp. skullcap  lamiaceae "
+ },
+ {
+  "kind": "plant",
+  "id": "achillea-millefolium",
+  "title": "Achillea millefolium",
+  "subtitle": "Yarrow · Asteraceae · profile in progress",
+  "to": "/plants/achillea-millefolium",
+  "hay": "achillea millefolium yarrow  asteraceae "
+ },
+ {
+  "kind": "preparation",
+  "id": "peppermint-leaf-hot-infusion",
+  "title": "Peppermint leaf, hot-water infusion",
+  "subtitle": "infusion · water",
+  "to": "/tea#peppermint-leaf-hot-infusion",
+  "hay": "peppermint leaf, hot-water infusion infusion water dried leaf"
+ },
+ {
+  "kind": "preparation",
+  "id": "sage-leaf-hot-infusion",
+  "title": "Sage leaf, hot-water infusion",
+  "subtitle": "infusion · water",
+  "to": "/tea#sage-leaf-hot-infusion",
+  "hay": "sage leaf, hot-water infusion infusion water dried leaf"
+ },
+ {
+  "kind": "preparation",
+  "id": "lemon-balm-hot-infusion",
+  "title": "Lemon balm leaf, hot-water infusion",
+  "subtitle": "infusion · water",
+  "to": "/tea#lemon-balm-hot-infusion",
+  "hay": "lemon balm leaf, hot-water infusion infusion water dried leaf"
+ },
+ {
+  "kind": "preparation",
+  "id": "chamomile-flower-hot-infusion",
+  "title": "German chamomile flower, hot-water infusion",
+  "subtitle": "infusion · water",
+  "to": "/tea#chamomile-flower-hot-infusion",
+  "hay": "german chamomile flower, hot-water infusion infusion water dried flower heads"
+ },
+ {
+  "kind": "preparation",
+  "id": "thyme-herb-hot-infusion",
+  "title": "Thyme herb, hot-water infusion",
+  "subtitle": "infusion · water",
+  "to": "/tea#thyme-herb-hot-infusion",
+  "hay": "thyme herb, hot-water infusion infusion water dried herb (leaf and flowering tops)"
+ },
+ {
+  "kind": "preparation",
+  "id": "herb-tincture-ethanol-water",
+  "title": "Herb tincture in ethanol-water (lemon balm and rosemary as examples)",
+  "subtitle": "tincture · ethanol-water (25-60 % ethanol v/v in the cited work)",
+  "to": "/tea#herb-tincture-ethanol-water",
+  "hay": "herb tincture in ethanol-water (lemon balm and rosemary as examples) tincture ethanol-water (25-60 % ethanol v/v in the cited work) dried or fresh leaf"
+ },
+ {
+  "kind": "figure",
+  "id": "fig-pathways",
+  "title": "Figure 1 · Three routes from fixed carbon to the greenhouse's aroma and phenolic compounds",
+  "subtitle": "pathway",
+  "to": "/figures/fig-pathways",
+  "hay": "figure 1 three routes from fixed carbon to the greenhouse's aroma and phenolic compounds pathway"
+ },
+ {
+  "kind": "figure",
+  "id": "fig-extraction",
+  "title": "Figure 2 · How much of a herb's oil and phenolic fraction reaches a hot-water infusion",
+  "subtitle": "chart",
+  "to": "/figures/fig-extraction",
+  "hay": "figure 2 how much of a herb's oil and phenolic fraction reaches a hot-water infusion chart"
+ },
+ {
+  "kind": "section",
+  "id": "1-what-every-plant-shares",
+  "title": "1. What every plant shares",
+  "subtitle": "Section · 128 words",
+  "to": "/read#1-what-every-plant-shares",
+  "hay": "1. what every plant shares 1"
+ },
+ {
+  "kind": "section",
+  "id": "2-the-cell-wall-and-cellulose",
+  "title": "2. The cell wall and cellulose",
+  "subtitle": "Section · 201 words",
+  "to": "/read#2-the-cell-wall-and-cellulose",
+  "hay": "2. the cell wall and cellulose 2"
+ },
+ {
+  "kind": "section",
+  "id": "3-photosynthesis-and-chlorophyll",
+  "title": "3. Photosynthesis and chlorophyll",
+  "subtitle": "Section · 190 words",
+  "to": "/read#3-photosynthesis-and-chlorophyll",
+  "hay": "3. photosynthesis and chlorophyll 3"
+ },
+ {
+  "kind": "section",
+  "id": "4-primary-versus-secondary-metabolism",
+  "title": "4. Primary versus secondary metabolism",
+  "subtitle": "Section · 182 words",
+  "to": "/read#4-primary-versus-secondary-metabolism",
+  "hay": "4. primary versus secondary metabolism 4"
+ },
+ {
+  "kind": "section",
+  "id": "5-three-pathways-that-make-the-greenhouse-smell",
+  "title": "5. Three pathways that make the greenhouse smell",
+  "subtitle": "Section · 578 words",
+  "to": "/read#5-three-pathways-that-make-the-greenhouse-smell",
+  "hay": "5. three pathways that make the greenhouse smell 5"
+ },
+ {
+  "kind": "section",
+  "id": "6-why-plants-make-these-molecules",
+  "title": "6. Why plants make these molecules",
+  "subtitle": "Section · 310 words",
+  "to": "/read#6-why-plants-make-these-molecules",
+  "hay": "6. why plants make these molecules 6"
+ },
+ {
+  "kind": "section",
+  "id": "7-from-leaf-to-cup",
+  "title": "7. From leaf to cup",
+  "subtitle": "Section · 678 words",
+  "to": "/read#7-from-leaf-to-cup",
+  "hay": "7. from leaf to cup 7"
+ },
+ {
+  "kind": "section",
+  "id": "8-how-to-read-the-rest-of-this-site",
+  "title": "8. How to read the rest of this site",
+  "subtitle": "Section · 354 words",
+  "to": "/read#8-how-to-read-the-rest-of-this-site",
+  "hay": "8. how to read the rest of this site 8"
+ }
+]

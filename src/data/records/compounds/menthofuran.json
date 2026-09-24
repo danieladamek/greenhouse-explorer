@@ -1,0 +1,226 @@
+{
+ "compound": {
+  "id": "menthofuran",
+  "name": "menthofuran",
+  "synonyms": [
+   "(+)-menthofuran",
+   "3,6-dimethyl-4,5,6,7-tetrahydrobenzofuran"
+  ],
+  "class": "monoterpene",
+  "subclass": "p-menthane furan",
+  "one_liner": "Minor peppermint oil constituent (1-8 %) and hepatotoxic metabolite of pulegone; limited together with pulegone by EMA.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "3,6-dimethyl-4,5,6,7-tetrahydro-1-benzofuran",
+   "formula": "C10H14O",
+   "mw": 150.22,
+   "mw_source": "computed_from_formula",
+   "smiles": "CC1CCC2=C(C1)OC=C2C",
+   "inchikey": "YGWKXXYGDYYFJU-UHFFFAOYSA-N",
+   "cas": "494-90-6",
+   "pubchem_cid": 329983,
+   "chebi_id": "CHEBI:50542",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/329983/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": "Stereo-unspecified record. KNApSAcK lists the peppermint form as (+)-menthofuran, CAS 17957-94-7."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MEP/terpenoid (plastidial; from geranyl diphosphate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "mentha-x-piperita",
+    "plant_part": "essential oil",
+    "value": "1-8",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv",
+    "verified": true,
+    "note": "Duke: MENTHOFURAN Plant 0-2800 ppm. KNApSAcK lists (+)-menthofuran (C00003049) for Mentha piperita. EMA report has no statement on young leaves / early harvest. | Basis as recorded: % of essential oil (Ph. Eur. range) | The curation claim 'higher in young leaves / early-season oil' is removed (unsourced)."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": "Menthofuran is a major metabolite of pulegone; both cause similar hepatotoxicity in rodents, requiring bioactivation (CYP2E1, CYP1A2, CYP2C19 involved) with glutathione depletion [3].",
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [
+   {
+    "claim": "Menthofuran is hepatotoxic in rodents after bioactivation.",
+    "grade": "D",
+    "test_article": "isolated_compound",
+    "test_article_detail": "menthofuran / pulegone (rodent data summarised by EMA)",
+    "population": "animal",
+    "outcome_summary": "Liver (and kidney) are the target organs; toxicity qualitatively similar to pulegone.",
+    "refs": [
+     3
+    ],
+    "note": null
+   }
+  ],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [
+   {
+    "flag": "hepatotoxicity (rodent)",
+    "detail": "Counted together with pulegone against the EMA limit.",
+    "threshold_or_limit": "pulegone + menthofuran 0.75 mg/kg bw/day (37.5 mg/person/day) lifelong; 75 mg/day for use under 1 year",
+    "source_citation": "EMA/HMPC public statement on pulegone and menthofuran, EMA/HMPC/138386/2005 Rev.1 (2016)",
+    "refs": [
+     3
+    ]
+   }
+  ],
+  "teaching_note": "Menthofuran shows a plant making a compound the liver would also make: it is both an oil constituent and the metabolite of pulegone [3].",
+  "citations": [
+   3,
+   6
+  ],
+  "gaps": [
+   "Claim that menthofuran is higher in young leaves / early-season oil removed: no source found (EMA reports and public statement silent) [3, 6].",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Minor peppermint oil constituent (1-8 %) and [hepatotoxic](#term:hepatotoxicity) metabolite of [pulegone](#term:pulegone); limited together with pulegone by [EMA](#term:ema-hmpc).",
+   "mechanism": "[Menthofuran](#term:menthofuran) is a major metabolite of pulegone; both cause similar hepatotoxicity in rodents, requiring [bioactivation](#term:bioactivation) (CYP2E1, CYP1A2, CYP2C19 involved) with glutathione depletion [3](#cite:3).",
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Menthofuran shows a plant making a compound the liver would also make: it is both an oil constituent and the metabolite of pulegone [3](#cite:3).",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": null,
+   "evidence": [
+    {
+     "claim": "Menthofuran is hepatotoxic in rodents after bioactivation.",
+     "outcome_summary": "Liver (and kidney) are the target organs; toxicity qualitatively similar to pulegone."
+    }
+   ],
+   "safety_flags": [
+    "Counted together with pulegone against the EMA limit."
+   ]
+  },
+  "terms": [
+   "hepatotoxicity",
+   "pulegone",
+   "ema-hmpc",
+   "menthofuran",
+   "bioactivation",
+   "solubility"
+  ],
+  "cited_refs": [
+   3,
+   6
+  ],
+  "taxa": [
+   "mentha-x-piperita"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H14O",
+   "inchikeyComputed": "YGWKXXYGDYYFJU-UHFFFAOYSA-N",
+   "canonicalSmiles": "Cc1coc2c1CCC(C)C2",
+   "monoisotopicMass": 150.1045,
+   "averageMass": 150.221,
+   "descriptors": {
+    "heavyAtoms": 11,
+    "rings": 2,
+    "aromaticRings": 1,
+    "hbd": 0,
+    "hba": 1,
+    "rotatableBonds": 0,
+    "logP": 2.71,
+    "tpsa": 13.1,
+    "fsp3": 0.6,
+    "stereocenters": 1,
+    "charge": 0
+   },
+   "atomCount": 25,
+   "heavyAtomCount": 11,
+   "functionalGroups": [
+    {
+     "id": "furan",
+     "name": "Furan ring",
+     "matches": [
+      [
+       0,
+       6,
+       5,
+       8,
+       9
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/menthofuran.sdf",
+   "svg": {
+    "light": "structures/2d/menthofuran.svg",
+    "dark": "structures/2d/menthofuran.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/menthofuran.json",
+   "mwPack": 150.22,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "menthofuran#0",
+   "compound_id": "menthofuran",
+   "compound": "menthofuran",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "mentha-x-piperita",
+   "taxon_known": true,
+   "taxon_name": "Mentha × piperita",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "1-8",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv",
+   "verified": true,
+   "note": "Duke: MENTHOFURAN Plant 0-2800 ppm. KNApSAcK lists (+)-menthofuran (C00003049) for Mentha piperita. EMA report has no statement on young leaves / early harvest. | Basis as recorded: % of essential oil (Ph. Eur. range) | The curation claim 'higher in young leaves / early-season oil' is removed (unsourced).",
+   "refs": [
+    6
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "peppermint-leaf-hot-infusion",
+   "name": "Peppermint leaf, hot-water infusion"
+  }
+ ]
+}

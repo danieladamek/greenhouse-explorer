@@ -1,0 +1,77 @@
+{
+ "taxa": [
+  {
+   "id": "brassica-napus",
+   "species_key": "Brassica napus",
+   "accepted_name": "Brassica napus",
+   "authority": "L.",
+   "family": "Brassicaceae",
+   "common_names": [
+    "Kale"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 3708,
+    "powo_id": "urn:lsid:ipni.org:names:279419-1",
+    "gbif_key": 3042636,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Brassica napus Pabularia Group (Red Russian kale)",
+    "Brassica napus var. pabularia (DC.) Rchb."
+   ],
+   "columns": [
+    "veggies"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-032",
+     "name": "Red Russian",
+     "type": "Siberian kale",
+     "list_category": "veggies",
+     "name_as_given": "Brassica napus (Pabularia Group)",
+     "identity_status": "confirmed",
+     "note": "Red Russian kale is Brassica napus (Siberian kale), not B. oleracea like most kales."
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "Red Russian kale belongs to B. napus, not B. oleracea. No separate id was resolved for the Pabularia group. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-032"
+   ],
+   "n_plantings": 1,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-032",
+   "list_category": "Veggies",
+   "original_entry": "Kale, Red Russian",
+   "common_name": "Kale",
+   "cultivar": "Red Russian",
+   "crop_type": "Siberian kale",
+   "scientific_name": "Brassica napus (Pabularia Group)",
+   "species_key": "Brassica napus",
+   "family": "Brassicaceae",
+   "confidence": "High",
+   "note": "Red Russian kale is Brassica napus (Siberian kale), not B. oleracea like most kales.",
+   "taxon_id": "brassica-napus",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

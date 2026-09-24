@@ -1,0 +1,1257 @@
+[
+ {
+  "id": "eruca-vesicaria",
+  "accepted_name": "Eruca vesicaria",
+  "authority": "(L.) Cav.",
+  "family": "Brassicaceae",
+  "common_names": [
+   "Arugula"
+  ],
+  "columns": [
+   "leafy_greens"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "brassica-rapa",
+  "accepted_name": "Brassica rapa",
+  "authority": "L.",
+  "family": "Brassicaceae",
+  "common_names": [
+   "Pac choi",
+   "Turnip",
+   "Chinese cabbage"
+  ],
+  "columns": [
+   "leafy_greens",
+   "veggies"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 7,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "coriandrum-sativum",
+  "accepted_name": "Coriandrum sativum",
+  "authority": "L.",
+  "family": "Apiaceae",
+  "common_names": [
+   "Cilantro",
+   "Cilantro / coriander"
+  ],
+  "columns": [
+   "herbs",
+   "leafy_greens"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 3,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "beta-vulgaris",
+  "accepted_name": "Beta vulgaris",
+  "authority": "L.",
+  "family": "Amaranthaceae",
+  "common_names": [
+   "Swiss chard",
+   "Beet"
+  ],
+  "columns": [
+   "leafy_greens",
+   "veggies"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 3,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "brassica-oleracea",
+  "accepted_name": "Brassica oleracea",
+  "authority": "L.",
+  "family": "Brassicaceae",
+  "common_names": [
+   "Collards",
+   "Kohlrabi"
+  ],
+  "columns": [
+   "leafy_greens",
+   "veggies"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 2,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "foeniculum-vulgare",
+  "accepted_name": "Foeniculum vulgare",
+  "authority": "Mill.",
+  "family": "Apiaceae",
+  "common_names": [
+   "Florence fennel"
+  ],
+  "columns": [
+   "herbs",
+   "leafy_greens",
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 3,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "allium-ampeloprasum",
+  "accepted_name": "Allium ampeloprasum",
+  "authority": "L.",
+  "family": "Amaryllidaceae",
+  "common_names": [
+   "Leek"
+  ],
+  "columns": [
+   "leafy_greens"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "spinacia-oleracea",
+  "accepted_name": "Spinacia oleracea",
+  "authority": "L.",
+  "family": "Amaranthaceae",
+  "common_names": [
+   "Spinach"
+  ],
+  "columns": [
+   "leafy_greens"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 2,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "lactuca-sativa",
+  "accepted_name": "Lactuca sativa",
+  "authority": "L.",
+  "family": "Asteraceae",
+  "common_names": [
+   "Lettuce"
+  ],
+  "columns": [
+   "leafy_greens"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 13,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "phaseolus-vulgaris",
+  "accepted_name": "Phaseolus vulgaris",
+  "authority": "L.",
+  "family": "Fabaceae",
+  "common_names": [
+   "Common bean"
+  ],
+  "columns": [
+   "veggies"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 2,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "apium-graveolens",
+  "accepted_name": "Apium graveolens",
+  "authority": "L.",
+  "family": "Apiaceae",
+  "common_names": [
+   "Celery"
+  ],
+  "columns": [
+   "veggies"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 2,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "cucumis-sativus",
+  "accepted_name": "Cucumis sativus",
+  "authority": "L.",
+  "family": "Cucurbitaceae",
+  "common_names": [
+   "Cucumber"
+  ],
+  "columns": [
+   "veggies"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "solanum-melongena",
+  "accepted_name": "Solanum melongena",
+  "authority": "L.",
+  "family": "Solanaceae",
+  "common_names": [
+   "Eggplant"
+  ],
+  "columns": [
+   "veggies"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "brassica-napus",
+  "accepted_name": "Brassica napus",
+  "authority": "L.",
+  "family": "Brassicaceae",
+  "common_names": [
+   "Kale"
+  ],
+  "columns": [
+   "veggies"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "allium-fistulosum",
+  "accepted_name": "Allium fistulosum",
+  "authority": "L.",
+  "family": "Amaryllidaceae",
+  "common_names": [
+   "Bunching onion"
+  ],
+  "columns": [
+   "veggies"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "pisum-sativum",
+  "accepted_name": "Lathyrus oleraceus",
+  "authority": "Lam.",
+  "family": "Fabaceae",
+  "common_names": [
+   "Snap pea"
+  ],
+  "columns": [
+   "veggies"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "capsicum-annuum",
+  "accepted_name": "Capsicum annuum",
+  "authority": "L.",
+  "family": "Solanaceae",
+  "common_names": [
+   "Hot pepper",
+   "Sweet pepper"
+  ],
+  "columns": [
+   "veggies"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 3,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "raphanus-sativus",
+  "accepted_name": "Raphanus raphanistrum subsp. sativus",
+  "authority": "(L.) Schmalh.",
+  "family": "Brassicaceae",
+  "common_names": [
+   "Radish"
+  ],
+  "columns": [
+   "veggies"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 2,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "allium-cepa",
+  "accepted_name": "Allium cepa",
+  "authority": "L.",
+  "family": "Amaryllidaceae",
+  "common_names": [
+   "Shallot"
+  ],
+  "columns": [
+   "veggies"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 2,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "solanum-lycopersicum",
+  "accepted_name": "Solanum lycopersicum",
+  "authority": "L.",
+  "family": "Solanaceae",
+  "common_names": [
+   "Tomato"
+  ],
+  "columns": [
+   "veggies"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 4,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "ocimum-basilicum",
+  "accepted_name": "Ocimum basilicum",
+  "authority": "L.",
+  "family": "Lamiaceae",
+  "common_names": [
+   "Sweet basil",
+   "Cinnamon basil",
+   "Lemon basil",
+   "Purple basil",
+   "Thai basil"
+  ],
+  "columns": [
+   "herbs"
+  ],
+  "identity_status": "confirmed",
+  "profiled": true,
+  "profile_depth": "light",
+  "n_plantings": 6,
+  "compounds": [
+   "linalool",
+   "estragole",
+   "eugenol",
+   "methyleugenol",
+   "methyl-cinnamate",
+   "citral",
+   "rosmarinic-acid"
+  ],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": true,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "anthriscus-cerefolium",
+  "accepted_name": "Anthriscus cerefolium",
+  "authority": "(L.) Hoffm.",
+  "family": "Apiaceae",
+  "common_names": [
+   "Chervil"
+  ],
+  "columns": [
+   "herbs"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "allium-schoenoprasum",
+  "accepted_name": "Allium schoenoprasum",
+  "authority": "L.",
+  "family": "Amaryllidaceae",
+  "common_names": [
+   "Chives"
+  ],
+  "columns": [
+   "herbs"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 2,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "allium-tuberosum",
+  "accepted_name": "Allium tuberosum",
+  "authority": "Rottler ex Spreng.",
+  "family": "Amaryllidaceae",
+  "common_names": [
+   "Garlic chives"
+  ],
+  "columns": [
+   "herbs"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "anethum-graveolens",
+  "accepted_name": "Anethum graveolens",
+  "authority": "L.",
+  "family": "Apiaceae",
+  "common_names": [
+   "Dill"
+  ],
+  "columns": [
+   "herbs"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 2,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "melissa-officinalis",
+  "accepted_name": "Melissa officinalis",
+  "authority": "L.",
+  "family": "Lamiaceae",
+  "common_names": [
+   "Lemon balm"
+  ],
+  "columns": [
+   "herbs",
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": true,
+  "profile_depth": "light",
+  "n_plantings": 2,
+  "compounds": [
+   "citral",
+   "rosmarinic-acid",
+   "citronellal",
+   "beta-caryophyllene",
+   "caffeic-acid",
+   "ursolic-acid"
+  ],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [
+   "lemon-balm-hot-infusion",
+   "herb-tincture-ethanol-water"
+  ],
+  "has_safety": true,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "origanum-majorana",
+  "accepted_name": "Origanum majorana",
+  "authority": "L.",
+  "family": "Lamiaceae",
+  "common_names": [
+   "Sweet marjoram"
+  ],
+  "columns": [
+   "herbs"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "mentha-spicata",
+  "accepted_name": "Mentha spicata",
+  "authority": "L.",
+  "family": "Lamiaceae",
+  "common_names": [
+   "Mint"
+  ],
+  "columns": [
+   "herbs"
+  ],
+  "identity_status": "check",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [
+   "mentha-spicata"
+  ],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "brassica-carinata",
+  "accepted_name": "Mutarda carinata",
+  "authority": "(A.Braun) D.A.German",
+  "family": "Brassicaceae",
+  "common_names": [
+   "Ethiopian kale / Amara mustard"
+  ],
+  "columns": [
+   "herbs"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "origanum-vulgare",
+  "accepted_name": "Origanum vulgare",
+  "authority": "L.",
+  "family": "Lamiaceae",
+  "common_names": [
+   "Greek oregano"
+  ],
+  "columns": [
+   "herbs"
+  ],
+  "identity_status": "confirmed",
+  "profiled": true,
+  "profile_depth": "light",
+  "n_plantings": 1,
+  "compounds": [
+   "rosmarinic-acid",
+   "luteolin",
+   "luteolin-7-glucoside",
+   "apigenin",
+   "thymol",
+   "carvacrol",
+   "p-cymene",
+   "gamma-terpinene",
+   "apigenin-7-glucoside"
+  ],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": true,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "petroselinum-crispum",
+  "accepted_name": "Petroselinum crispum",
+  "authority": "(Mill.) Fuss",
+  "family": "Apiaceae",
+  "common_names": [
+   "Flat-leaf parsley"
+  ],
+  "columns": [
+   "herbs"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "salvia-rosmarinus",
+  "accepted_name": "Salvia rosmarinus",
+  "authority": "Spenn.",
+  "family": "Lamiaceae",
+  "common_names": [
+   "Rosemary"
+  ],
+  "columns": [
+   "herbs",
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": true,
+  "profile_depth": "light",
+  "n_plantings": 2,
+  "compounds": [
+   "rosmarinic-acid",
+   "1-8-cineole",
+   "ursolic-acid",
+   "camphor",
+   "borneol",
+   "carnosic-acid",
+   "carnosol",
+   "alpha-pinene"
+  ],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [
+   "herb-tincture-ethanol-water"
+  ],
+  "has_safety": true,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "salvia-officinalis",
+  "accepted_name": "Salvia officinalis",
+  "authority": "L.",
+  "family": "Lamiaceae",
+  "common_names": [
+   "Common sage"
+  ],
+  "columns": [
+   "herbs",
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": true,
+  "profile_depth": "deep",
+  "n_plantings": 2,
+  "compounds": [
+   "rosmarinic-acid",
+   "1-8-cineole",
+   "ursolic-acid",
+   "alpha-thujone",
+   "beta-thujone",
+   "camphor",
+   "borneol",
+   "carnosic-acid",
+   "carnosol",
+   "luteolin",
+   "luteolin-7-glucoside",
+   "apigenin"
+  ],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [
+   "sage-leaf-hot-infusion"
+  ],
+  "has_safety": true,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "thymus-vulgaris",
+  "accepted_name": "Thymus vulgaris",
+  "authority": "L.",
+  "family": "Lamiaceae",
+  "common_names": [
+   "Common thyme",
+   "Thyme"
+  ],
+  "columns": [
+   "herbs",
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": true,
+  "profile_depth": "light",
+  "n_plantings": 2,
+  "compounds": [
+   "linalool",
+   "rosmarinic-acid",
+   "luteolin",
+   "luteolin-7-glucoside",
+   "thymol",
+   "carvacrol",
+   "p-cymene",
+   "gamma-terpinene"
+  ],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [
+   "thyme-herb-hot-infusion"
+  ],
+  "has_safety": true,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "nasturtium-officinale",
+  "accepted_name": "Nasturtium officinale",
+  "authority": "W.T.Aiton",
+  "family": "Brassicaceae",
+  "common_names": [
+   "Watercress"
+  ],
+  "columns": [
+   "herbs"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "ocimum-tenuiflorum",
+  "accepted_name": "Ocimum tenuiflorum",
+  "authority": "L.",
+  "family": "Lamiaceae",
+  "common_names": [
+   "Holy basil"
+  ],
+  "columns": [
+   "medicinal"
+  ],
+  "identity_status": "check",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "calendula-officinalis",
+  "accepted_name": "Calendula officinalis",
+  "authority": "L.",
+  "family": "Asteraceae",
+  "common_names": [
+   "Calendula"
+  ],
+  "columns": [
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "matricaria-chamomilla",
+  "accepted_name": "Matricaria chamomilla",
+  "authority": "L.",
+  "family": "Asteraceae",
+  "common_names": [
+   "German chamomile"
+  ],
+  "columns": [
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": true,
+  "profile_depth": "guest",
+  "n_plantings": 1,
+  "compounds": [
+   "luteolin-7-glucoside",
+   "apigenin",
+   "apigenin-7-glucoside",
+   "alpha-bisabolol",
+   "bisabolol-oxide-a",
+   "chamazulene",
+   "matricin",
+   "herniarin",
+   "umbelliferone",
+   "cis-spiroether"
+  ],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [
+   "chamomile-flower-hot-infusion"
+  ],
+  "has_safety": true,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "taraxacum-officinale",
+  "accepted_name": "Taraxacum sect. Taraxacum",
+  "authority": "F.H.Wigg.",
+  "family": "Asteraceae",
+  "common_names": [
+   "Dandelion"
+  ],
+  "columns": [
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "echinacea-purpurea",
+  "accepted_name": "Echinacea purpurea",
+  "authority": "(L.) Moench",
+  "family": "Asteraceae",
+  "common_names": [
+   "Purple coneflower"
+  ],
+  "columns": [
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "tanacetum-parthenium",
+  "accepted_name": "Tanacetum parthenium",
+  "authority": "(L.) Sch.Bip.",
+  "family": "Asteraceae",
+  "common_names": [
+   "Feverfew"
+  ],
+  "columns": [
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "leonurus-cardiaca",
+  "accepted_name": "Leonurus cardiaca",
+  "authority": "L.",
+  "family": "Lamiaceae",
+  "common_names": [
+   "Motherwort"
+  ],
+  "columns": [
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "mentha-x-piperita",
+  "accepted_name": "Mentha × piperita",
+  "authority": "L.",
+  "family": "Lamiaceae",
+  "common_names": [
+   "Peppermint"
+  ],
+  "columns": [
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": true,
+  "profile_depth": "light",
+  "n_plantings": 1,
+  "compounds": [
+   "rosmarinic-acid",
+   "menthol",
+   "menthone",
+   "menthofuran",
+   "pulegone",
+   "1-8-cineole",
+   "eriocitrin"
+  ],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [
+   "peppermint-leaf-hot-infusion"
+  ],
+  "has_safety": true,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "scutellaria-lateriflora",
+  "accepted_name": "Scutellaria lateriflora",
+  "authority": "L.",
+  "family": "Lamiaceae",
+  "common_names": [
+   "American skullcap"
+  ],
+  "columns": [
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": true,
+  "profile_depth": "deep",
+  "n_plantings": 0,
+  "compounds": [
+   "baicalin",
+   "baicalein",
+   "wogonin",
+   "scutellarin",
+   "dihydrobaicalin",
+   "oroxylin-a",
+   "teucrin-a"
+  ],
+  "candidates": [],
+  "candidate_of": "scutellaria-sp",
+  "preparations": [],
+  "has_safety": true,
+  "statuses": []
+ },
+ {
+  "id": "scutellaria-baicalensis",
+  "accepted_name": "Scutellaria baicalensis",
+  "authority": "Georgi",
+  "family": "Lamiaceae",
+  "common_names": [
+   "Chinese skullcap",
+   "Huang qin"
+  ],
+  "columns": [
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": true,
+  "profile_depth": "deep",
+  "n_plantings": 0,
+  "compounds": [
+   "baicalin",
+   "baicalein",
+   "wogonin",
+   "wogonoside",
+   "oroxylin-a",
+   "chrysin",
+   "norwogonin"
+  ],
+  "candidates": [],
+  "candidate_of": "scutellaria-sp",
+  "preparations": [],
+  "has_safety": true,
+  "statuses": []
+ },
+ {
+  "id": "scutellaria-sp",
+  "accepted_name": "Scutellaria sp.",
+  "authority": null,
+  "family": "Lamiaceae",
+  "common_names": [
+   "Skullcap"
+  ],
+  "columns": [
+   "medicinal"
+  ],
+  "identity_status": "unresolved",
+  "profiled": true,
+  "profile_depth": "deep",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [
+   "scutellaria-lateriflora",
+   "scutellaria-baicalensis"
+  ],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ },
+ {
+  "id": "achillea-millefolium",
+  "accepted_name": "Achillea millefolium",
+  "authority": "L.",
+  "family": "Asteraceae",
+  "common_names": [
+   "Yarrow"
+  ],
+  "columns": [
+   "medicinal"
+  ],
+  "identity_status": "confirmed",
+  "profiled": false,
+  "profile_depth": "stub",
+  "n_plantings": 1,
+  "compounds": [],
+  "candidates": [],
+  "candidate_of": null,
+  "preparations": [],
+  "has_safety": false,
+  "statuses": [
+   "current"
+  ]
+ }
+]

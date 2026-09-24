@@ -1,0 +1,319 @@
+{
+ "compound": {
+  "id": "teucrin-a",
+  "name": "teucrin A",
+  "synonyms": [
+   "teucrin A (neoclerodane diterpenoid)"
+  ],
+  "class": "clerodane-diterpenoid",
+  "subclass": "furan-containing neoclerodane diterpene",
+  "one_liner": "NOT a skullcap constituent: the germander (Teucrium) hepatotoxin behind 'skullcap' liver injury cases caused by adulteration.",
+  "palette_group": "lamiaceae",
+  "auxiliary": true,
+  "identity": {
+   "iupac": "(1R,5'S,8S,9S,10S,11S)-5'-(furan-3-yl)-11-hydroxy-10-methylspiro[2-oxatricyclo[6.3.1.0^4,12]dodec-4(12)-ene-9,3'-oxolane]-2',3-dione",
+   "formula": "C19H20O6",
+   "mw": 344.36,
+   "mw_source": "computed_from_formula",
+   "smiles": "C[C@@H]1[C@@H]([C@H]2C3=C(CCC[C@@H]3[C@@]14C[C@H](OC4=O)C5=COC=C5)C(=O)O2)O",
+   "inchikey": "AONLJCCUYGGOSW-PJERILTQSA-N",
+   "cas": "12798-51-5",
+   "pubchem_cid": 159529,
+   "chebi_id": "CHEBI:231305",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/159529/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": "Auxiliary record (Teucrium adulterant, not a skullcap constituent). SMILES as returned by the fetch summariser; worth one direct re-check before use."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MEP/terpenoid (diterpene)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "teucrium-chamaedrys",
+    "plant_part": "plant",
+    "value": null,
+    "unit": null,
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Kouzi SA, McMurtry RJ, Nelson SD (1994) Hepatotoxicity of germander (Teucrium chamaedrys L.) and one of its constituent neoclerodane diterpenes teucrin A in the mouse. Chem Res Toxicol 7(6):850-856",
+    "source_doi_or_url": "https://doi.org/10.1021/tx00042a020",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6644?page&_format=csv",
+    "verified": true,
+    "note": "Teucrium chamaedrys is not an inventory taxon (auxiliary record). Duke: TEUCRIN-A Plant (Hager's Handbuch), no value. Kouzi 1994 title names teucrin A as a constituent neoclerodane diterpene of germander (abstract not available). No KNApSAcK or LOTUS hit for 'teucrin A'."
+   },
+   {
+    "taxon_id": "scutellaria-lateriflora",
+    "plant_part": "aerial parts",
+    "value": "not detected",
+    "unit": "qualitative",
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Lin L-Z, Harnly JM, Upton R (2009) Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal 20(4):298-306",
+    "source_doi_or_url": "https://doi.org/10.1002/pca.1127",
+    "database": null,
+    "database_url": null,
+    "verified": true,
+    "note": "Negative record: Lin 2009 found teucrin A, teuflin and teucvidin in Teucrium spp. but 'none of these compounds were detected in any of the authenticated S. lateriflora ... samples using TIC or SIM detection'. No TEUCRIN rows in the Duke S. lateriflora set. Consistent with curation.md (auxiliary record)."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": "Cytochrome P450 oxidation of the furan ring produces a reactive metabolite that initiates hepatocellular necrosis in mice; the furan-reduced analogue is not toxic [30].",
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [
+   {
+    "claim": "Teucrin A reproduces germander hepatotoxicity in mice via P450 bioactivation of its furan ring.",
+    "grade": "D",
+    "test_article": "isolated_compound",
+    "test_article_detail": "teucrin A and germander extract in mice",
+    "population": "animal",
+    "outcome_summary": "Centrilobular necrosis; potentiated by phenobarbital, reduced by piperonyl butoxide.",
+    "refs": [
+     30
+    ],
+    "note": null
+   }
+  ],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Not sourced.",
+   "refs": []
+  },
+  "safety_flags": [
+   {
+    "flag": "hepatotoxin (adulterant marker)",
+    "detail": "Found in Teucrium spp. but not detected in any authenticated S. lateriflora sample [25]; germander caused hepatitis in people with positive rechallenge [31].",
+    "threshold_or_limit": null,
+    "source_citation": "Lin et al. 2009; Larrey et al. 1992; Kouzi et al. 1994",
+    "refs": [
+     25,
+     30,
+     31
+    ]
+   }
+  ],
+  "teaching_note": "An auxiliary record: it appears only in the adulteration story on the skullcap pages. LiverTox notes that analysis has in some cases found germander in suspected skullcap products [13].",
+  "citations": [
+   13,
+   25,
+   30,
+   31
+  ],
+  "gaps": [
+   "Occurrence in germander rests on Duke (no value) + the Kouzi 1994 title/abstract.",
+   "SMILES from the fetch summariser; re-check directly.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "NOT a skullcap constituent: the [germander](#term:germander) (Teucrium) hepatotoxin behind 'skullcap' [liver injury](#term:hepatotoxicity) cases caused by [adulteration](#term:adulteration).",
+   "mechanism": "[Cytochrome P450](#term:cytochrome-p450) oxidation of the furan ring produces a reactive metabolite that initiates hepatocellular necrosis in mice; the furan-reduced analogue is not toxic [30](#cite:30).",
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "An auxiliary record: it appears only in the adulteration story on the skullcap pages. [LiverTox](#term:livertox) notes that analysis has in some cases found germander in suspected skullcap products [13](#cite:13).",
+   "processing_note": "Not sourced.",
+   "biosynthesis_note": null,
+   "evidence": [
+    {
+     "claim": "Teucrin A reproduces germander hepatotoxicity in mice via P450 [bioactivation](#term:bioactivation) of its furan ring.",
+     "outcome_summary": "Centrilobular necrosis; potentiated by phenobarbital, reduced by piperonyl butoxide."
+    }
+   ],
+   "safety_flags": [
+    "Found in Teucrium spp. but not detected in any authenticated S. lateriflora sample [25](#cite:25); germander caused hepatitis in people with positive rechallenge [31](#cite:31)."
+   ]
+  },
+  "terms": [
+   "germander",
+   "hepatotoxicity",
+   "adulteration",
+   "cytochrome-p450",
+   "livertox",
+   "bioactivation"
+  ],
+  "cited_refs": [
+   13,
+   25,
+   30,
+   31
+  ],
+  "taxa": [
+   "teucrium-chamaedrys",
+   "scutellaria-lateriflora"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C19H20O6",
+   "inchikeyComputed": "AONLJCCUYGGOSW-PJERILTQSA-N",
+   "canonicalSmiles": "C[C@@H]1[C@H](O)[C@@H]2OC(=O)C3=C2[C@H](CCC3)[C@@]12C[C@@H](c1ccoc1)OC2=O",
+   "monoisotopicMass": 344.126,
+   "averageMass": 344.363,
+   "descriptors": {
+    "heavyAtoms": 25,
+    "rings": 5,
+    "aromaticRings": 1,
+    "hbd": 1,
+    "hba": 6,
+    "rotatableBonds": 1,
+    "logP": 2.29,
+    "tpsa": 86,
+    "fsp3": 0.58,
+    "stereocenters": 6,
+    "charge": 0
+   },
+   "atomCount": 45,
+   "heavyAtomCount": 25,
+   "functionalGroups": [
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       2,
+       10
+      ]
+     ]
+    },
+    {
+     "id": "ester",
+     "name": "Ester",
+     "matches": [
+      [
+       6,
+       14,
+       3,
+       0,
+       16
+      ],
+      [
+       15,
+       20,
+       4,
+       1,
+       11
+      ]
+     ]
+    },
+    {
+     "id": "lactone",
+     "name": "Lactone (cyclic ester)",
+     "matches": [
+      [
+       6,
+       14,
+       3,
+       0,
+       16
+      ],
+      [
+       15,
+       20,
+       4,
+       1,
+       11
+      ]
+     ]
+    },
+    {
+     "id": "furan",
+     "name": "Furan ring",
+     "matches": [
+      [
+       5,
+       23,
+       21,
+       22,
+       24
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/teucrin-a.sdf",
+   "svg": {
+    "light": "structures/2d/teucrin-a.svg",
+    "dark": "structures/2d/teucrin-a.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/teucrin-a.json",
+   "mwPack": 344.36,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "teucrin-a#0",
+   "compound_id": "teucrin-a",
+   "compound": "teucrin A",
+   "class": "clerodane-diterpenoid",
+   "palette_group": "lamiaceae",
+   "auxiliary": true,
+   "taxon_id": "teucrium-chamaedrys",
+   "taxon_known": false,
+   "taxon_name": null,
+   "family": null,
+   "plant_part": "plant",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Kouzi SA, McMurtry RJ, Nelson SD (1994) Hepatotoxicity of germander (Teucrium chamaedrys L.) and one of its constituent neoclerodane diterpenes teucrin A in the mouse. Chem Res Toxicol 7(6):850-856",
+   "source_doi_or_url": "https://doi.org/10.1021/tx00042a020",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6644?page&_format=csv",
+   "verified": true,
+   "note": "Teucrium chamaedrys is not an inventory taxon (auxiliary record). Duke: TEUCRIN-A Plant (Hager's Handbuch), no value. Kouzi 1994 title names teucrin A as a constituent neoclerodane diterpene of germander (abstract not available). No KNApSAcK or LOTUS hit for 'teucrin A'.",
+   "refs": [
+    30
+   ]
+  },
+  {
+   "row": "teucrin-a#1",
+   "compound_id": "teucrin-a",
+   "compound": "teucrin A",
+   "class": "clerodane-diterpenoid",
+   "palette_group": "lamiaceae",
+   "auxiliary": true,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "aerial parts",
+   "value": "not detected",
+   "unit": "qualitative",
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Lin L-Z, Harnly JM, Upton R (2009) Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal 20(4):298-306",
+   "source_doi_or_url": "https://doi.org/10.1002/pca.1127",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "Negative record: Lin 2009 found teucrin A, teuflin and teucvidin in Teucrium spp. but 'none of these compounds were detected in any of the authenticated S. lateriflora ... samples using TIC or SIM detection'. No TEUCRIN rows in the Duke S. lateriflora set. Consistent with curation.md (auxiliary record).",
+   "refs": [
+    25
+   ]
+  }
+ ],
+ "preparations": []
+}

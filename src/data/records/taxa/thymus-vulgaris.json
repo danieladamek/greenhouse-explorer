@@ -1,0 +1,497 @@
+{
+ "taxa": [
+  {
+   "id": "thymus-vulgaris",
+   "species_key": "Thymus vulgaris",
+   "accepted_name": "Thymus vulgaris",
+   "authority": "L.",
+   "family": "Lamiaceae",
+   "common_names": [
+    "Common thyme",
+    "Thyme"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 49992,
+    "powo_id": "urn:lsid:ipni.org:names:461765-1",
+    "gbif_key": 5341442,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "herbs",
+    "medicinal"
+   ],
+   "identity_status": "confirmed",
+   "profiled": true,
+   "profile_depth": "light",
+   "cultivars": [
+    {
+     "crop_id": "GH-075",
+     "name": "German Winter",
+     "type": "Leaf",
+     "list_category": "herbs",
+     "name_as_given": "Thymus vulgaris",
+     "identity_status": "confirmed",
+     "note": null
+    },
+    {
+     "crop_id": "GH-090",
+     "name": null,
+     "type": "Leaf",
+     "list_category": "medicinal",
+     "name_as_given": "Thymus vulgaris (probable)",
+     "identity_status": "check",
+     "note": "May be the German Winter plant listed under Herbs, or a separate thyme (e.g. lemon thyme, T. × citriodorus)."
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-075",
+    "GH-090"
+   ],
+   "n_plantings": 2,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [
+    "linalool",
+    "rosmarinic-acid",
+    "luteolin",
+    "luteolin-7-glucoside",
+    "thymol",
+    "carvacrol",
+    "p-cymene",
+    "gamma-terpinene"
+   ],
+   "occurrence_rows": [
+    "linalool#1",
+    "rosmarinic-acid#5",
+    "luteolin#1",
+    "luteolin-7-glucoside#1",
+    "thymol#0",
+    "carvacrol#0",
+    "p-cymene#0",
+    "gamma-terpinene#0"
+   ],
+   "safety_evidence": {
+    "taxon_id": "thymus-vulgaris",
+    "plant_part_used": "herb (aerial parts); combination syrups",
+    "safety": {
+     "drug_interactions": [
+      {
+       "with": "CYP450 substrates",
+       "effect": "aqueous extracts inhibited CYP450 in vitro; no clinical interactions reported",
+       "evidence_grade": "E",
+       "refs": [
+        9
+       ],
+       "md": "aqueous extracts inhibited CYP450 [in vitro](#term:in-vitro); no clinical [interactions](#term:drug-interaction) reported"
+      }
+     ],
+     "pregnancy_lactation": {
+      "statement": "'Safety during pregnancy and lactation has not been established... use during pregnancy and lactation is not recommended' (EMA).",
+      "refs": [
+       9
+      ],
+      "md": "'Safety during pregnancy and lactation has not been established... use during pregnancy and lactation is not recommended' ([EMA](#term:ema-hmpc))."
+     },
+     "allergy": {
+      "statement": "Very rare hypersensitivity; possible cross-reactivity within Lamiaceae; contact dermatitis and asthma from thyme dust; one anaphylaxis case reported.",
+      "refs": [
+       9
+      ],
+      "md": "Very rare hypersensitivity; possible [cross-reactivity](#term:cross-reactivity) within [Lamiaceae](#term:lamiaceae); [contact dermatitis](#term:contact-allergen) and asthma from thyme dust; one [anaphylaxis](#term:anaphylaxis) case reported."
+     },
+     "adverse_event_history": {
+      "statement": "Mostly mild gastrointestinal or skin reactions; one case of acute hepatitis after ingesting pure thyme essential oil.",
+      "refs": [
+       9
+      ],
+      "md": "Mostly mild gastrointestinal or skin reactions; one case of acute [hepatitis](#term:hepatotoxicity) after ingesting pure thyme [essential oil](#term:essential-oil)."
+     },
+     "contraindications": [
+      {
+       "statement": "Hypersensitivity to thyme or other Lamiaceae [9]",
+       "md": "Hypersensitivity to thyme or other Lamiaceae [9](#cite:9)"
+      }
+     ],
+     "constituents_of_concern": [
+      {
+       "compound_id": "thymol",
+       "concern": "historical vermifuge doses far above medicinal exposure caused abdominal pain and collapse",
+       "threshold_or_limit": "EMA estimates ~38 mg thymol daily from medicinal thyme use (context, not a limit)",
+       "refs": [
+        9
+       ],
+       "md": "historical vermifuge doses far above medicinal exposure caused abdominal pain and collapse"
+      }
+     ]
+    },
+    "evidence": [
+     {
+      "claim": "A thyme + ivy fluid-extract syrup reduced coughing fits in acute bronchitis faster than placebo.",
+      "grade": "B",
+      "test_article": "multi_herb_formula",
+      "test_article_detail": "fixed fluid extract combination of thyme herb and ivy leaves, 11 days",
+      "population": "human",
+      "outcome_summary": "Coughing fits -68.7 % vs -47.6 % by days 7-9 (p < 0.0001; n = 361).",
+      "refs": [
+       56
+      ],
+      "note": "Two-herb product; not transferable to thyme alone or to thyme honey.",
+      "md": {
+       "claim": "A thyme + ivy fluid-extract syrup reduced coughing fits in acute bronchitis faster than [placebo](#term:placebo).",
+       "outcome_summary": "Coughing fits -68.7 % vs -47.6 % by days 7-9 (p < 0.0001; n = 361)."
+      }
+     },
+     {
+      "claim": "Thyme herb is traditionally used in productive cough associated with cold.",
+      "grade": "T",
+      "test_article": "whole_herb",
+      "test_article_detail": "thyme herb preparations",
+      "population": "traditional",
+      "outcome_summary": "EMA: 'Traditional herbal medicinal product used in productive cough associated with cold'.",
+      "refs": [
+       9
+      ],
+      "note": null,
+      "md": {
+       "claim": "Thyme herb is [traditionally used](#term:traditional-use) in productive cough associated with cold.",
+       "outcome_summary": "EMA: 'Traditional herbal medicinal product used in productive cough associated with cold'."
+      }
+     }
+    ],
+    "monograph_status": {
+     "ema_hmpc": {
+      "exists": true,
+      "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf"
+     },
+     "escop": {
+      "exists": null,
+      "url": null
+     },
+     "who": {
+      "exists": true,
+      "url": "https://iris.who.int/handle/10665/42052"
+     }
+    },
+    "refs": [
+     9,
+     17,
+     56
+    ],
+    "gaps": [
+     "EMA monograph URL not recorded.",
+     "ESCOP status not checked.",
+     "WHO Herba Thymi text not read (only the table of contents).",
+     "Thyme honey for cough not researched."
+    ],
+    "as_of": "2026-09-23",
+    "terms": [
+     "in-vitro",
+     "drug-interaction",
+     "ema-hmpc",
+     "cross-reactivity",
+     "lamiaceae",
+     "contact-allergen",
+     "anaphylaxis",
+     "hepatotoxicity",
+     "essential-oil",
+     "placebo",
+     "traditional-use"
+    ],
+    "cited_refs": [
+     9,
+     17,
+     56
+    ]
+   },
+   "preparations": [
+    "thyme-herb-hot-infusion"
+   ],
+   "primer_sections": [
+    "1-what-every-plant-shares",
+    "5-three-pathways-that-make-the-greenhouse-smell",
+    "7-from-leaf-to-cup",
+    "8-how-to-read-the-rest-of-this-site"
+   ],
+   "todo": [
+    {
+     "where": "taxa_safety_evidence/thymus-vulgaris",
+     "what": "EMA monograph URL not recorded."
+    },
+    {
+     "where": "taxa_safety_evidence/thymus-vulgaris",
+     "what": "ESCOP status not checked."
+    },
+    {
+     "where": "taxa_safety_evidence/thymus-vulgaris",
+     "what": "WHO Herba Thymi text not read (only the table of contents)."
+    },
+    {
+     "where": "taxa_safety_evidence/thymus-vulgaris",
+     "what": "Thyme honey for cough not researched."
+    }
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "row": "linalool#1",
+   "compound_id": "linalool",
+   "compound": "linalool",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "thymus-vulgaris",
+   "taxon_known": true,
+   "taxon_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "28200-42800",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013 (12 Nov 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+   "verified": false,
+   "note": "Duke: LINALOOL Essential Oil 28200-42800 ppm (2.8-4.3 % of oil); Plant 20-17420 ppm. EMA lists linalool among the main oil components and notes 'at least 6 chemotypes of Thymus vulgaris'; only the thymol type meets Ph. Eur. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) | RULING: EMA confirms ≥6 thyme chemotypes but no paper read names a linalool chemotype, so this row is verified:false.",
+   "refs": [
+    9
+   ]
+  },
+  {
+   "row": "rosmarinic-acid#5",
+   "compound_id": "rosmarinic-acid",
+   "compound": "rosmarinic acid",
+   "class": "hydroxycinnamic-acid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "thymus-vulgaris",
+   "taxon_known": true,
+   "taxon_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "plant_part": "herb (aerial parts), cv. 'Standard Winter'",
+   "value": "611.47-2675.59",
+   "unit": "mg/100 g",
+   "basis": "dry_weight",
+   "level": "cultivar",
+   "cultivar": "Standard Winter",
+   "source_citation": "Kosakowska O, Bączek K, Przybył JL, et al. (2020) Morphological and chemical traits as quality determinants of common thyme (Thymus vulgaris L.), on the example of 'Standard Winter' cultivar. Agronomy 10(6):909",
+   "source_doi_or_url": "https://doi.org/10.3390/agronomy10060909",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+   "verified": true,
+   "note": "Value from paper (dried herb, 'Standard Winter' - relevant to the German Winter planting). Duke: Shoot 5000-13500 ppm; Plant max 26000 ppm (Fitoterapia 62:166). | Basis as recorded: dry weight | Study cultivar 'Standard Winter'; relevant to, but not the same record as, the greenhouse 'German Winter'.",
+   "refs": [
+    20
+   ]
+  },
+  {
+   "row": "luteolin#1",
+   "compound_id": "luteolin",
+   "compound": "luteolin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "thymus-vulgaris",
+   "taxon_known": true,
+   "taxon_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "plant_part": "herbal substance (dried herb)",
+   "value": "1.12",
+   "unit": "mg/g",
+   "basis": "dry_weight",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013 (12 Nov 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+   "verified": true,
+   "note": "EMA: luteolin '1.12 mg/g in the herbal substance, 3.9 mg/g in a dry extract ..., 0.466 mg/g in the liquid extract'. Duke: LUTEOLIN Leaf, Plant (no values). Kosakowska 2020 reports luteolin 7-O-glucoside 46.77-325.11 mg/100 g DW in 'Standard Winter'. | Basis as recorded: dried herbal substance",
+   "refs": [
+    9
+   ]
+  },
+  {
+   "row": "luteolin-7-glucoside#1",
+   "compound_id": "luteolin-7-glucoside",
+   "compound": "luteolin-7-O-glucoside (cynaroside)",
+   "class": "flavone-glycoside",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "thymus-vulgaris",
+   "taxon_known": true,
+   "taxon_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "plant_part": "herb (aerial parts), cv. 'Standard Winter'",
+   "value": "46.77-325.11",
+   "unit": "mg/100 g",
+   "basis": "dry_weight",
+   "level": "cultivar",
+   "cultivar": "Standard Winter",
+   "source_citation": "Kosakowska O, Bączek K, Przybył JL, et al. (2020) Morphological and chemical traits as quality determinants of common thyme (Thymus vulgaris L.), on the example of 'Standard Winter' cultivar. Agronomy 10(6):909",
+   "source_doi_or_url": "https://doi.org/10.3390/agronomy10060909",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "Added per ruling; value from the verification pass notes (luteolin entry). Study cultivar, not the greenhouse 'German Winter'.",
+   "refs": [
+    20
+   ]
+  },
+  {
+   "row": "thymol#0",
+   "compound_id": "thymol",
+   "compound": "thymol",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "thymus-vulgaris",
+   "taxon_known": true,
+   "taxon_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil of dried herb, cv. 'Standard Winter'",
+   "value": "36.74-54.59",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "cultivar",
+   "cultivar": "Standard Winter",
+   "source_citation": "Kosakowska O, Bączek K, Przybył JL, et al. (2020) Morphological and chemical traits as quality determinants of common thyme (Thymus vulgaris L.), on the example of 'Standard Winter' cultivar. Agronomy 10(6):909",
+   "source_doi_or_url": "https://doi.org/10.3390/agronomy10060909",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+   "verified": true,
+   "note": "Duke: THYMOL Essential Oil 231000-600500 ppm; Plant 15-24100 ppm. EMA: Ph. Eur. min. 1.2 % oil with min. 40 % thymol + carvacrol. | Basis as recorded: % of essential oil | Study cultivar 'Standard Winter'; relevant to, but not the same record as, the greenhouse 'German Winter'.",
+   "refs": [
+    20
+   ]
+  },
+  {
+   "row": "carvacrol#0",
+   "compound_id": "carvacrol",
+   "compound": "carvacrol",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "thymus-vulgaris",
+   "taxon_known": true,
+   "taxon_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "16700-80200",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013 (12 Nov 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+   "verified": true,
+   "note": "EMA lists carvacrol among main components; Ph. Eur. thymol + carvacrol min. 40 % of oil. Kosakowska 2020 did not quantify carvacrol separately. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)",
+   "refs": [
+    9
+   ]
+  },
+  {
+   "row": "p-cymene#0",
+   "compound_id": "p-cymene",
+   "compound": "p-cymene",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "thymus-vulgaris",
+   "taxon_known": true,
+   "taxon_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "78300-441300",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013 (12 Nov 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+   "verified": true,
+   "note": "EMA lists p-cymene among main oil components; Kosakowska 2020 reports p-cymene among the highest monoterpene hydrocarbons. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)",
+   "refs": [
+    9
+   ]
+  },
+  {
+   "row": "gamma-terpinene#0",
+   "compound_id": "gamma-terpinene",
+   "compound": "γ-terpinene",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "thymus-vulgaris",
+   "taxon_known": true,
+   "taxon_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "17800-49500",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013 (12 Nov 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+   "verified": true,
+   "note": "EMA lists γ-terpinene among main oil components. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)",
+   "refs": [
+    9
+   ]
+  }
+ ],
+ "plantings": [
+  {
+   "id": "GH-075",
+   "list_category": "Herbs",
+   "original_entry": "Thyme, German Winter",
+   "common_name": "Common thyme",
+   "cultivar": "German Winter",
+   "crop_type": "Leaf",
+   "scientific_name": "Thymus vulgaris",
+   "species_key": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "thymus-vulgaris",
+   "status": "current"
+  },
+  {
+   "id": "GH-090",
+   "list_category": "Medicinal",
+   "original_entry": "Thyme",
+   "common_name": "Thyme",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf",
+   "scientific_name": "Thymus vulgaris (probable)",
+   "species_key": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "confidence": "Check",
+   "note": "May be the German Winter plant listed under Herbs, or a separate thyme (e.g. lemon thyme, T. × citriodorus).",
+   "taxon_id": "thymus-vulgaris",
+   "status": "current"
+  }
+ ],
+ "preparations": [
+  {
+   "id": "thyme-herb-hot-infusion",
+   "name": "Thyme herb, hot-water infusion"
+  }
+ ]
+}

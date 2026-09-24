@@ -1,0 +1,224 @@
+{
+ "compound": {
+  "id": "caffeic-acid",
+  "name": "caffeic acid",
+  "synonyms": [
+   "3,4-dihydroxycinnamic acid"
+  ],
+  "class": "hydroxycinnamic-acid",
+  "subclass": "hydroxycinnamic acid",
+  "one_liner": "The building block of rosmarinic acid; also one of its breakdown products in people.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "(E)-3-(3,4-dihydroxyphenyl)prop-2-enoic acid",
+   "formula": "C9H8O4",
+   "mw": 180.16,
+   "mw_source": "computed_from_formula",
+   "smiles": "C1=CC(=C(C=C1/C=C/C(=O)O)O)O",
+   "inchikey": "QAIPRVGONGVQAS-DUXPYHPUSA-N",
+   "cas": "331-39-5",
+   "pubchem_cid": 689043,
+   "chebi_id": "CHEBI:36281",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/689043/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "shikimate/phenylpropanoid",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "melissa-officinalis",
+    "plant_part": "plant",
+    "value": "max 2100",
+    "unit": "ppm",
+    "basis": "unstated",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Melissa officinalis L., folium. EMA/HMPC/196746/2012 (14 May 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5947?page&_format=csv",
+    "verified": true,
+    "note": "EMA names caffeic acid among the hydroxycinnamic acid derivatives (no amount). | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": "Caffeic acid appears in human urine after rosmarinic acid intake, as a degradation product [45].",
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Not sourced.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "Caffeic acid links plant and person: the plant builds rosmarinic acid from it, and the body breaks rosmarinic acid back down to it [45].",
+  "citations": [
+   8,
+   45
+  ],
+  "gaps": [
+   "Occurrence rests on Duke + an EMA mention without amount.",
+   "Pharmacology and safety not researched.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "The building block of rosmarinic acid; also one of its breakdown products in people.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": "Caffeic acid appears in human urine after rosmarinic acid intake, as a degradation product [45](#cite:45).",
+   "teaching_note": "Caffeic acid links plant and person: the plant builds rosmarinic acid from it, and the body breaks rosmarinic acid back down to it [45](#cite:45).",
+   "processing_note": "Not sourced.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [],
+  "cited_refs": [
+   8,
+   45
+  ],
+  "taxa": [
+   "melissa-officinalis"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C9H8O4",
+   "inchikeyComputed": "QAIPRVGONGVQAS-DUXPYHPUSA-N",
+   "canonicalSmiles": "O=C(O)/C=C/c1ccc(O)c(O)c1",
+   "monoisotopicMass": 180.0423,
+   "averageMass": 180.159,
+   "descriptors": {
+    "heavyAtoms": 13,
+    "rings": 1,
+    "aromaticRings": 1,
+    "hbd": 3,
+    "hba": 3,
+    "rotatableBonds": 2,
+    "logP": 1.2,
+    "tpsa": 77.8,
+    "fsp3": 0,
+    "stereocenters": 0,
+    "charge": 0
+   },
+   "atomCount": 21,
+   "heavyAtomCount": 13,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       0,
+       7
+      ],
+      [
+       1,
+       8
+      ]
+     ]
+    },
+    {
+     "id": "catechol",
+     "name": "Catechol (1,2-diol)",
+     "matches": [
+      [
+       0,
+       7,
+       8,
+       1
+      ]
+     ]
+    },
+    {
+     "id": "carboxylic-acid",
+     "name": "Carboxylic acid / carboxylate",
+     "matches": [
+      [
+       12,
+       3,
+       2
+      ]
+     ]
+    },
+    {
+     "id": "cinnamoyl",
+     "name": "α,β-Unsaturated acid (cinnamoyl)",
+     "matches": [
+      [
+       4,
+       10,
+       11,
+       12,
+       3,
+       2
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/caffeic-acid.sdf",
+   "svg": {
+    "light": "structures/2d/caffeic-acid.svg",
+    "dark": "structures/2d/caffeic-acid.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/caffeic-acid.json",
+   "mwPack": 180.16,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": [
+   "5-three-pathways-that-make-the-greenhouse-smell"
+  ]
+ },
+ "rows": [
+  {
+   "row": "caffeic-acid#0",
+   "compound_id": "caffeic-acid",
+   "compound": "caffeic acid",
+   "class": "hydroxycinnamic-acid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "melissa-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Melissa officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "plant",
+   "value": "max 2100",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Melissa officinalis L., folium. EMA/HMPC/196746/2012 (14 May 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5947?page&_format=csv",
+   "verified": true,
+   "note": "EMA names caffeic acid among the hydroxycinnamic acid derivatives (no amount). | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    8
+   ]
+  }
+ ],
+ "preparations": []
+}

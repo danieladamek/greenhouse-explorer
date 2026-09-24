@@ -1,0 +1,262 @@
+{
+ "compound": {
+  "id": "wogonoside",
+  "name": "wogonoside (wogonin 7-O-glucuronide)",
+  "synonyms": [
+   "oroxindin",
+   "wogonin 7-O-β-D-glucuronide"
+  ],
+  "class": "flavone-glucuronide",
+  "subclass": "O-methylated 4'-deoxyflavone glucuronide",
+  "one_liner": "Glucuronide of wogonin, a major root flavone of Chinese skullcap.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "(2S,3S,4S,5R,6S)-3,4,5-trihydroxy-6-(5-hydroxy-8-methoxy-4-oxo-2-phenylchromen-7-yl)oxyoxane-2-carboxylic acid",
+   "formula": "C22H20O11",
+   "mw": 460.39,
+   "mw_source": "computed_from_formula",
+   "smiles": "COC1=C(C=C(C2=C1OC(=CC2=O)C3=CC=CC=C3)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)C(=O)O)O)O)O",
+   "inchikey": "LNOHXHDWGCMVCO-NTKSAMNMSA-N",
+   "cas": "51059-44-0",
+   "pubchem_cid": 3084961,
+   "chebi_id": "CHEBI:61282",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/3084961/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": "PubChem record title is 'Oroxindin' (synonym of wogonoside; CAS 51059-44-0 matches KNApSAcK's wogonoside)."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "flavonoid (phenylpropanoid + malonate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "scutellaria-baicalensis",
+    "plant_part": "root",
+    "value": "max 39700",
+    "unit": "ppm",
+    "basis": "unstated",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+    "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+    "verified": true,
+    "note": "Duke also WOGONIN-7-O-GLUCURONIDE Root 119-54000 ppm. Costine 2022: root 3.8 ± 0.9 mg/g. CIR/Cai 2016: 155 mg/g aqueous root extract. KNApSAcK C00004131. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Not sourced.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "Not the same as KNApSAcK's 'wogonin 7-glucoside' (a glucoside, C22H22O10): one sugar acid makes a different compound, which is why the lateriflora row was dropped.",
+  "citations": [
+   24
+  ],
+  "gaps": [
+   "S. lateriflora occurrence dropped (database hit was a different compound).",
+   "Pharmacology not researched.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "[Glucuronide](#term:glucuronide) of wogonin, a major root [flavone](#term:flavone) of Chinese skullcap.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Not the same as [KNApSAcK](#term:knapsack)'s 'wogonin 7-glucoside' (a [glucoside](#term:glycoside), C22H22O10): one sugar acid makes a different compound, which is why the lateriflora row was dropped.",
+   "processing_note": "Not sourced.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "glucuronide",
+   "flavone",
+   "knapsack",
+   "glycoside"
+  ],
+  "cited_refs": [
+   24
+  ],
+  "taxa": [
+   "scutellaria-baicalensis"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C22H20O11",
+   "inchikeyComputed": "LNOHXHDWGCMVCO-NTKSAMNMSA-N",
+   "canonicalSmiles": "COc1c(O[C@@H]2O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2O)cc(O)c2c(=O)cc(-c3ccccc3)oc12",
+   "monoisotopicMass": 460.1006,
+   "averageMass": 460.391,
+   "descriptors": {
+    "heavyAtoms": 33,
+    "rings": 4,
+    "aromaticRings": 3,
+    "hbd": 5,
+    "hba": 10,
+    "rotatableBonds": 5,
+    "logP": 0.45,
+    "tpsa": 176.1,
+    "fsp3": 0.27,
+    "stereocenters": 5,
+    "charge": 0
+   },
+   "atomCount": 53,
+   "heavyAtomCount": 33,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       9,
+       22
+      ]
+     ]
+    },
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       2,
+       11
+      ],
+      [
+       3,
+       12
+      ],
+      [
+       4,
+       13
+      ]
+     ]
+    },
+    {
+     "id": "methoxy",
+     "name": "Methoxy (aryl methyl ether)",
+     "matches": [
+      [
+       27,
+       8,
+       18
+      ]
+     ]
+    },
+    {
+     "id": "carboxylic-acid",
+     "name": "Carboxylic acid / carboxylate",
+     "matches": [
+      [
+       16,
+       6,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "glycoside",
+     "name": "Sugar (glycoside / glucuronide)",
+     "matches": [
+      [
+       0,
+       14,
+       12,
+       3,
+       11,
+       2,
+       13,
+       4,
+       15
+      ]
+     ]
+    },
+    {
+     "id": "chromone",
+     "name": "Chromone (flavone core)",
+     "matches": [
+      [
+       10,
+       23,
+       25,
+       24,
+       26,
+       7,
+       20,
+       18,
+       17,
+       19,
+       22,
+       21
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/wogonoside.sdf",
+   "svg": {
+    "light": "structures/2d/wogonoside.svg",
+    "dark": "structures/2d/wogonoside.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/wogonoside.json",
+   "mwPack": 460.39,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "wogonoside#0",
+   "compound_id": "wogonoside",
+   "compound": "wogonoside (wogonin 7-O-glucuronide)",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "max 39700",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "Duke also WOGONIN-7-O-GLUCURONIDE Root 119-54000 ppm. Costine 2022: root 3.8 ± 0.9 mg/g. CIR/Cai 2016: 155 mg/g aqueous root extract. KNApSAcK C00004131. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  }
+ ],
+ "preparations": []
+}

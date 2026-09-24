@@ -1,0 +1,407 @@
+{
+ "taxa": [
+  {
+   "id": "origanum-vulgare",
+   "species_key": "Origanum vulgare",
+   "accepted_name": "Origanum vulgare",
+   "authority": "L.",
+   "family": "Lamiaceae",
+   "common_names": [
+    "Greek oregano"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 39352,
+    "powo_id": "urn:lsid:ipni.org:names:453395-1",
+    "gbif_key": 2926612,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Origanum vulgare subsp. hirtum (Link) A.Terracc. (POWO urn:lsid:ipni.org:names:60473145-2; NCBI 497766)",
+    "Origanum hirtum Link"
+   ],
+   "columns": [
+    "herbs"
+   ],
+   "identity_status": "confirmed",
+   "profiled": true,
+   "profile_depth": "light",
+   "cultivars": [
+    {
+     "crop_id": "GH-071",
+     "name": null,
+     "type": "Leaf",
+     "list_category": "herbs",
+     "name_as_given": "Origanum vulgare subsp. hirtum",
+     "identity_status": "confirmed",
+     "note": "Carvacrol-rich subspecies."
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "The inventory names this subsp. hirtum (Greek oregano). Its POWO and NCBI ids are listed under synonyms. No GBIF key was resolved for the subspecies. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-071"
+   ],
+   "n_plantings": 1,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [
+    "rosmarinic-acid",
+    "luteolin",
+    "luteolin-7-glucoside",
+    "apigenin",
+    "thymol",
+    "carvacrol",
+    "p-cymene",
+    "gamma-terpinene",
+    "apigenin-7-glucoside"
+   ],
+   "occurrence_rows": [
+    "rosmarinic-acid#6",
+    "luteolin#2",
+    "luteolin-7-glucoside#2",
+    "apigenin#1",
+    "thymol#1",
+    "carvacrol#1",
+    "p-cymene#1",
+    "gamma-terpinene#1",
+    "apigenin-7-glucoside#1"
+   ],
+   "safety_evidence": {
+    "taxon_id": "origanum-vulgare",
+    "plant_part_used": "leaf/flowering tops (culinary); essential oil",
+    "safety": {
+     "drug_interactions": [],
+     "pregnancy_lactation": {
+      "statement": null,
+      "refs": [],
+      "md": null
+     },
+     "allergy": {
+      "statement": null,
+      "refs": [],
+      "md": null
+     },
+     "adverse_event_history": {
+      "statement": null,
+      "refs": [],
+      "md": null
+     },
+     "contraindications": [],
+     "constituents_of_concern": []
+    },
+    "evidence": [],
+    "monograph_status": {
+     "ema_hmpc": {
+      "exists": null,
+      "url": null
+     },
+     "escop": {
+      "exists": null,
+      "url": null
+     },
+     "who": {
+      "exists": null,
+      "url": null
+     }
+    },
+    "refs": [
+     21,
+     22
+    ],
+    "gaps": [
+     "No safety, interaction, pregnancy or allergy data researched.",
+     "No human evidence researched.",
+     "Monograph status not checked."
+    ],
+    "as_of": "2026-09-23",
+    "terms": [],
+    "cited_refs": [
+     21,
+     22
+    ]
+   },
+   "preparations": [],
+   "primer_sections": [],
+   "todo": [
+    {
+     "where": "taxa_safety_evidence/origanum-vulgare",
+     "what": "No safety, interaction, pregnancy or allergy data researched."
+    },
+    {
+     "where": "taxa_safety_evidence/origanum-vulgare",
+     "what": "No human evidence researched."
+    },
+    {
+     "where": "taxa_safety_evidence/origanum-vulgare",
+     "what": "Monograph status not checked."
+    }
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "row": "rosmarinic-acid#6",
+   "compound_id": "rosmarinic-acid",
+   "compound": "rosmarinic acid",
+   "class": "hydroxycinnamic-acid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": "upper non-woody shoots at bloom onset",
+   "value": "10809.37",
+   "unit": "mg/100 g",
+   "basis": "per_g_extract",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "No record found in Duke (O. vulgare subsp. hirtum set has only 36 volatile rows) or KNApSAcK (O. vulgare list); LOTUS visible JSON did not show Origanum (response truncated). Occurrence rests on the paper only. | Basis as recorded: per 100 g hydroethanolic extract",
+   "refs": [
+    21
+   ]
+  },
+  {
+   "row": "luteolin#2",
+   "compound_id": "luteolin",
+   "compound": "luteolin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": null,
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+   "database": null,
+   "database_url": null,
+   "verified": false,
+   "note": "Reported as glycosides: see luteolin-7-glucoside. Aglycone not verified: no Duke/KNApSAcK record; the paper found luteolin 7-O-glucoside as the dominant flavonoid of the hirtum extract but did not quantify free luteolin.",
+   "refs": [
+    21
+   ]
+  },
+  {
+   "row": "luteolin-7-glucoside#2",
+   "compound_id": "luteolin-7-glucoside",
+   "compound": "luteolin-7-O-glucoside (cynaroside)",
+   "class": "flavone-glycoside",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": "upper non-woody shoots at bloom onset (hydroethanolic extract)",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "Added per ruling: the dominant flavonoid of the subsp. hirtum extract (not quantified in the verification notes).",
+   "refs": [
+    21
+   ]
+  },
+  {
+   "row": "apigenin#1",
+   "compound_id": "apigenin",
+   "compound": "apigenin",
+   "class": "flavone",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": null,
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+   "database": "KNApSAcK",
+   "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Origanum%20vulgare",
+   "verified": false,
+   "note": "Reported as glycosides: see apigenin-7-glucoside. KNApSAcK: Apigenin C00003817 listed for Origanum vulgare subsp. hirtum. Paper reports apigenin 7-O-glucoside present in the hirtum extract; free apigenin not separately quantified, so paper-level verification of the aglycone is false.",
+   "refs": [
+    21
+   ]
+  },
+  {
+   "row": "thymol#1",
+   "compound_id": "thymol",
+   "compound": "thymol",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": "inflorescences (chemotype 1, carvacrol/thymol type)",
+   "value": "22.16",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "De Martino L, De Feo V, Formisano C, Mignola E, Senatore F (2009) Chemical composition and antimicrobial activity of the essential oils from three chemotypes of Origanum vulgare L. ssp. hirtum (Link) Ietswaart growing wild in Campania (Southern Italy). Molecules 14(8):2735-2746",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules14082735",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6068?page&_format=csv",
+   "verified": true,
+   "note": "Duke (hirtum, Lagouri 1993): THYMOL Shoot max 6165 ppm. Kosakowska 2021 did not report thymol for its hirtum sample. De Martino 2009: second chemotype thymol-dominated, third chemotype thymol 3.24 %. KNApSAcK lists 'm-Thymol' (C00000155) for O. vulgare. | Basis as recorded: % of essential oil",
+   "refs": [
+    22
+   ]
+  },
+  {
+   "row": "carvacrol#1",
+   "compound_id": "carvacrol",
+   "compound": "carvacrol",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": "upper non-woody shoots at bloom onset",
+   "value": "39.79",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6068?page&_format=csv",
+   "verified": true,
+   "note": "Duke (Lagouri 1993): CARVACROL Shoot max 26865 ppm. KNApSAcK: C00000156. De Martino 2009 chemotype 1: carvacrol 23.34 %. Neither paper supports the 60-80 % figure in curation.md. | Basis as recorded: % of essential oil",
+   "refs": [
+    21
+   ]
+  },
+  {
+   "row": "p-cymene#1",
+   "compound_id": "p-cymene",
+   "compound": "p-cymene",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": "upper non-woody shoots at bloom onset",
+   "value": "10.45",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6068?page&_format=csv",
+   "verified": true,
+   "note": "Duke (Lagouri 1993): Shoot max 3420 ppm. De Martino 2009: 2.81 % (chemotype 1), 1.25 % (chemotype 2). | Basis as recorded: % of essential oil",
+   "refs": [
+    21
+   ]
+  },
+  {
+   "row": "gamma-terpinene#1",
+   "compound_id": "gamma-terpinene",
+   "compound": "γ-terpinene",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": "inflorescences (chemotype 1)",
+   "value": "2.38",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "De Martino L, De Feo V, Formisano C, Mignola E, Senatore F (2009) Chemical composition and antimicrobial activity of the essential oils from three chemotypes of Origanum vulgare L. ssp. hirtum (Link) Ietswaart growing wild in Campania (Southern Italy). Molecules 14(8):2735-2746",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules14082735",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6068?page&_format=csv",
+   "verified": true,
+   "note": "Duke (Lagouri 1993): Shoot max 4950 ppm. De Martino chemotype 2: 4.59 %. Kosakowska 2021: highest of the monoterpene hydrocarbons, % not extracted. | Basis as recorded: % of essential oil",
+   "refs": [
+    22
+   ]
+  },
+  {
+   "row": "apigenin-7-glucoside#1",
+   "compound_id": "apigenin-7-glucoside",
+   "compound": "apigenin-7-O-glucoside (cosmosiin, apigetrin)",
+   "class": "flavone-glycoside",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": "upper non-woody shoots at bloom onset (hydroethanolic extract)",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "Added per ruling as the plant form of apigenin in Greek oregano; reported present, not quantified in the verification notes.",
+   "refs": [
+    21
+   ]
+  }
+ ],
+ "plantings": [
+  {
+   "id": "GH-071",
+   "list_category": "Herbs",
+   "original_entry": "Oregano, Greek",
+   "common_name": "Greek oregano",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf",
+   "scientific_name": "Origanum vulgare subsp. hirtum",
+   "species_key": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "confidence": "High",
+   "note": "Carvacrol-rich subspecies.",
+   "taxon_id": "origanum-vulgare",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

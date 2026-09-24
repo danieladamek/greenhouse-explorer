@@ -1,0 +1,1042 @@
+[
+ {
+  "where": "compounds/linalool",
+  "what": "Pharmacology, absorption and safety not researched in this pass."
+ },
+ {
+  "where": "compounds/linalool",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/linalool",
+  "what": "Enantiomer in basil (reported as (-)-(R)) not confirmed from a primary record."
+ },
+ {
+  "where": "compounds/linalool",
+  "what": "Thyme linalool chemotype not named by a paper read; thyme row kept verified:false."
+ },
+ {
+  "where": "compounds/linalool",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/linalool/occurrences/thymus-vulgaris",
+  "what": "Unverified occurrence row: Duke: LINALOOL Essential Oil 28200-42800 ppm (2.8-4.3 % of oil); Plant 20-17420 ppm. EMA lists linalool among the main oil components and notes 'at least 6 chemotypes of Thymus vulgaris'; only the thy"
+ },
+ {
+  "where": "compounds/estragole",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/estragole",
+  "what": "Per-cultivar estragole values for the greenhouse cultivars (Thai, compact) not sourced."
+ },
+ {
+  "where": "compounds/estragole",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/eugenol",
+  "what": "Pharmacology, absorption and safety not researched in this pass."
+ },
+ {
+  "where": "compounds/eugenol",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/eugenol",
+  "what": "The eugenol-to-methyleugenol O-methylation step is stated from chemical structure; no biosynthesis source read."
+ },
+ {
+  "where": "compounds/eugenol",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/methyleugenol",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/methyleugenol",
+  "what": "Leaf-age dependence (ruling wording) not sourced in this pass."
+ },
+ {
+  "where": "compounds/methyleugenol",
+  "what": "Per-cultivar methyleugenol values not extracted from Muráriková 2017."
+ },
+ {
+  "where": "compounds/methyleugenol",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/methyl-cinnamate",
+  "what": "Pharmacology, absorption and safety not researched."
+ },
+ {
+  "where": "compounds/methyl-cinnamate",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/methyl-cinnamate",
+  "what": "Plant part for the 24.7 % value not re-confirmed."
+ },
+ {
+  "where": "compounds/methyl-cinnamate",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/citral",
+  "what": "PubChem CID 8843 is the geranial + neral mixture record; the neral (Z) record (CID 643779) could not be read."
+ },
+ {
+  "where": "compounds/citral",
+  "what": "Mrs Burns' Lemon: cultivar-specific composition and taxon (O. basilicum var. vs O. × citriodorum / O. × africanum) unresolved."
+ },
+ {
+  "where": "compounds/citral",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/citral",
+  "what": "Pharmacology and safety not researched."
+ },
+ {
+  "where": "compounds/citral",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/citral/occurrences/ocimum-basilicum",
+  "what": "Unverified occurrence row: TODO(author): cultivar-specific composition. The only paper value found is citral 4.9 % of volatiles in Ocimum × citriodorum (linalool 32.8 % dominant), not O. basilicum 'Mrs Burns' Lemon'. Duke's spe"
+ },
+ {
+  "where": "compounds/rosmarinic-acid",
+  "what": "Rosemary value is Duke leaf 'max 3500 ppm' whereas Ph. Eur. requires ≥3 % total hydroxycinnamic derivatives; reconcile."
+ },
+ {
+  "where": "compounds/rosmarinic-acid",
+  "what": "Oregano row has no database record (paper only)."
+ },
+ {
+  "where": "compounds/rosmarinic-acid",
+  "what": "Topical HSV evidence belongs to lemon balm extract (taxa file), not to isolated RA."
+ },
+ {
+  "where": "compounds/rosmarinic-acid",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/menthol",
+  "what": "Human PK of menthol not researched."
+ },
+ {
+  "where": "compounds/menthol",
+  "what": "No RCT of isolated menthol read in this pass."
+ },
+ {
+  "where": "compounds/menthol",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/menthone",
+  "what": "Pharmacology and safety not researched."
+ },
+ {
+  "where": "compounds/menthone",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/menthone",
+  "what": "Pathway step menthone→menthol stated without a biosynthesis source."
+ },
+ {
+  "where": "compounds/menthone",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/menthofuran",
+  "what": "Claim that menthofuran is higher in young leaves / early-season oil removed: no source found (EMA reports and public statement silent) [3, 6]."
+ },
+ {
+  "where": "compounds/menthofuran",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/menthofuran",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/pulegone",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/pulegone",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/1-8-cineole",
+  "what": "Cineole safety (e.g. in infants) not researched."
+ },
+ {
+  "where": "compounds/1-8-cineole",
+  "what": "Only one isolated-compound RCT read."
+ },
+ {
+  "where": "compounds/1-8-cineole",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/eriocitrin",
+  "what": "Amount null: EMA's 6.6-15.0 % figure lacks a confirmed denominator (possibly % of phenolic metabolites; check the report)."
+ },
+ {
+  "where": "compounds/eriocitrin",
+  "what": "Only database record is KNApSAcK."
+ },
+ {
+  "where": "compounds/eriocitrin",
+  "what": "Water solubility / infusion transfer not sourced."
+ },
+ {
+  "where": "compounds/eriocitrin",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/eriocitrin",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/citronellal",
+  "what": "Per-component % in lemon balm oil not found."
+ },
+ {
+  "where": "compounds/citronellal",
+  "what": "Pharmacology and safety not researched."
+ },
+ {
+  "where": "compounds/citronellal",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/citronellal",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/beta-caryophyllene",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/beta-caryophyllene",
+  "what": "CB2 Ki not captured (abstract did not state it)."
+ },
+ {
+  "where": "compounds/beta-caryophyllene",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/caffeic-acid",
+  "what": "Occurrence rests on Duke + an EMA mention without amount."
+ },
+ {
+  "where": "compounds/caffeic-acid",
+  "what": "Pharmacology and safety not researched."
+ },
+ {
+  "where": "compounds/caffeic-acid",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/caffeic-acid",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/ursolic-acid",
+  "what": "Oregano occurrence dropped (not verified); TODO(author) on the oregano page."
+ },
+ {
+  "where": "compounds/ursolic-acid",
+  "what": "Rosemary row rests on the EMA report only (no database record)."
+ },
+ {
+  "where": "compounds/ursolic-acid",
+  "what": "Pharmacology, absorption and safety not researched."
+ },
+ {
+  "where": "compounds/ursolic-acid",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/ursolic-acid",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/alpha-thujone",
+  "what": "Thujone content of a home sage infusion not sourced; the limit applies to herbal medicinal products."
+ },
+ {
+  "where": "compounds/alpha-thujone",
+  "what": "Human PK not researched."
+ },
+ {
+  "where": "compounds/alpha-thujone",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/beta-thujone",
+  "what": "Whether EMA limits are for α+β combined is stated from the statement title ('thujone'); confirm wording."
+ },
+ {
+  "where": "compounds/beta-thujone",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/beta-thujone",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/camphor",
+  "what": "Enantiomer in sage/rosemary not resolved."
+ },
+ {
+  "where": "compounds/camphor",
+  "what": "Pharmacology not researched."
+ },
+ {
+  "where": "compounds/camphor",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/camphor",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/borneol",
+  "what": "Pharmacology and safety not researched."
+ },
+ {
+  "where": "compounds/borneol",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/borneol",
+  "what": "Stereo-unspecified PubChem record."
+ },
+ {
+  "where": "compounds/borneol",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/carnosic-acid",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/carnosic-acid",
+  "what": "Amount in sage not in EMA report; sage row rests on Duke + review."
+ },
+ {
+  "where": "compounds/carnosic-acid",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/carnosol",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/carnosol",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/luteolin",
+  "what": "Oregano: reported as glycosides only; free luteolin row verified:false."
+ },
+ {
+  "where": "compounds/luteolin",
+  "what": "Pharmacology not researched."
+ },
+ {
+  "where": "compounds/luteolin",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/luteolin",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/luteolin/occurrences/origanum-vulgare",
+  "what": "Unverified occurrence row: Reported as glycosides: see luteolin-7-glucoside. Aglycone not verified: no Duke/KNApSAcK record; the paper found luteolin 7-O-glucoside as the dominant flavonoid of the hirtum extract but did not qua"
+ },
+ {
+  "where": "compounds/luteolin-7-glucoside",
+  "what": "Chamomile row rests on Duke (Bisset 1994 handbook) without a value."
+ },
+ {
+  "where": "compounds/luteolin-7-glucoside",
+  "what": "No quantitative value for oregano."
+ },
+ {
+  "where": "compounds/luteolin-7-glucoside",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/luteolin-7-glucoside",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/apigenin",
+  "what": "No human trial of isolated apigenin found."
+ },
+ {
+  "where": "compounds/apigenin",
+  "what": "Oregano: reported as glycoside; free-apigenin row verified:false."
+ },
+ {
+  "where": "compounds/apigenin",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/apigenin/occurrences/origanum-vulgare",
+  "what": "Unverified occurrence row: Reported as glycosides: see apigenin-7-glucoside. KNApSAcK: Apigenin C00003817 listed for Origanum vulgare subsp. hirtum. Paper reports apigenin 7-O-glucoside present in the hirtum extract; free apige"
+ },
+ {
+  "where": "compounds/alpha-pinene",
+  "what": "Pharmacology and safety not researched."
+ },
+ {
+  "where": "compounds/alpha-pinene",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/alpha-pinene",
+  "what": "Enantiomer not resolved."
+ },
+ {
+  "where": "compounds/alpha-pinene",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/thymol",
+  "what": "Pharmacology (antimicrobial mechanism) not researched."
+ },
+ {
+  "where": "compounds/thymol",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/thymol",
+  "what": "Oregano thymol varies 3-22 % by chemotype."
+ },
+ {
+  "where": "compounds/thymol",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/carvacrol",
+  "what": "The '60-80 % of hirtum oil' figure is unsourced and was replaced by 39.8 % and 23.3 %."
+ },
+ {
+  "where": "compounds/carvacrol",
+  "what": "Pharmacology and safety not researched."
+ },
+ {
+  "where": "compounds/carvacrol",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/carvacrol",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/p-cymene",
+  "what": "Role of p-cymene in the revised pathway not confirmed from full text."
+ },
+ {
+  "where": "compounds/p-cymene",
+  "what": "Pharmacology and safety not researched."
+ },
+ {
+  "where": "compounds/p-cymene",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/p-cymene",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/gamma-terpinene",
+  "what": "Pharmacology and safety not researched."
+ },
+ {
+  "where": "compounds/gamma-terpinene",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/gamma-terpinene",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/baicalin",
+  "what": "Basis of Costine 2022 values (fresh vs dry weight) unconfirmed."
+ },
+ {
+  "where": "compounds/baicalin",
+  "what": "Root range spans 2.6 % (Costine) to 20.6 % (Duke); basis uncertainty on the low value."
+ },
+ {
+  "where": "compounds/baicalin",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/baicalein",
+  "what": "Efficacy evidence not found for the isolated compound."
+ },
+ {
+  "where": "compounds/baicalein",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/wogonin",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/wogonin",
+  "what": "No amount in S. lateriflora."
+ },
+ {
+  "where": "compounds/wogonin",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/wogonoside",
+  "what": "S. lateriflora occurrence dropped (database hit was a different compound)."
+ },
+ {
+  "where": "compounds/wogonoside",
+  "what": "Pharmacology not researched."
+ },
+ {
+  "where": "compounds/wogonoside",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/wogonoside",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/scutellarin",
+  "what": "No amount for S. lateriflora."
+ },
+ {
+  "where": "compounds/scutellarin",
+  "what": "Pharmacology not researched."
+ },
+ {
+  "where": "compounds/scutellarin",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/scutellarin",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/dihydrobaicalin",
+  "what": "No database record; occurrence rests on Gafner 2003."
+ },
+ {
+  "where": "compounds/dihydrobaicalin",
+  "what": "No CAS or ChEBI id in PubChem."
+ },
+ {
+  "where": "compounds/dihydrobaicalin",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/dihydrobaicalin",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/oroxylin-a",
+  "what": "Pharmacology not researched."
+ },
+ {
+  "where": "compounds/oroxylin-a",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/oroxylin-a",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/chrysin",
+  "what": "S. lateriflora row dropped (trace, no database record)."
+ },
+ {
+  "where": "compounds/chrysin",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/chrysin",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/norwogonin",
+  "what": "Occurrence database-only (KNApSAcK); paper describes it as a biosynthetic product, not a quantified root constituent."
+ },
+ {
+  "where": "compounds/norwogonin",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/norwogonin",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/norwogonin/occurrences/scutellaria-baicalensis",
+  "what": "Unverified occurrence row: KNApSAcK: Norwogonin C00001077 in S. baicalensis (no Duke row). Pei 2022 describes norwogonin only as the SbF8H (CYP82D2) product from chrysin, not as a measured root constituent, so paper-level verif"
+ },
+ {
+  "where": "compounds/teucrin-a",
+  "what": "Occurrence in germander rests on Duke (no value) + the Kouzi 1994 title/abstract."
+ },
+ {
+  "where": "compounds/teucrin-a",
+  "what": "SMILES from the fetch summariser; re-check directly."
+ },
+ {
+  "where": "compounds/teucrin-a",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/apigenin-7-glucoside",
+  "what": "Hydrolysis during infusion (curation note) not sourced."
+ },
+ {
+  "where": "compounds/apigenin-7-glucoside",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/apigenin-7-glucoside",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/alpha-bisabolol",
+  "what": "ChEBI id: verification returned CHEBI:125, judged wrong; left null pending re-check."
+ },
+ {
+  "where": "compounds/alpha-bisabolol",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/alpha-bisabolol",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/bisabolol-oxide-a",
+  "what": "No % range for oxide A extracted."
+ },
+ {
+  "where": "compounds/bisabolol-oxide-a",
+  "what": "Chemotype framing (bisabolol vs oxide types) not sourced in this pass."
+ },
+ {
+  "where": "compounds/bisabolol-oxide-a",
+  "what": "Pharmacology not researched."
+ },
+ {
+  "where": "compounds/bisabolol-oxide-a",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/bisabolol-oxide-a",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/chamazulene",
+  "what": "Presence/absence in tea unknown (TODO(author)); chamazulene carboxylic acid route not sourced."
+ },
+ {
+  "where": "compounds/chamazulene",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/matricin",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/matricin",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/herniarin",
+  "what": "Anticoagulant activity of herniarin not researched; structural argument only."
+ },
+ {
+  "where": "compounds/herniarin",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/herniarin",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/umbelliferone",
+  "what": "EMA range is herniarin + umbelliferone together."
+ },
+ {
+  "where": "compounds/umbelliferone",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/umbelliferone",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/cis-spiroether",
+  "what": "No PubChem CID or SMILES for the cis isomer (identity from NIST InChI)."
+ },
+ {
+  "where": "compounds/cis-spiroether",
+  "what": "Amount null: EMA '20-30 %' (as re-read, cis + trans together) needs human confirmation of its basis."
+ },
+ {
+  "where": "compounds/cis-spiroether",
+  "what": "No human evidence for the isolated compound found in this pass."
+ },
+ {
+  "where": "compounds/cis-spiroether",
+  "what": "physchem (logP, pKa) not sourced - TODO(author)."
+ },
+ {
+  "where": "compounds/cis-spiroether",
+  "what": "mw_source 'nist_webbook' is outside the pubchem|computed_from_formula enum."
+ },
+ {
+  "where": "taxa_safety_evidence/ocimum-basilicum",
+  "what": "No whole-plant human evidence researched."
+ },
+ {
+  "where": "taxa_safety_evidence/ocimum-basilicum",
+  "what": "EMA/ESCOP/WHO monograph status for basil not checked."
+ },
+ {
+  "where": "taxa_safety_evidence/ocimum-basilicum",
+  "what": "No allergy or interaction data researched."
+ },
+ {
+  "where": "taxa_safety_evidence/ocimum-basilicum",
+  "what": "Mrs Burns' Lemon taxon (O. × africanum?) and cultivar composition unresolved."
+ },
+ {
+  "where": "taxa_safety_evidence/mentha-x-piperita",
+  "what": "ESCOP and WHO monograph status not checked."
+ },
+ {
+  "where": "taxa_safety_evidence/mentha-x-piperita",
+  "what": "Peppermint leaf monograph URL not recorded (oil monograph given)."
+ },
+ {
+  "where": "taxa_safety_evidence/mentha-x-piperita",
+  "what": "Cutaneous oil for tension headache (EMA well-established use) not graded; no trial read."
+ },
+ {
+  "where": "taxa_safety_evidence/melissa-officinalis",
+  "what": "EMA monograph URL not recorded (assessment report given)."
+ },
+ {
+  "where": "taxa_safety_evidence/melissa-officinalis",
+  "what": "ESCOP/WHO status not checked."
+ },
+ {
+  "where": "taxa_safety_evidence/melissa-officinalis",
+  "what": "Kennedy 2002/2004 and Cases 2011 primary papers not read (EMA summary used)."
+ },
+ {
+  "where": "taxa_safety_evidence/salvia-officinalis",
+  "what": "EMA monograph URL not recorded (assessment report given)."
+ },
+ {
+  "where": "taxa_safety_evidence/salvia-officinalis",
+  "what": "ESCOP/WHO status not checked."
+ },
+ {
+  "where": "taxa_safety_evidence/salvia-officinalis",
+  "what": "Hubbert 2006 and Scholey 2008 primary papers not read."
+ },
+ {
+  "where": "taxa_safety_evidence/salvia-officinalis",
+  "what": "Thujone content of a home infusion not sourced."
+ },
+ {
+  "where": "taxa_safety_evidence/salvia-officinalis",
+  "what": "Hypoglycaemic interaction claims: no human data found."
+ },
+ {
+  "where": "taxa_safety_evidence/salvia-rosmarinus",
+  "what": "ESCOP/WHO status not checked."
+ },
+ {
+  "where": "taxa_safety_evidence/salvia-rosmarinus",
+  "what": "No human efficacy trial found for any indication (EMA: none for approved indications)."
+ },
+ {
+  "where": "taxa_safety_evidence/thymus-vulgaris",
+  "what": "EMA monograph URL not recorded."
+ },
+ {
+  "where": "taxa_safety_evidence/thymus-vulgaris",
+  "what": "ESCOP status not checked."
+ },
+ {
+  "where": "taxa_safety_evidence/thymus-vulgaris",
+  "what": "WHO Herba Thymi text not read (only the table of contents)."
+ },
+ {
+  "where": "taxa_safety_evidence/thymus-vulgaris",
+  "what": "Thyme honey for cough not researched."
+ },
+ {
+  "where": "taxa_safety_evidence/origanum-vulgare",
+  "what": "No safety, interaction, pregnancy or allergy data researched."
+ },
+ {
+  "where": "taxa_safety_evidence/origanum-vulgare",
+  "what": "No human evidence researched."
+ },
+ {
+  "where": "taxa_safety_evidence/origanum-vulgare",
+  "what": "Monograph status not checked."
+ },
+ {
+  "where": "taxa_safety_evidence/scutellaria-lateriflora",
+  "what": "No EMA/ESCOP/WHO monograph found in this pass (absence not confirmed)."
+ },
+ {
+  "where": "taxa_safety_evidence/scutellaria-lateriflora",
+  "what": "Pregnancy/lactation: no data found."
+ },
+ {
+  "where": "taxa_safety_evidence/scutellaria-lateriflora",
+  "what": "Sedation/interaction data not researched."
+ },
+ {
+  "where": "taxa_safety_evidence/scutellaria-baicalensis",
+  "what": "No EMA/ESCOP/WHO monograph checked (WHO vol. 1 does not include Radix Scutellariae; later volumes not checked)."
+ },
+ {
+  "where": "taxa_safety_evidence/scutellaria-baicalensis",
+  "what": "No efficacy evidence researched; mostly D/E expected."
+ },
+ {
+  "where": "taxa_safety_evidence/scutellaria-baicalensis",
+  "what": "Pregnancy data not researched."
+ },
+ {
+  "where": "taxa_safety_evidence/scutellaria-baicalensis",
+  "what": "Move Free Advanced case details from LiverTox summary only."
+ },
+ {
+  "where": "taxa_safety_evidence/matricaria-chamomilla",
+  "what": "Topical eczema cream (Kamillosan) trial not read."
+ },
+ {
+  "where": "taxa_safety_evidence/matricaria-chamomilla",
+  "what": "WHO Flos Chamomillae text not read (table of contents only)."
+ },
+ {
+  "where": "taxa_safety_evidence/matricaria-chamomilla",
+  "what": "ESCOP monograph content not read (listing URL only)."
+ },
+ {
+  "where": "taxa_safety_evidence/matricaria-chamomilla",
+  "what": "Standardisation (% apigenin) of the GAD trial extracts not captured."
+ },
+ {
+  "where": "references/16",
+  "what": "Read by the verification pass, not re-read in this pass; summary is short."
+ },
+ {
+  "where": "references/18",
+  "what": "Read by the verification pass, not re-read in this pass; summary is short."
+ },
+ {
+  "where": "references/19",
+  "what": "Read by the verification pass, not re-read in this pass; summary is short."
+ },
+ {
+  "where": "references/20",
+  "what": "Read by the verification pass, not re-read in this pass; summary is short."
+ },
+ {
+  "where": "references/21",
+  "what": "Read by the verification pass, not re-read in this pass; summary is short."
+ },
+ {
+  "where": "references/22",
+  "what": "Read by the verification pass, not re-read in this pass; summary is short."
+ },
+ {
+  "where": "references/23",
+  "what": "Read by the verification pass, not re-read in this pass; summary is short."
+ },
+ {
+  "where": "references/24",
+  "what": "Read by the verification pass, not re-read in this pass; summary is short."
+ },
+ {
+  "where": "references/25",
+  "what": "Read by the verification pass, not re-read in this pass; summary is short."
+ },
+ {
+  "where": "references/26",
+  "what": "Read by the verification pass, not re-read in this pass; summary is short."
+ },
+ {
+  "where": "references/28",
+  "what": "Read by the verification pass, not re-read in this pass; summary is short."
+ },
+ {
+  "where": "references/29",
+  "what": "Read by the verification pass, not re-read in this pass; summary is short."
+ },
+ {
+  "where": "compounds/*/biosynthesis",
+  "what": "Pathway labels (MEP, MVA, shikimate, flavonoid) are textbook classifications, individually sourced only for thymol/carvacrol/γ-terpinene [42], carnosic acid [43] and Scutellaria flavones [28, 29]."
+ },
+ {
+  "where": "compounds/*/processing_stability",
+  "what": "Heat stability and water/ethanol solubility not sourced for any compound; 'steam-volatile' is inferred from presence in distilled oils."
+ },
+ {
+  "where": "compounds/*/identity",
+  "what": "cross_checked: false for all 49; RDKit recomputation (feature C1) pending. 39 MWs computed from formula."
+ },
+ {
+  "where": "compounds.yaml (count)",
+  "what": "Rulings state 48 records (47 + teucrin A), but no ruling drops any of the 49 verified records (umbelliferone and luteolin-7-glucoside both kept). The pack has 49; author to confirm which count is intended."
+ },
+ {
+  "where": "references/*/cited_in",
+  "what": "cited_in left empty as instructed; to be filled by the build."
+ },
+ {
+  "where": "references/139",
+  "what": "Taiz et al. textbook listed as further reading only; text not read, verified: false, supports no claim. Read the relevant chapters (cell wall, photosynthesis, secondary metabolites) or drop."
+ },
+ {
+  "where": "references/140",
+  "what": "Buchanan, Gruissem & Jones textbook listed as further reading only; text not read, verified: false, supports no claim."
+ },
+ {
+  "where": "references/missing",
+  "what": "Rohmer 1999 (Nat Prod Rep 16:565-574, doi 10.1039/A709175C), the discovery account of the MEP pathway, was found but its abstract could not be read (publisher page gave title only; PubMed and Europe PMC blocked or rate-limited). Not included; add as seminal once read."
+ },
+ {
+  "where": "references/missing",
+  "what": "Pichersky & Gershenzon 2002 (Curr Opin Plant Biol 5:237-243, 'perfumes for pollinator attraction and defense') not included: abstract not accessible. Section 6 relies on Dudareva 2004 [125] and Glas 2012 [126] instead; a pollinator-specific primary source is still wanted."
+ },
+ {
+  "where": "references/missing",
+  "what": "Ramadan et al. 2006 (J Nat Prod 69:1041-1045) on matricin and chamazulene carboxylic acid could not be read (ACS 403). Needed to say anything about matricin chemistry in hot water."
+ },
+ {
+  "where": "review/2-the-cell-wall-and-cellulose",
+  "what": "No source read for UDP-glucose as the CESA substrate, or for cellulose insolubility; the text avoids both claims."
+ },
+ {
+  "where": "review/3-photosynthesis-and-chlorophyll",
+  "what": "No source read for chlorophyll's poor water solubility (the 'why tea is not green, tincture is' teaching point, e.g. Lichtenthaler 1987 Methods Enzymol 148:350); left out."
+ },
+ {
+  "where": "review/5-three-pathways-that-make-the-greenhouse-smell",
+  "what": "Sesquiterpene synthase evidence for the greenhouse's own sesquiterpenes (α-bisabolol synthase in chamomile, caryophyllene synthase) not read; the figure draws them from a generic C15 node. Ursolic-acid step is sourced from Medicago/grape CYP716A work [115], not Lamiaceae."
+ },
+ {
+  "where": "review/5-three-pathways-that-make-the-greenhouse-smell",
+  "what": "The p-coumaric acid -> chavicol and flavanone -> flavone/glycoside steps are drawn at class level; step-level sources (e.g. basil coumaryl acetate route; flavone synthase) not read."
+ },
+ {
+  "where": "review/7-from-leaf-to-cup",
+  "what": "No study read on what a simmered decoction extracts from S. baicalensis root (baicalin yield vs time/temperature); no decoction record exists yet."
+ },
+ {
+  "where": "review/7-from-leaf-to-cup",
+  "what": "No quantitative data read for cold infusion of any greenhouse herb; no cold_infusion record."
+ },
+ {
+  "where": "preparations/chamomile-flower-hot-infusion",
+  "what": "Chamazulene in a hot-water infusion: presence or absence not established by any source read. Record makes no claim; TODO(author) retained from curation."
+ },
+ {
+  "where": "preparations/chamomile-flower-hot-infusion",
+  "what": "No per-compound recovery (apigenin-7-glucoside, α-bisabolol) into chamomile tea found; only the EMA 10-15 % oil figure and Harbourne's total-phenol kinetics. Harbourne's per-temperature yields not extracted."
+ },
+ {
+  "where": "preparations/peppermint-leaf-hot-infusion",
+  "what": "Pulegone and menthofuran concentrations in peppermint infusions (as opposed to oil) not found; needed to relate the cup to the EMA limit."
+ },
+ {
+  "where": "preparations/sage-leaf-hot-infusion",
+  "what": "Dent 2013 luteolin-glycoside values gave different numbers on two reads (water luteolin-3-glucuronide 481.3 vs 635.33 mg/100 g); not used. Re-extract Table 4 from the PDF by hand."
+ },
+ {
+  "where": "preparations/thyme-herb-hot-infusion",
+  "what": "No leaf-to-cup recovery for thyme essential oil or thymol found (Sonmezdag 2018 gives % of the tea's volatiles only). EMA thyme report gives no infusion transfer figure."
+ },
+ {
+  "where": "preparations/herb-tincture-ethanol-water",
+  "what": "Maceration temperature and time for commercial tinctures not stated in sources; carnosic acid recovery in ethanol-water tinctures (as opposed to hexane) not quantified; ethanol content of tinctures not covered by any safety source read."
+ },
+ {
+  "where": "references/128",
+  "what": "Fecka & Turek 2007 read as an abstract digest only (ACS and ResearchGate blocked); per-compound tea values (eriocitrin, rosmarinic acid per bag) not extracted."
+ },
+ {
+  "where": "references/109",
+  "what": "Fraenkel 1959 read via the author's 1984 Citation Classic commentary, not the Science article itself."
+ },
+ {
+  "where": "references/130",
+  "what": "Raal et al. 2026 estimate 'a cup of tea (200 mL) contains only 0.01 mg of EOs' from 10 g/kg oil and 1 g herb; that arithmetic gives 10 mg, not 0.01 mg, so the figure is not used. Check the full text."
+ },
+ {
+  "where": "figures/fig-extraction",
+  "what": "Only five studies give comparable recovery fractions; bars use two comparators (plant content vs ethanol extract). A single-study, multi-herb comparison of water vs ethanol recovery would make a cleaner figure."
+ },
+ {
+  "where": "references/tiers",
+  "what": "23 references are tier current but predate scope.time_window.current_from (2021): n 18, 19, 20, 23, 28, 32, 33, 34, 43, 49, 53, 54, 58, 59, 60, 103, 115, 127, 129, 132, 136, 137, 138. Tiers were left as the earlier agents set them (the validator warns on each); re-tier as classic (full summary needed) or background, or document why \"current\" is meant as \"current evidence\" rather than the date window."
+ },
+ {
+  "where": "references/cited_in",
+  "what": "cited_in carries review section ids and figure ids only; catalogue locations (\"compounds:<id>\", \"preparations:<id>\", \"taxa:<taxon_id>\") are in a separate informational key, cited_in_catalogue, because the validator rejects any other cited_in string. B6.1 catalogue mode should decide whether cited_in may name catalogue records."
+ },
+ {
+  "where": "references/uncited",
+  "what": "Refs 139 and 140 (textbooks, verified: false) are cited nowhere; 33 references are cited only from catalogue records (compounds, preparations, taxa_safety_evidence), which the validator cannot see and reports as never cited. The warnings are expected until catalogue mode exists."
+ },
+ {
+  "where": "review/7-from-leaf-to-cup",
+  "what": "Review §7 says skullcap baicalin is \"reported per gram of dry root [24,27]\" and §8 \"in milligrams per gram of dry tissue [24]\", while compounds.yaml#baicalin flags the Costine 2022 root value (26.1 mg/g) as possibly fresh weight. Reconcile against the paper before publication; the review text was not changed at assembly."
+ },
+ {
+  "where": "scope/search_strategy",
+  "what": "Per-query hit counts were not logged in the prototype sweep, so every hits value in scope.yaml is null, and the discovery searches in OpenAlex, Semantic Scholar, Crossref and web search have one placeholder entry each rather than their query strings. Log queries and counts in P1."
+ },
+ {
+  "where": "scope/sources",
+  "what": "FooDB, COCONUT/NPASS, ChEMBL and USDA FoodData Central (requirements §5.5) were not queried; ESCOP and WHO monograph status is unchecked for most profiled taxa."
+ },
+ {
+  "where": "taxa_safety_evidence",
+  "what": "Header says 10 profiled taxa; taxa.yaml counts 11 profiled because the unresolved scutellaria-sp entry is profiled through its two candidates. No safety record exists for scutellaria-sp itself; the app should render the two candidate blocks there."
+ },
+ {
+  "where": "manifest/catalogue",
+  "what": "catalogue.count is 49 (48 curated + teucrin-a auxiliary) as in compounds.yaml; curation.md rulings say 48 records in total. The difference is luteolin-7-glucoside, added per the ruling that also counts it. Confirm the intended count."
+ },
+ {
+  "where": "glossary",
+  "what": "Glossary definitions are builder-written and uncited (sources optional). A second-pass read-through by a non-specialist is still owed (CONTENT-PACK definition of done)."
+ },
+ {
+  "where": "concepts/measurement-basis",
+  "what": "The worked conversion (40 % of oil x 1.2 % oil = about 0.5 % of herb) is the builder's arithmetic on pharmacopoeial minimums [9], stated as such in the text; replace with a single-sample measurement of both oil content and composition if one is found."
+ }
+]

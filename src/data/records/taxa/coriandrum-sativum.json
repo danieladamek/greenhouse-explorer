@@ -1,0 +1,126 @@
+{
+ "taxa": [
+  {
+   "id": "coriandrum-sativum",
+   "species_key": "Coriandrum sativum",
+   "accepted_name": "Coriandrum sativum",
+   "authority": "L.",
+   "family": "Apiaceae",
+   "common_names": [
+    "Cilantro",
+    "Cilantro / coriander"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 4047,
+    "powo_id": "urn:lsid:ipni.org:names:840760-1",
+    "gbif_key": 3034871,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "herbs",
+    "leafy_greens"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-003",
+     "name": "Santo",
+     "type": "Leaf",
+     "list_category": "leafy_greens",
+     "name_as_given": "Coriandrum sativum",
+     "identity_status": "confirmed",
+     "note": null
+    },
+    {
+     "crop_id": "GH-004",
+     "name": "Calypso",
+     "type": "Leaf",
+     "list_category": "leafy_greens",
+     "name_as_given": "Coriandrum sativum",
+     "identity_status": "confirmed",
+     "note": null
+    },
+    {
+     "crop_id": "GH-063",
+     "name": null,
+     "type": "Leaf / seed",
+     "list_category": "herbs",
+     "name_as_given": "Coriandrum sativum",
+     "identity_status": "check",
+     "note": "Typo 'Corriander'. May duplicate Santo or Calypso under Leafy Greens."
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-003",
+    "GH-004",
+    "GH-063"
+   ],
+   "n_plantings": 3,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-003",
+   "list_category": "Leafy Greens",
+   "original_entry": "Cilantro, Santo",
+   "common_name": "Cilantro",
+   "cultivar": "Santo",
+   "crop_type": "Leaf",
+   "scientific_name": "Coriandrum sativum",
+   "species_key": "Coriandrum sativum",
+   "family": "Apiaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "coriandrum-sativum",
+   "status": "current"
+  },
+  {
+   "id": "GH-004",
+   "list_category": "Leafy Greens",
+   "original_entry": "Cilantro, Calypso",
+   "common_name": "Cilantro",
+   "cultivar": "Calypso",
+   "crop_type": "Leaf",
+   "scientific_name": "Coriandrum sativum",
+   "species_key": "Coriandrum sativum",
+   "family": "Apiaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "coriandrum-sativum",
+   "status": "current"
+  },
+  {
+   "id": "GH-063",
+   "list_category": "Herbs",
+   "original_entry": "Corriander, Cilantro",
+   "common_name": "Cilantro / coriander",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf / seed",
+   "scientific_name": "Coriandrum sativum",
+   "species_key": "Coriandrum sativum",
+   "family": "Apiaceae",
+   "confidence": "Check",
+   "note": "Typo 'Corriander'. May duplicate Santo or Calypso under Leafy Greens.",
+   "taxon_id": "coriandrum-sativum",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

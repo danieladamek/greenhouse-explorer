@@ -1,0 +1,429 @@
+{
+ "compound": {
+  "id": "baicalin",
+  "name": "baicalin",
+  "synonyms": [
+   "baicalein 7-O-β-D-glucuronide"
+  ],
+  "class": "flavone-glucuronide",
+  "subclass": "4'-deoxyflavone 7-O-glucuronide",
+  "one_liner": "The main flavone of Chinese skullcap root, also abundant in American skullcap leaf; alters rosuvastatin exposure in people.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "(2S,3S,4S,5R,6S)-6-(5,6-dihydroxy-4-oxo-2-phenylchromen-7-yl)oxy-3,4,5-trihydroxyoxane-2-carboxylic acid",
+   "formula": "C21H18O11",
+   "mw": 446.36,
+   "mw_source": "computed_from_formula",
+   "smiles": "C1=CC=C(C=C1)C2=CC(=O)C3=C(C(=C(C=C3O2)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)C(=O)O)O)O)O)O)O",
+   "inchikey": "IKIIZLYTISPENI-ZFORQUDYSA-N",
+   "cas": "21967-41-9",
+   "pubchem_cid": 64982,
+   "chebi_id": "CHEBI:2981",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/64982/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "flavonoid (phenylpropanoid + malonate); root-specific 4'-deoxyflavone branch in S. baicalensis",
+   "note": "S. baicalensis roots use a specialised FNSII-2 route to 4'-deoxyflavones [28]."
+  },
+  "occurrences": [
+   {
+    "taxon_id": "scutellaria-lateriflora",
+    "plant_part": "leaf",
+    "value": "11.7 ± 2.9",
+    "unit": "mg/g",
+    "basis": "unstated",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+    "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+    "database": "KNApSAcK",
+    "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Scutellaria%20lateriflora",
+    "verified": true,
+    "note": "KNApSAcK: Baicalin C00001024 in S. lateriflora. Gafner 2003 and Lin 2009 also identify baicalin as a predominant flavonoid of the aerial parts. | Basis as recorded: fresh weight (the paper's results give leaf flavone totals per g fresh weight; methods extracted ground tissue - confirm basis) | Makino 2008 (doi 10.1007/s11418-008-0230-7): flavonoids higher in S. lateriflora aerial parts than in its root. Basis (fresh vs dry weight) unconfirmed, so basis: null. Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed."
+   },
+   {
+    "taxon_id": "scutellaria-baicalensis",
+    "plant_part": "root",
+    "value": "1000-206000",
+    "unit": "ppm",
+    "basis": "unstated",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+    "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+    "verified": true,
+    "note": "Duke root range (upper value 20.6 %). Duke also: Stem 5800-43000 ppm. Costine 2022: root 26.1 ± 3.9 mg/g. CIR 2020 (citing Cai et al. 2016): 406 mg/g in an aqueous root extract (per g extract). | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed."
+   },
+   {
+    "taxon_id": "scutellaria-baicalensis",
+    "plant_part": "root",
+    "value": "26.1 ± 3.9",
+    "unit": "mg/g",
+    "basis": "unstated",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+    "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+    "database": null,
+    "database_url": null,
+    "verified": true,
+    "note": "Costine 2022 root value (2.6 %); basis possibly fresh weight - flagged, so the low end of the 2.6-20.6 % range is basis-uncertain. Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": "OATP1B1-mediated drug uptake (clinical interaction) [33].",
+   "mechanism": "In healthy volunteers baicalin lowered rosuvastatin AUC by roughly 9-47 % depending on OATP1B1 haplotype [33].",
+   "functional_notes": null
+  },
+  "absorption_bioavailability": "Poorly absorbed as such: in rats gut bacteria hydrolyse it to baicalein, which is absorbed and re-glucuronidated to baicalin; plasma exposure fell to 12 % in germ-free rats [47]. After oral baicalein in people, baicalin is the main circulating metabolite [34].",
+  "evidence": [
+   {
+    "claim": "Baicalin reduces plasma exposure to rosuvastatin.",
+    "grade": "B",
+    "test_article": "isolated_compound",
+    "test_article_detail": "baicalin, repeated oral administration, randomised crossover",
+    "population": "human",
+    "outcome_summary": "Rosuvastatin AUC reduced ~9-47 %, haplotype-dependent (n = 18).",
+    "refs": [
+     33
+    ],
+    "note": null
+   },
+   {
+    "claim": "Baicalin needs gut bacteria to be absorbed (as baicalein).",
+    "grade": "D",
+    "test_article": "isolated_compound",
+    "test_article_detail": "baicalin, conventional vs germ-free rats",
+    "population": "animal",
+    "outcome_summary": "Plasma AUC 12 % in germ-free rats.",
+    "refs": [
+     47
+    ],
+    "note": null
+   }
+  ],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": "gut-bacterial deglucuronidation to baicalein before absorption [47]",
+   "formed_during": null,
+   "note": null,
+   "refs": [
+    47
+   ]
+  },
+  "safety_flags": [
+   {
+    "flag": "drug interaction (OATP1B1 substrates)",
+    "detail": "Lowered rosuvastatin exposure in healthy volunteers.",
+    "threshold_or_limit": null,
+    "source_citation": "Fan et al. 2008, Clin Pharmacol Ther",
+    "refs": [
+     33
+    ]
+   },
+   {
+    "flag": "hepatotoxicity with a baicalin-containing product",
+    "detail": "Four DILIN cases of liver injury with flavocoxid (baicalin + catechins from S. baicalensis and Acacia catechu); recovery after stopping.",
+    "threshold_or_limit": null,
+    "source_citation": "Chalasani et al. 2012, Ann Intern Med; LiverTox Skullcap",
+    "refs": [
+     32,
+     13
+    ]
+   }
+  ],
+  "teaching_note": "The side-by-side number: S. lateriflora leaf 11.7 mg/g vs S. baicalensis root 26.1 mg/g in one study [24], and more in lateriflora aerial parts than its root in another [27] - not 'far lower'.",
+  "citations": [
+   13,
+   24,
+   27,
+   28,
+   32,
+   33,
+   34,
+   47
+  ],
+  "gaps": [
+   "Basis of Costine 2022 values (fresh vs dry weight) unconfirmed.",
+   "Root range spans 2.6 % (Costine) to 20.6 % (Duke); basis uncertainty on the low value.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "The main [flavone](#term:flavone) of Chinese skullcap root, also abundant in American skullcap leaf; alters rosuvastatin exposure in people.",
+   "mechanism": "In healthy volunteers baicalin lowered rosuvastatin [AUC](#term:auc) by roughly 9-47 % depending on [OATP1B1](#term:oatp) haplotype [33](#cite:33).",
+   "primary_targets": "OATP1B1-mediated drug uptake (clinical [interaction](#term:drug-interaction)) [33](#cite:33).",
+   "functional_notes": null,
+   "absorption_bioavailability": "Poorly absorbed as such: in rats gut bacteria hydrolyse it to baicalein, which is absorbed and re-glucuronidated to baicalin; plasma exposure fell to 12 % in germ-free rats [47](#cite:47). After oral baicalein in people, baicalin is the main circulating metabolite [34](#cite:34).",
+   "teaching_note": "The side-by-side number: S. lateriflora leaf 11.7 mg/g vs S. baicalensis root 26.1 mg/g in one study [24](#cite:24), and more in lateriflora aerial parts than its root in another [27](#cite:27) - not 'far lower'.",
+   "processing_note": null,
+   "biosynthesis_note": "S. baicalensis roots use a specialised FNSII-2 route to 4'-deoxyflavones [28](#cite:28).",
+   "evidence": [
+    {
+     "claim": "Baicalin reduces plasma exposure to rosuvastatin.",
+     "outcome_summary": "Rosuvastatin AUC reduced ~9-47 %, haplotype-dependent (n = 18)."
+    },
+    {
+     "claim": "Baicalin needs gut bacteria to be absorbed (as baicalein).",
+     "outcome_summary": "Plasma AUC 12 % in germ-free rats."
+    }
+   ],
+   "safety_flags": [
+    "Lowered rosuvastatin exposure in healthy volunteers.",
+    "Four DILIN cases of [liver injury](#term:hepatotoxicity) with flavocoxid (baicalin + catechins from S. baicalensis and Acacia catechu); [recovery](#term:extraction-yield) after stopping."
+   ]
+  },
+  "terms": [
+   "flavone",
+   "auc",
+   "oatp",
+   "drug-interaction",
+   "hepatotoxicity",
+   "extraction-yield"
+  ],
+  "cited_refs": [
+   13,
+   24,
+   27,
+   28,
+   32,
+   33,
+   34,
+   47
+  ],
+  "taxa": [
+   "scutellaria-lateriflora",
+   "scutellaria-baicalensis"
+  ],
+  "has_human_evidence": true,
+  "structure": {
+   "formulaComputed": "C21H18O11",
+   "inchikeyComputed": "IKIIZLYTISPENI-ZFORQUDYSA-N",
+   "canonicalSmiles": "O=C(O)[C@H]1O[C@@H](Oc2cc3oc(-c4ccccc4)cc(=O)c3c(O)c2O)[C@H](O)[C@@H](O)[C@@H]1O",
+   "monoisotopicMass": 446.0849,
+   "averageMass": 446.364,
+   "descriptors": {
+    "heavyAtoms": 32,
+    "rings": 4,
+    "aromaticRings": 3,
+    "hbd": 6,
+    "hba": 10,
+    "rotatableBonds": 4,
+    "logP": 0.14,
+    "tpsa": 187.1,
+    "fsp3": 0.24,
+    "stereocenters": 5,
+    "charge": 0
+   },
+   "atomCount": 50,
+   "heavyAtomCount": 32,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       8,
+       19
+      ],
+      [
+       9,
+       22
+      ]
+     ]
+    },
+    {
+     "id": "catechol",
+     "name": "Catechol (1,2-diol)",
+     "matches": [
+      [
+       8,
+       19,
+       22,
+       9
+      ]
+     ]
+    },
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       2,
+       11
+      ],
+      [
+       3,
+       12
+      ],
+      [
+       4,
+       13
+      ]
+     ]
+    },
+    {
+     "id": "carboxylic-acid",
+     "name": "Carboxylic acid / carboxylate",
+     "matches": [
+      [
+       16,
+       6,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "glycoside",
+     "name": "Sugar (glycoside / glucuronide)",
+     "matches": [
+      [
+       0,
+       14,
+       12,
+       3,
+       11,
+       2,
+       13,
+       4,
+       15
+      ]
+     ]
+    },
+    {
+     "id": "chromone",
+     "name": "Chromone (flavone core)",
+     "matches": [
+      [
+       10,
+       23,
+       25,
+       24,
+       26,
+       7,
+       20,
+       18,
+       17,
+       19,
+       22,
+       21
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/baicalin.sdf",
+   "svg": {
+    "light": "structures/2d/baicalin.svg",
+    "dark": "structures/2d/baicalin.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/baicalin.json",
+   "mwPack": 446.36,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": [
+   "5-three-pathways-that-make-the-greenhouse-smell",
+   "7-from-leaf-to-cup",
+   "8-how-to-read-the-rest-of-this-site"
+  ]
+ },
+ "rows": [
+  {
+   "row": "baicalin#0",
+   "compound_id": "baicalin",
+   "compound": "baicalin",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": "11.7 ± 2.9",
+   "unit": "mg/g",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "KNApSAcK",
+   "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Scutellaria%20lateriflora",
+   "verified": true,
+   "note": "KNApSAcK: Baicalin C00001024 in S. lateriflora. Gafner 2003 and Lin 2009 also identify baicalin as a predominant flavonoid of the aerial parts. | Basis as recorded: fresh weight (the paper's results give leaf flavone totals per g fresh weight; methods extracted ground tissue - confirm basis) | Makino 2008 (doi 10.1007/s11418-008-0230-7): flavonoids higher in S. lateriflora aerial parts than in its root. Basis (fresh vs dry weight) unconfirmed, so basis: null. Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "baicalin#1",
+   "compound_id": "baicalin",
+   "compound": "baicalin",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "1000-206000",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "Duke root range (upper value 20.6 %). Duke also: Stem 5800-43000 ppm. Costine 2022: root 26.1 ± 3.9 mg/g. CIR 2020 (citing Cai et al. 2016): 406 mg/g in an aqueous root extract (per g extract). | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "baicalin#2",
+   "compound_id": "baicalin",
+   "compound": "baicalin",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "26.1 ± 3.9",
+   "unit": "mg/g",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "Costine 2022 root value (2.6 %); basis possibly fresh weight - flagged, so the low end of the 2.6-20.6 % range is basis-uncertain. Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  }
+ ],
+ "preparations": []
+}

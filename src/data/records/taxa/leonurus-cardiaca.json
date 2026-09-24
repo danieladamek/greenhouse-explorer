@@ -1,0 +1,74 @@
+{
+ "taxa": [
+  {
+   "id": "leonurus-cardiaca",
+   "species_key": "Leonurus cardiaca",
+   "accepted_name": "Leonurus cardiaca",
+   "authority": "L.",
+   "family": "Lamiaceae",
+   "common_names": [
+    "Motherwort"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 587664,
+    "powo_id": "urn:lsid:ipni.org:names:449168-1",
+    "gbif_key": 5341389,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "medicinal"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-085",
+     "name": null,
+     "type": "Leaf / flower",
+     "list_category": "medicinal",
+     "name_as_given": "Leonurus cardiaca",
+     "identity_status": "confirmed",
+     "note": null
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-085"
+   ],
+   "n_plantings": 1,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-085",
+   "list_category": "Medicinal",
+   "original_entry": "Motherwort",
+   "common_name": "Motherwort",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf / flower",
+   "scientific_name": "Leonurus cardiaca",
+   "species_key": "Leonurus cardiaca",
+   "family": "Lamiaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "leonurus-cardiaca",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

@@ -1,0 +1,125 @@
+{
+ "taxa": [
+  {
+   "id": "capsicum-annuum",
+   "species_key": "Capsicum annuum",
+   "accepted_name": "Capsicum annuum",
+   "authority": "L.",
+   "family": "Solanaceae",
+   "common_names": [
+    "Hot pepper",
+    "Sweet pepper"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 4072,
+    "powo_id": "urn:lsid:ipni.org:names:316944-2",
+    "gbif_key": 2932944,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "veggies"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-040",
+     "name": "King Arthur",
+     "type": "Bell",
+     "list_category": "veggies",
+     "name_as_given": "Capsicum annuum",
+     "identity_status": "confirmed",
+     "note": null
+    },
+    {
+     "crop_id": "GH-041",
+     "name": "Cayennetta",
+     "type": "Cayenne",
+     "list_category": "veggies",
+     "name_as_given": "Capsicum annuum",
+     "identity_status": "confirmed",
+     "note": null
+    },
+    {
+     "crop_id": "GH-042",
+     "name": "Red Rocket",
+     "type": "Cayenne",
+     "list_category": "veggies",
+     "name_as_given": "Capsicum annuum",
+     "identity_status": "check",
+     "note": "The Johnny's 'Red Rocket' is a hot cayenne, but a sweet 'Red Rocket' is also sold. Check packet (it decides whether capsaicin is present)."
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-040",
+    "GH-041",
+    "GH-042"
+   ],
+   "n_plantings": 3,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-040",
+   "list_category": "Veggies",
+   "original_entry": "Pepper, sweet King Arthur",
+   "common_name": "Sweet pepper",
+   "cultivar": "King Arthur",
+   "crop_type": "Bell",
+   "scientific_name": "Capsicum annuum",
+   "species_key": "Capsicum annuum",
+   "family": "Solanaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "capsicum-annuum",
+   "status": "current"
+  },
+  {
+   "id": "GH-041",
+   "list_category": "Veggies",
+   "original_entry": "Pepper, Hot Cayennetta",
+   "common_name": "Hot pepper",
+   "cultivar": "Cayennetta",
+   "crop_type": "Cayenne",
+   "scientific_name": "Capsicum annuum",
+   "species_key": "Capsicum annuum",
+   "family": "Solanaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "capsicum-annuum",
+   "status": "current"
+  },
+  {
+   "id": "GH-042",
+   "list_category": "Veggies",
+   "original_entry": "Peppers, Red Rocket",
+   "common_name": "Hot pepper",
+   "cultivar": "Red Rocket",
+   "crop_type": "Cayenne",
+   "scientific_name": "Capsicum annuum",
+   "species_key": "Capsicum annuum",
+   "family": "Solanaceae",
+   "confidence": "Check",
+   "note": "The Johnny's 'Red Rocket' is a hot cayenne, but a sweet 'Red Rocket' is also sold. Check packet (it decides whether capsaicin is present).",
+   "taxon_id": "capsicum-annuum",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

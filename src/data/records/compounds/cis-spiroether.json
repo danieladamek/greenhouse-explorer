@@ -1,0 +1,160 @@
+{
+ "compound": {
+  "id": "cis-spiroether",
+  "name": "cis-spiroether (cis-en-yn-dicycloether, (Z)-tonghaosu)",
+  "synonyms": [
+   "cis-en-yn-dicycloether",
+   "(Z)-tonghaosu"
+  ],
+  "class": "polyacetylene",
+  "subclass": "spiroketal enol ether polyyne",
+  "one_liner": "Chamomile's polyacetylene spiroether; anti-inflammatory in mouse ear tests.",
+  "palette_group": "asteraceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "(Z)-2-(hexa-2,4-diyn-1-ylidene)-1,6-dioxaspiro[4.4]non-3-ene (name from the NIST WebBook entry title; not a PubChem-computed IUPAC name)",
+   "formula": "C13H12O2",
+   "mw": 200.2332,
+   "mw_source": "nist_webbook",
+   "smiles": null,
+   "inchikey": "WTRXKCNFPMTAJV-GHXNOFRVSA-N",
+   "inchi": "InChI=1S/C13H12O2/c1-2-3-4-5-7-12-8-10-13(15-12)9-6-11-14-13/h7-8,10H,6,9,11H2,1H3/b12-7-",
+   "cas": null,
+   "pubchem_cid": null,
+   "chebi_id": null,
+   "source": "https://webbook.nist.gov/cgi/cbook.cgi?ID=R203171",
+   "cross_checked": false,
+   "note": "No PubChem CID found for the cis/(Z) isomer: the '(Z)-Tonghaosu' PubChem page returned 404. PubChem CID 5352496 'Tonghaosu' is the (2E) isomer (InChIKey WTRXKCNFPMTAJV-KPKJPENVSA-N, CAS 50257-98-2 / 16863-61-9, MW 200.23), and its synonym list mixes cis/trans labels, so it was NOT used for the cis isomer. Isomeric SMILES not recorded (the NIST page gives only the InChI)."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "polyacetylene (fatty-acid derived)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "matricaria-chamomilla",
+    "plant_part": "essential oil",
+    "value": null,
+    "unit": null,
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+    "verified": true,
+    "note": "Amount null per ruling: EMA '20-30 %' (re-read in this pass as cis + trans spiroethers together) needs its basis confirmed before display. Duke: CIS-SPIROETHER Plant (Newall 1996) and CIS-EN-YN-DICYCLOETHER Plant (Kameoka & Nakai 1987), no values. | Basis as recorded: % of essential oil (as extracted for cis/trans-en-yn-dicycloethers together; value seems high - re-check against the report)"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": "Good anti-inflammatory effect in mouse ear inflammation assays; listed among spasmolytic constituents [10].",
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [
+   {
+    "claim": "Spiroethers are anti-inflammatory in mouse ear models.",
+    "grade": "D",
+    "test_article": "isolated_compound",
+    "test_article_detail": "cis/trans-en-in-dicycloether (EMA summary)",
+    "population": "animal",
+    "outcome_summary": "Good anti-inflammatory effect.",
+    "refs": [
+     10
+    ],
+    "note": null
+   }
+  ],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Not sourced.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "A reminder that 'chamomile oil' is not only terpenes: spiroethers are polyacetylenes, typical of the daisy family.",
+  "citations": [
+   10
+  ],
+  "gaps": [
+   "No PubChem CID or SMILES for the cis isomer (identity from NIST InChI).",
+   "Amount null: EMA '20-30 %' (as re-read, cis + trans together) needs human confirmation of its basis.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author).",
+   "mw_source 'nist_webbook' is outside the pubchem|computed_from_formula enum."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Chamomile's [polyacetylene](#term:polyacetylene) spiroether; anti-inflammatory in mouse ear tests.",
+   "mechanism": "Good anti-inflammatory effect in mouse ear inflammation assays; listed among spasmolytic constituents [10](#cite:10).",
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "A reminder that 'chamomile oil' is not only [terpenes](#term:terpenoid): spiroethers are polyacetylenes, typical of the [daisy family](#term:asteraceae).",
+   "processing_note": "Not sourced.",
+   "biosynthesis_note": null,
+   "evidence": [
+    {
+     "claim": "Spiroethers are anti-inflammatory in mouse ear models.",
+     "outcome_summary": "Good anti-inflammatory effect."
+    }
+   ],
+   "safety_flags": []
+  },
+  "terms": [
+   "polyacetylene",
+   "terpenoid",
+   "asteraceae"
+  ],
+  "cited_refs": [
+   10
+  ],
+  "taxa": [
+   "matricaria-chamomilla"
+  ],
+  "has_human_evidence": false,
+  "structure": null,
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "cis-spiroether#0",
+   "compound_id": "cis-spiroether",
+   "compound": "cis-spiroether (cis-en-yn-dicycloether, (Z)-tonghaosu)",
+   "class": "polyacetylene",
+   "palette_group": "asteraceae",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "essential oil",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "Amount null per ruling: EMA '20-30 %' (re-read in this pass as cis + trans spiroethers together) needs its basis confirmed before display. Duke: CIS-SPIROETHER Plant (Newall 1996) and CIS-EN-YN-DICYCLOETHER Plant (Kameoka & Nakai 1987), no values. | Basis as recorded: % of essential oil (as extracted for cis/trans-en-yn-dicycloethers together; value seems high - re-check against the report)",
+   "refs": [
+    10
+   ]
+  }
+ ],
+ "preparations": []
+}

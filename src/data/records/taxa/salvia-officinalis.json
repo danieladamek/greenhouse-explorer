@@ -1,0 +1,715 @@
+{
+ "taxa": [
+  {
+   "id": "salvia-officinalis",
+   "species_key": "Salvia officinalis",
+   "accepted_name": "Salvia officinalis",
+   "authority": "L.",
+   "family": "Lamiaceae",
+   "common_names": [
+    "Common sage"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 38868,
+    "powo_id": "urn:lsid:ipni.org:names:456833-1",
+    "gbif_key": 2927004,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "herbs",
+    "medicinal"
+   ],
+   "identity_status": "confirmed",
+   "profiled": true,
+   "profile_depth": "deep",
+   "cultivars": [
+    {
+     "crop_id": "GH-074",
+     "name": null,
+     "type": "Leaf",
+     "list_category": "herbs",
+     "name_as_given": "Salvia officinalis",
+     "identity_status": "confirmed",
+     "note": "Also listed under Medicinal."
+    },
+    {
+     "crop_id": "GH-087",
+     "name": null,
+     "type": "Leaf",
+     "list_category": "medicinal",
+     "name_as_given": "Salvia officinalis",
+     "identity_status": "confirmed",
+     "note": "DUPLICATE of the Herbs entry (same plant or two plantings?)."
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-074",
+    "GH-087"
+   ],
+   "n_plantings": 2,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [
+    "rosmarinic-acid",
+    "1-8-cineole",
+    "ursolic-acid",
+    "alpha-thujone",
+    "beta-thujone",
+    "camphor",
+    "borneol",
+    "carnosic-acid",
+    "carnosol",
+    "luteolin",
+    "luteolin-7-glucoside",
+    "apigenin"
+   ],
+   "occurrence_rows": [
+    "rosmarinic-acid#3",
+    "1-8-cineole#1",
+    "ursolic-acid#1",
+    "alpha-thujone#0",
+    "beta-thujone#0",
+    "camphor#0",
+    "borneol#0",
+    "carnosic-acid#0",
+    "carnosol#0",
+    "luteolin#0",
+    "luteolin-7-glucoside#0",
+    "apigenin#0"
+   ],
+   "safety_evidence": {
+    "taxon_id": "salvia-officinalis",
+    "plant_part_used": "leaf (tea, extracts, fresh-leaf tablets); essential oil",
+    "safety": {
+     "drug_interactions": [
+      {
+       "with": "CYP2D6 substrates",
+       "effect": "in vitro screening suggested CYP2D6 inhibition; EMA: no conclusions could be drawn",
+       "evidence_grade": "E",
+       "refs": [
+        1
+       ],
+       "md": "[in vitro](#term:in-vitro) screening suggested CYP2D6 inhibition; [EMA](#term:ema-hmpc): no conclusions could be drawn"
+      },
+      {
+       "with": "antidiabetic drugs (hypoglycaemia claims)",
+       "effect": "no interaction data found; EMA states 'No data available' on pharmacodynamic interactions",
+       "evidence_grade": null,
+       "refs": [
+        1
+       ],
+       "md": "no [interaction](#term:drug-interaction) data found; EMA states 'No data available' on pharmacodynamic interactions"
+      }
+     ],
+     "pregnancy_lactation": {
+      "statement": "'As there is no information on reproductive and developmental toxicity, the use during pregnancy and lactation cannot be recommended' (EMA). EMA's thujone statement adds that use of thujone-containing products in pregnant women and children should be minimised.",
+      "refs": [
+       1,
+       2
+      ],
+      "md": "'As there is no information on reproductive and developmental toxicity, the use during pregnancy and lactation cannot be recommended' (EMA). EMA's [thujone](#term:thujone) statement adds that use of thujone-containing products in pregnant women and children should be minimised."
+     },
+     "allergy": {
+      "statement": null,
+      "refs": [],
+      "md": null
+     },
+     "adverse_event_history": {
+      "statement": "A toddler developed tonic-clonic seizures after home-made sage tea; EMA also records epileptiform convulsions after prolonged use of alcoholic extracts or pure oil, and convulsions in rats at high sage-oil doses.",
+      "refs": [
+       1
+      ],
+      "md": "A toddler developed tonic-clonic [seizures](#term:convulsant) after home-made sage tea; EMA also records epileptiform convulsions after prolonged use of alcoholic extracts or pure oil, and convulsions in rats at high sage-oil doses."
+     },
+     "contraindications": [],
+     "constituents_of_concern": [
+      {
+       "compound_id": "alpha-thujone",
+       "concern": "GABA-A antagonist; convulsant",
+       "threshold_or_limit": "3.5 mg/day or 6.6 mg/day thujone (EMA derivations); 3-7 mg/day stated to pose no special concern",
+       "refs": [
+        2
+       ],
+       "md": "[GABA-A](#term:gaba-a) [antagonist](#term:antagonist); convulsant"
+      },
+      {
+       "compound_id": "beta-thujone",
+       "concern": "weaker GABA-A antagonist",
+       "threshold_or_limit": "included in thujone limits",
+       "refs": [
+        2,
+        39
+       ],
+       "md": "weaker GABA-A antagonist"
+      },
+      {
+       "compound_id": "camphor",
+       "concern": "convulsant at high exposure; 7-50 % of commercial sage oils",
+       "threshold_or_limit": "EMA toxicity thresholds ~5 mg/kg (insignificant) and >30 mg/kg (manifest toxicity), reported in the rosemary report",
+       "refs": [
+        1,
+        12
+       ],
+       "md": "convulsant at high exposure; 7-50 % of commercial sage oils"
+      }
+     ]
+    },
+    "evidence": [
+     {
+      "claim": "A sage extract reduced menopausal hot-flush severity and overall menopausal complaints compared with placebo.",
+      "grade": "B",
+      "test_article": "named_extract",
+      "test_article_detail": "Menosan (ethanolic S. officinalis extract tablets), 4 weeks",
+      "population": "human",
+      "outcome_summary": "Menopause Rating Scale -39.2 % vs -6.3 %; hot-flush severity -55.3 % (80 randomised, 48 per protocol).",
+      "refs": [
+       50
+      ],
+      "note": null,
+      "md": {
+       "claim": "A sage extract reduced menopausal hot-flush severity and overall menopausal complaints compared with [placebo](#term:placebo).",
+       "outcome_summary": "Menopause Rating Scale -39.2 % vs -6.3 %; hot-flush severity -55.3 % (80 [randomised](#term:rct), 48 per protocol)."
+      }
+     },
+     {
+      "claim": "Hot-flush intensity fell during 8 weeks of a fresh sage leaf tablet in an uncontrolled study.",
+      "grade": "C",
+      "test_article": "named_extract",
+      "test_article_detail": "once-daily fresh sage leaf tablet, open multicentre, no control",
+      "population": "human",
+      "outcome_summary": "Hot-flush intensity score -50 % at 4 weeks, -64 % at 8 weeks (ITT n = 69).",
+      "refs": [
+       49
+      ],
+      "note": "No placebo arm; EMA did not accept it for well-established use [1].",
+      "md": {
+       "claim": "Hot-flush intensity fell during 8 weeks of a fresh sage leaf tablet in an [uncontrolled](#term:open-label) study.",
+       "outcome_summary": "Hot-flush intensity score -50 % at 4 weeks, -64 % at 8 weeks (ITT n = 69)."
+      }
+     },
+     {
+      "claim": "Sage extract improved cognition in mild to moderate Alzheimer's disease over 4 months.",
+      "grade": "B",
+      "test_article": "named_extract",
+      "test_article_detail": "S. officinalis extract (drops), placebo-controlled",
+      "population": "human",
+      "outcome_summary": "Better ADAS-cog and CDR-SB than placebo (n = 42); more agitation on sage.",
+      "refs": [
+       51
+      ],
+      "note": "Single small trial; a systematic review found benefits undermined by methodological issues and heterogeneous preparations [53].",
+      "md": {
+       "claim": "Sage extract improved cognition in mild to moderate Alzheimer's disease over 4 months.",
+       "outcome_summary": "Better ADAS-cog and CDR-SB than placebo (n = 42); more agitation on sage."
+      }
+     },
+     {
+      "claim": "Dried sage leaf changed mood and alertness acutely in healthy adults.",
+      "grade": "B",
+      "test_article": "whole_herb",
+      "test_article_detail": "dried S. officinalis leaf in capsules, two amounts, crossover",
+      "population": "human",
+      "outcome_summary": "Improved mood; anxiety/alertness effects differed by amount (n = 30).",
+      "refs": [
+       52
+      ],
+      "note": "Test article matters: other cognition trials used extracts, oils or S. lavandulaefolia [53].",
+      "md": {
+       "claim": "Dried sage leaf changed mood and alertness acutely in healthy adults.",
+       "outcome_summary": "Improved mood; anxiety/alertness effects differed by amount (n = 30)."
+      }
+     },
+     {
+      "claim": "A sage spray eased acute pharyngitis pain slightly more than placebo.",
+      "grade": "B",
+      "test_article": "named_extract",
+      "test_article_detail": "15 % sage spray (Hubbert et al. 2006, as described by EMA)",
+      "population": "human",
+      "outcome_summary": "About 44 % vs 34 % pain reduction within 2 hours.",
+      "refs": [
+       1
+      ],
+      "note": "Primary paper not read; EMA notes the concentration differs from EU-marketed products.",
+      "md": {
+       "claim": "A sage spray eased acute pharyngitis pain slightly more than placebo.",
+       "outcome_summary": "About 44 % vs 34 % pain reduction within 2 hours."
+      }
+     },
+     {
+      "claim": "Sage leaf is traditionally used for mild dyspepsia, excessive sweating, mouth/throat inflammation and minor skin inflammation.",
+      "grade": "T",
+      "test_article": "whole_herb",
+      "test_article_detail": "sage leaf preparations",
+      "population": "traditional",
+      "outcome_summary": "EMA: 'relief of mild dyspeptic complaints such as heartburn and bloating'; 'relief of excessive sweating'; 'relief of inflammations in the mouth or the throat'.",
+      "refs": [
+       1
+      ],
+      "note": null,
+      "md": {
+       "claim": "Sage leaf is [traditionally used](#term:traditional-use) for mild dyspepsia, excessive sweating, mouth/throat inflammation and minor skin inflammation.",
+       "outcome_summary": "EMA: 'relief of mild dyspeptic complaints such as heartburn and bloating'; 'relief of excessive sweating'; 'relief of inflammations in the mouth or the throat'."
+      }
+     }
+    ],
+    "monograph_status": {
+     "ema_hmpc": {
+      "exists": true,
+      "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf"
+     },
+     "escop": {
+      "exists": null,
+      "url": null
+     },
+     "who": {
+      "exists": null,
+      "url": null
+     }
+    },
+    "refs": [
+     1,
+     2,
+     12,
+     39,
+     49,
+     50,
+     51,
+     52,
+     53
+    ],
+    "gaps": [
+     "EMA monograph URL not recorded (assessment report given).",
+     "ESCOP/WHO status not checked.",
+     "Hubbert 2006 and Scholey 2008 primary papers not read.",
+     "Thujone content of a home infusion not sourced.",
+     "Hypoglycaemic interaction claims: no human data found."
+    ],
+    "as_of": "2026-09-23",
+    "terms": [
+     "in-vitro",
+     "ema-hmpc",
+     "drug-interaction",
+     "thujone",
+     "convulsant",
+     "gaba-a",
+     "antagonist",
+     "placebo",
+     "rct",
+     "open-label",
+     "traditional-use"
+    ],
+    "cited_refs": [
+     1,
+     2,
+     12,
+     39,
+     49,
+     50,
+     51,
+     52,
+     53
+    ]
+   },
+   "preparations": [
+    "sage-leaf-hot-infusion"
+   ],
+   "primer_sections": [
+    "5-three-pathways-that-make-the-greenhouse-smell",
+    "7-from-leaf-to-cup",
+    "8-how-to-read-the-rest-of-this-site"
+   ],
+   "todo": [
+    {
+     "where": "taxa_safety_evidence/salvia-officinalis",
+     "what": "EMA monograph URL not recorded (assessment report given)."
+    },
+    {
+     "where": "taxa_safety_evidence/salvia-officinalis",
+     "what": "ESCOP/WHO status not checked."
+    },
+    {
+     "where": "taxa_safety_evidence/salvia-officinalis",
+     "what": "Hubbert 2006 and Scholey 2008 primary papers not read."
+    },
+    {
+     "where": "taxa_safety_evidence/salvia-officinalis",
+     "what": "Thujone content of a home infusion not sourced."
+    },
+    {
+     "where": "taxa_safety_evidence/salvia-officinalis",
+     "what": "Hypoglycaemic interaction claims: no human data found."
+    }
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "row": "rosmarinic-acid#3",
+   "compound_id": "rosmarinic-acid",
+   "compound": "rosmarinic acid",
+   "class": "hydroxycinnamic-acid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": "up to 3.3",
+   "unit": "%",
+   "basis": "dry_weight",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Rev. 1. EMA/HMPC/150801/2015 (20 Sep 2016). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "EMA: rosmarinic acid up to 3.3 %. Duke: Plant 30000-50600 ppm; Inflorescence 30000-42000 ppm. Ghorbani 2017: extracts 'rich in ... rosmarinic acid and luteolin-7-glucoside'. | Basis as recorded: dried leaf (as given in EMA report)",
+   "refs": [
+    1
+   ]
+  },
+  {
+   "row": "1-8-cineole#1",
+   "compound_id": "1-8-cineole",
+   "compound": "1,8-cineole (eucalyptol)",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "1-15",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Rev. 1. EMA/HMPC/150801/2015 (20 Sep 2016). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Duke: Leaf Essent. Oil 91000-357000 ppm; Essential Oil 73000-217000 ppm. | Basis as recorded: % of essential oil",
+   "refs": [
+    1
+   ]
+  },
+  {
+   "row": "ursolic-acid#1",
+   "compound_id": "ursolic-acid",
+   "compound": "ursolic acid",
+   "class": "triterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": "up to 3.5",
+   "unit": "%",
+   "basis": "dry_weight",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Rev. 1. EMA/HMPC/150801/2015 (20 Sep 2016). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Duke: Leaf 1255-1300 ppm; Stem max 200 ppm. LOTUS ursolic acid (LTS0250838) lists Salvia officinalis (ref 10.1016/S0378-8741(00)00396-2 as decoded). | Basis as recorded: dried leaf (as given in EMA report)",
+   "refs": [
+    1
+   ]
+  },
+  {
+   "row": "alpha-thujone#0",
+   "compound_id": "alpha-thujone",
+   "compound": "α-thujone",
+   "class": "monoterpenoid-ketone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "10-60",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Rev. 1. EMA/HMPC/150801/2015 (20 Sep 2016). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Duke: ALPHA-THUJONE Leaf Essent. Oil 200000-363300 ppm; Leaf 200-10172 ppm. | Basis as recorded: % of essential oil",
+   "refs": [
+    1
+   ]
+  },
+  {
+   "row": "beta-thujone#0",
+   "compound_id": "beta-thujone",
+   "compound": "β-thujone",
+   "class": "monoterpenoid-ketone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "4-36",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Rev. 1. EMA/HMPC/150801/2015 (20 Sep 2016). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Duke: BETA-THUJONE Leaf Essent. Oil 174000-356000 ppm; Leaf 200-9968 ppm. | Basis as recorded: % of essential oil",
+   "refs": [
+    1
+   ]
+  },
+  {
+   "row": "camphor#0",
+   "compound_id": "camphor",
+   "compound": "camphor",
+   "class": "monoterpenoid-ketone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "5-20",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Rev. 1. EMA/HMPC/150801/2015 (20 Sep 2016). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Duke: Leaf Essent. Oil 44000-458000 ppm; Leaf 0-9324 ppm. | Basis as recorded: % of essential oil",
+   "refs": [
+    1
+   ]
+  },
+  {
+   "row": "borneol#0",
+   "compound_id": "borneol",
+   "compound": "borneol",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "leaf essential oil",
+   "value": "16000-250000",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Ghorbani A, Esmaeilizadeh M (2017) Pharmacological properties of Salvia officinalis and its components. J Tradit Complement Med 7(4):433-440",
+   "source_doi_or_url": "https://doi.org/10.1016/j.jtcme.2016.12.014",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Ghorbani 2017: 'The main components of the oil include borneol, camphor, caryophyllene, cineole, ...'. EMA lists borneol without a range. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)",
+   "refs": [
+    23
+   ]
+  },
+  {
+   "row": "carnosic-acid#0",
+   "compound_id": "carnosic-acid",
+   "compound": "carnosic acid",
+   "class": "diterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": "max 12400",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Ghorbani A, Esmaeilizadeh M (2017) Pharmacological properties of Salvia officinalis and its components. J Tradit Complement Med 7(4):433-440",
+   "source_doi_or_url": "https://doi.org/10.1016/j.jtcme.2016.12.014",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Ghorbani 2017: 'The most effective antioxidant constituents of S. officinalis are carnosol, rosmarinic acid, and carnosic acid'. Not quantified in the EMA sage report as extracted. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    23
+   ]
+  },
+  {
+   "row": "carnosol#0",
+   "compound_id": "carnosol",
+   "compound": "carnosol",
+   "class": "diterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": "0.35",
+   "unit": "%",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Rev. 1. EMA/HMPC/150801/2015 (20 Sep 2016). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Duke: Leaf max 1660 ppm. | Basis as recorded: as given in EMA report Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    1
+   ]
+  },
+  {
+   "row": "luteolin#0",
+   "compound_id": "luteolin",
+   "compound": "luteolin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Rev. 1. EMA/HMPC/150801/2015 (20 Sep 2016). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Duke: LUTEOLIN Leaf and Shoot, no values. EMA: flavonoids ~1.1 % total, luteolin and apigenin and their glycosides listed without individual %.",
+   "refs": [
+    1
+   ]
+  },
+  {
+   "row": "luteolin-7-glucoside#0",
+   "compound_id": "luteolin-7-glucoside",
+   "compound": "luteolin-7-O-glucoside (cynaroside)",
+   "class": "flavone-glycoside",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "plant; leaf (as cynaroside)",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Ghorbani A, Esmaeilizadeh M (2017) Pharmacological properties of Salvia officinalis and its components. J Tradit Complement Med 7(4):433-440",
+   "source_doi_or_url": "https://doi.org/10.1016/j.jtcme.2016.12.014",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Duke: LUTEOLIN-7-GLUCOSIDE Plant (Duke writeups); CYNAROSIDE Leaf (Duke 1992); no values. Ghorbani 2017: sage extracts 'rich in flavonoids particularly rosmarinic acid and luteolin-7-glucoside'. EMA sage report also lists it (unquantified).",
+   "refs": [
+    23
+   ]
+  },
+  {
+   "row": "apigenin#0",
+   "compound_id": "apigenin",
+   "compound": "apigenin",
+   "class": "flavone",
+   "palette_group": "shared",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "plant; shoot",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Rev. 1. EMA/HMPC/150801/2015 (20 Sep 2016). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Duke: APIGENIN Plant and Shoot, no values. EMA lists apigenin and its glycosides (no individual %).",
+   "refs": [
+    1
+   ]
+  }
+ ],
+ "plantings": [
+  {
+   "id": "GH-074",
+   "list_category": "Herbs",
+   "original_entry": "Sage",
+   "common_name": "Common sage",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf",
+   "scientific_name": "Salvia officinalis",
+   "species_key": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "confidence": "High",
+   "note": "Also listed under Medicinal.",
+   "taxon_id": "salvia-officinalis",
+   "status": "current"
+  },
+  {
+   "id": "GH-087",
+   "list_category": "Medicinal",
+   "original_entry": "Sage",
+   "common_name": "Common sage",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf",
+   "scientific_name": "Salvia officinalis",
+   "species_key": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "confidence": "High",
+   "note": "DUPLICATE of the Herbs entry (same plant or two plantings?).",
+   "taxon_id": "salvia-officinalis",
+   "status": "current"
+  }
+ ],
+ "preparations": [
+  {
+   "id": "sage-leaf-hot-infusion",
+   "name": "Sage leaf, hot-water infusion"
+  }
+ ]
+}

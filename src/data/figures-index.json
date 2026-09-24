@@ -1,0 +1,63 @@
+[
+ {
+  "id": "fig-pathways",
+  "label": "Figure 1",
+  "title": "Three routes from fixed carbon to the greenhouse's aroma and phenolic compounds",
+  "kind": "pathway",
+  "synthesis": "conceptual",
+  "image": null,
+  "provenance": "synthesised: conceptual diagram",
+  "concepts": [],
+  "refs": [
+   6,
+   10,
+   20,
+   24,
+   28,
+   29,
+   40,
+   42,
+   43,
+   106,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119,
+   120,
+   121,
+   122,
+   123,
+   132,
+   134
+  ],
+  "rows": null,
+  "fields": null,
+  "has_chart": false
+ },
+ {
+  "id": "fig-extraction",
+  "label": "Figure 2",
+  "title": "How much of a herb's oil and phenolic fraction reaches a hot-water infusion",
+  "kind": "chart",
+  "synthesis": "data",
+  "image": null,
+  "provenance": "synthesised from cited data",
+  "concepts": [],
+  "refs": [
+   6,
+   10,
+   127,
+   131,
+   132
+  ],
+  "rows": 7,
+  "fields": 12,
+  "has_chart": true
+ }
+]

@@ -1,0 +1,188 @@
+{
+ "compound": {
+  "id": "bisabolol-oxide-a",
+  "name": "α-bisabolol oxide A",
+  "synonyms": [
+   "α-bisabolol oxide A"
+  ],
+  "class": "sesquiterpene",
+  "subclass": "sesquiterpene tetrahydropyran oxide",
+  "one_liner": "Oxidised bisabolol marking the 'oxide' chemotypes of chamomile.",
+  "palette_group": "asteraceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "(3S,6S)-2,2,6-trimethyl-6-[(1S)-4-methylcyclohex-3-en-1-yl]oxan-3-ol",
+   "formula": "C15H26O2",
+   "mw": 238.37,
+   "mw_source": "computed_from_formula",
+   "smiles": "CC1=CC[C@H](CC1)[C@@]2(CC[C@@H](C(O2)(C)C)O)C",
+   "inchikey": "WJHRAVIQWFQMKF-IPYPFGDCSA-N",
+   "cas": "22567-36-8",
+   "pubchem_cid": 13092559,
+   "chebi_id": "CHEBI:80719",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/13092559/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": "CID 6432251 ('alpha-Bisabolol oxide A') has one stereocentre undefined and no CAS; CID 13092559 chosen (fully defined, CAS 22567-36-8)."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MVA/terpenoid (sesquiterpene; from farnesyl diphosphate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "matricaria-chamomilla",
+    "plant_part": "essential oil (flower)",
+    "value": null,
+    "unit": null,
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+    "verified": true,
+    "note": "EMA: bisabolol oxides A and B present (one study '0.45 mg/ml of bisabolol oxides'); no % range extracted. Duke: ALPHA-BISABOLOL-OXIDE-A Plant, no value (citation mismatch, see flags)."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "Chamomile oils are sold as bisabolol type or oxide type; the ratio of α-bisabolol to its oxides is a chemotype marker.",
+  "citations": [
+   10
+  ],
+  "gaps": [
+   "No % range for oxide A extracted.",
+   "Chemotype framing (bisabolol vs oxide types) not sourced in this pass.",
+   "Pharmacology not researched.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Oxidised bisabolol marking the 'oxide' [chemotypes](#term:chemotype) of chamomile.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Chamomile oils are sold as bisabolol type or oxide type; the ratio of α-bisabolol to its oxides is a chemotype marker.",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "chemotype",
+   "solubility"
+  ],
+  "cited_refs": [
+   10
+  ],
+  "taxa": [
+   "matricaria-chamomilla"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C15H26O2",
+   "inchikeyComputed": "WJHRAVIQWFQMKF-IPYPFGDCSA-N",
+   "canonicalSmiles": "CC1=CC[C@@H]([C@]2(C)CC[C@H](O)C(C)(C)O2)CC1",
+   "monoisotopicMass": 238.1933,
+   "averageMass": 238.371,
+   "descriptors": {
+    "heavyAtoms": 17,
+    "rings": 2,
+    "aromaticRings": 0,
+    "hbd": 1,
+    "hba": 2,
+    "rotatableBonds": 1,
+    "logP": 3.44,
+    "tpsa": 29.5,
+    "fsp3": 0.87,
+    "stereocenters": 3,
+    "charge": 0
+   },
+   "atomCount": 43,
+   "heavyAtomCount": 17,
+   "functionalGroups": [
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       1,
+       7
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/bisabolol-oxide-a.sdf",
+   "svg": {
+    "light": "structures/2d/bisabolol-oxide-a.svg",
+    "dark": "structures/2d/bisabolol-oxide-a.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/bisabolol-oxide-a.json",
+   "mwPack": 238.37,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "bisabolol-oxide-a#0",
+   "compound_id": "bisabolol-oxide-a",
+   "compound": "α-bisabolol oxide A",
+   "class": "sesquiterpene",
+   "palette_group": "asteraceae",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "essential oil (flower)",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "EMA: bisabolol oxides A and B present (one study '0.45 mg/ml of bisabolol oxides'); no % range extracted. Duke: ALPHA-BISABOLOL-OXIDE-A Plant, no value (citation mismatch, see flags).",
+   "refs": [
+    10
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "chamomile-flower-hot-infusion",
+   "name": "German chamomile flower, hot-water infusion"
+  }
+ ]
+}

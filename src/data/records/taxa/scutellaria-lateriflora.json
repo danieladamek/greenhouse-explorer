@@ -1,0 +1,370 @@
+{
+ "taxa": [
+  {
+   "id": "scutellaria-lateriflora",
+   "species_key": "Scutellaria lateriflora",
+   "accepted_name": "Scutellaria lateriflora",
+   "authority": "L.",
+   "family": "Lamiaceae",
+   "common_names": [
+    "American skullcap"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 233893,
+    "powo_id": "urn:lsid:ipni.org:names:458402-1",
+    "gbif_key": 5341325,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "medicinal"
+   ],
+   "identity_status": "confirmed",
+   "profiled": true,
+   "profile_depth": "deep",
+   "cultivars": [],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [],
+   "n_plantings": 0,
+   "statuses": [],
+   "candidate_of": "scutellaria-sp",
+   "compounds": [
+    "baicalin",
+    "baicalein",
+    "wogonin",
+    "scutellarin",
+    "dihydrobaicalin",
+    "oroxylin-a",
+    "teucrin-a"
+   ],
+   "occurrence_rows": [
+    "baicalin#0",
+    "baicalein#0",
+    "wogonin#0",
+    "scutellarin#0",
+    "dihydrobaicalin#0",
+    "oroxylin-a#0",
+    "teucrin-a#1"
+   ],
+   "safety_evidence": {
+    "taxon_id": "scutellaria-lateriflora",
+    "plant_part_used": "aerial parts (tea herb)",
+    "safety": {
+     "drug_interactions": [],
+     "pregnancy_lactation": {
+      "statement": null,
+      "refs": [],
+      "md": null
+     },
+     "allergy": {
+      "statement": null,
+      "refs": [],
+      "md": null
+     },
+     "adverse_event_history": {
+      "statement": "LiverTox rates skullcap a 'very likely but rare' cause of liver injury (score B), with hepatocellular injury 1-12 weeks after starting, and notes that analysis has in some suspected cases found germander adulteration or mislabelling. Germander itself caused hepatitis with positive rechallenge in a French series, and its diterpenoid teucrin A reproduces the injury in mice. Authenticated S. lateriflora contains no teucrin A. Whether skullcap itself is hepatotoxic therefore remains unresolved.",
+      "refs": [
+       13,
+       31,
+       30,
+       25
+      ],
+      "md": "[LiverTox](#term:livertox) rates skullcap a 'very likely but rare' cause of [liver injury](#term:hepatotoxicity) (score B), with hepatocellular injury 1-12 weeks after starting, and notes that analysis has in some suspected cases found [germander](#term:germander) [adulteration](#term:adulteration) or mislabelling. Germander itself caused hepatitis with positive rechallenge in a French series, and its [diterpenoid](#term:diterpene) teucrin A reproduces the injury in mice. Authenticated S. lateriflora contains no teucrin A. Whether skullcap itself is hepatotoxic therefore remains unresolved."
+     },
+     "contraindications": [],
+     "constituents_of_concern": [
+      {
+       "compound_id": "teucrin-a",
+       "concern": "not a skullcap constituent: germander hepatotoxin found in adulterated 'skullcap' products; not detected in authenticated S. lateriflora",
+       "threshold_or_limit": null,
+       "refs": [
+        25,
+        30
+       ],
+       "md": "not a skullcap constituent: germander hepatotoxin found in adulterated 'skullcap' products; not detected in authenticated S. lateriflora"
+      }
+     ]
+    },
+    "evidence": [
+     {
+      "claim": "S. lateriflora did not reduce anxiety versus placebo in healthy, mostly mildly anxious volunteers.",
+      "grade": "B",
+      "test_article": "whole_herb",
+      "test_article_detail": "S. lateriflora capsules, three times daily, 2-week crossover periods (preparation type not stated in the abstract read)",
+      "population": "human",
+      "outcome_summary": "No significant anxiety difference (p = 0.191); mood disturbance fell from baseline in both arms (n = 43).",
+      "refs": [
+       60
+      ],
+      "note": "The only RCT found; the brief's 'freeze-dried aerial parts' description is not confirmed from the abstract.",
+      "md": {
+       "claim": "S. lateriflora did not reduce anxiety versus [placebo](#term:placebo) in healthy, mostly mildly anxious volunteers.",
+       "outcome_summary": "No significant anxiety difference (p = 0.191); mood disturbance fell from baseline in both arms (n = 43)."
+      }
+     }
+    ],
+    "monograph_status": {
+     "ema_hmpc": {
+      "exists": null,
+      "url": null
+     },
+     "escop": {
+      "exists": null,
+      "url": null
+     },
+     "who": {
+      "exists": null,
+      "url": null
+     }
+    },
+    "refs": [
+     13,
+     24,
+     25,
+     27,
+     30,
+     31,
+     60
+    ],
+    "gaps": [
+     "No EMA/ESCOP/WHO monograph found in this pass (absence not confirmed).",
+     "Pregnancy/lactation: no data found.",
+     "Sedation/interaction data not researched."
+    ],
+    "as_of": "2026-09-23",
+    "terms": [
+     "livertox",
+     "hepatotoxicity",
+     "germander",
+     "adulteration",
+     "diterpene",
+     "placebo"
+    ],
+    "cited_refs": [
+     13,
+     24,
+     25,
+     27,
+     30,
+     31,
+     60
+    ]
+   },
+   "preparations": [],
+   "primer_sections": [
+    "5-three-pathways-that-make-the-greenhouse-smell",
+    "7-from-leaf-to-cup",
+    "8-how-to-read-the-rest-of-this-site"
+   ],
+   "todo": [
+    {
+     "where": "taxa_safety_evidence/scutellaria-lateriflora",
+     "what": "No EMA/ESCOP/WHO monograph found in this pass (absence not confirmed)."
+    },
+    {
+     "where": "taxa_safety_evidence/scutellaria-lateriflora",
+     "what": "Pregnancy/lactation: no data found."
+    },
+    {
+     "where": "taxa_safety_evidence/scutellaria-lateriflora",
+     "what": "Sedation/interaction data not researched."
+    }
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "row": "baicalin#0",
+   "compound_id": "baicalin",
+   "compound": "baicalin",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": "11.7 ± 2.9",
+   "unit": "mg/g",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "KNApSAcK",
+   "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Scutellaria%20lateriflora",
+   "verified": true,
+   "note": "KNApSAcK: Baicalin C00001024 in S. lateriflora. Gafner 2003 and Lin 2009 also identify baicalin as a predominant flavonoid of the aerial parts. | Basis as recorded: fresh weight (the paper's results give leaf flavone totals per g fresh weight; methods extracted ground tissue - confirm basis) | Makino 2008 (doi 10.1007/s11418-008-0230-7): flavonoids higher in S. lateriflora aerial parts than in its root. Basis (fresh vs dry weight) unconfirmed, so basis: null. Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "baicalein#0",
+   "compound_id": "baicalein",
+   "compound": "baicalein",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": "2.24 ± 0.7",
+   "unit": "mg/g",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "KNApSAcK",
+   "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Scutellaria%20lateriflora",
+   "verified": true,
+   "note": "Costine 2022: leaf 2.24 ± 0.7, stem 0.6 ± 0.1 mg/g. KNApSAcK: Baicalein C00001022. | Basis as recorded: fresh weight (see baicalin note) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "wogonin#0",
+   "compound_id": "wogonin",
+   "compound": "wogonin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "aerial parts",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Lin L-Z, Harnly JM, Upton R (2009) Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal 20(4):298-306",
+   "source_doi_or_url": "https://doi.org/10.1002/pca.1127",
+   "database": "LOTUS",
+   "database_url": "https://lotus.naturalproducts.net/api/search/simple?query=wogonin",
+   "verified": true,
+   "note": "LOTUS LTS0176185 lists S. lateriflora (refs decoded as 10.1021/np0205102 and 10.1021/np900068t). Lin 2009 lists wogonin among flavonoids positively identified in authenticated S. lateriflora aerial parts; no mg/g given.",
+   "refs": [
+    25
+   ]
+  },
+  {
+   "row": "scutellarin#0",
+   "compound_id": "scutellarin",
+   "compound": "scutellarin (scutellarein 7-O-glucuronide)",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "plant",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Lin L-Z, Harnly JM, Upton R (2009) Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal 20(4):298-306",
+   "source_doi_or_url": "https://doi.org/10.1002/pca.1127",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6468?page&_format=csv",
+   "verified": true,
+   "note": "Duke: SCUTELLARIN Plant (Hager's Handbuch), no value. Lin 2009 lists scutellarin among flavonoids identified in authenticated aerial parts.",
+   "refs": [
+    25
+   ]
+  },
+  {
+   "row": "dihydrobaicalin#0",
+   "compound_id": "dihydrobaicalin",
+   "compound": "dihydrobaicalin",
+   "class": "flavanone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "above-ground parts (70 % ethanol extract)",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Gafner S, Bergeron C, Batcha LL, et al. (2003) Analysis of Scutellaria lateriflora and its adulterants Teucrium canadense and Teucrium chamaedrys by LC-UV/MS, TLC, and digital photomicroscopy. J AOAC Int 86(3):453-460",
+   "source_doi_or_url": "https://doi.org/10.1093/jaoac/86.3.453",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "No database record found (Duke S. lateriflora rows, KNApSAcK S. lateriflora list). Gafner 2003: extract flavonoids 'predominantly baicalin, lateriflorin, dihydrobaicalin, and baicalein'.",
+   "refs": [
+    26
+   ]
+  },
+  {
+   "row": "oroxylin-a#0",
+   "compound_id": "oroxylin-a",
+   "compound": "oroxylin A",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "aerial parts",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Lin L-Z, Harnly JM, Upton R (2009) Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal 20(4):298-306",
+   "source_doi_or_url": "https://doi.org/10.1002/pca.1127",
+   "database": "LOTUS",
+   "database_url": "https://lotus.naturalproducts.net/api/search/simple?query=oroxylin%20A",
+   "verified": true,
+   "note": "LOTUS LTS0188883 lists S. lateriflora (ref 10.1021/np900068t, as decoded). Lin 2009 identified oroxylin A and oroxylin A 7-O-glucuronide in authenticated aerial parts.",
+   "refs": [
+    25
+   ]
+  },
+  {
+   "row": "teucrin-a#1",
+   "compound_id": "teucrin-a",
+   "compound": "teucrin A",
+   "class": "clerodane-diterpenoid",
+   "palette_group": "lamiaceae",
+   "auxiliary": true,
+   "taxon_id": "scutellaria-lateriflora",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "plant_part": "aerial parts",
+   "value": "not detected",
+   "unit": "qualitative",
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Lin L-Z, Harnly JM, Upton R (2009) Comparison of the phenolic component profiles of skullcap (Scutellaria lateriflora) and germander (Teucrium canadense and T. chamaedrys), a potentially hepatotoxic adulterant. Phytochem Anal 20(4):298-306",
+   "source_doi_or_url": "https://doi.org/10.1002/pca.1127",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "Negative record: Lin 2009 found teucrin A, teuflin and teucvidin in Teucrium spp. but 'none of these compounds were detected in any of the authenticated S. lateriflora ... samples using TIC or SIM detection'. No TEUCRIN rows in the Duke S. lateriflora set. Consistent with curation.md (auxiliary record).",
+   "refs": [
+    25
+   ]
+  }
+ ],
+ "plantings": [],
+ "preparations": []
+}

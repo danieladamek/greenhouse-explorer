@@ -1,0 +1,265 @@
+# Greenhouse Explorer - Tea Time preparation records (closed schema).
+# Allowed keys: id, name, kind, plants, plant_part, method_as_chemistry, solvent, temperature_c, time_min, what_it_extracts,
+# what_it_leaves_behind, formed_or_lost, safety_block, refs, as_of. No dose, dosage, indication, serving or frequency keys.
+# temperature_c and time_min are [low, high] ranges taken from the cited studies (the conditions under which the numbers were
+# measured), or null when the source did not state them. They describe experiments, not instructions.
+# [n] 1-60 -> references-compounds.yaml; 101-170 -> references-primer.yaml. safety_block restates taxa_safety_evidence.yaml.
+- id: peppermint-leaf-hot-infusion
+  name: Peppermint leaf, hot-water infusion
+  kind: infusion
+  plants: [mentha-x-piperita]
+  plant_part: dried leaf
+  method_as_chemistry: >-
+    In a hot-water infusion of dried peppermint leaf the water-soluble phenolic fraction partitions readily into the liquid: the EMA
+    assessment reports that about 75 % of the leaf's polyphenolic compounds are extracted, the dominant one being the flavanone
+    glycoside eriocitrin, accompanied by rosmarinic acid [6], and one analysis found up to 182.2 mg of polyphenols in the infusion
+    of a single commercial tea bag [128]. The essential oil behaves differently. Only 20-25 % of it was found in the preparation
+    after 10 minutes with boiling water (EMA, citing the literature), and an infusion of dried leaves is reported to hold 21 % of the
+    original oil, about 25 mg/L [6]. Menthol is almost insoluble in water and menthone dissolves to about 688 mg/L at 25 °C [130], so
+    the oil's monoterpenes are poor solutes; a tea made with boiling water for 10 minutes contained 14 terpenes, against 70 compounds
+    in peppermint oil [129]. The cup is therefore chemically a phenolic-glycoside extract with a minor terpene fraction, not a dilute
+    oil. Pulegone and menthofuran concentrations in the infusion itself were not found in the sources read.
+  solvent: water
+  temperature_c: [100, 100]
+  time_min: [10, 10]
+  what_it_extracts: [eriocitrin, rosmarinic-acid, menthol, menthone]
+  what_it_leaves_behind: [menthol, menthone, 1-8-cineole]
+  formed_or_lost:
+  - compound_id: menthol
+    change: partly transferred; most of the leaf's oil (about 75-80 %) does not reach the infusion
+    why: near-insolubility in water and volatility; reported 20-25 % oil transfer at 10 min with boiling water [6,130]
+  - compound_id: eriocitrin
+    change: largely transferred (polyphenol fraction about 75 % extracted)
+    why: water-soluble flavanone glycoside [6]
+  safety_block:
+    summary: >-
+      EMA sets a combined pulegone + menthofuran limit (0.75 mg/kg bw/day; 37.5 mg/person/day lifelong) from rodent liver and kidney
+      toxicity; menthol-containing oil preparations are contraindicated in children under 2 years (reflex apnoea, laryngospasm) and
+      in children with a history of seizures. Peppermint oil safety in pregnancy and lactation has not been established; hypersensitivity
+      to peppermint oil or menthol is a contraindication. Interaction signals (cyclosporine, CYP3A4, calcium-channel blockers) concern
+      the oil and come from animal or in vitro data. See taxa_safety_evidence.yaml#mentha-x-piperita.
+    constituents_of_concern:
+    - compound_id: pulegone
+      concern: hepatotoxic after bioactivation; ≤3 % of oil by Ph. Eur.
+      threshold_or_limit: pulegone + menthofuran 0.75 mg/kg bw/day (37.5 mg/person/day) lifelong; 75 mg/day <1 year
+      refs: [3, 6]
+    - compound_id: menthofuran
+      concern: hepatotoxic metabolite of pulegone; 1-8 % of oil
+      threshold_or_limit: counted with pulegone (same limit)
+      refs: [3]
+    - compound_id: menthol
+      concern: reflex apnoea and laryngospasm in infants
+      threshold_or_limit: oil contraindicated in children under 2 years and in children with a history of seizures
+      refs: [7]
+    refs: [3, 6, 7]
+  refs: [6, 128, 129, 130]
+  as_of: '2026-09-23'
+- id: sage-leaf-hot-infusion
+  name: Sage leaf, hot-water infusion
+  kind: infusion
+  plants: [salvia-officinalis]
+  plant_part: dried leaf
+  method_as_chemistry: >-
+    Thujone and camphor are monoterpenoid ketones stored in the leaf's oil glands; in hot water they partition into the infusion only
+    partly and quickly. In commercial sage teas prepared from 1.5 g of dried material in 150 mL of hot water for 15 minutes, both
+    rose for about 5 minutes and then saturated; food teas averaged 4.4 mg/L thujone and 16.7 mg/L camphor, medicinal teas 11.3 mg/L
+    and 25.4 mg/L, and the aqueous teas recovered on average 30 % of the thujone that a 60 % ethanol extract released [127]. The
+    phenolic fraction is extracted more completely. Dried sage leaf extracted 1 g in 20 mL at 60 °C for 30 minutes gave 2154 mg
+    rosmarinic acid per 100 g dry matter in water against 3634 mg/100 g in 30 % ethanol, and luteolin and apigenin glycosides
+    were among the flavones measured [132]. The cup is thus richer in rosmarinic acid and flavone glycosides than in ketones,
+    but the ketones are measurably present and are what the safety block concerns.
+  solvent: water
+  temperature_c: [60, 100]
+  time_min: [5, 30]
+  what_it_extracts: [alpha-thujone, beta-thujone, camphor, rosmarinic-acid, luteolin-7-glucoside]
+  what_it_leaves_behind: [alpha-thujone, beta-thujone]
+  formed_or_lost:
+  - compound_id: alpha-thujone
+    change: about 30 % of the ethanol-extractable thujone reaches the aqueous infusion (average over products)
+    why: limited water solubility of the monoterpenoid ketones; saturation after about 5 min [127]
+  - compound_id: rosmarinic-acid
+    change: water at 60 °C recovered about 59 % of the amount recovered by 30 % ethanol (builder's ratio of 2154/3634 mg per 100 g dm)
+    why: polar ester of caffeic acid; aqueous ethanol extracts it more efficiently than water alone [132]
+  safety_block:
+    summary: >-
+      Thujone (α and β) is a GABA-A antagonist and convulsant; EMA derives exposure values of 3.5 mg/day or 6.6 mg/day and states
+      that 3-7 mg/day poses no special concern. Camphor is convulsant at high exposure. EMA records tonic-clonic seizures in a toddler
+      after home-made sage tea and states that use in pregnancy and lactation cannot be recommended; the thujone statement adds that
+      use of thujone-containing products in pregnant women and children should be minimised. The in-cup thujone values above
+      (mg/L) are reported by the source and are not a safe-intake statement by this site. See taxa_safety_evidence.yaml#salvia-officinalis.
+    constituents_of_concern:
+    - compound_id: alpha-thujone
+      concern: GABA-A antagonist; convulsant
+      threshold_or_limit: 3.5 mg/day or 6.6 mg/day thujone (EMA derivations); 3-7 mg/day stated to pose no special concern
+      refs: [2]
+    - compound_id: beta-thujone
+      concern: weaker GABA-A antagonist
+      threshold_or_limit: included in thujone limits
+      refs: [2, 39]
+    - compound_id: camphor
+      concern: convulsant at high exposure; 7-50 % of commercial sage oils
+      threshold_or_limit: EMA toxicity thresholds ~5 mg/kg (insignificant) and >30 mg/kg (manifest toxicity), reported in the rosemary report
+      refs: [1, 12]
+    refs: [1, 2, 12, 39]
+  refs: [127, 132]
+  as_of: '2026-09-23'
+- id: lemon-balm-hot-infusion
+  name: Lemon balm leaf, hot-water infusion
+  kind: infusion
+  plants: [melissa-officinalis]
+  plant_part: dried leaf
+  method_as_chemistry: >-
+    Lemon balm leaf is poor in essential oil and rich in hydroxycinnamic acids, and water extracts the second far better than the
+    first. In one comparison the dried leaf held 0.32 % essential oil and 11.8 % total polyphenols (rosmarinic acid 4.1 %); its tea
+    contained 10 mg/L of essential oil, a 31 % extraction yield, and about 1.07 g/L of polyphenols, a 93 % extraction yield [131].
+    The oil that does reach the cup is enriched in the citral aldehydes: citral was 74 % of the tea's oil, whereas in the leaf it was
+    0.13 % of 0.32 %, about 41 % of the oil (builder's ratio) [131]. The EMA gives the leaf's oil as 0.06-0.8 %, mainly citral and
+    citronellal, and rosmarinic acid up to 6 % [8]. Infusion temperature and time were not stated in the source abstract.
+  solvent: water
+  temperature_c: null
+  time_min: null
+  what_it_extracts: [rosmarinic-acid, citral]
+  what_it_leaves_behind: [citral]
+  formed_or_lost:
+  - compound_id: citral
+    change: enriched within the small oil fraction (about 41 % of leaf oil, 74 % of infusion oil) while total oil transfer is 31 %
+    why: reported by the source; the reason for the enrichment is not given there [131]
+  - compound_id: rosmarinic-acid
+    change: largely transferred (polyphenol fraction 93 % extracted)
+    why: water-soluble hydroxycinnamic ester [118,131]
+  safety_block:
+    summary: >-
+      EMA lists hypersensitivity to the active substance as the only contraindication, finds no clinical signals of harm under the
+      specified conditions of use, and advises a driving/machinery warning because of empirically acknowledged sedative properties;
+      use in pregnancy and lactation cannot be recommended for lack of reproductive-toxicity data. No constituent of concern is
+      listed. See taxa_safety_evidence.yaml#melissa-officinalis.
+    constituents_of_concern: []
+    refs: [8]
+  refs: [8, 118, 131]
+  as_of: '2026-09-23'
+- id: chamomile-flower-hot-infusion
+  name: German chamomile flower, hot-water infusion
+  kind: infusion
+  plants: [matricaria-chamomilla]
+  plant_part: dried flower heads
+  method_as_chemistry: >-
+    Chamomile teas contain mainly flavonoids and their glycosides and mucilage, and only about 10-15 % of the essential-oil
+    constituents, depending on how the tea is made [10]. Apigenin-7-O-glucoside is the major flavonoid of chamomile extracts and
+    is stable in solution across temperatures, degrading only on prolonged storage or at some pH values [134]. Extraction of the
+    phenolic fraction into water follows pseudo-first-order kinetics and speeds up as the temperature rises from 57 to 100 °C; 90 °C
+    for 20 minutes gave maximal phenols with low turbidity in one optimisation [133]. Matricin, the proazulene of the flower, is itself
+    extracted into teas at pharmaceutically relevant levels [10]. Chamazulene is a different case: it forms when matricin is at least
+    partly converted during steam distillation [10]. Whether any chamazulene forms in a hot-water infusion is not established by
+    the sources read, and this record makes no claim either way.
+  solvent: water
+  temperature_c: [57, 100]
+  time_min: null
+  what_it_extracts: [apigenin-7-glucoside, matricin]
+  what_it_leaves_behind: [alpha-bisabolol, bisabolol-oxide-a]
+  formed_or_lost:
+  - compound_id: chamazulene
+    change: formed from matricin during steam distillation; presence or absence in an infusion not established
+    why: thermal conversion of the proazulene matricin under distillation conditions [10]
+  - compound_id: alpha-bisabolol
+    change: mostly not transferred (oil constituents about 10-15 % in tea); individual oil compounds not quantified in the tea
+    why: essential-oil constituent; low transfer of the oil fraction into tea [10]
+  safety_block:
+    summary: >-
+      Contraindicated in hypersensitivity to chamomile or other Asteraceae (Compositae); severe allergic reactions including
+      anaphylactic shock are listed with unknown frequency, with higher risk in people allergic to ragweed, chrysanthemum, marigold
+      or daisy, and contamination with Anthemis cotula is a further allergy risk. Safety in pregnancy and lactation has not been
+      established for most preparations. Case reports describe interactions with warfarin and, at long high oral intake, CYP-based
+      interactions in renal-transplant patients. Herniarin is a coumarin but not coumarin; EMA gives no anticoagulant warning for it.
+      See taxa_safety_evidence.yaml#matricaria-chamomilla.
+    constituents_of_concern:
+    - compound_id: herniarin
+      concern: coumarin often assumed to be anticoagulant; EMA gives no such warning (teaching point, see compound)
+      threshold_or_limit: null
+      refs: [10, 48]
+    refs: [10, 11, 15, 48]
+  refs: [10, 133, 134]
+  as_of: '2026-09-23'
+- id: thyme-herb-hot-infusion
+  name: Thyme herb, hot-water infusion
+  kind: infusion
+  plants: [thymus-vulgaris]
+  plant_part: dried herb (leaf and flowering tops)
+  method_as_chemistry: >-
+    Thyme herb carries up to 2.5 % essential oil, with the Ph. Eur. requiring at least 1.2 % oil and 40 % thymol plus carvacrol [9].
+    In teas made with freshly boiled water and infused for 0, 2 or 5 minutes, terpenes were about 90 % of the volatile fraction:
+    thymol 61.74-78.82 %, p-cymene 8.92-17.90 % and carvacrol 4.41-5.62 % of volatiles; the main phenolic in the infusion was a
+    luteolin diglucuronide-glucuronide [137]. The phenolic monoterpenes therefore reach the cup and dominate its volatile fraction,
+    but the sources read give their share of the leaf's oil only as a percentage of the tea's volatiles, not as a recovery from the
+    leaf. The matrix matters: when thyme was infused together with cowslip or liquorice root, total volatiles and thymol in the
+    infusion fell as the proportion of the saponin-rich roots rose [138].
+  solvent: water
+  temperature_c: [100, 100]
+  time_min: [0, 5]
+  what_it_extracts: [thymol, p-cymene, carvacrol]
+  what_it_leaves_behind: []
+  formed_or_lost:
+  - compound_id: thymol
+    change: reduced in the infusion when saponin-rich roots are infused alongside
+    why: reported matrix effect of cowslip and liquorice roots on the volatile fraction [138]
+  safety_block:
+    summary: >-
+      Very rare hypersensitivity, with possible cross-reactivity within Lamiaceae; contact dermatitis and asthma from thyme dust and one
+      anaphylaxis case are reported. Adverse effects are mostly mild gastrointestinal or skin reactions; one case of acute hepatitis
+      followed ingestion of pure thyme essential oil. Historical vermifuge doses of thymol far above medicinal exposure caused abdominal
+      pain and collapse. Use in pregnancy and lactation is not recommended by EMA. See taxa_safety_evidence.yaml#thymus-vulgaris.
+    constituents_of_concern:
+    - compound_id: thymol
+      concern: historical vermifuge doses far above medicinal exposure caused abdominal pain and collapse
+      threshold_or_limit: EMA estimates ~38 mg thymol daily from medicinal thyme use (context, not a limit)
+      refs: [9]
+    refs: [9]
+  refs: [9, 137, 138]
+  as_of: '2026-09-23'
+- id: herb-tincture-ethanol-water
+  name: Herb tincture in ethanol-water (lemon balm and rosemary as examples)
+  kind: tincture
+  plants: [melissa-officinalis, salvia-rosmarinus]
+  plant_part: dried or fresh leaf
+  method_as_chemistry: >-
+    Adding ethanol to water changes which constituents dissolve, and the measured balance is not monotonic: more ethanol is not
+    simply better. For thyme, total phenolics were extracted best
+    with 60 % ethanol (about 50 mg/g dry herb), less with 30 % (about 40 mg/g) and least with 96 % ethanol (24 mg/g) [9]; for sage
+    at 60 °C, 30 % ethanol gave the most rosmarinic acid, 3634 mg/100 g dry matter [132]. Commercial lemon balm tinctures of 25-45 %
+    alcohol and herb-to-extract ratios of 1:1 to 1:5 held 2.96-22.18 mg/mL rosmarinic acid when made from dried herb but no more
+    than 0.92 mg/mL when made from fresh herb [135]; marketed lemon balm extracts listed by EMA use 45-53 % ethanol among other
+    solvents [8]. The least polar rosemary constituent moves the other way: carnosic acid was recovered best in n-hexane, up to 13 %
+    of the dried extract, while ethanol favoured rosmarinic acid [136]. Carnosic acid also oxidises to carnosol after harvest and
+    during drying, so dried rosemary starts with some of its diterpene already converted [43]. Extraction temperature and time for
+    commercial tinctures were not stated in the sources read.
+  solvent: ethanol-water (25-60 % ethanol v/v in the cited work)
+  temperature_c: null
+  time_min: null
+  what_it_extracts: [rosmarinic-acid]
+  what_it_leaves_behind: []
+  formed_or_lost:
+  - compound_id: carnosol
+    change: formed from carnosic acid before extraction, after harvest and on drying
+    why: oxidation of carnosic acid in the presence of oxygen [43]
+  - compound_id: rosmarinic-acid
+    change: far lower in commercial tinctures made from fresh herb than from dried herb
+    why: not established by the source; the products also differed in herb-to-extract ratio and alcohol strength [135]
+  safety_block:
+    summary: >-
+      Lemon balm - hypersensitivity is the only listed contraindication; EMA advises a driving/machinery warning (sedative properties)
+      and does not recommend use in pregnancy and lactation. Rosemary - camphor is a convulsant with paediatric seizure reports
+      (EMA thresholds ~5 mg/kg insignificant, >30 mg/kg manifest toxicity); carnosol is a major rosemary contact allergen; oral leaf is
+      contraindicated in bile-duct obstruction, cholangitis, liver disease and gallstones, and is not recommended under 12 years;
+      pregnancy and lactation data are insufficient. The ethanol content of tinctures was not assessed in the sources read.
+      See taxa_safety_evidence.yaml#melissa-officinalis and #salvia-rosmarinus.
+    constituents_of_concern:
+    - compound_id: camphor
+      concern: convulsant; seizures reported in children
+      threshold_or_limit: EMA toxicity thresholds ~5 mg/kg (insignificant), >30 mg/kg (manifest toxicity)
+      refs: [12]
+    - compound_id: carnosol
+      concern: contact allergen
+      threshold_or_limit: null
+      refs: [12]
+    refs: [8, 12]
+  refs: [8, 9, 43, 132, 135, 136]
+  as_of: '2026-09-23'

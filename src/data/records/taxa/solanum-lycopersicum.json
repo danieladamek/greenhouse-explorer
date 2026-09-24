@@ -1,0 +1,151 @@
+{
+ "taxa": [
+  {
+   "id": "solanum-lycopersicum",
+   "species_key": "Solanum lycopersicum",
+   "accepted_name": "Solanum lycopersicum",
+   "authority": "L.",
+   "family": "Solanaceae",
+   "common_names": [
+    "Tomato"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 4081,
+    "powo_id": "urn:lsid:ipni.org:names:316947-2",
+    "gbif_key": 2930137,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Lycopersicon esculentum Mill."
+   ],
+   "columns": [
+    "veggies"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-047",
+     "name": "Red Robin",
+     "type": "Dwarf",
+     "list_category": "veggies",
+     "name_as_given": "Solanum lycopersicum",
+     "identity_status": "confirmed",
+     "note": null
+    },
+    {
+     "crop_id": "GH-048",
+     "name": "Tiny Tim",
+     "type": "Dwarf cherry",
+     "list_category": "veggies",
+     "name_as_given": "Solanum lycopersicum",
+     "identity_status": "confirmed",
+     "note": null
+    },
+    {
+     "crop_id": "GH-049",
+     "name": "Bush Champion II",
+     "type": "Bush",
+     "list_category": "veggies",
+     "name_as_given": "Solanum lycopersicum",
+     "identity_status": "confirmed",
+     "note": null
+    },
+    {
+     "crop_id": "GH-050",
+     "name": "New Big Dwarf",
+     "type": "Dwarf",
+     "list_category": "veggies",
+     "name_as_given": "Solanum lycopersicum",
+     "identity_status": "confirmed",
+     "note": null
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-047",
+    "GH-048",
+    "GH-049",
+    "GH-050"
+   ],
+   "n_plantings": 4,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-047",
+   "list_category": "Veggies",
+   "original_entry": "Tomato, Dwarf Red Robin",
+   "common_name": "Tomato",
+   "cultivar": "Red Robin",
+   "crop_type": "Dwarf",
+   "scientific_name": "Solanum lycopersicum",
+   "species_key": "Solanum lycopersicum",
+   "family": "Solanaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "solanum-lycopersicum",
+   "status": "current"
+  },
+  {
+   "id": "GH-048",
+   "list_category": "Veggies",
+   "original_entry": "Tomato, Tiny Tim",
+   "common_name": "Tomato",
+   "cultivar": "Tiny Tim",
+   "crop_type": "Dwarf cherry",
+   "scientific_name": "Solanum lycopersicum",
+   "species_key": "Solanum lycopersicum",
+   "family": "Solanaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "solanum-lycopersicum",
+   "status": "current"
+  },
+  {
+   "id": "GH-049",
+   "list_category": "Veggies",
+   "original_entry": "Tomato, Bush Champion II",
+   "common_name": "Tomato",
+   "cultivar": "Bush Champion II",
+   "crop_type": "Bush",
+   "scientific_name": "Solanum lycopersicum",
+   "species_key": "Solanum lycopersicum",
+   "family": "Solanaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "solanum-lycopersicum",
+   "status": "current"
+  },
+  {
+   "id": "GH-050",
+   "list_category": "Veggies",
+   "original_entry": "Tomato, New Big Dwarf",
+   "common_name": "Tomato",
+   "cultivar": "New Big Dwarf",
+   "crop_type": "Dwarf",
+   "scientific_name": "Solanum lycopersicum",
+   "species_key": "Solanum lycopersicum",
+   "family": "Solanaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "solanum-lycopersicum",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

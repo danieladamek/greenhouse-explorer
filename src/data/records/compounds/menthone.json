@@ -1,0 +1,205 @@
+{
+ "compound": {
+  "id": "menthone",
+  "name": "menthone",
+  "synonyms": [
+   "l-menthone",
+   "(2S,5R)-menthone"
+  ],
+  "class": "monoterpenoid-ketone",
+  "subclass": "p-menthane ketone",
+  "one_liner": "Second major peppermint oil constituent (14-32 %); the ketone that menthol is reduced from.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "trans-(2S,5R)-5-methyl-2-propan-2-ylcyclohexan-1-one",
+   "formula": "C10H18O",
+   "mw": 154.25,
+   "mw_source": "computed_from_formula",
+   "smiles": "C[C@@H]1CC[C@H](C(=O)C1)C(C)C",
+   "inchikey": "NFLGAXVYCFJBMK-BDAKNGLRSA-N",
+   "cas": "89-80-5",
+   "pubchem_cid": 26447,
+   "chebi_id": "CHEBI:15410",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/26447/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": "PubChem record titled 'Menthone' carries the (2S,5R) (l-menthone) stereo."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MEP/terpenoid (plastidial; from geranyl diphosphate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "mentha-x-piperita",
+    "plant_part": "essential oil",
+    "value": "14-32",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv",
+    "verified": true,
+    "note": "Duke: MENTHONE Leaf 310-12400 ppm; Plant 20-10000 ppm. Isomenthone 1.5-10 % is specified separately. | Basis as recorded: % of essential oil (Ph. Eur. range)"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "Menthone and menthol sit next to each other in the pathway; the ratio shifts between oils, which is why Ph. Eur. specifies both ranges [6].",
+  "citations": [
+   6
+  ],
+  "gaps": [
+   "Pharmacology and safety not researched.",
+   "No human evidence for the isolated compound found in this pass.",
+   "Pathway step menthone→menthol stated without a biosynthesis source.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Second major peppermint oil constituent (14-32 %); the [ketone](#term:monoterpenoid-ketone) that menthol is reduced from.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Menthone and menthol sit next to each other in the pathway; the ratio shifts between oils, which is why [Ph. Eur.](#term:pharmacopoeia) specifies both ranges [6](#cite:6).",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "monoterpenoid-ketone",
+   "pharmacopoeia",
+   "solubility"
+  ],
+  "cited_refs": [
+   6
+  ],
+  "taxa": [
+   "mentha-x-piperita"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H18O",
+   "inchikeyComputed": "NFLGAXVYCFJBMK-BDAKNGLRSA-N",
+   "canonicalSmiles": "CC(C)[C@@H]1CC[C@@H](C)CC1=O",
+   "monoisotopicMass": 154.1358,
+   "averageMass": 154.253,
+   "descriptors": {
+    "heavyAtoms": 11,
+    "rings": 1,
+    "aromaticRings": 0,
+    "hbd": 0,
+    "hba": 1,
+    "rotatableBonds": 1,
+    "logP": 2.65,
+    "tpsa": 17.1,
+    "fsp3": 0.9,
+    "stereocenters": 2,
+    "charge": 0
+   },
+   "atomCount": 29,
+   "heavyAtomCount": 11,
+   "functionalGroups": [
+    {
+     "id": "ketone",
+     "name": "Ketone",
+     "matches": [
+      [
+       1,
+       7,
+       0,
+       6
+      ]
+     ]
+    },
+    {
+     "id": "isopropyl",
+     "name": "Isopropyl group",
+     "matches": [
+      [
+       9,
+       5,
+       10,
+       1
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/menthone.sdf",
+   "svg": {
+    "light": "structures/2d/menthone.svg",
+    "dark": "structures/2d/menthone.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/menthone.json",
+   "mwPack": 154.25,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": [
+   "5-three-pathways-that-make-the-greenhouse-smell"
+  ]
+ },
+ "rows": [
+  {
+   "row": "menthone#0",
+   "compound_id": "menthone",
+   "compound": "menthone",
+   "class": "monoterpenoid-ketone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "mentha-x-piperita",
+   "taxon_known": true,
+   "taxon_name": "Mentha × piperita",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "14-32",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv",
+   "verified": true,
+   "note": "Duke: MENTHONE Leaf 310-12400 ppm; Plant 20-10000 ppm. Isomenthone 1.5-10 % is specified separately. | Basis as recorded: % of essential oil (Ph. Eur. range)",
+   "refs": [
+    6
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "peppermint-leaf-hot-infusion",
+   "name": "Peppermint leaf, hot-water infusion"
+  }
+ ]
+}

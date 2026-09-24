@@ -1,0 +1,452 @@
+{
+ "taxa": [
+  {
+   "id": "melissa-officinalis",
+   "species_key": "Melissa officinalis",
+   "accepted_name": "Melissa officinalis",
+   "authority": "L.",
+   "family": "Lamiaceae",
+   "common_names": [
+    "Lemon balm"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 39338,
+    "powo_id": "urn:lsid:ipni.org:names:450084-1",
+    "gbif_key": 5341501,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "herbs",
+    "medicinal"
+   ],
+   "identity_status": "confirmed",
+   "profiled": true,
+   "profile_depth": "light",
+   "cultivars": [
+    {
+     "crop_id": "GH-067",
+     "name": null,
+     "type": "Leaf",
+     "list_category": "herbs",
+     "name_as_given": "Melissa officinalis",
+     "identity_status": "confirmed",
+     "note": "Also listed under Medicinal. Same plant or two plantings?"
+    },
+    {
+     "crop_id": "GH-084",
+     "name": null,
+     "type": "Leaf",
+     "list_category": "medicinal",
+     "name_as_given": "Melissa officinalis",
+     "identity_status": "confirmed",
+     "note": "DUPLICATE of the Herbs entry (same plant or two plantings?)."
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-067",
+    "GH-084"
+   ],
+   "n_plantings": 2,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [
+    "citral",
+    "rosmarinic-acid",
+    "citronellal",
+    "beta-caryophyllene",
+    "caffeic-acid",
+    "ursolic-acid"
+   ],
+   "occurrence_rows": [
+    "citral#1",
+    "rosmarinic-acid#2",
+    "citronellal#0",
+    "beta-caryophyllene#0",
+    "caffeic-acid#0",
+    "ursolic-acid#0"
+   ],
+   "safety_evidence": {
+    "taxon_id": "melissa-officinalis",
+    "plant_part_used": "leaf (tea, extracts; topical cream)",
+    "safety": {
+     "drug_interactions": [
+      {
+       "with": "thyroid hormone / TSH",
+       "effect": "aqueous extracts may inhibit TSH activity in vitro; clinical relevance unknown",
+       "evidence_grade": "E",
+       "refs": [
+        8
+       ],
+       "md": "aqueous extracts may inhibit TSH activity [in vitro](#term:in-vitro); clinical relevance unknown"
+      }
+     ],
+     "pregnancy_lactation": {
+      "statement": "'As there is no information on reproductive and developmental toxicity the use during pregnancy and lactation cannot be recommended' (EMA).",
+      "refs": [
+       8
+      ],
+      "md": "'As there is no information on reproductive and developmental toxicity the use during pregnancy and lactation cannot be recommended' ([EMA](#term:ema-hmpc))."
+     },
+     "allergy": {
+      "statement": "Hypersensitivity to the active substance is the only contraindication listed.",
+      "refs": [
+       8
+      ],
+      "md": "Hypersensitivity to the active substance is the only [contraindication](#term:contraindication) listed."
+     },
+     "adverse_event_history": {
+      "statement": "No clinical signals of harm under the specified conditions of use; EMA advises a driving/machinery warning because of empirically acknowledged sedative properties.",
+      "refs": [
+       8
+      ],
+      "md": "No clinical signals of harm under the specified conditions of use; EMA advises a driving/machinery warning because of empirically acknowledged sedative properties."
+     },
+     "contraindications": [
+      {
+       "statement": "Hypersensitivity to the active substance [8]",
+       "md": "Hypersensitivity to the active substance [8](#cite:8)"
+      }
+     ],
+     "constituents_of_concern": []
+    },
+    "evidence": [
+     {
+      "claim": "A lemon balm leaf extract cream shortened and eased recurrent herpes labialis episodes.",
+      "grade": "B",
+      "test_article": "named_extract",
+      "test_article_detail": "cream with 1 % Lo-701 (70:1 dry aqueous extract of Melissa leaf), topical, 5 days",
+      "population": "human",
+      "outcome_summary": "Lower combined symptom score than placebo on day 2 (n = 66).",
+      "refs": [
+       55
+      ],
+      "note": "EMA considered this product's data not transferable to a general monograph [8].",
+      "md": {
+       "claim": "A lemon balm leaf extract cream shortened and eased recurrent herpes labialis episodes.",
+       "outcome_summary": "Lower combined symptom score than [placebo](#term:placebo) on day 2 (n = 66)."
+      }
+     },
+     {
+      "claim": "Single doses of a lemon balm methanol extract changed attention and self-rated calmness in healthy volunteers.",
+      "grade": "B",
+      "test_article": "named_extract",
+      "test_article_detail": "30 % methanol dry extract (Kennedy 2002, 2004), crossover",
+      "population": "human",
+      "outcome_summary": "Improved quality of attention and increased calmness under laboratory stress in small crossover studies (n = 18-20), as summarised by EMA.",
+      "refs": [
+       8
+      ],
+      "note": "Primary papers not read here; extracts not covered by the HMPC monograph.",
+      "md": {
+       "claim": "Single doses of a lemon balm methanol extract changed attention and self-rated calmness in healthy volunteers.",
+       "outcome_summary": "Improved quality of attention and increased calmness under laboratory stress in small [crossover studies](#term:crossover) (n = 18-20), as summarised by EMA."
+      }
+     },
+     {
+      "claim": "An open study of a standardised extract reported lower anxiety and insomnia scores.",
+      "grade": "C",
+      "test_article": "named_extract",
+      "test_article_detail": "Cyracos (30 % ethanol extract), open-label, no control",
+      "population": "human",
+      "outcome_summary": "Anxiety manifestations -18 %, insomnia -42 % (n = 20; uncontrolled), as summarised by EMA.",
+      "refs": [
+       8
+      ],
+      "note": null,
+      "md": {
+       "claim": "An [open study](#term:open-label) of a [standardised extract](#term:named-extract) reported lower anxiety and insomnia scores.",
+       "outcome_summary": "Anxiety manifestations -18 %, insomnia -42 % (n = 20; uncontrolled), as summarised by EMA."
+      }
+     },
+     {
+      "claim": "Lemon balm leaf is traditionally used for mild stress, sleep and mild digestive complaints.",
+      "grade": "T",
+      "test_article": "whole_herb",
+      "test_article_detail": "Melissa leaf preparations",
+      "population": "traditional",
+      "outcome_summary": "EMA: 'for relief of mild symptoms of mental stress and to aid sleep'; 'for symptomatic treatment of mild gastrointestinal complaints including bloating and flatulence'.",
+      "refs": [
+       8
+      ],
+      "note": null,
+      "md": {
+       "claim": "Lemon balm leaf is [traditionally used](#term:traditional-use) for mild stress, sleep and mild digestive complaints.",
+       "outcome_summary": "EMA: 'for relief of mild symptoms of mental stress and to aid sleep'; 'for symptomatic treatment of mild gastrointestinal complaints including bloating and flatulence'."
+      }
+     }
+    ],
+    "monograph_status": {
+     "ema_hmpc": {
+      "exists": true,
+      "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf"
+     },
+     "escop": {
+      "exists": null,
+      "url": null
+     },
+     "who": {
+      "exists": null,
+      "url": null
+     }
+    },
+    "refs": [
+     8,
+     55
+    ],
+    "gaps": [
+     "EMA monograph URL not recorded (assessment report given).",
+     "ESCOP/WHO status not checked.",
+     "Kennedy 2002/2004 and Cases 2011 primary papers not read (EMA summary used)."
+    ],
+    "as_of": "2026-09-23",
+    "terms": [
+     "in-vitro",
+     "ema-hmpc",
+     "contraindication",
+     "placebo",
+     "crossover",
+     "open-label",
+     "named-extract",
+     "traditional-use"
+    ],
+    "cited_refs": [
+     8,
+     55
+    ]
+   },
+   "preparations": [
+    "lemon-balm-hot-infusion",
+    "herb-tincture-ethanol-water"
+   ],
+   "primer_sections": [
+    "7-from-leaf-to-cup"
+   ],
+   "todo": [
+    {
+     "where": "taxa_safety_evidence/melissa-officinalis",
+     "what": "EMA monograph URL not recorded (assessment report given)."
+    },
+    {
+     "where": "taxa_safety_evidence/melissa-officinalis",
+     "what": "ESCOP/WHO status not checked."
+    },
+    {
+     "where": "taxa_safety_evidence/melissa-officinalis",
+     "what": "Kennedy 2002/2004 and Cases 2011 primary papers not read (EMA summary used)."
+    }
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "row": "citral#1",
+   "compound_id": "citral",
+   "compound": "citral (geranial/neral)",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "melissa-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Melissa officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "leaf (drug)",
+   "value": "0.06-0.8",
+   "unit": "%",
+   "basis": "dry_weight",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Melissa officinalis L., folium. EMA/HMPC/196746/2012 (14 May 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5947?page&_format=csv",
+   "verified": true,
+   "note": "EMA: 'Essential oil 0.06-0.8% containing monoterpene aldehydes, mainly citral, neral and citronellal'; no per-component % given. Duke: GERANIAL Shoot 10-1425 ppm; NERAL Shoot 10-1100 ppm; CITRAL Shoot (no value, Hager). | Basis as recorded: essential oil content of the dried leaf (citral is a main constituent of the oil)",
+   "refs": [
+    8
+   ]
+  },
+  {
+   "row": "rosmarinic-acid#2",
+   "compound_id": "rosmarinic-acid",
+   "compound": "rosmarinic acid",
+   "class": "hydroxycinnamic-acid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "melissa-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Melissa officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "leaf (dried drug)",
+   "value": "up to 6",
+   "unit": "%",
+   "basis": "dry_weight",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Melissa officinalis L., folium. EMA/HMPC/196746/2012 (14 May 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5947?page&_format=csv",
+   "verified": true,
+   "note": "EMA: 'Rosmarinic acid (up to 6%)'; Ph. Eur. requires minimum 1 % in the dried herbal substance. Duke: Plant 8400-47000 ppm. LOTUS also lists (S)-rosmarinic acid in Melissa officinalis (LTS0124509, ref 10.1021/np9003195 as decoded). | Basis as recorded: dry weight of herbal substance",
+   "refs": [
+    8
+   ]
+  },
+  {
+   "row": "citronellal#0",
+   "compound_id": "citronellal",
+   "compound": "citronellal",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "melissa-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Melissa officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "leaf (drug)",
+   "value": "0.06-0.8",
+   "unit": "%",
+   "basis": "dry_weight",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Melissa officinalis L., folium. EMA/HMPC/196746/2012 (14 May 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5947?page&_format=csv",
+   "verified": true,
+   "note": "Duke: CITRONELLAL Shoot 1-2900 ppm. EMA gives no per-component %. | Basis as recorded: essential oil content of the dried leaf (citronellal is a main aldehyde)",
+   "refs": [
+    8
+   ]
+  },
+  {
+   "row": "beta-caryophyllene#0",
+   "compound_id": "beta-caryophyllene",
+   "compound": "β-caryophyllene",
+   "class": "sesquiterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "melissa-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Melissa officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "about 10",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Melissa officinalis L., folium. EMA/HMPC/196746/2012 (14 May 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5947?page&_format=csv",
+   "verified": true,
+   "note": "EMA: 'β-Caryophyllen and Germacren-D (10% each in the essential oil)'. Duke: BETA-CARYOPHYLLENE Shoot 1-870 ppm. | Basis as recorded: % of essential oil",
+   "refs": [
+    8
+   ]
+  },
+  {
+   "row": "caffeic-acid#0",
+   "compound_id": "caffeic-acid",
+   "compound": "caffeic acid",
+   "class": "hydroxycinnamic-acid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "melissa-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Melissa officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "plant",
+   "value": "max 2100",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Melissa officinalis L., folium. EMA/HMPC/196746/2012 (14 May 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5947?page&_format=csv",
+   "verified": true,
+   "note": "EMA names caffeic acid among the hydroxycinnamic acid derivatives (no amount). | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    8
+   ]
+  },
+  {
+   "row": "ursolic-acid#0",
+   "compound_id": "ursolic-acid",
+   "compound": "ursolic acid",
+   "class": "triterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "melissa-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Melissa officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "plant",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Melissa officinalis L., folium. EMA/HMPC/196746/2012 (14 May 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5947?page&_format=csv",
+   "verified": true,
+   "note": "Duke: URSOLIC-ACID Plant, no value. EMA: 'Triterpenes including ursolic and oleanolic acids' (no amount).",
+   "refs": [
+    8
+   ]
+  }
+ ],
+ "plantings": [
+  {
+   "id": "GH-067",
+   "list_category": "Herbs",
+   "original_entry": "Lemon Balm",
+   "common_name": "Lemon balm",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf",
+   "scientific_name": "Melissa officinalis",
+   "species_key": "Melissa officinalis",
+   "family": "Lamiaceae",
+   "confidence": "High",
+   "note": "Also listed under Medicinal. Same plant or two plantings?",
+   "taxon_id": "melissa-officinalis",
+   "status": "current"
+  },
+  {
+   "id": "GH-084",
+   "list_category": "Medicinal",
+   "original_entry": "Lemon Balm",
+   "common_name": "Lemon balm",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf",
+   "scientific_name": "Melissa officinalis",
+   "species_key": "Melissa officinalis",
+   "family": "Lamiaceae",
+   "confidence": "High",
+   "note": "DUPLICATE of the Herbs entry (same plant or two plantings?).",
+   "taxon_id": "melissa-officinalis",
+   "status": "current"
+  }
+ ],
+ "preparations": [
+  {
+   "id": "lemon-balm-hot-infusion",
+   "name": "Lemon balm leaf, hot-water infusion"
+  },
+  {
+   "id": "herb-tincture-ethanol-water",
+   "name": "Herb tincture in ethanol-water (lemon balm and rosemary as examples)"
+  }
+ ]
+}

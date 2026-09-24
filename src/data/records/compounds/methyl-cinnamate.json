@@ -1,0 +1,200 @@
+{
+ "compound": {
+  "id": "methyl-cinnamate",
+  "name": "methyl cinnamate",
+  "synonyms": [
+   "methyl (E)-cinnamate",
+   "methyl 3-phenylprop-2-enoate"
+  ],
+  "class": "phenylpropanoid",
+  "subclass": "cinnamic acid ester",
+  "one_liner": "Fruity-balsamic ester that gives 'Cinnamon' basil its name: 24.7 % of volatiles, second to linalool.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "methyl (E)-3-phenylprop-2-enoate",
+   "formula": "C10H10O2",
+   "mw": 162.18,
+   "mw_source": "pubchem",
+   "smiles": "COC(=O)/C=C/C1=CC=CC=C1",
+   "inchikey": "CCRCUPLGCSFEDV-BQYQJAHWSA-N",
+   "cas": "103-26-4",
+   "pubchem_cid": 637520,
+   "chebi_id": "CHEBI:6857",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/637520/JSON",
+   "cross_checked": false,
+   "note": "(E)-isomer record; the Cinnamon-basil paper reports (E)-methyl cinnamate."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "shikimate/phenylpropanoid",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "ocimum-basilicum",
+    "plant_part": "aerial parts (not re-confirmed)",
+    "value": "24.7",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "cultivar",
+    "cultivar": "Cinnamon",
+    "source_citation": "Majdi C, Pereira C, Dias MI, et al. (2020) Phytochemical characterization and bioactive properties of cinnamon basil (Ocimum basilicum cv. 'Cinnamon') and lemon basil (Ocimum × citriodorum). Antioxidants 9(5):369",
+    "source_doi_or_url": "https://doi.org/10.3390/antiox9050369",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+    "verified": true,
+    "note": "Value from paper: in O. basilicum cv. 'Cinnamon', (E)-methyl cinnamate 'presented also a very high amount (24.7%)', second to linalool. Duke: METHYL-CINNAMATE Plant 1-2800 ppm. | Basis as recorded: % of total volatiles"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "'Cinnamon' basil does not contain cinnamon's cinnamaldehyde; its note comes from methyl cinnamate, and even there linalool is the larger component [19].",
+  "citations": [
+   19
+  ],
+  "gaps": [
+   "Pharmacology, absorption and safety not researched.",
+   "No human evidence for the isolated compound found in this pass.",
+   "Plant part for the 24.7 % value not re-confirmed.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Fruity-balsamic ester that gives 'Cinnamon' basil its name: 24.7 % of [volatiles](#term:volatility), second to linalool.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "'Cinnamon' basil does not contain cinnamon's cinnamaldehyde; its note comes from methyl cinnamate, and even there linalool is the larger component [19](#cite:19).",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "volatility",
+   "solubility"
+  ],
+  "cited_refs": [
+   19
+  ],
+  "taxa": [
+   "ocimum-basilicum"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H10O2",
+   "inchikeyComputed": "CCRCUPLGCSFEDV-BQYQJAHWSA-N",
+   "canonicalSmiles": "COC(=O)/C=C/c1ccccc1",
+   "monoisotopicMass": 162.0681,
+   "averageMass": 162.188,
+   "descriptors": {
+    "heavyAtoms": 12,
+    "rings": 1,
+    "aromaticRings": 1,
+    "hbd": 0,
+    "hba": 2,
+    "rotatableBonds": 2,
+    "logP": 1.87,
+    "tpsa": 26.3,
+    "fsp3": 0.1,
+    "stereocenters": 0,
+    "charge": 0
+   },
+   "atomCount": 22,
+   "heavyAtomCount": 12,
+   "functionalGroups": [
+    {
+     "id": "ester",
+     "name": "Ester",
+     "matches": [
+      [
+       9,
+       10,
+       1,
+       0,
+       11
+      ]
+     ]
+    },
+    {
+     "id": "cinnamoyl",
+     "name": "α,β-Unsaturated acid (cinnamoyl)",
+     "matches": [
+      [
+       2,
+       5,
+       9,
+       10,
+       1,
+       0
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/methyl-cinnamate.sdf",
+   "svg": {
+    "light": "structures/2d/methyl-cinnamate.svg",
+    "dark": "structures/2d/methyl-cinnamate.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/methyl-cinnamate.json",
+   "mwPack": 162.18,
+   "mwSource": "pubchem"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "methyl-cinnamate#0",
+   "compound_id": "methyl-cinnamate",
+   "compound": "methyl cinnamate",
+   "class": "phenylpropanoid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "ocimum-basilicum",
+   "taxon_known": true,
+   "taxon_name": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "plant_part": "aerial parts (not re-confirmed)",
+   "value": "24.7",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "cultivar",
+   "cultivar": "Cinnamon",
+   "source_citation": "Majdi C, Pereira C, Dias MI, et al. (2020) Phytochemical characterization and bioactive properties of cinnamon basil (Ocimum basilicum cv. 'Cinnamon') and lemon basil (Ocimum × citriodorum). Antioxidants 9(5):369",
+   "source_doi_or_url": "https://doi.org/10.3390/antiox9050369",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+   "verified": true,
+   "note": "Value from paper: in O. basilicum cv. 'Cinnamon', (E)-methyl cinnamate 'presented also a very high amount (24.7%)', second to linalool. Duke: METHYL-CINNAMATE Plant 1-2800 ppm. | Basis as recorded: % of total volatiles",
+   "refs": [
+    19
+   ]
+  }
+ ],
+ "preparations": []
+}

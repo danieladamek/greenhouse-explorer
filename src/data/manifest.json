@@ -1,0 +1,70 @@
+{
+ "mode": "topic",
+ "slug": "greenhouse-explorer",
+ "title": "Greenhouse Explorer: the plants of the UAH MARS Research Greenhouse and what is in them — prototype",
+ "short_title": "Greenhouse Explorer",
+ "question": "What is actually known about the chemical constituents of the plants grown in the UAH MARS Research Greenhouse, and how strong is the human evidence behind what is said about them?",
+ "purpose": "teaching",
+ "as_of": "2026-09-23",
+ "authors": [
+  "Manuscript Interrogator (commissioned review and catalogue)"
+ ],
+ "venue": "PROTOTYPE FOR CRITIQUE — NOT PEER REVIEWED, NOT AN OFFICIAL UAH RESOURCE. Written by an AI research builder; no external scientific review.",
+ "year": 2026,
+ "plain_abstract": "The UAH MARS Research Greenhouse grows 45 plant species, from arugula and tomatoes to sage, thyme and skullcap. This prototype asks two plain questions about them: what molecules are actually in these plants, and how good is the human evidence behind what is said about those molecules? It is built in three layers. A short primer explains what every plant shares: the cell wall, photosynthesis, and the three chemical pathways that make herbs smell and taste the way they do. Every species on the benches has an identity page with its accepted name and database identifiers. Eleven of them, mostly mint-family herbs plus chamomile as a guest, are profiled in depth, and their curated compounds get records of their own. A compound record carries its structure and identifiers, where it occurs and in what amount, always with the basis of the measurement, what it does in the body where that is known, and any safety signal. Every health statement is graded from A (pooled human trials) to E (laboratory only), or T for traditional use, and names the exact test article, because a trial of peppermint oil capsules says nothing about peppermint tea. Tea and tincture pages explain preparation as extraction chemistry; nothing here tells anyone how much to take. It is an unreviewed prototype, built for critique.",
+ "reading_minutes": 60,
+ "audience": "curious non-specialists and undergraduates working in or visiting the greenhouse; assumes no chemistry beyond high school",
+ "palette": {
+  "groups": {
+   "lamiaceae": "#2f7d4f",
+   "asteraceae": "#d49a1c",
+   "brassicaceae": "#3b6fb6",
+   "apiaceae": "#8a5fb0",
+   "amaryllidaceae": "#c2527a",
+   "solanaceae": "#c8452f",
+   "amaranthaceae": "#7a3b2e",
+   "fabaceae": "#5f9e2f",
+   "cucurbitaceae": "#1f9c9c",
+   "shared": "#6b6b6b"
+  }
+ },
+ "permissions": {
+  "text": "builder-authored; no third-party text reproduced beyond quotations of 25 words or fewer, each attributed and cited",
+  "figures": "synthesised by the builder from cited data; no published figure images reproduced; chemical structures rendered from SMILES strings retrieved from PubChem"
+ },
+ "delivery": "pages",
+ "link_every_occurrence": false,
+ "builder": {
+  "name": "Manuscript Interrogator",
+  "version": "manuscript-interrogator v0.5 (catalogue extension, prototype)",
+  "date": "2026-09-23"
+ },
+ "github_account": "danieladamek",
+ "notes_storage": "file",
+ "catalogue": {
+  "enabled": true,
+  "file": "compounds.yaml",
+  "count": 49,
+  "note": "schema extensions; KICKOFF §4b–4e are normative",
+  "taxa_file": "taxa.yaml",
+  "plantings_file": "plantings.csv",
+  "preparations_file": "preparations.yaml",
+  "taxa_evidence_file": "taxa_safety_evidence.yaml",
+  "long_tail_display": "none"
+ },
+ "prototype": true,
+ "banner": {
+  "text": "Prototype for critique. Not peer reviewed and not an official UAH resource. Written by an AI research builder from the cited sources; nothing on this site is medical advice or tells anyone how much of anything to take.",
+  "link_label": "Critique this page"
+ },
+ "critique": {
+  "issues_url": "https://github.com/danieladamek/greenhouse-explorer/issues/new",
+  "label": "Critique this page"
+ },
+ "sections": 8,
+ "words": 2621,
+ "featured": {
+  "plant": "salvia-officinalis",
+  "compound": "baicalin"
+ }
+}

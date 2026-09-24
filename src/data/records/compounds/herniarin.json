@@ -1,0 +1,190 @@
+{
+ "compound": {
+  "id": "herniarin",
+  "name": "herniarin (7-methoxycoumarin)",
+  "synonyms": [
+   "7-methoxycoumarin",
+   "methylumbelliferone (7-O-methyl)"
+  ],
+  "class": "coumarin",
+  "subclass": "simple 7-oxygenated coumarin",
+  "one_liner": "Simple coumarin of chamomile flower (with umbelliferone 0.01-0.08 %); not an anticoagulant coumarin.",
+  "palette_group": "asteraceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "7-methoxychromen-2-one",
+   "formula": "C10H8O3",
+   "mw": 176.17,
+   "mw_source": "computed_from_formula",
+   "smiles": "COC1=CC2=C(C=C1)C=CC(=O)O2",
+   "inchikey": "LIIALPBMIOVAHH-UHFFFAOYSA-N",
+   "cas": "531-59-9",
+   "pubchem_cid": 10748,
+   "chebi_id": "CHEBI:5679",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/10748/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": "PubChem record title is 'Methylumbelliferone' (= 7-methoxycoumarin = herniarin)."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "shikimate/phenylpropanoid",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "matricaria-chamomilla",
+    "plant_part": "flower",
+    "value": "0.01-0.08",
+    "unit": "%",
+    "basis": "unstated",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+    "verified": true,
+    "note": "Duke: HERNIARIN Flower 320-915 ppm. | Basis as recorded: % of flower; range given for herniarin and umbelliferone together Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": "EMA gives no anticoagulant warning for these coumarins [10]."
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Not sourced.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "'Contains coumarins' does not mean 'thins blood': herniarin is a 7-methoxycoumarin, not a 4-hydroxycoumarin like warfarin (structural comparison). A chamomile-warfarin bleeding case exists, but its mechanism is a proposal [48].",
+  "citations": [
+   10,
+   48
+  ],
+  "gaps": [
+   "Anticoagulant activity of herniarin not researched; structural argument only.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Simple [coumarin](#term:coumarin) of chamomile flower (with umbelliferone 0.01-0.08 %); not an anticoagulant coumarin.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": "[EMA](#term:ema-hmpc) gives no anticoagulant warning for these coumarins [10](#cite:10).",
+   "absorption_bioavailability": null,
+   "teaching_note": "'Contains coumarins' does not mean 'thins blood': herniarin is a 7-methoxycoumarin, not a 4-hydroxycoumarin like warfarin (structural comparison). A chamomile-warfarin bleeding case exists, but its mechanism is a proposal [48](#cite:48).",
+   "processing_note": "Not sourced.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "coumarin",
+   "ema-hmpc"
+  ],
+  "cited_refs": [
+   10,
+   48
+  ],
+  "taxa": [
+   "matricaria-chamomilla"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H8O3",
+   "inchikeyComputed": "LIIALPBMIOVAHH-UHFFFAOYSA-N",
+   "canonicalSmiles": "COc1ccc2ccc(=O)oc2c1",
+   "monoisotopicMass": 176.0473,
+   "averageMass": 176.171,
+   "descriptors": {
+    "heavyAtoms": 13,
+    "rings": 2,
+    "aromaticRings": 2,
+    "hbd": 0,
+    "hba": 3,
+    "rotatableBonds": 1,
+    "logP": 1.8,
+    "tpsa": 39.4,
+    "fsp3": 0.1,
+    "stereocenters": 0,
+    "charge": 0
+   },
+   "atomCount": 21,
+   "heavyAtomCount": 13,
+   "functionalGroups": [
+    {
+     "id": "methoxy",
+     "name": "Methoxy (aryl methyl ether)",
+     "matches": [
+      [
+       12,
+       1,
+       7
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/herniarin.sdf",
+   "svg": {
+    "light": "structures/2d/herniarin.svg",
+    "dark": "structures/2d/herniarin.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/herniarin.json",
+   "mwPack": 176.17,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": []
+ },
+ "rows": [
+  {
+   "row": "herniarin#0",
+   "compound_id": "herniarin",
+   "compound": "herniarin (7-methoxycoumarin)",
+   "class": "coumarin",
+   "palette_group": "asteraceae",
+   "auxiliary": false,
+   "taxon_id": "matricaria-chamomilla",
+   "taxon_known": true,
+   "taxon_name": "Matricaria chamomilla",
+   "family": "Asteraceae",
+   "plant_part": "flower",
+   "value": "0.01-0.08",
+   "unit": "%",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Matricaria recutita L., flos and Matricaria recutita L., aetheroleum. EMA/HMPC/55837/2011 (7 Jul 2015). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-matricaria-recutita-l-flos-and-matricaria-recutita-l-aetheroleum-first-version_en.pdf-0",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5924?page&_format=csv",
+   "verified": true,
+   "note": "Duke: HERNIARIN Flower 320-915 ppm. | Basis as recorded: % of flower; range given for herniarin and umbelliferone together Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    10
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "chamomile-flower-hot-infusion",
+   "name": "German chamomile flower, hot-water infusion"
+  }
+ ]
+}

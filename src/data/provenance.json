@@ -1,0 +1,334 @@
+{
+ "slug": "greenhouse-explorer",
+ "mode": "topic",
+ "prototype": true,
+ "as_of": "2026-09-23",
+ "built": "2026-09-24",
+ "builder": {
+  "name": "Manuscript Interrogator",
+  "version": "manuscript-interrogator v0.5 (catalogue extension, prototype)",
+  "date": "2026-09-23"
+ },
+ "sections": 8,
+ "words": 2621,
+ "blocks": {
+  "total": 37,
+  "cited": 31,
+  "framing": 6,
+  "synthesis": 4,
+  "uncited": 0
+ },
+ "synthesis_passages": 4,
+ "terms": {
+  "total": 138,
+  "occurring": 80,
+  "linked": 80,
+  "linked_pct_of_occurring": 100,
+  "only_in_catalogue": [
+   "isolated-compound",
+   "placebo",
+   "crossover",
+   "case-report",
+   "in-vitro",
+   "livertox",
+   "gc-ms",
+   "auc",
+   "mg-per-kg-bw",
+   "occurrence",
+   "asteraceae",
+   "pubchem-cid",
+   "enantiomer",
+   "dr-dukes",
+   "knapsack",
+   "cyp3a4",
+   "monoterpenoid-ketone",
+   "sesquiterpene-lactone",
+   "glucuronide",
+   "aglycone",
+   "polyacetylene",
+   "hydroethanolic",
+   "agonist",
+   "antagonist",
+   "oatp",
+   "bioavailability",
+   "drug-interaction",
+   "sho-saiko-to",
+   "constituent-of-concern",
+   "hepatotoxicity",
+   "bioactivation",
+   "carcinogen-rodent",
+   "cross-reactivity",
+   "anaphylaxis",
+   "contact-allergen",
+   "reflex-apnoea",
+   "contraindication",
+   "menthofuran",
+   "gad"
+  ],
+  "unmatched": [
+   "whole-herb",
+   "multi-herb-formula",
+   "well-established-use",
+   "hplc",
+   "ppm",
+   "per-g-extract",
+   "identity-status",
+   "subspecies",
+   "hybrid",
+   "aggregate-species",
+   "accepted-name",
+   "powo",
+   "gbif",
+   "ncbi-taxid",
+   "inchikey",
+   "smiles",
+   "chebi",
+   "lotus",
+   "first-pass-metabolism"
+  ],
+  "link_every_occurrence": false,
+  "variants": 576,
+  "ambiguous_variants": []
+ },
+ "references": {
+  "total": 100,
+  "by_tier": {
+   "background": 35,
+   "current": 30,
+   "classic": 29,
+   "seminal": 6
+  },
+  "anchors": [],
+  "with_summary": 100,
+  "without_summary": [],
+  "verified": 98,
+  "unverified": [
+   139,
+   140
+  ],
+  "unverified_but_cited": [],
+  "cited_in_text": 56,
+  "unresolved_citations": []
+ },
+ "figures": {
+  "total": 2,
+  "by_kind": {
+   "pathway": 1,
+   "chart": 1
+  },
+  "by_synthesis": {
+   "conceptual": 1,
+   "data": 1
+  },
+  "original_image": 0
+ },
+ "concepts": 4,
+ "catalogue": {
+  "compounds": 49,
+  "auxiliary": [
+   "teucrin-a"
+  ],
+  "compounds_with_empty_evidence": [
+   "linalool",
+   "eugenol",
+   "methyl-cinnamate",
+   "citral",
+   "menthone",
+   "eriocitrin",
+   "citronellal",
+   "caffeic-acid",
+   "ursolic-acid",
+   "camphor",
+   "borneol",
+   "carnosic-acid",
+   "carnosol",
+   "luteolin",
+   "luteolin-7-glucoside",
+   "alpha-pinene",
+   "thymol",
+   "carvacrol",
+   "p-cymene",
+   "gamma-terpinene",
+   "wogonoside",
+   "scutellarin",
+   "dihydrobaicalin",
+   "oroxylin-a",
+   "norwogonin",
+   "apigenin-7-glucoside",
+   "bisabolol-oxide-a",
+   "herniarin",
+   "umbelliferone"
+  ],
+  "compounds_with_safety_flags": 12,
+  "null_fields": {
+   "physchem.logp": 49,
+   "physchem.pka": 49,
+   "physchem.source": 49,
+   "pharmacology.primary_targets": 40,
+   "pharmacology.mechanism": 29,
+   "pharmacology.functional_notes": 45,
+   "absorption_bioavailability": 39,
+   "evidence (empty)": 29,
+   "safety_flags (empty)": 37
+  },
+  "occurrence_rows": 83,
+  "occurrence_rows_by_basis": {
+   "essential_oil_pct": 30,
+   "unstated": 20,
+   "presence_only": 21,
+   "dry_weight": 10,
+   "per_g_extract": 2
+  },
+  "occurrence_rows_by_verified": {
+   "true": 78,
+   "false": 5
+  },
+  "occurrence_rows_by_level": {
+   "species": 78,
+   "cultivar": 5
+  },
+  "occurrence_rows_quantitative": 42,
+  "occurrence_rows_unknown_taxon": [
+   "teucrin-a#0"
+  ],
+  "evidence_rows": 49,
+  "evidence_by_grade": {
+   "D": 14,
+   "B": 15,
+   "E": 9,
+   "A": 1,
+   "T": 6,
+   "C": 4
+  },
+  "evidence_by_test_article": {
+   "isolated_compound": 26,
+   "named_extract": 11,
+   "essential_oil": 1,
+   "whole_herb": 8,
+   "multi_herb_formula": 3
+  },
+  "evidence_by_population": {
+   "animal": 14,
+   "human": 20,
+   "in_vitro": 9,
+   "traditional": 6
+  },
+  "evidence_by_source": {
+   "compounds": 27,
+   "taxa": 22
+  },
+  "terms_linked_in_catalogue_prose": 102
+ },
+ "taxa": {
+  "total": 47,
+  "by_identity_status": {
+   "confirmed": 44,
+   "check": 2,
+   "unresolved": 1
+  },
+  "by_profile_depth": {
+   "stub": 36,
+   "light": 6,
+   "deep": 4,
+   "guest": 1
+  },
+  "by_family": {
+   "Brassicaceae": 7,
+   "Apiaceae": 6,
+   "Amaranthaceae": 2,
+   "Amaryllidaceae": 5,
+   "Asteraceae": 7,
+   "Fabaceae": 2,
+   "Cucurbitaceae": 1,
+   "Solanaceae": 3,
+   "Lamiaceae": 14
+  },
+  "with_safety_block": 10
+ },
+ "plantings": {
+  "total": 91,
+  "collapsed_to_taxa": 45,
+  "taxon_records": 47,
+  "by_status": {
+   "current": 91
+  },
+  "by_confidence": {
+   "High": 77,
+   "Check": 12,
+   "Unresolved": 2
+  },
+  "by_list_category": {
+   "Leafy Greens": 24,
+   "Veggies": 28,
+   "Herbs": 24,
+   "Medicinal": 15
+  },
+  "inventory_date": "2025-10-25"
+ },
+ "preparations": {
+  "total": 6,
+  "with_safety_block": 6,
+  "by_kind": {
+   "infusion": 5,
+   "tincture": 1
+  }
+ },
+ "forbidden_key_scan": {
+  "keys": [
+   "dose",
+   "dosage",
+   "indication",
+   "serving",
+   "frequency"
+  ],
+  "hits": 0,
+  "where": []
+ },
+ "structures": {
+  "rdkit": "2026.03.6",
+  "structures": 48,
+  "no_single_structure": [
+   "cis-spiroether"
+  ],
+  "formula_mismatches": 0,
+  "inchikey_mismatches": 0,
+  "pubchem_conformers": 48,
+  "rdkit_conformer_fallbacks": [],
+  "mw_differences": [],
+  "warnings": [
+   "methyl-cinnamate: CHEBI:6857 has InChIKey 'CCRCUPLGCSFEDV-UHFFFAOYSA-N', pack says CCRCUPLGCSFEDV-BQYQJAHWSA-N",
+   "1-8-cineole: CHEBI:27961 has InChIKey 'WEEGYLXZBRQIMU-WAAGHKOSSA-N', pack says WEEGYLXZBRQIMU-UHFFFAOYSA-N",
+   "caffeic-acid: CHEBI:36281 has InChIKey 'QAIPRVGONGVQAS-UHFFFAOYSA-N', pack says QAIPRVGONGVQAS-DUXPYHPUSA-N"
+  ]
+ },
+ "tours": [
+  {
+   "id": "two-skullcaps",
+   "steps": 6,
+   "quiz_from": "evidence-grades-and-test-article"
+  },
+  {
+   "id": "why-basil-smells-like-basil",
+   "steps": 6,
+   "quiz_from": "chemotypes"
+  }
+ ],
+ "scope": {
+  "queries": 328,
+  "queries_with_hits_logged": 0,
+  "sources": 15
+ },
+ "todo": {
+  "count": 260
+ },
+ "build_errors": 1,
+ "warnings": [
+  "compounds/linalool: occurrence in thymus-vulgaris is verified: false (rendered with an amber marker)",
+  "compounds/citral: occurrence in ocimum-basilicum is verified: false (rendered with an amber marker)",
+  "compounds/luteolin: occurrence in origanum-vulgare is verified: false (rendered with an amber marker)",
+  "compounds/apigenin: occurrence in origanum-vulgare is verified: false (rendered with an amber marker)",
+  "compounds/norwogonin: occurrence in scutellaria-baicalensis is verified: false (rendered with an amber marker)",
+  "reference 139 is cited nowhere — not in the review, a figure or any catalogue record",
+  "reference 140 is cited nowhere — not in the review, a figure or any catalogue record"
+ ]
+}

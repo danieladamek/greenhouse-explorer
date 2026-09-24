@@ -1,0 +1,58 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      # Structure build: scripts/build-data.py (RDKit + PubChem) runs locally and its output is committed, so CI needs
+      # neither RDKit nor PubChem. This step only proves the committed build is present and clean.
+      - name: Structures are committed and clean
+        run: |
+          test -f public/structures/summary.json
+          node -e "const s=require('./public/structures/summary.json').summary; if (s.formulaMismatches.length||s.inchikeyMismatches.length) { console.error('structure mismatches', s); process.exit(1) } console.log('structures', s.structures, 'of', s.compounds, '· mismatches 0')"
+      - run: npm test
+      # Validate + link the content pack. Fails on any error that is not already known, recorded in the committed
+      # src/data/build-errors.json and published on /methods (README "Known build errors").
+      - name: Content build
+        run: |
+          cp src/data/build-errors.json "$RUNNER_TEMP/known-build-errors.json"
+          BX_KNOWN_ERRORS="$RUNNER_TEMP/known-build-errors.json" npm run build:content
+      # End-to-end smoke against a root-path build, then the Pages build under /<repo>/.
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+      - run: npm run test:e2e
+      - run: BASE_PATH="/${{ github.event.repository.name }}/" npm run build
+      - run: cp dist/index.html dist/404.html   # SPA fallback for deep links on GitHub Pages
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

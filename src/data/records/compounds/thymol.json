@@ -1,0 +1,270 @@
+{
+ "compound": {
+  "id": "thymol",
+  "name": "thymol",
+  "synonyms": [
+   "2-isopropyl-5-methylphenol"
+  ],
+  "class": "monoterpene",
+  "subclass": "phenolic monoterpene (p-cymene type)",
+  "one_liner": "Thyme's phenolic monoterpene (37-55 % of 'Standard Winter' oil); antimicrobial, irritant at high dose.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "5-methyl-2-propan-2-ylphenol",
+   "formula": "C10H14O",
+   "mw": 150.22,
+   "mw_source": "computed_from_formula",
+   "smiles": "CC1=CC(=C(C=C1)C(C)C)O",
+   "inchikey": "MGSRCZKZVOBKFT-UHFFFAOYSA-N",
+   "cas": "89-83-8",
+   "pubchem_cid": 6989,
+   "chebi_id": "CHEBI:27607",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6989/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MEP/terpenoid (plastidial; from geranyl diphosphate); aromatised by P450s + a short-chain dehydrogenase",
+   "note": "γ-Terpinene is oxidised by cytochrome P450s and a dehydrogenase via an unstable intermediate; the route differs from earlier proposals [42]."
+  },
+  "occurrences": [
+   {
+    "taxon_id": "thymus-vulgaris",
+    "plant_part": "essential oil of dried herb, cv. 'Standard Winter'",
+    "value": "36.74-54.59",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "cultivar",
+    "cultivar": "Standard Winter",
+    "source_citation": "Kosakowska O, Bączek K, Przybył JL, et al. (2020) Morphological and chemical traits as quality determinants of common thyme (Thymus vulgaris L.), on the example of 'Standard Winter' cultivar. Agronomy 10(6):909",
+    "source_doi_or_url": "https://doi.org/10.3390/agronomy10060909",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+    "verified": true,
+    "note": "Duke: THYMOL Essential Oil 231000-600500 ppm; Plant 15-24100 ppm. EMA: Ph. Eur. min. 1.2 % oil with min. 40 % thymol + carvacrol. | Basis as recorded: % of essential oil | Study cultivar 'Standard Winter'; relevant to, but not the same record as, the greenhouse 'German Winter'."
+   },
+   {
+    "taxon_id": "origanum-vulgare",
+    "plant_part": "inflorescences (chemotype 1, carvacrol/thymol type)",
+    "value": "22.16",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "De Martino L, De Feo V, Formisano C, Mignola E, Senatore F (2009) Chemical composition and antimicrobial activity of the essential oils from three chemotypes of Origanum vulgare L. ssp. hirtum (Link) Ietswaart growing wild in Campania (Southern Italy). Molecules 14(8):2735-2746",
+    "source_doi_or_url": "https://doi.org/10.3390/molecules14082735",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6068?page&_format=csv",
+    "verified": true,
+    "note": "Duke (hirtum, Lagouri 1993): THYMOL Shoot max 6165 ppm. Kosakowska 2021 did not report thymol for its hirtum sample. De Martino 2009: second chemotype thymol-dominated, third chemotype thymol 3.24 %. KNApSAcK lists 'm-Thymol' (C00000155) for O. vulgare. | Basis as recorded: % of essential oil"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [
+   {
+    "flag": "high-dose toxicity (historical)",
+    "detail": "Historical vermifuge use at doses far above medicinal thyme exposure caused abdominal pain and transient collapse [9]; one case of hepatitis after ingesting pure thyme oil [9].",
+    "threshold_or_limit": "EMA estimates medicinal thyme use gives about 38 mg thymol daily (context, not a limit)",
+    "source_citation": "EMA/HMPC assessment report on Thymus vulgaris/zygis herba (2013)",
+    "refs": [
+     9
+    ]
+   }
+  ],
+  "teaching_note": "Thyme is 'thymol type' only by chemotype; EMA notes at least six thyme chemotypes, and only the thymol type meets Ph. Eur. [9].",
+  "citations": [
+   9,
+   20,
+   22,
+   42
+  ],
+  "gaps": [
+   "Pharmacology (antimicrobial mechanism) not researched.",
+   "No human evidence for the isolated compound found in this pass.",
+   "Oregano thymol varies 3-22 % by chemotype.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Thyme's phenolic [monoterpene](#term:monoterpene) (37-55 % of 'Standard Winter' oil); antimicrobial, irritant at high dose.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Thyme is 'thymol type' only by [chemotype](#term:chemotype); [EMA](#term:ema-hmpc) notes at least six thyme chemotypes, and only the thymol type meets [Ph. Eur.](#term:pharmacopoeia) [9](#cite:9).",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": "γ-Terpinene is oxidised by cytochrome [P450s](#term:cytochrome-p450) and a dehydrogenase via an unstable intermediate; the route differs from earlier proposals [42](#cite:42).",
+   "evidence": [],
+   "safety_flags": [
+    "Historical vermifuge use at doses far above medicinal thyme exposure caused abdominal pain and transient collapse [9](#cite:9); one case of [hepatitis](#term:hepatotoxicity) after ingesting pure thyme oil [9](#cite:9)."
+   ]
+  },
+  "terms": [
+   "monoterpene",
+   "chemotype",
+   "ema-hmpc",
+   "pharmacopoeia",
+   "solubility",
+   "cytochrome-p450",
+   "hepatotoxicity"
+  ],
+  "cited_refs": [
+   9,
+   20,
+   22,
+   42
+  ],
+  "taxa": [
+   "thymus-vulgaris",
+   "origanum-vulgare"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H14O",
+   "inchikeyComputed": "MGSRCZKZVOBKFT-UHFFFAOYSA-N",
+   "canonicalSmiles": "Cc1ccc(C(C)C)c(O)c1",
+   "monoisotopicMass": 150.1045,
+   "averageMass": 150.221,
+   "descriptors": {
+    "heavyAtoms": 11,
+    "rings": 1,
+    "aromaticRings": 1,
+    "hbd": 1,
+    "hba": 1,
+    "rotatableBonds": 1,
+    "logP": 2.82,
+    "tpsa": 20.2,
+    "fsp3": 0.4,
+    "stereocenters": 0,
+    "charge": 0
+   },
+   "atomCount": 25,
+   "heavyAtomCount": 11,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       0,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "isopropyl",
+     "name": "Isopropyl group",
+     "matches": [
+      [
+       3,
+       1,
+       4,
+       2
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/thymol.sdf",
+   "svg": {
+    "light": "structures/2d/thymol.svg",
+    "dark": "structures/2d/thymol.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/thymol.json",
+   "mwPack": 150.22,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": [
+   "1-what-every-plant-shares",
+   "4-primary-versus-secondary-metabolism",
+   "5-three-pathways-that-make-the-greenhouse-smell",
+   "8-how-to-read-the-rest-of-this-site"
+  ]
+ },
+ "rows": [
+  {
+   "row": "thymol#0",
+   "compound_id": "thymol",
+   "compound": "thymol",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "thymus-vulgaris",
+   "taxon_known": true,
+   "taxon_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil of dried herb, cv. 'Standard Winter'",
+   "value": "36.74-54.59",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "cultivar",
+   "cultivar": "Standard Winter",
+   "source_citation": "Kosakowska O, Bączek K, Przybył JL, et al. (2020) Morphological and chemical traits as quality determinants of common thyme (Thymus vulgaris L.), on the example of 'Standard Winter' cultivar. Agronomy 10(6):909",
+   "source_doi_or_url": "https://doi.org/10.3390/agronomy10060909",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+   "verified": true,
+   "note": "Duke: THYMOL Essential Oil 231000-600500 ppm; Plant 15-24100 ppm. EMA: Ph. Eur. min. 1.2 % oil with min. 40 % thymol + carvacrol. | Basis as recorded: % of essential oil | Study cultivar 'Standard Winter'; relevant to, but not the same record as, the greenhouse 'German Winter'.",
+   "refs": [
+    20
+   ]
+  },
+  {
+   "row": "thymol#1",
+   "compound_id": "thymol",
+   "compound": "thymol",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": "inflorescences (chemotype 1, carvacrol/thymol type)",
+   "value": "22.16",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "De Martino L, De Feo V, Formisano C, Mignola E, Senatore F (2009) Chemical composition and antimicrobial activity of the essential oils from three chemotypes of Origanum vulgare L. ssp. hirtum (Link) Ietswaart growing wild in Campania (Southern Italy). Molecules 14(8):2735-2746",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules14082735",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6068?page&_format=csv",
+   "verified": true,
+   "note": "Duke (hirtum, Lagouri 1993): THYMOL Shoot max 6165 ppm. Kosakowska 2021 did not report thymol for its hirtum sample. De Martino 2009: second chemotype thymol-dominated, third chemotype thymol 3.24 %. KNApSAcK lists 'm-Thymol' (C00000155) for O. vulgare. | Basis as recorded: % of essential oil",
+   "refs": [
+    22
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "thyme-herb-hot-infusion",
+   "name": "Thyme herb, hot-water infusion"
+  }
+ ]
+}

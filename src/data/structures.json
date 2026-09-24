@@ -1,0 +1,152 @@
+{
+ "generator": "scripts/build-data.py",
+ "rdkitVersion": "2026.03.6",
+ "compounds": 49,
+ "structures": 48,
+ "noSingleStructure": [
+  "cis-spiroether"
+ ],
+ "formulaMismatches": [],
+ "inchikeyMismatches": [],
+ "otherErrors": [],
+ "rdkitConformers": [],
+ "pubchemConformers": [
+  "1-8-cineole",
+  "alpha-bisabolol",
+  "alpha-pinene",
+  "alpha-thujone",
+  "apigenin",
+  "apigenin-7-glucoside",
+  "baicalein",
+  "baicalin",
+  "beta-caryophyllene",
+  "beta-thujone",
+  "bisabolol-oxide-a",
+  "borneol",
+  "caffeic-acid",
+  "camphor",
+  "carnosic-acid",
+  "carnosol",
+  "carvacrol",
+  "chamazulene",
+  "chrysin",
+  "citral",
+  "citronellal",
+  "dihydrobaicalin",
+  "eriocitrin",
+  "estragole",
+  "eugenol",
+  "gamma-terpinene",
+  "herniarin",
+  "linalool",
+  "luteolin",
+  "luteolin-7-glucoside",
+  "matricin",
+  "menthofuran",
+  "menthol",
+  "menthone",
+  "methyl-cinnamate",
+  "methyleugenol",
+  "norwogonin",
+  "oroxylin-a",
+  "p-cymene",
+  "pulegone",
+  "rosmarinic-acid",
+  "scutellarin",
+  "teucrin-a",
+  "thymol",
+  "umbelliferone",
+  "ursolic-acid",
+  "wogonin",
+  "wogonoside"
+ ],
+ "mwDifferences": [],
+ "warnings": [
+  "methyl-cinnamate: CHEBI:6857 has InChIKey 'CCRCUPLGCSFEDV-UHFFFAOYSA-N', pack says CCRCUPLGCSFEDV-BQYQJAHWSA-N",
+  "1-8-cineole: CHEBI:27961 has InChIKey 'WEEGYLXZBRQIMU-WAAGHKOSSA-N', pack says WEEGYLXZBRQIMU-UHFFFAOYSA-N",
+  "caffeic-acid: CHEBI:36281 has InChIKey 'QAIPRVGONGVQAS-UHFFFAOYSA-N', pack says QAIPRVGONGVQAS-DUXPYHPUSA-N"
+ ],
+ "functionalGroups": [
+  {
+   "id": "phenol",
+   "name": "Phenol OH"
+  },
+  {
+   "id": "catechol",
+   "name": "Catechol (1,2-diol)"
+  },
+  {
+   "id": "pyrogallol",
+   "name": "Pyrogallol (1,2,3-triol)"
+  },
+  {
+   "id": "alcohol",
+   "name": "Aliphatic alcohol"
+  },
+  {
+   "id": "methoxy",
+   "name": "Methoxy (aryl methyl ether)"
+  },
+  {
+   "id": "ketone",
+   "name": "Ketone"
+  },
+  {
+   "id": "aldehyde",
+   "name": "Aldehyde"
+  },
+  {
+   "id": "carboxylic-acid",
+   "name": "Carboxylic acid / carboxylate"
+  },
+  {
+   "id": "ester",
+   "name": "Ester"
+  },
+  {
+   "id": "lactone",
+   "name": "Lactone (cyclic ester)"
+  },
+  {
+   "id": "glycoside",
+   "name": "Sugar (glycoside / glucuronide)"
+  },
+  {
+   "id": "allyl",
+   "name": "Allyl side chain"
+  },
+  {
+   "id": "isopropyl",
+   "name": "Isopropyl group"
+  },
+  {
+   "id": "cinnamoyl",
+   "name": "α,β-Unsaturated acid (cinnamoyl)"
+  },
+  {
+   "id": "chromone",
+   "name": "Chromone (flavone core)"
+  },
+  {
+   "id": "furan",
+   "name": "Furan ring"
+  },
+  {
+   "id": "cis-alkene",
+   "name": "cis-Alkene"
+  }
+ ],
+ "descriptorHelp": {
+  "heavyAtoms": "Non-hydrogen atom count: a rough measure of molecular size.",
+  "rings": "Total ring count (SSSR). Rigid ring systems limit conformational freedom.",
+  "aromaticRings": "Aromatic rings are flat, stack with proteins and DNA, and absorb UV.",
+  "hbd": "Hydrogen-bond donors (O–H, N–H). Many donors mean high water solubility and poor membrane crossing.",
+  "hba": "Hydrogen-bond acceptors (N, O). Lipinski's rule of five uses ≤10 as a drug-likeness cutoff.",
+  "rotatableBonds": "Flexibility. Rigid molecules (few rotatable bonds) bind more selectively; long chains are floppy.",
+  "logP": "Crippen octanol/water partition estimate, computed by RDKit from the structure (not a measured logP).",
+  "tpsa": "Topological polar surface area (Å²), computed from the structure.",
+  "fsp3": "Fraction of sp³ carbons. Flat aromatic molecules have low Fsp³; 3D-shaped natural products have high Fsp³.",
+  "stereocenters": "Number of defined stereocentres in the SMILES.",
+  "charge": "Net formal charge."
+ }
+}

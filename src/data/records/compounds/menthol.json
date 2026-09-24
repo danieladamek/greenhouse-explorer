@@ -1,0 +1,251 @@
+{
+ "compound": {
+  "id": "menthol",
+  "name": "(-)-menthol",
+  "synonyms": [
+   "(-)-menthol",
+   "l-menthol",
+   "(1R,2S,5R)-menthol"
+  ],
+  "class": "monoterpene",
+  "subclass": "p-menthane alcohol",
+  "one_liner": "Peppermint's cooling alcohol (30-55 % of the oil); the TRPM8 agonist.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "(1R,2S,5R)-5-methyl-2-propan-2-ylcyclohexan-1-ol",
+   "formula": "C10H20O",
+   "mw": 156.26,
+   "mw_source": "pubchem",
+   "smiles": "C[C@@H]1CC[C@H]([C@@H](C1)O)C(C)C",
+   "inchikey": "NOOLISFMXDJSKH-KXUCPTDWSA-N",
+   "cas": "2216-51-5",
+   "pubchem_cid": 16666,
+   "chebi_id": "CHEBI:15409",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/16666/JSON",
+   "cross_checked": false,
+   "note": "(-)-menthol (the natural peppermint enantiomer). MW read from 'Molecular Weight' heading."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MEP/terpenoid (plastidial; from geranyl diphosphate)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "mentha-x-piperita",
+    "plant_part": "essential oil",
+    "value": "30-55",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv",
+    "verified": true,
+    "note": "Duke: MENTHOL Leaf 570-22800 ppm and 156-20000 ppm. | Basis as recorded: % of essential oil (Ph. Eur. range)"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": "TRPM8 (cold/menthol receptor, cloned as CMR1) [38].",
+   "mechanism": "Menthol activates TRPM8, the same channel opened by cool temperatures, which is why it feels cold on skin and mucosa [38]. Peppermint oil also shows calcium-channel antagonism in animal studies [6].",
+   "functional_notes": "The IBS evidence is for enteric-coated peppermint OIL capsules, not for isolated menthol [54]."
+  },
+  "absorption_bioavailability": null,
+  "evidence": [
+   {
+    "claim": "Menthol activates the cold-sensing ion channel TRPM8.",
+    "grade": "E",
+    "test_article": "isolated_compound",
+    "test_article_detail": "menthol on cloned receptor / sensory neurons",
+    "population": "in_vitro",
+    "outcome_summary": "Receptor cloned and shown to respond to menthol and to cold.",
+    "refs": [
+     38
+    ],
+    "note": null
+   }
+  ],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [
+   {
+    "flag": "reflex apnoea / laryngospasm in infants",
+    "detail": "Menthol-containing peppermint oil preparations are contraindicated in children under 2 years.",
+    "threshold_or_limit": "contraindicated under 2 years (EMA monograph)",
+    "source_citation": "EU herbal monograph on Mentha x piperita L., aetheroleum, EMA/HMPC/522410/2013 Rev.1",
+    "refs": [
+     7
+    ]
+   }
+  ],
+  "teaching_note": "Menthol is the textbook case of a plant compound whose sensation has a single molecular explanation: the cold receptor TRPM8 [38]. The clinical story (IBS) is about the oil in a capsule, not the molecule alone [54].",
+  "citations": [
+   6,
+   7,
+   38,
+   54
+  ],
+  "gaps": [
+   "Human PK of menthol not researched.",
+   "No RCT of isolated menthol read in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Peppermint's cooling alcohol (30-55 [% of the oil](#term:essential-oil-percent)); the [TRPM8](#term:trpm8) [agonist](#term:agonist).",
+   "mechanism": "Menthol activates TRPM8, the same channel opened by cool temperatures, which is why it feels cold on skin and mucosa [38](#cite:38). Peppermint oil also shows calcium-channel [antagonism](#term:antagonist) in [animal studies](#term:animal-study) [6](#cite:6).",
+   "primary_targets": "TRPM8 (cold/menthol [receptor](#term:receptor), cloned as CMR1) [38](#cite:38).",
+   "functional_notes": "The [IBS](#term:ibs) evidence is for [enteric-coated](#term:enteric-coated) peppermint OIL capsules, not for isolated menthol [54](#cite:54).",
+   "absorption_bioavailability": null,
+   "teaching_note": "Menthol is the textbook case of a plant compound whose sensation has a single molecular explanation: the cold receptor TRPM8 [38](#cite:38). The clinical story (IBS) is about the oil in a capsule, not the molecule alone [54](#cite:54).",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": null,
+   "evidence": [
+    {
+     "claim": "Menthol activates the cold-sensing ion channel TRPM8.",
+     "outcome_summary": "Receptor cloned and shown to respond to menthol and to cold."
+    }
+   ],
+   "safety_flags": [
+    "Menthol-containing peppermint oil preparations are [contraindicated](#term:contraindication) in children under 2 years."
+   ]
+  },
+  "terms": [
+   "essential-oil-percent",
+   "trpm8",
+   "agonist",
+   "antagonist",
+   "animal-study",
+   "receptor",
+   "ibs",
+   "enteric-coated",
+   "solubility",
+   "contraindication"
+  ],
+  "cited_refs": [
+   6,
+   7,
+   38,
+   54
+  ],
+  "taxa": [
+   "mentha-x-piperita"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H20O",
+   "inchikeyComputed": "NOOLISFMXDJSKH-KXUCPTDWSA-N",
+   "canonicalSmiles": "CC(C)[C@@H]1CC[C@@H](C)C[C@H]1O",
+   "monoisotopicMass": 156.1514,
+   "averageMass": 156.269,
+   "descriptors": {
+    "heavyAtoms": 11,
+    "rings": 1,
+    "aromaticRings": 0,
+    "hbd": 1,
+    "hba": 1,
+    "rotatableBonds": 1,
+    "logP": 2.44,
+    "tpsa": 20.2,
+    "fsp3": 1,
+    "stereocenters": 3,
+    "charge": 0
+   },
+   "atomCount": 31,
+   "heavyAtomCount": 11,
+   "functionalGroups": [
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       0,
+       2
+      ]
+     ]
+    },
+    {
+     "id": "isopropyl",
+     "name": "Isopropyl group",
+     "matches": [
+      [
+       9,
+       7,
+       10,
+       1
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/menthol.sdf",
+   "svg": {
+    "light": "structures/2d/menthol.svg",
+    "dark": "structures/2d/menthol.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/menthol.json",
+   "mwPack": 156.26,
+   "mwSource": "pubchem"
+  },
+  "primer_sections": [
+   "1-what-every-plant-shares",
+   "4-primary-versus-secondary-metabolism",
+   "5-three-pathways-that-make-the-greenhouse-smell",
+   "6-why-plants-make-these-molecules",
+   "7-from-leaf-to-cup",
+   "8-how-to-read-the-rest-of-this-site"
+  ]
+ },
+ "rows": [
+  {
+   "row": "menthol#0",
+   "compound_id": "menthol",
+   "compound": "(-)-menthol",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "mentha-x-piperita",
+   "taxon_known": true,
+   "taxon_name": "Mentha × piperita",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "30-55",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Mentha x piperita L., folium and aetheroleum, Rev. 1. EMA/HMPC/522409/2013 (15 Jan 2020). https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-mentha-x-piperita-l-folium-and-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5957?page&_format=csv",
+   "verified": true,
+   "note": "Duke: MENTHOL Leaf 570-22800 ppm and 156-20000 ppm. | Basis as recorded: % of essential oil (Ph. Eur. range)",
+   "refs": [
+    6
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "peppermint-leaf-hot-infusion",
+   "name": "Peppermint leaf, hot-water infusion"
+  }
+ ]
+}

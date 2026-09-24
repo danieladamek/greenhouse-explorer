@@ -1,0 +1,76 @@
+{
+ "taxa": [
+  {
+   "id": "echinacea-purpurea",
+   "species_key": "Echinacea purpurea",
+   "accepted_name": "Echinacea purpurea",
+   "authority": "(L.) Moench",
+   "family": "Asteraceae",
+   "common_names": [
+    "Purple coneflower"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 53751,
+    "powo_id": "urn:lsid:ipni.org:names:1174497-2",
+    "gbif_key": 3150935,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Rudbeckia purpurea L."
+   ],
+   "columns": [
+    "medicinal"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-081",
+     "name": null,
+     "type": "Flower / root",
+     "list_category": "medicinal",
+     "name_as_given": "Echinacea purpurea",
+     "identity_status": "confirmed",
+     "note": null
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-081"
+   ],
+   "n_plantings": 1,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-081",
+   "list_category": "Medicinal",
+   "original_entry": "Echinacea (purpurea)",
+   "common_name": "Purple coneflower",
+   "cultivar": "(not given)",
+   "crop_type": "Flower / root",
+   "scientific_name": "Echinacea purpurea",
+   "species_key": "Echinacea purpurea",
+   "family": "Asteraceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "echinacea-purpurea",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

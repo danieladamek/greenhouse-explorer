@@ -1,0 +1,251 @@
+{
+ "compound": {
+  "id": "carvacrol",
+  "name": "carvacrol",
+  "synonyms": [
+   "2-methyl-5-isopropylphenol"
+  ],
+  "class": "monoterpene",
+  "subclass": "phenolic monoterpene (p-cymene type)",
+  "one_liner": "Thymol's positional isomer; the main phenol of Greek oregano oil (39.8 % cultivated; 23.3 % wild chemotype).",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "2-methyl-5-propan-2-ylphenol",
+   "formula": "C10H14O",
+   "mw": 150.22,
+   "mw_source": "computed_from_formula",
+   "smiles": "CC1=C(C=C(C=C1)C(C)C)O",
+   "inchikey": "RECUKUPTGUEGMW-UHFFFAOYSA-N",
+   "cas": "499-75-2",
+   "pubchem_cid": 10364,
+   "chebi_id": "CHEBI:3440",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/10364/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": null
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MEP/terpenoid (plastidial; from geranyl diphosphate); aromatised by P450s + a short-chain dehydrogenase",
+   "note": "Formed from γ-terpinene by the same P450/dehydrogenase system as thymol [42]."
+  },
+  "occurrences": [
+   {
+    "taxon_id": "thymus-vulgaris",
+    "plant_part": "essential oil",
+    "value": "16700-80200",
+    "unit": "ppm",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013 (12 Nov 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+    "verified": true,
+    "note": "EMA lists carvacrol among main components; Ph. Eur. thymol + carvacrol min. 40 % of oil. Kosakowska 2020 did not quantify carvacrol separately. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)"
+   },
+   {
+    "taxon_id": "origanum-vulgare",
+    "plant_part": "upper non-woody shoots at bloom onset",
+    "value": "39.79",
+    "unit": "%",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+    "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6068?page&_format=csv",
+    "verified": true,
+    "note": "Duke (Lagouri 1993): CARVACROL Shoot max 26865 ppm. KNApSAcK: C00000156. De Martino 2009 chemotype 1: carvacrol 23.34 %. Neither paper supports the 60-80 % figure in curation.md. | Basis as recorded: % of essential oil"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "Oregano and thyme make the same two phenols in different ratios. Greek oregano is usually carvacrol-type, but thymol and linalool chemotypes exist [21, 22].",
+  "citations": [
+   9,
+   21,
+   22,
+   42
+  ],
+  "gaps": [
+   "The '60-80 % of hirtum oil' figure is unsourced and was replaced by 39.8 % and 23.3 %.",
+   "Pharmacology and safety not researched.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Thymol's positional isomer; the main phenol of Greek oregano oil (39.8 % cultivated; 23.3 % wild [chemotype](#term:chemotype)).",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Oregano and thyme make the same two phenols in different ratios. Greek oregano is usually carvacrol-type, but thymol and linalool chemotypes exist [21, 22](#cite:21,22).",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": "Formed from γ-terpinene by the same [P450](#term:cytochrome-p450)/dehydrogenase system as thymol [42](#cite:42).",
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "chemotype",
+   "solubility",
+   "cytochrome-p450"
+  ],
+  "cited_refs": [
+   9,
+   21,
+   22,
+   42
+  ],
+  "taxa": [
+   "thymus-vulgaris",
+   "origanum-vulgare"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H14O",
+   "inchikeyComputed": "RECUKUPTGUEGMW-UHFFFAOYSA-N",
+   "canonicalSmiles": "Cc1ccc(C(C)C)cc1O",
+   "monoisotopicMass": 150.1045,
+   "averageMass": 150.221,
+   "descriptors": {
+    "heavyAtoms": 11,
+    "rings": 1,
+    "aromaticRings": 1,
+    "hbd": 1,
+    "hba": 1,
+    "rotatableBonds": 1,
+    "logP": 2.82,
+    "tpsa": 20.2,
+    "fsp3": 0.4,
+    "stereocenters": 0,
+    "charge": 0
+   },
+   "atomCount": 25,
+   "heavyAtomCount": 11,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       0,
+       8
+      ]
+     ]
+    },
+    {
+     "id": "isopropyl",
+     "name": "Isopropyl group",
+     "matches": [
+      [
+       3,
+       1,
+       4,
+       2
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/carvacrol.sdf",
+   "svg": {
+    "light": "structures/2d/carvacrol.svg",
+    "dark": "structures/2d/carvacrol.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/carvacrol.json",
+   "mwPack": 150.22,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": [
+   "5-three-pathways-that-make-the-greenhouse-smell"
+  ]
+ },
+ "rows": [
+  {
+   "row": "carvacrol#0",
+   "compound_id": "carvacrol",
+   "compound": "carvacrol",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "thymus-vulgaris",
+   "taxon_known": true,
+   "taxon_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "plant_part": "essential oil",
+   "value": "16700-80200",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Thymus vulgaris L., Thymus zygis L., herba. EMA/HMPC/342334/2013 (12 Nov 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6685?page&_format=csv",
+   "verified": true,
+   "note": "EMA lists carvacrol among main components; Ph. Eur. thymol + carvacrol min. 40 % of oil. Kosakowska 2020 did not quantify carvacrol separately. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)",
+   "refs": [
+    9
+   ]
+  },
+  {
+   "row": "carvacrol#1",
+   "compound_id": "carvacrol",
+   "compound": "carvacrol",
+   "class": "monoterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "origanum-vulgare",
+   "taxon_known": true,
+   "taxon_name": "Origanum vulgare",
+   "family": "Lamiaceae",
+   "plant_part": "upper non-woody shoots at bloom onset",
+   "value": "39.79",
+   "unit": "%",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Kosakowska O, et al. (2021) Antioxidant and antibacterial activity of essential oils and hydroethanolic extracts of Greek oregano (O. vulgare L. subsp. hirtum (Link) Ietswaart) and common oregano (O. vulgare L. subsp. vulgare). Molecules 26(4):988",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules26040988",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6068?page&_format=csv",
+   "verified": true,
+   "note": "Duke (Lagouri 1993): CARVACROL Shoot max 26865 ppm. KNApSAcK: C00000156. De Martino 2009 chemotype 1: carvacrol 23.34 %. Neither paper supports the 60-80 % figure in curation.md. | Basis as recorded: % of essential oil",
+   "refs": [
+    21
+   ]
+  }
+ ],
+ "preparations": [
+  {
+   "id": "thyme-herb-hot-infusion",
+   "name": "Thyme herb, hot-water infusion"
+  }
+ ]
+}

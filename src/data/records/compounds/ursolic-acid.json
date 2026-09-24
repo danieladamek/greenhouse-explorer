@@ -1,0 +1,287 @@
+{
+ "compound": {
+  "id": "ursolic-acid",
+  "name": "ursolic acid",
+  "synonyms": [
+   "(+)-ursolic acid",
+   "3β-hydroxyurs-12-en-28-oic acid"
+  ],
+  "class": "triterpene",
+  "subclass": "ursane-type pentacyclic triterpenoid acid",
+  "one_liner": "Waxy pentacyclic triterpene acid in sage, rosemary and lemon balm leaves.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "(1S,2R,4aS,6aR,6aS,6bR,8aR,10S,12aR,14bS)-10-hydroxy-1,2,6a,6b,9,9,12a-heptamethyl-2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydro-1H-picene-4a-carboxylic acid",
+   "formula": "C30H48O3",
+   "mw": 456.71,
+   "mw_source": "computed_from_formula",
+   "smiles": "C[C@@H]1CC[C@@]2(CC[C@@]3(C(=CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)[C@@H]2[C@H]1C)C)C(=O)O",
+   "inchikey": "WCGUUGGRBIKTOS-GPOJBZKASA-N",
+   "cas": "77-52-1",
+   "pubchem_cid": 64945,
+   "chebi_id": "CHEBI:9908",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/64945/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": "PubChem title '(+)-Ursolic Acid'."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "MVA/triterpenoid (from 2,3-oxidosqualene)",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "melissa-officinalis",
+    "plant_part": "plant",
+    "value": null,
+    "unit": null,
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Melissa officinalis L., folium. EMA/HMPC/196746/2012 (14 May 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5947?page&_format=csv",
+    "verified": true,
+    "note": "Duke: URSOLIC-ACID Plant, no value. EMA: 'Triterpenes including ursolic and oleanolic acids' (no amount)."
+   },
+   {
+    "taxon_id": "salvia-officinalis",
+    "plant_part": "leaf",
+    "value": "up to 3.5",
+    "unit": "%",
+    "basis": "dry_weight",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Rev. 1. EMA/HMPC/150801/2015 (20 Sep 2016). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+    "verified": true,
+    "note": "Duke: Leaf 1255-1300 ppm; Stem max 200 ppm. LOTUS ursolic acid (LTS0250838) lists Salvia officinalis (ref 10.1016/S0378-8741(00)00396-2 as decoded). | Basis as recorded: dried leaf (as given in EMA report)"
+   },
+   {
+    "taxon_id": "salvia-rosmarinus",
+    "plant_part": "leaf",
+    "value": null,
+    "unit": null,
+    "basis": "presence_only",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+    "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+    "database": null,
+    "database_url": null,
+    "verified": true,
+    "note": "EMA names ursolic acid among rosemary leaf constituents (no amount). Database record not confirmed: the Duke CSV response was truncated before 'U', KNApSAcK Rosmarinus list has no ursolic acid, LOTUS visible JSON did not show Rosmarinus (truncated)."
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": null,
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Not sourced.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "A leaf-surface triterpene, chemically unlike the volatile oil; the oregano row was dropped because no source confirmed it.",
+  "citations": [
+   1,
+   8,
+   12
+  ],
+  "gaps": [
+   "Oregano occurrence dropped (not verified); TODO(author) on the oregano page.",
+   "Rosemary row rests on the EMA report only (no database record).",
+   "Pharmacology, absorption and safety not researched.",
+   "No human evidence for the isolated compound found in this pass.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Waxy [pentacyclic triterpene](#term:triterpene) acid in sage, rosemary and lemon balm leaves.",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "A leaf-surface triterpene, chemically unlike the [volatile oil](#term:essential-oil); the oregano row was dropped because no source confirmed it.",
+   "processing_note": "Not sourced.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "triterpene",
+   "essential-oil"
+  ],
+  "cited_refs": [
+   1,
+   8,
+   12
+  ],
+  "taxa": [
+   "melissa-officinalis",
+   "salvia-officinalis",
+   "salvia-rosmarinus"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C30H48O3",
+   "inchikeyComputed": "WCGUUGGRBIKTOS-GPOJBZKASA-N",
+   "canonicalSmiles": "C[C@H]1[C@H](C)CC[C@]2(C(=O)O)CC[C@]3(C)C(=CC[C@@H]4[C@@]5(C)CC[C@H](O)C(C)(C)[C@@H]5CC[C@]43C)[C@H]12",
+   "monoisotopicMass": 456.3603,
+   "averageMass": 456.711,
+   "descriptors": {
+    "heavyAtoms": 33,
+    "rings": 5,
+    "aromaticRings": 0,
+    "hbd": 2,
+    "hba": 2,
+    "rotatableBonds": 1,
+    "logP": 7.09,
+    "tpsa": 57.5,
+    "fsp3": 0.9,
+    "stereocenters": 10,
+    "charge": 0
+   },
+   "atomCount": 81,
+   "heavyAtomCount": 33,
+   "functionalGroups": [
+    {
+     "id": "alcohol",
+     "name": "Aliphatic alcohol",
+     "matches": [
+      [
+       0,
+       20
+      ]
+     ]
+    },
+    {
+     "id": "carboxylic-acid",
+     "name": "Carboxylic acid / carboxylate",
+     "matches": [
+      [
+       30,
+       2,
+       1
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/ursolic-acid.sdf",
+   "svg": {
+    "light": "structures/2d/ursolic-acid.svg",
+    "dark": "structures/2d/ursolic-acid.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/ursolic-acid.json",
+   "mwPack": 456.71,
+   "mwSource": "computed_from_formula"
+  },
+  "primer_sections": [
+   "5-three-pathways-that-make-the-greenhouse-smell"
+  ]
+ },
+ "rows": [
+  {
+   "row": "ursolic-acid#0",
+   "compound_id": "ursolic-acid",
+   "compound": "ursolic acid",
+   "class": "triterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "melissa-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Melissa officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "plant",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Melissa officinalis L., folium. EMA/HMPC/196746/2012 (14 May 2013). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melissa-officinalis-l-folium_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/5947?page&_format=csv",
+   "verified": true,
+   "note": "Duke: URSOLIC-ACID Plant, no value. EMA: 'Triterpenes including ursolic and oleanolic acids' (no amount).",
+   "refs": [
+    8
+   ]
+  },
+  {
+   "row": "ursolic-acid#1",
+   "compound_id": "ursolic-acid",
+   "compound": "ursolic acid",
+   "class": "triterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-officinalis",
+   "taxon_known": true,
+   "taxon_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": "up to 3.5",
+   "unit": "%",
+   "basis": "dry_weight",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Salvia officinalis L., folium and Salvia officinalis L., aetheroleum, Rev. 1. EMA/HMPC/150801/2015 (20 Sep 2016). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-salvia-officinalis-l-folium-and-salvia-officinalis-l-aetheroleum-revision-1_en.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6414?page&_format=csv",
+   "verified": true,
+   "note": "Duke: Leaf 1255-1300 ppm; Stem max 200 ppm. LOTUS ursolic acid (LTS0250838) lists Salvia officinalis (ref 10.1016/S0378-8741(00)00396-2 as decoded). | Basis as recorded: dried leaf (as given in EMA report)",
+   "refs": [
+    1
+   ]
+  },
+  {
+   "row": "ursolic-acid#2",
+   "compound_id": "ursolic-acid",
+   "compound": "ursolic acid",
+   "class": "triterpene",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "salvia-rosmarinus",
+   "taxon_known": true,
+   "taxon_name": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "plant_part": "leaf",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "EMA/HMPC. Assessment report on Rosmarinus officinalis L., aetheroleum and Rosmarinus officinalis L., folium, Rev. 1. EMA/HMPC/681037/2021 (29 May 2024). https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "source_doi_or_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "EMA names ursolic acid among rosemary leaf constituents (no amount). Database record not confirmed: the Duke CSV response was truncated before 'U', KNApSAcK Rosmarinus list has no ursolic acid, LOTUS visible JSON did not show Rosmarinus (truncated).",
+   "refs": [
+    12
+   ]
+  }
+ ],
+ "preparations": []
+}

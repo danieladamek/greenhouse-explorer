@@ -1,0 +1,212 @@
+{
+ "compound": {
+  "id": "eugenol",
+  "name": "eugenol",
+  "synonyms": [
+   "4-allyl-2-methoxyphenol"
+  ],
+  "class": "phenylpropanoid",
+  "subclass": "allylphenol",
+  "one_liner": "Clove-scented phenylpropanoid; a major oil component in several basil cultivars.",
+  "palette_group": "lamiaceae",
+  "auxiliary": false,
+  "identity": {
+   "iupac": "2-methoxy-4-prop-2-enylphenol",
+   "formula": "C10H12O2",
+   "mw": 164.2,
+   "mw_source": "pubchem",
+   "smiles": "COC1=C(C=CC(=C1)CC=C)O",
+   "inchikey": "RRAFCDWBNXTKKO-UHFFFAOYSA-N",
+   "cas": "97-53-0",
+   "pubchem_cid": 3314,
+   "chebi_id": "CHEBI:4917",
+   "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/3314/JSON?heading=Names+and+Identifiers",
+   "cross_checked": false,
+   "note": "MW read from the PubChem 'Molecular Weight' heading (full record returned HTTP 503)."
+  },
+  "physchem": {
+   "logp": null,
+   "pka": null,
+   "source": null
+  },
+  "biosynthesis": {
+   "pathway": "shikimate/phenylpropanoid",
+   "note": null
+  },
+  "occurrences": [
+   {
+    "taxon_id": "ocimum-basilicum",
+    "plant_part": "leaf essential oil",
+    "value": "51200-270000",
+    "unit": "ppm",
+    "basis": "essential_oil_pct",
+    "level": "species",
+    "cultivar": null,
+    "source_citation": "Muráriková A, Ťažký A, Neugebauerová J, et al. (2017) Characterization of essential oil composition in different basil species and pot cultures by a GC-MS method. Molecules 22(7):1221",
+    "source_doi_or_url": "https://doi.org/10.3390/molecules22071221",
+    "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+    "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+    "verified": true,
+    "note": "Duke: EUGENOL Leaf Essent. Oil 51200-270000 ppm; Leaf 14-8575 ppm. Paper: eugenol a major component in 'Mammolo Genovese' (1.19 mg/mL), 'Mánes' (0.40), 'Red Rubin' (0.56). | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)"
+   }
+  ],
+  "pharmacology": {
+   "primary_targets": null,
+   "mechanism": null,
+   "functional_notes": null
+  },
+  "absorption_bioavailability": null,
+  "evidence": [],
+  "processing_stability": {
+   "heat": null,
+   "water_solubility": null,
+   "ethanol_solubility": null,
+   "volatility": "steam-volatile: recovered in hydro/steam-distilled essential oil (see occurrence sources)",
+   "enzyme_dependence": null,
+   "formed_during": null,
+   "note": "Solubility and heat-stability values not sourced in this pass.",
+   "refs": []
+  },
+  "safety_flags": [],
+  "teaching_note": "Eugenol and methyleugenol differ by one methyl group; the plant's O-methyltransferase decides which one a cultivar accumulates, and only the methylated one carries a carcinogenicity statement [5].",
+  "citations": [
+   5,
+   18
+  ],
+  "gaps": [
+   "Pharmacology, absorption and safety not researched in this pass.",
+   "No human evidence for the isolated compound found in this pass.",
+   "The eugenol-to-methyleugenol O-methylation step is stated from chemical structure; no biosynthesis source read.",
+   "physchem (logP, pKa) not sourced - TODO(author)."
+  ],
+  "as_of": "2026-09-23",
+  "md": {
+   "one_liner": "Clove-scented [phenylpropanoid](#term:phenylpropanoid); a major oil component in several basil [cultivars](#term:cultivar).",
+   "mechanism": null,
+   "primary_targets": null,
+   "functional_notes": null,
+   "absorption_bioavailability": null,
+   "teaching_note": "Eugenol and [methyleugenol](#term:methyleugenol) differ by one methyl group; the plant's [O-methyltransferase](#term:o-methyltransferase) decides which one a cultivar accumulates, and only the methylated one carries a carcinogenicity statement [5](#cite:5).",
+   "processing_note": "[Solubility](#term:solubility) and heat-stability values not sourced in this pass.",
+   "biosynthesis_note": null,
+   "evidence": [],
+   "safety_flags": []
+  },
+  "terms": [
+   "phenylpropanoid",
+   "cultivar",
+   "methyleugenol",
+   "o-methyltransferase",
+   "solubility"
+  ],
+  "cited_refs": [
+   5,
+   18
+  ],
+  "taxa": [
+   "ocimum-basilicum"
+  ],
+  "has_human_evidence": false,
+  "structure": {
+   "formulaComputed": "C10H12O2",
+   "inchikeyComputed": "RRAFCDWBNXTKKO-UHFFFAOYSA-N",
+   "canonicalSmiles": "C=CCc1ccc(O)c(OC)c1",
+   "monoisotopicMass": 164.0837,
+   "averageMass": 164.204,
+   "descriptors": {
+    "heavyAtoms": 12,
+    "rings": 1,
+    "aromaticRings": 1,
+    "hbd": 1,
+    "hba": 2,
+    "rotatableBonds": 3,
+    "logP": 2.13,
+    "tpsa": 29.5,
+    "fsp3": 0.2,
+    "stereocenters": 0,
+    "charge": 0
+   },
+   "atomCount": 24,
+   "heavyAtomCount": 12,
+   "functionalGroups": [
+    {
+     "id": "phenol",
+     "name": "Phenol OH",
+     "matches": [
+      [
+       1,
+       7
+      ]
+     ]
+    },
+    {
+     "id": "methoxy",
+     "name": "Methoxy (aryl methyl ether)",
+     "matches": [
+      [
+       10,
+       0,
+       5
+      ]
+     ]
+    },
+    {
+     "id": "allyl",
+     "name": "Allyl side chain",
+     "matches": [
+      [
+       11,
+       9,
+       3,
+       2
+      ]
+     ]
+    }
+   ],
+   "conformerSource": "pubchem",
+   "sdf": "structures/3d/eugenol.sdf",
+   "svg": {
+    "light": "structures/2d/eugenol.svg",
+    "dark": "structures/2d/eugenol.dark.svg",
+    "width": 380,
+    "height": 300
+   },
+   "detail": "structures/data/eugenol.json",
+   "mwPack": 164.2,
+   "mwSource": "pubchem"
+  },
+  "primer_sections": [
+   "5-three-pathways-that-make-the-greenhouse-smell"
+  ]
+ },
+ "rows": [
+  {
+   "row": "eugenol#0",
+   "compound_id": "eugenol",
+   "compound": "eugenol",
+   "class": "phenylpropanoid",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "ocimum-basilicum",
+   "taxon_known": true,
+   "taxon_name": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "plant_part": "leaf essential oil",
+   "value": "51200-270000",
+   "unit": "ppm",
+   "basis": "essential_oil_pct",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Muráriková A, Ťažký A, Neugebauerová J, et al. (2017) Characterization of essential oil composition in different basil species and pot cultures by a GC-MS method. Molecules 22(7):1221",
+   "source_doi_or_url": "https://doi.org/10.3390/molecules22071221",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6044?page&_format=csv",
+   "verified": true,
+   "note": "Duke: EUGENOL Leaf Essent. Oil 51200-270000 ppm; Leaf 14-8575 ppm. Paper: eugenol a major component in 'Mammolo Genovese' (1.19 mg/mL), 'Mánes' (0.40), 'Red Rubin' (0.56). | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %)",
+   "refs": [
+    18
+   ]
+  }
+ ],
+ "preparations": []
+}

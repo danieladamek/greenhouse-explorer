@@ -1,0 +1,1602 @@
+[
+ {
+  "id": "fig-pathways",
+  "label": "Figure 1",
+  "title": "Three routes from fixed carbon to the greenhouse's aroma and phenolic compounds",
+  "kind": "pathway",
+  "synthesis": "conceptual",
+  "refs": [
+   6,
+   10,
+   20,
+   24,
+   28,
+   29,
+   40,
+   42,
+   43,
+   106,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119,
+   120,
+   121,
+   122,
+   123,
+   132,
+   134
+  ],
+  "data": "figures/data/fig-pathways.json",
+  "caption": "Simplified biosynthetic map. Fixed carbon feeds the cytosolic mevalonate (MVA) and plastidic MEP pathways, which make the C5 units of all terpenoids, and the shikimate pathway, which makes phenylalanine and tyrosine for the phenylpropanoid and flavonoid branches. End products are the curated compounds of this site; dashed edges compress several steps, and two edges mark artefacts formed after the plant (carnosol on drying, chamazulene on steam distillation).",
+  "how_to_read": "Start at the top with the carbon Rubisco fixes and follow it down one of three trunks. On the terpenoid trunk, the length of the prenyl chain decides the class: ten carbons for the monoterpenes of mint, sage, thyme and basil, fifteen for the sesquiterpenes of chamomile and lemon balm, twenty for rosemary's carnosic acid and thirty for ursolic acid. On the phenolic trunk, phenylalanine becomes cinnamic acid and then p-coumaric acid, which splits three ways: towards rosmarinic acid, towards basil's eugenol and estragole, and, with three malonyl-CoA units, into the flavonoids. Each coloured end node opens its compound page. Every edge carries the reference it was drawn from; hover it to see which.",
+  "explain": [
+   {
+    "on": "MVA / MEP",
+    "text": "Two pathways in two compartments make the same C5 building blocks; the plastid route mainly supplies monoterpenes and diterpenes, the cytosolic route sesquiterpenes and triterpenes [110,111]."
+   },
+   {
+    "on": "geranyl diphosphate",
+    "text": "The single C10 precursor from which basil, thyme, sage and peppermint synthases make different skeletons [113,114,121]."
+   },
+   {
+    "on": "γ-terpinene → thymol",
+    "text": "In thyme the aromatic ring of thymol is made from γ-terpinene by P450 enzymes and a dehydrogenase [42]."
+   },
+   {
+    "on": "matricin → chamazulene",
+    "text": "Not a plant step: matricin is at least partly converted to chamazulene during steam distillation [10]."
+   },
+   {
+    "on": "carnosic acid → carnosol",
+    "text": "Oxidation after harvest and during drying; carnosol is described as an artefact [43]."
+   },
+   {
+    "on": "rosmarinic acid",
+    "text": "Drawn as its two building blocks, caffeic acid and 3,4-dihydroxyphenyllactic acid, from phenylalanine and tyrosine; the enzyme sequence is not shown [118]."
+   },
+   {
+    "on": "chalcone synthase",
+    "text": "Condenses one p-coumaroyl-CoA with three malonyl-CoA, the entry to all flavonoids [123]."
+   },
+   {
+    "on": "chrysin branch",
+    "text": "A root-specific 4′-deoxyflavone pathway in Scutellaria baicalensis [28]."
+   }
+  ],
+  "hotspots": [],
+  "concepts": [],
+  "discussed_in": [
+   "5-three-pathways-that-make-the-greenhouse-smell",
+   "4-primary-versus-secondary-metabolism"
+  ],
+  "cites": [],
+  "source": "Drawn by the AI builder from the cited reviews and primary papers (refs listed on each node and edge). It is a conceptual simplification, not a reproduction of any published figure: many enzymatic steps are compressed into dashed edges, the ursolic-acid step is shown from work in a legume and grape rather than in the Lamiaceae, and the routes from p-coumaric acid to chavicol and from flavanones to specific glycosides are drawn at class level without step-by-step sources.",
+  "graph": {
+   "layout": "force",
+   "nodes": [
+    {
+     "id": "co2-fixation",
+     "label": "CO2 fixed by Rubisco (sugars)",
+     "type": "input",
+     "refs": [
+      106
+     ],
+     "kind": "input"
+    },
+    {
+     "id": "acetyl-coa",
+     "label": "acetyl-CoA",
+     "type": "precursor",
+     "refs": [
+      111
+     ],
+     "compartment": "cytosol",
+     "kind": "precursor"
+    },
+    {
+     "id": "pyruvate-g3p",
+     "label": "pyruvate + glyceraldehyde-3-phosphate",
+     "type": "precursor",
+     "refs": [
+      110
+     ],
+     "compartment": "plastid",
+     "kind": "precursor"
+    },
+    {
+     "id": "pep-e4p",
+     "label": "phosphoenolpyruvate + erythrose 4-phosphate",
+     "type": "precursor",
+     "refs": [
+      116
+     ],
+     "compartment": "plastid",
+     "kind": "precursor"
+    },
+    {
+     "id": "malonyl-coa",
+     "label": "malonyl-CoA",
+     "type": "precursor",
+     "refs": [
+      122,
+      123
+     ],
+     "kind": "precursor"
+    },
+    {
+     "id": "mva",
+     "label": "mevalonate (MVA) pathway",
+     "type": "pathway",
+     "refs": [
+      110,
+      111
+     ],
+     "compartment": "cytosol",
+     "kind": "pathway"
+    },
+    {
+     "id": "mep",
+     "label": "MEP (DOXP) pathway",
+     "type": "pathway",
+     "refs": [
+      110,
+      111
+     ],
+     "compartment": "plastid",
+     "kind": "pathway"
+    },
+    {
+     "id": "ipp-dmapp",
+     "label": "IPP / DMAPP (C5 units)",
+     "type": "intermediate",
+     "refs": [
+      110,
+      111
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "gpp",
+     "label": "geranyl diphosphate (C10)",
+     "type": "intermediate",
+     "refs": [
+      113,
+      114
+     ],
+     "compartment": "plastid (monoterpenes)",
+     "kind": "intermediate"
+    },
+    {
+     "id": "c15",
+     "label": "C15 prenyl diphosphate",
+     "type": "intermediate",
+     "refs": [
+      110
+     ],
+     "compartment": "cytosol (sesquiterpenes)",
+     "kind": "intermediate"
+    },
+    {
+     "id": "ggpp",
+     "label": "geranylgeranyl diphosphate (C20)",
+     "type": "intermediate",
+     "refs": [
+      43,
+      110
+     ],
+     "compartment": "plastid (diterpenes)",
+     "kind": "intermediate"
+    },
+    {
+     "id": "oxidosqualene",
+     "label": "2,3-oxidosqualene (C30)",
+     "type": "intermediate",
+     "refs": [
+      115
+     ],
+     "compartment": "cytosol (triterpenes)",
+     "kind": "intermediate"
+    },
+    {
+     "id": "linalool",
+     "label": "linalool",
+     "type": "compound",
+     "refs": [
+      121
+     ],
+     "compound_id": "linalool",
+     "note": "basil linalool synthase",
+     "kind": "compound"
+    },
+    {
+     "id": "gamma-terpinene",
+     "label": "γ-terpinene",
+     "type": "compound",
+     "refs": [
+      42
+     ],
+     "compound_id": "gamma-terpinene",
+     "kind": "compound"
+    },
+    {
+     "id": "thymol",
+     "label": "thymol",
+     "type": "compound",
+     "refs": [
+      42
+     ],
+     "compound_id": "thymol",
+     "kind": "compound"
+    },
+    {
+     "id": "carvacrol",
+     "label": "carvacrol",
+     "type": "compound",
+     "refs": [
+      42
+     ],
+     "compound_id": "carvacrol",
+     "kind": "compound"
+    },
+    {
+     "id": "limonene",
+     "label": "(−)-limonene",
+     "type": "intermediate",
+     "refs": [
+      113
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "pulegone",
+     "label": "pulegone",
+     "type": "compound",
+     "refs": [
+      113
+     ],
+     "compound_id": "pulegone",
+     "kind": "compound"
+    },
+    {
+     "id": "menthofuran",
+     "label": "menthofuran",
+     "type": "compound",
+     "refs": [
+      113
+     ],
+     "compound_id": "menthofuran",
+     "note": "side product from pulegone",
+     "kind": "compound"
+    },
+    {
+     "id": "menthone",
+     "label": "menthone",
+     "type": "compound",
+     "refs": [
+      113
+     ],
+     "compound_id": "menthone",
+     "kind": "compound"
+    },
+    {
+     "id": "menthol",
+     "label": "(−)-menthol",
+     "type": "compound",
+     "refs": [
+      113
+     ],
+     "compound_id": "menthol",
+     "kind": "compound"
+    },
+    {
+     "id": "sabinene",
+     "label": "(+)-sabinene",
+     "type": "intermediate",
+     "refs": [
+      114
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "alpha-thujone",
+     "label": "α-thujone",
+     "type": "compound",
+     "refs": [
+      114
+     ],
+     "compound_id": "alpha-thujone",
+     "kind": "compound"
+    },
+    {
+     "id": "beta-thujone",
+     "label": "β-thujone",
+     "type": "compound",
+     "refs": [
+      114
+     ],
+     "compound_id": "beta-thujone",
+     "kind": "compound"
+    },
+    {
+     "id": "cineole",
+     "label": "1,8-cineole",
+     "type": "compound",
+     "refs": [
+      114
+     ],
+     "compound_id": "1-8-cineole",
+     "kind": "compound"
+    },
+    {
+     "id": "bpp",
+     "label": "(+)-bornyl diphosphate",
+     "type": "intermediate",
+     "refs": [
+      114
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "camphor",
+     "label": "camphor",
+     "type": "compound",
+     "refs": [
+      114
+     ],
+     "compound_id": "camphor",
+     "kind": "compound"
+    },
+    {
+     "id": "beta-caryophyllene",
+     "label": "β-caryophyllene",
+     "type": "compound",
+     "refs": [
+      40
+     ],
+     "compound_id": "beta-caryophyllene",
+     "kind": "compound"
+    },
+    {
+     "id": "alpha-bisabolol",
+     "label": "α-bisabolol",
+     "type": "compound",
+     "refs": [
+      10
+     ],
+     "compound_id": "alpha-bisabolol",
+     "kind": "compound"
+    },
+    {
+     "id": "matricin",
+     "label": "matricin (proazulene)",
+     "type": "compound",
+     "refs": [
+      10
+     ],
+     "compound_id": "matricin",
+     "kind": "compound"
+    },
+    {
+     "id": "chamazulene",
+     "label": "chamazulene",
+     "type": "compound",
+     "refs": [
+      10
+     ],
+     "compound_id": "chamazulene",
+     "note": "formed during steam distillation, not by the plant",
+     "kind": "compound"
+    },
+    {
+     "id": "miltiradiene",
+     "label": "miltiradiene → ferruginol",
+     "type": "intermediate",
+     "refs": [
+      43
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "carnosic-acid",
+     "label": "carnosic acid",
+     "type": "compound",
+     "refs": [
+      43
+     ],
+     "compound_id": "carnosic-acid",
+     "kind": "compound"
+    },
+    {
+     "id": "carnosol",
+     "label": "carnosol",
+     "type": "compound",
+     "refs": [
+      43
+     ],
+     "compound_id": "carnosol",
+     "note": "oxidative artefact after harvest / drying",
+     "kind": "compound"
+    },
+    {
+     "id": "alpha-amyrin",
+     "label": "α-amyrin",
+     "type": "intermediate",
+     "refs": [
+      115
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "ursolic-acid",
+     "label": "ursolic acid",
+     "type": "compound",
+     "refs": [
+      115
+     ],
+     "compound_id": "ursolic-acid",
+     "kind": "compound"
+    },
+    {
+     "id": "shikimate",
+     "label": "shikimate pathway",
+     "type": "pathway",
+     "refs": [
+      116
+     ],
+     "compartment": "plastid",
+     "kind": "pathway"
+    },
+    {
+     "id": "phenylalanine",
+     "label": "phenylalanine",
+     "type": "intermediate",
+     "refs": [
+      116,
+      117
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "tyrosine",
+     "label": "tyrosine",
+     "type": "intermediate",
+     "refs": [
+      116,
+      118
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "cinnamic",
+     "label": "cinnamic acid",
+     "type": "intermediate",
+     "refs": [
+      117
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "p-coumaric",
+     "label": "p-coumaric acid / p-coumaroyl-CoA",
+     "type": "intermediate",
+     "refs": [
+      117,
+      123
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "caffeic-acid",
+     "label": "caffeic acid",
+     "type": "compound",
+     "refs": [
+      117,
+      118
+     ],
+     "compound_id": "caffeic-acid",
+     "kind": "compound"
+    },
+    {
+     "id": "dhpl",
+     "label": "3,4-dihydroxyphenyllactic acid",
+     "type": "intermediate",
+     "refs": [
+      118
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "rosmarinic-acid",
+     "label": "rosmarinic acid",
+     "type": "compound",
+     "refs": [
+      118
+     ],
+     "compound_id": "rosmarinic-acid",
+     "note": "drawn as its two building blocks, not enzyme by enzyme",
+     "kind": "compound"
+    },
+    {
+     "id": "coniferyl-acetate",
+     "label": "coniferyl acetate",
+     "type": "intermediate",
+     "refs": [
+      119
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "eugenol",
+     "label": "eugenol",
+     "type": "compound",
+     "refs": [
+      119
+     ],
+     "compound_id": "eugenol",
+     "kind": "compound"
+    },
+    {
+     "id": "methyleugenol",
+     "label": "methyleugenol",
+     "type": "compound",
+     "refs": [
+      120
+     ],
+     "compound_id": "methyleugenol",
+     "kind": "compound"
+    },
+    {
+     "id": "chavicol",
+     "label": "chavicol",
+     "type": "intermediate",
+     "refs": [
+      120
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "estragole",
+     "label": "estragole (methylchavicol)",
+     "type": "compound",
+     "refs": [
+      120
+     ],
+     "compound_id": "estragole",
+     "kind": "compound"
+    },
+    {
+     "id": "chalcone",
+     "label": "chalcone",
+     "type": "intermediate",
+     "refs": [
+      123
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "flavanone",
+     "label": "flavanones",
+     "type": "intermediate",
+     "refs": [
+      122
+     ],
+     "kind": "intermediate"
+    },
+    {
+     "id": "eriocitrin",
+     "label": "eriocitrin (flavanone glycoside)",
+     "type": "compound",
+     "refs": [
+      6
+     ],
+     "compound_id": "eriocitrin",
+     "kind": "compound"
+    },
+    {
+     "id": "apigenin",
+     "label": "apigenin",
+     "type": "compound",
+     "refs": [
+      10,
+      122
+     ],
+     "compound_id": "apigenin",
+     "kind": "compound"
+    },
+    {
+     "id": "luteolin",
+     "label": "luteolin",
+     "type": "compound",
+     "refs": [
+      20,
+      122
+     ],
+     "compound_id": "luteolin",
+     "kind": "compound"
+    },
+    {
+     "id": "apigenin-7-glucoside",
+     "label": "apigenin-7-glucoside",
+     "type": "compound",
+     "refs": [
+      10,
+      134
+     ],
+     "compound_id": "apigenin-7-glucoside",
+     "kind": "compound"
+    },
+    {
+     "id": "luteolin-7-glucoside",
+     "label": "luteolin-7-glucoside",
+     "type": "compound",
+     "refs": [
+      20,
+      132
+     ],
+     "compound_id": "luteolin-7-glucoside",
+     "kind": "compound"
+    },
+    {
+     "id": "chrysin",
+     "label": "chrysin (4′-deoxyflavone)",
+     "type": "compound",
+     "refs": [
+      28
+     ],
+     "compound_id": "chrysin",
+     "kind": "compound"
+    },
+    {
+     "id": "baicalein",
+     "label": "baicalein",
+     "type": "compound",
+     "refs": [
+      28,
+      29
+     ],
+     "compound_id": "baicalein",
+     "kind": "compound"
+    },
+    {
+     "id": "wogonin",
+     "label": "wogonin",
+     "type": "compound",
+     "refs": [
+      28
+     ],
+     "compound_id": "wogonin",
+     "kind": "compound"
+    },
+    {
+     "id": "baicalin",
+     "label": "baicalin",
+     "type": "compound",
+     "refs": [
+      24,
+      28
+     ],
+     "compound_id": "baicalin",
+     "kind": "compound"
+    }
+   ],
+   "edges": [
+    {
+     "from": "co2-fixation",
+     "to": "acetyl-coa",
+     "label": "central metabolism",
+     "refs": [
+      106,
+      111
+     ],
+     "style": "dashed",
+     "type": "dashed"
+    },
+    {
+     "from": "co2-fixation",
+     "to": "pyruvate-g3p",
+     "label": "central metabolism",
+     "refs": [
+      106,
+      110
+     ],
+     "style": "dashed",
+     "type": "dashed"
+    },
+    {
+     "from": "co2-fixation",
+     "to": "pep-e4p",
+     "label": "central metabolism",
+     "refs": [
+      106,
+      116
+     ],
+     "style": "dashed",
+     "type": "dashed"
+    },
+    {
+     "from": "acetyl-coa",
+     "to": "mva",
+     "label": "",
+     "refs": [
+      111
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "pyruvate-g3p",
+     "to": "mep",
+     "label": "DOXP synthase",
+     "refs": [
+      110
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "mva",
+     "to": "ipp-dmapp",
+     "label": "",
+     "refs": [
+      110,
+      111
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "mep",
+     "to": "ipp-dmapp",
+     "label": "",
+     "refs": [
+      110,
+      111
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "ipp-dmapp",
+     "to": "gpp",
+     "label": "head-to-tail addition",
+     "refs": [
+      110,
+      113
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "ipp-dmapp",
+     "to": "c15",
+     "label": "head-to-tail addition",
+     "refs": [
+      110
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "ipp-dmapp",
+     "to": "ggpp",
+     "label": "head-to-tail addition",
+     "refs": [
+      43,
+      110
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "ipp-dmapp",
+     "to": "oxidosqualene",
+     "label": "head-to-tail addition",
+     "refs": [
+      110,
+      115
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "gpp",
+     "to": "linalool",
+     "label": "linalool synthase (basil)",
+     "refs": [
+      121
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "gpp",
+     "to": "gamma-terpinene",
+     "label": "terpene synthase (thyme)",
+     "refs": [
+      42
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "gamma-terpinene",
+     "to": "thymol",
+     "label": "P450s + dehydrogenase",
+     "refs": [
+      42
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "gamma-terpinene",
+     "to": "carvacrol",
+     "label": "P450s + dehydrogenase",
+     "refs": [
+      42
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "gpp",
+     "to": "limonene",
+     "label": "limonene synthase (peppermint)",
+     "refs": [
+      113
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "limonene",
+     "to": "pulegone",
+     "label": "several steps",
+     "refs": [
+      113
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "pulegone",
+     "to": "menthofuran",
+     "label": "side branch",
+     "refs": [
+      113
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "pulegone",
+     "to": "menthone",
+     "label": "",
+     "refs": [
+      113
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "menthone",
+     "to": "menthol",
+     "label": "",
+     "refs": [
+      113
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "gpp",
+     "to": "sabinene",
+     "label": "sabinene synthase (sage)",
+     "refs": [
+      114
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "sabinene",
+     "to": "alpha-thujone",
+     "label": "further steps",
+     "refs": [
+      114
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "sabinene",
+     "to": "beta-thujone",
+     "label": "further steps",
+     "refs": [
+      114
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "gpp",
+     "to": "cineole",
+     "label": "1,8-cineole synthase (sage)",
+     "refs": [
+      114
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "gpp",
+     "to": "bpp",
+     "label": "bornyl diphosphate synthase (sage)",
+     "refs": [
+      114
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "bpp",
+     "to": "camphor",
+     "label": "further steps",
+     "refs": [
+      114
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "c15",
+     "to": "beta-caryophyllene",
+     "label": "sesquiterpene synthases (not shown)",
+     "refs": [
+      110,
+      112
+     ],
+     "style": "dashed",
+     "type": "dashed"
+    },
+    {
+     "from": "c15",
+     "to": "alpha-bisabolol",
+     "label": "sesquiterpene synthases (not shown)",
+     "refs": [
+      110,
+      112
+     ],
+     "style": "dashed",
+     "type": "dashed"
+    },
+    {
+     "from": "c15",
+     "to": "matricin",
+     "label": "sesquiterpene synthases (not shown)",
+     "refs": [
+      110,
+      112
+     ],
+     "style": "dashed",
+     "type": "dashed"
+    },
+    {
+     "from": "matricin",
+     "to": "chamazulene",
+     "label": "steam distillation (artefact)",
+     "refs": [
+      10
+     ],
+     "style": "artefact",
+     "type": "artefact"
+    },
+    {
+     "from": "ggpp",
+     "to": "miltiradiene",
+     "label": "proposed",
+     "refs": [
+      43
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "miltiradiene",
+     "to": "carnosic-acid",
+     "label": "proposed",
+     "refs": [
+      43
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "carnosic-acid",
+     "to": "carnosol",
+     "label": "oxidation after harvest (artefact)",
+     "refs": [
+      43
+     ],
+     "style": "artefact",
+     "type": "artefact"
+    },
+    {
+     "from": "oxidosqualene",
+     "to": "alpha-amyrin",
+     "label": "oxidosqualene cyclase",
+     "refs": [
+      115
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "alpha-amyrin",
+     "to": "ursolic-acid",
+     "label": "CYP716A, C-28 oxidation (shown in legume/grape)",
+     "refs": [
+      115
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "pep-e4p",
+     "to": "shikimate",
+     "label": "",
+     "refs": [
+      116
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "shikimate",
+     "to": "phenylalanine",
+     "label": "",
+     "refs": [
+      116
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "shikimate",
+     "to": "tyrosine",
+     "label": "",
+     "refs": [
+      116
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "phenylalanine",
+     "to": "cinnamic",
+     "label": "phenylalanine ammonia-lyase (PAL)",
+     "refs": [
+      117
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "cinnamic",
+     "to": "p-coumaric",
+     "label": "hydroxylation, CoA ligation",
+     "refs": [
+      117
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "p-coumaric",
+     "to": "caffeic-acid",
+     "label": "hydroxylation",
+     "refs": [
+      117
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "tyrosine",
+     "to": "dhpl",
+     "label": "",
+     "refs": [
+      118
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "caffeic-acid",
+     "to": "rosmarinic-acid",
+     "label": "caffeoyl moiety (ester)",
+     "refs": [
+      118
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "dhpl",
+     "to": "rosmarinic-acid",
+     "label": "3,4-dihydroxyphenyllactyl moiety",
+     "refs": [
+      118
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "p-coumaric",
+     "to": "coniferyl-acetate",
+     "label": "monolignol branch (several steps)",
+     "refs": [
+      117,
+      119
+     ],
+     "style": "dashed",
+     "type": "dashed"
+    },
+    {
+     "from": "coniferyl-acetate",
+     "to": "eugenol",
+     "label": "eugenol synthase EGS1 (basil)",
+     "refs": [
+      119
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "eugenol",
+     "to": "methyleugenol",
+     "label": "EOMT (basil)",
+     "refs": [
+      120
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "p-coumaric",
+     "to": "chavicol",
+     "label": "phenylpropene branch (steps not shown)",
+     "refs": [
+      120
+     ],
+     "style": "dashed",
+     "type": "dashed"
+    },
+    {
+     "from": "chavicol",
+     "to": "estragole",
+     "label": "CVOMT (basil)",
+     "refs": [
+      120
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "p-coumaric",
+     "to": "chalcone",
+     "label": "chalcone synthase (+3 malonyl-CoA)",
+     "refs": [
+      123
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "malonyl-coa",
+     "to": "chalcone",
+     "label": "3 units",
+     "refs": [
+      123
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "chalcone",
+     "to": "flavanone",
+     "label": "cyclisation",
+     "refs": [
+      122,
+      123
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "flavanone",
+     "to": "eriocitrin",
+     "label": "glycosylation (steps not shown)",
+     "refs": [
+      6,
+      122
+     ],
+     "style": "dashed",
+     "type": "dashed"
+    },
+    {
+     "from": "flavanone",
+     "to": "apigenin",
+     "label": "flavone formation",
+     "refs": [
+      122
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "apigenin",
+     "to": "luteolin",
+     "label": "hydroxylation (simplified)",
+     "refs": [
+      122
+     ],
+     "style": "dashed",
+     "type": "dashed"
+    },
+    {
+     "from": "apigenin",
+     "to": "apigenin-7-glucoside",
+     "label": "glycosylation (plant form)",
+     "refs": [
+      10,
+      134
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "luteolin",
+     "to": "luteolin-7-glucoside",
+     "label": "glycosylation (plant form)",
+     "refs": [
+      20
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "chalcone",
+     "to": "chrysin",
+     "label": "root-specific 4′-deoxyflavone branch (S. baicalensis)",
+     "refs": [
+      28,
+      29
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "chrysin",
+     "to": "baicalein",
+     "label": "hydroxylation",
+     "refs": [
+      28,
+      29
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "chrysin",
+     "to": "wogonin",
+     "label": "",
+     "refs": [
+      28
+     ],
+     "style": "solid",
+     "type": "solid"
+    },
+    {
+     "from": "baicalein",
+     "to": "baicalin",
+     "label": "glucuronidation",
+     "refs": [
+      28,
+      29
+     ],
+     "style": "solid",
+     "type": "solid"
+    }
+   ]
+  },
+  "caption_md": "Simplified biosynthetic map. Fixed carbon feeds the [cytosolic](#term:cytosol) [mevalonate](#term:mva-pathway) (MVA) and [plastidic](#term:plastid) [MEP](#term:mep-pathway) pathways, which make the [C5 units](#term:ipp-dmapp) of all [terpenoids](#term:terpenoid), and the [shikimate pathway](#term:shikimate-pathway), which makes phenylalanine and tyrosine for the [phenylpropanoid](#term:phenylpropanoid) and [flavonoid](#term:flavonoid) branches. End products are the curated compounds of this site; dashed edges compress several steps, and two edges mark [artefacts](#term:artefact) formed after the plant (carnosol on drying, chamazulene on [steam distillation](#term:steam-distillation)).",
+  "how_to_read_md": "Start at the top with the carbon [Rubisco](#term:rubisco) fixes and follow it down one of three trunks. On the terpenoid trunk, the length of the prenyl chain decides the class: ten carbons for the [monoterpenes](#term:monoterpene) of mint, sage, thyme and basil, fifteen for the [sesquiterpenes](#term:sesquiterpene) of chamomile and lemon balm, twenty for rosemary's carnosic acid and thirty for ursolic acid. On the phenolic trunk, phenylalanine becomes cinnamic acid and then p-coumaric acid, which splits three ways: towards rosmarinic acid, towards basil's eugenol and [estragole](#term:estragole), and, with three malonyl-CoA units, into the flavonoids. Each coloured end node opens its compound page. Every edge carries the reference it was drawn from; hover it to see which.",
+  "provenance": "synthesised: conceptual diagram"
+ },
+ {
+  "id": "fig-extraction",
+  "label": "Figure 2",
+  "title": "How much of a herb's oil and phenolic fraction reaches a hot-water infusion",
+  "kind": "chart",
+  "synthesis": "data",
+  "refs": [
+   6,
+   10,
+   127,
+   131,
+   132
+  ],
+  "data": "figures/data/fig-extraction.csv",
+  "chart": {
+   "type": "grouped-bar",
+   "x": {
+    "field": "plant",
+    "label": "Plant"
+   },
+   "y": {
+    "field": "value_pct",
+    "label": "Recovered in hot-water infusion",
+    "unit": "%"
+   },
+   "series": "fraction",
+   "ci": [
+    "value_low",
+    "value_high"
+   ]
+  },
+  "caption": "Share of each herb's essential-oil fraction and phenolic fraction recovered in a hot-water infusion, as published. Peppermint, lemon balm and chamomile values are percentages of the content of the dried plant; the two sage values are percentages of what an aqueous-ethanol extract of the same material recovered. Not a meta-analysis; conditions differ between studies.",
+  "how_to_read": "Each plant has up to two bars: essential oil (the volatile, water-shy fraction) and polyphenols (the water-soluble fraction). Where a source gave a range, the bar sits at its midpoint and the whisker shows the range. Compare the two bars within a plant, not heights across plants: the studies used different teas, times and temperatures, and the sage bars are measured against an ethanol extract, not against the leaf. The pattern to look for is the gap - in every plant with both measurements, far more of the phenolic fraction than of the oil reaches the cup.",
+  "explain": [
+   {
+    "on": "Peppermint oil bar",
+    "text": "EMA: 20-25 % of the oil was found in the tea after 10 minutes with boiling water; the bar is the midpoint [6]."
+   },
+   {
+    "on": "Lemon balm bars",
+    "text": "One study of dried leaf and its tea: 31 % of the oil and 93 % of the polyphenols were extracted [131]."
+   },
+   {
+    "on": "Chamomile bar",
+    "text": "EMA gives about 10-15 % of the oil constituents in tea, depending on preparation; no comparable polyphenol recovery figure was found [10]."
+   },
+   {
+    "on": "Sage bars",
+    "text": "Different comparator: thujone in tea as a share of a 60 % ethanol extract [127]; rosmarinic acid in a 60 °C water extract as a share of a 30 % ethanol extract, a ratio the builder computed from the published values [132]."
+   }
+  ],
+  "hotspots": [],
+  "concepts": [],
+  "discussed_in": [
+   "7-from-leaf-to-cup"
+  ],
+  "cites": [],
+  "source": "Extracted by the AI builder from the reported values in refs 6, 10, 127, 131 and 132 (one row per value; the `ref` column names the source). Values are as published except the sage rosmarinic-acid bar, which is the builder's ratio of two published means (2154.02 and 3634.12 mg per 100 g dry matter, Table 3 of ref 132), and the midpoints of the two EMA ranges. Nothing was pooled or re-analysed, and none of it was measured on the greenhouse's own plants. The two comparators (plant content vs ethanol extract) are kept in the `comparator` column and must not be read as one scale.",
+  "table": {
+   "rows": [
+    {
+     "plant": "Peppermint",
+     "taxon_id": "mentha-x-piperita",
+     "fraction": "essential oil",
+     "measured": "total essential oil",
+     "measure": "oil transferred to infusion",
+     "value_pct": 22.5,
+     "value_low": 20,
+     "value_high": 25,
+     "comparator": "leaf content",
+     "conditions": "boiling water, 10 min",
+     "basis_note": "% of the leaf's essential oil found in the tea; range as stated by EMA",
+     "ref": 6
+    },
+    {
+     "plant": "Peppermint",
+     "taxon_id": "mentha-x-piperita",
+     "fraction": "polyphenols",
+     "measured": "total polyphenols",
+     "measure": "polyphenols extracted into infusion",
+     "value_pct": 75,
+     "value_low": null,
+     "value_high": null,
+     "comparator": "leaf content",
+     "conditions": "infusion (conditions not stated)",
+     "basis_note": "'about 75 %' of leaf polyphenolic compounds, as stated by EMA",
+     "ref": 6
+    },
+    {
+     "plant": "Lemon balm",
+     "taxon_id": "melissa-officinalis",
+     "fraction": "essential oil",
+     "measured": "total essential oil",
+     "measure": "oil extraction yield in tea",
+     "value_pct": 31,
+     "value_low": null,
+     "value_high": null,
+     "comparator": "leaf content",
+     "conditions": "tea (conditions not stated in abstract)",
+     "basis_note": "10 mg/L oil in tea vs 0.32 % oil in dried leaf, yield as reported",
+     "ref": 131
+    },
+    {
+     "plant": "Lemon balm",
+     "taxon_id": "melissa-officinalis",
+     "fraction": "polyphenols",
+     "measured": "total polyphenols",
+     "measure": "polyphenol extraction yield in tea",
+     "value_pct": 93,
+     "value_low": null,
+     "value_high": null,
+     "comparator": "leaf content",
+     "conditions": "tea (conditions not stated in abstract)",
+     "basis_note": "about 1.07 g/L polyphenols vs 11.8 % in dried leaf, yield as reported",
+     "ref": 131
+    },
+    {
+     "plant": "German chamomile",
+     "taxon_id": "matricaria-chamomilla",
+     "fraction": "essential oil",
+     "measured": "total essential oil",
+     "measure": "oil constituents in tea",
+     "value_pct": 12.5,
+     "value_low": 10,
+     "value_high": 15,
+     "comparator": "flower content",
+     "conditions": "'depending on conditions of herbal tea preparation'",
+     "basis_note": "% of the flower's essential-oil constituents; range as stated by EMA",
+     "ref": 10
+    },
+    {
+     "plant": "Sage",
+     "taxon_id": "salvia-officinalis",
+     "fraction": "essential oil",
+     "measured": "thujone",
+     "measure": "thujone recovered in aqueous tea",
+     "value_pct": 30,
+     "value_low": null,
+     "value_high": null,
+     "comparator": "60 % ethanol extract of the same material",
+     "conditions": "1.5 g in 150 mL hot water, 15 min",
+     "basis_note": "average across products, relative to the maximum-yield ethanol extract, as reported",
+     "ref": 127
+    },
+    {
+     "plant": "Sage",
+     "taxon_id": "salvia-officinalis",
+     "fraction": "polyphenols",
+     "measured": "rosmarinic acid",
+     "measure": "rosmarinic acid in water extract",
+     "value_pct": 59.3,
+     "value_low": null,
+     "value_high": null,
+     "comparator": "30 % ethanol extract of the same material",
+     "conditions": "1 g in 20 mL, 60 °C, 30 min",
+     "basis_note": "builder's ratio of reported values 2154.02 / 3634.12 mg per 100 g dry matter",
+     "ref": 132
+    }
+   ],
+   "fields": [
+    "plant",
+    "taxon_id",
+    "fraction",
+    "measured",
+    "measure",
+    "value_pct",
+    "value_low",
+    "value_high",
+    "comparator",
+    "conditions",
+    "basis_note",
+    "ref"
+   ]
+  },
+  "chart_rows": [
+   {
+    "plant": "Peppermint",
+    "taxon_id": "mentha-x-piperita",
+    "fraction": "essential oil",
+    "measured": "total essential oil",
+    "measure": "oil transferred to infusion",
+    "value_pct": 22.5,
+    "value_low": 20,
+    "value_high": 25,
+    "comparator": "leaf content",
+    "conditions": "boiling water, 10 min",
+    "basis_note": "% of the leaf's essential oil found in the tea; range as stated by EMA",
+    "ref": 6
+   },
+   {
+    "plant": "Peppermint",
+    "taxon_id": "mentha-x-piperita",
+    "fraction": "polyphenols",
+    "measured": "total polyphenols",
+    "measure": "polyphenols extracted into infusion",
+    "value_pct": 75,
+    "value_low": null,
+    "value_high": null,
+    "comparator": "leaf content",
+    "conditions": "infusion (conditions not stated)",
+    "basis_note": "'about 75 %' of leaf polyphenolic compounds, as stated by EMA",
+    "ref": 6
+   },
+   {
+    "plant": "Lemon balm",
+    "taxon_id": "melissa-officinalis",
+    "fraction": "essential oil",
+    "measured": "total essential oil",
+    "measure": "oil extraction yield in tea",
+    "value_pct": 31,
+    "value_low": null,
+    "value_high": null,
+    "comparator": "leaf content",
+    "conditions": "tea (conditions not stated in abstract)",
+    "basis_note": "10 mg/L oil in tea vs 0.32 % oil in dried leaf, yield as reported",
+    "ref": 131
+   },
+   {
+    "plant": "Lemon balm",
+    "taxon_id": "melissa-officinalis",
+    "fraction": "polyphenols",
+    "measured": "total polyphenols",
+    "measure": "polyphenol extraction yield in tea",
+    "value_pct": 93,
+    "value_low": null,
+    "value_high": null,
+    "comparator": "leaf content",
+    "conditions": "tea (conditions not stated in abstract)",
+    "basis_note": "about 1.07 g/L polyphenols vs 11.8 % in dried leaf, yield as reported",
+    "ref": 131
+   },
+   {
+    "plant": "German chamomile",
+    "taxon_id": "matricaria-chamomilla",
+    "fraction": "essential oil",
+    "measured": "total essential oil",
+    "measure": "oil constituents in tea",
+    "value_pct": 12.5,
+    "value_low": 10,
+    "value_high": 15,
+    "comparator": "flower content",
+    "conditions": "'depending on conditions of herbal tea preparation'",
+    "basis_note": "% of the flower's essential-oil constituents; range as stated by EMA",
+    "ref": 10
+   },
+   {
+    "plant": "Sage",
+    "taxon_id": "salvia-officinalis",
+    "fraction": "essential oil",
+    "measured": "thujone",
+    "measure": "thujone recovered in aqueous tea",
+    "value_pct": 30,
+    "value_low": null,
+    "value_high": null,
+    "comparator": "60 % ethanol extract of the same material",
+    "conditions": "1.5 g in 150 mL hot water, 15 min",
+    "basis_note": "average across products, relative to the maximum-yield ethanol extract, as reported",
+    "ref": 127
+   },
+   {
+    "plant": "Sage",
+    "taxon_id": "salvia-officinalis",
+    "fraction": "polyphenols",
+    "measured": "rosmarinic acid",
+    "measure": "rosmarinic acid in water extract",
+    "value_pct": 59.3,
+    "value_low": null,
+    "value_high": null,
+    "comparator": "30 % ethanol extract of the same material",
+    "conditions": "1 g in 20 mL, 60 °C, 30 min",
+    "basis_note": "builder's ratio of reported values 2154.02 / 3634.12 mg per 100 g dry matter",
+    "ref": 132
+   }
+  ],
+  "caption_md": "Share of each herb's essential-oil fraction and phenolic fraction [recovered](#term:extraction-yield) in a [hot-water infusion](#term:infusion), as published. Peppermint, lemon balm and chamomile values are percentages of the content of the dried plant; the two sage values are percentages of what an [aqueous-ethanol](#term:hydroethanolic) extract of the same material recovered. Not a [meta-analysis](#term:meta-analysis); conditions differ between studies.",
+  "how_to_read_md": "Each plant has up to two bars: [essential oil](#term:essential-oil) (the [volatile](#term:volatility), water-shy fraction) and [polyphenols](#term:polyphenol) (the [water-soluble](#term:solubility) fraction). Where a source gave a range, the bar sits at its midpoint and the whisker shows the range. Compare the two bars within a plant, not heights across plants: the studies used different teas, times and temperatures, and the sage bars are measured against an ethanol extract, not against the leaf. The pattern to look for is the gap - in every plant with both measurements, far more of the phenolic fraction than of the oil reaches the cup.",
+  "provenance": "synthesised from cited data"
+ }
+]

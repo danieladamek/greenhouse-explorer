@@ -1,0 +1,102 @@
+{
+ "taxa": [
+  {
+   "id": "apium-graveolens",
+   "species_key": "Apium graveolens",
+   "accepted_name": "Apium graveolens",
+   "authority": "L.",
+   "family": "Apiaceae",
+   "common_names": [
+    "Celery"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 4045,
+    "powo_id": "urn:lsid:ipni.org:names:838067-1",
+    "gbif_key": 5371879,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Apium graveolens var. dulce (Mill.) Pers.",
+    "Apium graveolens Dulce Group"
+   ],
+   "columns": [
+    "veggies"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-028",
+     "name": "Conquistador",
+     "type": "Stalk",
+     "list_category": "veggies",
+     "name_as_given": "Apium graveolens var. dulce",
+     "identity_status": "confirmed",
+     "note": "Typos 'Cellery' and 'Conquistqador'."
+    },
+    {
+     "crop_id": "GH-029",
+     "name": "Kelvin",
+     "type": "Stalk",
+     "list_category": "veggies",
+     "name_as_given": "Apium graveolens var. dulce",
+     "identity_status": "confirmed",
+     "note": null
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "The inventory's var. dulce (celery) is NCBI 'Apium graveolens Dulce Group', taxid 117781. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-028",
+    "GH-029"
+   ],
+   "n_plantings": 2,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-028",
+   "list_category": "Veggies",
+   "original_entry": "Cellery Conquistqador",
+   "common_name": "Celery",
+   "cultivar": "Conquistador",
+   "crop_type": "Stalk",
+   "scientific_name": "Apium graveolens var. dulce",
+   "species_key": "Apium graveolens",
+   "family": "Apiaceae",
+   "confidence": "High",
+   "note": "Typos 'Cellery' and 'Conquistqador'.",
+   "taxon_id": "apium-graveolens",
+   "status": "current"
+  },
+  {
+   "id": "GH-029",
+   "list_category": "Veggies",
+   "original_entry": "Celery, Kelvin",
+   "common_name": "Celery",
+   "cultivar": "Kelvin",
+   "crop_type": "Stalk",
+   "scientific_name": "Apium graveolens var. dulce",
+   "species_key": "Apium graveolens",
+   "family": "Apiaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "apium-graveolens",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

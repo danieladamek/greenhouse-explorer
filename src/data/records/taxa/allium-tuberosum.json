@@ -1,0 +1,74 @@
+{
+ "taxa": [
+  {
+   "id": "allium-tuberosum",
+   "species_key": "Allium tuberosum",
+   "accepted_name": "Allium tuberosum",
+   "authority": "Rottler ex Spreng.",
+   "family": "Amaryllidaceae",
+   "common_names": [
+    "Garlic chives"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 4683,
+    "powo_id": "urn:lsid:ipni.org:names:529062-1",
+    "gbif_key": 2856297,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "herbs"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-062",
+     "name": null,
+     "type": "Leaf",
+     "list_category": "herbs",
+     "name_as_given": "Allium tuberosum",
+     "identity_status": "confirmed",
+     "note": null
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-062"
+   ],
+   "n_plantings": 1,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-062",
+   "list_category": "Herbs",
+   "original_entry": "Chinese Leeks/Garlic Chives",
+   "common_name": "Garlic chives",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf",
+   "scientific_name": "Allium tuberosum",
+   "species_key": "Allium tuberosum",
+   "family": "Amaryllidaceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "allium-tuberosum",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

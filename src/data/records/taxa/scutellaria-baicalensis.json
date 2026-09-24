@@ -1,0 +1,434 @@
+{
+ "taxa": [
+  {
+   "id": "scutellaria-baicalensis",
+   "species_key": "Scutellaria baicalensis",
+   "accepted_name": "Scutellaria baicalensis",
+   "authority": "Georgi",
+   "family": "Lamiaceae",
+   "common_names": [
+    "Chinese skullcap",
+    "Huang qin"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 65409,
+    "powo_id": "urn:lsid:ipni.org:names:458155-1",
+    "gbif_key": 7309014,
+    "wfo_id": null
+   },
+   "synonyms": [],
+   "columns": [
+    "medicinal"
+   ],
+   "identity_status": "confirmed",
+   "profiled": true,
+   "profile_depth": "deep",
+   "cultivars": [],
+   "safety": null,
+   "taxonomy_note": "NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [],
+   "n_plantings": 0,
+   "statuses": [],
+   "candidate_of": "scutellaria-sp",
+   "compounds": [
+    "baicalin",
+    "baicalein",
+    "wogonin",
+    "wogonoside",
+    "oroxylin-a",
+    "chrysin",
+    "norwogonin"
+   ],
+   "occurrence_rows": [
+    "baicalin#1",
+    "baicalin#2",
+    "baicalein#1",
+    "wogonin#1",
+    "wogonoside#0",
+    "oroxylin-a#1",
+    "chrysin#0",
+    "norwogonin#0"
+   ],
+   "safety_evidence": {
+    "taxon_id": "scutellaria-baicalensis",
+    "plant_part_used": "root (huang qin; kampo and TCM formulas)",
+    "safety": {
+     "drug_interactions": [
+      {
+       "with": "rosuvastatin (OATP1B1 substrates)",
+       "effect": "isolated baicalin lowered rosuvastatin AUC ~9-47 %, haplotype-dependent",
+       "evidence_grade": "B",
+       "refs": [
+        33
+       ],
+       "md": "isolated baicalin lowered rosuvastatin [AUC](#term:auc) ~9-47 %, haplotype-dependent"
+      }
+     ],
+     "pregnancy_lactation": {
+      "statement": null,
+      "refs": [],
+      "md": null
+     },
+     "allergy": {
+      "statement": null,
+      "refs": [],
+      "md": null
+     },
+     "adverse_event_history": {
+      "statement": "All reports found involve mixtures, with the test article named: (1) flavocoxid (Limbrel), baicalin + catechins from S. baicalensis and Acacia catechu - four DILIN liver-injury cases, all recovered; (2) Move Free Advanced (Chinese skullcap with glucosamine/chondroitin) - liver injury, one case with pneumonitis; (3) Sho-saiko-to, a seven-herb kampo formula including S. baicalensis root - hepatocellular injury (LiverTox score B) and interstitial pneumonitis described as uncommon (a cited review counted 19 cases), with S. baicalensis the suspected component.",
+      "refs": [
+       32,
+       13,
+       14
+      ],
+      "md": "All reports found involve mixtures, with the [test article](#term:test-article) named: (1) flavocoxid (Limbrel), baicalin + catechins from S. baicalensis and Acacia catechu - four DILIN liver-injury cases, all [recovered](#term:extraction-yield); (2) Move Free Advanced (Chinese skullcap with glucosamine/chondroitin) - [liver injury](#term:hepatotoxicity), one case with pneumonitis; (3) [Sho-saiko-to](#term:sho-saiko-to), a seven-herb kampo formula including S. baicalensis root - hepatocellular injury ([LiverTox](#term:livertox) score B) and interstitial pneumonitis described as uncommon (a cited review counted 19 cases), with S. baicalensis the suspected component."
+     },
+     "contraindications": [],
+     "constituents_of_concern": [
+      {
+       "compound_id": "baicalin",
+       "concern": "OATP1B1-mediated interaction; hepatotoxicity reported with the baicalin + catechin product flavocoxid",
+       "threshold_or_limit": null,
+       "refs": [
+        32,
+        33
+       ],
+       "md": "[OATP1B1-mediated](#term:oatp) [interaction](#term:drug-interaction); hepatotoxicity reported with the baicalin + catechin product flavocoxid"
+      }
+     ]
+    },
+    "evidence": [
+     {
+      "claim": "A multi-herb kampo formula containing S. baicalensis root is associated with liver injury and interstitial pneumonitis.",
+      "grade": "C",
+      "test_article": "multi_herb_formula",
+      "test_article_detail": "Sho-saiko-to (7 herbs incl. Scutellaria baicalensis root)",
+      "population": "human",
+      "outcome_summary": "Case reports/series summarised by LiverTox; causal component unknown, S. baicalensis suspected.",
+      "refs": [
+       14
+      ],
+      "note": null,
+      "md": {
+       "claim": "A multi-herb kampo formula containing S. baicalensis root is associated with liver injury and interstitial pneumonitis.",
+       "outcome_summary": "[Case reports](#term:case-report)/series summarised by LiverTox; causal component unknown, S. baicalensis suspected."
+      }
+     },
+     {
+      "claim": "A baicalin-containing medical food caused clinically significant liver injury.",
+      "grade": "C",
+      "test_article": "multi_herb_formula",
+      "test_article_detail": "flavocoxid (baicalin + catechins; S. baicalensis + Acacia catechu)",
+      "population": "human",
+      "outcome_summary": "Four cases, onset 1-3 months, recovery within 12 weeks of stopping.",
+      "refs": [
+       32
+      ],
+      "note": null,
+      "md": {
+       "claim": "A baicalin-containing medical food caused clinically significant liver injury.",
+       "outcome_summary": "Four cases, onset 1-3 months, recovery within 12 weeks of stopping."
+      }
+     }
+    ],
+    "monograph_status": {
+     "ema_hmpc": {
+      "exists": null,
+      "url": null
+     },
+     "escop": {
+      "exists": null,
+      "url": null
+     },
+     "who": {
+      "exists": null,
+      "url": null
+     }
+    },
+    "refs": [
+     13,
+     14,
+     16,
+     24,
+     28,
+     32,
+     33,
+     34
+    ],
+    "gaps": [
+     "No EMA/ESCOP/WHO monograph checked (WHO vol. 1 does not include Radix Scutellariae; later volumes not checked).",
+     "No efficacy evidence researched; mostly D/E expected.",
+     "Pregnancy data not researched.",
+     "Move Free Advanced case details from LiverTox summary only."
+    ],
+    "as_of": "2026-09-23",
+    "terms": [
+     "auc",
+     "test-article",
+     "extraction-yield",
+     "hepatotoxicity",
+     "sho-saiko-to",
+     "livertox",
+     "oatp",
+     "drug-interaction",
+     "case-report"
+    ],
+    "cited_refs": [
+     13,
+     14,
+     16,
+     24,
+     28,
+     32,
+     33,
+     34
+    ]
+   },
+   "preparations": [],
+   "primer_sections": [
+    "5-three-pathways-that-make-the-greenhouse-smell",
+    "7-from-leaf-to-cup",
+    "8-how-to-read-the-rest-of-this-site"
+   ],
+   "todo": [
+    {
+     "where": "taxa_safety_evidence/scutellaria-baicalensis",
+     "what": "No EMA/ESCOP/WHO monograph checked (WHO vol. 1 does not include Radix Scutellariae; later volumes not checked)."
+    },
+    {
+     "where": "taxa_safety_evidence/scutellaria-baicalensis",
+     "what": "No efficacy evidence researched; mostly D/E expected."
+    },
+    {
+     "where": "taxa_safety_evidence/scutellaria-baicalensis",
+     "what": "Pregnancy data not researched."
+    },
+    {
+     "where": "taxa_safety_evidence/scutellaria-baicalensis",
+     "what": "Move Free Advanced case details from LiverTox summary only."
+    }
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "row": "baicalin#1",
+   "compound_id": "baicalin",
+   "compound": "baicalin",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "1000-206000",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "Duke root range (upper value 20.6 %). Duke also: Stem 5800-43000 ppm. Costine 2022: root 26.1 ± 3.9 mg/g. CIR 2020 (citing Cai et al. 2016): 406 mg/g in an aqueous root extract (per g extract). | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "baicalin#2",
+   "compound_id": "baicalin",
+   "compound": "baicalin",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "26.1 ± 3.9",
+   "unit": "mg/g",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": null,
+   "database_url": null,
+   "verified": true,
+   "note": "Costine 2022 root value (2.6 %); basis possibly fresh weight - flagged, so the low end of the 2.6-20.6 % range is basis-uncertain. Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "baicalein#1",
+   "compound_id": "baicalein",
+   "compound": "baicalein",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "1000-54000",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "Costine 2022: root 1.3 ± 0.7 mg/g. CIR/Cai 2016: 31.7 mg/g aqueous root extract. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "wogonin#1",
+   "compound_id": "wogonin",
+   "compound": "wogonin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "34.7-7300",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Cosmetic Ingredient Review Expert Panel (2020) Safety Assessment of Scutellaria baicalensis-Derived Ingredients as Used in Cosmetics, final report 29 Sep 2020 (citing Cai et al. 2016). https://www.cir-safety.org/sites/default/files/scutel092020FR_0.pdf",
+   "source_doi_or_url": "https://www.cir-safety.org/sites/default/files/scutel092020FR_0.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "CIR/Cai 2016: 30.5 mg/g aqueous root extract. Costine 2022: wogonin detected in roots of all four species studied. KNApSAcK C00001111. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    16
+   ]
+  },
+  {
+   "row": "wogonoside#0",
+   "compound_id": "wogonoside",
+   "compound": "wogonoside (wogonin 7-O-glucuronide)",
+   "class": "flavone-glucuronide",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "max 39700",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Costine B, Zhang M, Chhajed S, Pearson B, Chen S, Nadakuduti SS (2022) Exploring native Scutellaria species provides insight into differential accumulation of flavones with medicinal properties. Sci Rep 12:13201",
+   "source_doi_or_url": "https://doi.org/10.1038/s41598-022-17586-1",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "Duke also WOGONIN-7-O-GLUCURONIDE Root 119-54000 ppm. Costine 2022: root 3.8 ± 0.9 mg/g. CIR/Cai 2016: 155 mg/g aqueous root extract. KNApSAcK C00004131. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    24
+   ]
+  },
+  {
+   "row": "oroxylin-a#1",
+   "compound_id": "oroxylin-a",
+   "compound": "oroxylin A",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "110-415",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Cosmetic Ingredient Review Expert Panel (2020) Safety Assessment of Scutellaria baicalensis-Derived Ingredients as Used in Cosmetics, final report 29 Sep 2020 (citing Cai et al. 2016). https://www.cir-safety.org/sites/default/files/scutel092020FR_0.pdf",
+   "source_doi_or_url": "https://www.cir-safety.org/sites/default/files/scutel092020FR_0.pdf",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "CIR/Cai 2016: 7.24 mg/g aqueous root extract. Duke also OROXYLIN-A-7-O-GLUCURONIDE Root 1000-41000 ppm. KNApSAcK C00003804. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    16
+   ]
+  },
+  {
+   "row": "chrysin#0",
+   "compound_id": "chrysin",
+   "compound": "chrysin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root",
+   "value": "3-800",
+   "unit": "ppm",
+   "basis": "unstated",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Zhao Q, Zhang Y, Wang G, et al. (2016) A specialized flavone biosynthetic pathway has evolved in the medicinal plant, Scutellaria baicalensis. Sci Adv 2:e1501780",
+   "source_doi_or_url": "https://doi.org/10.1126/sciadv.1501780",
+   "database": "Dr. Duke's Phytochemical and Ethnobotanical Databases",
+   "database_url": "https://phytochem.nal.usda.gov/plant-chemicals-csv-export/6463?page&_format=csv",
+   "verified": true,
+   "note": "Duke also Leaf max 40 ppm. Zhao 2016 (Sci Adv): FNSII-2 in roots synthesises '4′-deoxyRSFs, such as chrysin and wogonin ...'. KNApSAcK C00003794. Costine 2022 found chrysin not detected in most tissues. | Basis as recorded: ppm as listed by Duke (basis not stated per row; for 'Essent. Oil' parts it is ppm of the oil, 10000 ppm = 1 %) Basis (fresh/dry weight) not stated by the source; excluded from /compare until confirmed.",
+   "refs": [
+    28
+   ]
+  },
+  {
+   "row": "norwogonin#0",
+   "compound_id": "norwogonin",
+   "compound": "norwogonin",
+   "class": "flavone",
+   "palette_group": "lamiaceae",
+   "auxiliary": false,
+   "taxon_id": "scutellaria-baicalensis",
+   "taxon_known": true,
+   "taxon_name": "Scutellaria baicalensis",
+   "family": "Lamiaceae",
+   "plant_part": "root (pathway product)",
+   "value": null,
+   "unit": null,
+   "basis": "presence_only",
+   "level": "species",
+   "cultivar": null,
+   "source_citation": "Pei T, et al. (2022) Specific flavonoids and their biosynthetic pathway in Scutellaria baicalensis. Front Plant Sci 13:866282",
+   "source_doi_or_url": "https://doi.org/10.3389/fpls.2022.866282",
+   "database": "KNApSAcK",
+   "database_url": "http://www.knapsackfamily.com/knapsack_core/result.php?sname=organism&word=Scutellaria%20baicalensis",
+   "verified": false,
+   "note": "KNApSAcK: Norwogonin C00001077 in S. baicalensis (no Duke row). Pei 2022 describes norwogonin only as the SbF8H (CYP82D2) product from chrysin, not as a measured root constituent, so paper-level verification is false.",
+   "refs": [
+    29
+   ]
+  }
+ ],
+ "plantings": [],
+ "preparations": []
+}

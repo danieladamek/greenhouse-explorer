@@ -1,0 +1,77 @@
+{
+ "taxa": [
+  {
+   "id": "taraxacum-officinale",
+   "species_key": "Taraxacum officinale",
+   "accepted_name": "Taraxacum sect. Taraxacum",
+   "authority": "F.H.Wigg.",
+   "family": "Asteraceae",
+   "common_names": [
+    "Dandelion"
+   ],
+   "identifiers": {
+    "ncbi_taxid": 50225,
+    "powo_id": "urn:lsid:ipni.org:names:254151-1",
+    "gbif_key": 5394163,
+    "wfo_id": null
+   },
+   "synonyms": [
+    "Taraxacum officinale F.H.Wigg. (POWO urn:lsid:ipni.org:names:1003018-2, not accepted)",
+    "Taraxacum officinale aggregate"
+   ],
+   "columns": [
+    "medicinal"
+   ],
+   "identity_status": "confirmed",
+   "profiled": false,
+   "profile_depth": "stub",
+   "cultivars": [
+    {
+     "crop_id": "GH-080",
+     "name": null,
+     "type": "Leaf / root",
+     "list_category": "medicinal",
+     "name_as_given": "Taraxacum officinale agg.",
+     "identity_status": "confirmed",
+     "note": null
+    }
+   ],
+   "safety": null,
+   "taxonomy_note": "POWO does not accept T. officinale at species rank; it treats the name as a synonym of the aggregate Taraxacum sect. Taraxacum, which gives the POWO id. GBIF and NCBI accept Taraxacum officinale (GBIF 5394163, authority 'Weber ex F.H.Wigg.'; NCBI 50225). For an aggregate, the GBIF and NCBI ids are the practical choice. NCBI taxid read from the NCBI Taxonomy checklist that GBIF mirrors (dataset fab88965-e69d-4491-a04d-e3198b626e52), because the NCBI pages could not be reached directly (browser rate-limited, E-utilities blocked by robots.txt). WFO id is null because worldfloraonline.org could not be fetched (TLS/robots failure).",
+   "as_of": "2026-09-23",
+   "plantings": [
+    "GH-080"
+   ],
+   "n_plantings": 1,
+   "statuses": [
+    "current"
+   ],
+   "candidate_of": null,
+   "compounds": [],
+   "occurrence_rows": [],
+   "safety_evidence": null,
+   "preparations": [],
+   "primer_sections": [],
+   "todo": []
+  }
+ ],
+ "rows": [],
+ "plantings": [
+  {
+   "id": "GH-080",
+   "list_category": "Medicinal",
+   "original_entry": "Dandelion",
+   "common_name": "Dandelion",
+   "cultivar": "(not given)",
+   "crop_type": "Leaf / root",
+   "scientific_name": "Taraxacum officinale agg.",
+   "species_key": "Taraxacum officinale",
+   "family": "Asteraceae",
+   "confidence": "High",
+   "note": "",
+   "taxon_id": "taraxacum-officinale",
+   "status": "current"
+  }
+ ],
+ "preparations": []
+}

@@ -1,0 +1,1118 @@
+{
+ "id": "fig-pathways",
+ "nodes": [
+  {
+   "id": "co2-fixation",
+   "label": "CO2 fixed by Rubisco (sugars)",
+   "type": "input",
+   "refs": [
+    106
+   ]
+  },
+  {
+   "id": "acetyl-coa",
+   "label": "acetyl-CoA",
+   "type": "precursor",
+   "refs": [
+    111
+   ],
+   "compartment": "cytosol"
+  },
+  {
+   "id": "pyruvate-g3p",
+   "label": "pyruvate + glyceraldehyde-3-phosphate",
+   "type": "precursor",
+   "refs": [
+    110
+   ],
+   "compartment": "plastid"
+  },
+  {
+   "id": "pep-e4p",
+   "label": "phosphoenolpyruvate + erythrose 4-phosphate",
+   "type": "precursor",
+   "refs": [
+    116
+   ],
+   "compartment": "plastid"
+  },
+  {
+   "id": "malonyl-coa",
+   "label": "malonyl-CoA",
+   "type": "precursor",
+   "refs": [
+    122,
+    123
+   ]
+  },
+  {
+   "id": "mva",
+   "label": "mevalonate (MVA) pathway",
+   "type": "pathway",
+   "refs": [
+    110,
+    111
+   ],
+   "compartment": "cytosol"
+  },
+  {
+   "id": "mep",
+   "label": "MEP (DOXP) pathway",
+   "type": "pathway",
+   "refs": [
+    110,
+    111
+   ],
+   "compartment": "plastid"
+  },
+  {
+   "id": "ipp-dmapp",
+   "label": "IPP / DMAPP (C5 units)",
+   "type": "intermediate",
+   "refs": [
+    110,
+    111
+   ]
+  },
+  {
+   "id": "gpp",
+   "label": "geranyl diphosphate (C10)",
+   "type": "intermediate",
+   "refs": [
+    113,
+    114
+   ],
+   "compartment": "plastid (monoterpenes)"
+  },
+  {
+   "id": "c15",
+   "label": "C15 prenyl diphosphate",
+   "type": "intermediate",
+   "refs": [
+    110
+   ],
+   "compartment": "cytosol (sesquiterpenes)"
+  },
+  {
+   "id": "ggpp",
+   "label": "geranylgeranyl diphosphate (C20)",
+   "type": "intermediate",
+   "refs": [
+    43,
+    110
+   ],
+   "compartment": "plastid (diterpenes)"
+  },
+  {
+   "id": "oxidosqualene",
+   "label": "2,3-oxidosqualene (C30)",
+   "type": "intermediate",
+   "refs": [
+    115
+   ],
+   "compartment": "cytosol (triterpenes)"
+  },
+  {
+   "id": "linalool",
+   "label": "linalool",
+   "type": "compound",
+   "refs": [
+    121
+   ],
+   "compound_id": "linalool",
+   "note": "basil linalool synthase"
+  },
+  {
+   "id": "gamma-terpinene",
+   "label": "γ-terpinene",
+   "type": "compound",
+   "refs": [
+    42
+   ],
+   "compound_id": "gamma-terpinene"
+  },
+  {
+   "id": "thymol",
+   "label": "thymol",
+   "type": "compound",
+   "refs": [
+    42
+   ],
+   "compound_id": "thymol"
+  },
+  {
+   "id": "carvacrol",
+   "label": "carvacrol",
+   "type": "compound",
+   "refs": [
+    42
+   ],
+   "compound_id": "carvacrol"
+  },
+  {
+   "id": "limonene",
+   "label": "(−)-limonene",
+   "type": "intermediate",
+   "refs": [
+    113
+   ]
+  },
+  {
+   "id": "pulegone",
+   "label": "pulegone",
+   "type": "compound",
+   "refs": [
+    113
+   ],
+   "compound_id": "pulegone"
+  },
+  {
+   "id": "menthofuran",
+   "label": "menthofuran",
+   "type": "compound",
+   "refs": [
+    113
+   ],
+   "compound_id": "menthofuran",
+   "note": "side product from pulegone"
+  },
+  {
+   "id": "menthone",
+   "label": "menthone",
+   "type": "compound",
+   "refs": [
+    113
+   ],
+   "compound_id": "menthone"
+  },
+  {
+   "id": "menthol",
+   "label": "(−)-menthol",
+   "type": "compound",
+   "refs": [
+    113
+   ],
+   "compound_id": "menthol"
+  },
+  {
+   "id": "sabinene",
+   "label": "(+)-sabinene",
+   "type": "intermediate",
+   "refs": [
+    114
+   ]
+  },
+  {
+   "id": "alpha-thujone",
+   "label": "α-thujone",
+   "type": "compound",
+   "refs": [
+    114
+   ],
+   "compound_id": "alpha-thujone"
+  },
+  {
+   "id": "beta-thujone",
+   "label": "β-thujone",
+   "type": "compound",
+   "refs": [
+    114
+   ],
+   "compound_id": "beta-thujone"
+  },
+  {
+   "id": "cineole",
+   "label": "1,8-cineole",
+   "type": "compound",
+   "refs": [
+    114
+   ],
+   "compound_id": "1-8-cineole"
+  },
+  {
+   "id": "bpp",
+   "label": "(+)-bornyl diphosphate",
+   "type": "intermediate",
+   "refs": [
+    114
+   ]
+  },
+  {
+   "id": "camphor",
+   "label": "camphor",
+   "type": "compound",
+   "refs": [
+    114
+   ],
+   "compound_id": "camphor"
+  },
+  {
+   "id": "beta-caryophyllene",
+   "label": "β-caryophyllene",
+   "type": "compound",
+   "refs": [
+    40
+   ],
+   "compound_id": "beta-caryophyllene"
+  },
+  {
+   "id": "alpha-bisabolol",
+   "label": "α-bisabolol",
+   "type": "compound",
+   "refs": [
+    10
+   ],
+   "compound_id": "alpha-bisabolol"
+  },
+  {
+   "id": "matricin",
+   "label": "matricin (proazulene)",
+   "type": "compound",
+   "refs": [
+    10
+   ],
+   "compound_id": "matricin"
+  },
+  {
+   "id": "chamazulene",
+   "label": "chamazulene",
+   "type": "compound",
+   "refs": [
+    10
+   ],
+   "compound_id": "chamazulene",
+   "note": "formed during steam distillation, not by the plant"
+  },
+  {
+   "id": "miltiradiene",
+   "label": "miltiradiene → ferruginol",
+   "type": "intermediate",
+   "refs": [
+    43
+   ]
+  },
+  {
+   "id": "carnosic-acid",
+   "label": "carnosic acid",
+   "type": "compound",
+   "refs": [
+    43
+   ],
+   "compound_id": "carnosic-acid"
+  },
+  {
+   "id": "carnosol",
+   "label": "carnosol",
+   "type": "compound",
+   "refs": [
+    43
+   ],
+   "compound_id": "carnosol",
+   "note": "oxidative artefact after harvest / drying"
+  },
+  {
+   "id": "alpha-amyrin",
+   "label": "α-amyrin",
+   "type": "intermediate",
+   "refs": [
+    115
+   ]
+  },
+  {
+   "id": "ursolic-acid",
+   "label": "ursolic acid",
+   "type": "compound",
+   "refs": [
+    115
+   ],
+   "compound_id": "ursolic-acid"
+  },
+  {
+   "id": "shikimate",
+   "label": "shikimate pathway",
+   "type": "pathway",
+   "refs": [
+    116
+   ],
+   "compartment": "plastid"
+  },
+  {
+   "id": "phenylalanine",
+   "label": "phenylalanine",
+   "type": "intermediate",
+   "refs": [
+    116,
+    117
+   ]
+  },
+  {
+   "id": "tyrosine",
+   "label": "tyrosine",
+   "type": "intermediate",
+   "refs": [
+    116,
+    118
+   ]
+  },
+  {
+   "id": "cinnamic",
+   "label": "cinnamic acid",
+   "type": "intermediate",
+   "refs": [
+    117
+   ]
+  },
+  {
+   "id": "p-coumaric",
+   "label": "p-coumaric acid / p-coumaroyl-CoA",
+   "type": "intermediate",
+   "refs": [
+    117,
+    123
+   ]
+  },
+  {
+   "id": "caffeic-acid",
+   "label": "caffeic acid",
+   "type": "compound",
+   "refs": [
+    117,
+    118
+   ],
+   "compound_id": "caffeic-acid"
+  },
+  {
+   "id": "dhpl",
+   "label": "3,4-dihydroxyphenyllactic acid",
+   "type": "intermediate",
+   "refs": [
+    118
+   ]
+  },
+  {
+   "id": "rosmarinic-acid",
+   "label": "rosmarinic acid",
+   "type": "compound",
+   "refs": [
+    118
+   ],
+   "compound_id": "rosmarinic-acid",
+   "note": "drawn as its two building blocks, not enzyme by enzyme"
+  },
+  {
+   "id": "coniferyl-acetate",
+   "label": "coniferyl acetate",
+   "type": "intermediate",
+   "refs": [
+    119
+   ]
+  },
+  {
+   "id": "eugenol",
+   "label": "eugenol",
+   "type": "compound",
+   "refs": [
+    119
+   ],
+   "compound_id": "eugenol"
+  },
+  {
+   "id": "methyleugenol",
+   "label": "methyleugenol",
+   "type": "compound",
+   "refs": [
+    120
+   ],
+   "compound_id": "methyleugenol"
+  },
+  {
+   "id": "chavicol",
+   "label": "chavicol",
+   "type": "intermediate",
+   "refs": [
+    120
+   ]
+  },
+  {
+   "id": "estragole",
+   "label": "estragole (methylchavicol)",
+   "type": "compound",
+   "refs": [
+    120
+   ],
+   "compound_id": "estragole"
+  },
+  {
+   "id": "chalcone",
+   "label": "chalcone",
+   "type": "intermediate",
+   "refs": [
+    123
+   ]
+  },
+  {
+   "id": "flavanone",
+   "label": "flavanones",
+   "type": "intermediate",
+   "refs": [
+    122
+   ]
+  },
+  {
+   "id": "eriocitrin",
+   "label": "eriocitrin (flavanone glycoside)",
+   "type": "compound",
+   "refs": [
+    6
+   ],
+   "compound_id": "eriocitrin"
+  },
+  {
+   "id": "apigenin",
+   "label": "apigenin",
+   "type": "compound",
+   "refs": [
+    10,
+    122
+   ],
+   "compound_id": "apigenin"
+  },
+  {
+   "id": "luteolin",
+   "label": "luteolin",
+   "type": "compound",
+   "refs": [
+    20,
+    122
+   ],
+   "compound_id": "luteolin"
+  },
+  {
+   "id": "apigenin-7-glucoside",
+   "label": "apigenin-7-glucoside",
+   "type": "compound",
+   "refs": [
+    10,
+    134
+   ],
+   "compound_id": "apigenin-7-glucoside"
+  },
+  {
+   "id": "luteolin-7-glucoside",
+   "label": "luteolin-7-glucoside",
+   "type": "compound",
+   "refs": [
+    20,
+    132
+   ],
+   "compound_id": "luteolin-7-glucoside"
+  },
+  {
+   "id": "chrysin",
+   "label": "chrysin (4′-deoxyflavone)",
+   "type": "compound",
+   "refs": [
+    28
+   ],
+   "compound_id": "chrysin"
+  },
+  {
+   "id": "baicalein",
+   "label": "baicalein",
+   "type": "compound",
+   "refs": [
+    28,
+    29
+   ],
+   "compound_id": "baicalein"
+  },
+  {
+   "id": "wogonin",
+   "label": "wogonin",
+   "type": "compound",
+   "refs": [
+    28
+   ],
+   "compound_id": "wogonin"
+  },
+  {
+   "id": "baicalin",
+   "label": "baicalin",
+   "type": "compound",
+   "refs": [
+    24,
+    28
+   ],
+   "compound_id": "baicalin"
+  }
+ ],
+ "edges": [
+  {
+   "from": "co2-fixation",
+   "to": "acetyl-coa",
+   "label": "central metabolism",
+   "refs": [
+    106,
+    111
+   ],
+   "style": "dashed"
+  },
+  {
+   "from": "co2-fixation",
+   "to": "pyruvate-g3p",
+   "label": "central metabolism",
+   "refs": [
+    106,
+    110
+   ],
+   "style": "dashed"
+  },
+  {
+   "from": "co2-fixation",
+   "to": "pep-e4p",
+   "label": "central metabolism",
+   "refs": [
+    106,
+    116
+   ],
+   "style": "dashed"
+  },
+  {
+   "from": "acetyl-coa",
+   "to": "mva",
+   "label": "",
+   "refs": [
+    111
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "pyruvate-g3p",
+   "to": "mep",
+   "label": "DOXP synthase",
+   "refs": [
+    110
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "mva",
+   "to": "ipp-dmapp",
+   "label": "",
+   "refs": [
+    110,
+    111
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "mep",
+   "to": "ipp-dmapp",
+   "label": "",
+   "refs": [
+    110,
+    111
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "ipp-dmapp",
+   "to": "gpp",
+   "label": "head-to-tail addition",
+   "refs": [
+    110,
+    113
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "ipp-dmapp",
+   "to": "c15",
+   "label": "head-to-tail addition",
+   "refs": [
+    110
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "ipp-dmapp",
+   "to": "ggpp",
+   "label": "head-to-tail addition",
+   "refs": [
+    43,
+    110
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "ipp-dmapp",
+   "to": "oxidosqualene",
+   "label": "head-to-tail addition",
+   "refs": [
+    110,
+    115
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "gpp",
+   "to": "linalool",
+   "label": "linalool synthase (basil)",
+   "refs": [
+    121
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "gpp",
+   "to": "gamma-terpinene",
+   "label": "terpene synthase (thyme)",
+   "refs": [
+    42
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "gamma-terpinene",
+   "to": "thymol",
+   "label": "P450s + dehydrogenase",
+   "refs": [
+    42
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "gamma-terpinene",
+   "to": "carvacrol",
+   "label": "P450s + dehydrogenase",
+   "refs": [
+    42
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "gpp",
+   "to": "limonene",
+   "label": "limonene synthase (peppermint)",
+   "refs": [
+    113
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "limonene",
+   "to": "pulegone",
+   "label": "several steps",
+   "refs": [
+    113
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "pulegone",
+   "to": "menthofuran",
+   "label": "side branch",
+   "refs": [
+    113
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "pulegone",
+   "to": "menthone",
+   "label": "",
+   "refs": [
+    113
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "menthone",
+   "to": "menthol",
+   "label": "",
+   "refs": [
+    113
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "gpp",
+   "to": "sabinene",
+   "label": "sabinene synthase (sage)",
+   "refs": [
+    114
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "sabinene",
+   "to": "alpha-thujone",
+   "label": "further steps",
+   "refs": [
+    114
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "sabinene",
+   "to": "beta-thujone",
+   "label": "further steps",
+   "refs": [
+    114
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "gpp",
+   "to": "cineole",
+   "label": "1,8-cineole synthase (sage)",
+   "refs": [
+    114
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "gpp",
+   "to": "bpp",
+   "label": "bornyl diphosphate synthase (sage)",
+   "refs": [
+    114
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "bpp",
+   "to": "camphor",
+   "label": "further steps",
+   "refs": [
+    114
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "c15",
+   "to": "beta-caryophyllene",
+   "label": "sesquiterpene synthases (not shown)",
+   "refs": [
+    110,
+    112
+   ],
+   "style": "dashed"
+  },
+  {
+   "from": "c15",
+   "to": "alpha-bisabolol",
+   "label": "sesquiterpene synthases (not shown)",
+   "refs": [
+    110,
+    112
+   ],
+   "style": "dashed"
+  },
+  {
+   "from": "c15",
+   "to": "matricin",
+   "label": "sesquiterpene synthases (not shown)",
+   "refs": [
+    110,
+    112
+   ],
+   "style": "dashed"
+  },
+  {
+   "from": "matricin",
+   "to": "chamazulene",
+   "label": "steam distillation (artefact)",
+   "refs": [
+    10
+   ],
+   "style": "artefact"
+  },
+  {
+   "from": "ggpp",
+   "to": "miltiradiene",
+   "label": "proposed",
+   "refs": [
+    43
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "miltiradiene",
+   "to": "carnosic-acid",
+   "label": "proposed",
+   "refs": [
+    43
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "carnosic-acid",
+   "to": "carnosol",
+   "label": "oxidation after harvest (artefact)",
+   "refs": [
+    43
+   ],
+   "style": "artefact"
+  },
+  {
+   "from": "oxidosqualene",
+   "to": "alpha-amyrin",
+   "label": "oxidosqualene cyclase",
+   "refs": [
+    115
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "alpha-amyrin",
+   "to": "ursolic-acid",
+   "label": "CYP716A, C-28 oxidation (shown in legume/grape)",
+   "refs": [
+    115
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "pep-e4p",
+   "to": "shikimate",
+   "label": "",
+   "refs": [
+    116
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "shikimate",
+   "to": "phenylalanine",
+   "label": "",
+   "refs": [
+    116
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "shikimate",
+   "to": "tyrosine",
+   "label": "",
+   "refs": [
+    116
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "phenylalanine",
+   "to": "cinnamic",
+   "label": "phenylalanine ammonia-lyase (PAL)",
+   "refs": [
+    117
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "cinnamic",
+   "to": "p-coumaric",
+   "label": "hydroxylation, CoA ligation",
+   "refs": [
+    117
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "p-coumaric",
+   "to": "caffeic-acid",
+   "label": "hydroxylation",
+   "refs": [
+    117
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "tyrosine",
+   "to": "dhpl",
+   "label": "",
+   "refs": [
+    118
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "caffeic-acid",
+   "to": "rosmarinic-acid",
+   "label": "caffeoyl moiety (ester)",
+   "refs": [
+    118
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "dhpl",
+   "to": "rosmarinic-acid",
+   "label": "3,4-dihydroxyphenyllactyl moiety",
+   "refs": [
+    118
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "p-coumaric",
+   "to": "coniferyl-acetate",
+   "label": "monolignol branch (several steps)",
+   "refs": [
+    117,
+    119
+   ],
+   "style": "dashed"
+  },
+  {
+   "from": "coniferyl-acetate",
+   "to": "eugenol",
+   "label": "eugenol synthase EGS1 (basil)",
+   "refs": [
+    119
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "eugenol",
+   "to": "methyleugenol",
+   "label": "EOMT (basil)",
+   "refs": [
+    120
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "p-coumaric",
+   "to": "chavicol",
+   "label": "phenylpropene branch (steps not shown)",
+   "refs": [
+    120
+   ],
+   "style": "dashed"
+  },
+  {
+   "from": "chavicol",
+   "to": "estragole",
+   "label": "CVOMT (basil)",
+   "refs": [
+    120
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "p-coumaric",
+   "to": "chalcone",
+   "label": "chalcone synthase (+3 malonyl-CoA)",
+   "refs": [
+    123
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "malonyl-coa",
+   "to": "chalcone",
+   "label": "3 units",
+   "refs": [
+    123
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "chalcone",
+   "to": "flavanone",
+   "label": "cyclisation",
+   "refs": [
+    122,
+    123
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "flavanone",
+   "to": "eriocitrin",
+   "label": "glycosylation (steps not shown)",
+   "refs": [
+    6,
+    122
+   ],
+   "style": "dashed"
+  },
+  {
+   "from": "flavanone",
+   "to": "apigenin",
+   "label": "flavone formation",
+   "refs": [
+    122
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "apigenin",
+   "to": "luteolin",
+   "label": "hydroxylation (simplified)",
+   "refs": [
+    122
+   ],
+   "style": "dashed"
+  },
+  {
+   "from": "apigenin",
+   "to": "apigenin-7-glucoside",
+   "label": "glycosylation (plant form)",
+   "refs": [
+    10,
+    134
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "luteolin",
+   "to": "luteolin-7-glucoside",
+   "label": "glycosylation (plant form)",
+   "refs": [
+    20
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "chalcone",
+   "to": "chrysin",
+   "label": "root-specific 4′-deoxyflavone branch (S. baicalensis)",
+   "refs": [
+    28,
+    29
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "chrysin",
+   "to": "baicalein",
+   "label": "hydroxylation",
+   "refs": [
+    28,
+    29
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "chrysin",
+   "to": "wogonin",
+   "label": "",
+   "refs": [
+    28
+   ],
+   "style": "solid"
+  },
+  {
+   "from": "baicalein",
+   "to": "baicalin",
+   "label": "glucuronidation",
+   "refs": [
+    28,
+    29
+   ],
+   "style": "solid"
+  }
+ ]
+}
