@@ -1,0 +1,5 @@
+id,date,planting_id,plant,condition,pest_disease,stem_height_cm,stem_diameter_mm,leaf_flower,observer
+O-01,2026-10-29,GL-15,Rosemary,Becoming woody at bottom,White spots on some leaves,,,,Barb
+O-02,2026-10-29,GL-21,Thyme,"Healthy, no issues",,,,,Barb
+O-03,2026-10-29,GL-09,Lemon Balm,"Healthy, no issues",,,,,
+O-04,2026-10-29,GL-08,Lavender,"Healthy, no issues",,,,,

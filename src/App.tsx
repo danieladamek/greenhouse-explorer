@@ -31,6 +31,7 @@ const References = lazy(() => import('@/pages/References'));
 const Methods = lazy(() => import('@/pages/Methods'));
 const About = lazy(() => import('@/pages/About'));
 const Notes = lazy(() => import('@/pages/Notes'));
+const GrowLog = lazy(() => import('@/pages/GrowLog'));
 
 const basename = import.meta.env.BASE_URL.replace(/\/$/, '');
 
@@ -57,6 +58,7 @@ export default function App() {
                     <Route path="/plants" element={<Plants />} />
                     <Route path="/plants/:id" element={<Plant />} />
                     <Route path="/greenhouse" element={<Greenhouse />} />
+                    <Route path="/grow-log" element={<GrowLog />} />
                     <Route path="/compounds" element={<Compounds />} />
                     <Route path="/compounds/:id" element={<Compound />} />
                     <Route path="/compare" element={<Compare />} />

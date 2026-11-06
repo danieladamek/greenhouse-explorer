@@ -27,6 +27,10 @@ export default function Greenhouse() {
         Each row is shown as the inventory wrote it, with the cleaned name, the identity status and the inventory's own notes; each links to its plant page.
         History begins when the greenhouse manager's next list arrives.
       </p>
+      <Link to="/grow-log" className="mt-4 block bx-card p-4 border-l-4 border-l-[color:var(--bx-accent)] hover:bg-paper-2 dark:hover:bg-night-2" data-testid="growlog-link">
+        <span className="font-semibold">New · the grow log →</span>
+        <span className="block text-sm mt-0.5">Where each medicinal plant is growing, hydroponic or in soil, how it is doing, and what has been harvested and dried — kept by the greenhouse team in one workbook, with downloadable spreadsheet reports.</span>
+      </Link>
       <div className="mt-5 grid gap-4 sm:grid-cols-2">
         <section className="bx-card p-4" aria-labelledby="byfam-h">
           <h2 id="byfam-h" className="text-lg">Plantings by family</h2>

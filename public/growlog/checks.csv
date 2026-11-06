@@ -1,0 +1,45 @@
+level,sheet,id,message
+warn,Plantings,GL-02,No location recorded.
+warn,Plantings,GL-02,No growing method recorded.
+warn,Plantings,GL-13,No location recorded.
+warn,Observations,O-01,"Observed at T5A, but GL-15 is recorded in T3A."
+warn,Harvests,H-01,No planting_id (Sage grows in T5B and Bay 2 — which planting is not recorded)
+warn,Harvests,H-02,No planting_id (Sage grows in T5B and Bay 2 — which planting is not recorded)
+warn,Harvests,H-03,No planting_id (Oregano is not on this inventory sheet)
+warn,Harvests,H-06,"No planting_id (Which basil? Three are planted (Compact, Genovese, Holy))"
+warn,Seeds,S-01,"Import note: O. africanum is a lemon-basil hybrid, not tulsi (O. tenuiflorum, as the inventory says) — check the packet"
+info,Plantings,GL-01,"Import note: Date planted ""N/A"" read as not recorded"
+info,Plantings,GL-05,Import note: Sheet says Echinacea spp.; the catalogue's record is E. purpurea — species to confirm
+info,Plantings,GL-07,Import note: Second planting row of the Fennel block
+info,Plantings,GL-08,"Lavender, True is not in the catalogue yet, so it has no plant page."
+info,Plantings,GL-08,"Import note: Location ""5A"" read as T5A; lavender is not in the catalogue yet"
+info,Plantings,GL-10,"Mountain Mint is not in the catalogue yet, so it has no plant page."
+info,Plantings,GL-10,Import note: Mountain mint is not in the catalogue yet
+info,Plantings,GL-11,"Mountain Mint is not in the catalogue yet, so it has no plant page."
+info,Plantings,GL-11,Import note: Second planting row of the Mountain Mint block
+info,Plantings,GL-12,"Mountain Mint is not in the catalogue yet, so it has no plant page."
+info,Plantings,GL-12,Import note: Third planting row of the Mountain Mint block
+info,Plantings,GL-13,"Mountain Mint, Hoary is not in the catalogue yet, so it has no plant page."
+info,Plantings,GL-13,Import note: No location recorded; hoary mountain mint is not in the catalogue yet
+info,Plantings,GL-15,Import note: Spelling: Salvia rosmarinus
+info,Plantings,GL-17,"Import note: Second planting row; ""N/a"" read as not recorded"
+info,Plantings,GL-18,Import note: Spelling: Scutellaria. The catalogue lists the inventory skullcap as unresolved; this sheet names S. lateriflora — confirm from the label to resolve it
+info,Plantings,GL-22,Import note: Spelling: Achillea millefolium
+info,Observations,O-01,Import note: Year 2016 read as 2026; the observation says T5A but the inventory has rosemary in T3A
+info,Observations,O-02,Import note: Date blank on the sheet; taken from the row above
+info,Observations,O-03,No observer recorded.
+info,Observations,O-03,Import note: Date blank; taken from the row above. No observer recorded
+info,Observations,O-04,No observer recorded.
+info,Observations,O-04,Import note: Date blank; taken from the row above. No observer recorded
+info,Water,W-01,EC has no unit — record µS/cm or mS/cm.
+info,Harvests,H-01,"No fresh weight, so the water lost in drying cannot be worked out."
+info,Harvests,H-02,"No fresh weight, so the water lost in drying cannot be worked out."
+info,Harvests,H-03,"No fresh weight, so the water lost in drying cannot be worked out."
+info,Harvests,H-04,"No fresh weight, so the water lost in drying cannot be worked out."
+info,Harvests,H-05,"No fresh weight, so the water lost in drying cannot be worked out."
+info,Harvests,H-06,"No fresh weight, so the water lost in drying cannot be worked out."
+info,Seeds,S-02,Import note: Cultivar was entered in the scientific-name column
+info,Seeds,S-03,Import note: Spelling: Calendula officinalis
+info,Seeds,S-04,Import note: Spelling: Calendula officinalis
+info,Seeds,S-05,Import note: Spelling: Calendula officinalis
+info,Seeds,S-06,Import note: Spelling: Calendula officinalis

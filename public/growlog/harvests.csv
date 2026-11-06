@@ -1,0 +1,8 @@
+id,date,planting_id,plant,part,location,method,fresh_g,dry_g,water_lost_pct,drying,storage,tea_time,plant_page
+H-01,2026-10-29,,Sage,leaves,,,,19.2,,Dehydrator,Zip-top bag,"Sage leaf, hot-water infusion",https://danieladamek.github.io/greenhouse-explorer/plants/salvia-officinalis
+H-02,2026-10-29,,Sage,leaves,,,,2.6,,Dehydrator,Zip-top bag,"Sage leaf, hot-water infusion",https://danieladamek.github.io/greenhouse-explorer/plants/salvia-officinalis
+H-03,2026-10-29,,Oregano,leaves and stem,,,,6.7,,Dehydrator,Zip-top bag,,https://danieladamek.github.io/greenhouse-explorer/plants/origanum-vulgare
+H-04,2026-10-29,GL-15,Rosemary,leaves and stem,T3A,hydroponic,,9.3,,Dehydrator,Zip-top bag,Herb tincture in ethanol-water (lemon balm and rosemary as examples),https://danieladamek.github.io/greenhouse-explorer/plants/salvia-rosmarinus
+H-05,2026-10-29,GL-14,Peppermint,leaves and stem,Bay 2,soil,,6.8,,Dehydrator,Zip-top bag,"Peppermint leaf, hot-water infusion",https://danieladamek.github.io/greenhouse-explorer/plants/mentha-x-piperita
+H-06,2026-10-29,,Basil,leaves,,,,2.4,,Dehydrator,Zip-top bag,,
+H-07,2026-10-29,GL-09,Lemon Balm,leaves and stem,T5A,hydroponic,58.7,8.1,86.2,Dehydrator,Zip-top bag,"Lemon balm leaf, hot-water infusion; Herb tincture in ethanol-water (lemon balm and rosemary as examples)",https://danieladamek.github.io/greenhouse-explorer/plants/melissa-officinalis

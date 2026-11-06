@@ -1,0 +1,23 @@
+id,crop,scientific_name,in_catalogue,cultivar,location,method,date_planted,date_inventoried,condition,plant_page
+GL-01,"Basil, Compact",Ocimum basilicum,yes,Minette,T5A,hydroponic,,2026-10-26,,https://danieladamek.github.io/greenhouse-explorer/plants/ocimum-basilicum
+GL-02,"Basil, Genovese",Ocimum basilicum,yes,Genovese,,,,,,https://danieladamek.github.io/greenhouse-explorer/plants/ocimum-basilicum
+GL-03,"Basil, Holy",Ocimum tenuiflorum,yes,,Bay 2,soil,,2026-10-27,,https://danieladamek.github.io/greenhouse-explorer/plants/ocimum-tenuiflorum
+GL-04,Calendula,Calendula officinalis,yes,,T5A,hydroponic,2026-07-16,2026-10-26,,https://danieladamek.github.io/greenhouse-explorer/plants/calendula-officinalis
+GL-05,Echinacea,Echinacea purpurea,yes,,Bay 2,soil,,2026-10-26,,https://danieladamek.github.io/greenhouse-explorer/plants/echinacea-purpurea
+GL-06,Fennel,Foeniculum vulgare,yes,,T5B,hydroponic,2026-09-12,2026-10-27,,https://danieladamek.github.io/greenhouse-explorer/plants/foeniculum-vulgare
+GL-07,Fennel,Foeniculum vulgare,yes,,Bay 2,soil,,2026-10-27,,https://danieladamek.github.io/greenhouse-explorer/plants/foeniculum-vulgare
+GL-08,"Lavender, True",Lavandula angustifolia,not yet,,T5A,hydroponic,2026-07-30,2026-10-26,,
+GL-09,Lemon Balm,Melissa officinalis,yes,,T5A,hydroponic,2026-07-10,2026-10-26,,https://danieladamek.github.io/greenhouse-explorer/plants/melissa-officinalis
+GL-10,Mountain Mint,Pycnanthemum spp.,not yet,,T5B,hydroponic,2026-09-04,2026-10-26,,
+GL-11,Mountain Mint,Pycnanthemum spp.,not yet,,T5B,hydroponic,2026-09-29,2026-10-26,,
+GL-12,Mountain Mint,Pycnanthemum spp.,not yet,,Bay 2,soil,,2026-10-26,,
+GL-13,"Mountain Mint, Hoary",Pycnanthemum incanum,not yet,,,soil,,2026-10-27,,
+GL-14,Peppermint,Mentha × piperita,yes,,Bay 2,soil,,2026-10-27,,https://danieladamek.github.io/greenhouse-explorer/plants/mentha-x-piperita
+GL-15,Rosemary,Salvia rosmarinus,yes,,T3A,hydroponic,2026-02-18,2026-10-26,,https://danieladamek.github.io/greenhouse-explorer/plants/salvia-rosmarinus
+GL-16,Sage,Salvia officinalis,yes,,T5B,hydroponic,,2026-10-26,,https://danieladamek.github.io/greenhouse-explorer/plants/salvia-officinalis
+GL-17,Sage,Salvia officinalis,yes,,Bay 2,soil,,2026-10-26,,https://danieladamek.github.io/greenhouse-explorer/plants/salvia-officinalis
+GL-18,Skullcap,Scutellaria lateriflora,yes,,Bay 2,soil,,2026-10-26,,https://danieladamek.github.io/greenhouse-explorer/plants/scutellaria-lateriflora
+GL-19,Spearmint,Mentha spicata,yes,,T5B,hydroponic,2026-09-29,2026-10-26,,https://danieladamek.github.io/greenhouse-explorer/plants/mentha-spicata
+GL-20,"Thyme, common",Thymus vulgaris,yes,,Bay 2,soil,,2026-10-27,,https://danieladamek.github.io/greenhouse-explorer/plants/thymus-vulgaris
+GL-21,Thyme,Thymus vulgaris,yes,,T1A,hydroponic,2026-07-20,2026-10-26,,https://danieladamek.github.io/greenhouse-explorer/plants/thymus-vulgaris
+GL-22,Yarrow,Achillea millefolium,yes,,Bay 2,soil,,2026-10-27,,https://danieladamek.github.io/greenhouse-explorer/plants/achillea-millefolium

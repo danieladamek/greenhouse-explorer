@@ -1,0 +1,1034 @@
+{
+ "source": "growlog/grow-log.xlsx",
+ "built": "2026-11-06",
+ "latest_entry": "2026-11-03",
+ "locations": [
+  {
+   "id": "T1A",
+   "kind": "hydroponic",
+   "label": "Hydroponic system T1A",
+   "note": "Code as used in the grow log"
+  },
+  {
+   "id": "T3A",
+   "kind": "hydroponic",
+   "label": "Hydroponic system T3A",
+   "note": "Code as used in the grow log"
+  },
+  {
+   "id": "T5A",
+   "kind": "hydroponic",
+   "label": "Hydroponic system T5A",
+   "note": "Code as used in the grow log; the water-quality log calls it a system"
+  },
+  {
+   "id": "T5B",
+   "kind": "hydroponic",
+   "label": "Hydroponic system T5B",
+   "note": "Code as used in the grow log"
+  },
+  {
+   "id": "Bay 2",
+   "kind": "soil",
+   "label": "Bay 2 (soil)",
+   "note": "Plants in soil; some entries say \"On table\""
+  }
+ ],
+ "plantings": [
+  {
+   "id": "GL-01",
+   "crop": "Basil, Compact",
+   "scientific_as_entered": "Ocimum basilicum 'Minette'",
+   "taxon_id": "ocimum-basilicum",
+   "accepted_name": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "cultivar": "Minette",
+   "location": "T5A",
+   "location_note": null,
+   "location_kind": "hydroponic",
+   "method": "hydroponic",
+   "date_planted": null,
+   "date_inventoried": "2026-10-26",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-02",
+   "crop": "Basil, Genovese",
+   "scientific_as_entered": null,
+   "taxon_id": "ocimum-basilicum",
+   "accepted_name": "Ocimum basilicum",
+   "family": "Lamiaceae",
+   "cultivar": "Genovese",
+   "location": null,
+   "location_note": null,
+   "location_kind": null,
+   "method": null,
+   "date_planted": null,
+   "date_inventoried": null,
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-03",
+   "crop": "Basil, Holy",
+   "scientific_as_entered": "Ocimum tenuiflorum",
+   "taxon_id": "ocimum-tenuiflorum",
+   "accepted_name": "Ocimum tenuiflorum",
+   "family": "Lamiaceae",
+   "cultivar": null,
+   "location": "Bay 2",
+   "location_note": "On table",
+   "location_kind": "soil",
+   "method": "soil",
+   "date_planted": null,
+   "date_inventoried": "2026-10-27",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-04",
+   "crop": "Calendula",
+   "scientific_as_entered": "Calendula officinalis",
+   "taxon_id": "calendula-officinalis",
+   "accepted_name": "Calendula officinalis",
+   "family": "Asteraceae",
+   "cultivar": null,
+   "location": "T5A",
+   "location_note": null,
+   "location_kind": "hydroponic",
+   "method": "hydroponic",
+   "date_planted": "2026-07-16",
+   "date_inventoried": "2026-10-26",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-05",
+   "crop": "Echinacea",
+   "scientific_as_entered": "Echinacea spp.",
+   "taxon_id": "echinacea-purpurea",
+   "accepted_name": "Echinacea purpurea",
+   "family": "Asteraceae",
+   "cultivar": null,
+   "location": "Bay 2",
+   "location_note": "On table",
+   "location_kind": "soil",
+   "method": "soil",
+   "date_planted": null,
+   "date_inventoried": "2026-10-26",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-06",
+   "crop": "Fennel",
+   "scientific_as_entered": "Foeniculum vulgare",
+   "taxon_id": "foeniculum-vulgare",
+   "accepted_name": "Foeniculum vulgare",
+   "family": "Apiaceae",
+   "cultivar": null,
+   "location": "T5B",
+   "location_note": null,
+   "location_kind": "hydroponic",
+   "method": "hydroponic",
+   "date_planted": "2026-09-12",
+   "date_inventoried": "2026-10-27",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-07",
+   "crop": "Fennel",
+   "scientific_as_entered": "Foeniculum vulgare",
+   "taxon_id": "foeniculum-vulgare",
+   "accepted_name": "Foeniculum vulgare",
+   "family": "Apiaceae",
+   "cultivar": null,
+   "location": "Bay 2",
+   "location_note": "On table",
+   "location_kind": "soil",
+   "method": "soil",
+   "date_planted": null,
+   "date_inventoried": "2026-10-27",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-08",
+   "crop": "Lavender, True",
+   "scientific_as_entered": "Lavandula angustifolia",
+   "taxon_id": null,
+   "accepted_name": null,
+   "family": null,
+   "cultivar": null,
+   "location": "T5A",
+   "location_note": null,
+   "location_kind": "hydroponic",
+   "method": "hydroponic",
+   "date_planted": "2026-07-30",
+   "date_inventoried": "2026-10-26",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-09",
+   "crop": "Lemon Balm",
+   "scientific_as_entered": "Melissa officinalis",
+   "taxon_id": "melissa-officinalis",
+   "accepted_name": "Melissa officinalis",
+   "family": "Lamiaceae",
+   "cultivar": null,
+   "location": "T5A",
+   "location_note": null,
+   "location_kind": "hydroponic",
+   "method": "hydroponic",
+   "date_planted": "2026-07-10",
+   "date_inventoried": "2026-10-26",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-10",
+   "crop": "Mountain Mint",
+   "scientific_as_entered": "Pycnanthemum spp.",
+   "taxon_id": null,
+   "accepted_name": null,
+   "family": null,
+   "cultivar": null,
+   "location": "T5B",
+   "location_note": null,
+   "location_kind": "hydroponic",
+   "method": "hydroponic",
+   "date_planted": "2026-09-04",
+   "date_inventoried": "2026-10-26",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-11",
+   "crop": "Mountain Mint",
+   "scientific_as_entered": "Pycnanthemum spp.",
+   "taxon_id": null,
+   "accepted_name": null,
+   "family": null,
+   "cultivar": null,
+   "location": "T5B",
+   "location_note": null,
+   "location_kind": "hydroponic",
+   "method": "hydroponic",
+   "date_planted": "2026-09-29",
+   "date_inventoried": "2026-10-26",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-12",
+   "crop": "Mountain Mint",
+   "scientific_as_entered": "Pycnanthemum spp.",
+   "taxon_id": null,
+   "accepted_name": null,
+   "family": null,
+   "cultivar": null,
+   "location": "Bay 2",
+   "location_note": null,
+   "location_kind": "soil",
+   "method": "soil",
+   "date_planted": null,
+   "date_inventoried": "2026-10-26",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-13",
+   "crop": "Mountain Mint, Hoary",
+   "scientific_as_entered": "Pycnanthemum incanum",
+   "taxon_id": null,
+   "accepted_name": null,
+   "family": null,
+   "cultivar": null,
+   "location": null,
+   "location_note": null,
+   "location_kind": null,
+   "method": "soil",
+   "date_planted": null,
+   "date_inventoried": "2026-10-27",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-14",
+   "crop": "Peppermint",
+   "scientific_as_entered": "Mentha x piperita",
+   "taxon_id": "mentha-x-piperita",
+   "accepted_name": "Mentha × piperita",
+   "family": "Lamiaceae",
+   "cultivar": null,
+   "location": "Bay 2",
+   "location_note": null,
+   "location_kind": "soil",
+   "method": "soil",
+   "date_planted": null,
+   "date_inventoried": "2026-10-27",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-15",
+   "crop": "Rosemary",
+   "scientific_as_entered": "Salvia rosemarinus",
+   "taxon_id": "salvia-rosmarinus",
+   "accepted_name": "Salvia rosmarinus",
+   "family": "Lamiaceae",
+   "cultivar": null,
+   "location": "T3A",
+   "location_note": null,
+   "location_kind": "hydroponic",
+   "method": "hydroponic",
+   "date_planted": "2026-02-18",
+   "date_inventoried": "2026-10-26",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-16",
+   "crop": "Sage",
+   "scientific_as_entered": "Salvia officinalis",
+   "taxon_id": "salvia-officinalis",
+   "accepted_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "cultivar": null,
+   "location": "T5B",
+   "location_note": null,
+   "location_kind": "hydroponic",
+   "method": "hydroponic",
+   "date_planted": null,
+   "date_inventoried": "2026-10-26",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-17",
+   "crop": "Sage",
+   "scientific_as_entered": "Salvia officinalis",
+   "taxon_id": "salvia-officinalis",
+   "accepted_name": "Salvia officinalis",
+   "family": "Lamiaceae",
+   "cultivar": null,
+   "location": "Bay 2",
+   "location_note": null,
+   "location_kind": "soil",
+   "method": "soil",
+   "date_planted": null,
+   "date_inventoried": "2026-10-26",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-18",
+   "crop": "Skullcap",
+   "scientific_as_entered": "Scutellania lateriflora",
+   "taxon_id": "scutellaria-lateriflora",
+   "accepted_name": "Scutellaria lateriflora",
+   "family": "Lamiaceae",
+   "cultivar": null,
+   "location": "Bay 2",
+   "location_note": null,
+   "location_kind": "soil",
+   "method": "soil",
+   "date_planted": null,
+   "date_inventoried": "2026-10-26",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-19",
+   "crop": "Spearmint",
+   "scientific_as_entered": "Mentha spicata",
+   "taxon_id": "mentha-spicata",
+   "accepted_name": "Mentha spicata",
+   "family": "Lamiaceae",
+   "cultivar": null,
+   "location": "T5B",
+   "location_note": null,
+   "location_kind": "hydroponic",
+   "method": "hydroponic",
+   "date_planted": "2026-09-29",
+   "date_inventoried": "2026-10-26",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-20",
+   "crop": "Thyme, common",
+   "scientific_as_entered": "Thymus vulgaris",
+   "taxon_id": "thymus-vulgaris",
+   "accepted_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "cultivar": null,
+   "location": "Bay 2",
+   "location_note": null,
+   "location_kind": "soil",
+   "method": "soil",
+   "date_planted": null,
+   "date_inventoried": "2026-10-27",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-21",
+   "crop": "Thyme",
+   "scientific_as_entered": "Thymus vulgaris",
+   "taxon_id": "thymus-vulgaris",
+   "accepted_name": "Thymus vulgaris",
+   "family": "Lamiaceae",
+   "cultivar": null,
+   "location": "T1A",
+   "location_note": null,
+   "location_kind": "hydroponic",
+   "method": "hydroponic",
+   "date_planted": "2026-07-20",
+   "date_inventoried": "2026-10-26",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  },
+  {
+   "id": "GL-22",
+   "crop": "Yarrow",
+   "scientific_as_entered": "Achillea millefolum",
+   "taxon_id": "achillea-millefolium",
+   "accepted_name": "Achillea millefolium",
+   "family": "Asteraceae",
+   "cultivar": null,
+   "location": "Bay 2",
+   "location_note": null,
+   "location_kind": "soil",
+   "method": "soil",
+   "date_planted": null,
+   "date_inventoried": "2026-10-27",
+   "condition": null,
+   "condition_notes": null,
+   "last_checked": null
+  }
+ ],
+ "observations": [
+  {
+   "id": "O-01",
+   "date": "2026-10-29",
+   "planting_id": "GL-15",
+   "taxon_id": "salvia-rosmarinus",
+   "plant": "Rosemary",
+   "condition": "Becoming woody at bottom",
+   "pest_disease": "White spots on some leaves",
+   "stem_height_cm": null,
+   "stem_diameter_mm": null,
+   "leaf_flower": null,
+   "observer": "Barb"
+  },
+  {
+   "id": "O-02",
+   "date": "2026-10-29",
+   "planting_id": "GL-21",
+   "taxon_id": "thymus-vulgaris",
+   "plant": "Thyme",
+   "condition": "Healthy, no issues",
+   "pest_disease": null,
+   "stem_height_cm": null,
+   "stem_diameter_mm": null,
+   "leaf_flower": null,
+   "observer": "Barb"
+  },
+  {
+   "id": "O-03",
+   "date": "2026-10-29",
+   "planting_id": "GL-09",
+   "taxon_id": "melissa-officinalis",
+   "plant": "Lemon Balm",
+   "condition": "Healthy, no issues",
+   "pest_disease": null,
+   "stem_height_cm": null,
+   "stem_diameter_mm": null,
+   "leaf_flower": null,
+   "observer": null
+  },
+  {
+   "id": "O-04",
+   "date": "2026-10-29",
+   "planting_id": "GL-08",
+   "taxon_id": null,
+   "plant": "Lavender",
+   "condition": "Healthy, no issues",
+   "pest_disease": null,
+   "stem_height_cm": null,
+   "stem_diameter_mm": null,
+   "leaf_flower": null,
+   "observer": null
+  }
+ ],
+ "water": [
+  {
+   "id": "W-01",
+   "date": "2026-11-03",
+   "system": "T5A",
+   "ec": 2293,
+   "ec_unit": null,
+   "water_temp_c": 24.2,
+   "ph": null,
+   "nutrient_additions": null,
+   "water_change": null
+  }
+ ],
+ "harvests": [
+  {
+   "id": "H-01",
+   "date": "2026-10-29",
+   "planting_id": null,
+   "taxon_id": "salvia-officinalis",
+   "plant": "Sage",
+   "part": "leaves",
+   "fresh_g": null,
+   "dry_g": 19.2,
+   "water_lost_pct": null,
+   "drying": "Dehydrator",
+   "storage": "Zip-top bag",
+   "location": null,
+   "method": null,
+   "preparations": [
+    {
+     "id": "sage-leaf-hot-infusion",
+     "name": "Sage leaf, hot-water infusion"
+    }
+   ]
+  },
+  {
+   "id": "H-02",
+   "date": "2026-10-29",
+   "planting_id": null,
+   "taxon_id": "salvia-officinalis",
+   "plant": "Sage",
+   "part": "leaves",
+   "fresh_g": null,
+   "dry_g": 2.6,
+   "water_lost_pct": null,
+   "drying": "Dehydrator",
+   "storage": "Zip-top bag",
+   "location": null,
+   "method": null,
+   "preparations": [
+    {
+     "id": "sage-leaf-hot-infusion",
+     "name": "Sage leaf, hot-water infusion"
+    }
+   ]
+  },
+  {
+   "id": "H-03",
+   "date": "2026-10-29",
+   "planting_id": null,
+   "taxon_id": "origanum-vulgare",
+   "plant": "Oregano",
+   "part": "leaves and stem",
+   "fresh_g": null,
+   "dry_g": 6.7,
+   "water_lost_pct": null,
+   "drying": "Dehydrator",
+   "storage": "Zip-top bag",
+   "location": null,
+   "method": null,
+   "preparations": []
+  },
+  {
+   "id": "H-04",
+   "date": "2026-10-29",
+   "planting_id": "GL-15",
+   "taxon_id": "salvia-rosmarinus",
+   "plant": "Rosemary",
+   "part": "leaves and stem",
+   "fresh_g": null,
+   "dry_g": 9.3,
+   "water_lost_pct": null,
+   "drying": "Dehydrator",
+   "storage": "Zip-top bag",
+   "location": "T3A",
+   "method": "hydroponic",
+   "preparations": [
+    {
+     "id": "herb-tincture-ethanol-water",
+     "name": "Herb tincture in ethanol-water (lemon balm and rosemary as examples)"
+    }
+   ]
+  },
+  {
+   "id": "H-05",
+   "date": "2026-10-29",
+   "planting_id": "GL-14",
+   "taxon_id": "mentha-x-piperita",
+   "plant": "Peppermint",
+   "part": "leaves and stem",
+   "fresh_g": null,
+   "dry_g": 6.8,
+   "water_lost_pct": null,
+   "drying": "Dehydrator",
+   "storage": "Zip-top bag",
+   "location": "Bay 2",
+   "method": "soil",
+   "preparations": [
+    {
+     "id": "peppermint-leaf-hot-infusion",
+     "name": "Peppermint leaf, hot-water infusion"
+    }
+   ]
+  },
+  {
+   "id": "H-06",
+   "date": "2026-10-29",
+   "planting_id": null,
+   "taxon_id": null,
+   "plant": "Basil",
+   "part": "leaves",
+   "fresh_g": null,
+   "dry_g": 2.4,
+   "water_lost_pct": null,
+   "drying": "Dehydrator",
+   "storage": "Zip-top bag",
+   "location": null,
+   "method": null,
+   "preparations": []
+  },
+  {
+   "id": "H-07",
+   "date": "2026-10-29",
+   "planting_id": "GL-09",
+   "taxon_id": "melissa-officinalis",
+   "plant": "Lemon Balm",
+   "part": "leaves and stem",
+   "fresh_g": 58.7,
+   "dry_g": 8.1,
+   "water_lost_pct": 86.2,
+   "drying": "Dehydrator",
+   "storage": "Zip-top bag",
+   "location": "T5A",
+   "method": "hydroponic",
+   "preparations": [
+    {
+     "id": "lemon-balm-hot-infusion",
+     "name": "Lemon balm leaf, hot-water infusion"
+    },
+    {
+     "id": "herb-tincture-ethanol-water",
+     "name": "Herb tincture in ethanol-water (lemon balm and rosemary as examples)"
+    }
+   ]
+  }
+ ],
+ "seeds": [
+  {
+   "id": "S-01",
+   "date_inventoried": "2026-10-29",
+   "plant": "Basil, Holy",
+   "scientific_as_entered": "Ocimum africanum",
+   "taxon_id": null,
+   "cultivar": null,
+   "supplier": "Smoke Camp Crafts"
+  },
+  {
+   "id": "S-02",
+   "date_inventoried": "2026-10-29",
+   "plant": "Basil",
+   "scientific_as_entered": "Genovese",
+   "taxon_id": "ocimum-basilicum",
+   "cultivar": "Genovese",
+   "supplier": "Ferry-Morse"
+  },
+  {
+   "id": "S-03",
+   "date_inventoried": "2026-10-29",
+   "plant": "Calendula, Pacific Beauty",
+   "scientific_as_entered": "Calendula official is",
+   "taxon_id": "calendula-officinalis",
+   "cultivar": "Pacific Beauty",
+   "supplier": "Oregano Republic"
+  },
+  {
+   "id": "S-04",
+   "date_inventoried": "2026-10-29",
+   "plant": "Calendula, Pacific Beauty",
+   "scientific_as_entered": "Calendula official is",
+   "taxon_id": "calendula-officinalis",
+   "cultivar": "Pacific Beauty",
+   "supplier": "Family's Own"
+  },
+  {
+   "id": "S-05",
+   "date_inventoried": "2026-10-29",
+   "plant": "Calendula, Alpha OG",
+   "scientific_as_entered": "Calendula official is",
+   "taxon_id": "calendula-officinalis",
+   "cultivar": "Alpha OG",
+   "supplier": "Johnny's Selected Seeds"
+  },
+  {
+   "id": "S-06",
+   "date_inventoried": "2026-10-29",
+   "plant": "Calendula, Ivory Princess",
+   "scientific_as_entered": "Calendula official is",
+   "taxon_id": "calendula-officinalis",
+   "cultivar": "Ivory Princess",
+   "supplier": "Johnny's Selected Seeds"
+  }
+ ],
+ "pairs": [
+  {
+   "taxon_id": "foeniculum-vulgare",
+   "name": "Foeniculum vulgare",
+   "crop": "Fennel",
+   "hydroponic": [
+    "GL-06"
+   ],
+   "soil": [
+    "GL-07"
+   ],
+   "observations": 0,
+   "harvests": 0
+  },
+  {
+   "taxon_id": null,
+   "name": "Pycnanthemum spp.",
+   "crop": "Mountain Mint",
+   "hydroponic": [
+    "GL-10",
+    "GL-11"
+   ],
+   "soil": [
+    "GL-12"
+   ],
+   "observations": 0,
+   "harvests": 0
+  },
+  {
+   "taxon_id": "salvia-officinalis",
+   "name": "Salvia officinalis",
+   "crop": "Sage",
+   "hydroponic": [
+    "GL-16"
+   ],
+   "soil": [
+    "GL-17"
+   ],
+   "observations": 0,
+   "harvests": 0
+  },
+  {
+   "taxon_id": "thymus-vulgaris",
+   "name": "Thymus vulgaris",
+   "crop": "Thyme, common",
+   "hydroponic": [
+    "GL-21"
+   ],
+   "soil": [
+    "GL-20"
+   ],
+   "observations": 1,
+   "harvests": 0
+  }
+ ],
+ "checks": [
+  {
+   "level": "warn",
+   "sheet": "Plantings",
+   "id": "GL-02",
+   "message": "No location recorded."
+  },
+  {
+   "level": "warn",
+   "sheet": "Plantings",
+   "id": "GL-02",
+   "message": "No growing method recorded."
+  },
+  {
+   "level": "warn",
+   "sheet": "Plantings",
+   "id": "GL-13",
+   "message": "No location recorded."
+  },
+  {
+   "level": "warn",
+   "sheet": "Observations",
+   "id": "O-01",
+   "message": "Observed at T5A, but GL-15 is recorded in T3A."
+  },
+  {
+   "level": "warn",
+   "sheet": "Harvests",
+   "id": "H-01",
+   "message": "No planting_id (Sage grows in T5B and Bay 2 — which planting is not recorded)"
+  },
+  {
+   "level": "warn",
+   "sheet": "Harvests",
+   "id": "H-02",
+   "message": "No planting_id (Sage grows in T5B and Bay 2 — which planting is not recorded)"
+  },
+  {
+   "level": "warn",
+   "sheet": "Harvests",
+   "id": "H-03",
+   "message": "No planting_id (Oregano is not on this inventory sheet)"
+  },
+  {
+   "level": "warn",
+   "sheet": "Harvests",
+   "id": "H-06",
+   "message": "No planting_id (Which basil? Three are planted (Compact, Genovese, Holy))"
+  },
+  {
+   "level": "warn",
+   "sheet": "Seeds",
+   "id": "S-01",
+   "message": "Import note: O. africanum is a lemon-basil hybrid, not tulsi (O. tenuiflorum, as the inventory says) — check the packet"
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-01",
+   "message": "Import note: Date planted \"N/A\" read as not recorded"
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-05",
+   "message": "Import note: Sheet says Echinacea spp.; the catalogue's record is E. purpurea — species to confirm"
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-07",
+   "message": "Import note: Second planting row of the Fennel block"
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-08",
+   "message": "Lavender, True is not in the catalogue yet, so it has no plant page."
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-08",
+   "message": "Import note: Location \"5A\" read as T5A; lavender is not in the catalogue yet"
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-10",
+   "message": "Mountain Mint is not in the catalogue yet, so it has no plant page."
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-10",
+   "message": "Import note: Mountain mint is not in the catalogue yet"
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-11",
+   "message": "Mountain Mint is not in the catalogue yet, so it has no plant page."
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-11",
+   "message": "Import note: Second planting row of the Mountain Mint block"
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-12",
+   "message": "Mountain Mint is not in the catalogue yet, so it has no plant page."
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-12",
+   "message": "Import note: Third planting row of the Mountain Mint block"
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-13",
+   "message": "Mountain Mint, Hoary is not in the catalogue yet, so it has no plant page."
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-13",
+   "message": "Import note: No location recorded; hoary mountain mint is not in the catalogue yet"
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-15",
+   "message": "Import note: Spelling: Salvia rosmarinus"
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-17",
+   "message": "Import note: Second planting row; \"N/a\" read as not recorded"
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-18",
+   "message": "Import note: Spelling: Scutellaria. The catalogue lists the inventory skullcap as unresolved; this sheet names S. lateriflora — confirm from the label to resolve it"
+  },
+  {
+   "level": "info",
+   "sheet": "Plantings",
+   "id": "GL-22",
+   "message": "Import note: Spelling: Achillea millefolium"
+  },
+  {
+   "level": "info",
+   "sheet": "Observations",
+   "id": "O-01",
+   "message": "Import note: Year 2016 read as 2026; the observation says T5A but the inventory has rosemary in T3A"
+  },
+  {
+   "level": "info",
+   "sheet": "Observations",
+   "id": "O-02",
+   "message": "Import note: Date blank on the sheet; taken from the row above"
+  },
+  {
+   "level": "info",
+   "sheet": "Observations",
+   "id": "O-03",
+   "message": "No observer recorded."
+  },
+  {
+   "level": "info",
+   "sheet": "Observations",
+   "id": "O-03",
+   "message": "Import note: Date blank; taken from the row above. No observer recorded"
+  },
+  {
+   "level": "info",
+   "sheet": "Observations",
+   "id": "O-04",
+   "message": "No observer recorded."
+  },
+  {
+   "level": "info",
+   "sheet": "Observations",
+   "id": "O-04",
+   "message": "Import note: Date blank; taken from the row above. No observer recorded"
+  },
+  {
+   "level": "info",
+   "sheet": "Water",
+   "id": "W-01",
+   "message": "EC has no unit — record µS/cm or mS/cm."
+  },
+  {
+   "level": "info",
+   "sheet": "Harvests",
+   "id": "H-01",
+   "message": "No fresh weight, so the water lost in drying cannot be worked out."
+  },
+  {
+   "level": "info",
+   "sheet": "Harvests",
+   "id": "H-02",
+   "message": "No fresh weight, so the water lost in drying cannot be worked out."
+  },
+  {
+   "level": "info",
+   "sheet": "Harvests",
+   "id": "H-03",
+   "message": "No fresh weight, so the water lost in drying cannot be worked out."
+  },
+  {
+   "level": "info",
+   "sheet": "Harvests",
+   "id": "H-04",
+   "message": "No fresh weight, so the water lost in drying cannot be worked out."
+  },
+  {
+   "level": "info",
+   "sheet": "Harvests",
+   "id": "H-05",
+   "message": "No fresh weight, so the water lost in drying cannot be worked out."
+  },
+  {
+   "level": "info",
+   "sheet": "Harvests",
+   "id": "H-06",
+   "message": "No fresh weight, so the water lost in drying cannot be worked out."
+  },
+  {
+   "level": "info",
+   "sheet": "Seeds",
+   "id": "S-02",
+   "message": "Import note: Cultivar was entered in the scientific-name column"
+  },
+  {
+   "level": "info",
+   "sheet": "Seeds",
+   "id": "S-03",
+   "message": "Import note: Spelling: Calendula officinalis"
+  },
+  {
+   "level": "info",
+   "sheet": "Seeds",
+   "id": "S-04",
+   "message": "Import note: Spelling: Calendula officinalis"
+  },
+  {
+   "level": "info",
+   "sheet": "Seeds",
+   "id": "S-05",
+   "message": "Import note: Spelling: Calendula officinalis"
+  },
+  {
+   "level": "info",
+   "sheet": "Seeds",
+   "id": "S-06",
+   "message": "Import note: Spelling: Calendula officinalis"
+  }
+ ],
+ "reports": {
+  "source": "growlog/grow-log.xlsx",
+  "xlsx": "growlog/grow-log-report.xlsx",
+  "csv": [
+   "growlog/plantings.csv",
+   "growlog/observations.csv",
+   "growlog/water.csv",
+   "growlog/harvests.csv",
+   "growlog/seeds.csv",
+   "growlog/checks.csv"
+  ]
+ }
+}

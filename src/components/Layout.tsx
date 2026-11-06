@@ -23,6 +23,7 @@ const PRIMARY = [
   { to: '/tours', label: 'Tours' },
 ];
 const MORE = [
+  { to: '/grow-log', label: 'Grow log' },
   { to: '/families', label: 'Families' },
   { to: '/heatmap', label: 'Heatmap' },
   { to: '/glossary', label: 'Glossary' },

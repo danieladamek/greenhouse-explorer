@@ -12,6 +12,7 @@ import OccurrenceTable from '@/components/catalogue/OccurrenceTable';
 import { TaxonSafetyBlock } from '@/components/catalogue/Safety';
 import { GrownHere, Identifiers, PrimerLinks } from '@/components/catalogue/PlantBits';
 import CompoundMatrix from '@/components/catalogue/CompoundMatrix';
+import { InGrowLog } from '@/components/catalogue/GrowLogBits';
 import NotFound from './NotFound';
 
 function Header({ t }: { t: Taxon }) {
@@ -185,6 +186,7 @@ export default function Plant() {
           <p className="bx-prose mt-1">By setting <code>identity_status</code> and <code>candidates</code> on one record: when the packet names the species, <code>scutellaria-sp</code> becomes <code>confirmed</code> as that species (or points to it), the other candidate leaves the inventory, and this page becomes an ordinary plant page.</p>
         </section>
         <GrownHere t={t} plantings={plantings.rows} />
+        <InGrowLog ids={model.candidates.map((c) => c.id)} unresolvedNote />
         <PrimerLinks sections={t.primer_sections} />
       </div>
     );
@@ -194,6 +196,7 @@ export default function Plant() {
     <div className="mx-auto max-w-5xl px-4 py-8">
       <Header t={t} />
       <GrownHere t={t} plantings={plantings.rows} />
+      <InGrowLog ids={[t.id]} />
       {model.kind === 'stub' ? (
         <>
           <ProfileInProgress t={t} />

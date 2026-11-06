@@ -6,6 +6,7 @@ import type { Preparation } from '@/types';
 import { ClassIcon, TaxonName } from '@/components/catalogue/Chips';
 import { AddNoteButton, Prose, Sources } from '@/components/catalogue/Record';
 import { citeMd } from '@/components/catalogue/EvidenceTable';
+import { FromOurBenches } from '@/components/catalogue/GrowLogBits';
 
 const range = (r: [number, number] | null, unit: string) => (!r ? null : r[0] === r[1] ? `${r[0]} ${unit}` : `${r[0]}–${r[1]} ${unit}`);
 
@@ -30,6 +31,7 @@ function PrepCard({ p }: { p: Preparation }) {
         {p.plants.map((id, i) => <span key={id}>{i ? ' · ' : ''}<TaxonName id={id} withCommon /></span>)} <span className="bx-muted">· {p.plant_part}</span>
       </p>
       <Prose md={p.md.method_as_chemistry} className="mt-3 text-[15px]" />
+      <FromOurBenches plants={p.plants} />
       <p className="mt-3 text-sm bx-card p-2.5" data-testid="conditions">
         <span className="font-semibold">Conditions in the cited studies: </span>
         {t ?? <span className="bx-todo">temperature not stated in the sources</span>}, {m ?? <span className="bx-todo">time not stated in the sources</span>}.
